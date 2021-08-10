@@ -1,0 +1,432 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+  <channel>
+    <title>5 Every Week</title>
+    <link>http://5everyday.com/</link>
+    <atom:link href="http://5everyday.com/" rel="alternate"/>
+    <atom:link href="https://www.scpr.org/podcasts/5-every-week" rel="self" type="application/rss+xml"/>
+    <language>en-us</language>
+    <description>Here from the people who created the 5 Every Day app, it&amp;#39;s a weekly podcast with 5 interesting things to do in Los Angeles, every week.  Think of it as on-demand, portable, audio exploration engine, combing the city for wonderful things.  We&amp;#39;ll cover art, food, music, civic happenings, insider secrets and surprises.  And we’ll do it every week, in five minutes.</description>
+    <image>
+      <url>http://media.scpr.org/assets/images/podcasts/kpcc-podcast-cover-5everyweek.jpg</url>
+      <title>5 Every Week</title>
+      <link>http://5everyday.com/</link>
+    </image>
+    <itunes:author>Southern California Public Radio</itunes:author>
+    <itunes:summary>Here from the people who created the 5 Every Day app, it&amp;#39;s a weekly podcast with 5 interesting things to do in Los Angeles, every week.  Think of it as on-demand, portable, audio exploration engine, combing the city for wonderful things.  We&amp;#39;ll cover art, food, music, civic happenings, insider secrets and surprises.  And we’ll do it every week, in five minutes.</itunes:summary>
+    <itunes:category text="Local"/>
+    <itunes:owner>
+      <itunes:name>KPCC 89.3 | Southern California Public Radio</itunes:name>
+      <itunes:email>contact@kpcc.org</itunes:email>
+    </itunes:owner>
+    <itunes:image href="http://media.scpr.org/assets/images/podcasts/kpcc-podcast-cover-5everyweek.jpg"/>
+    <itunes:explicit>no</itunes:explicit>
+    <item>
+      <title>Black Mountain College! Seafood City! Alt Movie Star Handprints! Lower Dens! Super Tight!</title>
+      <itunes:author>Southern California Public Radio</itunes:author>
+      <itunes:summary>It's all super tight: a museum exhibit on the coolest college ever, handprints for movie stars you actually like, the best seafood selection this side of the pacific, and live music at the Natural History Museum!</itunes:summary>
+      <description>It's all super tight: a museum exhibit on the coolest college ever, handprints for movie stars you actually like, the best seafood selection this side of the pacific, and live music at the Natural History Museum!</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/5EW/2016/02/26/12745/</guid>
+      <pubDate>Fri, 26 Feb 2016 23:11:00 GMT</pubDate>
+      <itunes:keywords>Los Angeles, California, Southern California, events, art, food, art, city, food, music, widlcard, Claire Evans</itunes:keywords>
+      <link>https://www.scpr.org/programs/5EW/2016/02/26/12745/</link>
+      <enclosure url="http://media.scpr.org/audio/upload/2016/02/26/5ew_022716_edit-3fff40ff.mp3?context=5EW&amp;via=podcast" length="5738882" type="audio/mpeg"/>
+      <itunes:duration>358</itunes:duration>
+    </item>
+    <item>
+      <title>LA Art Book Fair, Purple Rain Remake, K-Town's Weirdest Restaurant, DJ Douggpound Live, and FLOWERS!!!!</title>
+      <itunes:author>Southern California Public Radio</itunes:author>
+      <itunes:summary>MOCA puts on an Art Book Fair so good it's like the internet never happened, Prince Restaurant in K-Town, Flowers for the flower day, 2Wet Crew, Touareg Language Prince Movie! </itunes:summary>
+      <description>MOCA puts on an Art Book Fair so good it's like the internet never happened, Prince Restaurant in K-Town, Flowers for the flower day, 2Wet Crew, Touareg Language Prince Movie! </description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/5EW/2016/02/12/12627/</guid>
+      <pubDate>Fri, 12 Feb 2016 20:00:00 GMT</pubDate>
+      <itunes:keywords>Los Angeles, California, Southern California, events, art, food, art, city, food, music, widlcard, Claire Evans</itunes:keywords>
+      <link>https://www.scpr.org/programs/5EW/2016/02/12/12627/</link>
+      <enclosure url="http://media.scpr.org/audio/upload/2016/02/12/5ew_021316_edited-6130aa1d.mp3?context=5EW&amp;via=podcast" length="5047496" type="audio/mpeg"/>
+      <itunes:duration>315</itunes:duration>
+    </item>
+    <item>
+      <title>Neon museum, VR theme park, secret food window, Japanese skincare, Mardi Gras music!</title>
+      <itunes:author>Southern California Public Radio</itunes:author>
+      <itunes:summary>A "Virtual Reality theme park" opens for a stint at a gallery, the Museum of Neon Art finds a permanent home in Glendale, a blue window gives you vegan (and non-vegan) junk food, Make Asobi has all the snail mucus you need, and celebrate Fat Tuesday at Amoeba music!</itunes:summary>
+      <description>A "Virtual Reality theme park" opens for a stint at a gallery, the Museum of Neon Art finds a permanent home in Glendale, a blue window gives you vegan (and non-vegan) junk food, Make Asobi has all the snail mucus you need, and celebrate Fat Tuesday at Amoeba music!</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/5EW/2016/02/05/12584/</guid>
+      <pubDate>Fri, 05 Feb 2016 22:36:00 GMT</pubDate>
+      <itunes:keywords>Los Angeles, California, Southern California, events, art, food, art, city, food, music, widlcard, Claire Evans</itunes:keywords>
+      <link>https://www.scpr.org/programs/5EW/2016/02/05/12584/</link>
+      <enclosure url="http://media.scpr.org/audio/upload/2016/02/05/5-Every-Week-S01E31-9ffd3c5c.mp3?context=5EW&amp;via=podcast" length="9099640" type="audio/mpeg"/>
+      <itunes:duration>379</itunes:duration>
+    </item>
+    <item>
+      <title>Paramount Ranch! Camellia Festival! Secret restaurant! Lucky Dragons! Ritzy Botanica!</title>
+      <itunes:author>Southern California Public Radio</itunes:author>
+      <itunes:summary>An art festival takes over one of Paramount's oldest sets, Descanso Gardens celebrates the noble Camellia, there's a restaurant in Echo Park with booze, coffee and it *isn't* crowded, Lucky Dragons plays live at Pehrspace and it turns out Grand Central Market really does have everything.</itunes:summary>
+      <description>An art festival takes over one of Paramount's oldest sets, Descanso Gardens celebrates the noble Camellia, there's a restaurant in Echo Park with booze, coffee and it *isn't* crowded, Lucky Dragons plays live at Pehrspace and it turns out Grand Central Market really does have everything.</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/5EW/2016/01/30/12550/</guid>
+      <pubDate>Sat, 30 Jan 2016 09:00:00 GMT</pubDate>
+      <itunes:keywords>Los Angeles, California, Southern California, events, art, food, art, city, food, music, widlcard, Claire Evans</itunes:keywords>
+      <link>https://www.scpr.org/programs/5EW/2016/01/30/12550/</link>
+      <enclosure url="http://media.scpr.org/audio/upload/2016/01/29/5-Every-Week-S01E30-c6507cdf.mp3?context=5EW&amp;via=podcast" length="7774918" type="audio/mpeg"/>
+      <itunes:duration>323</itunes:duration>
+    </item>
+    <item>
+      <title>Art in Warehouse! Laser tag in a warehouse! Giant Downtown Comedy Fest! Boozy Boba! Bowie on Film!</title>
+      <itunes:author>Southern California Public Radio</itunes:author>
+      <itunes:summary>A giant airplane hangar fills up with art, LA's best in comedy heads downtown for Riot LA, a "boba speakeasy," and Cinefamily shows all of Bowie's work on film.</itunes:summary>
+      <description>A giant airplane hangar fills up with art, LA's best in comedy heads downtown for Riot LA, a "boba speakeasy," and Cinefamily shows all of Bowie's work on film.</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/5EW/2016/01/24/12527/</guid>
+      <pubDate>Sun, 24 Jan 2016 09:00:00 GMT</pubDate>
+      <itunes:keywords>Los Angeles, California, Southern California, events, art, food, art, city, food, music, widlcard, Claire Evans</itunes:keywords>
+      <link>https://www.scpr.org/programs/5EW/2016/01/24/12527/</link>
+      <enclosure url="http://media.scpr.org/audio/upload/2016/01/22/5-Every-Week-S01E29-5f379950.mp3?context=5EW&amp;via=podcast" length="7228228" type="audio/mpeg"/>
+      <itunes:duration>301</itunes:duration>
+    </item>
+    <item>
+      <title>Photo LA! Dine LA! Ice Skate in LA while you can! Also: avante garde music installations and Pee Wee's Playhouse!</title>
+      <itunes:author>Southern California Public Radio</itunes:author>
+      <itunes:summary>A photo exhibit that combines high and low in DTLA, skate in Pershing Square before the ice melts, Take advantage of the Restaurant Week revolution and see the artists behind Pee Wee's Playhouse! </itunes:summary>
+      <description>A photo exhibit that combines high and low in DTLA, skate in Pershing Square before the ice melts, Take advantage of the Restaurant Week revolution and see the artists behind Pee Wee's Playhouse! </description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/5EW/2016/01/16/12506/</guid>
+      <pubDate>Sat, 16 Jan 2016 09:00:00 GMT</pubDate>
+      <itunes:keywords>Los Angeles, California, Southern California, events, art, food, art, city, food, music, widlcard, Claire Evans</itunes:keywords>
+      <link>https://www.scpr.org/programs/5EW/2016/01/16/12506/</link>
+      <enclosure url="http://media.scpr.org/audio/upload/2016/01/15/5-Every-Week-S01E28-2af57bf1.mp3?context=5EW&amp;via=podcast" length="6462736" type="audio/mpeg"/>
+      <itunes:duration>269</itunes:duration>
+    </item>
+    <item>
+      <title>Female filmmakers, a concert for cinephiles, lots of cheeseburgers, first jokes of 2016 and a party at the La Brea Tar Pits!</title>
+      <itunes:author>Southern California Public Radio</itunes:author>
+      <itunes:summary>Catch a short film from a female director at the Egyptian, hear the music of a man who loves movies at Cinefamily, eat many cheeseburgers in Pasadena, hear the 50 first jokes of 2016 at the Roosevelt and check out 5 Every Day's party at the La Brea Tar Pits! </itunes:summary>
+      <description>Catch a short film from a female director at the Egyptian, hear the music of a man who loves movies at Cinefamily, eat many cheeseburgers in Pasadena, hear the 50 first jokes of 2016 at the Roosevelt and check out 5 Every Day's party at the La Brea Tar Pits! </description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/5EW/2016/01/08/12465/</guid>
+      <pubDate>Fri, 08 Jan 2016 08:00:00 GMT</pubDate>
+      <itunes:keywords>Los Angeles, California, Southern California, events, art, food, art, city, food, music, widlcard, Claire Evans</itunes:keywords>
+      <link>https://www.scpr.org/programs/5EW/2016/01/08/12465/</link>
+      <enclosure url="http://media.scpr.org/audio/upload/2016/01/08/5-Every-Week-S01E27-e72fff03.mp3?context=5EW&amp;via=podcast" length="8293397" type="audio/mpeg"/>
+      <itunes:duration>345</itunes:duration>
+    </item>
+    <item>
+      <title>Awards season screenings! The Smell turns 18! Haunted mansions! Psychotropic peppercorns! Meltdown comedy!</title>
+      <itunes:author>Southern California Public Radio</itunes:author>
+      <itunes:summary>See all the Oscar Bait at the Hammer, walk through one LA's oldest, best mansions, hear LA's best all-ages venue turn 18, eat crazy good Szechuan, and laugh with folks from Silicon Valley LIVE!</itunes:summary>
+      <description>See all the Oscar Bait at the Hammer, walk through one LA's oldest, best mansions, hear LA's best all-ages venue turn 18, eat crazy good Szechuan, and laugh with folks from Silicon Valley LIVE!</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/5EW/2016/01/01/12428/</guid>
+      <pubDate>Fri, 01 Jan 2016 09:00:00 GMT</pubDate>
+      <itunes:keywords>Los Angeles, California, Southern California, events, art, food, art, city, food, music, widlcard, Claire Evans</itunes:keywords>
+      <link>https://www.scpr.org/programs/5EW/2016/01/01/12428/</link>
+      <enclosure url="http://media.scpr.org/audio/upload/2015/12/31/5-Every-Week-S01E26-773fabbd.mp3?context=5EW&amp;via=podcast" length="5534861" type="audio/mpeg"/>
+      <itunes:duration>276</itunes:duration>
+    </item>
+    <item>
+      <title>Swirling dolphins at LACMA, public radio sandwiches, the ideal record store, a Baldwin Hills stair workout, and an arms race rolodex </title>
+      <itunes:author>Southern California Public Radio</itunes:author>
+      <itunes:summary>Swim with a dolphin pod at LACMA, grab a public radio inspired sandwich at Wax Paper, buy some vinyl at Permanent Records, and burn some calories at the Baldwin Hills stairs </itunes:summary>
+      <description>Swim with a dolphin pod at LACMA, grab a public radio inspired sandwich at Wax Paper, buy some vinyl at Permanent Records, and burn some calories at the Baldwin Hills stairs </description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/5EW/2015/12/25/12413/</guid>
+      <pubDate>Fri, 25 Dec 2015 09:00:00 GMT</pubDate>
+      <itunes:keywords>Los Angeles, California, Southern California, events, art, food, art, city, food, music, widlcard, Claire Evans</itunes:keywords>
+      <link>https://www.scpr.org/programs/5EW/2015/12/25/12413/</link>
+      <enclosure url="http://media.scpr.org/audio/upload/2015/12/24/5EW_OR_122615-a6c49e4c.mp3?context=5EW&amp;via=podcast" length="8194340" type="audio/mpeg"/>
+      <itunes:duration>341</itunes:duration>
+    </item>
+    <item>
+      <title>Christmas caroling on wheels, a concert for dogs, Moog synths, 'It's a Wonderful Life' and veggie dumplings </title>
+      <itunes:author>Southern California Public Radio</itunes:author>
+      <itunes:summary>The Magical Christmas Caroling Truck blares holiday muzak, a canine-friendly concert at Cinefamily, Moog synth music at The Ace, "It's a Wonderful Life" is everywhere and veggie dumplings in Alhambra </itunes:summary>
+      <description>The Magical Christmas Caroling Truck blares holiday muzak, a canine-friendly concert at Cinefamily, Moog synth music at The Ace, "It's a Wonderful Life" is everywhere and veggie dumplings in Alhambra </description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/5EW/2015/12/18/12389/</guid>
+      <pubDate>Fri, 18 Dec 2015 17:53:00 GMT</pubDate>
+      <itunes:keywords>Los Angeles, California, Southern California, events, art, food, art, city, food, music, widlcard, Claire Evans</itunes:keywords>
+      <link>https://www.scpr.org/programs/5EW/2015/12/18/12389/</link>
+      <enclosure url="http://media.scpr.org/audio/upload/2015/12/18/5EW_OR_121915-f8459056.mp3?context=5EW&amp;via=podcast" length="8044502" type="audio/mpeg"/>
+      <itunes:duration>335</itunes:duration>
+    </item>
+    <item>
+      <title>Mike Kelley's video art, Seinfeld's apartment, a dublab 'Dream House,' Viking pizzas and tacky Santas </title>
+      <itunes:author>Southern California Public Radio</itunes:author>
+      <itunes:summary>Tour Seinfeld's apartment, grab a Viking pizza in Glendale, bath in sound at dublab's Tonalism, visit the tacky Santas in Pasadena, and check out Mike Kelley's video art at REDCAT </itunes:summary>
+      <description>Tour Seinfeld's apartment, grab a Viking pizza in Glendale, bath in sound at dublab's Tonalism, visit the tacky Santas in Pasadena, and check out Mike Kelley's video art at REDCAT </description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/5EW/2015/12/11/12356/</guid>
+      <pubDate>Fri, 11 Dec 2015 18:15:00 GMT</pubDate>
+      <itunes:keywords>Los Angeles, California, Southern California, events, art, food, art, city, food, music, widlcard, Claire Evans</itunes:keywords>
+      <link>https://www.scpr.org/programs/5EW/2015/12/11/12356/</link>
+      <enclosure url="http://media.scpr.org/audio/upload/2015/12/11/5EW_OR_121215-316b47c2.mp3?context=5EW&amp;via=podcast" length="7438879" type="audio/mpeg"/>
+      <itunes:duration>309</itunes:duration>
+    </item>
+    <item>
+      <title>Killer of Sheep! Animation Breakdown Fest! Burbank Martinis! Reggie Watts! Weird Public Art!</title>
+      <itunes:author>Southern California Public Radio</itunes:author>
+      <itunes:summary>A free screening of one of the most revered pieces of Los Angeles realist cinema, animation super festival with Rick and Morty, Burbank's classiest martini bar, Reggie Watts live in Silver Lake, and the Triforium turns 40! What's the Triforium?</itunes:summary>
+      <description>A free screening of one of the most revered pieces of Los Angeles realist cinema, animation super festival with Rick and Morty, Burbank's classiest martini bar, Reggie Watts live in Silver Lake, and the Triforium turns 40! What's the Triforium?</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/5EW/2015/12/04/12326/</guid>
+      <pubDate>Fri, 04 Dec 2015 16:54:00 GMT</pubDate>
+      <itunes:keywords>Los Angeles, California, Southern California, events, art, food, art, city, food, music, widlcard, Claire Evans</itunes:keywords>
+      <link>https://www.scpr.org/programs/5EW/2015/12/04/12326/</link>
+      <enclosure url="http://media.scpr.org/audio/upload/2015/12/04/5-Every-Week-S01E22-f3e09c11.mp3?context=5EW&amp;via=podcast" length="8147320" type="audio/mpeg"/>
+      <itunes:duration>339</itunes:duration>
+    </item>
+    <item>
+      <title>Big sandwiches, big pipe organs, big art exhibits, sensory deprivation tanks and more!</title>
+      <itunes:author>Southern California Public Radio</itunes:author>
+      <itunes:summary>Artist William Pope.L's latest exhibit spans the East and West Side, the best giant sandwich in Los Angeles, a sensory deprivation dank that'll leave you craving more!</itunes:summary>
+      <description>Artist William Pope.L's latest exhibit spans the East and West Side, the best giant sandwich in Los Angeles, a sensory deprivation dank that'll leave you craving more!</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/5EW/2015/11/30/12308/</guid>
+      <pubDate>Mon, 30 Nov 2015 16:07:00 GMT</pubDate>
+      <itunes:keywords>Los Angeles, California, Southern California, events, art, food, art, city, food, music, widlcard, Claire Evans</itunes:keywords>
+      <link>https://www.scpr.org/programs/5EW/2015/11/30/12308/</link>
+      <enclosure url="http://media.scpr.org/audio/upload/2015/11/30/5-Every-Week-S01E21-e98b1175.mp3?context=5EW&amp;via=podcast" length="6970556" type="audio/mpeg"/>
+      <itunes:duration>290</itunes:duration>
+    </item>
+    <item>
+      <title>Burgerlords! Jeff Goldblum plays jazz piano; 'Billie Holiday Centennial;' Goodbye Hotel Figueroa</title>
+      <itunes:author>Southern California Public Radio</itunes:author>
+      <itunes:summary>Last chance to see Joey Arias at REDCAT; Ham-, Cheese-, and Double-Cheese burgers are the best; Jeff Goldblum plays jazz piano; Goodbye Hotel Figueroa, for now.</itunes:summary>
+      <description>Last chance to see Joey Arias at REDCAT; Ham-, Cheese-, and Double-Cheese burgers are the best; Jeff Goldblum plays jazz piano; Goodbye Hotel Figueroa, for now.</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/5EW/2015/11/19/12270/</guid>
+      <pubDate>Fri, 20 Nov 2015 04:45:00 GMT</pubDate>
+      <itunes:keywords>Los Angeles, California, Southern California, events, art, food, art, city, food, music, widlcard, Claire Evans</itunes:keywords>
+      <link>https://www.scpr.org/programs/5EW/2015/11/19/12270/</link>
+      <enclosure url="http://media.scpr.org/audio/upload/2015/11/19/5-Every-Week-S01E20-3955d429.mp3?context=5EW&amp;via=podcast" length="7971777" type="audio/mpeg"/>
+      <itunes:duration>332</itunes:duration>
+    </item>
+    <item>
+      <title>11 hour movie! Rock and salad gardens! Beer + Space Invaders!</title>
+      <itunes:author>Southern California Public Radio</itunes:author>
+      <itunes:summary>LA's Super Long Movie Club screens the longest movie you've ever seen PLUS where to get you drink on while playing Ms Pac Man, LAPD's secret rock garden, Mustache Mondays in Downtown LA and: can a salad garden be fine art? Of course it can!</itunes:summary>
+      <description>LA's Super Long Movie Club screens the longest movie you've ever seen PLUS where to get you drink on while playing Ms Pac Man, LAPD's secret rock garden, Mustache Mondays in Downtown LA and: can a salad garden be fine art? Of course it can!</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/5EW/2015/11/13/12239/</guid>
+      <pubDate>Fri, 13 Nov 2015 09:00:00 GMT</pubDate>
+      <itunes:keywords>Los Angeles, California, Southern California, events, art, food, art, city, food, music, widlcard, Claire Evans</itunes:keywords>
+      <link>https://www.scpr.org/programs/5EW/2015/11/13/12239/</link>
+      <enclosure url="http://media.scpr.org/audio/upload/2015/11/12/5EW_OR_111415-c2acf468.mp3?context=5EW&amp;via=podcast" length="5186688" type="audio/mpeg"/>
+      <itunes:duration>320</itunes:duration>
+    </item>
+    <item>
+      <title>Vidiots fest! Franco-Mexican brunch; a chandelier tree</title>
+      <itunes:author>Southern California Public Radio</itunes:author>
+      <itunes:summary>The enduring icon of VHS turns 30s with a Q&amp;A, acting class and more. Alegria becomes Trois Familia in Silver Lake, mash-up meals ensure. The delectable dump that is Smog Cutter Karaoke.</itunes:summary>
+      <description>The enduring icon of VHS turns 30s with a Q&amp;A, acting class and more. Alegria becomes Trois Familia in Silver Lake, mash-up meals ensure. The delectable dump that is Smog Cutter Karaoke.</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/5EW/2015/11/06/12202/</guid>
+      <pubDate>Fri, 06 Nov 2015 09:00:00 GMT</pubDate>
+      <itunes:keywords>Los Angeles, California, Southern California, events, art, food, art, city, food, music, widlcard, Claire Evans</itunes:keywords>
+      <link>https://www.scpr.org/programs/5EW/2015/11/06/12202/</link>
+      <enclosure url="http://media.scpr.org/audio/upload/2015/11/05/5-Every-Week-S01E18-8d9cdf54.mp3?context=5EW&amp;via=podcast" length="8235718" type="audio/mpeg"/>
+      <itunes:duration>343</itunes:duration>
+    </item>
+    <item>
+      <title>'Dracula' with Kronos &amp; Glass; ¡adios, El Chavo! New Beverly horror marathon </title>
+      <itunes:author>Southern California Public Radio</itunes:author>
+      <itunes:summary>Frances Stark, the "everything" artist, gets a retrospective at the Hammer. Philip Glass and The Kronos Quartet do "Dracula" at the Ace; a New Beverly Horror Movie Marathon; anachronistic TV therapy at the Paley Center</itunes:summary>
+      <description>Frances Stark, the "everything" artist, gets a retrospective at the Hammer. Philip Glass and The Kronos Quartet do "Dracula" at the Ace; a New Beverly Horror Movie Marathon; anachronistic TV therapy at the Paley Center</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/5EW/2015/10/26/12161/</guid>
+      <pubDate>Mon, 26 Oct 2015 12:37:00 GMT</pubDate>
+      <itunes:keywords>Los Angeles, California, Southern California, events, art, food, art, city, food, music, widlcard, Claire Evans</itunes:keywords>
+      <link>https://www.scpr.org/programs/5EW/2015/10/26/12161/</link>
+      <enclosure url="http://media.scpr.org/audio/upload/2015/10/26/5-Every-Week-S01E17-5a9c344f.mp3?context=5EW&amp;via=podcast" length="7156130" type="audio/mpeg"/>
+      <itunes:duration>298</itunes:duration>
+    </item>
+    <item>
+      <title>Feminist haunted house; Jem &amp; The Holograms; high-rise hotel adventure; Post-Griffith Park hiking eats</title>
+      <itunes:author>Southern California Public Radio</itunes:author>
+      <itunes:summary>Artist Marc Horowitz's fantastic pranks come to Depart Foundation; why we love DTLA's Bonaventure hotel; no-nonsense diner breakfast with a view in Griffith Park; Cinefamily celebrates Jem &amp; The Holograms; Killjoy's Kastle makes Halloween more modern</itunes:summary>
+      <description>Artist Marc Horowitz's fantastic pranks come to Depart Foundation; why we love DTLA's Bonaventure hotel; no-nonsense diner breakfast with a view in Griffith Park; Cinefamily celebrates Jem &amp; The Holograms; Killjoy's Kastle makes Halloween more modern</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/5EW/2015/10/19/12139/</guid>
+      <pubDate>Mon, 19 Oct 2015 15:33:00 GMT</pubDate>
+      <itunes:keywords>Los Angeles, California, Southern California, events, art, food, art, city, food, music, widlcard, Claire Evans</itunes:keywords>
+      <link>https://www.scpr.org/programs/5EW/2015/10/19/12139/</link>
+      <enclosure url="http://media.scpr.org/audio/upload/2015/10/19/5-Every-Week-S01E16-526255b5.mp3?context=5EW&amp;via=podcast" length="8013155" type="audio/mpeg"/>
+      <itunes:duration>333</itunes:duration>
+    </item>
+    <item>
+      <title>Archives bazaar! East Side Food Fest; Red Rock Canyon</title>
+      <itunes:author>Southern California Public Radio</itunes:author>
+      <itunes:summary>USC hosts 80 different collections of city history; Gary Indiana gets his first proper LA show; Kim &amp; The Created take up residence at The Echo; hike the mysteries of Topanga</itunes:summary>
+      <description>USC hosts 80 different collections of city history; Gary Indiana gets his first proper LA show; Kim &amp; The Created take up residence at The Echo; hike the mysteries of Topanga</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/5EW/2015/10/12/12102/</guid>
+      <pubDate>Mon, 12 Oct 2015 11:30:00 GMT</pubDate>
+      <itunes:keywords>Los Angeles, California, Southern California, events, art, food, art, city, food, music, widlcard, Claire Evans</itunes:keywords>
+      <link>https://www.scpr.org/programs/5EW/2015/10/12/12102/</link>
+      <enclosure url="http://media.scpr.org/audio/upload/2015/10/12/5-Every-Week-S01E15-e61eabf7.mp3?context=5EW&amp;via=podcast" length="7638246" type="audio/mpeg"/>
+      <itunes:duration>318</itunes:duration>
+    </item>
+    <item>
+      <title>Open space at JPL! New opera, Lummis House; Missy Mazzoli</title>
+      <itunes:author>Southern California Public Radio</itunes:author>
+      <itunes:summary>NASA's Jet Propulsion Laboratory admits everyone for a day; Myung In Dumplings; lesser-known Lummis House</itunes:summary>
+      <description>NASA's Jet Propulsion Laboratory admits everyone for a day; Myung In Dumplings; lesser-known Lummis House</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/5EW/2015/10/05/12078/</guid>
+      <pubDate>Mon, 05 Oct 2015 17:29:00 GMT</pubDate>
+      <itunes:keywords>Los Angeles, California, Southern California, events, art, food, art, city, food, music, widlcard, Claire Evans</itunes:keywords>
+      <link>https://www.scpr.org/programs/5EW/2015/10/05/12078/</link>
+      <enclosure url="http://media.scpr.org/audio/upload/2015/10/05/5-Every-Week-S01E14-da3cf604.mp3?context=5EW&amp;via=podcast" length="12033086" type="audio/mpeg"/>
+      <itunes:duration>300</itunes:duration>
+    </item>
+    <item>
+      <title>Birds! Drive-in movies! Grace Jones!</title>
+      <itunes:author>Southern California Public Radio</itunes:author>
+      <itunes:summary>Vaux’s Swifts swoop through Downtown LA. The joys of seeing a movie in Vineland. A festival for Tom of Finland's iconic gay erotica; a week of Grace Jones culminates at Book Soup.</itunes:summary>
+      <description>Vaux’s Swifts swoop through Downtown LA. The joys of seeing a movie in Vineland. A festival for Tom of Finland's iconic gay erotica; a week of Grace Jones culminates at Book Soup.</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/5EW/2015/09/28/12047/</guid>
+      <pubDate>Mon, 28 Sep 2015 16:21:00 GMT</pubDate>
+      <itunes:keywords>Los Angeles, California, Southern California, events, art, food, art, city, food, music, widlcard, Claire Evans</itunes:keywords>
+      <link>https://www.scpr.org/programs/5EW/2015/09/28/12047/</link>
+      <enclosure url="http://media.scpr.org/audio/upload/2015/09/28/5-Every-Week-S01E13-d6ef1568.mp3?context=5EW&amp;via=podcast" length="8122869" type="audio/mpeg"/>
+      <itunes:duration>338</itunes:duration>
+    </item>
+    <item>
+      <title>Artists make music at The Hammer; cold-pressed ice cream; Pop-up Mag; outstanding olfaction</title>
+      <itunes:author>Southern California Public Radio</itunes:author>
+      <itunes:summary>An ephemeral "magazine" evening descends on DTLA; the "Phantasma Gloria" brings a kaleidoscope of sunshine to Echo Park; it's an exhibition or a concert ... or both at The Hammer.</itunes:summary>
+      <description>An ephemeral "magazine" evening descends on DTLA; the "Phantasma Gloria" brings a kaleidoscope of sunshine to Echo Park; it's an exhibition or a concert ... or both at The Hammer.</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/5EW/2015/09/21/12022/</guid>
+      <pubDate>Mon, 21 Sep 2015 13:59:00 GMT</pubDate>
+      <itunes:keywords>Los Angeles, California, Southern California, events, art, food, art, city, food, music, widlcard, Claire Evans</itunes:keywords>
+      <link>https://www.scpr.org/programs/5EW/2015/09/21/12022/</link>
+      <enclosure url="http://media.scpr.org/audio/upload/2015/09/21/5-Every-Week-S01E12-d9e5e0ff.mp3?context=5EW&amp;via=podcast" length="7434835" type="audio/mpeg"/>
+      <itunes:duration>309</itunes:duration>
+    </item>
+    <item>
+      <title>See the Broad; swim in Hollywood; Jurassic eats!</title>
+      <itunes:author>Southern California Public Radio</itunes:author>
+      <itunes:summary>The art new museum opens downtown.  Dublab and the Music Center join forces for a late-night dance party. The Hollywood Pool (now with waterslide!) for only $3.50. The oddities of Jurassic Restaurant in City of Industry.</itunes:summary>
+      <description>The art new museum opens downtown.  Dublab and the Music Center join forces for a late-night dance party. The Hollywood Pool (now with waterslide!) for only $3.50. The oddities of Jurassic Restaurant in City of Industry.</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/5EW/2015/09/13/11996/</guid>
+      <pubDate>Mon, 14 Sep 2015 00:00:00 GMT</pubDate>
+      <itunes:keywords>Los Angeles, California, Southern California, events, art, food, art, city, food, music, widlcard, Claire Evans</itunes:keywords>
+      <link>https://www.scpr.org/programs/5EW/2015/09/13/11996/</link>
+      <enclosure url="http://media.scpr.org/audio/upload/2015/09/13/5-Every-Week-S01E11-96600b6c.mp3?context=5EW&amp;via=podcast" length="7819027" type="audio/mpeg"/>
+      <itunes:duration>325</itunes:duration>
+    </item>
+    <item>
+      <title>Matthew Barney at MoCA; a Depeche Mode convention; see classic science-fiction movies!</title>
+      <itunes:author>Southern California Public Radio</itunes:author>
+      <itunes:summary>“River of Fundament” is the artist's first major solo museum show in LA.  DM fans get collectibles, contests, and two sets from a cover band called Strangelove. A tip on LA's strangest and most wonderful smoothies. The Valley Relics Museum chronicles ... the Valley, in all its glory.</itunes:summary>
+      <description>“River of Fundament” is the artist's first major solo museum show in LA.  DM fans get collectibles, contests, and two sets from a cover band called Strangelove. A tip on LA's strangest and most wonderful smoothies. The Valley Relics Museum chronicles ... the Valley, in all its glory.</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/5EW/2015/09/08/11975/</guid>
+      <pubDate>Tue, 08 Sep 2015 13:10:00 GMT</pubDate>
+      <itunes:keywords>Los Angeles, California, Southern California, events, art, food, art, city, food, music, widlcard, Claire Evans</itunes:keywords>
+      <link>https://www.scpr.org/programs/5EW/2015/09/08/11975/</link>
+      <enclosure url="http://media.scpr.org/audio/upload/2015/09/08/5-Every-Week-S01E10-7b5d8c65.mp3?context=5EW&amp;via=podcast" length="8020051" type="audio/mpeg"/>
+      <itunes:duration>334</itunes:duration>
+    </item>
+    <item>
+      <title>Mochi ice cream! Mariachis!</title>
+      <itunes:author>Southern California Public Radio</itunes:author>
+      <itunes:summary>Roller skates and (live!) organ music in Glendale; "The Seth Bogart Show" comes to life in Boyle Heights; the Heritage Square Museum explained; Mariachi Plaza's bandstand performances.</itunes:summary>
+      <description>Roller skates and (live!) organ music in Glendale; "The Seth Bogart Show" comes to life in Boyle Heights; the Heritage Square Museum explained; Mariachi Plaza's bandstand performances.</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/5EW/2015/08/30/11934/</guid>
+      <pubDate>Mon, 31 Aug 2015 04:00:00 GMT</pubDate>
+      <itunes:keywords>Los Angeles, California, Southern California, events, art, food, art, city, food, music, widlcard, Claire Evans</itunes:keywords>
+      <link>https://www.scpr.org/programs/5EW/2015/08/30/11934/</link>
+      <enclosure url="http://media.scpr.org/audio/upload/2015/08/30/5-Every-Week-S01E09-f1191a93.mp3?context=5EW&amp;via=podcast" length="9436827" type="audio/mpeg"/>
+      <itunes:duration>293</itunes:duration>
+    </item>
+    <item>
+      <title>Getty 'flight' of fun; David Lynch's milkshake; Glass Armonica show</title>
+      <itunes:author>Southern California Public Radio</itunes:author>
+      <itunes:summary>Comedians, a rapper and a DJ set Friday at the Getty; a black velvet painting bonanza; West Adams shows off anachronistic fun; drink where David Lynch drank in Burbank.</itunes:summary>
+      <description>Comedians, a rapper and a DJ set Friday at the Getty; a black velvet painting bonanza; West Adams shows off anachronistic fun; drink where David Lynch drank in Burbank.</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/5EW/2015/08/24/11910/</guid>
+      <pubDate>Mon, 24 Aug 2015 07:55:00 GMT</pubDate>
+      <itunes:keywords>Los Angeles, California, Southern California, events, art, food, art, city, food, music, widlcard, Claire Evans</itunes:keywords>
+      <link>https://www.scpr.org/programs/5EW/2015/08/24/11910/</link>
+      <enclosure url="http://media.scpr.org/audio/upload/2015/08/23/5-Every-Week-S01E08-18018c52.mp3?context=5EW&amp;via=podcast" length="6425491" type="audio/mpeg"/>
+      <itunes:duration>321</itunes:duration>
+    </item>
+    <item>
+      <title>'2001' at Hollywood Bowl; Watts debris turned into art; an FYF kick-off</title>
+      <itunes:author>Southern California Public Radio</itunes:author>
+      <itunes:summary>Griffith Park's Wisdom Tree; artist and social activist Noah Purifoy's rare take on Watts; '2001' gets the orchestral treatment at Hollywood Bowl; a Friday night FYF kick-off</itunes:summary>
+      <description>Griffith Park's Wisdom Tree; artist and social activist Noah Purifoy's rare take on Watts; '2001' gets the orchestral treatment at Hollywood Bowl; a Friday night FYF kick-off</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/5EW/2015/08/16/11889/</guid>
+      <pubDate>Mon, 17 Aug 2015 02:43:00 GMT</pubDate>
+      <itunes:keywords>Los Angeles, California, Southern California, events, art, food, art, city, food, music, widlcard, Claire Evans</itunes:keywords>
+      <link>https://www.scpr.org/programs/5EW/2015/08/16/11889/</link>
+      <enclosure url="http://media.scpr.org/audio/upload/2015/08/16/081715_5_Every_Week_podcast_v1-7393d58a.mp3?context=5EW&amp;via=podcast" length="2127776" type="audio/mpeg"/>
+      <itunes:duration>265</itunes:duration>
+    </item>
+    <item>
+      <title>Hollywood noir bar; Tofu and Noodles; comedy can be punk; Echo Park Rising</title>
+      <itunes:author>Southern California Public Radio</itunes:author>
+      <itunes:summary>The Frolic Room, a nice place to drink in peace amidst Hollywood bustle and history; Elysian Park's strange, colorful sculpture; great kalgooksoo in Koreatown; Power Violence and friends, the best and brightest young comics in LA.</itunes:summary>
+      <description>The Frolic Room, a nice place to drink in peace amidst Hollywood bustle and history; Elysian Park's strange, colorful sculpture; great kalgooksoo in Koreatown; Power Violence and friends, the best and brightest young comics in LA.</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/5EW/2015/08/10/11868/</guid>
+      <pubDate>Mon, 10 Aug 2015 13:20:00 GMT</pubDate>
+      <itunes:keywords>Los Angeles, California, Southern California, events, art, food, art, city, food, music, widlcard, Claire Evans</itunes:keywords>
+      <link>https://www.scpr.org/programs/5EW/2015/08/10/11868/</link>
+      <enclosure url="http://media.scpr.org/audio/upload/2015/08/10/081015_5EW_v_pod-c89f0c4d.mp3?context=5EW&amp;via=podcast" length="2324545" type="audio/mpeg"/>
+      <itunes:duration>290</itunes:duration>
+    </item>
+    <item>
+      <title>A rare view of LAX; celebrating Mr. Churro; Sundance in LA</title>
+      <itunes:author>Southern California Public Radio</itunes:author>
+      <itunes:summary>Sundance NEXT FEST brings "Mistress America" and "Turbo Kid" to the ACE; plane-spotting in LAX history; Olvera Street and LA's official dessert; "Gnar Burger" brings new music in Cypress Park.</itunes:summary>
+      <description>Sundance NEXT FEST brings "Mistress America" and "Turbo Kid" to the ACE; plane-spotting in LAX history; Olvera Street and LA's official dessert; "Gnar Burger" brings new music in Cypress Park.</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/5EW/2015/08/03/11829/</guid>
+      <pubDate>Mon, 03 Aug 2015 15:08:00 GMT</pubDate>
+      <itunes:keywords>Los Angeles, California, Southern California, events, art, food, art, city, food, music, widlcard, Claire Evans</itunes:keywords>
+      <link>https://www.scpr.org/programs/5EW/2015/08/03/11829/</link>
+      <enclosure url="http://media.scpr.org/audio/upload/2015/08/03/080315_5_Every_Week_podcast_v1-2d755371.mp3?context=5EW&amp;via=podcast" length="2261935" type="audio/mpeg"/>
+      <itunes:duration>282</itunes:duration>
+    </item>
+    <item>
+      <title>New Original Works; Lydia Lunch; perfectly uncool Italian; religious enormity</title>
+      <itunes:author>Southern California Public Radio</itunes:author>
+      <itunes:summary>This week, "the world's largest religious painting," a gallery in an apartment in Virgil Village, a romantic carb-shovel in Silverlake and the N.O.W fest at REDCAT.</itunes:summary>
+      <description>This week, "the world's largest religious painting," a gallery in an apartment in Virgil Village, a romantic carb-shovel in Silverlake and the N.O.W fest at REDCAT.</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/5EW/2015/07/26/11792/</guid>
+      <pubDate>Mon, 27 Jul 2015 05:44:00 GMT</pubDate>
+      <itunes:keywords>Los Angeles, California, Southern California, events, art, food, art, city, food, music, widlcard, Claire Evans</itunes:keywords>
+      <link>https://www.scpr.org/programs/5EW/2015/07/26/11792/</link>
+      <enclosure url="http://media.scpr.org/audio/upload/2015/07/26/072715_5_Every_Week_podcast_v1-4af87c83.mp3?context=5EW&amp;via=podcast" length="2215551" type="audio/mpeg"/>
+      <itunes:duration>276</itunes:duration>
+    </item>
+    <item>
+      <title>LA-riffic 'Car Wash'; fruit becomes carnitas; copycat closing at MOCA; T.A.M.I. show on screen</title>
+      <itunes:author>Southern California Public Radio</itunes:author>
+      <itunes:summary>This week, Sturtevant: Double Trouble closes at MOCA; 5 Every Day screens "Car Wash" at Cinefamily with its awesome soundtrack, Richard Pryor appearance and new relevance for 2015; the Plant Food for the People truck turns jackfruit into things better than meat; the T.A.M.I show captured Marvin Gaye, the Rolling Stones, James Brown and others in ways you should revisit, at the New Beverly this weekend and a great way to have fun supporting after-school on Skid Row.</itunes:summary>
+      <description>This week, Sturtevant: Double Trouble closes at MOCA; 5 Every Day screens "Car Wash" at Cinefamily with its awesome soundtrack, Richard Pryor appearance and new relevance for 2015; the Plant Food for the People truck turns jackfruit into things better than meat; the T.A.M.I show captured Marvin Gaye, the Rolling Stones, James Brown and others in ways you should revisit, at the New Beverly this weekend and a great way to have fun supporting after-school on Skid Row.</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/5EW/2015/07/20/11770/</guid>
+      <pubDate>Mon, 20 Jul 2015 23:46:00 GMT</pubDate>
+      <itunes:keywords>Los Angeles, California, Southern California, events, art, food, art, city, food, music, widlcard, Claire Evans</itunes:keywords>
+      <link>https://www.scpr.org/programs/5EW/2015/07/20/11770/</link>
+      <enclosure url="http://media.scpr.org/audio/upload/2015/07/20/072015_5_Every_Week_podcast_v3_mono-c8116b87.mp3?context=5EW&amp;via=podcast" length="2349697" type="audio/mpeg"/>
+      <itunes:duration>293</itunes:duration>
+    </item>
+    <item>
+      <title>An all-night last hurrah; ancient farmer's market; art comedy madness at MoCA</title>
+      <itunes:author>Southern California Public Radio</itunes:author>
+      <itunes:summary>This week, it's "Step and Repeat" back at MoCA; an overlooked stall at the the Fairfax Farmer's Market that's been there for 90 years; Jewel’s Catch One nightclub says good-bye as only it knows how; the Barnsdall Art Park opens up for anarchy, altruism, and architecture.</itunes:summary>
+      <description>This week, it's "Step and Repeat" back at MoCA; an overlooked stall at the the Fairfax Farmer's Market that's been there for 90 years; Jewel’s Catch One nightclub says good-bye as only it knows how; the Barnsdall Art Park opens up for anarchy, altruism, and architecture.</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/5EW/2015/07/12/11744/</guid>
+      <pubDate>Mon, 13 Jul 2015 02:39:00 GMT</pubDate>
+      <itunes:keywords>Los Angeles, California, Southern California, events, art, food, art, city, food, music, widlcard, Claire Evans</itunes:keywords>
+      <link>https://www.scpr.org/programs/5EW/2015/07/12/11744/</link>
+      <enclosure url="http://media.scpr.org/audio/upload/2015/07/12/071315_5_Every_Week_podcast-d550cde0.mp3?context=5EW&amp;via=podcast" length="5068382" type="audio/mpeg"/>
+      <itunes:duration>316</itunes:duration>
+    </item>
+    <item>
+      <title>Virtual dancers; street food fest; eclectic hardware; paved river park</title>
+      <itunes:author>Southern California Public Radio</itunes:author>
+      <itunes:summary>Petra Cortright's new NIKI, LUCY, LOLA, VIOLA; Red Car River Park's murals and pylons; LA Street Food Fest turns $60 in a Rose Bowl filled with food; local labels on display at the Runaway Festival at Jewel's Catch One in Arlington Heights; the unique tinkering tools of Anzen Hardware.</itunes:summary>
+      <description>Petra Cortright's new NIKI, LUCY, LOLA, VIOLA; Red Car River Park's murals and pylons; LA Street Food Fest turns $60 in a Rose Bowl filled with food; local labels on display at the Runaway Festival at Jewel's Catch One in Arlington Heights; the unique tinkering tools of Anzen Hardware.</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/5EW/2015/07/05/11722/</guid>
+      <pubDate>Mon, 06 Jul 2015 01:40:00 GMT</pubDate>
+      <itunes:keywords>Los Angeles, California, Southern California, events, art, food, art, city, food, music, widlcard, Claire Evans</itunes:keywords>
+      <link>https://www.scpr.org/programs/5EW/2015/07/05/11722/</link>
+      <enclosure url="http://media.scpr.org/audio/upload/2015/07/05/070615_5_Every_Week_podcast-20d77982.mp3?context=5EW&amp;via=podcast" length="4766043" type="audio/mpeg"/>
+      <itunes:duration>297</itunes:duration>
+    </item>
+    <item>
+      <title>Welcome to 5 Every Week</title>
+      <itunes:author>Southern California Public Radio</itunes:author>
+      <itunes:summary>We're about to deliver you five interesting things to do in Los Angeles, every week.</itunes:summary>
+      <description>We're about to deliver you five interesting things to do in Los Angeles, every week.</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/5EW/2015/06/19/11663/</guid>
+      <pubDate>Fri, 19 Jun 2015 13:00:00 GMT</pubDate>
+      <itunes:keywords>Los Angeles, California, Southern California, events, art, food, art, city, food, music, widlcard, Claire Evans</itunes:keywords>
+      <link>https://www.scpr.org/programs/5EW/2015/06/19/11663/</link>
+      <enclosure url="http://media.scpr.org/audio/upload/2015/06/25/5ew_ep1-1fa1b80a.mp3?context=5EW&amp;via=podcast" length="436928" type="audio/mpeg"/>
+      <itunes:duration>54</itunes:duration>
+    </item>
+  </channel>
+</rss>

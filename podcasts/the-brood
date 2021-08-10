@@ -1,0 +1,504 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+  <channel>
+    <title>The Brood</title>
+    <link>https://www.scpr.org/programs/the-brood/</link>
+    <atom:link href="https://www.scpr.org/programs/the-brood/" rel="alternate"/>
+    <atom:link href="https://www.scpr.org/podcasts/the-brood" rel="self" type="application/rss+xml"/>
+    <language>en-us</language>
+    <description>A weekly thought-provoking conversation about the top topics and thorny issues around children of all ages. From the cloth vs disposable diaper debate to how to afford your kid&amp;#39;s college tuition, we talk to people, parents and experts, hoping to rediscover the meaning of family in the modern age.</description>
+    <image>
+      <url>https://media.scpr.org/assets/images/podcasts/kpcc-podcast-cover-thebrood.jpg</url>
+      <title>The Brood</title>
+      <link>https://www.scpr.org/programs/the-brood/</link>
+    </image>
+    <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+    <itunes:summary>A weekly thought-provoking conversation about the top topics and thorny issues around children of all ages. From the cloth vs disposable diaper debate to how to afford your kid&amp;#39;s college tuition, we talk to people, parents and experts, hoping to rediscover the meaning of family in the modern age.</itunes:summary>
+    <itunes:category text="Kids &amp; Family"/>
+    <itunes:owner>
+      <itunes:name>KPCC 89.3 | Southern California Public Radio</itunes:name>
+      <itunes:email>contact@kpcc.org</itunes:email>
+    </itunes:owner>
+    <itunes:image href="https://media.scpr.org/assets/images/podcasts/kpcc-podcast-cover-thebrood.jpg"/>
+    <itunes:explicit>no</itunes:explicit>
+    <item>
+      <title>Talking GIFTED kids with director Marc Webb</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>Director Marc Webb (THE AMAZING SPIDER MAN) talks about his new film GIFTED. It's about the battle over the future of a very bright young girl. </itunes:summary>
+      <description>Director Marc Webb (THE AMAZING SPIDER MAN) talks about his new film GIFTED. It's about the battle over the future of a very bright young girl. </description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/the-brood/2017/04/06/15729/</guid>
+      <pubDate>Thu, 06 Apr 2017 16:00:00 GMT</pubDate>
+      <itunes:keywords></itunes:keywords>
+      <link>https://www.scpr.org/programs/the-brood/2017/04/06/15729/</link>
+      <enclosure url="https://media.scpr.org/podcasts/upload/2017/04/06/Giftedbrood-19c33473.mp3?context=the-brood&amp;via=podcast" length="43508288" type="audio/mpeg"/>
+      <itunes:duration>1087</itunes:duration>
+    </item>
+    <item>
+      <title>Pregnancy in film: Alice Lowe's PREVENGE</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>A look at why pregnancy is such a common theme in horror with filmmaker Alice Lowe - who made the film "Prevenge" - while she was pregnant herself. </itunes:summary>
+      <description>A look at why pregnancy is such a common theme in horror with filmmaker Alice Lowe - who made the film "Prevenge" - while she was pregnant herself. </description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/the-brood/2017/03/21/15582/</guid>
+      <pubDate>Tue, 21 Mar 2017 18:44:00 GMT</pubDate>
+      <itunes:keywords></itunes:keywords>
+      <link>https://www.scpr.org/programs/the-brood/2017/03/21/15582/</link>
+      <enclosure url="https://media.scpr.org/podcasts/upload/2017/03/21/broodprevenge-82733e95.mp3?context=the-brood&amp;via=podcast" length="43713728" type="audio/mpeg"/>
+      <itunes:duration>1092</itunes:duration>
+    </item>
+    <item>
+      <title>Celebrating the Holidays at School without Headaches!</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>Happy Valentine's Day! Did you stay up all night crafting hand-made cards for 26 kids in your child's class? There has GOT to be a better way! Former Kindergarten teacher Sharon Lee joins us with helpful hints to save your sanity amid a Pinterest-fueled craze for craftiness!</itunes:summary>
+      <description>Happy Valentine's Day! Did you stay up all night crafting hand-made cards for 26 kids in your child's class? There has GOT to be a better way! Former Kindergarten teacher Sharon Lee joins us with helpful hints to save your sanity amid a Pinterest-fueled craze for craftiness!</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/the-brood/2017/02/14/15322/</guid>
+      <pubDate>Tue, 14 Feb 2017 20:00:00 GMT</pubDate>
+      <itunes:keywords></itunes:keywords>
+      <link>https://www.scpr.org/programs/the-brood/2017/02/14/15322/</link>
+      <enclosure url="https://media.scpr.org/podcasts/upload/2017/02/14/2-14Brood-5108fd21.mp3?context=the-brood&amp;via=podcast" length="31209464" type="audio/mpeg"/>
+      <itunes:duration>780</itunes:duration>
+    </item>
+    <item>
+      <title>The Brood: Protesting as a family</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>In the wake of the Women's March, three L.A. moms discuss the practicalities of protesting as a family and how parents can find age-appropriate ways to engage children in politics. </itunes:summary>
+      <description>In the wake of the Women's March, three L.A. moms discuss the practicalities of protesting as a family and how parents can find age-appropriate ways to engage children in politics. </description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/the-brood/2017/01/31/15234/</guid>
+      <pubDate>Tue, 31 Jan 2017 22:00:00 GMT</pubDate>
+      <itunes:keywords></itunes:keywords>
+      <link>https://www.scpr.org/programs/the-brood/2017/01/31/15234/</link>
+      <enclosure url="https://media.scpr.org/podcasts/upload/2017/01/31/The_Brood_Families_and_protest_podcast-1644bd10.mp3?context=the-brood&amp;via=podcast" length="12715179" type="audio/mpeg"/>
+      <itunes:duration>794</itunes:duration>
+    </item>
+    <item>
+      <title>Why the modern concept of 'parenting' may be deeply flawed</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>What we call "parenting" is actually a surprisingly new invention. Developmental psychologist Alison Gopnik argues it's also profoundly wrong.</itunes:summary>
+      <description>What we call "parenting" is actually a surprisingly new invention. Developmental psychologist Alison Gopnik argues it's also profoundly wrong.</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/the-brood/2017/01/24/15190/</guid>
+      <pubDate>Tue, 24 Jan 2017 15:59:00 GMT</pubDate>
+      <itunes:keywords></itunes:keywords>
+      <link>https://www.scpr.org/programs/the-brood/2017/01/24/15190/</link>
+      <enclosure url="https://media.scpr.org/podcasts/upload/2017/01/24/GardenerCarpenter_BROOD_PODCAST-0ceda625.mp3?context=the-brood&amp;via=podcast" length="27128468" type="audio/mpeg"/>
+      <itunes:duration>678</itunes:duration>
+    </item>
+    <item>
+      <title>When kids and smart home tech products mix</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>What happens when kids and voice-activated assistant technology (like Amazon Echo) mix? Some times it's bad. But some times it's good too.</itunes:summary>
+      <description>What happens when kids and voice-activated assistant technology (like Amazon Echo) mix? Some times it's bad. But some times it's good too.</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/the-brood/2017/01/17/15115/</guid>
+      <pubDate>Tue, 17 Jan 2017 23:38:00 GMT</pubDate>
+      <itunes:keywords></itunes:keywords>
+      <link>https://www.scpr.org/programs/the-brood/2017/01/17/15115/</link>
+      <enclosure url="https://media.scpr.org/podcasts/upload/2017/01/17/Brood_KidsTech_PODCAST-cb4af7b1.mp3?context=the-brood&amp;via=podcast" length="30552788" type="audio/mpeg"/>
+      <itunes:duration>763</itunes:duration>
+    </item>
+    <item>
+      <title>Why moms of middle schoolers have it the hardest</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>A recent study finds that the hardest time for mothers isn't when they're new moms, but later, when their kids are in middle school.</itunes:summary>
+      <description>A recent study finds that the hardest time for mothers isn't when they're new moms, but later, when their kids are in middle school.</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/the-brood/2017/01/10/15075/</guid>
+      <pubDate>Tue, 10 Jan 2017 21:08:00 GMT</pubDate>
+      <itunes:keywords></itunes:keywords>
+      <link>https://www.scpr.org/programs/the-brood/2017/01/10/15075/</link>
+      <enclosure url="https://media.scpr.org/podcasts/upload/2017/01/10/MiddleSchoolMoms_BROOD_PODCAST-3d3763c0.mp3?context=the-brood&amp;via=podcast" length="27181712" type="audio/mpeg"/>
+      <itunes:duration>679</itunes:duration>
+    </item>
+    <item>
+      <title>Children's books from 2016 to read with your kids in 2017</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>If one of your New Year's resolutions is to read more with your kids, some of the books that came out in 2016 could be a great place to start.</itunes:summary>
+      <description>If one of your New Year's resolutions is to read more with your kids, some of the books that came out in 2016 could be a great place to start.</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/the-brood/2017/01/03/15037/</guid>
+      <pubDate>Tue, 03 Jan 2017 21:22:00 GMT</pubDate>
+      <itunes:keywords></itunes:keywords>
+      <link>https://www.scpr.org/programs/the-brood/2017/01/03/15037/</link>
+      <enclosure url="https://media.scpr.org/podcasts/upload/2017/01/03/2016KidsBooks_BROOD_PODCAST-93619eb4.mp3?context=the-brood&amp;via=podcast" length="20040752" type="audio/mpeg"/>
+      <itunes:duration>501</itunes:duration>
+    </item>
+    <item>
+      <title>Why teenagers want their parents to be like potted plants</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>Trying to spend quality time with a teenager can sometimes feel like a futile exercise. But take heart, even if they don't show it, teens really do want you around.</itunes:summary>
+      <description>Trying to spend quality time with a teenager can sometimes feel like a futile exercise. But take heart, even if they don't show it, teens really do want you around.</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/the-brood/2016/12/27/15005/</guid>
+      <pubDate>Tue, 27 Dec 2016 21:03:00 GMT</pubDate>
+      <itunes:keywords></itunes:keywords>
+      <link>https://www.scpr.org/programs/the-brood/2016/12/27/15005/</link>
+      <enclosure url="https://media.scpr.org/podcasts/upload/2016/12/28/PottedPlantParents_BROOD_PODCAST-63709828.mp3?context=the-brood&amp;via=podcast" length="24529952" type="audio/mpeg"/>
+      <itunes:duration>613</itunes:duration>
+    </item>
+    <item>
+      <title>How stepfamilies can manage the stress of the holidays</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>For blended families, navigating the holidays can get particularly complicated. A stepparent coach offers some practical advice. </itunes:summary>
+      <description>For blended families, navigating the holidays can get particularly complicated. A stepparent coach offers some practical advice. </description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/the-brood/2016/12/20/14903/</guid>
+      <pubDate>Tue, 20 Dec 2016 21:34:00 GMT</pubDate>
+      <itunes:keywords></itunes:keywords>
+      <link>https://www.scpr.org/programs/the-brood/2016/12/20/14903/</link>
+      <enclosure url="https://media.scpr.org/podcasts/upload/2016/12/20/StepfamilyHolidays_BROOD_PODCAST-4e7ef637.mp3?context=the-brood&amp;via=podcast" length="23378420" type="audio/mpeg"/>
+      <itunes:duration>584</itunes:duration>
+    </item>
+    <item>
+      <title>'The Bad Kids' offers lessons in empathy and second chances</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>Many of the kids at Black Rock High School have been labeled "bad kids." Their principal and teachers are determined to help them succeed.</itunes:summary>
+      <description>Many of the kids at Black Rock High School have been labeled "bad kids." Their principal and teachers are determined to help them succeed.</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/the-brood/2016/12/13/14847/</guid>
+      <pubDate>Tue, 13 Dec 2016 23:04:00 GMT</pubDate>
+      <itunes:keywords></itunes:keywords>
+      <link>https://www.scpr.org/programs/the-brood/2016/12/13/14847/</link>
+      <enclosure url="https://media.scpr.org/podcasts/upload/2016/12/13/BadKidsDoc_BROOD_PODCAST-2cfedf87.mp3?context=the-brood&amp;via=podcast" length="29014976" type="audio/mpeg"/>
+      <itunes:duration>725</itunes:duration>
+    </item>
+    <item>
+      <title>Teaching kids the importance of giving during the holidays</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>During the holidays, with all the focus on Santa Claus, toy-making elves and presents, the importance of giving can get lost in the mix.</itunes:summary>
+      <description>During the holidays, with all the focus on Santa Claus, toy-making elves and presents, the importance of giving can get lost in the mix.</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/the-brood/2016/12/06/14796/</guid>
+      <pubDate>Tue, 06 Dec 2016 22:18:00 GMT</pubDate>
+      <itunes:keywords></itunes:keywords>
+      <link>https://www.scpr.org/programs/the-brood/2016/12/06/14796/</link>
+      <enclosure url="https://media.scpr.org/podcasts/upload/2016/12/06/KidsGivingBROOD_PODCAST-5de4e70c.mp3?context=the-brood&amp;via=podcast" length="24287744" type="audio/mpeg"/>
+      <itunes:duration>607</itunes:duration>
+    </item>
+    <item>
+      <title>A sociologist explains how parents and kids 'grow each other up'</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>Parents teach their kids and help them grow, but kids have a lot to teach their parents too. Sara Lawrence-Lightfoot explains how in "Growing Each Other Up."</itunes:summary>
+      <description>Parents teach their kids and help them grow, but kids have a lot to teach their parents too. Sara Lawrence-Lightfoot explains how in "Growing Each Other Up."</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/the-brood/2016/11/29/14748/</guid>
+      <pubDate>Tue, 29 Nov 2016 18:11:00 GMT</pubDate>
+      <itunes:keywords></itunes:keywords>
+      <link>https://www.scpr.org/programs/the-brood/2016/11/29/14748/</link>
+      <enclosure url="https://media.scpr.org/podcasts/upload/2016/11/29/GrowingEachOtherUp_BROOD-c712467b.mp3?context=the-brood&amp;via=podcast" length="30223928" type="audio/mpeg"/>
+      <itunes:duration>755</itunes:duration>
+    </item>
+    <item>
+      <title>What families can do to move forward after the election</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>Now that the election is over, many families are now asking "What next?" A psychologist offers suggestions for productive ways to move forward. </itunes:summary>
+      <description>Now that the election is over, many families are now asking "What next?" A psychologist offers suggestions for productive ways to move forward. </description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/the-brood/2016/11/15/14617/</guid>
+      <pubDate>Tue, 15 Nov 2016 20:50:00 GMT</pubDate>
+      <itunes:keywords></itunes:keywords>
+      <link>https://www.scpr.org/programs/the-brood/2016/11/15/14617/</link>
+      <enclosure url="https://media.scpr.org/podcasts/upload/2016/11/15/Brood_Podcast_PostElection-b1599e3f.mp3?context=the-brood&amp;via=podcast" length="27484472" type="audio/mpeg"/>
+      <itunes:duration>687</itunes:duration>
+    </item>
+    <item>
+      <title>Books that make elections fun and kid-friendly</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>These kids books help explain everything from the electoral college to an unhealthy thirst for power (with the help of a megalomaniac giant squid).</itunes:summary>
+      <description>These kids books help explain everything from the electoral college to an unhealthy thirst for power (with the help of a megalomaniac giant squid).</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/the-brood/2016/11/08/14593/</guid>
+      <pubDate>Tue, 08 Nov 2016 20:51:00 GMT</pubDate>
+      <itunes:keywords></itunes:keywords>
+      <link>https://www.scpr.org/programs/the-brood/2016/11/08/14593/</link>
+      <enclosure url="https://media.scpr.org/podcasts/upload/2016/11/08/BROOD_Podcast_ElectionDay-b14163cc.mp3?context=the-brood&amp;via=podcast" length="20870732" type="audio/mpeg"/>
+      <itunes:duration>521</itunes:duration>
+    </item>
+    <item>
+      <title>'The Distance Between Us' introduces kids to the immigrant experience </title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>Trying to adjust to her life in the U.S., Reyna Grande turned to books. Her memoir, adapted for young readers, gives kids a window into the immigrant experience.</itunes:summary>
+      <description>Trying to adjust to her life in the U.S., Reyna Grande turned to books. Her memoir, adapted for young readers, gives kids a window into the immigrant experience.</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/the-brood/2016/11/01/14572/</guid>
+      <pubDate>Tue, 01 Nov 2016 20:20:00 GMT</pubDate>
+      <itunes:keywords></itunes:keywords>
+      <link>https://www.scpr.org/programs/the-brood/2016/11/01/14572/</link>
+      <enclosure url="https://media.scpr.org/podcasts/upload/2016/11/01/Brood_DistanceBetweenUs-401d08a8.mp3?context=the-brood&amp;via=podcast" length="32278520" type="audio/mpeg"/>
+      <itunes:duration>806</itunes:duration>
+    </item>
+    <item>
+      <title>Should parents post about their kids online?</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>A law professor and a pediatrician caution that sharing information about your kids online (or "sharenting") can have unintended consequences.</itunes:summary>
+      <description>A law professor and a pediatrician caution that sharing information about your kids online (or "sharenting") can have unintended consequences.</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/the-brood/2016/10/25/14527/</guid>
+      <pubDate>Tue, 25 Oct 2016 19:41:00 GMT</pubDate>
+      <itunes:keywords></itunes:keywords>
+      <link>https://www.scpr.org/programs/the-brood/2016/10/25/14527/</link>
+      <enclosure url="https://media.scpr.org/podcasts/upload/2016/10/25/Brood_Sharenting_PODCAST-cb1d0674.mp3?context=the-brood&amp;via=podcast" length="22668500" type="audio/mpeg"/>
+      <itunes:duration>566</itunes:duration>
+    </item>
+    <item>
+      <title>How fathers talk with their sons about sexism and 'boy talk'</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>This election has sparked all sorts of conversations between parents and kids-- about politics, about democracy, but also about sexism.</itunes:summary>
+      <description>This election has sparked all sorts of conversations between parents and kids-- about politics, about democracy, but also about sexism.</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/the-brood/2016/10/18/14483/</guid>
+      <pubDate>Tue, 18 Oct 2016 20:53:00 GMT</pubDate>
+      <itunes:keywords></itunes:keywords>
+      <link>https://www.scpr.org/programs/the-brood/2016/10/18/14483/</link>
+      <enclosure url="https://media.scpr.org/podcasts/upload/2016/10/18/BroodDads_PODCAST-2f7cc02a.mp3?context=the-brood&amp;via=podcast" length="28538912" type="audio/mpeg"/>
+      <itunes:duration>713</itunes:duration>
+    </item>
+    <item>
+      <title>How to get the best education for your kid with special needs</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>Ines Kuperschmit of the Learning Rights Law Center says parents need to learn to fight smart, and remember that they don't have to take no for an answer. </itunes:summary>
+      <description>Ines Kuperschmit of the Learning Rights Law Center says parents need to learn to fight smart, and remember that they don't have to take no for an answer. </description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/the-brood/2016/10/11/14457/</guid>
+      <pubDate>Tue, 11 Oct 2016 21:09:00 GMT</pubDate>
+      <itunes:keywords></itunes:keywords>
+      <link>https://www.scpr.org/programs/the-brood/2016/10/11/14457/</link>
+      <enclosure url="https://media.scpr.org/podcasts/upload/2016/10/11/KidsDisabilities2_BROOD_PODCAST-35c80b42.mp3?context=the-brood&amp;via=podcast" length="27165008" type="audio/mpeg"/>
+      <itunes:duration>679</itunes:duration>
+    </item>
+    <item>
+      <title>What makes a good school for a child with a disability?</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>If your child has a disability, finding the right school can be a trying process. It's one that LA mom Sylvia Youngblood went through with her four children.</itunes:summary>
+      <description>If your child has a disability, finding the right school can be a trying process. It's one that LA mom Sylvia Youngblood went through with her four children.</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/the-brood/2016/10/04/14420/</guid>
+      <pubDate>Tue, 04 Oct 2016 22:19:00 GMT</pubDate>
+      <itunes:keywords></itunes:keywords>
+      <link>https://www.scpr.org/programs/the-brood/2016/10/04/14420/</link>
+      <enclosure url="https://media.scpr.org/podcasts/upload/2016/10/04/KidsDisabilities_BROOD_Podcast-b37e74e3.mp3?context=the-brood&amp;via=podcast" length="27691184" type="audio/mpeg"/>
+      <itunes:duration>692</itunes:duration>
+    </item>
+    <item>
+      <title>How the show 'Speechless' portrays families of kids with disabilities</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>The new ABC sitcom 'Speechless' offered a rare opportunity for a TV critic (and dad) to see a family like his reflected on the small screen.</itunes:summary>
+      <description>The new ABC sitcom 'Speechless' offered a rare opportunity for a TV critic (and dad) to see a family like his reflected on the small screen.</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/the-brood/2016/09/20/14341/</guid>
+      <pubDate>Tue, 20 Sep 2016 20:09:00 GMT</pubDate>
+      <itunes:keywords></itunes:keywords>
+      <link>https://www.scpr.org/programs/the-brood/2016/09/20/14341/</link>
+      <enclosure url="https://media.scpr.org/podcasts/upload/2016/09/20/Speechless_BROOD_Podcast-a0ec27b9.mp3?context=the-brood&amp;via=podcast" length="29257184" type="audio/mpeg"/>
+      <itunes:duration>731</itunes:duration>
+    </item>
+    <item>
+      <title>Pamela Adlon on the honest portrayal of parenting in her show 'Better Things'</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>The new FX show "Better Things" stars LA-based actress Pamela Adlon. It's a raw, honest portrayal of some of the harsher realities of parenthood that's partly based on Adlon's real life.</itunes:summary>
+      <description>The new FX show "Better Things" stars LA-based actress Pamela Adlon. It's a raw, honest portrayal of some of the harsher realities of parenthood that's partly based on Adlon's real life.</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/the-brood/2016/09/13/14294/</guid>
+      <pubDate>Tue, 13 Sep 2016 17:54:00 GMT</pubDate>
+      <itunes:keywords></itunes:keywords>
+      <link>https://www.scpr.org/programs/the-brood/2016/09/13/14294/</link>
+      <enclosure url="https://media.scpr.org/podcasts/upload/2016/09/16/PamelaAdlon_Brood_Podcast_1-4505c49a.mp3?context=the-brood&amp;via=podcast" length="38321192" type="audio/mpeg"/>
+      <itunes:duration>958</itunes:duration>
+    </item>
+    <item>
+      <title>Parents talk about becoming empty nesters</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>Parents all across the country are dealing with a new reality right now: the empty nest. It's a time of transition that can be tough, but also a welcome change too.</itunes:summary>
+      <description>Parents all across the country are dealing with a new reality right now: the empty nest. It's a time of transition that can be tough, but also a welcome change too.</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/the-brood/2016/09/06/14250/</guid>
+      <pubDate>Tue, 06 Sep 2016 20:35:00 GMT</pubDate>
+      <itunes:keywords></itunes:keywords>
+      <link>https://www.scpr.org/programs/the-brood/2016/09/06/14250/</link>
+      <enclosure url="https://media.scpr.org/podcasts/upload/2016/09/06/Brood_EmptyNest_Podcast-c548f394.mp3?context=the-brood&amp;via=podcast" length="26233760" type="audio/mpeg"/>
+      <itunes:duration>655</itunes:duration>
+    </item>
+    <item>
+      <title>What to do when your kid points at someone who looks different</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>From wheelchairs to birthmarks, Down syndrome to skin disorders, differences can prompt stares, pointing, questions. How should you respond as a parent? </itunes:summary>
+      <description>From wheelchairs to birthmarks, Down syndrome to skin disorders, differences can prompt stares, pointing, questions. How should you respond as a parent? </description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/the-brood/2016/08/30/14202/</guid>
+      <pubDate>Tue, 30 Aug 2016 20:22:00 GMT</pubDate>
+      <itunes:keywords></itunes:keywords>
+      <link>https://www.scpr.org/programs/the-brood/2016/08/30/14202/</link>
+      <enclosure url="https://media.scpr.org/podcasts/upload/2016/08/30/BROOD_KidsPointing_Podcast-d085fd22.mp3?context=the-brood&amp;via=podcast" length="27245396" type="audio/mpeg"/>
+      <itunes:duration>681</itunes:duration>
+    </item>
+    <item>
+      <title>When kids dream of Olympic glory</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>How do parents balance family life with the needs of a child with dreams of competing in the Olympics? </itunes:summary>
+      <description>How do parents balance family life with the needs of a child with dreams of competing in the Olympics? </description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/the-brood/2016/08/23/14120/</guid>
+      <pubDate>Tue, 23 Aug 2016 23:15:00 GMT</pubDate>
+      <itunes:keywords></itunes:keywords>
+      <link>https://www.scpr.org/programs/the-brood/2016/08/23/14120/</link>
+      <enclosure url="https://media.scpr.org/podcasts/upload/2016/08/23/Brood_Olympic_children-b693bf51.mp3?context=the-brood&amp;via=podcast" length="9871897" type="audio/mpeg"/>
+      <itunes:duration>616</itunes:duration>
+    </item>
+    <item>
+      <title>Talking with kids about cancer and grief</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>A college student who lost her dad to cancer and a family therapist offer their advice for how to talk to kids about disease and death.</itunes:summary>
+      <description>A college student who lost her dad to cancer and a family therapist offer their advice for how to talk to kids about disease and death.</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/the-brood/2016/08/16/14076/</guid>
+      <pubDate>Tue, 16 Aug 2016 20:41:00 GMT</pubDate>
+      <itunes:keywords></itunes:keywords>
+      <link>https://www.scpr.org/programs/the-brood/2016/08/16/14076/</link>
+      <enclosure url="https://media.scpr.org/podcasts/upload/2016/08/16/BROOD_Podcast_Grief-f7fd8470.mp3?context=the-brood&amp;via=podcast" length="46413236" type="audio/mpeg"/>
+      <itunes:duration>1160</itunes:duration>
+    </item>
+    <item>
+      <title>'The Little Prince' director on the gender imbalance in animated films</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>Director Mark Osborne explains what inspired him to put the focus on female characters in "The Little Prince" and what he learned about parenting in the process.</itunes:summary>
+      <description>Director Mark Osborne explains what inspired him to put the focus on female characters in "The Little Prince" and what he learned about parenting in the process.</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/the-brood/2016/08/09/14031/</guid>
+      <pubDate>Tue, 09 Aug 2016 19:59:00 GMT</pubDate>
+      <itunes:keywords></itunes:keywords>
+      <link>https://www.scpr.org/programs/the-brood/2016/08/09/14031/</link>
+      <enclosure url="https://media.scpr.org/podcasts/upload/2016/08/09/LittlePrince_BROOD_Podcast-2e2a0afe.mp3?context=the-brood&amp;via=podcast" length="26834060" type="audio/mpeg"/>
+      <itunes:duration>670</itunes:duration>
+    </item>
+    <item>
+      <title>How teachers talk with kids about the 2016 election</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>Understanding caucuses and electoral votes can be tough for both adults and kids. Deeper issues like how we talk about the candidates themselves can be even tougher.</itunes:summary>
+      <description>Understanding caucuses and electoral votes can be tough for both adults and kids. Deeper issues like how we talk about the candidates themselves can be even tougher.</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/the-brood/2016/08/02/13963/</guid>
+      <pubDate>Tue, 02 Aug 2016 17:48:00 GMT</pubDate>
+      <itunes:keywords></itunes:keywords>
+      <link>https://www.scpr.org/programs/the-brood/2016/08/02/13963/</link>
+      <enclosure url="https://media.scpr.org/podcasts/upload/2016/08/02/BROOD_KidsPoliticsTeachers_Podcast-db34b486.mp3?context=the-brood&amp;via=podcast" length="22627784" type="audio/mpeg"/>
+      <itunes:duration>565</itunes:duration>
+    </item>
+    <item>
+      <title>Is moving good or bad for kids?</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>Psychologists say how a move will impact a kid depends on the reasons behind the move, the child's age, and how big of an adjustment the new situation requires.</itunes:summary>
+      <description>Psychologists say how a move will impact a kid depends on the reasons behind the move, the child's age, and how big of an adjustment the new situation requires.</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/the-brood/2016/07/26/13918/</guid>
+      <pubDate>Tue, 26 Jul 2016 18:07:00 GMT</pubDate>
+      <itunes:keywords></itunes:keywords>
+      <link>https://www.scpr.org/programs/the-brood/2016/07/26/13918/</link>
+      <enclosure url="https://media.scpr.org/podcasts/upload/2016/07/26/Brood_Moving_PODCAST-107e8f50.mp3?context=the-brood&amp;via=podcast" length="26780816" type="audio/mpeg"/>
+      <itunes:duration>669</itunes:duration>
+    </item>
+    <item>
+      <title>How white parents talk with their black and biracial kids about race</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>How does "the talk" about race and policing play out when a parent is white and their children are black or biracial?</itunes:summary>
+      <description>How does "the talk" about race and policing play out when a parent is white and their children are black or biracial?</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/the-brood/2016/07/19/13873/</guid>
+      <pubDate>Tue, 19 Jul 2016 22:38:00 GMT</pubDate>
+      <itunes:keywords></itunes:keywords>
+      <link>https://www.scpr.org/programs/the-brood/2016/07/19/13873/</link>
+      <enclosure url="https://media.scpr.org/podcasts/upload/2016/07/19/Brood_ParentsRace2_PODCAST-a7a1fbc0.mp3?context=the-brood&amp;via=podcast" length="52226228" type="audio/mpeg"/>
+      <itunes:duration>1305</itunes:duration>
+    </item>
+    <item>
+      <title>How black parents talk with kids about race and policing</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>In light of the recent police shootings of black men in Louisiana and Minnesota, parents of color discuss how they teach their kids about interacting with police.</itunes:summary>
+      <description>In light of the recent police shootings of black men in Louisiana and Minnesota, parents of color discuss how they teach their kids about interacting with police.</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/the-brood/2016/07/12/13811/</guid>
+      <pubDate>Tue, 12 Jul 2016 20:02:00 GMT</pubDate>
+      <itunes:keywords></itunes:keywords>
+      <link>https://www.scpr.org/programs/the-brood/2016/07/12/13811/</link>
+      <enclosure url="https://media.scpr.org/podcasts/upload/2016/07/18/Brood_KidsandPolice_PODCAST-a7f055c4.mp3?context=the-brood&amp;via=podcast" length="56890820" type="audio/mpeg"/>
+      <itunes:duration>1422</itunes:duration>
+    </item>
+    <item>
+      <title>How to talk with kids about religion</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>What's the best way to talk to kids about religion? For parents who are religious, or aren't, or whose partner practices a different religion, the answer will vary. </itunes:summary>
+      <description>What's the best way to talk to kids about religion? For parents who are religious, or aren't, or whose partner practices a different religion, the answer will vary. </description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/the-brood/2016/07/05/13732/</guid>
+      <pubDate>Tue, 05 Jul 2016 18:54:00 GMT</pubDate>
+      <itunes:keywords></itunes:keywords>
+      <link>https://www.scpr.org/programs/the-brood/2016/07/05/13732/</link>
+      <enclosure url="https://media.scpr.org/podcasts/upload/2016/07/05/KidsReligion_Brood_Podcast-42545a92.mp3?context=the-brood&amp;via=podcast" length="33061520" type="audio/mpeg"/>
+      <itunes:duration>826</itunes:duration>
+    </item>
+    <item>
+      <title>How Disney films helped a family reach their autistic son</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>When Owen Suskind was a young boy, he suddenly became mute. He cried inconsolably. The one place he found solace was through Disney animated films.</itunes:summary>
+      <description>When Owen Suskind was a young boy, he suddenly became mute. He cried inconsolably. The one place he found solace was through Disney animated films.</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/the-brood/2016/06/28/13674/</guid>
+      <pubDate>Tue, 28 Jun 2016 19:38:00 GMT</pubDate>
+      <itunes:keywords></itunes:keywords>
+      <link>https://www.scpr.org/programs/the-brood/2016/06/28/13674/</link>
+      <enclosure url="https://media.scpr.org/podcasts/upload/2016/06/28/LifeAnimated_Brood_Podcast-d69f863f.mp3?context=the-brood&amp;via=podcast" length="25565600" type="audio/mpeg"/>
+      <itunes:duration>639</itunes:duration>
+    </item>
+    <item>
+      <title>'When the Bough Breaks' explores postpartum depression</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>The new documentary "When the Bough Breaks" tells the stories of women with postpartum depression and their paths to recovery.</itunes:summary>
+      <description>The new documentary "When the Bough Breaks" tells the stories of women with postpartum depression and their paths to recovery.</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/the-brood/2016/06/21/13634/</guid>
+      <pubDate>Tue, 21 Jun 2016 17:04:00 GMT</pubDate>
+      <itunes:keywords></itunes:keywords>
+      <link>https://www.scpr.org/programs/the-brood/2016/06/21/13634/</link>
+      <enclosure url="https://media.scpr.org/podcasts/upload/2016/06/21/Brood_PostpartumDepression-ca96c6d9.mp3?context=the-brood&amp;via=podcast" length="22072376" type="audio/mpeg"/>
+      <itunes:duration>551</itunes:duration>
+    </item>
+    <item>
+      <title>After Stanford case, parents talk with kids about consent </title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>The sexual assault case sparked outrage. It's also given parents an opportunity to talk about physical boundaries and moral responsibility with their kids.</itunes:summary>
+      <description>The sexual assault case sparked outrage. It's also given parents an opportunity to talk about physical boundaries and moral responsibility with their kids.</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/the-brood/2016/06/14/13571/</guid>
+      <pubDate>Tue, 14 Jun 2016 16:28:00 GMT</pubDate>
+      <itunes:keywords></itunes:keywords>
+      <link>https://www.scpr.org/programs/the-brood/2016/06/14/13571/</link>
+      <enclosure url="https://media.scpr.org/podcasts/upload/2016/06/14/Brood_Podcast_Stanford-1163dceb.mp3?context=the-brood&amp;via=podcast" length="23732336" type="audio/mpeg"/>
+      <itunes:duration>593</itunes:duration>
+    </item>
+    <item>
+      <title>A hairstylist's tips for dads daunted by doing hair</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>There are some parenting tasks that seem simple enough, but can still be pretty daunting. For dads, doing hair is often a big one. </itunes:summary>
+      <description>There are some parenting tasks that seem simple enough, but can still be pretty daunting. For dads, doing hair is often a big one. </description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/the-brood/2016/06/07/13502/</guid>
+      <pubDate>Tue, 07 Jun 2016 21:32:00 GMT</pubDate>
+      <itunes:keywords></itunes:keywords>
+      <link>https://www.scpr.org/programs/the-brood/2016/06/07/13502/</link>
+      <enclosure url="https://media.scpr.org/podcasts/upload/2016/06/07/KidsHair_Brood_Podcast-cc8f186d.mp3?context=the-brood&amp;via=podcast" length="17561252" type="audio/mpeg"/>
+      <itunes:duration>439</itunes:duration>
+    </item>
+    <item>
+      <title>Books that make the presidential election kid-friendly</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>Kids books explain the electoral process with the help of a duck, a 'bad kitty,' and a power-hungry giant squid. </itunes:summary>
+      <description>Kids books explain the electoral process with the help of a duck, a 'bad kitty,' and a power-hungry giant squid. </description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/the-brood/2016/05/31/13452/</guid>
+      <pubDate>Tue, 31 May 2016 22:06:00 GMT</pubDate>
+      <itunes:keywords></itunes:keywords>
+      <link>https://www.scpr.org/programs/the-brood/2016/05/31/13452/</link>
+      <enclosure url="https://media.scpr.org/podcasts/upload/2016/05/31/Brood_ElectionBooks-43758588.mp3?context=the-brood&amp;via=podcast" length="26273432" type="audio/mpeg"/>
+      <itunes:duration>656</itunes:duration>
+    </item>
+    <item>
+      <title>Kids are out of school. To summer camp or not?</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>Summer is of course a time to get out and have fun, but if you're a parent, it's also time to figure out what the heck to do with your kids.</itunes:summary>
+      <description>Summer is of course a time to get out and have fun, but if you're a parent, it's also time to figure out what the heck to do with your kids.</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/the-brood/2016/05/24/13399/</guid>
+      <pubDate>Tue, 24 May 2016 21:43:00 GMT</pubDate>
+      <itunes:keywords></itunes:keywords>
+      <link>https://www.scpr.org/programs/the-brood/2016/05/24/13399/</link>
+      <enclosure url="https://media.scpr.org/podcasts/upload/2016/05/24/Brood_Podcast_SummerCamp-53078ddc.mp3?context=the-brood&amp;via=podcast" length="24421376" type="audio/mpeg"/>
+      <itunes:duration>610</itunes:duration>
+    </item>
+    <item>
+      <title>Nina Tassler and Sharon Osbourne on 'What I Told My Daughter'</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>TV exec Nina Tassler's book includes contributions from Madeleine Albright, Ruth Bader Ginsburg, Pat Benatar and Whoopi Goldberg.</itunes:summary>
+      <description>TV exec Nina Tassler's book includes contributions from Madeleine Albright, Ruth Bader Ginsburg, Pat Benatar and Whoopi Goldberg.</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/the-brood/2016/05/17/13356/</guid>
+      <pubDate>Tue, 17 May 2016 21:15:00 GMT</pubDate>
+      <itunes:keywords></itunes:keywords>
+      <link>https://www.scpr.org/programs/the-brood/2016/05/17/13356/</link>
+      <enclosure url="https://media.scpr.org/podcasts/upload/2016/05/17/Brood_Podcast_Tassler-eb3e3dbc.mp3?context=the-brood&amp;via=podcast" length="29825120" type="audio/mpeg"/>
+      <itunes:duration>745</itunes:duration>
+    </item>
+    <item>
+      <title>How do online parenting groups differ for moms and dads?</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>In general, moms dominate the online parenting group scene. But dad groups are out there too. And it turns out they're not immune to drama either.</itunes:summary>
+      <description>In general, moms dominate the online parenting group scene. But dad groups are out there too. And it turns out they're not immune to drama either.</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/the-brood/2016/05/10/13315/</guid>
+      <pubDate>Tue, 10 May 2016 21:01:00 GMT</pubDate>
+      <itunes:keywords></itunes:keywords>
+      <link>https://www.scpr.org/programs/the-brood/2016/05/10/13315/</link>
+      <enclosure url="http://media.scpr.org/audio/upload/2016/05/10/OnlineDads_Brood_Podcast-89c867fa.mp3?context=the-brood&amp;via=podcast" length="23311604" type="audio/mpeg"/>
+      <itunes:duration>582</itunes:duration>
+    </item>
+  </channel>
+</rss>

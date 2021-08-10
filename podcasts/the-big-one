@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xmlns:psc="https://podlove.org/simple-chapters/" xmlns:omny="https://omny.fm/rss-extensions" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" xmlns:acast="https://schema.acast.com/1.0/" version="2.0">
+  <channel>
+    <language>en-US</language>
+    <atom:link rel="self" type="application/rss+xml" href="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/95a0ba2f-2810-459a-a106-ab09010e1229/89b076fd-9b08-4f8b-95b2-ab09010e123c/podcast.rss" />
+    <atom:link rel="first" type="application/rss+xml" href="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/95a0ba2f-2810-459a-a106-ab09010e1229/89b076fd-9b08-4f8b-95b2-ab09010e123c/podcast.rss?page=1" />
+    <atom:link rel="last" type="application/rss+xml" href="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/95a0ba2f-2810-459a-a106-ab09010e1229/89b076fd-9b08-4f8b-95b2-ab09010e123c/podcast.rss?page=1" />
+    <itunes:new-feed-url>https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/95a0ba2f-2810-459a-a106-ab09010e1229/89b076fd-9b08-4f8b-95b2-ab09010e123c/podcast.rss</itunes:new-feed-url>
+    <title>The Big One: Your Survival Guide</title>
+    <link>https://www.scpr.org/big-one-your-survival-guide</link>
+    <description><![CDATA[<p>When The Big One hits it’ll take under two minutes for more than 10 million Southern Californians to lose internet, power, and a sense of security. Host Jacob Margolis and Producer Misha Euceph take you on a journey to understand what the catastrophic earthquake will mean for Los Angeles, the U.S., and the world. This is what you need to know to survive.</p>]]></description>
+    <itunes:type>serial</itunes:type>
+    <itunes:summary>When The Big One hits it’ll take under two minutes for more than 10 million Southern Californians to lose internet, power, and a sense of security. Host Jacob Margolis and Producer Misha Euceph take you on a journey to understand what the catastrophic earthquake will mean for Los Angeles, the U.S., and the world. This is what you need to know to survive.</itunes:summary>
+    <itunes:owner>
+      <itunes:name>LAist Studios</itunes:name>
+      <itunes:email>scprdev@scpr.org</itunes:email>
+    </itunes:owner>
+    <itunes:author>KPCC | Southern California Public Radio</itunes:author>
+    <copyright>2021 LAist Studios</copyright>
+    <itunes:explicit>no</itunes:explicit>
+    <itunes:category text="Science"></itunes:category>
+    <itunes:image href="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/95a0ba2f-2810-459a-a106-ab09010e1229/89b076fd-9b08-4f8b-95b2-ab09010e123c/image.jpg?t=1574094199&amp;size=Large" />
+    <image>
+      <url>https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/95a0ba2f-2810-459a-a106-ab09010e1229/89b076fd-9b08-4f8b-95b2-ab09010e123c/image.jpg?t=1574094199&amp;size=Large</url>
+      <title>The Big One: Your Survival Guide</title>
+      <link>https://www.scpr.org/big-one-your-survival-guide</link>
+    </image>
+    <item>
+      <title>The Earthquake</title>
+      <itunes:title>The Earthquake</itunes:title>
+      <description>You’re at Union Station when the big one hits. The next two minutes are terrifying. By the time you make your way outside, the Los Angeles you know is gone. In Episode One, you experience what the first hours after a massive earthquake could be like.</description>
+      <content:encoded><![CDATA[<p>You&rsquo;re at Union Station when the big one hits. The next two minutes are terrifying. By the time you make your way outside, the Los Angeles you know is gone. In Episode One, you experience what the first hours after a massive earthquake could be like.</p>]]></content:encoded>
+      <itunes:summary>You’re at Union Station when the big one hits. The next two minutes are terrifying. By the time you make your way outside, the Los Angeles you know is gone. In Episode One, you experience what the first hours after a massive earthquake could be like.</itunes:summary>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>1</itunes:episode>
+      <itunes:author>KPCC | Southern California Public Radio</itunes:author>
+      <itunes:image href="https://www.omnycontent.com/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/95a0ba2f-2810-459a-a106-ab09010e1229/e72bffc7-0729-4b60-9191-ab09010e6c9d/image.jpg?t=1580255587&amp;size=Large" />
+      <media:content url="https://chtbl.com/track/84GC29/dts.podtrac.com/redirect.mp3/traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/95a0ba2f-2810-459a-a106-ab09010e1229/e72bffc7-0729-4b60-9191-ab09010e6c9d/audio.mp3?utm_source=Podcast&amp;in_playlist=89b076fd-9b08-4f8b-95b2-ab09010e123c" type="audio/mpeg">
+        <media:player url="https://omny.fm/shows/the-big-one-your-survival-guide/the-earthquake/embed" />
+      </media:content>
+      <media:content url="https://www.omnycontent.com/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/95a0ba2f-2810-459a-a106-ab09010e1229/e72bffc7-0729-4b60-9191-ab09010e6c9d/image.jpg?t=1580255587&amp;size=Large" type="image/jpeg" />
+      <guid isPermaLink="false">831d6b98-1452-11e9-aaab-43d55e21bb06</guid>
+      <omny:clipId>e72bffc7-0729-4b60-9191-ab09010e6c9d</omny:clipId>
+      <pubDate>Thu, 10 Jan 2019 08:00:00 +0000</pubDate>
+      <itunes:duration>1812</itunes:duration>
+      <enclosure url="https://chtbl.com/track/84GC29/dts.podtrac.com/redirect.mp3/traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/95a0ba2f-2810-459a-a106-ab09010e1229/e72bffc7-0729-4b60-9191-ab09010e6c9d/audio.mp3?utm_source=Podcast&amp;in_playlist=89b076fd-9b08-4f8b-95b2-ab09010e123c" length="29044055" type="audio/mpeg" />
+      <link>https://laist.com/podcasts/the-big-one.php</link>
+    </item>
+    <item>
+      <title>The Walk</title>
+      <itunes:title>The Walk</itunes:title>
+      <description>No car, the trains are down, the road's a mess and you need to get home. In this episode, you walk 15 miles back to your house through a city that feels unrecognizable.  </description>
+      <content:encoded><![CDATA[<p>No car, the trains are down, the road's a mess and you need to get home. In this episode, you walk 15 miles back to your house through a city that feels unrecognizable. &nbsp;</p>]]></content:encoded>
+      <itunes:summary>No car, the trains are down, the road's a mess and you need to get home. In this episode, you walk 15 miles back to your house through a city that feels unrecognizable.  </itunes:summary>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>2</itunes:episode>
+      <itunes:author>KPCC | Southern California Public Radio</itunes:author>
+      <itunes:image href="https://www.omnycontent.com/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/95a0ba2f-2810-459a-a106-ab09010e1229/63bc5ecb-778f-42bd-82fa-ab09010e6426/image.jpg?t=1580255601&amp;size=Large" />
+      <media:content url="https://chtbl.com/track/84GC29/dts.podtrac.com/redirect.mp3/traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/95a0ba2f-2810-459a-a106-ab09010e1229/63bc5ecb-778f-42bd-82fa-ab09010e6426/audio.mp3?utm_source=Podcast&amp;in_playlist=89b076fd-9b08-4f8b-95b2-ab09010e123c" type="audio/mpeg">
+        <media:player url="https://omny.fm/shows/the-big-one-your-survival-guide/the-walk/embed" />
+      </media:content>
+      <media:content url="https://www.omnycontent.com/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/95a0ba2f-2810-459a-a106-ab09010e1229/63bc5ecb-778f-42bd-82fa-ab09010e6426/image.jpg?t=1580255601&amp;size=Large" type="image/jpeg" />
+      <guid isPermaLink="false">eb28b19a-19f5-11e9-a08f-ab4b45f83ebe</guid>
+      <omny:clipId>63bc5ecb-778f-42bd-82fa-ab09010e6426</omny:clipId>
+      <pubDate>Thu, 17 Jan 2019 08:00:00 +0000</pubDate>
+      <itunes:duration>2005</itunes:duration>
+      <enclosure url="https://chtbl.com/track/84GC29/dts.podtrac.com/redirect.mp3/traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/95a0ba2f-2810-459a-a106-ab09010e1229/63bc5ecb-778f-42bd-82fa-ab09010e6426/audio.mp3?utm_source=Podcast&amp;in_playlist=89b076fd-9b08-4f8b-95b2-ab09010e123c" length="32128203" type="audio/mpeg" />
+      <link>https://laist.com/podcasts/the-big-one.php</link>
+    </item>
+    <item>
+      <title>The Science </title>
+      <itunes:title>The Science </itunes:title>
+      <description>A polar bear killer, a Sputnik-inspired scientist, a man who uses the past to see the future and seismologist Lucy Jones. What do they all have in common? Without them, we wouldn’t understand the what, when, why and how of the big one. </description>
+      <content:encoded><![CDATA[<p>A polar bear killer, a Sputnik-inspired scientist, a man who uses the past to see the future and seismologist Lucy Jones. What do they all have in common? Without them, we wouldn&rsquo;t understand the what, when, why and how of the big one.&nbsp;</p>]]></content:encoded>
+      <itunes:summary>A polar bear killer, a Sputnik-inspired scientist, a man who uses the past to see the future and seismologist Lucy Jones. What do they all have in common? Without them, we wouldn’t understand the what, when, why and how of the big one. </itunes:summary>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>3</itunes:episode>
+      <itunes:author>KPCC | Southern California Public Radio</itunes:author>
+      <itunes:image href="https://www.omnycontent.com/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/95a0ba2f-2810-459a-a106-ab09010e1229/ebb05ce4-aaa9-4a61-ad4b-ab09010e5a4b/image.jpg?t=1580255620&amp;size=Large" />
+      <media:content url="https://chtbl.com/track/84GC29/dts.podtrac.com/redirect.mp3/traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/95a0ba2f-2810-459a-a106-ab09010e1229/ebb05ce4-aaa9-4a61-ad4b-ab09010e5a4b/audio.mp3?utm_source=Podcast&amp;in_playlist=89b076fd-9b08-4f8b-95b2-ab09010e123c" type="audio/mpeg">
+        <media:player url="https://omny.fm/shows/the-big-one-your-survival-guide/the-science/embed" />
+      </media:content>
+      <media:content url="https://www.omnycontent.com/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/95a0ba2f-2810-459a-a106-ab09010e1229/ebb05ce4-aaa9-4a61-ad4b-ab09010e5a4b/image.jpg?t=1580255620&amp;size=Large" type="image/jpeg" />
+      <guid isPermaLink="false">f22dceba-1e98-11e9-8ee5-8b4d9d4b09a9</guid>
+      <omny:clipId>ebb05ce4-aaa9-4a61-ad4b-ab09010e5a4b</omny:clipId>
+      <pubDate>Thu, 24 Jan 2019 08:00:00 +0000</pubDate>
+      <itunes:duration>2068</itunes:duration>
+      <enclosure url="https://chtbl.com/track/84GC29/dts.podtrac.com/redirect.mp3/traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/95a0ba2f-2810-459a-a106-ab09010e1229/ebb05ce4-aaa9-4a61-ad4b-ab09010e5a4b/audio.mp3?utm_source=Podcast&amp;in_playlist=89b076fd-9b08-4f8b-95b2-ab09010e123c" length="33138846" type="audio/mpeg" />
+      <link>https://laist.com/podcasts/the-big-one.php</link>
+    </item>
+    <item>
+      <title>The Choice </title>
+      <itunes:title>The Choice </itunes:title>
+      <description>You wake up in a city that feels unfamiliar and watch as neighbors choose to hunker down or head out. The aftershocks are unrelenting and you are almost out of clean water. Will you stay or will you go? </description>
+      <content:encoded><![CDATA[<p>You wake up in a city that feels unfamiliar and watch as neighbors choose to hunker down or head out. The aftershocks are unrelenting and you are almost out of clean water. Will you stay or will you go?&nbsp;</p>]]></content:encoded>
+      <itunes:summary>You wake up in a city that feels unfamiliar and watch as neighbors choose to hunker down or head out. The aftershocks are unrelenting and you are almost out of clean water. Will you stay or will you go? </itunes:summary>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>4</itunes:episode>
+      <itunes:author>KPCC | Southern California Public Radio</itunes:author>
+      <itunes:image href="https://www.omnycontent.com/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/95a0ba2f-2810-459a-a106-ab09010e1229/eb7cbffc-8f62-4f9b-aa9b-ab09010e51d3/image.jpg?t=1580255647&amp;size=Large" />
+      <media:content url="https://chtbl.com/track/84GC29/dts.podtrac.com/redirect.mp3/traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/95a0ba2f-2810-459a-a106-ab09010e1229/eb7cbffc-8f62-4f9b-aa9b-ab09010e51d3/audio.mp3?utm_source=Podcast&amp;in_playlist=89b076fd-9b08-4f8b-95b2-ab09010e123c" type="audio/mpeg">
+        <media:player url="https://omny.fm/shows/the-big-one-your-survival-guide/the-choice/embed" />
+      </media:content>
+      <media:content url="https://www.omnycontent.com/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/95a0ba2f-2810-459a-a106-ab09010e1229/eb7cbffc-8f62-4f9b-aa9b-ab09010e51d3/image.jpg?t=1580255647&amp;size=Large" type="image/jpeg" />
+      <guid isPermaLink="false">3da7c840-2174-11e9-879c-67228440058b</guid>
+      <omny:clipId>eb7cbffc-8f62-4f9b-aa9b-ab09010e51d3</omny:clipId>
+      <pubDate>Thu, 31 Jan 2019 08:00:00 +0000</pubDate>
+      <itunes:duration>1656</itunes:duration>
+      <enclosure url="https://chtbl.com/track/84GC29/dts.podtrac.com/redirect.mp3/traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/95a0ba2f-2810-459a-a106-ab09010e1229/eb7cbffc-8f62-4f9b-aa9b-ab09010e51d3/audio.mp3?utm_source=Podcast&amp;in_playlist=89b076fd-9b08-4f8b-95b2-ab09010e123c" length="26552166" type="audio/mpeg" />
+      <link>https://laist.com/podcasts/the-big-one.php</link>
+    </item>
+    <item>
+      <title>The Economy </title>
+      <itunes:title>The Economy </itunes:title>
+      <description>After the big one, the Los Angeles economy will be shook. Hollywood might be too big to fail but what does an economic hit like this mean for you? </description>
+      <content:encoded><![CDATA[<p>After the big one, the Los Angeles economy will be shook. Hollywood might be too big to fail but what does an economic hit like this mean for you?&nbsp;</p>]]></content:encoded>
+      <itunes:summary>After the big one, the Los Angeles economy will be shook. Hollywood might be too big to fail but what does an economic hit like this mean for you? </itunes:summary>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>5</itunes:episode>
+      <itunes:author>KPCC | Southern California Public Radio</itunes:author>
+      <itunes:image href="https://www.omnycontent.com/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/95a0ba2f-2810-459a-a106-ab09010e1229/feaf9899-5811-4ae2-8491-ab09010e4820/image.jpg?t=1580255652&amp;size=Large" />
+      <media:content url="https://chtbl.com/track/84GC29/dts.podtrac.com/redirect.mp3/traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/95a0ba2f-2810-459a-a106-ab09010e1229/feaf9899-5811-4ae2-8491-ab09010e4820/audio.mp3?utm_source=Podcast&amp;in_playlist=89b076fd-9b08-4f8b-95b2-ab09010e123c" type="audio/mpeg">
+        <media:player url="https://omny.fm/shows/the-big-one-your-survival-guide/the-economy/embed" />
+      </media:content>
+      <media:content url="https://www.omnycontent.com/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/95a0ba2f-2810-459a-a106-ab09010e1229/feaf9899-5811-4ae2-8491-ab09010e4820/image.jpg?t=1580255652&amp;size=Large" type="image/jpeg" />
+      <guid isPermaLink="false">b8768310-2965-11e9-8ec5-37c38bff1765</guid>
+      <omny:clipId>feaf9899-5811-4ae2-8491-ab09010e4820</omny:clipId>
+      <pubDate>Thu, 07 Feb 2019 08:00:00 +0000</pubDate>
+      <itunes:duration>1602</itunes:duration>
+      <enclosure url="https://chtbl.com/track/84GC29/dts.podtrac.com/redirect.mp3/traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/95a0ba2f-2810-459a-a106-ab09010e1229/feaf9899-5811-4ae2-8491-ab09010e4820/audio.mp3?utm_source=Podcast&amp;in_playlist=89b076fd-9b08-4f8b-95b2-ab09010e123c" length="25683013" type="audio/mpeg" />
+      <link>https://laist.com/podcasts/the-big-one.php</link>
+    </item>
+    <item>
+      <title>The Buildings </title>
+      <itunes:title>The Buildings </itunes:title>
+      <description>The Buildings Every day when you walk into work you assume your building is safe. What if it's not? We try to get answers about two 52-story towers in downtown L.A. built using construction methods that structural engineers no longer use. </description>
+      <content:encoded><![CDATA[<p>The Buildings Every day when you walk into work you assume your building is safe. What if it's not? We try to get answers about two 52-story towers in downtown L.A. built using construction methods that structural engineers no longer use.&nbsp;</p>]]></content:encoded>
+      <itunes:summary>The Buildings Every day when you walk into work you assume your building is safe. What if it's not? We try to get answers about two 52-story towers in downtown L.A. built using construction methods that structural engineers no longer use. </itunes:summary>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>6</itunes:episode>
+      <itunes:author>KPCC | Southern California Public Radio</itunes:author>
+      <itunes:image href="https://www.omnycontent.com/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/95a0ba2f-2810-459a-a106-ab09010e1229/a52c5cc0-889b-44ec-871a-ab09010e3e35/image.jpg?t=1580255665&amp;size=Large" />
+      <media:content url="https://chtbl.com/track/84GC29/dts.podtrac.com/redirect.mp3/traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/95a0ba2f-2810-459a-a106-ab09010e1229/a52c5cc0-889b-44ec-871a-ab09010e3e35/audio.mp3?utm_source=Podcast&amp;in_playlist=89b076fd-9b08-4f8b-95b2-ab09010e123c" type="audio/mpeg">
+        <media:player url="https://omny.fm/shows/the-big-one-your-survival-guide/the-buildings/embed" />
+      </media:content>
+      <media:content url="https://www.omnycontent.com/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/95a0ba2f-2810-459a-a106-ab09010e1229/a52c5cc0-889b-44ec-871a-ab09010e3e35/image.jpg?t=1580255665&amp;size=Large" type="image/jpeg" />
+      <guid isPermaLink="false">d4afc0c0-2ee0-11e9-8e84-8f780013f82a</guid>
+      <omny:clipId>a52c5cc0-889b-44ec-871a-ab09010e3e35</omny:clipId>
+      <pubDate>Thu, 14 Feb 2019 08:00:00 +0000</pubDate>
+      <itunes:duration>2094</itunes:duration>
+      <enclosure url="https://chtbl.com/track/84GC29/dts.podtrac.com/redirect.mp3/traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/95a0ba2f-2810-459a-a106-ab09010e1229/a52c5cc0-889b-44ec-871a-ab09010e3e35/audio.mp3?utm_source=Podcast&amp;in_playlist=89b076fd-9b08-4f8b-95b2-ab09010e123c" length="33556459" type="audio/mpeg" />
+      <link>https://laist.com/podcasts/the-big-one.php</link>
+    </item>
+    <item>
+      <title>The Plan </title>
+      <itunes:title>The Plan </itunes:title>
+      <description>After six months of research, Jacob finally makes an earthquake kit and ends up asleep outside in the rain on Christmas Eve. </description>
+      <content:encoded><![CDATA[<p>After six months of research, Jacob finally makes an earthquake kit and ends up asleep outside in the rain on Christmas Eve.&nbsp;</p>]]></content:encoded>
+      <itunes:summary>After six months of research, Jacob finally makes an earthquake kit and ends up asleep outside in the rain on Christmas Eve. </itunes:summary>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>7</itunes:episode>
+      <itunes:author>KPCC | Southern California Public Radio</itunes:author>
+      <itunes:image href="https://www.omnycontent.com/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/95a0ba2f-2810-459a-a106-ab09010e1229/fb7c5dde-6847-49d1-8833-ab09010e35a5/image.jpg?t=1580255682&amp;size=Large" />
+      <media:content url="https://chtbl.com/track/84GC29/dts.podtrac.com/redirect.mp3/traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/95a0ba2f-2810-459a-a106-ab09010e1229/fb7c5dde-6847-49d1-8833-ab09010e35a5/audio.mp3?utm_source=Podcast&amp;in_playlist=89b076fd-9b08-4f8b-95b2-ab09010e123c" type="audio/mpeg">
+        <media:player url="https://omny.fm/shows/the-big-one-your-survival-guide/the-plan/embed" />
+      </media:content>
+      <media:content url="https://www.omnycontent.com/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/95a0ba2f-2810-459a-a106-ab09010e1229/fb7c5dde-6847-49d1-8833-ab09010e35a5/image.jpg?t=1580255682&amp;size=Large" type="image/jpeg" />
+      <guid isPermaLink="false">20ab0b24-348b-11e9-b51b-07a01651df24</guid>
+      <omny:clipId>fb7c5dde-6847-49d1-8833-ab09010e35a5</omny:clipId>
+      <pubDate>Thu, 21 Feb 2019 08:00:00 +0000</pubDate>
+      <itunes:duration>1681</itunes:duration>
+      <enclosure url="https://chtbl.com/track/84GC29/dts.podtrac.com/redirect.mp3/traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/95a0ba2f-2810-459a-a106-ab09010e1229/fb7c5dde-6847-49d1-8833-ab09010e35a5/audio.mp3?utm_source=Podcast&amp;in_playlist=89b076fd-9b08-4f8b-95b2-ab09010e123c" length="26947164" type="audio/mpeg" />
+      <link>https://laist.com/podcasts/the-big-one.php</link>
+    </item>
+    <item>
+      <title>The Lessons </title>
+      <itunes:title>The Lessons </itunes:title>
+      <description>In this episode, a rat learns to skateboard and we learn how our brain processes (or doesn't) the idea of a big one. </description>
+      <content:encoded><![CDATA[<p>In this episode, a rat learns to skateboard and we learn how our brain processes (or doesn't) the idea of a big one.&nbsp;</p>]]></content:encoded>
+      <itunes:summary>In this episode, a rat learns to skateboard and we learn how our brain processes (or doesn't) the idea of a big one. </itunes:summary>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>8</itunes:episode>
+      <itunes:author>KPCC | Southern California Public Radio</itunes:author>
+      <itunes:image href="https://www.omnycontent.com/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/95a0ba2f-2810-459a-a106-ab09010e1229/bbe814a5-c788-4134-a6ce-ab09010e2b81/image.jpg?t=1580255701&amp;size=Large" />
+      <media:content url="https://chtbl.com/track/84GC29/dts.podtrac.com/redirect.mp3/traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/95a0ba2f-2810-459a-a106-ab09010e1229/bbe814a5-c788-4134-a6ce-ab09010e2b81/audio.mp3?utm_source=Podcast&amp;in_playlist=89b076fd-9b08-4f8b-95b2-ab09010e123c" type="audio/mpeg">
+        <media:player url="https://omny.fm/shows/the-big-one-your-survival-guide/the-lessons/embed" />
+      </media:content>
+      <media:content url="https://www.omnycontent.com/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/95a0ba2f-2810-459a-a106-ab09010e1229/bbe814a5-c788-4134-a6ce-ab09010e2b81/image.jpg?t=1580255701&amp;size=Large" type="image/jpeg" />
+      <guid isPermaLink="false">797fe42a-396a-11e9-bc71-43f220f00051</guid>
+      <omny:clipId>bbe814a5-c788-4134-a6ce-ab09010e2b81</omny:clipId>
+      <pubDate>Thu, 28 Feb 2019 08:00:00 +0000</pubDate>
+      <itunes:duration>2320</itunes:duration>
+      <enclosure url="https://chtbl.com/track/84GC29/dts.podtrac.com/redirect.mp3/traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/95a0ba2f-2810-459a-a106-ab09010e1229/bbe814a5-c788-4134-a6ce-ab09010e2b81/audio.mp3?utm_source=Podcast&amp;in_playlist=89b076fd-9b08-4f8b-95b2-ab09010e123c" length="37166011" type="audio/mpeg" />
+      <link>https://laist.com/podcasts/the-big-one.php</link>
+    </item>
+    <item>
+      <title>The Perfect World </title>
+      <itunes:title>The Perfect World </itunes:title>
+      <description>We’re back at Union Station, moments before the Big One hits, but this time you, our hero, and the city are prepared. And then back to reality and the team from TBOYSG reflect on the lessons they have learned while making the show. </description>
+      <content:encoded><![CDATA[<p>We&rsquo;re back at Union Station, moments before the Big One hits, but this time you, our hero, and the city are prepared. And then back to reality and the team from TBOYSG reflect on the lessons they have learned while making the show.&nbsp;</p>]]></content:encoded>
+      <itunes:summary>We’re back at Union Station, moments before the Big One hits, but this time you, our hero, and the city are prepared. And then back to reality and the team from TBOYSG reflect on the lessons they have learned while making the show. </itunes:summary>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>9</itunes:episode>
+      <itunes:author>KPCC | Southern California Public Radio</itunes:author>
+      <itunes:image href="https://www.omnycontent.com/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/95a0ba2f-2810-459a-a106-ab09010e1229/beed3ef7-ac35-4fac-a310-ab09010e22e4/image.jpg?t=1580255719&amp;size=Large" />
+      <media:content url="https://chtbl.com/track/84GC29/dts.podtrac.com/redirect.mp3/traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/95a0ba2f-2810-459a-a106-ab09010e1229/beed3ef7-ac35-4fac-a310-ab09010e22e4/audio.mp3?utm_source=Podcast&amp;in_playlist=89b076fd-9b08-4f8b-95b2-ab09010e123c" type="audio/mpeg">
+        <media:player url="https://omny.fm/shows/the-big-one-your-survival-guide/the-perfect-world/embed" />
+      </media:content>
+      <media:content url="https://www.omnycontent.com/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/95a0ba2f-2810-459a-a106-ab09010e1229/beed3ef7-ac35-4fac-a310-ab09010e22e4/image.jpg?t=1580255719&amp;size=Large" type="image/jpeg" />
+      <guid isPermaLink="false">14ede6ea-3ecb-11e9-a3a6-5bca7f9c0545</guid>
+      <omny:clipId>beed3ef7-ac35-4fac-a310-ab09010e22e4</omny:clipId>
+      <pubDate>Thu, 07 Mar 2019 08:00:00 +0000</pubDate>
+      <itunes:duration>1570</itunes:duration>
+      <enclosure url="https://chtbl.com/track/84GC29/dts.podtrac.com/redirect.mp3/traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/95a0ba2f-2810-459a-a106-ab09010e1229/beed3ef7-ac35-4fac-a310-ab09010e22e4/audio.mp3?utm_source=Podcast&amp;in_playlist=89b076fd-9b08-4f8b-95b2-ab09010e123c" length="25187677" type="audio/mpeg" />
+      <link>https://laist.com/podcasts/the-big-one.php</link>
+    </item>
+    <item>
+      <title>The Wake-up Call </title>
+      <itunes:title>The Wake-up Call </itunes:title>
+      <description>For the first time in a generation, a pair of big earthquakes shook Southern Californians. If you felt it  -- or even just heard about it -- you may have some questions. In this episode lead producer, Misha Euceph gets answers from hometown hero, seismologist Dr. Lucy Jones.</description>
+      <content:encoded><![CDATA[<p>For the first time in a generation, a pair of big earthquakes shook Southern Californians. If you felt it  -- or even just heard about it -- you may have some questions. In this episode lead producer, Misha Euceph gets answers from hometown hero, seismologist Dr. Lucy Jones.</p>]]></content:encoded>
+      <itunes:summary>lessons learned from our recent big one.</itunes:summary>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>10</itunes:episode>
+      <itunes:author>KPCC | Southern California Public Radio</itunes:author>
+      <itunes:image href="https://www.omnycontent.com/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/95a0ba2f-2810-459a-a106-ab09010e1229/e4dc908d-2c65-49a9-96ee-ab09010e1686/image.jpg?t=1580255552&amp;size=Large" />
+      <media:content url="https://chtbl.com/track/84GC29/dts.podtrac.com/redirect.mp3/traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/95a0ba2f-2810-459a-a106-ab09010e1229/e4dc908d-2c65-49a9-96ee-ab09010e1686/audio.mp3?utm_source=Podcast&amp;in_playlist=89b076fd-9b08-4f8b-95b2-ab09010e123c" type="audio/mpeg">
+        <media:player url="https://omny.fm/shows/the-big-one-your-survival-guide/the-wake-up-call/embed" />
+      </media:content>
+      <media:content url="https://www.omnycontent.com/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/95a0ba2f-2810-459a-a106-ab09010e1229/e4dc908d-2c65-49a9-96ee-ab09010e1686/image.jpg?t=1580255552&amp;size=Large" type="image/jpeg" />
+      <guid isPermaLink="false">b7cee008-aa82-11e9-ada9-ffe1cea45460</guid>
+      <omny:clipId>e4dc908d-2c65-49a9-96ee-ab09010e1686</omny:clipId>
+      <pubDate>Mon, 22 Jul 2019 07:00:00 +0000</pubDate>
+      <itunes:duration>872</itunes:duration>
+      <enclosure url="https://chtbl.com/track/84GC29/dts.podtrac.com/redirect.mp3/traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/95a0ba2f-2810-459a-a106-ab09010e1229/e4dc908d-2c65-49a9-96ee-ab09010e1686/audio.mp3?utm_source=Podcast&amp;in_playlist=89b076fd-9b08-4f8b-95b2-ab09010e123c" length="14020549" type="audio/mpeg" />
+      <link>https://laist.com/podcasts/the-big-one.php</link>
+    </item>
+    <item>
+      <title>Introducing WILD by LAist Studios</title>
+      <itunes:title>Introducing WILD by LAist Studios</itunes:title>
+      <description>Introducing WILD by LAist Studios, a podcast about origin stories. About those moments big and small that transform people forever. Season 1 of WILD: Home Forever is a time capsule of these kinds of moments captured during a global pandemic that left a lot of us "growing up" again while stuck at home for more than a year.
+
+In episode 1, we meet Daisy Figueroa who went back to her childhood home and decides to transform it. In the process, she creates her own business and redefines the standard of living for people in her community. 
+
+Sponsors include:
+
+Match with a licensed therapist when you go to talkspace.com and get $100 off your first month with the promo code WILD.
+
+This program is made possible in part by the Corporation for Public Broadcasting, a private corporation funded by the American people.</description>
+      <content:encoded><![CDATA[<p>Introducing WILD by LAist Studios, a podcast about origin stories. About those moments big and small that transform people forever. Season 1 of WILD: Home Forever is a time capsule of these kinds of moments captured during a global pandemic that left a lot of us "growing up" again while stuck at home for more than a year.</p>
+<p>In episode 1, we meet Daisy Figueroa who went back to her childhood home and decides to transform it. In the process, she creates her own business and redefines the standard of living for people in her community.&nbsp;</p>
+<p>Sponsors include:</p>
+<p>Match with a licensed therapist when you go to talkspace.com and get $100 off your first month with the promo code WILD.</p>
+<p>This program is made possible in part by the Corporation for Public Broadcasting, a private corporation funded by the American people.</p>]]></content:encoded>
+      <itunes:summary>Introducing WILD by LAist Studios, a podcast about origin stories. About those moments big and small that transform people forever. Season 1 of WILD: Home Forever is a time capsule of these kinds of moments captured during a global pandemic that left a lot of us "growing up" again while stuck at home for more than a year.
+
+In episode 1, we meet Daisy Figueroa who went back to her childhood home and decides to transform it. In the process, she creates her own business and redefines the standard of living for people in her community. 
+
+Sponsors include:
+
+Match with a licensed therapist when you go to talkspace.com and get $100 off your first month with the promo code WILD.
+
+This program is made possible in part by the Corporation for Public Broadcasting, a private corporation funded by the American people.</itunes:summary>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:author>KPCC | Southern California Public Radio</itunes:author>
+      <itunes:image href="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/95a0ba2f-2810-459a-a106-ab09010e1229/89b076fd-9b08-4f8b-95b2-ab09010e123c/image.jpg?t=1574094199&amp;size=Large" />
+      <media:content url="https://chtbl.com/track/84GC29/dts.podtrac.com/redirect.mp3/traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/95a0ba2f-2810-459a-a106-ab09010e1229/99844a4f-7673-4725-b47a-ad550125ebcc/audio.mp3?utm_source=Podcast&amp;in_playlist=89b076fd-9b08-4f8b-95b2-ab09010e123c" type="audio/mpeg">
+        <media:player url="https://omny.fm/shows/the-big-one-your-survival-guide/introducing-wild-by-laist-studios/embed" />
+      </media:content>
+      <media:content url="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/95a0ba2f-2810-459a-a106-ab09010e1229/89b076fd-9b08-4f8b-95b2-ab09010e123c/image.jpg?t=1574094199&amp;size=Large" type="image/jpeg" />
+      <guid isPermaLink="false">99844a4f-7673-4725-b47a-ad550125ebcc</guid>
+      <omny:clipId>99844a4f-7673-4725-b47a-ad550125ebcc</omny:clipId>
+      <pubDate>Thu, 08 Jul 2021 09:30:00 +0000</pubDate>
+      <itunes:duration>2064</itunes:duration>
+      <enclosure url="https://chtbl.com/track/84GC29/dts.podtrac.com/redirect.mp3/traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/95a0ba2f-2810-459a-a106-ab09010e1229/99844a4f-7673-4725-b47a-ad550125ebcc/audio.mp3?utm_source=Podcast&amp;in_playlist=89b076fd-9b08-4f8b-95b2-ab09010e123c" length="33078203" type="audio/mpeg" />
+      <link>https://laist.com/wild</link>
+      <itunes:explicit>yes</itunes:explicit>
+    </item>
+  </channel>
+</rss>

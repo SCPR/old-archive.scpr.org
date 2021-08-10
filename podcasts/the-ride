@@ -1,0 +1,24 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+  <channel>
+    <title>The Ride Special Series</title>
+    <link>http://www.scpr.org/programs/the-ride/</link>
+    <atom:link href="http://www.scpr.org/programs/the-ride/" rel="alternate"/>
+    <atom:link href="https://www.scpr.org/podcasts/the-ride" rel="self" type="application/rss+xml"/>
+    <language>en-us</language>
+    <description>Susan Carpenter and Alonzo Bodden host KPCC&amp;#39;s special series on modern mobility. Cars, bicycles, trains, buses, motorbikes. If you can ride in it, or on it, we&amp;#39;re talking about it.</description>
+    <image>
+      <url>http://media.scpr.org/assets/images/podcasts/kpcc-podcast-cover-theride.jpg</url>
+      <title>The Ride Special Series</title>
+      <link>http://www.scpr.org/programs/the-ride/</link>
+    </image>
+    <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+    <itunes:summary>Susan Carpenter and Alonzo Bodden host KPCC&amp;#39;s special series on modern mobility. Cars, bicycles, trains, buses, motorbikes. If you can ride in it, or on it, we&amp;#39;re talking about it.</itunes:summary>
+    <itunes:category text="Automotive"/>
+    <itunes:owner>
+      <itunes:name>KPCC 89.3 | Southern California Public Radio</itunes:name>
+      <itunes:email>contact@kpcc.org</itunes:email>
+    </itunes:owner>
+    <itunes:image href="http://media.scpr.org/assets/images/podcasts/kpcc-podcast-cover-theride.jpg"/>
+    <itunes:explicit>no</itunes:explicit>
+  </channel>
+</rss>

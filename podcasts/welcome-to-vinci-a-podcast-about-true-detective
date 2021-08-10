@@ -1,0 +1,156 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+  <channel>
+    <title>Welcome to Vinci, a podcast about True Detective</title>
+    <link>https://www.scpr.org/programs/welcome-to-vinci/</link>
+    <atom:link href="https://www.scpr.org/programs/welcome-to-vinci/" rel="alternate"/>
+    <atom:link href="https://www.scpr.org/podcasts/welcome-to-vinci-a-podcast-about-true-detective" rel="self" type="application/rss+xml"/>
+    <language>en-us</language>
+    <description>HBO’s True Detective is a drama steeped in crime and mystery, but it’s also a show that made the Louisiana bayou a character as unforgettable as Rust Cohle or Marty Hart. The show comes to California for its second season and stars Colin Farrell and Vince Vaughn. In this podcast, the journalists of Southern California Public Radio tell you what real-life stories in and around Los Angeles inspired creator Nic Pizzolatto as he wrote the script for the new season. Go behind the scenes of the locations featured and get hints about what’s to come.</description>
+    <image>
+      <url>https://media.scpr.org/assets/images/podcasts/kpcc-podcast-cover-welcometovinci.jpg</url>
+      <title>Welcome to Vinci, a podcast about True Detective</title>
+      <link>https://www.scpr.org/programs/welcome-to-vinci/</link>
+    </image>
+    <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+    <itunes:summary>HBO’s True Detective is a drama steeped in crime and mystery, but it’s also a show that made the Louisiana bayou a character as unforgettable as Rust Cohle or Marty Hart. The show comes to California for its second season and stars Colin Farrell and Vince Vaughn. In this podcast, the journalists of Southern California Public Radio tell you what real-life stories in and around Los Angeles inspired creator Nic Pizzolatto as he wrote the script for the new season. Go behind the scenes of the locations featured and get hints about what’s to come.</itunes:summary>
+    <itunes:category text="TV &amp; Film"/>
+    <itunes:owner>
+      <itunes:name>KPCC 89.3 | Southern California Public Radio</itunes:name>
+      <itunes:email>contact@kpcc.org</itunes:email>
+    </itunes:owner>
+    <itunes:image href="https://media.scpr.org/assets/images/podcasts/kpcc-podcast-cover-welcometovinci.jpg"/>
+    <itunes:explicit>no</itunes:explicit>
+    <item>
+      <title>This is where it ends</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>The main characters go hurtling across California as season two comes to an end. We'll take you to the big trees, a place really called "Dry Soggy Lake and Southern California's newest transit hub, seen for the first time on screen in "True Detective."</itunes:summary>
+      <description>The main characters go hurtling across California as season two comes to an end. We'll take you to the big trees, a place really called "Dry Soggy Lake and Southern California's newest transit hub, seen for the first time on screen in "True Detective."</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/welcome-to-vinci/2015/08/09/11867/</guid>
+      <pubDate>Mon, 10 Aug 2015 05:46:00 GMT</pubDate>
+      <itunes:keywords>Nic Pizzolatto, Colin Farrell, Vince Vaughn, Rachel McAdams, taylor kitsch, Los Angeles, LA, HBO, drama, noir, California, Vernon, </itunes:keywords>
+      <link>https://www.scpr.org/programs/welcome-to-vinci/2015/08/09/11867/</link>
+      <enclosure url="http://media.scpr.org/audio/upload/2015/08/10/Welcome_to_Vinci_-_8_v3-8672bd9e.mp3?context=welcome-to-vinci&amp;via=podcast" length="19257600" type="audio/mpeg"/>
+      <itunes:duration>1199</itunes:duration>
+    </item>
+    <item>
+      <title>Dead, hiding or on fire</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>Officer Paul Woodrugh and State Attorney Katherine Davis are dead as we careen towards the final episode. Hear from Michael Hyatt, the actor who played Davis, about how secretive the show was with its scripts and why she's often cast in crime dramas. Plus Grantland's Chris Ryan and Tom Explores Los Angeles. </itunes:summary>
+      <description>Officer Paul Woodrugh and State Attorney Katherine Davis are dead as we careen towards the final episode. Hear from Michael Hyatt, the actor who played Davis, about how secretive the show was with its scripts and why she's often cast in crime dramas. Plus Grantland's Chris Ryan and Tom Explores Los Angeles. </description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/welcome-to-vinci/2015/08/02/11828/</guid>
+      <pubDate>Mon, 03 Aug 2015 04:33:00 GMT</pubDate>
+      <itunes:keywords>Nic Pizzolatto, Colin Farrell, Vince Vaughn, Rachel McAdams, taylor kitsch, Los Angeles, LA, HBO, drama, noir, California, Vernon, </itunes:keywords>
+      <link>https://www.scpr.org/programs/welcome-to-vinci/2015/08/02/11828/</link>
+      <enclosure url="http://media.scpr.org/audio/upload/2015/08/02/Welcome_to_Vinci_-_7_v2-6e13b417.mp3?context=welcome-to-vinci&amp;via=podcast" length="25500288" type="audio/mpeg"/>
+      <itunes:duration>1589</itunes:duration>
+    </item>
+    <item>
+      <title>Santa Muerte, sex party history and the LA Riots</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>Tonight's episode has lots of ties to real L.A. history. We'll talk about legendary Hollywood orgies and girls, girls, girls with Karina Longworth. We'll also go to a real life Santa Muerte temple in LA to hear about why the darker characters of "True Detective" are name-checking this spirit. And we watch with Matt Gourley of "I Was There Too" who starts thinking about the LA riots, "Eyes Wide Shut" and Mt Baldy.</itunes:summary>
+      <description>Tonight's episode has lots of ties to real L.A. history. We'll talk about legendary Hollywood orgies and girls, girls, girls with Karina Longworth. We'll also go to a real life Santa Muerte temple in LA to hear about why the darker characters of "True Detective" are name-checking this spirit. And we watch with Matt Gourley of "I Was There Too" who starts thinking about the LA riots, "Eyes Wide Shut" and Mt Baldy.</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/welcome-to-vinci/2015/07/26/11793/</guid>
+      <pubDate>Mon, 27 Jul 2015 06:26:00 GMT</pubDate>
+      <itunes:keywords>Nic Pizzolatto, Colin Farrell, Vince Vaughn, Rachel McAdams, taylor kitsch, Los Angeles, LA, HBO, drama, noir, California, Vernon, </itunes:keywords>
+      <link>https://www.scpr.org/programs/welcome-to-vinci/2015/07/26/11793/</link>
+      <enclosure url="http://media.scpr.org/audio/upload/2015/07/26/Welcome_to_Vinci_-_6-4e48bf76.mp3?context=welcome-to-vinci&amp;via=podcast" length="20610816" type="audio/mpeg"/>
+      <itunes:duration>1284</itunes:duration>
+    </item>
+    <item>
+      <title>Moving day</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>We'll talk about Frank Semyon's modest new house in Glendale and go deep on the long, sordid history of high speed rail in California.</itunes:summary>
+      <description>We'll talk about Frank Semyon's modest new house in Glendale and go deep on the long, sordid history of high speed rail in California.</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/welcome-to-vinci/2015/07/20/11766/</guid>
+      <pubDate>Mon, 20 Jul 2015 16:00:00 GMT</pubDate>
+      <itunes:keywords>Nic Pizzolatto, Colin Farrell, Vince Vaughn, Rachel McAdams, taylor kitsch, Los Angeles, LA, HBO, drama, noir, California, Vernon, </itunes:keywords>
+      <link>https://www.scpr.org/programs/welcome-to-vinci/2015/07/20/11766/</link>
+      <enclosure url="http://media.scpr.org/audio/upload/2015/07/20/Welcome_to_Vinci_-_5-4146e3fe.mp3?context=welcome-to-vinci&amp;via=podcast" length="21956736" type="audio/mpeg"/>
+      <itunes:duration>1368</itunes:duration>
+    </item>
+    <item>
+      <title>Location, location, location</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>There is a field of wooden stakes with pink ribbons. A bar where the Velcoro men like to drink and talk. A mansion where Frank Semyon stylishly plots. These are all real places in Southern California and we have tracked them down with the help of Caleb Duffy, one of the masterminds behind "True Detective's" locations for this season. Also, we knock on Detective Ray Velcoro's door and interview the lovely person who answers.  We've also mapped more locations here: http://projects.scpr.org/maps/welcome-to-vinci/</itunes:summary>
+      <description>There is a field of wooden stakes with pink ribbons. A bar where the Velcoro men like to drink and talk. A mansion where Frank Semyon stylishly plots. These are all real places in Southern California and we have tracked them down with the help of Caleb Duffy, one of the masterminds behind "True Detective's" locations for this season. Also, we knock on Detective Ray Velcoro's door and interview the lovely person who answers.  We've also mapped more locations here: http://projects.scpr.org/maps/welcome-to-vinci/</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/welcome-to-vinci/2015/07/12/11743/</guid>
+      <pubDate>Mon, 13 Jul 2015 00:58:00 GMT</pubDate>
+      <itunes:keywords>Nic Pizzolatto, Colin Farrell, Vince Vaughn, Rachel McAdams, taylor kitsch, Los Angeles, LA, HBO, drama, noir, California, Vernon, </itunes:keywords>
+      <link>https://www.scpr.org/programs/welcome-to-vinci/2015/07/12/11743/</link>
+      <enclosure url="http://media.scpr.org/audio/upload/2015/07/12/Welcome_to_Vinci_-_4-68bfa3b6.mp3?context=welcome-to-vinci&amp;via=podcast" length="15298560" type="audio/mpeg"/>
+      <itunes:duration>952</itunes:duration>
+    </item>
+    <item>
+      <title>Good old police days</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>Detective Ray Velcoro lives and we talk to a real LA trauma surgeon about how it could have happened. Plus a cultural history of cops from Tom Explores Los Angeles and author Joe Domanick brings an LAPD history lesson covering Daryl Gates, decades of corruption and why "there ain't no PD anymore."</itunes:summary>
+      <description>Detective Ray Velcoro lives and we talk to a real LA trauma surgeon about how it could have happened. Plus a cultural history of cops from Tom Explores Los Angeles and author Joe Domanick brings an LAPD history lesson covering Daryl Gates, decades of corruption and why "there ain't no PD anymore."</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/welcome-to-vinci/2015/07/05/11721/</guid>
+      <pubDate>Mon, 06 Jul 2015 01:05:00 GMT</pubDate>
+      <itunes:keywords>Nic Pizzolatto, Colin Farrell, Vince Vaughn, Rachel McAdams, taylor kitsch, Los Angeles, LA, HBO, drama, noir, California, Vernon, </itunes:keywords>
+      <link>https://www.scpr.org/programs/welcome-to-vinci/2015/07/05/11721/</link>
+      <enclosure url="http://media.scpr.org/audio/upload/2015/07/05/Welcome_to_Vinci_-_3_retrack-f1638f45.mp3?context=welcome-to-vinci&amp;via=podcast" length="18096384" type="audio/mpeg"/>
+      <itunes:duration>1126</itunes:duration>
+    </item>
+    <item>
+      <title>Shotgun talk</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>Ray Velcoro got two in the chest from someone in a crow mask. We wanted to know what the chances are that we'll see him in the next episode. So we asked a man who knows guns, bullets and death.</itunes:summary>
+      <description>Ray Velcoro got two in the chest from someone in a crow mask. We wanted to know what the chances are that we'll see him in the next episode. So we asked a man who knows guns, bullets and death.</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/welcome-to-vinci/2015/06/30/11696/</guid>
+      <pubDate>Tue, 30 Jun 2015 18:05:00 GMT</pubDate>
+      <itunes:keywords>Nic Pizzolatto, Colin Farrell, Vince Vaughn, Rachel McAdams, taylor kitsch, Los Angeles, LA, HBO, drama, noir, California, Vernon, </itunes:keywords>
+      <link>https://www.scpr.org/programs/welcome-to-vinci/2015/06/30/11696/</link>
+      <enclosure url="http://media.scpr.org/audio/upload/2015/06/30/Shotgun_talk_v2_cc-0c9cf27e.mp3?context=welcome-to-vinci&amp;via=podcast" length="3463536" type="audio/mpeg"/>
+      <itunes:duration>288</itunes:duration>
+    </item>
+    <item>
+      <title>Vinci plays itself</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>Did Det. Ray Velcoro just die? We talk to creative director Patrick Clair and photographer David Maisel about the show's opening sequence. Plus, Tom Explores Los Angeles explains Vernon's (short) history in pop culture. Real-life city manager and author D. J. Waldie tells us what looks real and what doesn't in the show. And where is the microwave radio-relay skyway in the show?</itunes:summary>
+      <description>Did Det. Ray Velcoro just die? We talk to creative director Patrick Clair and photographer David Maisel about the show's opening sequence. Plus, Tom Explores Los Angeles explains Vernon's (short) history in pop culture. Real-life city manager and author D. J. Waldie tells us what looks real and what doesn't in the show. And where is the microwave radio-relay skyway in the show?</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/welcome-to-vinci/2015/06/28/11690/</guid>
+      <pubDate>Mon, 29 Jun 2015 01:55:00 GMT</pubDate>
+      <itunes:keywords>Nic Pizzolatto, Colin Farrell, Vince Vaughn, Rachel McAdams, taylor kitsch, Los Angeles, LA, HBO, drama, noir, California, Vernon, </itunes:keywords>
+      <link>https://www.scpr.org/programs/welcome-to-vinci/2015/06/28/11690/</link>
+      <enclosure url="http://media.scpr.org/audio/upload/2015/06/28/Welcome_to_Vinci_-_2_-_clip_fix-48a9d51a.mp3?context=welcome-to-vinci&amp;via=podcast" length="28297728" type="audio/mpeg"/>
+      <itunes:duration>1764</itunes:duration>
+    </item>
+    <item>
+      <title>Extra: Are goons a real thing?</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>Reporting on Vernon, the city that inspires parts of Vinci in "True Detective, could be a profession that brings you the wrong kind of attention.</itunes:summary>
+      <description>Reporting on Vernon, the city that inspires parts of Vinci in "True Detective, could be a profession that brings you the wrong kind of attention.</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/welcome-to-vinci/2015/06/25/11683/</guid>
+      <pubDate>Thu, 25 Jun 2015 18:47:00 GMT</pubDate>
+      <itunes:keywords>Nic Pizzolatto, Colin Farrell, Vince Vaughn, Rachel McAdams, taylor kitsch, Los Angeles, LA, HBO, drama, noir, California, Vernon, </itunes:keywords>
+      <link>https://www.scpr.org/programs/welcome-to-vinci/2015/06/25/11683/</link>
+      <enclosure url="http://media.scpr.org/audio/upload/2015/06/25/Welcome_to_Vinci_-_1.5-1156bcb5.mp3?context=welcome-to-vinci&amp;via=podcast" length="3514752" type="audio/mpeg"/>
+      <itunes:duration>215</itunes:duration>
+    </item>
+    <item>
+      <title>What the F is Vinci?</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>In the new season of HBO's noir TV series, Colin Farrell's Det. Ray Velcoro works for the fictional city of Vinci, a city with a lot of secrets. We take a look at its real-life inspiration. (Spoilers!)</itunes:summary>
+      <description>In the new season of HBO's noir TV series, Colin Farrell's Det. Ray Velcoro works for the fictional city of Vinci, a city with a lot of secrets. We take a look at its real-life inspiration. (Spoilers!)</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/welcome-to-vinci/2015/06/21/11668/</guid>
+      <pubDate>Mon, 22 Jun 2015 04:00:00 GMT</pubDate>
+      <itunes:keywords>Nic Pizzolatto, Colin Farrell, Vince Vaughn, Rachel McAdams, taylor kitsch, Los Angeles, LA, HBO, drama, noir, California, Vernon, </itunes:keywords>
+      <link>https://www.scpr.org/programs/welcome-to-vinci/2015/06/21/11668/</link>
+      <enclosure url="http://media.scpr.org/audio/upload/2015/06/21/WTV_Pilot_-_w_Intro-435b180b.mp3?context=welcome-to-vinci&amp;via=podcast" length="19142400" type="audio/mpeg"/>
+      <itunes:duration>1192</itunes:duration>
+    </item>
+    <item>
+      <title>KPCC's new 'True Detective' podcast about California</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>When we heard the second season of True Detective was set to take place in Southern California, our ears started burning - one of HBO's best shows is in our back yard!</itunes:summary>
+      <description>When we heard the second season of True Detective was set to take place in Southern California, our ears started burning - one of HBO's best shows is in our back yard!</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/welcome-to-vinci/2015/06/18/11662/</guid>
+      <pubDate>Fri, 19 Jun 2015 00:19:00 GMT</pubDate>
+      <itunes:keywords>Nic Pizzolatto, Colin Farrell, Vince Vaughn, Rachel McAdams, taylor kitsch, Los Angeles, LA, HBO, drama, noir, California, Vernon, </itunes:keywords>
+      <link>https://www.scpr.org/programs/welcome-to-vinci/2015/06/18/11662/</link>
+      <enclosure url="http://media.scpr.org/audio/upload/2015/06/18/Welcome_to_Vinci_TEASER_bnce2-67c6b000.mp3?context=welcome-to-vinci&amp;via=podcast" length="955188" type="audio/mpeg"/>
+      <itunes:duration>79</itunes:duration>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,504 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+  <channel>
+    <title>The Ride</title>
+    <link>https://www.scpr.org/programs/the-ride/</link>
+    <atom:link href="https://www.scpr.org/programs/the-ride/" rel="alternate"/>
+    <atom:link href="https://www.scpr.org/podcasts/wheel-thing" rel="self" type="application/rss+xml"/>
+    <language>en-us</language>
+    <description>Susan Carpenter and Alonzo Bodden host KPCC&amp;#39;s weekly series on modern mobility. Cars, bicycles, trains, buses, motorbikes. If you can ride in it, or on it, we&amp;#39;re talking about it. </description>
+    <image>
+      <url>https://media.scpr.org/assets/images/podcasts/kpcc-podcast-cover-theride.jpg</url>
+      <title>The Ride</title>
+      <link>https://www.scpr.org/programs/the-ride/</link>
+    </image>
+    <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+    <itunes:summary>Susan Carpenter and Alonzo Bodden host KPCC&amp;#39;s weekly series on modern mobility. Cars, bicycles, trains, buses, motorbikes. If you can ride in it, or on it, we&amp;#39;re talking about it. </itunes:summary>
+    <itunes:category text="Automotive"/>
+    <itunes:owner>
+      <itunes:name>KPCC 89.3 | Southern California Public Radio</itunes:name>
+      <itunes:email>contact@kpcc.org</itunes:email>
+    </itunes:owner>
+    <itunes:image href="https://media.scpr.org/assets/images/podcasts/kpcc-podcast-cover-theride.jpg"/>
+    <itunes:explicit>no</itunes:explicit>
+    <item>
+      <title>The Ride: tackling the last mile of car-lessness </title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>The Ride's Sue Carpenter finds out about one major impediment to public transportation - getting to and from public transportation. </itunes:summary>
+      <description>The Ride's Sue Carpenter finds out about one major impediment to public transportation - getting to and from public transportation. </description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/the-ride/2016/10/27/14559/</guid>
+      <pubDate>Thu, 27 Oct 2016 21:38:00 GMT</pubDate>
+      <itunes:keywords>KPCC, Cars, Automobiles, Transportation, Los Angeles, Southern California, LA</itunes:keywords>
+      <link>https://www.scpr.org/programs/the-ride/2016/10/27/14559/</link>
+      <enclosure url="https://media.scpr.org/podcasts/upload/2016/10/27/Audio_1_01-f7088a99.mp3?context=the-ride&amp;via=podcast" length="13315259" type="audio/mpeg"/>
+      <itunes:duration>332</itunes:duration>
+    </item>
+    <item>
+      <title>The Ride: Tesla goes self driving and continuing the adventures of decarification </title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>The Ride's Sue Carpenter continues her adventures with carlessness</itunes:summary>
+      <description>The Ride's Sue Carpenter continues her adventures with carlessness</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/the-ride/2016/10/20/14491/</guid>
+      <pubDate>Thu, 20 Oct 2016 21:04:00 GMT</pubDate>
+      <itunes:keywords>KPCC, Cars, Automobiles, Transportation, Los Angeles, Southern California, LA</itunes:keywords>
+      <link>https://www.scpr.org/programs/the-ride/2016/10/20/14491/</link>
+      <enclosure url="https://media.scpr.org/podcasts/upload/2016/10/20/Audio_4_01-e3cc10b7.mp3?context=the-ride&amp;via=podcast" length="28561835" type="audio/mpeg"/>
+      <itunes:duration>714</itunes:duration>
+    </item>
+    <item>
+      <title>Motorbike of the future, Car-free in LA, Transit initiatives on Nov. ballot</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>No helmet needed, won't tip. BMW's motorbike of the future. Sue's continuing adventure living without a car. 70-something transit plans on ballots nationwide.</itunes:summary>
+      <description>No helmet needed, won't tip. BMW's motorbike of the future. Sue's continuing adventure living without a car. 70-something transit plans on ballots nationwide.</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/the-ride/2016/10/13/14469/</guid>
+      <pubDate>Thu, 13 Oct 2016 21:33:00 GMT</pubDate>
+      <itunes:keywords>KPCC, Cars, Automobiles, Transportation, Los Angeles, Southern California, LA</itunes:keywords>
+      <link>https://www.scpr.org/programs/the-ride/2016/10/13/14469/</link>
+      <enclosure url="https://media.scpr.org/podcasts/upload/2016/10/13/ride101316-f34d8780.mp3?context=the-ride&amp;via=podcast" length="44671912" type="audio/mpeg"/>
+      <itunes:duration>1395</itunes:duration>
+    </item>
+    <item>
+      <title>Living in LA without a car, the Top Gear guys talk about their new show</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>Sue swears off her vehicle for a month to find out how painful it is getting around LA without it. And the Top Gear stars tell her about their new show.</itunes:summary>
+      <description>Sue swears off her vehicle for a month to find out how painful it is getting around LA without it. And the Top Gear stars tell her about their new show.</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/the-ride/2016/10/06/14432/</guid>
+      <pubDate>Thu, 06 Oct 2016 20:35:00 GMT</pubDate>
+      <itunes:keywords>KPCC, Cars, Automobiles, Transportation, Los Angeles, Southern California, LA</itunes:keywords>
+      <link>https://www.scpr.org/programs/the-ride/2016/10/06/14432/</link>
+      <enclosure url="https://media.scpr.org/podcasts/upload/2016/10/06/ride100616-a92c6ee7.mp3?context=the-ride&amp;via=podcast" length="42199477" type="audio/mpeg"/>
+      <itunes:duration>1318</itunes:duration>
+    </item>
+    <item>
+      <title>Interbike, flying cars (and motorcycles), riding Critical Mass</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>Alonzo is just back from the trade show Interbike, we talk to a guy who built a flying car, and riding in a ginormous pack with Critical Mass.</itunes:summary>
+      <description>Alonzo is just back from the trade show Interbike, we talk to a guy who built a flying car, and riding in a ginormous pack with Critical Mass.</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/the-ride/2016/09/29/14392/</guid>
+      <pubDate>Thu, 29 Sep 2016 21:36:00 GMT</pubDate>
+      <itunes:keywords>KPCC, Cars, Automobiles, Transportation, Los Angeles, Southern California, LA</itunes:keywords>
+      <link>https://www.scpr.org/programs/the-ride/2016/09/29/14392/</link>
+      <enclosure url="https://media.scpr.org/podcasts/upload/2016/10/05/ride092816-24773e2b.mp3?context=the-ride&amp;via=podcast" length="38505437" type="audio/mpeg"/>
+      <itunes:duration>1203</itunes:duration>
+    </item>
+    <item>
+      <title>Why an aging population is a boon to self-driving cars</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>Ford's futurist Sheryl Connolly is one of many who think highly automated vehicles are inevitable. And, she says our graying demographic is part of what makes that so.</itunes:summary>
+      <description>Ford's futurist Sheryl Connolly is one of many who think highly automated vehicles are inevitable. And, she says our graying demographic is part of what makes that so.</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/the-ride/2016/09/21/14348/</guid>
+      <pubDate>Wed, 21 Sep 2016 21:12:00 GMT</pubDate>
+      <itunes:keywords>KPCC, Cars, Automobiles, Transportation, Los Angeles, Southern California, LA</itunes:keywords>
+      <link>https://www.scpr.org/programs/the-ride/2016/09/21/14348/</link>
+      <enclosure url="https://media.scpr.org/podcasts/upload/2016/09/21/ride092216-86cf116c.mp3?context=the-ride&amp;via=podcast" length="27085142" type="audio/mpeg"/>
+      <itunes:duration>846</itunes:duration>
+    </item>
+    <item>
+      <title>What to do when your car is driving itself, exploring the auto bailout, Honda's hydrogen Clarity</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>What will we do with ourselves when our cars take over the driving? "Live Another Day" documents the auto bailout, and we drive a pre-production Honda Clarity</itunes:summary>
+      <description>What will we do with ourselves when our cars take over the driving? "Live Another Day" documents the auto bailout, and we drive a pre-production Honda Clarity</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/the-ride/2016/09/15/14314/</guid>
+      <pubDate>Thu, 15 Sep 2016 22:01:00 GMT</pubDate>
+      <itunes:keywords>KPCC, Cars, Automobiles, Transportation, Los Angeles, Southern California, LA</itunes:keywords>
+      <link>https://www.scpr.org/programs/the-ride/2016/09/15/14314/</link>
+      <enclosure url="https://media.scpr.org/podcasts/upload/2016/09/15/ride091516_1-4da1f473.mp3?context=the-ride&amp;via=podcast" length="41751919" type="audio/mpeg"/>
+      <itunes:duration>1304</itunes:duration>
+    </item>
+    <item>
+      <title>Drone delivery, what's in that new car smell, Fisker Karma rises from the ashes</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>Mercedes is developing a drone-equipped van for package delivery. We delve into the chemistry of the new car smell, and ponder the relaunch of Karma Automotive.</itunes:summary>
+      <description>Mercedes is developing a drone-equipped van for package delivery. We delve into the chemistry of the new car smell, and ponder the relaunch of Karma Automotive.</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/the-ride/2016/09/07/14260/</guid>
+      <pubDate>Wed, 07 Sep 2016 22:04:00 GMT</pubDate>
+      <itunes:keywords>KPCC, Cars, Automobiles, Transportation, Los Angeles, Southern California, LA</itunes:keywords>
+      <link>https://www.scpr.org/programs/the-ride/2016/09/07/14260/</link>
+      <enclosure url="https://media.scpr.org/podcasts/upload/2016/09/07/ride090816-1d84cd17.mp3?context=the-ride&amp;via=podcast" length="35463532" type="audio/mpeg"/>
+      <itunes:duration>1108</itunes:duration>
+    </item>
+    <item>
+      <title>Labor Day Special: Amtrak as an office, Siri, crazy car colors, biking in bad air</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>Is riding your bike in polluted air worse than not riding at all? A writer rides Amtrak rather than renting an office. And the woman behind the voice of Siri.</itunes:summary>
+      <description>Is riding your bike in polluted air worse than not riding at all? A writer rides Amtrak rather than renting an office. And the woman behind the voice of Siri.</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/the-ride/2016/09/02/14220/</guid>
+      <pubDate>Fri, 02 Sep 2016 15:33:00 GMT</pubDate>
+      <itunes:keywords>KPCC, Cars, Automobiles, Transportation, Los Angeles, Southern California, LA</itunes:keywords>
+      <link>https://www.scpr.org/programs/the-ride/2016/09/02/14220/</link>
+      <enclosure url="https://media.scpr.org/podcasts/upload/2016/09/02/rideLdaydigi-c90b73a7.mp3?context=the-ride&amp;via=podcast" length="61005179" type="audio/mpeg"/>
+      <itunes:duration>3050</itunes:duration>
+    </item>
+    <item>
+      <title>  Rear seat reminder, the voice of Siri, a new car buyer buys our advice</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>GM has a new feature that warns you if you've left a child in the back seat. We chat with the original Siri, and follow up with a new car buyer who took our advice.</itunes:summary>
+      <description>GM has a new feature that warns you if you've left a child in the back seat. We chat with the original Siri, and follow up with a new car buyer who took our advice.</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/the-ride/2016/08/25/14126/</guid>
+      <pubDate>Thu, 25 Aug 2016 07:00:00 GMT</pubDate>
+      <itunes:keywords>KPCC, Cars, Automobiles, Transportation, Los Angeles, Southern California, LA</itunes:keywords>
+      <link>https://www.scpr.org/programs/the-ride/2016/08/25/14126/</link>
+      <enclosure url="https://media.scpr.org/podcasts/upload/2016/08/24/ride082516-d2277329.mp3?context=the-ride&amp;via=podcast" length="37338896" type="audio/mpeg"/>
+      <itunes:duration>1166</itunes:duration>
+    </item>
+    <item>
+      <title>Licenses for cyclists? Harley and the Davidsons, replacing an 18-year-old Toyota</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>A Bay area politician suggests licenses and insurance for cyclists, furor ensues. A look at the men who founded Harley-Davidson, and new car buying advice.</itunes:summary>
+      <description>A Bay area politician suggests licenses and insurance for cyclists, furor ensues. A look at the men who founded Harley-Davidson, and new car buying advice.</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/the-ride/2016/08/18/14086/</guid>
+      <pubDate>Thu, 18 Aug 2016 15:26:00 GMT</pubDate>
+      <itunes:keywords>KPCC, Cars, Automobiles, Transportation, Los Angeles, Southern California, LA</itunes:keywords>
+      <link>https://www.scpr.org/programs/the-ride/2016/08/18/14086/</link>
+      <enclosure url="https://media.scpr.org/podcasts/upload/2016/08/18/TheRide081816-1d380ad6.mp3?context=the-ride&amp;via=podcast" length="36064735" type="audio/mpeg"/>
+      <itunes:duration>1126</itunes:duration>
+    </item>
+    <item>
+      <title>Dealer satisfaction surveys, cool bicycle togs, replacing a VW diesel</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>Buy a new car, get slammed with surveys, and pressure to give good marks. Bike clothes move past spandex. And what to buy after selling your bad diesel back to VW</itunes:summary>
+      <description>Buy a new car, get slammed with surveys, and pressure to give good marks. Bike clothes move past spandex. And what to buy after selling your bad diesel back to VW</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/the-ride/2016/08/11/14046/</guid>
+      <pubDate>Thu, 11 Aug 2016 19:19:00 GMT</pubDate>
+      <itunes:keywords>KPCC, Cars, Automobiles, Transportation, Los Angeles, Southern California, LA</itunes:keywords>
+      <link>https://www.scpr.org/programs/the-ride/2016/08/11/14046/</link>
+      <enclosure url="https://media.scpr.org/podcasts/upload/2016/08/11/081116-9c6441b7.mp3?context=the-ride&amp;via=podcast" length="65927668" type="audio/mpeg"/>
+      <itunes:duration>2060</itunes:duration>
+    </item>
+    <item>
+      <title>'Graduated' parking tickets, new car buying advice, the metaphysics of junk in the trunk</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>Parking fines that start out low and 'graduate' up for repeat offenders. Advice on buying a new, small car. And comic Taylor Orci the junk in her trunk.</itunes:summary>
+      <description>Parking fines that start out low and 'graduate' up for repeat offenders. Advice on buying a new, small car. And comic Taylor Orci the junk in her trunk.</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/the-ride/2016/08/03/13972/</guid>
+      <pubDate>Wed, 03 Aug 2016 16:37:00 GMT</pubDate>
+      <itunes:keywords>KPCC, Cars, Automobiles, Transportation, Los Angeles, Southern California, LA</itunes:keywords>
+      <link>https://www.scpr.org/programs/the-ride/2016/08/03/13972/</link>
+      <enclosure url="https://media.scpr.org/podcasts/upload/2016/08/04/ride060416-b4972b47.mp3?context=the-ride&amp;via=podcast" length="50625980" type="audio/mpeg"/>
+      <itunes:duration>1582</itunes:duration>
+    </item>
+    <item>
+      <title>Telsa &amp; life beyond lithium ion; why auto companies (and the rest of us) lie and cheat</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>Tesla holds a grand opening for their gigafactory. We look at the future of batteries. Deception expert Dan Ariely on why carmakers (and all of us) tell lies</itunes:summary>
+      <description>Tesla holds a grand opening for their gigafactory. We look at the future of batteries. Deception expert Dan Ariely on why carmakers (and all of us) tell lies</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/the-ride/2016/07/28/13935/</guid>
+      <pubDate>Thu, 28 Jul 2016 22:30:00 GMT</pubDate>
+      <itunes:keywords>KPCC, Cars, Automobiles, Transportation, Los Angeles, Southern California, LA</itunes:keywords>
+      <link>https://www.scpr.org/programs/the-ride/2016/07/28/13935/</link>
+      <enclosure url="https://media.scpr.org/podcasts/upload/2016/07/28/ride052816-07b60e45.mp3?context=the-ride&amp;via=podcast" length="29635232" type="audio/mpeg"/>
+      <itunes:duration>926</itunes:duration>
+    </item>
+    <item>
+      <title>Elon Musk's Master Plan, Is urban biking killing your lungs?</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>Sue breaks down Tesla founder Elon Musk's just announced plan for the future, and we look into the health risks of riding bikes in polluted air. </itunes:summary>
+      <description>Sue breaks down Tesla founder Elon Musk's just announced plan for the future, and we look into the health risks of riding bikes in polluted air. </description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/the-ride/2016/07/21/13890/</guid>
+      <pubDate>Thu, 21 Jul 2016 23:08:00 GMT</pubDate>
+      <itunes:keywords>KPCC, Cars, Automobiles, Transportation, Los Angeles, Southern California, LA</itunes:keywords>
+      <link>https://www.scpr.org/programs/the-ride/2016/07/21/13890/</link>
+      <enclosure url="https://media.scpr.org/podcasts/upload/2016/07/22/ride062116_1-0dcf7115.mp3?context=the-ride&amp;via=podcast" length="25572959" type="audio/mpeg"/>
+      <itunes:duration>799</itunes:duration>
+    </item>
+    <item>
+      <title>Car makers get in on a hot trend: Bicycles</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>The Fiat Abarth and Alfa Romeo Giulia are among several cars also available as two-wheelers</itunes:summary>
+      <description>The Fiat Abarth and Alfa Romeo Giulia are among several cars also available as two-wheelers</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/the-ride/2016/07/12/13807/</guid>
+      <pubDate>Tue, 12 Jul 2016 16:40:00 GMT</pubDate>
+      <itunes:keywords>KPCC, Cars, Automobiles, Transportation, Los Angeles, Southern California, LA</itunes:keywords>
+      <link>https://www.scpr.org/programs/the-ride/2016/07/12/13807/</link>
+      <enclosure url="https://media.scpr.org/podcasts/upload/2016/07/12/Ridecarbikes-75a7de0a.mp3?context=the-ride&amp;via=podcast" length="9679569" type="audio/mpeg"/>
+      <itunes:duration>302</itunes:duration>
+    </item>
+    <item>
+      <title>The Ride: The day smog first visited LA (and never left)</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>Smog first invaded L.A. on July 8, 1943 -- and it's never left</itunes:summary>
+      <description>Smog first invaded L.A. on July 8, 1943 -- and it's never left</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/the-ride/2016/07/07/13748/</guid>
+      <pubDate>Thu, 07 Jul 2016 21:35:00 GMT</pubDate>
+      <itunes:keywords>KPCC, Cars, Automobiles, Transportation, Los Angeles, Southern California, LA</itunes:keywords>
+      <link>https://www.scpr.org/programs/the-ride/2016/07/07/13748/</link>
+      <enclosure url="https://media.scpr.org/podcasts/upload/2016/07/07/RideSMOG-676bdf17.mp3?context=the-ride&amp;via=podcast" length="9729665" type="audio/mpeg"/>
+      <itunes:duration>304</itunes:duration>
+    </item>
+    <item>
+      <title>Keanu Reeves motorcycle, Bill Ford as a disruptor, cars talking to cars</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>Sue rides with Keanu Reeves on his Arch motorcycle, Bill Ford on the future of auto companies, a car full of mom's rates the Chrysler Pacifica minivan.</itunes:summary>
+      <description>Sue rides with Keanu Reeves on his Arch motorcycle, Bill Ford on the future of auto companies, a car full of mom's rates the Chrysler Pacifica minivan.</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/the-ride/2016/07/04/13511/</guid>
+      <pubDate>Mon, 04 Jul 2016 15:32:00 GMT</pubDate>
+      <itunes:keywords>KPCC, Cars, Automobiles, Transportation, Los Angeles, Southern California, LA</itunes:keywords>
+      <link>https://www.scpr.org/programs/the-ride/2016/07/04/13511/</link>
+      <enclosure url="https://media.scpr.org/podcasts/upload/2016/06/08/RideJuy4digital-98ebb91e.mp3?context=the-ride&amp;via=podcast" length="69165323" type="audio/mpeg"/>
+      <itunes:duration>2881</itunes:duration>
+    </item>
+    <item>
+      <title>Car color is a lot more than meets than eye</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>White, black and gray dominate exterior car colors, but auto makers spend years developing new shades</itunes:summary>
+      <description>White, black and gray dominate exterior car colors, but auto makers spend years developing new shades</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/the-ride/2016/06/16/13580/</guid>
+      <pubDate>Thu, 16 Jun 2016 15:34:00 GMT</pubDate>
+      <itunes:keywords>KPCC, Cars, Automobiles, Transportation, Los Angeles, Southern California, LA</itunes:keywords>
+      <link>https://www.scpr.org/programs/the-ride/2016/06/16/13580/</link>
+      <enclosure url="https://media.scpr.org/podcasts/upload/2016/06/16/CarColorsDigital-0fd0c648.mp3?context=the-ride&amp;via=podcast" length="9447549" type="audio/mpeg"/>
+      <itunes:duration>295</itunes:duration>
+    </item>
+    <item>
+      <title>Motorcylin', crossbow totin' badass Norman Reedus</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>He's Daryl Dixon on The Walking Dead, and now he has a new show, about traveling, and motorcycles and living in the USA.</itunes:summary>
+      <description>He's Daryl Dixon on The Walking Dead, and now he has a new show, about traveling, and motorcycles and living in the USA.</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/the-ride/2016/06/09/13527/</guid>
+      <pubDate>Thu, 09 Jun 2016 20:48:00 GMT</pubDate>
+      <itunes:keywords>KPCC, Cars, Automobiles, Transportation, Los Angeles, Southern California, LA</itunes:keywords>
+      <link>https://www.scpr.org/programs/the-ride/2016/06/09/13527/</link>
+      <enclosure url="https://media.scpr.org/podcasts/upload/2016/06/09/NormanReedusTT-3f108d5f.mp3?context=the-ride&amp;via=podcast" length="9839302" type="audio/mpeg"/>
+      <itunes:duration>409</itunes:duration>
+    </item>
+    <item>
+      <title>Drugged driving suit simulates the effects of marijuana, other drugs</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>Drugged driving suit uses ankle and wrist weights, bandages, goggles and headphones to give drivers the feeling of what it's like to drive high</itunes:summary>
+      <description>Drugged driving suit uses ankle and wrist weights, bandages, goggles and headphones to give drivers the feeling of what it's like to drive high</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/the-ride/2016/06/02/13465/</guid>
+      <pubDate>Thu, 02 Jun 2016 17:25:00 GMT</pubDate>
+      <itunes:keywords>KPCC, Cars, Automobiles, Transportation, Los Angeles, Southern California, LA</itunes:keywords>
+      <link>https://www.scpr.org/programs/the-ride/2016/06/02/13465/</link>
+      <enclosure url="https://media.scpr.org/podcasts/upload/2016/06/02/drug_suitTT_45601_TAKETWO-9c923149.mp3?context=the-ride&amp;via=podcast" length="8487915" type="audio/mpeg"/>
+      <itunes:duration>265</itunes:duration>
+    </item>
+    <item>
+      <title>Keanu Reeves talks motos, taking back our streets from cars, and the 2016 Cadillac CT6</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>Keanu Reeves shows us around his bike shop, Arch Motorcycle Co. Transforming streets for more people - not cars. Our boss Bill Davis critiques the 2016 Cadillac CT6.</itunes:summary>
+      <description>Keanu Reeves shows us around his bike shop, Arch Motorcycle Co. Transforming streets for more people - not cars. Our boss Bill Davis critiques the 2016 Cadillac CT6.</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/the-ride/2016/05/29/13427/</guid>
+      <pubDate>Sun, 29 May 2016 17:00:00 GMT</pubDate>
+      <itunes:keywords>KPCC, Cars, Automobiles, Transportation, Los Angeles, Southern California, LA</itunes:keywords>
+      <link>https://www.scpr.org/programs/the-ride/2016/05/29/13427/</link>
+      <enclosure url="https://media.scpr.org/podcasts/upload/2016/06/02/TheRide160529-7e9f0512.mp3?context=the-ride&amp;via=podcast" length="69433249" type="audio/mpeg"/>
+      <itunes:duration>2893</itunes:duration>
+    </item>
+    <item>
+      <title>Virtual reality driving, bus makeovers, and the 2016 Ducati XDiavel</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>Test drive a car from your couch. We consult LA tastemakers on redesigning the bus, and ride the 2016 Ducati XDiavel, a new take on a cruiser.</itunes:summary>
+      <description>Test drive a car from your couch. We consult LA tastemakers on redesigning the bus, and ride the 2016 Ducati XDiavel, a new take on a cruiser.</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/the-ride/2016/05/22/13381/</guid>
+      <pubDate>Sun, 22 May 2016 17:00:00 GMT</pubDate>
+      <itunes:keywords>KPCC, Cars, Automobiles, Transportation, Los Angeles, Southern California, LA</itunes:keywords>
+      <link>https://www.scpr.org/programs/the-ride/2016/05/22/13381/</link>
+      <enclosure url="https://media.scpr.org/podcasts/upload/2016/05/21/ride0522digital-d969513a.mp3?context=the-ride&amp;via=podcast" length="57877837" type="audio/mpeg"/>
+      <itunes:duration>2893</itunes:duration>
+    </item>
+    <item>
+      <title>Drugged-driving suits, 2017 Bentley Bentayga and 'Manspreading' on public transportation</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>Test driving suits that stimulates marijuana's effects, the 2017 Bentley Bentayga combines luxury and power, and the annoying act of "manspreading" </itunes:summary>
+      <description>Test driving suits that stimulates marijuana's effects, the 2017 Bentley Bentayga combines luxury and power, and the annoying act of "manspreading" </description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/the-ride/2016/05/15/13325/</guid>
+      <pubDate>Sun, 15 May 2016 17:00:00 GMT</pubDate>
+      <itunes:keywords>KPCC, Cars, Automobiles, Transportation, Los Angeles, Southern California, LA</itunes:keywords>
+      <link>https://www.scpr.org/programs/the-ride/2016/05/15/13325/</link>
+      <enclosure url="https://media.scpr.org/podcasts/upload/2016/05/13/ride515digital-f8faad73.mp3?context=the-ride&amp;via=podcast" length="67991572" type="audio/mpeg"/>
+      <itunes:duration>2832</itunes:duration>
+    </item>
+    <item>
+      <title>Art students design the car of the future, the 2017 Chrysler Pacifica, and 'You don't need two legs to ride a bike'  </title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>Go inside the world's most celebrated automotive design school. The 2017 Chrysler Pacifica reinvents the "mom van," and how one amputee would rather bike than drive.</itunes:summary>
+      <description>Go inside the world's most celebrated automotive design school. The 2017 Chrysler Pacifica reinvents the "mom van," and how one amputee would rather bike than drive.</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/the-ride/2016/05/08/13286/</guid>
+      <pubDate>Sun, 08 May 2016 07:00:00 GMT</pubDate>
+      <itunes:keywords>KPCC, Cars, Automobiles, Transportation, Los Angeles, Southern California, LA</itunes:keywords>
+      <link>https://www.scpr.org/programs/the-ride/2016/05/08/13286/</link>
+      <enclosure url="https://media.scpr.org/podcasts/upload/2016/05/05/TheRide20160508-0c0260e0.mp3?context=the-ride&amp;via=podcast" length="45244499" type="audio/mpeg"/>
+      <itunes:duration>2827</itunes:duration>
+    </item>
+    <item>
+      <title>Self-driving cars and the law</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>A consortium of tech and automotive firms are pressing the federal government to develop standards for self-driving cars. </itunes:summary>
+      <description>A consortium of tech and automotive firms are pressing the federal government to develop standards for self-driving cars. </description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/the-ride/2016/04/28/13201/</guid>
+      <pubDate>Thu, 28 Apr 2016 21:47:00 GMT</pubDate>
+      <itunes:keywords>KPCC, Cars, Automobiles, Transportation, Los Angeles, Southern California, LA</itunes:keywords>
+      <link>https://www.scpr.org/programs/the-ride/2016/04/28/13201/</link>
+      <enclosure url="https://media.scpr.org/podcasts/upload/2016/04/28/trt042816-f11c3160.mp3?context=the-ride&amp;via=podcast" length="7811913" type="audio/mpeg"/>
+      <itunes:duration>488</itunes:duration>
+    </item>
+    <item>
+      <title>Untangling electric vehicle tax credits</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>Government tax credits for electric cars are a great incentive. But they won't last for ever and the rules can be complicated. Here's a primer.</itunes:summary>
+      <description>Government tax credits for electric cars are a great incentive. But they won't last for ever and the rules can be complicated. Here's a primer.</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/the-ride/2016/04/15/13116/</guid>
+      <pubDate>Fri, 15 Apr 2016 16:58:00 GMT</pubDate>
+      <itunes:keywords>KPCC, Cars, Automobiles, Transportation, Los Angeles, Southern California, LA</itunes:keywords>
+      <link>https://www.scpr.org/programs/the-ride/2016/04/15/13116/</link>
+      <enclosure url="https://media.scpr.org/podcasts/upload/2016/04/15/TWT_45602_TAKETWO-cc91e001.mp3?context=the-ride&amp;via=podcast" length="6393600" type="audio/mpeg"/>
+      <itunes:duration>399</itunes:duration>
+    </item>
+    <item>
+      <title> Where are motorcycles in the ride sharing economy?</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>Motorcycles are usually the fastest way to get through urban congestion. So how come there's not a two-wheeled version of Uber or Lyft?</itunes:summary>
+      <description>Motorcycles are usually the fastest way to get through urban congestion. So how come there's not a two-wheeled version of Uber or Lyft?</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/the-ride/2016/04/07/13066/</guid>
+      <pubDate>Thu, 07 Apr 2016 18:12:00 GMT</pubDate>
+      <itunes:keywords>KPCC, Cars, Automobiles, Transportation, Los Angeles, Southern California, LA</itunes:keywords>
+      <link>https://www.scpr.org/programs/the-ride/2016/04/07/13066/</link>
+      <enclosure url="https://media.scpr.org/podcasts/upload/2016/04/07/twt0407-7ee5c646.mp3?context=the-ride&amp;via=podcast" length="7622995" type="audio/mpeg"/>
+      <itunes:duration>476</itunes:duration>
+    </item>
+    <item>
+      <title>Six months later, no fix in VW emissions scandal</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>Six months ago, VW admitted cheating, devising a system to fool emissions testing on its diesel cars. Now a court deadline has passed, and still, no fix.</itunes:summary>
+      <description>Six months ago, VW admitted cheating, devising a system to fool emissions testing on its diesel cars. Now a court deadline has passed, and still, no fix.</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/the-ride/2016/03/24/12951/</guid>
+      <pubDate>Thu, 24 Mar 2016 20:18:00 GMT</pubDate>
+      <itunes:keywords>KPCC, Cars, Automobiles, Transportation, Los Angeles, Southern California, LA</itunes:keywords>
+      <link>https://www.scpr.org/programs/the-ride/2016/03/24/12951/</link>
+      <enclosure url="https://media.scpr.org/podcasts/upload/2016/03/24/twt032416-97376425.mp3?context=the-ride&amp;via=podcast" length="6605265" type="audio/mpeg"/>
+      <itunes:duration>412</itunes:duration>
+    </item>
+    <item>
+      <title>Beyond Uber and Lyft, on-demand services focus on moving stuff</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>Beyond Uber and Lyft, on-demand services focus on moving stuff</itunes:summary>
+      <description>Beyond Uber and Lyft, on-demand services focus on moving stuff</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/the-ride/2016/03/17/12912/</guid>
+      <pubDate>Thu, 17 Mar 2016 20:58:00 GMT</pubDate>
+      <itunes:keywords>KPCC, Cars, Automobiles, Transportation, Los Angeles, Southern California, LA</itunes:keywords>
+      <link>https://www.scpr.org/programs/the-ride/2016/03/17/12912/</link>
+      <enclosure url="https://media.scpr.org/podcasts/upload/2016/03/17/twt20160317-42bcde10.mp3?context=the-ride&amp;via=podcast" length="9309460" type="audio/mpeg"/>
+      <itunes:duration>581</itunes:duration>
+    </item>
+    <item>
+      <title>No buckin' broncos. A rodeo for commuter rail operators</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>The LA Metro Rail Roadeo pits operators in a mano y mano that tests their skills wrangling 76 ton commuter trains.</itunes:summary>
+      <description>The LA Metro Rail Roadeo pits operators in a mano y mano that tests their skills wrangling 76 ton commuter trains.</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/the-ride/2016/03/09/12848/</guid>
+      <pubDate>Wed, 09 Mar 2016 23:33:00 GMT</pubDate>
+      <itunes:keywords>KPCC, Cars, Automobiles, Transportation, Los Angeles, Southern California, LA</itunes:keywords>
+      <link>https://www.scpr.org/programs/the-ride/2016/03/09/12848/</link>
+      <enclosure url="https://media.scpr.org/podcasts/upload/2016/03/09/TWT0210-0f1f34f5.mp3?context=the-ride&amp;via=podcast" length="5109133" type="audio/mpeg"/>
+      <itunes:duration>319</itunes:duration>
+    </item>
+    <item>
+      <title>What you can do, personally, to help combat global warming</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>Transportation, primarily cars, accounts for as much as a third of all greenhouse gases emitted. Can individuals actually do things to help combat global warming?</itunes:summary>
+      <description>Transportation, primarily cars, accounts for as much as a third of all greenhouse gases emitted. Can individuals actually do things to help combat global warming?</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/the-ride/2016/02/18/12669/</guid>
+      <pubDate>Fri, 19 Feb 2016 01:00:00 GMT</pubDate>
+      <itunes:keywords>KPCC, Cars, Automobiles, Transportation, Los Angeles, Southern California, LA</itunes:keywords>
+      <link>https://www.scpr.org/programs/the-ride/2016/02/18/12669/</link>
+      <enclosure url="https://media.scpr.org/podcasts/upload/2016/02/18/twt20160219-72aa8f79.mp3?context=the-ride&amp;via=podcast" length="7149447" type="audio/mpeg"/>
+      <itunes:duration>446</itunes:duration>
+    </item>
+    <item>
+      <title>Can a computer get a driver's license?</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>A federal agency says the computer in its autonomous car might be considered a "driver" for purposes of regulations. California's DMV seems to disagree</itunes:summary>
+      <description>A federal agency says the computer in its autonomous car might be considered a "driver" for purposes of regulations. California's DMV seems to disagree</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/the-ride/2016/02/11/12617/</guid>
+      <pubDate>Thu, 11 Feb 2016 22:00:00 GMT</pubDate>
+      <itunes:keywords>KPCC, Cars, Automobiles, Transportation, Los Angeles, Southern California, LA</itunes:keywords>
+      <link>https://www.scpr.org/programs/the-ride/2016/02/11/12617/</link>
+      <enclosure url="https://media.scpr.org/podcasts/upload/2016/02/11/twt20160211-ee72f17b.mp3?context=the-ride&amp;via=podcast" length="6592308" type="audio/mpeg"/>
+      <itunes:duration>412</itunes:duration>
+    </item>
+    <item>
+      <title>Supercross superstar Ryan Dungey makes on on the Wheaties Box</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>Dirt bike champ Ryan Dungey is the first motocross competitor to appear on a Wheaties box. We catch up with him at a grocery store cereal aisle.</itunes:summary>
+      <description>Dirt bike champ Ryan Dungey is the first motocross competitor to appear on a Wheaties box. We catch up with him at a grocery store cereal aisle.</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/the-ride/2016/01/28/12548/</guid>
+      <pubDate>Thu, 28 Jan 2016 18:38:00 GMT</pubDate>
+      <itunes:keywords>KPCC, Cars, Automobiles, Transportation, Los Angeles, Southern California, LA</itunes:keywords>
+      <link>https://www.scpr.org/programs/the-ride/2016/01/28/12548/</link>
+      <enclosure url="https://media.scpr.org/podcasts/upload/2016/01/28/twt20160127dungey-4ebad956.mp3?context=the-ride&amp;via=podcast" length="5510400" type="audio/mpeg"/>
+      <itunes:duration>344</itunes:duration>
+    </item>
+    <item>
+      <title>A minivan and a coupe try to be sexy, the VLF Force 1 just is</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>Chrysler and Buick try to bring sexy back with a minivan and a coupe, a new Henrik Fisker designed supercar makes Aston Martin jealous. </itunes:summary>
+      <description>Chrysler and Buick try to bring sexy back with a minivan and a coupe, a new Henrik Fisker designed supercar makes Aston Martin jealous. </description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/the-ride/2016/01/14/12499/</guid>
+      <pubDate>Thu, 14 Jan 2016 21:17:00 GMT</pubDate>
+      <itunes:keywords>KPCC, Cars, Automobiles, Transportation, Los Angeles, Southern California, LA</itunes:keywords>
+      <link>https://www.scpr.org/programs/the-ride/2016/01/14/12499/</link>
+      <enclosure url="https://media.scpr.org/podcasts/upload/2016/01/14/twt20161114wav-039cba5a.mp3?context=the-ride&amp;via=podcast" length="7009431" type="audio/mpeg"/>
+      <itunes:duration>438</itunes:duration>
+    </item>
+    <item>
+      <title>Electric VW van listens to your voice, BWM's i8 Spyder responds to your moves</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>VW's Budd-e listens and responds to drivers and passengers' voices. BMW's i8 Spyder concept eschews knobs and buttons in favor of hand gestures.</itunes:summary>
+      <description>VW's Budd-e listens and responds to drivers and passengers' voices. BMW's i8 Spyder concept eschews knobs and buttons in favor of hand gestures.</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/the-ride/2016/01/07/12459/</guid>
+      <pubDate>Thu, 07 Jan 2016 22:32:00 GMT</pubDate>
+      <itunes:keywords>KPCC, Cars, Automobiles, Transportation, Los Angeles, Southern California, LA</itunes:keywords>
+      <link>https://www.scpr.org/programs/the-ride/2016/01/07/12459/</link>
+      <enclosure url="https://media.scpr.org/podcasts/upload/2016/01/07/twt20160107-6700c9d6.mp3?context=the-ride&amp;via=podcast" length="6774956" type="audio/mpeg"/>
+      <itunes:duration>423</itunes:duration>
+    </item>
+    <item>
+      <title>Our motor critic's picks for 2016</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>It was a great year for automakers, with record sales. Things look good for 2016, and our critic, Susan Carpenter highlights some of her best bets for the new year</itunes:summary>
+      <description>It was a great year for automakers, with record sales. Things look good for 2016, and our critic, Susan Carpenter highlights some of her best bets for the new year</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/the-ride/2015/12/31/12432/</guid>
+      <pubDate>Thu, 31 Dec 2015 18:29:00 GMT</pubDate>
+      <itunes:keywords>KPCC, Cars, Automobiles, Transportation, Los Angeles, Southern California, LA</itunes:keywords>
+      <link>https://www.scpr.org/programs/the-ride/2015/12/31/12432/</link>
+      <enclosure url="https://media.scpr.org/podcasts/upload/2015/12/31/twt20151231-6e247074.mp3?context=the-ride&amp;via=podcast" length="6375805" type="audio/mpeg"/>
+      <itunes:duration>398</itunes:duration>
+    </item>
+    <item>
+      <title>How driverless cars could change ride sharing</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>Could driverless cars becoming a viable reality by 2016? Susan Carpenter explores that question and more this week on the Wheel Thing.</itunes:summary>
+      <description>Could driverless cars becoming a viable reality by 2016? Susan Carpenter explores that question and more this week on the Wheel Thing.</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/the-ride/2015/12/24/12415/</guid>
+      <pubDate>Thu, 24 Dec 2015 20:02:00 GMT</pubDate>
+      <itunes:keywords>KPCC, Cars, Automobiles, Transportation, Los Angeles, Southern California, LA</itunes:keywords>
+      <link>https://www.scpr.org/programs/the-ride/2015/12/24/12415/</link>
+      <enclosure url="https://media.scpr.org/podcasts/upload/2015/12/24/TWTMp3-bc79a8dc.mp3?context=the-ride&amp;via=podcast" length="3484107" type="audio/mpeg"/>
+      <itunes:duration>435</itunes:duration>
+    </item>
+    <item>
+      <title>Dodge Charger Hellcat, Stormtrooper edition</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>Dodge tricked out a small fleet of its 700hp Hellcats to resemble Star Wars stormtroopers. The result, a muscle car for geeks. Join us for a ride.</itunes:summary>
+      <description>Dodge tricked out a small fleet of its 700hp Hellcats to resemble Star Wars stormtroopers. The result, a muscle car for geeks. Join us for a ride.</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/the-ride/2015/12/16/12380/</guid>
+      <pubDate>Wed, 16 Dec 2015 19:21:00 GMT</pubDate>
+      <itunes:keywords>KPCC, Cars, Automobiles, Transportation, Los Angeles, Southern California, LA</itunes:keywords>
+      <link>https://www.scpr.org/programs/the-ride/2015/12/16/12380/</link>
+      <enclosure url="https://media.scpr.org/podcasts/upload/2015/12/16/TWThellcat_45610_TAKETWO-0dd09fd7.mp3?context=the-ride&amp;via=podcast" length="7829852" type="audio/mpeg"/>
+      <itunes:duration>326</itunes:duration>
+    </item>
+    <item>
+      <title>'Time poverty' and other trends with Ford's futurist, Sheryl Connelly</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>Sheryl Connelly combs through current trends to try and understand tomorrow. She's Ford's staff futurist, and she shares some of her thinking as we approach 2016.</itunes:summary>
+      <description>Sheryl Connelly combs through current trends to try and understand tomorrow. She's Ford's staff futurist, and she shares some of her thinking as we approach 2016.</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/the-ride/2015/12/10/12352/</guid>
+      <pubDate>Thu, 10 Dec 2015 18:24:00 GMT</pubDate>
+      <itunes:keywords>KPCC, Cars, Automobiles, Transportation, Los Angeles, Southern California, LA</itunes:keywords>
+      <link>https://www.scpr.org/programs/the-ride/2015/12/10/12352/</link>
+      <enclosure url="https://media.scpr.org/podcasts/upload/2015/12/10/TWTfuturist_45601_TAKETWO-cc70f416.mp3?context=the-ride&amp;via=podcast" length="6884352" type="audio/mpeg"/>
+      <itunes:duration>430</itunes:duration>
+    </item>
+  </channel>
+</rss>

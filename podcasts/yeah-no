@@ -1,0 +1,789 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xmlns:psc="https://podlove.org/simple-chapters/" xmlns:omny="https://omny.fm/rss-extensions" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" xmlns:acast="https://schema.acast.com/1.0/" version="2.0">
+  <channel>
+    <language>en-US</language>
+    <atom:link rel="self" type="application/rss+xml" href="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/15f449a8-6d7b-40e0-a79d-acb8012be2e4/1562e3ab-4113-4c66-ab62-acb8012ccfb1/podcast.rss" />
+    <atom:link rel="first" type="application/rss+xml" href="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/15f449a8-6d7b-40e0-a79d-acb8012be2e4/1562e3ab-4113-4c66-ab62-acb8012ccfb1/podcast.rss?page=1" />
+    <atom:link rel="last" type="application/rss+xml" href="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/15f449a8-6d7b-40e0-a79d-acb8012be2e4/1562e3ab-4113-4c66-ab62-acb8012ccfb1/podcast.rss?page=1" />
+    <title>Yeah No, I’m Not OK</title>
+    <link>https://laist.com/podcasts/yeahno.php</link>
+    <description><![CDATA[<p>Growing up, I was taught to say that I was &ldquo;ok&rdquo; when I really wasn&rsquo;t. Mental health just wasn&rsquo;t something that anyone in my family or community talked about or even had access to. Yet pretty much everyone was affected by it.&nbsp;</p>
+<p>Today, young people of color are disproportionately affected by mental health issues and are not getting the resources they need, and I want to change that.&nbsp;&nbsp;</p>
+<p>And this is why this podcast exists.</p>
+<p><em>Yeah No, I&rsquo;m Not Ok,</em> my new podcast made in collaboration with <em>LAist Studios,</em> is here to open up the conversation about mental health. Every week we will explore issues that youth face all over the world (addiction, depression, anxiety, suicide, radical self love, and much much more) through conversations with friends, colleagues, activists, artists and health care professionals, all people who have gone through something life-changing and are now healing from it.&nbsp;</p>
+<p>We want to start a mental health revolution. A movement that can start by talking about how we feel. One where we&rsquo;re not ashamed of our own human experience.&nbsp;</p>
+<p>What will feel like simple conversations among friends will really become a complex narrative of what is happening right now, especially to young people of color. With a real and emotional sound and few easy answers, <em>Yeah No, I&rsquo;m Not Ok</em> will hopefully become a critical show in a critical time, a place for you to bring your complicated feelings and spend time with people who are rooting for you.</p>
+<p>&ndash; Diane Guerrero</p>]]></description>
+    <itunes:type>episodic</itunes:type>
+    <itunes:summary>Growing up, I was taught to say that I was “ok” when I really wasn’t. Mental health just wasn’t something that anyone in my family or community talked about or even had access to. Yet pretty much everyone was affected by it. 
+
+Today, young people of color are disproportionately affected by mental health issues and are not getting the resources they need, and I want to change that.  
+
+And this is why this podcast exists.
+
+Yeah No, I’m Not Ok, my new podcast made in collaboration with LAist Studios, is here to open up the conversation about mental health. Every week we will explore issues that youth face all over the world (addiction, depression, anxiety, suicide, radical self love, and much much more) through conversations with friends, colleagues, activists, artists and health care professionals, all people who have gone through something life-changing and are now healing from it. 
+
+We want to start a mental health revolution. A movement that can start by talking about how we feel. One where we’re not ashamed of our own human experience. 
+
+What will feel like simple conversations among friends will really become a complex narrative of what is happening right now, especially to young people of color. With a real and emotional sound and few easy answers, Yeah No, I’m Not Ok will hopefully become a critical show in a critical time, a place for you to bring your complicated feelings and spend time with people who are rooting for you.
+
+– Diane Guerrero</itunes:summary>
+    <itunes:owner>
+      <itunes:name>LAist Studios</itunes:name>
+      <itunes:email>scprdev@scpr.org</itunes:email>
+    </itunes:owner>
+    <itunes:author>LAist Studios</itunes:author>
+    <itunes:explicit>no</itunes:explicit>
+    <itunes:category text="Education">
+      <itunes:category text="Self-Improvement" />
+    </itunes:category>
+    <itunes:category text="Health &amp; Fitness">
+      <itunes:category text="Mental Health" />
+    </itunes:category>
+    <itunes:category text="Society &amp; Culture"></itunes:category>
+    <itunes:image href="https://www.omnycontent.com/d/programs/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/15f449a8-6d7b-40e0-a79d-acb8012be2e4/image.jpg?t=1613254384&amp;size=Large" />
+    <image>
+      <url>https://www.omnycontent.com/d/programs/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/15f449a8-6d7b-40e0-a79d-acb8012be2e4/image.jpg?t=1613254384&amp;size=Large</url>
+      <title>Yeah No, I’m Not OK</title>
+      <link>https://laist.com/podcasts/yeahno.php</link>
+    </image>
+    <item>
+      <title>Introducing WILD by LAist Studios</title>
+      <itunes:title>Introducing WILD by LAist Studios</itunes:title>
+      <description>Introducing WILD by LAist Studios, a podcast about origin stories. About those moments big and small that transform people forever. Season 1 of WILD: Home Forever is a time capsule of these kinds of moments captured during a global pandemic that left a lot of us "growing up" again while stuck at home for more than a year.
+
+In episode 1, we meet Daisy Figueroa who went back to her childhood home and decides to transform it. In the process, she creates her own business and redefines the standard of living for people in her community. 
+
+Sponsors include:
+
+Talkspace Match with a licensed therapist when you go to talkspace.com and get $100 off your first month with the promo code WILD.
+
+This program is made possible in part by the Corporation for Public Broadcasting, a private corporation funded by the American people.</description>
+      <content:encoded><![CDATA[<p>Introducing WILD by LAist Studios, a podcast about origin stories. About those moments big and small that transform people forever. Season 1 of WILD: Home Forever is a time capsule of these kinds of moments captured during a global pandemic that left a lot of us "growing up" again while stuck at home for more than a year.</p>
+<p>In episode 1, we meet Daisy Figueroa who went back to her childhood home and decides to transform it. In the process, she creates her own business and redefines the standard of living for people in her community.&nbsp;</p>
+<p>Sponsors include:</p>
+<p>Talkspace Match with a licensed therapist when you go to talkspace.com and get $100 off your first month with the promo code WILD.</p>
+<p>This program is made possible in part by the Corporation for Public Broadcasting, a private corporation funded by the American people.</p>]]></content:encoded>
+      <itunes:summary>Introducing WILD by LAist Studios, a podcast about origin stories. About those moments big and small that transform people forever. Season 1 of WILD: Home Forever is a time capsule of these kinds of moments captured during a global pandemic that left a lot of us "growing up" again while stuck at home for more than a year.
+
+In episode 1, we meet Daisy Figueroa who went back to her childhood home and decides to transform it. In the process, she creates her own business and redefines the standard of living for people in her community. 
+
+Sponsors include:
+
+Talkspace Match with a licensed therapist when you go to talkspace.com and get $100 off your first month with the promo code WILD.
+
+This program is made possible in part by the Corporation for Public Broadcasting, a private corporation funded by the American people.</itunes:summary>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:author>LAist Studios</itunes:author>
+      <itunes:image href="https://www.omnycontent.com/d/programs/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/15f449a8-6d7b-40e0-a79d-acb8012be2e4/image.jpg?t=1613254384&amp;size=Large" />
+      <media:content url="https://chtbl.com/track/84GC29/traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/15f449a8-6d7b-40e0-a79d-acb8012be2e4/f32e48ff-1a75-4b7f-9116-ad52012c5fea/audio.mp3?utm_source=Podcast&amp;in_playlist=1562e3ab-4113-4c66-ab62-acb8012ccfb1" type="audio/mpeg">
+        <media:player url="https://omny.fm/shows/yeahno/introducing-wild-by-laist-studios/embed" />
+      </media:content>
+      <media:content url="https://www.omnycontent.com/d/programs/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/15f449a8-6d7b-40e0-a79d-acb8012be2e4/image.jpg?t=1613254384&amp;size=Large" type="image/jpeg" />
+      <guid isPermaLink="false">f32e48ff-1a75-4b7f-9116-ad52012c5fea</guid>
+      <omny:clipId>f32e48ff-1a75-4b7f-9116-ad52012c5fea</omny:clipId>
+      <pubDate>Thu, 01 Jul 2021 09:30:00 +0000</pubDate>
+      <itunes:duration>2115</itunes:duration>
+      <enclosure url="https://chtbl.com/track/84GC29/traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/15f449a8-6d7b-40e0-a79d-acb8012be2e4/f32e48ff-1a75-4b7f-9116-ad52012c5fea/audio.mp3?utm_source=Podcast&amp;in_playlist=1562e3ab-4113-4c66-ab62-acb8012ccfb1" length="33922194" type="audio/mpeg" />
+      <link>https://laist.com/wild</link>
+      <itunes:explicit>yes</itunes:explicit>
+    </item>
+    <item>
+      <title>Listener Stories</title>
+      <itunes:title>Listener Stories</itunes:title>
+      <description>Diane plays some of the messages we’ve received from listeners.
+
+If you are having thoughts of suicide, call the National Suicide Prevention Lifeline in the United States at 1-800-273-8255 (TALK). You can find a list of additional resources at SpeakingOfSuicide.com/resources
+
+For more resources on addiction or to get help, please visit: https://www.samhsa.gov/find-help/national-helpline.
+
+More mental health support (via text) can be found at: https://www.crisistextline.org/
+
+Subscribe to our newsletter to stay on top of new episodes with a note from Diane, recommendations from listeners and our team, and listener stories. Sign up at laist.com/newsletters 
+
+Sponsors include:
+
+Mood Health Get an additional $10 off your first psychiatry or therapy visit with coupon code NOTOK10 at moodhealth.com/notok 
+
+Framebridge Save additional 15% off first order Framebridge.com promo code notok
+
+Gravity Blankets Get 15% off first purchase with promo code Notok
+
+Headspace One month free trial at Headspace.com/notok 
+
+This program is made possible in part by the Corporation for Public Broadcasting, a private corporation funded by the American people.</description>
+      <content:encoded><![CDATA[<p>Diane plays some of the messages we&rsquo;ve received from listeners.</p>
+<p>If you are having thoughts of suicide, call the National Suicide Prevention Lifeline in the United States at 1-800-273-8255 (TALK). You can find a list of additional resources at <a href="http://speakingofsuicide.com/resources">SpeakingOfSuicide.com/resources</a></p>
+<p>For more resources on addiction or to get help, please visit: <a href="https://www.samhsa.gov/find-help/national-helpline">https://www.samhsa.gov/find-help/national-helpline</a>.</p>
+<p>More mental health support (via text) can be found at: <a href="https://www.crisistextline.org/">https://www.crisistextline.org/</a></p>
+<p>Subscribe to our newsletter to stay on top of new episodes with a note from Diane, recommendations from listeners and our team, and listener stories. Sign up at <a href="laist.com/newsletters">laist.com/newsletters </a></p>
+<p>Sponsors include:</p>
+<p>Mood Health Get an additional $10 off your first psychiatry or therapy visit with coupon code NOTOK10 at <a href="moodhealth.com/notok">moodhealth.com/notok </a></p>
+<p>Framebridge Save additional 15% off first order <a href="Framebridge.com">Framebridge.com</a> promo code notok</p>
+<p>Gravity Blankets Get 15% off first purchase with promo code Notok</p>
+<p>Headspace One month free trial at <a href="Headspace.com/notok">Headspace.com/notok </a></p>
+<p>This program is made possible in part by the Corporation for Public Broadcasting, a private corporation funded by the American people.</p>]]></content:encoded>
+      <itunes:summary>Diane plays some of the messages we’ve received from listeners.
+
+If you are having thoughts of suicide, call the National Suicide Prevention Lifeline in the United States at 1-800-273-8255 (TALK). You can find a list of additional resources at SpeakingOfSuicide.com/resources
+
+For more resources on addiction or to get help, please visit: https://www.samhsa.gov/find-help/national-helpline.
+
+More mental health support (via text) can be found at: https://www.crisistextline.org/
+
+Subscribe to our newsletter to stay on top of new episodes with a note from Diane, recommendations from listeners and our team, and listener stories. Sign up at laist.com/newsletters 
+
+Sponsors include:
+
+Mood Health Get an additional $10 off your first psychiatry or therapy visit with coupon code NOTOK10 at moodhealth.com/notok 
+
+Framebridge Save additional 15% off first order Framebridge.com promo code notok
+
+Gravity Blankets Get 15% off first purchase with promo code Notok
+
+Headspace One month free trial at Headspace.com/notok 
+
+This program is made possible in part by the Corporation for Public Broadcasting, a private corporation funded by the American people.</itunes:summary>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>12</itunes:episode>
+      <itunes:author>LAist Studios</itunes:author>
+      <itunes:image href="https://www.omnycontent.com/d/programs/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/15f449a8-6d7b-40e0-a79d-acb8012be2e4/image.jpg?t=1613254384&amp;size=Large" />
+      <media:content url="https://chtbl.com/track/84GC29/traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/15f449a8-6d7b-40e0-a79d-acb8012be2e4/9168a757-da0f-4d2e-a0e4-ad3400cd5d4d/audio.mp3?utm_source=Podcast&amp;in_playlist=1562e3ab-4113-4c66-ab62-acb8012ccfb1" type="audio/mpeg">
+        <media:player url="https://omny.fm/shows/yeahno/listener-stories/embed" />
+      </media:content>
+      <media:content url="https://www.omnycontent.com/d/programs/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/15f449a8-6d7b-40e0-a79d-acb8012be2e4/image.jpg?t=1613254384&amp;size=Large" type="image/jpeg" />
+      <guid isPermaLink="false">9168a757-da0f-4d2e-a0e4-ad3400cd5d4d</guid>
+      <omny:clipId>9168a757-da0f-4d2e-a0e4-ad3400cd5d4d</omny:clipId>
+      <pubDate>Wed, 26 May 2021 15:50:00 +0000</pubDate>
+      <itunes:duration>3063</itunes:duration>
+      <enclosure url="https://chtbl.com/track/84GC29/traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/15f449a8-6d7b-40e0-a79d-acb8012be2e4/9168a757-da0f-4d2e-a0e4-ad3400cd5d4d/audio.mp3?utm_source=Podcast&amp;in_playlist=1562e3ab-4113-4c66-ab62-acb8012ccfb1" length="49087772" type="audio/mpeg" />
+      <link>https://laist.com/podcasts/yeahno.php</link>
+      <itunes:explicit>yes</itunes:explicit>
+    </item>
+    <item>
+      <title>Dr. Carl Hart on Drug Use in the Pursuit of Happiness</title>
+      <itunes:title>Dr. Carl Hart on Drug Use in the Pursuit of Happiness</itunes:title>
+      <description>Talking with psychologist and neuroscientist Dr. Carl Hart, author of Drug Use for Grown-Ups: Chasing Liberty in the Land of Fear.
+
+For more resources on addiction or to get help, please visit: https://www.samhsa.gov/find-help/national-helpline.
+
+More mental health support (via text) can be found at: https://www.crisistextline.org/
+
+Subscribe to our newsletter to stay on top of new episodes with a note from Diane, recommendations from listeners and our team, and listener stories. Sign up at laist.com/newsletters
+
+Sponsors include:
+
+Feals.com/notok and you’ll get 50% off your first order with free shipping.
+
+Theragun.com/notok and get your Gen 4 Theragun TODAY.
+
+Gravity Blanket: Get 15% off first purchase with promo code Notok
+
+Mood Health: Get an additional $10 off your first psychiatry or therapy visit with coupon code NOTOK10 at moodhealth.com/notok
+
+This program is made possible in part by the Corporation for Public Broadcasting, a private corporation funded by the American people.</description>
+      <content:encoded><![CDATA[<p>Talking with psychologist and neuroscientist Dr. Carl Hart, author of <strong><em>Drug Use for Grown-Ups: Chasing Liberty in the Land of Fear</em>.</strong></p>
+<p>For more resources on addiction or to get help, please visit: <a href="https://www.samhsa.gov/find-help/national-helpline">https://www.samhsa.gov/find-help/national-helpline</a>.</p>
+<p>More mental health support (via text) can be found at: <a href="https://www.crisistextline.org/">https://www.crisistextline.org/</a></p>
+<p>Subscribe to our newsletter to stay on top of new episodes with a note from Diane, recommendations from listeners and our team, and listener stories. Sign up at <a href="laist.com/newsletters">laist.com/newsletters</a></p>
+<p>Sponsors include:</p>
+<p><a href="Feals.com/notok">Feals.com/notok</a> and you&rsquo;ll get 50% off your first order with free shipping.</p>
+<p><a href="Theragun.com/notok">Theragun.com/notok</a> and get your Gen 4 Theragun TODAY.</p>
+<p>Gravity Blanket: Get 15% off first purchase with promo code Notok</p>
+<p>Mood Health: Get an additional $10 off your first psychiatry or therapy visit with coupon code NOTOK10 at <a href="https://nam02.safelinks.protection.outlook.com/?url=http%3A%2F%2Fmoodhealth.com%2Fnotok&amp;data=04%7C01%7Cmrosen%40scpr.org%7C5490a35b2a3d469b021908d9198cfbf7%7C8245ecb6b08841218e216c093b6d9d22%7C0%7C0%7C637568915595133944%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C1000&amp;sdata=McUvaD3aFhCJAKcLecUrE14I8ilfWC9CGSMXEcZcryw%3D&amp;reserved=0">moodhealth.com/notok</a></p>
+<p>This program is made possible in part by the Corporation for Public Broadcasting, a private corporation funded by the American people.</p>]]></content:encoded>
+      <itunes:summary>Talking with psychologist and neuroscientist Dr. Carl Hart, author of Drug Use for Grown-Ups: Chasing Liberty in the Land of Fear.
+
+For more resources on addiction or to get help, please visit: https://www.samhsa.gov/find-help/national-helpline.
+
+More mental health support (via text) can be found at: https://www.crisistextline.org/
+
+Subscribe to our newsletter to stay on top of new episodes with a note from Diane, recommendations from listeners and our team, and listener stories. Sign up at laist.com/newsletters
+
+Sponsors include:
+
+Feals.com/notok and you’ll get 50% off your first order with free shipping.
+
+Theragun.com/notok and get your Gen 4 Theragun TODAY.
+
+Gravity Blanket: Get 15% off first purchase with promo code Notok
+
+Mood Health: Get an additional $10 off your first psychiatry or therapy visit with coupon code NOTOK10 at moodhealth.com/notok
+
+This program is made possible in part by the Corporation for Public Broadcasting, a private corporation funded by the American people.</itunes:summary>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>11</itunes:episode>
+      <itunes:author>LAist Studios</itunes:author>
+      <itunes:image href="https://www.omnycontent.com/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/15f449a8-6d7b-40e0-a79d-acb8012be2e4/9c998b3c-3c69-4854-a803-ad2b00e4af78/image.jpg?t=1621440249&amp;size=Large" />
+      <media:content url="https://chtbl.com/track/84GC29/traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/15f449a8-6d7b-40e0-a79d-acb8012be2e4/9c998b3c-3c69-4854-a803-ad2b00e4af78/audio.mp3?utm_source=Podcast&amp;in_playlist=1562e3ab-4113-4c66-ab62-acb8012ccfb1" type="audio/mpeg">
+        <media:player url="https://omny.fm/shows/yeahno/dr-carl-hart/embed" />
+      </media:content>
+      <media:content url="https://www.omnycontent.com/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/15f449a8-6d7b-40e0-a79d-acb8012be2e4/9c998b3c-3c69-4854-a803-ad2b00e4af78/image.jpg?t=1621440249&amp;size=Large" type="image/jpeg" />
+      <guid isPermaLink="false">9c998b3c-3c69-4854-a803-ad2b00e4af78</guid>
+      <omny:clipId>9c998b3c-3c69-4854-a803-ad2b00e4af78</omny:clipId>
+      <pubDate>Mon, 17 May 2021 20:05:00 +0000</pubDate>
+      <itunes:duration>2604</itunes:duration>
+      <enclosure url="https://chtbl.com/track/84GC29/traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/15f449a8-6d7b-40e0-a79d-acb8012be2e4/9c998b3c-3c69-4854-a803-ad2b00e4af78/audio.mp3?utm_source=Podcast&amp;in_playlist=1562e3ab-4113-4c66-ab62-acb8012ccfb1" length="41725116" type="audio/mpeg" />
+      <link>https://laist.com/podcasts/yeahno.php</link>
+      <itunes:explicit>yes</itunes:explicit>
+    </item>
+    <item>
+      <title>Cristela Alonzo on How You Can’t Buy Self Care</title>
+      <itunes:title>Cristela Alonzo on How You Can’t Buy Self Care</itunes:title>
+      <description>Cristela Alonzo talks about getting a show, losing a show, getting help and moving forward.
+
+More mental health support (via text) can be found at: https://www.crisistextline.org/
+
+Additional Information on depression and anxiety can be found here: https://www.nami.org/About-Mental-Illness/Mental-Health-Conditions/Depression
+
+For more resources on addiction or to get help, please visit: https://www.samhsa.gov/find-help/national-helpline.
+
+Subscribe to our newsletter to stay on top of new episodes with a note from Diane, recommendations from listeners and our team, and listener stories. Sign up at laist.com/newsletters 
+
+Sponsors include:
+
+Better Help and YNINO listeners get 10% off their first month at BetterHelp.com/notok 
+
+Free one-month trial- Headspace.com/NOTOK with access to Headspace’s full library of meditations for every situation.
+
+Feals.com/notok and you’ll get 50% off your first order with free shipping.
+
+This program is made possible in part by the Corporation for Public Broadcasting, a private corporation funded by the American people.</description>
+      <content:encoded><![CDATA[<p>Cristela Alonzo talks about getting a show, losing a show, getting help and moving forward.</p>
+<p>More mental health support (via text) can be found at: <a href="https://www.crisistextline.org/">https://www.crisistextline.org/</a></p>
+<p>Additional Information on depression and anxiety can be found here: <a href="https://www.nami.org/About-Mental-Illness/Mental-Health-Conditions/Depression">https://www.nami.org/About-Mental-Illness/Mental-Health-Conditions/Depression</a></p>
+<p>For more resources on addiction or to get help, please visit: <a href="https://www.samhsa.gov/find-help/national-helpline">https://www.samhsa.gov/find-help/national-helpline</a>.</p>
+<p>Subscribe to our newsletter to stay on top of new episodes with a note from Diane, recommendations from listeners and our team, and listener stories. Sign up at <a href="http://www.laist.com/newsletters">laist.com/newsletters </a></p>
+<p>Sponsors include:</p>
+<p>Better Help and YNINO listeners get 10% off their first month at <a href="http://www.BetterHelp.com/notok">BetterHelp.com/notok </a></p>
+<p>Free one-month trial- <a href="http://www.Headspace.com/NOTOK">Headspace.com/NOTOK</a> with access to Headspace&rsquo;s full library of meditations for every situation.</p>
+<p><a href="http://www.Feals.com/notok">Feals.com/notok</a> and you&rsquo;ll get 50% off your first order with free shipping.</p>
+<p>This program is made possible in part by the Corporation for Public Broadcasting, a private corporation funded by the American people.</p>]]></content:encoded>
+      <itunes:summary>Cristela Alonzo talks about getting a show, losing a show, getting help and moving forward.
+
+More mental health support (via text) can be found at: https://www.crisistextline.org/
+
+Additional Information on depression and anxiety can be found here: https://www.nami.org/About-Mental-Illness/Mental-Health-Conditions/Depression
+
+For more resources on addiction or to get help, please visit: https://www.samhsa.gov/find-help/national-helpline.
+
+Subscribe to our newsletter to stay on top of new episodes with a note from Diane, recommendations from listeners and our team, and listener stories. Sign up at laist.com/newsletters 
+
+Sponsors include:
+
+Better Help and YNINO listeners get 10% off their first month at BetterHelp.com/notok 
+
+Free one-month trial- Headspace.com/NOTOK with access to Headspace’s full library of meditations for every situation.
+
+Feals.com/notok and you’ll get 50% off your first order with free shipping.
+
+This program is made possible in part by the Corporation for Public Broadcasting, a private corporation funded by the American people.</itunes:summary>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>10</itunes:episode>
+      <itunes:author>LAist Studios</itunes:author>
+      <itunes:image href="https://www.omnycontent.com/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/15f449a8-6d7b-40e0-a79d-acb8012be2e4/5d92b8c5-4b8b-492d-8ee4-ad240133bf78/image.jpg?t=1621440200&amp;size=Large" />
+      <media:content url="https://chtbl.com/track/84GC29/traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/15f449a8-6d7b-40e0-a79d-acb8012be2e4/5d92b8c5-4b8b-492d-8ee4-ad240133bf78/audio.mp3?utm_source=Podcast&amp;in_playlist=1562e3ab-4113-4c66-ab62-acb8012ccfb1" type="audio/mpeg">
+        <media:player url="https://omny.fm/shows/yeahno/cristela-alonzo-on-how-you-can-t-buy-self-care/embed" />
+      </media:content>
+      <media:content url="https://www.omnycontent.com/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/15f449a8-6d7b-40e0-a79d-acb8012be2e4/5d92b8c5-4b8b-492d-8ee4-ad240133bf78/image.jpg?t=1621440200&amp;size=Large" type="image/jpeg" />
+      <guid isPermaLink="false">5d92b8c5-4b8b-492d-8ee4-ad240133bf78</guid>
+      <omny:clipId>5d92b8c5-4b8b-492d-8ee4-ad240133bf78</omny:clipId>
+      <pubDate>Mon, 10 May 2021 23:15:00 +0000</pubDate>
+      <itunes:duration>4676</itunes:duration>
+      <enclosure url="https://chtbl.com/track/84GC29/traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/15f449a8-6d7b-40e0-a79d-acb8012be2e4/5d92b8c5-4b8b-492d-8ee4-ad240133bf78/audio.mp3?utm_source=Podcast&amp;in_playlist=1562e3ab-4113-4c66-ab62-acb8012ccfb1" length="74882669" type="audio/mpeg" />
+      <link>https://laist.com/yeahno</link>
+      <itunes:explicit>yes</itunes:explicit>
+    </item>
+    <item>
+      <title>Jermaine Fowler Is A Fun Dad</title>
+      <itunes:title>Jermaine Fowler Is A Fun Dad</itunes:title>
+      <description>Jermaine Fowler (“Judas and the Black Messiah,” “Coming 2 America”) talks about how his curiosity is his superpower.
+
+More mental health support (via text) can be found at: https://www.crisistextline.org/
+
+Additional Information on depression and anxiety can be found here: https://www.nami.org/About-Mental-Illness/Mental-Health-Conditions/Depression
+
+For more resources on addiction or to get help, please visit: https://www.samhsa.gov/find-help/national-helpline.
+
+Subscribe to our newsletter to stay on top of new episodes with a note from Diane, recommendations from listeners and our team, and listener stories. Sign up at laist.com/newsletters 
+
+Sponsors include:
+
+Better Help and YNINO listeners get 10% off their first month at BetterHelp.com/notok 
+
+This program is made possible in part by the Corporation for Public Broadcasting, a private corporation funded by the American people.</description>
+      <content:encoded><![CDATA[<p>Jermaine Fowler (&ldquo;Judas and the Black Messiah,&rdquo; &ldquo;Coming 2 America&rdquo;) talks about how his curiosity is his superpower.</p>
+<p>More mental health support (via text) can be found at: <a href="https://www.crisistextline.org/">https://www.crisistextline.org/</a></p>
+<p>Additional Information on depression and anxiety can be found here: <a href="https://www.nami.org/About-Mental-Illness/Mental-Health-Conditions/Depression">https://www.nami.org/About-Mental-Illness/Mental-Health-Conditions/Depression</a></p>
+<p>For more resources on addiction or to get help, please visit: <a href="https://www.samhsa.gov/find-help/national-helpline">https://www.samhsa.gov/find-help/national-helpline</a>.</p>
+<p>Subscribe to our newsletter to stay on top of new episodes with a note from Diane, recommendations from listeners and our team, and listener stories. Sign up at <a href="laist.com/newsletters">laist.com/newsletters </a></p>
+<p>Sponsors include:</p>
+<p>Better Help and YNINO listeners get 10% off their first month at <a href="BetterHelp.com/notok">BetterHelp.com/notok </a></p>
+<p>This program is made possible in part by the Corporation for Public Broadcasting, a private corporation funded by the American people.</p>]]></content:encoded>
+      <itunes:summary>Jermaine Fowler (“Judas and the Black Messiah,” “Coming 2 America”) talks about how his curiosity is his superpower.
+
+More mental health support (via text) can be found at: https://www.crisistextline.org/
+
+Additional Information on depression and anxiety can be found here: https://www.nami.org/About-Mental-Illness/Mental-Health-Conditions/Depression
+
+For more resources on addiction or to get help, please visit: https://www.samhsa.gov/find-help/national-helpline.
+
+Subscribe to our newsletter to stay on top of new episodes with a note from Diane, recommendations from listeners and our team, and listener stories. Sign up at laist.com/newsletters 
+
+Sponsors include:
+
+Better Help and YNINO listeners get 10% off their first month at BetterHelp.com/notok 
+
+This program is made possible in part by the Corporation for Public Broadcasting, a private corporation funded by the American people.</itunes:summary>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>9</itunes:episode>
+      <itunes:author>LAist Studios</itunes:author>
+      <itunes:image href="https://www.omnycontent.com/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/15f449a8-6d7b-40e0-a79d-acb8012be2e4/27017bd5-b1d8-421e-9e2c-ad1a000f862a/image.jpg?t=1619798948&amp;size=Large" />
+      <media:content url="https://chtbl.com/track/84GC29/traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/15f449a8-6d7b-40e0-a79d-acb8012be2e4/27017bd5-b1d8-421e-9e2c-ad1a000f862a/audio.mp3?utm_source=Podcast&amp;in_playlist=1562e3ab-4113-4c66-ab62-acb8012ccfb1" type="audio/mpeg">
+        <media:player url="https://omny.fm/shows/yeahno/jermaine-fowler-is-a-fun-dad/embed" />
+      </media:content>
+      <media:content url="https://www.omnycontent.com/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/15f449a8-6d7b-40e0-a79d-acb8012be2e4/27017bd5-b1d8-421e-9e2c-ad1a000f862a/image.jpg?t=1619798948&amp;size=Large" type="image/jpeg" />
+      <guid isPermaLink="false">27017bd5-b1d8-421e-9e2c-ad1a000f862a</guid>
+      <omny:clipId>27017bd5-b1d8-421e-9e2c-ad1a000f862a</omny:clipId>
+      <pubDate>Fri, 30 Apr 2021 18:05:00 +0000</pubDate>
+      <itunes:duration>3272</itunes:duration>
+      <enclosure url="https://chtbl.com/track/84GC29/traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/15f449a8-6d7b-40e0-a79d-acb8012be2e4/27017bd5-b1d8-421e-9e2c-ad1a000f862a/audio.mp3?utm_source=Podcast&amp;in_playlist=1562e3ab-4113-4c66-ab62-acb8012ccfb1" length="52410989" type="audio/mpeg" />
+      <link>https://laist.com/podcasts/yeahno.php</link>
+      <itunes:explicit>yes</itunes:explicit>
+    </item>
+    <item>
+      <title>Byron Bowers On Freedom Through Acceptance &amp; Bad Acid</title>
+      <itunes:title>Byron Bowers On Freedom Through Acceptance &amp; Bad Acid</itunes:title>
+      <description>The actor and comedian on developing his uniquely dark style of comedy and how standup has helped him develop a healthy outlook on life.
+
+More mental health support (via text) can be found at: https://www.crisistextline.org/1
+
+If you are having thoughts of suicide, call the National Suicide Prevention Lifeline in the United States at 1-800-273-8255 (TALK). You can find a list of additional resources at SpeakingOfSuicide.com/resources.
+
+Additional Information on depression and anxiety can be found here: https://www.nami.org/About-Mental-Illness/Mental-Health-Conditions/Depression
+
+For more resources on addiction or to get help, please visit: https://www.samhsa.gov/find-help/national-helpline.
+
+Subscribe to our newsletter to stay on top of new episodes with a note from Diane, recommendations from listeners and our team, and listener stories. Sign up at laist.com/newsletters
+
+Sponsors include:
+
+Theragun.com/notok and get your Gen 4 Theragun TODAY.
+
+Better Help and YNINO listners get 10% off their first month at BetterHelp.com/notok 
+
+This program is made possible in part by the Corporation for Public Broadcasting, a private corporation funded by the American people.</description>
+      <content:encoded><![CDATA[<p>The actor and comedian on developing his uniquely dark style of comedy and how standup has helped him develop a healthy outlook on life.</p>
+<p>More mental health support (via text) can be found at: <a href="https://www.crisistextline.org/">https://www.crisistextline.org/1</a></p>
+<p>If you are having thoughts of suicide, call the National Suicide Prevention Lifeline in the United States at 1-800-273-8255 (TALK). You can find a list of additional resources at <a href="http://speakingofsuicide.com/resources">SpeakingOfSuicide.com/resources</a>.</p>
+<p>Additional Information on depression and anxiety can be found here: <a href="https://www.nami.org/About-Mental-Illness/Mental-Health-Conditions/Depression">https://www.nami.org/About-Mental-Illness/Mental-Health-Conditions/Depression</a></p>
+<p>For more resources on addiction or to get help, please visit: <a href="https://www.samhsa.gov/find-help/national-helpline">https://www.samhsa.gov/find-help/national-helpline</a>.</p>
+<p>Subscribe to our newsletter to stay on top of new episodes with a note from Diane, recommendations from listeners and our team, and listener stories. Sign up at <a href="https://laist.com/newsletters">laist.com/newsletters</a><a href="https://laist.com/newsletters"></a></p>
+<p>Sponsors include:</p>
+<p><a href="Theragun.com/notok">Theragun.com/notok</a> and get your Gen 4 Theragun TODAY.</p>
+<p>Better Help and YNINO listners get 10% off their first month at <a href="http://betterhelp.com/notokThis">BetterHelp.com/notok </a></p>
+<p><a href="http://betterhelp.com/notok"></a>This program is made possible in part by the Corporation for Public Broadcasting, a private corporation funded by the American people.</p>]]></content:encoded>
+      <itunes:summary>The actor and comedian on developing his uniquely dark style of comedy and how standup has helped him develop a healthy outlook on life.
+
+More mental health support (via text) can be found at: https://www.crisistextline.org/1
+
+If you are having thoughts of suicide, call the National Suicide Prevention Lifeline in the United States at 1-800-273-8255 (TALK). You can find a list of additional resources at SpeakingOfSuicide.com/resources.
+
+Additional Information on depression and anxiety can be found here: https://www.nami.org/About-Mental-Illness/Mental-Health-Conditions/Depression
+
+For more resources on addiction or to get help, please visit: https://www.samhsa.gov/find-help/national-helpline.
+
+Subscribe to our newsletter to stay on top of new episodes with a note from Diane, recommendations from listeners and our team, and listener stories. Sign up at laist.com/newsletters
+
+Sponsors include:
+
+Theragun.com/notok and get your Gen 4 Theragun TODAY.
+
+Better Help and YNINO listners get 10% off their first month at BetterHelp.com/notok 
+
+This program is made possible in part by the Corporation for Public Broadcasting, a private corporation funded by the American people.</itunes:summary>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>8</itunes:episode>
+      <itunes:author>LAist Studios</itunes:author>
+      <itunes:image href="https://www.omnycontent.com/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/15f449a8-6d7b-40e0-a79d-acb8012be2e4/a0d9fbf3-23aa-4a67-8d33-ad1600c2d5ad/image.jpg?t=1619481274&amp;size=Large" />
+      <media:content url="https://chtbl.com/track/84GC29/traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/15f449a8-6d7b-40e0-a79d-acb8012be2e4/a0d9fbf3-23aa-4a67-8d33-ad1600c2d5ad/audio.mp3?utm_source=Podcast&amp;in_playlist=1562e3ab-4113-4c66-ab62-acb8012ccfb1" type="audio/mpeg">
+        <media:player url="https://omny.fm/shows/yeahno/byron-bowers-on-freedom-through-acceptance-bad-aci/embed" />
+      </media:content>
+      <media:content url="https://www.omnycontent.com/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/15f449a8-6d7b-40e0-a79d-acb8012be2e4/a0d9fbf3-23aa-4a67-8d33-ad1600c2d5ad/image.jpg?t=1619481274&amp;size=Large" type="image/jpeg" />
+      <guid isPermaLink="false">a0d9fbf3-23aa-4a67-8d33-ad1600c2d5ad</guid>
+      <omny:clipId>a0d9fbf3-23aa-4a67-8d33-ad1600c2d5ad</omny:clipId>
+      <pubDate>Mon, 26 Apr 2021 16:30:00 +0000</pubDate>
+      <itunes:duration>1833</itunes:duration>
+      <enclosure url="https://chtbl.com/track/84GC29/traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/15f449a8-6d7b-40e0-a79d-acb8012be2e4/a0d9fbf3-23aa-4a67-8d33-ad1600c2d5ad/audio.mp3?utm_source=Podcast&amp;in_playlist=1562e3ab-4113-4c66-ab62-acb8012ccfb1" length="29386659" type="audio/mpeg" />
+      <link>https://laist.com/podcasts/yeahno.php</link>
+      <itunes:explicit>yes</itunes:explicit>
+    </item>
+    <item>
+      <title>Janaya Future Khan On What Comes Up In The Ring</title>
+      <itunes:title>Janaya Future Khan On What Comes Up In The Ring</itunes:title>
+      <description>The Black Lives Matter International Ambassador on the power of trusting that you are doing the thing that's right over doing the thing that’s popular.
+
+More mental health support (via text) can be found at: https://www.crisistextline.org/
+
+Additional Information on depression and anxiety can be found here: https://www.nami.org/About-Mental-Illness/Mental-Health-Conditions/Depression
+
+Resources for LGBTQIA+ Youth: https://www.thetrevorproject.org/
+
+Information on the Black Lives Matter Network can be found here: https://blacklivesmatter.com/
+
+Subscribe to our newsletter to stay on top of new episodes with a note from Diane, recommendations from listeners and our team, and listener stories. Sign up at  laist.com/newsletters
+
+This program is made possible in part by the Corporation for Public Broadcasting, a private corporation funded by the American people.</description>
+      <content:encoded><![CDATA[<p>The Black Lives Matter International Ambassador on the power of trusting that you are doing the thing that's right over doing the thing that&rsquo;s popular.</p>
+<p>More mental health support (via text) can be found at: <a href="https://www.crisistextline.org/">https://www.crisistextline.org/</a></p>
+<p>Additional Information on depression and anxiety can be found here: <a href="https://www.nami.org/About-Mental-Illness/Mental-Health-Conditions/Depression">https://www.nami.org/About-Mental-Illness/Mental-Health-Conditions/Depression</a></p>
+<p>Resources for LGBTQIA+ Youth: <a href="https://www.thetrevorproject.org/">https://www.thetrevorproject.org/</a></p>
+<p>Information on the Black Lives Matter Network can be found here: <a href="https://blacklivesmatter.com/">https://blacklivesmatter.com/</a></p>
+<p>Subscribe to our newsletter to stay on top of new episodes with a note from Diane, recommendations from listeners and our team, and listener stories. Sign up at &nbsp;<a href="https://nam02.safelinks.protection.outlook.com/?url=http%3A%2F%2Flaist.com%2Fnewsletters&amp;data=04%7C01%7Ctaylor%40laiststudios.com%7C7a659db9a98944fed64c08d901d4171e%7C8245ecb6b08841218e216c093b6d9d22%7C0%7C0%7C637542832702139956%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C1000&amp;sdata=gLm5gNp1%2FCOQySmSxUenh8lJTP5xOLBHbkeaH2%2FY4Ec%3D&amp;reserved=0">laist.com/newsletters</a></p>
+<p>This program is made possible in part by the Corporation for Public Broadcasting, a private corporation funded by the American people.</p>]]></content:encoded>
+      <itunes:summary>The Black Lives Matter International Ambassador on the power of trusting that you are doing the thing that's right over doing the thing that’s popular.
+
+More mental health support (via text) can be found at: https://www.crisistextline.org/
+
+Additional Information on depression and anxiety can be found here: https://www.nami.org/About-Mental-Illness/Mental-Health-Conditions/Depression
+
+Resources for LGBTQIA+ Youth: https://www.thetrevorproject.org/
+
+Information on the Black Lives Matter Network can be found here: https://blacklivesmatter.com/
+
+Subscribe to our newsletter to stay on top of new episodes with a note from Diane, recommendations from listeners and our team, and listener stories. Sign up at  laist.com/newsletters
+
+This program is made possible in part by the Corporation for Public Broadcasting, a private corporation funded by the American people.</itunes:summary>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>7</itunes:episode>
+      <itunes:author>LAist Studios</itunes:author>
+      <itunes:image href="https://www.omnycontent.com/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/15f449a8-6d7b-40e0-a79d-acb8012be2e4/0c35ea8d-32b8-41b3-9cba-ad0c0150e088/image.jpg?t=1619141619&amp;size=Large" />
+      <media:content url="https://chtbl.com/track/84GC29/traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/15f449a8-6d7b-40e0-a79d-acb8012be2e4/0c35ea8d-32b8-41b3-9cba-ad0c0150e088/audio.mp3?utm_source=Podcast&amp;in_playlist=1562e3ab-4113-4c66-ab62-acb8012ccfb1" type="audio/mpeg">
+        <media:player url="https://omny.fm/shows/yeahno/janaya-future-khan-on-what-comes-up-in-the-ring/embed" />
+      </media:content>
+      <media:content url="https://www.omnycontent.com/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/15f449a8-6d7b-40e0-a79d-acb8012be2e4/0c35ea8d-32b8-41b3-9cba-ad0c0150e088/image.jpg?t=1619141619&amp;size=Large" type="image/jpeg" />
+      <guid isPermaLink="false">0c35ea8d-32b8-41b3-9cba-ad0c0150e088</guid>
+      <omny:clipId>0c35ea8d-32b8-41b3-9cba-ad0c0150e088</omny:clipId>
+      <pubDate>Mon, 19 Apr 2021 09:30:00 +0000</pubDate>
+      <itunes:duration>4192</itunes:duration>
+      <enclosure url="https://chtbl.com/track/84GC29/traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/15f449a8-6d7b-40e0-a79d-acb8012be2e4/0c35ea8d-32b8-41b3-9cba-ad0c0150e088/audio.mp3?utm_source=Podcast&amp;in_playlist=1562e3ab-4113-4c66-ab62-acb8012ccfb1" length="67132044" type="audio/mpeg" />
+      <link>https://laist.com/podcasts/yeahno.php</link>
+      <itunes:explicit>yes</itunes:explicit>
+    </item>
+    <item>
+      <title>Residente on How He Quiets the Noise</title>
+      <itunes:title>Residente on How He Quiets the Noise</itunes:title>
+      <description>René Pérez Joglar AKA Residente tells Diane how he stays centered and creative during even the hardest of times.
+
+For more resources on addiction or to get help, please visit: https://www.samhsa.gov/find-help/national-helpline.
+
+More support (via text) can be found at: https://www.crisistextline.org/
+
+Additional Information on depression and anxiety can be found here: https://www.nami.org/About-Mental-Illness/Mental-Health-Conditions/Depression
+
+Subscribe to our newsletter to stay on top of new episodes with a note from Diane, recommendations from listeners and our team, and listener stories. Sign up at laist.com/newsletters.
+
+This program is made possible in part by the Corporation for Public Broadcasting, a private corporation funded by the American people.</description>
+      <content:encoded><![CDATA[<p>René Pérez Joglar AKA Residente tells Diane how he stays centered and creative during even the hardest of times.</p>
+<p>For more resources on addiction or to get help, please visit: <a href="https://www.samhsa.gov/find-help/national-helpline">https://www.samhsa.gov/find-help/national-helpline</a>.</p>
+<p>More support (via text) can be found at: <a href="https://www.crisistextline.org/">https://www.crisistextline.org/</a></p>
+<p>Additional Information on depression and anxiety can be found here: <a href="https://www.nami.org/About-Mental-Illness/Mental-Health-Conditions/Depression">https://www.nami.org/About-Mental-Illness/Mental-Health-Conditions/Depression</a></p>
+<p>Subscribe to our newsletter to stay on top of new episodes with a note from Diane, recommendations from listeners and our team, and listener stories. Sign up at <a href="laist.com/newsletters">laist.com/newsletters</a>.</p>
+<p>This program is made possible in part by the Corporation for Public Broadcasting, a private corporation funded by the American people.</p>]]></content:encoded>
+      <itunes:summary>René Pérez Joglar AKA Residente tells Diane how he stays centered and creative during even the hardest of times.
+
+For more resources on addiction or to get help, please visit: https://www.samhsa.gov/find-help/national-helpline.
+
+More support (via text) can be found at: https://www.crisistextline.org/
+
+Additional Information on depression and anxiety can be found here: https://www.nami.org/About-Mental-Illness/Mental-Health-Conditions/Depression
+
+Subscribe to our newsletter to stay on top of new episodes with a note from Diane, recommendations from listeners and our team, and listener stories. Sign up at laist.com/newsletters.
+
+This program is made possible in part by the Corporation for Public Broadcasting, a private corporation funded by the American people.</itunes:summary>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>6</itunes:episode>
+      <itunes:author>LAist Studios</itunes:author>
+      <itunes:image href="https://www.omnycontent.com/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/15f449a8-6d7b-40e0-a79d-acb8012be2e4/9d7433bc-6afb-49e6-afb2-ad05012a13b3/image.jpg?t=1618272524&amp;size=Large" />
+      <media:content url="https://chtbl.com/track/84GC29/traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/15f449a8-6d7b-40e0-a79d-acb8012be2e4/9d7433bc-6afb-49e6-afb2-ad05012a13b3/audio.mp3?utm_source=Podcast&amp;in_playlist=1562e3ab-4113-4c66-ab62-acb8012ccfb1" type="audio/mpeg">
+        <media:player url="https://omny.fm/shows/yeahno/residente-on-how-he-quiets-the-noise/embed" />
+      </media:content>
+      <media:content url="https://www.omnycontent.com/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/15f449a8-6d7b-40e0-a79d-acb8012be2e4/9d7433bc-6afb-49e6-afb2-ad05012a13b3/image.jpg?t=1618272524&amp;size=Large" type="image/jpeg" />
+      <guid isPermaLink="false">9d7433bc-6afb-49e6-afb2-ad05012a13b3</guid>
+      <omny:clipId>9d7433bc-6afb-49e6-afb2-ad05012a13b3</omny:clipId>
+      <pubDate>Mon, 12 Apr 2021 09:30:00 +0000</pubDate>
+      <itunes:duration>1997</itunes:duration>
+      <enclosure url="https://chtbl.com/track/84GC29/traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/15f449a8-6d7b-40e0-a79d-acb8012be2e4/9d7433bc-6afb-49e6-afb2-ad05012a13b3/audio.mp3?utm_source=Podcast&amp;in_playlist=1562e3ab-4113-4c66-ab62-acb8012ccfb1" length="32017560" type="audio/mpeg" />
+      <link>https://laist.com/podcasts/yeahno.php</link>
+      <itunes:explicit>yes</itunes:explicit>
+    </item>
+    <item>
+      <title>Demi Lovato on ‘Dancing With The Devil’</title>
+      <itunes:title>Demi Lovato on ‘Dancing With The Devil’</itunes:title>
+      <description>Demi is revisiting her nearly fatal overdose in a new documentary, Dancing With The Devil, telling the story on her own terms. She tells us what gets her up in the morning and explains the importance of self-care and how it might also help you.  
+
+For more resources on addiction or to get help, please visit: https://www.samhsa.gov/find-help/national-helpline.
+
+More support (via text) can be found at: https://www.crisistextline.org/
+
+Additional Information on depression and anxiety can be found here: https://www.nami.org/About-Mental-Illness/Mental-Health-Conditions/Depression
+
+Subscribe to our newsletter to stay on top of new episodes with a note from Diane, recommendations from listeners and our team, and listener stories. Sign up at laist.com/newsletters.
+
+This program is made possible in part by the Corporation for Public Broadcasting, a private corporation funded by the American people.</description>
+      <content:encoded><![CDATA[<p>Demi is revisiting her nearly fatal overdose in a new documentary, <a href="https://www.vulture.com/2021/02/demi-lovato-dancing-with-the-devil-documentary-trailer.html">Dancing With The Devil</a><strong>,</strong>&nbsp;telling the story on her own terms. She tells us what gets her up in the morning and explains the importance of self-care and how it might also help you.&nbsp;&nbsp;</p>
+<p>For more resources on addiction or to get help, please visit: <a href="https://www.samhsa.gov/find-help/national-helpline">https://www.samhsa.gov/find-help/national-helpline</a>.</p>
+<p>More support (via text) can be found at: <a href="https://www.crisistextline.org/">https://www.crisistextline.org/</a></p>
+<p>Additional Information on depression and anxiety can be found here: <a href="https://www.nami.org/About-Mental-Illness/Mental-Health-Conditions/Depression">https://www.nami.org/About-Mental-Illness/Mental-Health-Conditions/Depression</a></p>
+<p>Subscribe to our newsletter to stay on top of new episodes with a note from Diane, recommendations from listeners and our team, and listener stories. Sign up at&nbsp;<a href="http://laist.com/newsletters" data-stringify-link="http://laist.com/newsletters" data-sk="tooltip_parent">laist.com/newsletters</a>.</p>
+<p>This program is made possible in part by the Corporation for Public Broadcasting, a private corporation funded by the American people.</p>]]></content:encoded>
+      <itunes:summary>Demi is revisiting her nearly fatal overdose in a new documentary, Dancing With The Devil, telling the story on her own terms. She tells us what gets her up in the morning and explains the importance of self-care and how it might also help you.  
+
+For more resources on addiction or to get help, please visit: https://www.samhsa.gov/find-help/national-helpline.
+
+More support (via text) can be found at: https://www.crisistextline.org/
+
+Additional Information on depression and anxiety can be found here: https://www.nami.org/About-Mental-Illness/Mental-Health-Conditions/Depression
+
+Subscribe to our newsletter to stay on top of new episodes with a note from Diane, recommendations from listeners and our team, and listener stories. Sign up at laist.com/newsletters.
+
+This program is made possible in part by the Corporation for Public Broadcasting, a private corporation funded by the American people.</itunes:summary>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>5</itunes:episode>
+      <itunes:author>LAist Studios</itunes:author>
+      <itunes:image href="https://www.omnycontent.com/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/15f449a8-6d7b-40e0-a79d-acb8012be2e4/c3bc55de-0142-4092-a6cd-ace200d90f16/image.jpg?t=1614969923&amp;size=Large" />
+      <media:content url="https://chtbl.com/track/84GC29/traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/15f449a8-6d7b-40e0-a79d-acb8012be2e4/c3bc55de-0142-4092-a6cd-ace200d90f16/audio.mp3?utm_source=Podcast&amp;in_playlist=1562e3ab-4113-4c66-ab62-acb8012ccfb1" type="audio/mpeg">
+        <media:player url="https://omny.fm/shows/yeahno/demi-lovato-on-dancing-with-the-devil/embed" />
+      </media:content>
+      <media:content url="https://www.omnycontent.com/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/15f449a8-6d7b-40e0-a79d-acb8012be2e4/c3bc55de-0142-4092-a6cd-ace200d90f16/image.jpg?t=1614969923&amp;size=Large" type="image/jpeg" />
+      <guid isPermaLink="false">c3bc55de-0142-4092-a6cd-ace200d90f16</guid>
+      <omny:clipId>c3bc55de-0142-4092-a6cd-ace200d90f16</omny:clipId>
+      <pubDate>Mon, 05 Apr 2021 09:30:00 +0000</pubDate>
+      <itunes:duration>1461</itunes:duration>
+      <enclosure url="https://chtbl.com/track/84GC29/traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/15f449a8-6d7b-40e0-a79d-acb8012be2e4/c3bc55de-0142-4092-a6cd-ace200d90f16/audio.mp3?utm_source=Podcast&amp;in_playlist=1562e3ab-4113-4c66-ab62-acb8012ccfb1" length="23443048" type="audio/mpeg" />
+      <link>https://laist.com/podcasts/yeahno.php</link>
+      <itunes:explicit>yes</itunes:explicit>
+    </item>
+    <item>
+      <title>Eric Andre Wants You to Take Care of Yourself, Silly</title>
+      <itunes:title>Eric Andre Wants You to Take Care of Yourself, Silly</itunes:title>
+      <description>Diane and Eric talk about therapy, meditation and making sure that you put your mental health first.
+
+For more on Transcendental Meditation, visit: www.tm.org
+
+More information on Dr. John Sarno’s book “Healing Back Pain” here: https://www.goodreads.com/book/show/144873.Healing_Back_Pain
+
+If you are having thoughts of suicide, call the National Suicide Prevention Lifeline in the United States at 1-800-273-8255 (TALK). You can find a list of additional resources at SpeakingOfSuicide.com/resources
+
+Subscribe to our newsletter to stay on top of new episodes with a note from Diane, recommendations from listeners and our team, and listener stories. Sign up at laist.com/newsletters.
+
+This program is made possible in part by the Corporation for Public Broadcasting, a private corporation funded by the American people.</description>
+      <content:encoded><![CDATA[<p>Diane and Eric talk about therapy, meditation and making sure that you put your mental health first.</p>
+<p>For more on Transcendental Meditation, visit: <a href="http://www.tm.org">www.tm.org</a></p>
+<p>More information on Dr. John Sarno&rsquo;s book &ldquo;Healing Back Pain&rdquo; here: <a href="https://www.goodreads.com/book/show/144873.Healing_Back_Pain">https://www.goodreads.com/book/show/144873.Healing_Back_Pain</a></p>
+<p>If you are having thoughts of suicide, call the National Suicide Prevention Lifeline in the United States at 1-800-273-8255 (TALK). You can find a list of additional resources at <a href="http://speakingofsuicide.com/resources">SpeakingOfSuicide.com/resources</a></p>
+<p>Subscribe to our newsletter to stay on top of new episodes with a note from Diane, recommendations from listeners and our team, and listener stories. Sign up at <a href="laist.com/newsletters">laist.com/newsletters</a>.</p>
+<p>This program is made possible in part by the Corporation for Public Broadcasting, a private corporation funded by the American people.</p>]]></content:encoded>
+      <itunes:summary>Diane and Eric talk about therapy, meditation and making sure that you put your mental health first.
+
+For more on Transcendental Meditation, visit: www.tm.org
+
+More information on Dr. John Sarno’s book “Healing Back Pain” here: https://www.goodreads.com/book/show/144873.Healing_Back_Pain
+
+If you are having thoughts of suicide, call the National Suicide Prevention Lifeline in the United States at 1-800-273-8255 (TALK). You can find a list of additional resources at SpeakingOfSuicide.com/resources
+
+Subscribe to our newsletter to stay on top of new episodes with a note from Diane, recommendations from listeners and our team, and listener stories. Sign up at laist.com/newsletters.
+
+This program is made possible in part by the Corporation for Public Broadcasting, a private corporation funded by the American people.</itunes:summary>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>4</itunes:episode>
+      <itunes:author>LAist Studios</itunes:author>
+      <itunes:image href="https://www.omnycontent.com/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/15f449a8-6d7b-40e0-a79d-acb8012be2e4/f56275cc-d76c-4925-af56-acf700c9d1eb/image.jpg?t=1617035736&amp;size=Large" />
+      <media:content url="https://chtbl.com/track/84GC29/traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/15f449a8-6d7b-40e0-a79d-acb8012be2e4/f56275cc-d76c-4925-af56-acf700c9d1eb/audio.mp3?utm_source=Podcast&amp;in_playlist=1562e3ab-4113-4c66-ab62-acb8012ccfb1" type="audio/mpeg">
+        <media:player url="https://omny.fm/shows/yeahno/eric-andre-wants-you-to-take-care-of-yourself-sill/embed" />
+      </media:content>
+      <media:content url="https://www.omnycontent.com/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/15f449a8-6d7b-40e0-a79d-acb8012be2e4/f56275cc-d76c-4925-af56-acf700c9d1eb/image.jpg?t=1617035736&amp;size=Large" type="image/jpeg" />
+      <guid isPermaLink="false">f56275cc-d76c-4925-af56-acf700c9d1eb</guid>
+      <omny:clipId>f56275cc-d76c-4925-af56-acf700c9d1eb</omny:clipId>
+      <pubDate>Mon, 29 Mar 2021 09:30:00 +0000</pubDate>
+      <itunes:duration>3073</itunes:duration>
+      <enclosure url="https://chtbl.com/track/84GC29/traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/15f449a8-6d7b-40e0-a79d-acb8012be2e4/f56275cc-d76c-4925-af56-acf700c9d1eb/audio.mp3?utm_source=Podcast&amp;in_playlist=1562e3ab-4113-4c66-ab62-acb8012ccfb1" length="49230639" type="audio/mpeg" />
+      <link>https://laist.com/podcasts/yeahno.php</link>
+      <itunes:explicit>yes</itunes:explicit>
+    </item>
+    <item>
+      <title>Dascha Polanco on her Bodyodyody</title>
+      <itunes:title>Dascha Polanco on her Bodyodyody</itunes:title>
+      <description>Dascha and Diane talk about what it meant to come up together as actors and Latinx artists. They also discuss their personal experiences with body image and what it means to continuously choose to embrace what is uniquely yours.
+
+For more information and support for eating disorders, please visit: https://www.nationaleatingdisorders.org/help-support/contact-helpline
+
+If you are having thoughts of suicide, call the National Suicide Prevention Lifeline in the United States at 1-800-273-8255 (TALK). You can find a list of additional resources at SpeakingOfSuicide.com/resources
+
+Subscribe to our newsletter to stay on top of new episodes with a note from Diane, recommendations from listeners and our team, and listener stories. Sign up at laist.com/newsletters
+
+This program is made possible in part by the Corporation for Public Broadcasting, a private corporation funded by the American people.</description>
+      <content:encoded><![CDATA[<p>Dascha and Diane talk about what it meant to come up together as actors and Latinx artists. They also discuss their personal experiences with body image and what it means to continuously choose to embrace what is uniquely yours.</p>
+<p>For more information and support for eating disorders, please visit: <a href="https://www.nationaleatingdisorders.org/help-support/contact-helpline">https://www.nationaleatingdisorders.org/help-support/contact-helpline</a></p>
+<p>If you are having thoughts of suicide, call the National Suicide Prevention Lifeline in the United States at 1-800-273-8255 (TALK). You can find a list of additional resources at <a href="http://speakingofsuicide.com/resources">SpeakingOfSuicide.com/resources</a></p>
+<p>Subscribe to our newsletter to stay on top of new episodes with a note from Diane, recommendations from listeners and our team, and listener stories. Sign up at <a href="laist.com/newsletters">laist.com/newsletters</a></p>
+<p>This program is made possible in part by the Corporation for Public Broadcasting, a private corporation funded by the American people.</p>]]></content:encoded>
+      <itunes:summary>Dascha and Diane talk about what it meant to come up together as actors and Latinx artists. They also discuss their personal experiences with body image and what it means to continuously choose to embrace what is uniquely yours.
+
+For more information and support for eating disorders, please visit: https://www.nationaleatingdisorders.org/help-support/contact-helpline
+
+If you are having thoughts of suicide, call the National Suicide Prevention Lifeline in the United States at 1-800-273-8255 (TALK). You can find a list of additional resources at SpeakingOfSuicide.com/resources
+
+Subscribe to our newsletter to stay on top of new episodes with a note from Diane, recommendations from listeners and our team, and listener stories. Sign up at laist.com/newsletters
+
+This program is made possible in part by the Corporation for Public Broadcasting, a private corporation funded by the American people.</itunes:summary>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>3</itunes:episode>
+      <itunes:author>LAist Studios</itunes:author>
+      <itunes:image href="https://www.omnycontent.com/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/15f449a8-6d7b-40e0-a79d-acb8012be2e4/522faf14-86d2-4e8e-be44-acef00ce71d3/image.jpg?t=1616088289&amp;size=Large" />
+      <media:content url="https://chtbl.com/track/84GC29/traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/15f449a8-6d7b-40e0-a79d-acb8012be2e4/522faf14-86d2-4e8e-be44-acef00ce71d3/audio.mp3?utm_source=Podcast&amp;in_playlist=1562e3ab-4113-4c66-ab62-acb8012ccfb1" type="audio/mpeg">
+        <media:player url="https://omny.fm/shows/yeahno/dascha-polanco-on-body-image/embed" />
+      </media:content>
+      <media:content url="https://www.omnycontent.com/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/15f449a8-6d7b-40e0-a79d-acb8012be2e4/522faf14-86d2-4e8e-be44-acef00ce71d3/image.jpg?t=1616088289&amp;size=Large" type="image/jpeg" />
+      <guid isPermaLink="false">522faf14-86d2-4e8e-be44-acef00ce71d3</guid>
+      <omny:clipId>522faf14-86d2-4e8e-be44-acef00ce71d3</omny:clipId>
+      <pubDate>Thu, 18 Mar 2021 17:30:00 +0000</pubDate>
+      <itunes:duration>2075</itunes:duration>
+      <enclosure url="https://chtbl.com/track/84GC29/traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/15f449a8-6d7b-40e0-a79d-acb8012be2e4/522faf14-86d2-4e8e-be44-acef00ce71d3/audio.mp3?utm_source=Podcast&amp;in_playlist=1562e3ab-4113-4c66-ab62-acb8012ccfb1" length="33259603" type="audio/mpeg" />
+      <link>https://laist.com/podcasts/yeahno.php</link>
+      <itunes:explicit>yes</itunes:explicit>
+    </item>
+    <item>
+      <title>Karla Cornejo Villavicencio on Being the King of New York</title>
+      <itunes:title>Karla Cornejo Villavicencio on Being the King of New York</itunes:title>
+      <description>Karla shot to fame when she wrote an essay about being an undocumented student at Harvard. But instead of book deals, she looked for more meaning in writing and exploring her identity. Along the way, she learned more about herself and tells Diane how the correct diagnoses, therapy, strict personal boundaries, and self-acceptance have all changed her life for the better.
+
+If you are having thoughts of suicide, call the National Suicide Prevention Lifeline in the United States at 1-800-273-8255 (TALK). You can find a list of additional resources at SpeakingOfSuicide.com/resources.
+
+More information on borderline personality disorder here: https://www.borderlinepersonalitydisorder.org/consumer-recovery-resources/
+
+Learn about DBT therapy here: https://www.onlinedbtcourses.com/
+
+Subscribe to our newsletter to stay on top of new episodes with a note from Diane, recommendations from listeners and our team, and listener stories. Sign up at laist.com/newsletters.
+
+This program is made possible in part by the Corporation for Public Broadcasting, a private corporation funded by the American people.</description>
+      <content:encoded><![CDATA[<p>Karla shot to fame when she wrote an essay about being an undocumented student at Harvard. But instead of book deals, she looked for more meaning in writing and exploring her identity. Along the way, she learned more about herself and tells Diane how the correct diagnoses, therapy, strict personal boundaries, and self-acceptance have all changed her life for the better.</p>
+<p>If you are having thoughts of suicide, call the National Suicide Prevention Lifeline in the United States at 1-800-273-8255 (TALK). You can find a list of additional resources at <a href="http://speakingofsuicide.com/resources">SpeakingOfSuicide.com/resources</a>.</p>
+<p>More information on borderline personality disorder here: <a href="https://www.borderlinepersonalitydisorder.org/consumer-recovery-resources/">https://www.borderlinepersonalitydisorder.org/consumer-recovery-resources/</a></p>
+<p>Learn about DBT therapy here: <a href="https://www.onlinedbtcourses.com/">https://www.onlinedbtcourses.com/</a></p>
+<p>Subscribe to our newsletter to stay on top of new episodes with a note from Diane, recommendations from listeners and our team, and listener stories. Sign up at <a href="http://laist.com/newsletters">laist.com/newsletters</a>.</p>
+<p>This program is made possible in part by the Corporation for Public Broadcasting, a private corporation funded by the American people.</p>]]></content:encoded>
+      <itunes:summary>Karla shot to fame when she wrote an essay about being an undocumented student at Harvard. But instead of book deals, she looked for more meaning in writing and exploring her identity. Along the way, she learned more about herself and tells Diane how the correct diagnoses, therapy, strict personal boundaries, and self-acceptance have all changed her life for the better.
+
+If you are having thoughts of suicide, call the National Suicide Prevention Lifeline in the United States at 1-800-273-8255 (TALK). You can find a list of additional resources at SpeakingOfSuicide.com/resources.
+
+More information on borderline personality disorder here: https://www.borderlinepersonalitydisorder.org/consumer-recovery-resources/
+
+Learn about DBT therapy here: https://www.onlinedbtcourses.com/
+
+Subscribe to our newsletter to stay on top of new episodes with a note from Diane, recommendations from listeners and our team, and listener stories. Sign up at laist.com/newsletters.
+
+This program is made possible in part by the Corporation for Public Broadcasting, a private corporation funded by the American people.</itunes:summary>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>2</itunes:episode>
+      <itunes:author>LAist Studios</itunes:author>
+      <itunes:image href="https://www.omnycontent.com/d/programs/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/15f449a8-6d7b-40e0-a79d-acb8012be2e4/image.jpg?t=1613254384&amp;size=Large" />
+      <media:content url="https://chtbl.com/track/84GC29/traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/15f449a8-6d7b-40e0-a79d-acb8012be2e4/be276f89-85f6-47c8-9985-ace8011db4c6/audio.mp3?utm_source=Podcast&amp;in_playlist=1562e3ab-4113-4c66-ab62-acb8012ccfb1" type="audio/mpeg">
+        <media:player url="https://omny.fm/shows/yeahno/karla-cornejo-villavicencio-on-being-the-king-of-n/embed" />
+      </media:content>
+      <media:content url="https://www.omnycontent.com/d/programs/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/15f449a8-6d7b-40e0-a79d-acb8012be2e4/image.jpg?t=1613254384&amp;size=Large" type="image/jpeg" />
+      <guid isPermaLink="false">be276f89-85f6-47c8-9985-ace8011db4c6</guid>
+      <omny:clipId>be276f89-85f6-47c8-9985-ace8011db4c6</omny:clipId>
+      <pubDate>Thu, 11 Mar 2021 20:10:00 +0000</pubDate>
+      <itunes:duration>3124</itunes:duration>
+      <enclosure url="https://chtbl.com/track/84GC29/traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/15f449a8-6d7b-40e0-a79d-acb8012be2e4/be276f89-85f6-47c8-9985-ace8011db4c6/audio.mp3?utm_source=Podcast&amp;in_playlist=1562e3ab-4113-4c66-ab62-acb8012ccfb1" length="50069057" type="audio/mpeg" />
+      <link>https://laist.com/podcasts/yeahno.php</link>
+      <itunes:explicit>yes</itunes:explicit>
+    </item>
+    <item>
+      <title>Let Me Explain</title>
+      <itunes:title>Let Me Explain</itunes:title>
+      <description>Who is Diane Guerrero and why is she talking about mental health? In this episode, we learn more about Diane’s personal experience and her commitment to making mental health a priority in communities nationwide, especially communities of color. Then for the very first time, Diane sits down with her big brother Eddie to have an honest conversation about their family history of addiction, anxiety, and depression.  
+
+For more resources on addiction or to get help, please visit: https://www.samhsa.gov/find-help/national-helpline.
+
+http://publichealth.lacounty.gov/sapc/ 
+
+More support (via text) can be found at: https://www.crisistextline.org/
+
+Additional Information on depression and anxiety can be found here: https://www.nami.org/About-Mental-Illness/Mental-Health-Conditions/Depression
+
+This program is made possible in part by the Corporation for Public Broadcasting, a private corporation funded by the American people.</description>
+      <content:encoded><![CDATA[<p>Who is Diane Guerrero and why is she talking about mental health? In this episode, we learn more about Diane&rsquo;s personal experience and her commitment to making mental health a priority in communities nationwide, especially communities of color. Then for the very first time, Diane sits down with her big brother Eddie to have an honest conversation about their family history of addiction, anxiety, and depression.&nbsp;&nbsp;</p>
+<p>For more resources on addiction or to get help, please visit: <a href="https://www.samhsa.gov/find-help/national-helpline">https://www.samhsa.gov/find-help/national-helpline</a>.</p>
+<p><a href="http://publichealth.lacounty.gov/sapc/">http://publichealth.lacounty.gov/sapc/</a>&nbsp;</p>
+<p>More support (via text) can be found at: <a href="https://www.crisistextline.org/">https://www.crisistextline.org/</a></p>
+<p>Additional Information on depression and anxiety can be found here: <a href="https://www.nami.org/About-Mental-Illness/Mental-Health-Conditions/Depression">https://www.nami.org/About-Mental-Illness/Mental-Health-Conditions/Depression</a></p>
+<p>This program is made possible in part by the Corporation for Public Broadcasting, a private corporation funded by the American people.</p>]]></content:encoded>
+      <itunes:summary>Who is Diane Guerrero and why is she talking about mental health? In this episode, we learn more about Diane’s personal experience and her commitment to making mental health a priority in communities nationwide, especially communities of color. Then for the very first time, Diane sits down with her big brother Eddie to have an honest conversation about their family history of addiction, anxiety, and depression.  
+
+For more resources on addiction or to get help, please visit: https://www.samhsa.gov/find-help/national-helpline.
+
+http://publichealth.lacounty.gov/sapc/ 
+
+More support (via text) can be found at: https://www.crisistextline.org/
+
+Additional Information on depression and anxiety can be found here: https://www.nami.org/About-Mental-Illness/Mental-Health-Conditions/Depression
+
+This program is made possible in part by the Corporation for Public Broadcasting, a private corporation funded by the American people.</itunes:summary>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>1</itunes:episode>
+      <itunes:author>LAist Studios</itunes:author>
+      <itunes:image href="https://www.omnycontent.com/d/programs/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/15f449a8-6d7b-40e0-a79d-acb8012be2e4/image.jpg?t=1613254384&amp;size=Large" />
+      <media:content url="https://chtbl.com/track/84GC29/traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/15f449a8-6d7b-40e0-a79d-acb8012be2e4/91e3ec3b-a6e8-48f4-b5cb-acda016dcaab/audio.mp3?utm_source=Podcast&amp;in_playlist=1562e3ab-4113-4c66-ab62-acb8012ccfb1" type="audio/mpeg">
+        <media:player url="https://omny.fm/shows/yeahno/let-me-explain/embed" />
+      </media:content>
+      <media:content url="https://www.omnycontent.com/d/programs/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/15f449a8-6d7b-40e0-a79d-acb8012be2e4/image.jpg?t=1613254384&amp;size=Large" type="image/jpeg" />
+      <guid isPermaLink="false">91e3ec3b-a6e8-48f4-b5cb-acda016dcaab</guid>
+      <omny:clipId>91e3ec3b-a6e8-48f4-b5cb-acda016dcaab</omny:clipId>
+      <pubDate>Mon, 01 Mar 2021 10:30:00 +0000</pubDate>
+      <itunes:duration>3003</itunes:duration>
+      <enclosure url="https://chtbl.com/track/84GC29/traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/15f449a8-6d7b-40e0-a79d-acb8012be2e4/91e3ec3b-a6e8-48f4-b5cb-acda016dcaab/audio.mp3?utm_source=Podcast&amp;in_playlist=1562e3ab-4113-4c66-ab62-acb8012ccfb1" length="48120488" type="audio/mpeg" />
+      <link>https://laist.com/podcasts/yeahno.php</link>
+      <itunes:explicit>yes</itunes:explicit>
+    </item>
+    <item>
+      <title>Introducing Yeah No, I'm Not Ok</title>
+      <itunes:title>Introducing Yeah No, I'm Not Ok</itunes:title>
+      <description>Introducing Yeah No, I'm Not Ok – A new podcast from LAist Studios and Diane Guerrero about mental health, healing, and the conversations we should all be having about addiction, depression, anxiety, suicide, radical self love, and much more.
+
+This program is made possible in part by the Corporation for Public Broadcasting, a private corporation funded by the American people.</description>
+      <content:encoded><![CDATA[<p>Introducing&nbsp;<strong data-stringify-type="bold">Yeah No, I'm Not Ok</strong>&nbsp;&ndash; A new podcast from LAist Studios and Diane Guerrero about mental health, healing, and the conversations we should all be having about addiction, depression, anxiety, suicide, radical self love, and much more.</p>
+<p><em>This program is made possible in part by the Corporation for Public Broadcasting, a private corporation funded by the American people.</em></p>]]></content:encoded>
+      <itunes:summary>Introducing Yeah No, I'm Not Ok – A new podcast from LAist Studios and Diane Guerrero about mental health, healing, and the conversations we should all be having about addiction, depression, anxiety, suicide, radical self love, and much more.
+
+This program is made possible in part by the Corporation for Public Broadcasting, a private corporation funded by the American people.</itunes:summary>
+      <itunes:episodeType>trailer</itunes:episodeType>
+      <itunes:season>1</itunes:season>
+      <itunes:author>LAist Studios</itunes:author>
+      <itunes:image href="https://www.omnycontent.com/d/programs/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/15f449a8-6d7b-40e0-a79d-acb8012be2e4/image.jpg?t=1613254384&amp;size=Large" />
+      <media:content url="https://chtbl.com/track/84GC29/traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/15f449a8-6d7b-40e0-a79d-acb8012be2e4/222042f4-dcf0-4b43-b377-accc017f1063/audio.mp3?utm_source=Podcast&amp;in_playlist=1562e3ab-4113-4c66-ab62-acb8012ccfb1" type="audio/mpeg">
+        <media:player url="https://omny.fm/shows/yeahno/introducing-yeah-no-im-not-ok/embed" />
+      </media:content>
+      <media:content url="https://www.omnycontent.com/d/programs/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/15f449a8-6d7b-40e0-a79d-acb8012be2e4/image.jpg?t=1613254384&amp;size=Large" type="image/jpeg" />
+      <guid isPermaLink="false">222042f4-dcf0-4b43-b377-accc017f1063</guid>
+      <omny:clipId>222042f4-dcf0-4b43-b377-accc017f1063</omny:clipId>
+      <pubDate>Thu, 11 Feb 2021 23:30:00 +0000</pubDate>
+      <itunes:duration>176</itunes:duration>
+      <enclosure url="https://chtbl.com/track/84GC29/traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/15f449a8-6d7b-40e0-a79d-acb8012be2e4/222042f4-dcf0-4b43-b377-accc017f1063/audio.mp3?utm_source=Podcast&amp;in_playlist=1562e3ab-4113-4c66-ab62-acb8012ccfb1" length="2887391" type="audio/mpeg" />
+      <link>https://omny.fm/shows/yeahno/introducing-yeah-no-im-not-ok</link>
+    </item>
+  </channel>
+</rss>

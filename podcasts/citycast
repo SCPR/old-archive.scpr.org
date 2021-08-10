@@ -1,0 +1,132 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+  <channel>
+    <title>CityLab</title>
+    <link>http://www.scpr.org/programs/citycast/</link>
+    <atom:link href="http://www.scpr.org/programs/citycast/" rel="alternate"/>
+    <atom:link href="https://www.scpr.org/podcasts/citycast" rel="self" type="application/rss+xml"/>
+    <language>en-us</language>
+    <description>Co-produced by CityLab from The Atlantic and KPCC, we&amp;#39;ll have conversations about cities of the future and the people creating them.</description>
+    <image>
+      <url>http://media.scpr.org/assets/images/podcasts/CityCast.jpg</url>
+      <title>CityLab</title>
+      <link>http://www.scpr.org/programs/citycast/</link>
+    </image>
+    <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+    <itunes:summary>Co-produced by CityLab from The Atlantic and KPCC, we&amp;#39;ll have conversations about cities of the future and the people creating them.</itunes:summary>
+    <itunes:category text="Society &amp; Culture"/>
+    <itunes:owner>
+      <itunes:name>KPCC 89.3 | Southern California Public Radio</itunes:name>
+      <itunes:email>contact@kpcc.org</itunes:email>
+    </itunes:owner>
+    <itunes:image href="http://media.scpr.org/assets/images/podcasts/CityCast.jpg"/>
+    <itunes:explicit>no</itunes:explicit>
+    <item>
+      <title>The architecture of American literacy</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>The philanthropist Andrew Carnegie covered the U.S. in libraries between 1893 and 1919. How many survive—and the forms they've taken—points to what kind of structures make a city center.</itunes:summary>
+      <description>The philanthropist Andrew Carnegie covered the U.S. in libraries between 1893 and 1919. How many survive—and the forms they've taken—points to what kind of structures make a city center.</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/citycast/2014/10/28/10870/</guid>
+      <pubDate>Tue, 28 Oct 2014 12:00:00 GMT</pubDate>
+      <itunes:keywords>KPCC, Los Angeles, Southern California, LA</itunes:keywords>
+      <link>https://www.scpr.org/programs/citycast/2014/10/28/10870/</link>
+      <enclosure url="http://media.scpr.org/audio/upload/2014/10/28/FY15_CityCast_Carnegie_Libraries-7cac7c76.mp3?context=citycast&amp;via=podcast" length="7858962" type="audio/mpeg"/>
+      <itunes:duration>654</itunes:duration>
+    </item>
+    <item>
+      <title>The future of transportation</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>Rubber sidewalks, driverless cars, high-speed trains and the things that will change the way we move around.</itunes:summary>
+      <description>Rubber sidewalks, driverless cars, high-speed trains and the things that will change the way we move around.</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/citycast/2014/10/09/10803/</guid>
+      <pubDate>Thu, 09 Oct 2014 16:00:00 GMT</pubDate>
+      <itunes:keywords>KPCC, Los Angeles, Southern California, LA</itunes:keywords>
+      <link>https://www.scpr.org/programs/citycast/2014/10/09/10803/</link>
+      <enclosure url="http://media.scpr.org/audio/upload/2014/10/09/FY15_CityCast_Future_of_Transportation_bnce-61234077.mp3?context=citycast&amp;via=podcast" length="19649976" type="audio/mpeg"/>
+      <itunes:duration>1637</itunes:duration>
+    </item>
+    <item>
+      <title>Video: What is a city?</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>Physicists Geoffrey West and Luis Bettencourt of the Santa Fe Institute have looked at data from cities around the world to try to understand what, exactly, they are. They've found that surprising patterns underlie the growth of all urban systems.</itunes:summary>
+      <description>Physicists Geoffrey West and Luis Bettencourt of the Santa Fe Institute have looked at data from cities around the world to try to understand what, exactly, they are. They've found that surprising patterns underlie the growth of all urban systems.</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/citycast/2014/10/04/10808/</guid>
+      <pubDate>Sat, 04 Oct 2014 16:00:00 GMT</pubDate>
+      <itunes:keywords>KPCC, Los Angeles, Southern California, LA</itunes:keywords>
+      <link>https://www.scpr.org/programs/citycast/2014/10/04/10808/</link>
+      <enclosure url="http://waldo.theatlantic.com/media/video/upload/cities%20final%200923.mp4?context=citycast" length="262446619" type="audio/mpeg"/>
+      <itunes:duration>262446</itunes:duration>
+    </item>
+    <item>
+      <title>What's mine is yours? The new dynamics of the sharing city</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>From bike share to Airbnb, the urban landscape now shows new systems of people passing private property around and using resources in new ways.  We'll look at this with April Rinne, Sharing Economy Advisory Board, City of Seoul, South Korea; David Sheard, Council Leader, Kirklees; Brian Chesky, Co-Founder and Chief Executive Officer, Airbnb; and Arun Sundararajan, Professor and Rosen Faculty Fellow, New York University.</itunes:summary>
+      <description>From bike share to Airbnb, the urban landscape now shows new systems of people passing private property around and using resources in new ways.  We'll look at this with April Rinne, Sharing Economy Advisory Board, City of Seoul, South Korea; David Sheard, Council Leader, Kirklees; Brian Chesky, Co-Founder and Chief Executive Officer, Airbnb; and Arun Sundararajan, Professor and Rosen Faculty Fellow, New York University.</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/citycast/2014/10/02/10807/</guid>
+      <pubDate>Thu, 02 Oct 2014 16:00:00 GMT</pubDate>
+      <itunes:keywords>KPCC, Los Angeles, Southern California, LA</itunes:keywords>
+      <link>https://www.scpr.org/programs/citycast/2014/10/02/10807/</link>
+      <enclosure url="http://media.scpr.org/audio/upload/2014/10/02/FY15_CityCast_The_Sharing_city-8cb8ead6.mp3?context=citycast&amp;via=podcast" length="30766472" type="audio/mpeg"/>
+      <itunes:duration>2563</itunes:duration>
+    </item>
+    <item>
+      <title>Janette Sadik-Khan on LA, NYC and the future of transportation</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>The former Transportation Commissioner of New York transformed Times Square from a cab-choked bottleneck into an airy pedestrian mall.  Now, she&amp;#39;s working on walking, biking and commuting in Southern California.</itunes:summary>
+      <description>The former Transportation Commissioner of New York transformed Times Square from a cab-choked bottleneck into an airy pedestrian mall.  Now, she&amp;#39;s working on walking, biking and commuting in Southern California.</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/citycast/2014/09/30/10775/</guid>
+      <pubDate>Wed, 01 Oct 2014 00:59:23 GMT</pubDate>
+      <itunes:keywords>KPCC, Los Angeles, Southern California, LA</itunes:keywords>
+      <link>https://www.scpr.org/programs/citycast/2014/09/30/10775/</link>
+      <enclosure url="http://media.scpr.org/audio/upload/2014/09/30/FY15_CityCast_JSK_bounce-a2b36c58.mp3?context=citycast&amp;via=podcast" length="6406643" type="audio/mpeg"/>
+      <itunes:duration>533</itunes:duration>
+    </item>
+    <item>
+      <title>New in Town: Mayors on Immigration</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>Newcomers, refugees and asylum seekers redefine cities nationwide.  Denis Coderre, the mayor or Montreal talks with Kasim Reed, mayor of Atlanta about distinct issues and shared policies.</itunes:summary>
+      <description>Newcomers, refugees and asylum seekers redefine cities nationwide.  Denis Coderre, the mayor or Montreal talks with Kasim Reed, mayor of Atlanta about distinct issues and shared policies.</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/citycast/2014/09/30/10774/</guid>
+      <pubDate>Tue, 30 Sep 2014 21:21:26 GMT</pubDate>
+      <itunes:keywords>KPCC, Los Angeles, Southern California, LA</itunes:keywords>
+      <link>https://www.scpr.org/programs/citycast/2014/09/30/10774/</link>
+      <enclosure url="http://media.scpr.org/audio/upload/2014/09/30/FY15_CityCast_Immigration_panel-26955cc0.mp3?context=citycast&amp;via=podcast" length="18600180" type="audio/mpeg"/>
+      <itunes:duration>1550</itunes:duration>
+    </item>
+    <item>
+      <title>LA Mayor Eric Garcetti on 'reinventing city hall'</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>The new mayor says he governs like he is &amp;quot;the city&amp;#39;s CEO,&amp;quot; requiring department heads to reapply for their jobs and undergo data-driven performance reviews.  Here, he&amp;#39;s interviewed by Walter Isaacson, president of The Aspen Institute.</itunes:summary>
+      <description>The new mayor says he governs like he is &amp;quot;the city&amp;#39;s CEO,&amp;quot; requiring department heads to reapply for their jobs and undergo data-driven performance reviews.  Here, he&amp;#39;s interviewed by Walter Isaacson, president of The Aspen Institute.</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/citycast/2014/09/29/10773/</guid>
+      <pubDate>Mon, 29 Sep 2014 20:10:59 GMT</pubDate>
+      <itunes:keywords>KPCC, Los Angeles, Southern California, LA</itunes:keywords>
+      <link>https://www.scpr.org/programs/citycast/2014/09/29/10773/</link>
+      <enclosure url="http://media.scpr.org/audio/upload/2014/09/29/CITYCAST_-_Garcetti_bounce_v1_cc-07c6de93.mp3?context=citycast&amp;via=podcast" length="14375941" type="audio/mpeg"/>
+      <itunes:duration>1197</itunes:duration>
+    </item>
+    <item>
+      <title>Michael Bloomberg on safer cities, new urban thinking</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>The philanthropist and former mayor of New York City is offering $125 million to reduce traffic fatalities and injuries in low- and middle-income cities and countries.</itunes:summary>
+      <description>The philanthropist and former mayor of New York City is offering $125 million to reduce traffic fatalities and injuries in low- and middle-income cities and countries.</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/citycast/2014/09/29/10772/</guid>
+      <pubDate>Mon, 29 Sep 2014 18:08:51 GMT</pubDate>
+      <itunes:keywords>KPCC, Los Angeles, Southern California, LA</itunes:keywords>
+      <link>https://www.scpr.org/programs/citycast/2014/09/29/10772/</link>
+      <enclosure url="http://media.scpr.org/audio/upload/2014/09/29/CITYCAST_-_Bloomberg_bounce_v1_cc-0d0f22eb.mp3?context=citycast&amp;via=podcast" length="17155384" type="audio/mpeg"/>
+      <itunes:duration>1429</itunes:duration>
+    </item>
+    <item>
+      <title>Richard Florida, Sommer Mathis and urban solutions in LA</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>A preview of the gathering of global city leaders, who will engage in a series of conversations about urban ideas and innovations that are shaping metro centers around the world.</itunes:summary>
+      <description>A preview of the gathering of global city leaders, who will engage in a series of conversations about urban ideas and innovations that are shaping metro centers around the world.</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/citycast/2014/09/25/10771/</guid>
+      <pubDate>Fri, 26 Sep 2014 04:14:26 GMT</pubDate>
+      <itunes:keywords>KPCC, Los Angeles, Southern California, LA</itunes:keywords>
+      <link>https://www.scpr.org/programs/citycast/2014/09/25/10771/</link>
+      <enclosure url="http://media.scpr.org/audio/upload/2014/09/25/CityCast_LA_Conference_Preview-6bde8090.mp3?context=citycast&amp;via=podcast" length="20504484" type="audio/mpeg"/>
+      <itunes:duration>1708</itunes:duration>
+    </item>
+  </channel>
+</rss>

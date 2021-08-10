@@ -1,0 +1,506 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+  <channel>
+    <title>The Frame segments</title>
+    <link>http://www.scpr.org/programs/the-frame/</link>
+    <atom:link href="http://www.scpr.org/programs/the-frame/" rel="alternate"/>
+    <atom:link href="https://www.scpr.org/podcasts/the-frame-segments" rel="self" type="application/rss+xml"/>
+    <language>en-us</language>
+    <description>All segments published by The Frame</description>
+    <image>
+      <url>http://media.scpr.org/assets/images/podcasts/kpcc-podcast-cover-theframe.jpg</url>
+      <title>The Frame segments</title>
+      <link>http://www.scpr.org/programs/the-frame/</link>
+    </image>
+    <itunes:author>89.3 KPCC</itunes:author>
+    <itunes:summary>All segments published by The Frame</itunes:summary>
+    <itunes:category text="Arts"/>
+    <itunes:owner>
+      <itunes:name>KPCC 89.3 | Southern California Public Radio</itunes:name>
+      <itunes:email>contact@kpcc.org</itunes:email>
+    </itunes:owner>
+    <itunes:image href="http://media.scpr.org/assets/images/podcasts/kpcc-podcast-cover-theframe.jpg"/>
+    <itunes:explicit>no</itunes:explicit>
+    <item>
+      <title>A Show That Demands Close Listening</title>
+      <itunes:author>89.3 KPCC</itunes:author>
+      <itunes:summary>The TV series "This Close" tells the story of two deaf best friends. It returned for it's second season last week. We spoke with the creators of the show, Josh Feldman and Shoshannah Stern. </itunes:summary>
+      <description>The TV series "This Close" tells the story of two deaf best friends. It returned for it's second season last week. We spoke with the creators of the show, Josh Feldman and Shoshannah Stern. </description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/the-frame/2019/09/16/64891/a-show-that-demands-close-listening/</guid>
+      <pubDate>Mon, 16 Sep 2019 17:11:17 GMT</pubDate>
+      <itunes:keywords>The Frame, KPCC, Southern California Public Radio</itunes:keywords>
+      <link>https://www.scpr.org/programs/the-frame/2019/09/16/64891/a-show-that-demands-close-listening/</link>
+      <enclosure url="https://resound-media.scpr.org/02e2_This%20Close.wav.128k.mp3?context=the-frame&amp;via=podcast" length="6773199" type="audio/mpeg"/>
+      <itunes:duration>423</itunes:duration>
+    </item>
+    <item>
+      <title>'Sell/Buy/Date' is a one-woman play with many views of the sex industry</title>
+      <itunes:author>89.3 KPCC</itunes:author>
+      <itunes:summary>Performer and playwright Sarah Jones tackles tricky topics such as prostitution and pornography in her multi-character solo show.</itunes:summary>
+      <description>Performer and playwright Sarah Jones tackles tricky topics such as prostitution and pornography in her multi-character solo show.</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/the-frame/2018/09/28/62248/sell-buy-date-is-a-one-woman-play-with-many-views/</guid>
+      <pubDate>Fri, 28 Sep 2018 19:13:00 GMT</pubDate>
+      <itunes:keywords>The Frame, KPCC, Southern California Public Radio</itunes:keywords>
+      <link>https://www.scpr.org/programs/the-frame/2018/09/28/62248/sell-buy-date-is-a-one-woman-play-with-many-views/</link>
+      <enclosure url="https://media.scpr.org/podcasts/upload/2018/03/16/SarahJones-13d0cc36.mp3?context=the-frame&amp;via=podcast" length="43169528" type="audio/mpeg"/>
+      <itunes:duration>1079</itunes:duration>
+    </item>
+    <item>
+      <title>What it takes to get an Emmy nomination from 13 people who have one (or more)</title>
+      <itunes:author>89.3 KPCC</itunes:author>
+      <itunes:summary>In this special, we get to know 13 people who are nominated for their work on the small screen this past year. </itunes:summary>
+      <description>In this special, we get to know 13 people who are nominated for their work on the small screen this past year. </description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/the-frame/2018/08/22/63566/what-it-takes-to-get-an-emmy-nomination-from-13-pe/</guid>
+      <pubDate>Wed, 22 Aug 2018 21:19:44 GMT</pubDate>
+      <itunes:keywords>The Frame, KPCC, Southern California Public Radio</itunes:keywords>
+      <link>https://www.scpr.org/programs/the-frame/2018/08/22/63566/what-it-takes-to-get-an-emmy-nomination-from-13-pe/</link>
+      <enclosure url="https://resound-media.scpr.org/8a40_EmmySpecial2018_web.mp3?context=the-frame&amp;via=podcast" length="24720030" type="audio/mpeg"/>
+      <itunes:duration>3089</itunes:duration>
+    </item>
+    <item>
+      <title>How a veteran writer got Paul Simon to open up about his legendary career </title>
+      <itunes:author>89.3 KPCC</itunes:author>
+      <itunes:summary>Author Robert Hilburn convinced the singer/songwriter to talk about making music before, during, and after his days with Art Garfunkel.  </itunes:summary>
+      <description>Author Robert Hilburn convinced the singer/songwriter to talk about making music before, during, and after his days with Art Garfunkel.  </description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/the-frame/2018/05/24/63085/how-a-veteran-writer-got-paul-simon-to-open-up-abo/</guid>
+      <pubDate>Thu, 24 May 2018 20:16:04 GMT</pubDate>
+      <itunes:keywords>The Frame, KPCC, Southern California Public Radio</itunes:keywords>
+      <link>https://www.scpr.org/programs/the-frame/2018/05/24/63085/how-a-veteran-writer-got-paul-simon-to-open-up-abo/</link>
+      <enclosure url="https://resound-media.scpr.org/62d8_Robert%20Hilburn%20FINALFINALFINAL.wav.128k.mp3?context=the-frame&amp;via=podcast" length="17153514" type="audio/mpeg"/>
+      <itunes:duration>1072</itunes:duration>
+    </item>
+    <item>
+      <title>Jennifer Fox's movie 'The Tale' helps clear up misconceptions about child sexual abuse </title>
+      <itunes:author>89.3 KPCC</itunes:author>
+      <itunes:summary>The filmmaker uses her own experience as a target of abuse to explore the contradictions that surround both victims and victimizers.</itunes:summary>
+      <description>The filmmaker uses her own experience as a target of abuse to explore the contradictions that surround both victims and victimizers.</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/the-frame/2018/05/21/63060/jennifer-fox-s-film-the-tale-helps-clear-up-miscon/</guid>
+      <pubDate>Mon, 21 May 2018 22:47:22 GMT</pubDate>
+      <itunes:keywords>The Frame, KPCC, Southern California Public Radio</itunes:keywords>
+      <link>https://www.scpr.org/programs/the-frame/2018/05/21/63060/jennifer-fox-s-film-the-tale-helps-clear-up-miscon/</link>
+      <enclosure url="https://media.scpr.org/podcasts/upload/2018/05/21/the_frame_b_0521_mixdown-b628b4b2.mp3?context=the-frame&amp;via=podcast" length="10089564" type="audio/mpeg"/>
+      <itunes:duration>420</itunes:duration>
+    </item>
+    <item>
+      <title>The origin story of the 1988 cult classic, 'Killer Klowns from Outer Space' </title>
+      <itunes:author>89.3 KPCC</itunes:author>
+      <itunes:summary>The filmmakers and the film's composer talk about how their low-budget horror movie went from box office bust to cult classic. </itunes:summary>
+      <description>The filmmakers and the film's composer talk about how their low-budget horror movie went from box office bust to cult classic. </description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/the-frame/2018/05/18/63049/the-origin-story-of-the-1988-cult-classic-killer-k/</guid>
+      <pubDate>Fri, 18 May 2018 23:41:18 GMT</pubDate>
+      <itunes:keywords>The Frame, KPCC, Southern California Public Radio</itunes:keywords>
+      <link>https://www.scpr.org/programs/the-frame/2018/05/18/63049/the-origin-story-of-the-1988-cult-classic-killer-k/</link>
+      <enclosure url="https://resound-media.scpr.org/bf81_KillerKlowns_WEB.wav.128k.mp3?context=the-frame&amp;via=podcast" length="6721052" type="audio/mpeg"/>
+      <itunes:duration>420</itunes:duration>
+    </item>
+    <item>
+      <title>'Bombshell' Hedy Lamarr's brilliance was discounted for decades</title>
+      <itunes:author>89.3 KPCC</itunes:author>
+      <itunes:summary>Hedy Lamarr's life story defies comparison. Described as both the Angelina Jolie and the Kim Kardashian of the 1940s, she was also a brilliant inventor.</itunes:summary>
+      <description>Hedy Lamarr's life story defies comparison. Described as both the Angelina Jolie and the Kim Kardashian of the 1940s, she was also a brilliant inventor.</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/the-frame/2018/05/18/60604/bombshell-hedy-lamarr-s-brilliance-was-discounted/</guid>
+      <pubDate>Fri, 18 May 2018 23:15:00 GMT</pubDate>
+      <itunes:keywords>The Frame, KPCC, Southern California Public Radio</itunes:keywords>
+      <link>https://www.scpr.org/programs/the-frame/2018/05/18/60604/bombshell-hedy-lamarr-s-brilliance-was-discounted/</link>
+      <enclosure url="https://media.scpr.org/podcasts/upload/2017/12/08/HedyLamarr_WEB-fa96d136.mp3?context=the-frame&amp;via=podcast" length="27594092" type="audio/mpeg"/>
+      <itunes:duration>689</itunes:duration>
+    </item>
+    <item>
+      <title>Iranian singer Googoosh performs a rare show for her devoted fans</title>
+      <itunes:author>89.3 KPCC</itunes:author>
+      <itunes:summary>The pop diva was silenced when the 1979 Islamic Revolution began. But for the past 18 years, she's been allowed to tour, including a recent rapturous show at the Hollywood Bowl.</itunes:summary>
+      <description>The pop diva was silenced when the 1979 Islamic Revolution began. But for the past 18 years, she's been allowed to tour, including a recent rapturous show at the Hollywood Bowl.</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/the-frame/2018/05/17/63006/iranian-singer-googoosh-performs-a-rare-show-for-h/</guid>
+      <pubDate>Thu, 17 May 2018 22:29:16 GMT</pubDate>
+      <itunes:keywords>The Frame, KPCC, Southern California Public Radio</itunes:keywords>
+      <link>https://www.scpr.org/programs/the-frame/2018/05/17/63006/iranian-singer-googoosh-performs-a-rare-show-for-h/</link>
+      <enclosure url="https://media.scpr.org/podcasts/upload/2018/05/17/the_frame_C_0514_mixdown-3f7bbc52.mp3?context=the-frame&amp;via=podcast" length="8699100" type="audio/mpeg"/>
+      <itunes:duration>362</itunes:duration>
+    </item>
+    <item>
+      <title>How David Henry Hwang’s 'Soft Power' morphed into a musical — and dealt with the 2016 election</title>
+      <itunes:author>89.3 KPCC</itunes:author>
+      <itunes:summary>The playwright realized his story called for music, so he recruited composer Jeanine Tesori for the show that imagines China as the leading world power after the 2016 U.S. presidential election.</itunes:summary>
+      <description>The playwright realized his story called for music, so he recruited composer Jeanine Tesori for the show that imagines China as the leading world power after the 2016 U.S. presidential election.</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/the-frame/2018/05/16/63017/how-david-henry-hwang-s-soft-power-morphed-from-a/</guid>
+      <pubDate>Thu, 17 May 2018 00:05:23 GMT</pubDate>
+      <itunes:keywords>The Frame, KPCC, Southern California Public Radio</itunes:keywords>
+      <link>https://www.scpr.org/programs/the-frame/2018/05/16/63017/how-david-henry-hwang-s-soft-power-morphed-from-a/</link>
+      <enclosure url="https://resound-media.scpr.org/0148_Soft%20Power%20WEB.wav.128k.mp3?context=the-frame&amp;via=podcast" length="16331763" type="audio/mpeg"/>
+      <itunes:duration>1020</itunes:duration>
+    </item>
+    <item>
+      <title>Tired of blockbusters? Ethan Hawke has 3 indie movies for you this summer</title>
+      <itunes:author>89.3 KPCC</itunes:author>
+      <itunes:summary>The Oscar-nominated actor and filmmaker discusses the complicated world of independent film and his upcoming movies: "First Reformed," "Blaze" and "Juliet, Naked." </itunes:summary>
+      <description>The Oscar-nominated actor and filmmaker discusses the complicated world of independent film and his upcoming movies: "First Reformed," "Blaze" and "Juliet, Naked." </description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/the-frame/2018/05/15/63003/tired-of-blockbusters-ethan-hawke-has-three-indie/</guid>
+      <pubDate>Tue, 15 May 2018 23:49:29 GMT</pubDate>
+      <itunes:keywords>The Frame, KPCC, Southern California Public Radio</itunes:keywords>
+      <link>https://www.scpr.org/programs/the-frame/2018/05/15/63003/tired-of-blockbusters-ethan-hawke-has-three-indie/</link>
+      <enclosure url="https://resound-media.scpr.org/f97c_EthanHawke.wav.128k.mp3?context=the-frame&amp;via=podcast" length="17179678" type="audio/mpeg"/>
+      <itunes:duration>1073</itunes:duration>
+    </item>
+    <item>
+      <title>'Dear White People' addresses age-old racial and cultural wounds with comedy</title>
+      <itunes:author>89.3 KPCC</itunes:author>
+      <itunes:summary>The second season of Justin Simeon's Netflix series draws from the online attacks aimed at him when the show first premiered.</itunes:summary>
+      <description>The second season of Justin Simeon's Netflix series draws from the online attacks aimed at him when the show first premiered.</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/the-frame/2018/05/10/62955/dear-white-people-addresses-age-old-racial-and-cul/</guid>
+      <pubDate>Thu, 10 May 2018 22:30:45 GMT</pubDate>
+      <itunes:keywords>The Frame, KPCC, Southern California Public Radio</itunes:keywords>
+      <link>https://www.scpr.org/programs/the-frame/2018/05/10/62955/dear-white-people-addresses-age-old-racial-and-cul/</link>
+      <enclosure url="https://resound-media.scpr.org/0524_JustinSimien_WEB.wav.128k.mp3?context=the-frame&amp;via=podcast" length="16777246" type="audio/mpeg"/>
+      <itunes:duration>1048</itunes:duration>
+    </item>
+    <item>
+      <title>Documentary 'A Suitable Girl' examines arranged marriage in India from a woman's POV</title>
+      <itunes:author>89.3 KPCC</itunes:author>
+      <itunes:summary>Filmmakers Smitri Mundhra and Jennifer Tiexera take a fresh look at the tradition in this new documentary, along with how, above all else, it's about family. </itunes:summary>
+      <description>Filmmakers Smitri Mundhra and Jennifer Tiexera take a fresh look at the tradition in this new documentary, along with how, above all else, it's about family. </description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/the-frame/2018/05/09/62930/a-suitable-girl-examines-arranged-marriage-in-indi/</guid>
+      <pubDate>Wed, 09 May 2018 23:41:39 GMT</pubDate>
+      <itunes:keywords>The Frame, KPCC, Southern California Public Radio</itunes:keywords>
+      <link>https://www.scpr.org/programs/the-frame/2018/05/09/62930/a-suitable-girl-examines-arranged-marriage-in-indi/</link>
+      <enclosure url="https://resound-media.scpr.org/1c00_ASuitableGirl.wav.128k.mp3?context=the-frame&amp;via=podcast" length="10523040" type="audio/mpeg"/>
+      <itunes:duration>657</itunes:duration>
+    </item>
+    <item>
+      <title>Tanya Saracho went from 'diversity hire' to leader of TV's first all-Latinx writers room</title>
+      <itunes:author>89.3 KPCC</itunes:author>
+      <itunes:summary>Playwright Tanya Saracho went from a job as the "diversity hire" on "Devious Maids," to finding her voice on "Loving," to creating her own show "Vida" for Starz.</itunes:summary>
+      <description>Playwright Tanya Saracho went from a job as the "diversity hire" on "Devious Maids," to finding her voice on "Loving," to creating her own show "Vida" for Starz.</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/the-frame/2018/05/07/62893/tanya-saracho-went-from-diversity-hire-to-leader-o/</guid>
+      <pubDate>Tue, 08 May 2018 00:12:55 GMT</pubDate>
+      <itunes:keywords>The Frame, KPCC, Southern California Public Radio</itunes:keywords>
+      <link>https://www.scpr.org/programs/the-frame/2018/05/07/62893/tanya-saracho-went-from-diversity-hire-to-leader-o/</link>
+      <enclosure url="https://resound-media.scpr.org/cc73_VIDA_web.wav.128k.mp3?context=the-frame&amp;via=podcast" length="17248744" type="audio/mpeg"/>
+      <itunes:duration>1078</itunes:duration>
+    </item>
+    <item>
+      <title>'RBG' shows Ruth Bader Ginsburg as real life superhero</title>
+      <itunes:author>89.3 KPCC</itunes:author>
+      <itunes:summary>The documentary "RBG" shows Ruth Bader Ginsburg's history fighting gender discrimination both in her personal life and as a lawyer before joining the Supreme Court.
+</itunes:summary>
+      <description>The documentary "RBG" shows Ruth Bader Ginsburg's history fighting gender discrimination both in her personal life and as a lawyer before joining the Supreme Court.
+</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/the-frame/2018/05/04/61296/rbg-shows-ruth-bader-ginsburg-as-real-life-superhe/</guid>
+      <pubDate>Sat, 05 May 2018 00:52:00 GMT</pubDate>
+      <itunes:keywords>The Frame, KPCC, Southern California Public Radio</itunes:keywords>
+      <link>https://www.scpr.org/programs/the-frame/2018/05/04/61296/rbg-shows-ruth-bader-ginsburg-as-real-life-superhe/</link>
+      <enclosure url="https://resound-media.scpr.org/eff6ea66cef4b71e72b7a261a1f896e4.mp3?context=the-frame&amp;via=podcast" length="9914793" type="audio/mpeg"/>
+      <itunes:duration>619</itunes:duration>
+    </item>
+    <item>
+      <title>New sexual mistreatment allegations against R. Kelly fit a history going back to the 1990s</title>
+      <itunes:author>89.3 KPCC</itunes:author>
+      <itunes:summary>New accusations against R. Kelly for alleged sexual abuse are the latest in a long history. One music reporter shares what he's learned investigating the singer for nearly two decades.</itunes:summary>
+      <description>New accusations against R. Kelly for alleged sexual abuse are the latest in a long history. One music reporter shares what he's learned investigating the singer for nearly two decades.</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/the-frame/2018/05/04/62876/new-sexual-mistreatment-allegations-against-r-kell/</guid>
+      <pubDate>Sat, 05 May 2018 00:43:22 GMT</pubDate>
+      <itunes:keywords>The Frame, KPCC, Southern California Public Radio</itunes:keywords>
+      <link>https://www.scpr.org/programs/the-frame/2018/05/04/62876/new-sexual-mistreatment-allegations-against-r-kell/</link>
+      <enclosure url="https://resound-media.scpr.org/9a1e5c531cf67f5e8c0ce86d3674ee71.mp3?context=the-frame&amp;via=podcast" length="9864087" type="audio/mpeg"/>
+      <itunes:duration>616</itunes:duration>
+    </item>
+    <item>
+      <title>'The Crown' costumer on royal weddings, period dramas and the importance of research</title>
+      <itunes:author>89.3 KPCC</itunes:author>
+      <itunes:summary>"The Crown" costume designer Jane Petrie discusses the process of wardrobing the Royal Family and honoring early 1960s fashion waves. </itunes:summary>
+      <description>"The Crown" costume designer Jane Petrie discusses the process of wardrobing the Royal Family and honoring early 1960s fashion waves. </description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/the-frame/2018/05/04/62874/the-crown-costumer-on-royal-weddings-period-dramas/</guid>
+      <pubDate>Sat, 05 May 2018 00:00:11 GMT</pubDate>
+      <itunes:keywords>The Frame, KPCC, Southern California Public Radio</itunes:keywords>
+      <link>https://www.scpr.org/programs/the-frame/2018/05/04/62874/the-crown-costumer-on-royal-weddings-period-dramas/</link>
+      <enclosure url="https://resound-media.scpr.org/50cc6c87bb1593f5c7a0056b5ca6e23f.mp3?context=the-frame&amp;via=podcast" length="12655389" type="audio/mpeg"/>
+      <itunes:duration>790</itunes:duration>
+    </item>
+    <item>
+      <title>At UCLA, 'the theater is a blank page' stretches the idea of theater</title>
+      <itunes:author>89.3 KPCC</itunes:author>
+      <itunes:summary>A new multi-media project on UCLA'S campus is part theater, part visual art, part communal experience aptly named 'the theater is a blank space.'</itunes:summary>
+      <description>A new multi-media project on UCLA'S campus is part theater, part visual art, part communal experience aptly named 'the theater is a blank space.'</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/the-frame/2018/05/03/62838/at-ucla-the-theater-is-a-blank-page-stretches-the/</guid>
+      <pubDate>Fri, 04 May 2018 02:40:30 GMT</pubDate>
+      <itunes:keywords>The Frame, KPCC, Southern California Public Radio</itunes:keywords>
+      <link>https://www.scpr.org/programs/the-frame/2018/05/03/62838/at-ucla-the-theater-is-a-blank-page-stretches-the/</link>
+      <enclosure url="https://resound-media.scpr.org/ac895c38db77eaad49aafef77e65cb9b.mp3?context=the-frame&amp;via=podcast" length="5786734" type="audio/mpeg"/>
+      <itunes:duration>361</itunes:duration>
+    </item>
+    <item>
+      <title>Author Robert Gordon uncovers the raw blues behind Memphis’ musical legacy</title>
+      <itunes:author>89.3 KPCC</itunes:author>
+      <itunes:summary>In his new book “Memphis Rent Party” Gordon writes about Sam Phillips’ crazed Letterman appearance to encounters with impoverished bluesmen in rural juke-joints.</itunes:summary>
+      <description>In his new book “Memphis Rent Party” Gordon writes about Sam Phillips’ crazed Letterman appearance to encounters with impoverished bluesmen in rural juke-joints.</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/the-frame/2018/05/03/62855/author-robert-gordon-uncovers-the-raw-blues-behind/</guid>
+      <pubDate>Thu, 03 May 2018 23:03:26 GMT</pubDate>
+      <itunes:keywords>The Frame, KPCC, Southern California Public Radio</itunes:keywords>
+      <link>https://www.scpr.org/programs/the-frame/2018/05/03/62855/author-robert-gordon-uncovers-the-raw-blues-behind/</link>
+      <enclosure url="https://resound-media.scpr.org/1e06f9c2b6afc7cb1a6b89fae2a01adf.mp3?context=the-frame&amp;via=podcast" length="8695526" type="audio/mpeg"/>
+      <itunes:duration>543</itunes:duration>
+    </item>
+    <item>
+      <title>'Leonard Bernstein at 100' offers a comprehensive look at the legendary musician and activist </title>
+      <itunes:author>89.3 KPCC</itunes:author>
+      <itunes:summary>The Skirball Museum's new exhibit "Leonard Bernstein at 100" archives artifacts and documents from all parts of the famous composer's life and career. </itunes:summary>
+      <description>The Skirball Museum's new exhibit "Leonard Bernstein at 100" archives artifacts and documents from all parts of the famous composer's life and career. </description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/the-frame/2018/05/03/62857/leonard-bernstein-at-100-offers-a-comprehensive-lo/</guid>
+      <pubDate>Thu, 03 May 2018 22:53:51 GMT</pubDate>
+      <itunes:keywords>The Frame, KPCC, Southern California Public Radio</itunes:keywords>
+      <link>https://www.scpr.org/programs/the-frame/2018/05/03/62857/leonard-bernstein-at-100-offers-a-comprehensive-lo/</link>
+      <enclosure url="https://media.scpr.org/podcasts/upload/2018/05/03/bernstein_audio_mixdown-217d917b.mp3?context=the-frame&amp;via=podcast" length="17507290" type="audio/mpeg"/>
+      <itunes:duration>729</itunes:duration>
+    </item>
+    <item>
+      <title>‘Barbie’ doc director: ‘Women get lambasted for almost anything they do'</title>
+      <itunes:author>89.3 KPCC</itunes:author>
+      <itunes:summary>The Hulu documentary "Tiny Shoulders: Rethinking Barbie" tells the story of how Barbie was created and why, after years of criticism, this unnaturally curvy doll got a radical makeover.</itunes:summary>
+      <description>The Hulu documentary "Tiny Shoulders: Rethinking Barbie" tells the story of how Barbie was created and why, after years of criticism, this unnaturally curvy doll got a radical makeover.</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/the-frame/2018/05/03/62800/barbie-doc-director-women-get-lambasted-for-almost/</guid>
+      <pubDate>Thu, 03 May 2018 14:54:56 GMT</pubDate>
+      <itunes:keywords>The Frame, KPCC, Southern California Public Radio</itunes:keywords>
+      <link>https://www.scpr.org/programs/the-frame/2018/05/03/62800/barbie-doc-director-women-get-lambasted-for-almost/</link>
+      <enclosure url="https://resound-media.scpr.org/6dd4bdfe796b0c31316787ec0ddaed8b.mp3?context=the-frame&amp;via=podcast" length="12336239" type="audio/mpeg"/>
+      <itunes:duration>771</itunes:duration>
+    </item>
+    <item>
+      <title>Martin Freeman says horror is part of his 'DNA as a British person'</title>
+      <itunes:author>89.3 KPCC</itunes:author>
+      <itunes:summary>‘The Hobbit’ star is working on two small-scale horror films — the Netflix movie ‘Cargo' and ‘Ghost Stories’ — both of which presented unique challenges. </itunes:summary>
+      <description>‘The Hobbit’ star is working on two small-scale horror films — the Netflix movie ‘Cargo' and ‘Ghost Stories’ — both of which presented unique challenges. </description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/the-frame/2018/05/02/62836/martin-freeman-says-horror-is-part-of-his-dna-as-a/</guid>
+      <pubDate>Wed, 02 May 2018 23:39:40 GMT</pubDate>
+      <itunes:keywords>The Frame, KPCC, Southern California Public Radio</itunes:keywords>
+      <link>https://www.scpr.org/programs/the-frame/2018/05/02/62836/martin-freeman-says-horror-is-part-of-his-dna-as-a/</link>
+      <enclosure url="https://resound-media.scpr.org/601ff606794b6b7202f1a8ebfe283bc5.mp3?context=the-frame&amp;via=podcast" length="10405106" type="audio/mpeg"/>
+      <itunes:duration>650</itunes:duration>
+    </item>
+    <item>
+      <title>How the 'Avengers Infinity War' writers juggled all those superhero storylines</title>
+      <itunes:author>89.3 KPCC</itunes:author>
+      <itunes:summary>It's easy to give Iron Man, Black Panther, Spider Man, Captain America, and Doctor Strange the credit for the record turnout, but someone had to come up with a story. </itunes:summary>
+      <description>It's easy to give Iron Man, Black Panther, Spider Man, Captain America, and Doctor Strange the credit for the record turnout, but someone had to come up with a story. </description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/the-frame/2018/05/01/62802/how-the-avengers-infinity-war-writers-juggled-all/</guid>
+      <pubDate>Tue, 01 May 2018 18:43:17 GMT</pubDate>
+      <itunes:keywords>The Frame, KPCC, Southern California Public Radio</itunes:keywords>
+      <link>https://www.scpr.org/programs/the-frame/2018/05/01/62802/how-the-avengers-infinity-war-writers-juggled-all/</link>
+      <enclosure url="https://resound-media.scpr.org/03cf824edd75e79d86d2507777484de5.mp3?context=the-frame&amp;via=podcast" length="11405855" type="audio/mpeg"/>
+      <itunes:duration>712</itunes:duration>
+    </item>
+    <item>
+      <title>What 'A Quiet Place' can teach Hollywood about original stories</title>
+      <itunes:author>89.3 KPCC</itunes:author>
+      <itunes:summary>Producers Brad Fuller and Andrew Form discuss the film's unexpected success and the difficulty of finding original horror screenplays.</itunes:summary>
+      <description>Producers Brad Fuller and Andrew Form discuss the film's unexpected success and the difficulty of finding original horror screenplays.</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/the-frame/2018/04/27/62715/what-a-quiet-place-can-teach-hollywood-about-origi/</guid>
+      <pubDate>Sat, 28 Apr 2018 01:03:58 GMT</pubDate>
+      <itunes:keywords>The Frame, KPCC, Southern California Public Radio</itunes:keywords>
+      <link>https://www.scpr.org/programs/the-frame/2018/04/27/62715/what-a-quiet-place-can-teach-hollywood-about-origi/</link>
+      <enclosure url="https://resound-media.scpr.org/4624b3f43861872d3c0c07d435626804.mp3?context=the-frame&amp;via=podcast" length="10561016" type="audio/mpeg"/>
+      <itunes:duration>660</itunes:duration>
+    </item>
+    <item>
+      <title>Alia Shawkat talks 'Duck Butter,' lesbian films and Jeffrey Tambor</title>
+      <itunes:author>89.3 KPCC</itunes:author>
+      <itunes:summary>The actress wrote and co-stars in "Duck Butter," a lesbian experiment in trust, intimacy and getting to know yourself. </itunes:summary>
+      <description>The actress wrote and co-stars in "Duck Butter," a lesbian experiment in trust, intimacy and getting to know yourself. </description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/the-frame/2018/04/27/62782/alia-shawkat-talks-duck-butter-lesbian-films-and-j/</guid>
+      <pubDate>Sat, 28 Apr 2018 00:18:02 GMT</pubDate>
+      <itunes:keywords>The Frame, KPCC, Southern California Public Radio</itunes:keywords>
+      <link>https://www.scpr.org/programs/the-frame/2018/04/27/62782/alia-shawkat-talks-duck-butter-lesbian-films-and-j/</link>
+      <enclosure url="https://media.scpr.org/podcasts/upload/2018/04/27/the_frame_0427B-fcaa7e7f.mp3?context=the-frame&amp;via=podcast" length="15845894" type="audio/mpeg"/>
+      <itunes:duration>659</itunes:duration>
+    </item>
+    <item>
+      <title>Should YouTube be responsible for regulating content?</title>
+      <itunes:author>89.3 KPCC</itunes:author>
+      <itunes:summary>Facebook and Twitter have made efforts to stem the flow of misinformation and abusive content. Google’s streaming video platform, however, has been slower to act</itunes:summary>
+      <description>Facebook and Twitter have made efforts to stem the flow of misinformation and abusive content. Google’s streaming video platform, however, has been slower to act</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/the-frame/2018/04/27/62784/should-youtube-be-responsible-for-regulating-conte/</guid>
+      <pubDate>Fri, 27 Apr 2018 23:59:57 GMT</pubDate>
+      <itunes:keywords>The Frame, KPCC, Southern California Public Radio</itunes:keywords>
+      <link>https://www.scpr.org/programs/the-frame/2018/04/27/62784/should-youtube-be-responsible-for-regulating-conte/</link>
+      <enclosure url="https://resound-media.scpr.org/afc0c544cba88942c08707911803ba51.mp3?context=the-frame&amp;via=podcast" length="6625754" type="audio/mpeg"/>
+      <itunes:duration>414</itunes:duration>
+    </item>
+    <item>
+      <title>Beyoncé-themed mass draws hundreds of worshippers</title>
+      <itunes:author>89.3 KPCC</itunes:author>
+      <itunes:summary>"You don't sing when they want you to sing. You sing when God tells you to sing!"</itunes:summary>
+      <description>"You don't sing when they want you to sing. You sing when God tells you to sing!"</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/the-frame/2018/04/27/62778/beyonce-themed-mass-at-grace-cathedral-draws-hundr/</guid>
+      <pubDate>Fri, 27 Apr 2018 23:57:48 GMT</pubDate>
+      <itunes:keywords>The Frame, KPCC, Southern California Public Radio</itunes:keywords>
+      <link>https://www.scpr.org/programs/the-frame/2018/04/27/62778/beyonce-themed-mass-at-grace-cathedral-draws-hundr/</link>
+      <enclosure url="https://media.scpr.org/podcasts/upload/2018/04/27/the_frame_0427C-05326d39.mp3?context=the-frame&amp;via=podcast" length="10090520" type="audio/mpeg"/>
+      <itunes:duration>420</itunes:duration>
+    </item>
+    <item>
+      <title>Rachel Weisz is finding new roles for herself. First up, a lesbian. Next, a man</title>
+      <itunes:author>89.3 KPCC</itunes:author>
+      <itunes:summary>The actress is on the lookout for roles she hasn't played before. In her new film, "Disobedience," she has an affair with a childhood friend.</itunes:summary>
+      <description>The actress is on the lookout for roles she hasn't played before. In her new film, "Disobedience," she has an affair with a childhood friend.</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/the-frame/2018/04/26/62758/rachel-weisz-is-finding-new-roles-for-herself-firs/</guid>
+      <pubDate>Thu, 26 Apr 2018 23:38:14 GMT</pubDate>
+      <itunes:keywords>The Frame, KPCC, Southern California Public Radio</itunes:keywords>
+      <link>https://www.scpr.org/programs/the-frame/2018/04/26/62758/rachel-weisz-is-finding-new-roles-for-herself-firs/</link>
+      <enclosure url="https://resound-media.scpr.org/add71cfe9a231bd9231ab9ce7f116f34.mp3?context=the-frame&amp;via=podcast" length="12405722" type="audio/mpeg"/>
+      <itunes:duration>775</itunes:duration>
+    </item>
+    <item>
+      <title>Byron Allen wants to build bridges between theaters and studios</title>
+      <itunes:author>89.3 KPCC</itunes:author>
+      <itunes:summary>The former comedian and TV show host is building up his Entertainment Studio Motion Pictures company, which has interests in both film and television.</itunes:summary>
+      <description>The former comedian and TV show host is building up his Entertainment Studio Motion Pictures company, which has interests in both film and television.</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/the-frame/2018/04/26/62757/byron-allen-wants-to-build-bridges-between-theater/</guid>
+      <pubDate>Thu, 26 Apr 2018 22:29:11 GMT</pubDate>
+      <itunes:keywords>The Frame, KPCC, Southern California Public Radio</itunes:keywords>
+      <link>https://www.scpr.org/programs/the-frame/2018/04/26/62757/byron-allen-wants-to-build-bridges-between-theater/</link>
+      <enclosure url="https://media.scpr.org/podcasts/upload/2018/04/26/the_frame_0426_mixdown-defafeed.mp3?context=the-frame&amp;via=podcast" length="18625880" type="audio/mpeg"/>
+      <itunes:duration>775</itunes:duration>
+    </item>
+    <item>
+      <title>‘Double Vision’: Photographer George Rodriguez's contrasting images of L.A.  </title>
+      <itunes:author>89.3 KPCC</itunes:author>
+      <itunes:summary>His new book spans over half a century of images capturing two very different visions of Los Angeles, from pop culture icons to social activists.</itunes:summary>
+      <description>His new book spans over half a century of images capturing two very different visions of Los Angeles, from pop culture icons to social activists.</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/the-frame/2018/04/25/62738/double-vision-photographer-george-rodriguez-s-dual/</guid>
+      <pubDate>Wed, 25 Apr 2018 23:59:02 GMT</pubDate>
+      <itunes:keywords>The Frame, KPCC, Southern California Public Radio</itunes:keywords>
+      <link>https://www.scpr.org/programs/the-frame/2018/04/25/62738/double-vision-photographer-george-rodriguez-s-dual/</link>
+      <enclosure url="https://resound-media.scpr.org/54ed58a612923fdf94981b5a6a013665.mp3?context=the-frame&amp;via=podcast" length="10223842" type="audio/mpeg"/>
+      <itunes:duration>638</itunes:duration>
+    </item>
+    <item>
+      <title>In the CalArts world of music, salsa is a popular draw for students</title>
+      <itunes:author>89.3 KPCC</itunes:author>
+      <itunes:summary>The school's expansive music program has a salsa band that reflects the institute's growing Latino student population. </itunes:summary>
+      <description>The school's expansive music program has a salsa band that reflects the institute's growing Latino student population. </description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/the-frame/2018/04/25/62732/in-the-calarts-world-of-music-salsa-is-a-popular-d/</guid>
+      <pubDate>Wed, 25 Apr 2018 22:32:27 GMT</pubDate>
+      <itunes:keywords>The Frame, KPCC, Southern California Public Radio</itunes:keywords>
+      <link>https://www.scpr.org/programs/the-frame/2018/04/25/62732/in-the-calarts-world-of-music-salsa-is-a-popular-d/</link>
+      <enclosure url="https://media.scpr.org/podcasts/upload/2018/04/25/FrameC_0425_mixdown-f908e63e.mp3?context=the-frame&amp;via=podcast" length="10089554" type="audio/mpeg"/>
+      <itunes:duration>420</itunes:duration>
+    </item>
+    <item>
+      <title>Meet the couple behind Netflix's 'The Honeymoon Standup Special'</title>
+      <itunes:author>89.3 KPCC</itunes:author>
+      <itunes:summary>Comedians Moshe Kasher and Natasha Leggero discuss religion and parenthood, and offer relationship advice to audience members in their three-part show. </itunes:summary>
+      <description>Comedians Moshe Kasher and Natasha Leggero discuss religion and parenthood, and offer relationship advice to audience members in their three-part show. </description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/the-frame/2018/04/24/62711/meet-the-couple-behind-netflix-s-the-honeymoon-sta/</guid>
+      <pubDate>Tue, 24 Apr 2018 23:37:47 GMT</pubDate>
+      <itunes:keywords>The Frame, KPCC, Southern California Public Radio</itunes:keywords>
+      <link>https://www.scpr.org/programs/the-frame/2018/04/24/62711/meet-the-couple-behind-netflix-s-the-honeymoon-sta/</link>
+      <enclosure url="https://resound-media.scpr.org/8c10d17aefab85aba2ee49243c66990b.mp3?context=the-frame&amp;via=podcast" length="16201195" type="audio/mpeg"/>
+      <itunes:duration>1012</itunes:duration>
+    </item>
+    <item>
+      <title>Jamila Woods uses poetry and song to reflect on her native Chicago</title>
+      <itunes:author>89.3 KPCC</itunes:author>
+      <itunes:summary>Woods hails from the south side of Chicago where she discovered her love of poetry. Her music fuses spoken word and R&amp;B with messages of social justice.</itunes:summary>
+      <description>Woods hails from the south side of Chicago where she discovered her love of poetry. Her music fuses spoken word and R&amp;B with messages of social justice.</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/the-frame/2018/04/24/62713/jamila-woods-uses-poetry-and-song-to-reflect-on-he/</guid>
+      <pubDate>Tue, 24 Apr 2018 22:51:14 GMT</pubDate>
+      <itunes:keywords>The Frame, KPCC, Southern California Public Radio</itunes:keywords>
+      <link>https://www.scpr.org/programs/the-frame/2018/04/24/62713/jamila-woods-uses-poetry-and-song-to-reflect-on-he/</link>
+      <enclosure url="https://resound-media.scpr.org/3c9eca2662d5c9765a1197d73ae46832.mp3?context=the-frame&amp;via=podcast" length="5809393" type="audio/mpeg"/>
+      <itunes:duration>363</itunes:duration>
+    </item>
+    <item>
+      <title>'Dear Franklin Jones' is an audio memoir about growing up inside a cult</title>
+      <itunes:author>89.3 KPCC</itunes:author>
+      <itunes:summary>Radio producer Jonathan Hirsch has made a compelling podcast about his childhood that was defined by the teechings of his parents' guru.</itunes:summary>
+      <description>Radio producer Jonathan Hirsch has made a compelling podcast about his childhood that was defined by the teechings of his parents' guru.</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/the-frame/2018/04/24/62668/dear-franklin-jones-is-an-audio-memoir-about-growi/</guid>
+      <pubDate>Tue, 24 Apr 2018 22:42:55 GMT</pubDate>
+      <itunes:keywords>The Frame, KPCC, Southern California Public Radio</itunes:keywords>
+      <link>https://www.scpr.org/programs/the-frame/2018/04/24/62668/dear-franklin-jones-is-an-audio-memoir-about-growi/</link>
+      <enclosure url="https://resound-media.scpr.org/5052447cbbb8e7b91f79f14eb6f181ae.mp3?context=the-frame&amp;via=podcast" length="10329083" type="audio/mpeg"/>
+      <itunes:duration>645</itunes:duration>
+    </item>
+    <item>
+      <title>Hasan Minhaj on being an Indian-American Muslim comedian in the Trump Era</title>
+      <itunes:author>89.3 KPCC</itunes:author>
+      <itunes:summary>Comedian Hasan Minhaj combats a nativist narrative in American culture with his comedy and says, "The things I'm fighting for are actually American ideals."</itunes:summary>
+      <description>Comedian Hasan Minhaj combats a nativist narrative in American culture with his comedy and says, "The things I'm fighting for are actually American ideals."</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/the-frame/2018/04/20/57146/hasan-minhaj-on-what-it-means-to-be-an-indian-amer/</guid>
+      <pubDate>Fri, 20 Apr 2018 23:55:00 GMT</pubDate>
+      <itunes:keywords>The Frame, KPCC, Southern California Public Radio</itunes:keywords>
+      <link>https://www.scpr.org/programs/the-frame/2018/04/20/57146/hasan-minhaj-on-what-it-means-to-be-an-indian-amer/</link>
+      <enclosure url="https://media.scpr.org/podcasts/upload/2017/06/01/HasanMinhaj_1-bea0a332.mp3?context=the-frame&amp;via=podcast" length="27641072" type="audio/mpeg"/>
+      <itunes:duration>691</itunes:duration>
+    </item>
+    <item>
+      <title>Wyatt Cenac's new comedy series, 'Problem Areas,' tackles serious topics</title>
+      <itunes:author>89.3 KPCC</itunes:author>
+      <itunes:summary>On his new late-night show, the comedian draws from his "Daily Show" roots and his love of public television.</itunes:summary>
+      <description>On his new late-night show, the comedian draws from his "Daily Show" roots and his love of public television.</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/the-frame/2018/04/20/62686/wyatt-cenac-s-new-comedy-series-problem-areas-tack/</guid>
+      <pubDate>Fri, 20 Apr 2018 23:52:54 GMT</pubDate>
+      <itunes:keywords>The Frame, KPCC, Southern California Public Radio</itunes:keywords>
+      <link>https://www.scpr.org/programs/the-frame/2018/04/20/62686/wyatt-cenac-s-new-comedy-series-problem-areas-tack/</link>
+      <enclosure url="https://resound-media.scpr.org/e2edf1db94fccfd183b4e51696dc0410.mp3?context=the-frame&amp;via=podcast" length="10196967" type="audio/mpeg"/>
+      <itunes:duration>637</itunes:duration>
+    </item>
+    <item>
+      <title>How 'FernGully' inspired a generation to pursue environmental justice</title>
+      <itunes:author>89.3 KPCC</itunes:author>
+      <itunes:summary>Director Bill Kroyer on how the 1992 film had a lasting impact on young moviegoers at the time, including KPCC's environment reporter, Emily Guerin.</itunes:summary>
+      <description>Director Bill Kroyer on how the 1992 film had a lasting impact on young moviegoers at the time, including KPCC's environment reporter, Emily Guerin.</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/the-frame/2018/04/18/62649/how-ferngully-inspired-a-generation-to-pursue-envi/</guid>
+      <pubDate>Wed, 18 Apr 2018 23:23:46 GMT</pubDate>
+      <itunes:keywords>The Frame, KPCC, Southern California Public Radio</itunes:keywords>
+      <link>https://www.scpr.org/programs/the-frame/2018/04/18/62649/how-ferngully-inspired-a-generation-to-pursue-envi/</link>
+      <enclosure url="https://resound-media.scpr.org/e8c5e36595ce8c8ec3a30cd52ebb4635.mp3?context=the-frame&amp;via=podcast" length="17270692" type="audio/mpeg"/>
+      <itunes:duration>1079</itunes:duration>
+    </item>
+    <item>
+      <title>'Come Sunday' puts 'This American Life' story of Bishop Carlton Pearson on screen</title>
+      <itunes:author>89.3 KPCC</itunes:author>
+      <itunes:summary>The Netflix film dramatizes the story of a popular Pentecostal preacher that was first told in an episode of the popular public radio program.</itunes:summary>
+      <description>The Netflix film dramatizes the story of a popular Pentecostal preacher that was first told in an episode of the popular public radio program.</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/the-frame/2018/04/18/62630/come-sunday-puts-this-american-life-story-of-bisho/</guid>
+      <pubDate>Wed, 18 Apr 2018 22:54:56 GMT</pubDate>
+      <itunes:keywords>The Frame, KPCC, Southern California Public Radio</itunes:keywords>
+      <link>https://www.scpr.org/programs/the-frame/2018/04/18/62630/come-sunday-puts-this-american-life-story-of-bisho/</link>
+      <enclosure url="https://resound-media.scpr.org/7826d604e4603e49a073e3722ffa5324.mp3?context=the-frame&amp;via=podcast" length="10395515" type="audio/mpeg"/>
+      <itunes:duration>649</itunes:duration>
+    </item>
+    <item>
+      <title>How #MeToo informed a filmmaker's second documentary on Harvey Weinstein  </title>
+      <itunes:author>89.3 KPCC</itunes:author>
+      <itunes:summary>“The Reckoning: Hollywood’s Worst Kept Secret" set to premiere at the Hot Docs Festival. Director Barry Avrich's first film about Weinstein was effectively buried.</itunes:summary>
+      <description>“The Reckoning: Hollywood’s Worst Kept Secret" set to premiere at the Hot Docs Festival. Director Barry Avrich's first film about Weinstein was effectively buried.</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/the-frame/2018/04/18/62647/how-metoo-informed-a-filmmaker-s-second-documentar/</guid>
+      <pubDate>Wed, 18 Apr 2018 22:51:10 GMT</pubDate>
+      <itunes:keywords>The Frame, KPCC, Southern California Public Radio</itunes:keywords>
+      <link>https://www.scpr.org/programs/the-frame/2018/04/18/62647/how-metoo-informed-a-filmmaker-s-second-documentar/</link>
+      <enclosure url="https://resound-media.scpr.org/5d045309c51b4d2478e16d96b98cb403.mp3?context=the-frame&amp;via=podcast" length="6458345" type="audio/mpeg"/>
+      <itunes:duration>403</itunes:duration>
+    </item>
+    <item>
+      <title>Is MoviePass at a loss to change the way we buy movie tickets?</title>
+      <itunes:author>89.3 KPCC</itunes:author>
+      <itunes:summary>MoviePass offers subscribers the chance to see a movie every day, for less than the price of a single movie ticket in New York. </itunes:summary>
+      <description>MoviePass offers subscribers the chance to see a movie every day, for less than the price of a single movie ticket in New York. </description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/the-frame/2018/04/17/62627/is-moviepass-at-a-loss-to-change-the-way-we-buy-mo/</guid>
+      <pubDate>Tue, 17 Apr 2018 23:13:43 GMT</pubDate>
+      <itunes:keywords>The Frame, KPCC, Southern California Public Radio</itunes:keywords>
+      <link>https://www.scpr.org/programs/the-frame/2018/04/17/62627/is-moviepass-at-a-loss-to-change-the-way-we-buy-mo/</link>
+      <enclosure url="https://resound-media.scpr.org/c454f775c1a01f5945ddba40731d74f8.mp3?context=the-frame&amp;via=podcast" length="6074386" type="audio/mpeg"/>
+      <itunes:duration>379</itunes:duration>
+    </item>
+    <item>
+      <title>Pulitzer Prize winner Kendrick Lamar goes deep into religious symbolism with 'Damn'</title>
+      <itunes:author>89.3 KPCC</itunes:author>
+      <itunes:summary>Religion, redemption and reconciliation are among the many themes running through the rapper's album, "Damn." </itunes:summary>
+      <description>Religion, redemption and reconciliation are among the many themes running through the rapper's album, "Damn." </description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/the-frame/2018/04/16/56347/kendrick-lamar-goes-deep-into-religious-symbolism/</guid>
+      <pubDate>Mon, 16 Apr 2018 19:55:00 GMT</pubDate>
+      <itunes:keywords>The Frame, KPCC, Southern California Public Radio</itunes:keywords>
+      <link>https://www.scpr.org/programs/the-frame/2018/04/16/56347/kendrick-lamar-goes-deep-into-religious-symbolism/</link>
+      <enclosure url="https://media.scpr.org/podcasts/upload/2017/04/21/KendrickLamar-71e59eb4.mp3?context=the-frame&amp;via=podcast" length="14645360" type="audio/mpeg"/>
+      <itunes:duration>366</itunes:duration>
+    </item>
+  </channel>
+</rss>

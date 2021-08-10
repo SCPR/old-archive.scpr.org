@@ -1,0 +1,182 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+  <channel>
+    <title>Patt Morrison</title>
+    <link>http://www.scpr.org/blogs/patt-morrison</link>
+    <atom:link href="http://www.scpr.org/blogs/patt-morrison" rel="alternate"/>
+    <atom:link href="https://www.scpr.org/podcasts/patt_morrison" rel="self" type="application/rss+xml"/>
+    <language>en-us</language>
+    <description>Patt Morrison – sometimes she kicks butt and takes names, and sometimes she just has a good time talking with her smart and engaging guests, from authors to actors to scientists and politicians and, once in a while, some first-class eccentrics. After all, it’s LA.</description>
+    <image>
+      <url>http://media.scpr.org/assets/images/podcasts/kpcc-podcast-cover-morrison.jpg</url>
+      <title>Patt Morrison</title>
+      <link>http://www.scpr.org/blogs/patt-morrison</link>
+    </image>
+    <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+    <itunes:summary>Patt Morrison – sometimes she kicks butt and takes names, and sometimes she just has a good time talking with her smart and engaging guests, from authors to actors to scientists and politicians and, once in a while, some first-class eccentrics. After all, it’s LA.</itunes:summary>
+    <itunes:category text="News &amp; Politics"/>
+    <itunes:owner>
+      <itunes:name>KPCC 89.3 | Southern California Public Radio</itunes:name>
+      <itunes:email>contact@kpcc.org</itunes:email>
+    </itunes:owner>
+    <itunes:image href="http://media.scpr.org/assets/images/podcasts/kpcc-podcast-cover-morrison.jpg"/>
+    <itunes:explicit>no</itunes:explicit>
+    <item>
+      <title>Sandi Gibbons on journalism, working for the DA, and why she's retiring</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>Sandi Gibbons has tales to tell, and here she recounts a few funny, moving and plain old perplexing ones from her life in court. And I can tell you from knowing her, she is one great dame.</itunes:summary>
+      <description>Sandi Gibbons has tales to tell, and here she recounts a few funny, moving and plain old perplexing ones from her life in court. And I can tell you from knowing her, she is one great dame.</description>
+      <guid isPermaLink="true">https://www.scpr.org/blogs/patt-morrison/2013/04/08/13189/sandi-gibbons-on-journalism-working-for-the-da-and/</guid>
+      <pubDate>Mon, 08 Apr 2013 19:30:11 GMT</pubDate>
+      <itunes:keywords>KPCC, Patt Morrison, Los Angeles, Southern California, LA</itunes:keywords>
+      <link>https://www.scpr.org/blogs/patt-morrison/2013/04/08/13189/sandi-gibbons-on-journalism-working-for-the-da-and/</link>
+      <enclosure url="http://media.scpr.org/audio/upload/2013/04/05/SG.mp3?context=patt-morrison&amp;via=podcast" length="17323931" type="audio/mpeg"/>
+      <itunes:duration>1082</itunes:duration>
+    </item>
+    <item>
+      <title>Before there was Dudamel, there was Van Cliburn</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>Van Cliburn died on Wednesday. He was a master of the piano’s 88 keys, and he held the key to a triumphantly long and profitable musical career.</itunes:summary>
+      <description>Van Cliburn died on Wednesday. He was a master of the piano’s 88 keys, and he held the key to a triumphantly long and profitable musical career.</description>
+      <guid isPermaLink="true">https://www.scpr.org/blogs/patt-morrison/2013/02/27/12726/before-there-was-dudamel-there-was-van-cliburn/</guid>
+      <pubDate>Thu, 28 Feb 2013 01:25:44 GMT</pubDate>
+      <itunes:keywords>KPCC, Patt Morrison, Los Angeles, Southern California, LA</itunes:keywords>
+      <link>https://www.scpr.org/blogs/patt-morrison/2013/02/27/12726/before-there-was-dudamel-there-was-van-cliburn/</link>
+      <enclosure url="http://media.scpr.org/audio/upload/2013/02/28/Cliburn.mp3?context=patt-morrison&amp;via=podcast" length="1603112" type="audio/mpeg"/>
+      <itunes:duration>200</itunes:duration>
+    </item>
+    <item>
+      <title>Oscars 2013: Academy head Hawk Koch on the future, Seth MacFarlane and more</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>Academy of Motion Picture Arts and Sciences President Hawk Koch recently sat down with Patt Morrison to discuss the major happenings for the Academy at the Oscars and beyond.
+</itunes:summary>
+      <description>Academy of Motion Picture Arts and Sciences President Hawk Koch recently sat down with Patt Morrison to discuss the major happenings for the Academy at the Oscars and beyond.
+</description>
+      <guid isPermaLink="true">https://www.scpr.org/blogs/patt-morrison/2013/02/22/12655/hawk-koch-academy-motion-pictures-oscars-future/</guid>
+      <pubDate>Fri, 22 Feb 2013 21:52:54 GMT</pubDate>
+      <itunes:keywords>KPCC, Patt Morrison, Los Angeles, Southern California, LA</itunes:keywords>
+      <link>https://www.scpr.org/blogs/patt-morrison/2013/02/22/12655/hawk-koch-academy-motion-pictures-oscars-future/</link>
+      <enclosure url="http://media.scpr.org/audio/upload/2013/02/22/Hawk_Koch_Interview.mp3?context=patt-morrison&amp;via=podcast" length="13024512" type="audio/mpeg"/>
+      <itunes:duration>407</itunes:duration>
+    </item>
+    <item>
+      <title>Former FCC Commissioner on the state of American media</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>Michael Copps worries about news conglomerates continuing to absorb local news agencies, and how more and more investigative reporters are being left jobless.</itunes:summary>
+      <description>Michael Copps worries about news conglomerates continuing to absorb local news agencies, and how more and more investigative reporters are being left jobless.</description>
+      <guid isPermaLink="true">https://www.scpr.org/blogs/patt-morrison/2013/02/01/12344/michael-copps-future-of-media-in-United-States/</guid>
+      <pubDate>Sat, 02 Feb 2013 02:30:12 GMT</pubDate>
+      <itunes:keywords>KPCC, Patt Morrison, Los Angeles, Southern California, LA</itunes:keywords>
+      <link>https://www.scpr.org/blogs/patt-morrison/2013/02/01/12344/michael-copps-future-of-media-in-United-States/</link>
+      <enclosure url="http://media.scpr.org/audio/upload/2013/02/01/copps.mp3?context=patt-morrison&amp;via=podcast" length="16687758" type="audio/mpeg"/>
+      <itunes:duration>1042</itunes:duration>
+    </item>
+    <item>
+      <title>Justice Sonia Sotomayor talks growing up in the Bronx, her love of sci-fi and more</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>Supreme Court Justice Sonia Sotomayor talked with Patt Morrison about her childhood growing up in the Bronx, living with diabetes and her love of sci-fi novels. </itunes:summary>
+      <description>Supreme Court Justice Sonia Sotomayor talked with Patt Morrison about her childhood growing up in the Bronx, living with diabetes and her love of sci-fi novels. </description>
+      <guid isPermaLink="true">https://www.scpr.org/blogs/patt-morrison/2013/01/29/12269/patt-morrison-conversation-justice-sonia-sotomayor/</guid>
+      <pubDate>Wed, 30 Jan 2013 00:57:42 GMT</pubDate>
+      <itunes:keywords>KPCC, Patt Morrison, Los Angeles, Southern California, LA</itunes:keywords>
+      <link>https://www.scpr.org/blogs/patt-morrison/2013/01/29/12269/patt-morrison-conversation-justice-sonia-sotomayor/</link>
+      <enclosure url="http://media.scpr.org/audio/upload/2013/01/29/012513_justice_sotomayor.mp3?context=patt-morrison&amp;via=podcast" length="32280290" type="audio/mpeg"/>
+      <itunes:duration>4034</itunes:duration>
+    </item>
+    <item>
+      <title>'Turings Cathedral' traces link between early computer and atomic bomb</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>In Turing’s Cathedral, George Dyson tackles the origins of today’s digital universe, tracing them back to John von Neumann and a group of scientists and mathematicians that worked on building advanced computers, and expanding Alan Turing’s concept of a universal machine into a history-altering reality.</itunes:summary>
+      <description>In Turing’s Cathedral, George Dyson tackles the origins of today’s digital universe, tracing them back to John von Neumann and a group of scientists and mathematicians that worked on building advanced computers, and expanding Alan Turing’s concept of a universal machine into a history-altering reality.</description>
+      <guid isPermaLink="true">https://www.scpr.org/blogs/patt-morrison/2013/01/16/12056/dyson-turings-cathedral-atomic-bomb-book-computer/</guid>
+      <pubDate>Wed, 16 Jan 2013 23:58:22 GMT</pubDate>
+      <itunes:keywords>KPCC, Patt Morrison, Los Angeles, Southern California, LA</itunes:keywords>
+      <link>https://www.scpr.org/blogs/patt-morrison/2013/01/16/12056/dyson-turings-cathedral-atomic-bomb-book-computer/</link>
+      <enclosure url="http://media.scpr.org/audio/upload/2013/01/16/Dyson.mp3?context=patt-morrison&amp;via=podcast" length="14637377" type="audio/mpeg"/>
+      <itunes:duration>914</itunes:duration>
+    </item>
+    <item>
+      <title>Ask the Chief: 2012 crime stats, patrolling LAUSD schools and 10,000 LA cops</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>LAPD chief Charlie Beck stops by for his monthly chat with Patt Morrison.</itunes:summary>
+      <description>LAPD chief Charlie Beck stops by for his monthly chat with Patt Morrison.</description>
+      <guid isPermaLink="true">https://www.scpr.org/blogs/patt-morrison/2013/01/10/11960/ask-the-chief-beck/</guid>
+      <pubDate>Fri, 11 Jan 2013 00:00:15 GMT</pubDate>
+      <itunes:keywords>KPCC, Patt Morrison, Los Angeles, Southern California, LA</itunes:keywords>
+      <link>https://www.scpr.org/blogs/patt-morrison/2013/01/10/11960/ask-the-chief-beck/</link>
+      <enclosure url="http://media.scpr.org/audio/upload/2013/01/10/ASK_THE_CHIEF_1.mp3?context=patt-morrison&amp;via=podcast" length="11895748" type="audio/mpeg"/>
+      <itunes:duration>1486</itunes:duration>
+    </item>
+    <item>
+      <title>LAPD Chief Charlie Beck on homeless pets and the officers that rescued them</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>LAPD may be known for fighting crime, but they also help animals. The Voice For The Animals Foundation has a calendar featuring LAPD officers with their rescue animals.</itunes:summary>
+      <description>LAPD may be known for fighting crime, but they also help animals. The Voice For The Animals Foundation has a calendar featuring LAPD officers with their rescue animals.</description>
+      <guid isPermaLink="true">https://www.scpr.org/blogs/patt-morrison/2013/01/07/11854/lapd-chief-charlie-beck-homeless-pets-and-officers/</guid>
+      <pubDate>Mon, 07 Jan 2013 18:47:45 GMT</pubDate>
+      <itunes:keywords>KPCC, Patt Morrison, Los Angeles, Southern California, LA</itunes:keywords>
+      <link>https://www.scpr.org/blogs/patt-morrison/2013/01/07/11854/lapd-chief-charlie-beck-homeless-pets-and-officers/</link>
+      <enclosure url="http://media.scpr.org/audio/upload/2013/01/04/Beck_Calendar.mp3?context=patt-morrison&amp;via=podcast" length="5928299" type="audio/mpeg"/>
+      <itunes:duration>370</itunes:duration>
+    </item>
+    <item>
+      <title>Extended Interview: How Saint Nicholas became Santa Claus</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>Over the Holiday season, Santa Claus sees his face plastered from commercials for Coca-Cola in the U.S, to reprising his role as Dun Che Lao Ren, or ‘Christmas Old Man,’ in China. But did Santa Claus even exist? KPCC’s Patt Morrison spoke with Adam C. English, author of ‘The Saint Who Would Be Santa Claus: The True Life and Trials of Nicholas of Myra’ to find out how Saint Nicholas was transformed into a worldwide phenomenon.</itunes:summary>
+      <description>Over the Holiday season, Santa Claus sees his face plastered from commercials for Coca-Cola in the U.S, to reprising his role as Dun Che Lao Ren, or ‘Christmas Old Man,’ in China. But did Santa Claus even exist? KPCC’s Patt Morrison spoke with Adam C. English, author of ‘The Saint Who Would Be Santa Claus: The True Life and Trials of Nicholas of Myra’ to find out how Saint Nicholas was transformed into a worldwide phenomenon.</description>
+      <guid isPermaLink="true">https://www.scpr.org/blogs/patt-morrison/2012/12/20/11642/how-st-nicholas-became-santa-claus/</guid>
+      <pubDate>Thu, 20 Dec 2012 17:00:02 GMT</pubDate>
+      <itunes:keywords>KPCC, Patt Morrison, Los Angeles, Southern California, LA</itunes:keywords>
+      <link>https://www.scpr.org/blogs/patt-morrison/2012/12/20/11642/how-st-nicholas-became-santa-claus/</link>
+      <enclosure url="http://media.scpr.org/audio/upload/2012/12/19/PMSantaClausFull.mp3?context=patt-morrison&amp;via=podcast" length="7558608" type="audio/mpeg"/>
+      <itunes:duration>704</itunes:duration>
+    </item>
+    <item>
+      <title>VIDEO: Comedy Congress at the Crawford Family Forum</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>Election season might be over, but that doesn't mean Comedy Congress is too. From the Petraeus love pentagon to fiscal cliff worries, join Patt Morrison and her guests to laugh at the madness of it all — the truth hurts far less when it's told by comedians. Our motto on Comedy Congress is that just when politics makes you want to cry, it's usually best to laugh.</itunes:summary>
+      <description>Election season might be over, but that doesn't mean Comedy Congress is too. From the Petraeus love pentagon to fiscal cliff worries, join Patt Morrison and her guests to laugh at the madness of it all — the truth hurts far less when it's told by comedians. Our motto on Comedy Congress is that just when politics makes you want to cry, it's usually best to laugh.</description>
+      <guid isPermaLink="true">https://www.scpr.org/blogs/patt-morrison/2012/12/18/11611/video-comedy-congress-crawford-family-forum/</guid>
+      <pubDate>Tue, 18 Dec 2012 21:00:03 GMT</pubDate>
+      <itunes:keywords>KPCC, Patt Morrison, Los Angeles, Southern California, LA</itunes:keywords>
+      <link>https://www.scpr.org/blogs/patt-morrison/2012/12/18/11611/video-comedy-congress-crawford-family-forum/</link>
+      <enclosure url="http://media.scpr.org/audio/upload/2012/12/18/PattMorrisonComedyCongressDec12.mp3?context=patt-morrison&amp;via=podcast" length="22731966" type="audio/mpeg"/>
+      <itunes:duration>2840</itunes:duration>
+    </item>
+    <item>
+      <title>Mercy For Animals finds turkey abuse at Butterball</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>The food company has had some facilities raided by police after officials were tipped off by an animal-rights group who took part in undercover investigations.</itunes:summary>
+      <description>The food company has had some facilities raided by police after officials were tipped off by an animal-rights group who took part in undercover investigations.</description>
+      <guid isPermaLink="true">https://www.scpr.org/blogs/patt-morrison/2012/11/21/11200/mercy-animals-finds-turkey-abuse-butterball/</guid>
+      <pubDate>Thu, 22 Nov 2012 00:00:02 GMT</pubDate>
+      <itunes:keywords>KPCC, Patt Morrison, Los Angeles, Southern California, LA</itunes:keywords>
+      <link>https://www.scpr.org/blogs/patt-morrison/2012/11/21/11200/mercy-animals-finds-turkey-abuse-butterball/</link>
+      <enclosure url="http://media.scpr.org/audio/upload/2012/11/21/PMButterball.mp3?context=patt-morrison&amp;via=podcast" length="3821928" type="audio/mpeg"/>
+      <itunes:duration>405</itunes:duration>
+    </item>
+    <item>
+      <title>Extended Interview: Author Yann Martel and how 'Life of Pi' became a Hollywood film</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>"Life of Pi" was a best-seller when it was first published 11 years ago. KPCC’s Patt Morrison spoke with the author about how the book made the leap to the big screen.</itunes:summary>
+      <description>"Life of Pi" was a best-seller when it was first published 11 years ago. KPCC’s Patt Morrison spoke with the author about how the book made the leap to the big screen.</description>
+      <guid isPermaLink="true">https://www.scpr.org/blogs/patt-morrison/2012/11/21/11176/extended-interview-yann-martel-life-of-pi/</guid>
+      <pubDate>Wed, 21 Nov 2012 17:00:03 GMT</pubDate>
+      <itunes:keywords>KPCC, Patt Morrison, Los Angeles, Southern California, LA</itunes:keywords>
+      <link>https://www.scpr.org/blogs/patt-morrison/2012/11/21/11176/extended-interview-yann-martel-life-of-pi/</link>
+      <enclosure url="http://media.scpr.org/audio/upload/2012/11/20/PMYannMartel.mp3?context=patt-morrison&amp;via=podcast" length="2427864" type="audio/mpeg"/>
+      <itunes:duration>389</itunes:duration>
+    </item>
+    <item>
+      <title>Extended Interview: Ken Burns and the American Dust Bowl</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>This interview originally aired on 'Patt Morrison'</itunes:summary>
+      <description>This interview originally aired on 'Patt Morrison'</description>
+      <guid isPermaLink="true">https://www.scpr.org/blogs/patt-morrison/2012/11/14/11060/extended-interview-ken-burns-american-dust-bowl/</guid>
+      <pubDate>Wed, 14 Nov 2012 16:00:03 GMT</pubDate>
+      <itunes:keywords>KPCC, Patt Morrison, Los Angeles, Southern California, LA</itunes:keywords>
+      <link>https://www.scpr.org/blogs/patt-morrison/2012/11/14/11060/extended-interview-ken-burns-american-dust-bowl/</link>
+      <enclosure url="http://media.scpr.org/audio/upload/2012/11/13/KenBurns.mp3?context=patt-morrison&amp;via=podcast" length="32905728" type="audio/mpeg"/>
+      <itunes:duration>1028</itunes:duration>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xmlns:psc="https://podlove.org/simple-chapters/" xmlns:omny="https://omny.fm/rss-extensions" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" xmlns:acast="https://schema.acast.com/1.0/" version="2.0">
+  <channel>
+    <language>en-US</language>
+    <atom:link rel="self" type="application/rss+xml" href="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/29f960f3-9705-41d2-939b-ab09010ffff0/e47bd01d-723b-4fca-965e-ab09010ffffe/podcast.rss" />
+    <atom:link rel="first" type="application/rss+xml" href="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/29f960f3-9705-41d2-939b-ab09010ffff0/e47bd01d-723b-4fca-965e-ab09010ffffe/podcast.rss?page=1" />
+    <atom:link rel="last" type="application/rss+xml" href="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/29f960f3-9705-41d2-939b-ab09010ffff0/e47bd01d-723b-4fca-965e-ab09010ffffe/podcast.rss?page=1" />
+    <itunes:new-feed-url>https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/29f960f3-9705-41d2-939b-ab09010ffff0/e47bd01d-723b-4fca-965e-ab09010ffffe/podcast.rss</itunes:new-feed-url>
+    <title>Repeat</title>
+    <itunes:subtitle>One officer. Four criminals. Thirty-seven shots fired.</itunes:subtitle>
+    <link>https://www.scpr.org/repeat</link>
+    <description><![CDATA[<p>One officer. Four criminals. Thirty-seven shots fired.</p>]]></description>
+    <itunes:type>serial</itunes:type>
+    <itunes:summary>One officer. Four criminals. Thirty-seven shots fired.</itunes:summary>
+    <itunes:owner>
+      <itunes:name>LAist Studios</itunes:name>
+      <itunes:email>scprdev@scpr.org</itunes:email>
+    </itunes:owner>
+    <itunes:author>KPCC | Southern California Public Radio</itunes:author>
+    <copyright>2021 LAist Studios</copyright>
+    <itunes:explicit>yes</itunes:explicit>
+    <itunes:category text="News"></itunes:category>
+    <itunes:category text="Society &amp; Culture"></itunes:category>
+    <itunes:image href="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/29f960f3-9705-41d2-939b-ab09010ffff0/e47bd01d-723b-4fca-965e-ab09010ffffe/image.jpg?t=1574094620&amp;size=Large" />
+    <image>
+      <url>https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/29f960f3-9705-41d2-939b-ab09010ffff0/e47bd01d-723b-4fca-965e-ab09010ffffe/image.jpg?t=1574094620&amp;size=Large</url>
+      <title>Repeat</title>
+      <link>https://www.scpr.org/repeat</link>
+    </image>
+    <item>
+      <title>Trailer</title>
+      <itunes:title>Trailer</itunes:title>
+      <description>Repeat is an investigative podcast from LAist Studios.</description>
+      <content:encoded><![CDATA[<p>Repeat is an investigative podcast from LAist Studios.</p>]]></content:encoded>
+      <itunes:summary>One officer. Four criminals. Thirty-seven shots fired.</itunes:summary>
+      <itunes:episodeType>trailer</itunes:episodeType>
+      <itunes:author>KPCC | Southern California Public Radio</itunes:author>
+      <itunes:image href="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/29f960f3-9705-41d2-939b-ab09010ffff0/e47bd01d-723b-4fca-965e-ab09010ffffe/image.jpg?t=1574094620&amp;size=Large" />
+      <media:content url="https://traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/29f960f3-9705-41d2-939b-ab09010ffff0/a67ee066-5d44-4a89-9042-ab09011038f7/audio.mp3?utm_source=Podcast&amp;in_playlist=e47bd01d-723b-4fca-965e-ab09010ffffe" type="audio/mpeg">
+        <media:player url="https://omny.fm/shows/repeat/trailer/embed" />
+      </media:content>
+      <media:content url="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/29f960f3-9705-41d2-939b-ab09010ffff0/e47bd01d-723b-4fca-965e-ab09010ffffe/image.jpg?t=1574094620&amp;size=Large" type="image/jpeg" />
+      <guid isPermaLink="false">11f5d9aa-00c1-11e8-818f-2b7fcf2b7bb2</guid>
+      <omny:clipId>a67ee066-5d44-4a89-9042-ab09011038f7</omny:clipId>
+      <pubDate>Wed, 24 Jan 2018 05:00:00 +0000</pubDate>
+      <itunes:duration>143</itunes:duration>
+      <enclosure url="https://traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/29f960f3-9705-41d2-939b-ab09010ffff0/a67ee066-5d44-4a89-9042-ab09011038f7/audio.mp3?utm_source=Podcast&amp;in_playlist=e47bd01d-723b-4fca-965e-ab09010ffffe" length="2333032" type="audio/mpeg" />
+      <link>https://laist.com/podcasts/repeat.php</link>
+    </item>
+    <item>
+      <title>A Burglar Accuses an Officer</title>
+      <itunes:title>A Burglar Accuses an Officer</itunes:title>
+      <description>On the morning of April 4, 2011 a Los Angeles County Sheriff’s deputy shot a suspect who tried to run from the scene of a burglary. The deputy told investigators the burglar pointed a gun at him. The burglar, who later pleaded guilty, claims the officer planted a gun to justify the shooting. Investigative reporter Annie Gilbertson combs through the evidence in an effort to piece together what happened that morning. </description>
+      <content:encoded><![CDATA[<p>On the morning of April 4, 2011 a Los Angeles County Sheriff&rsquo;s deputy shot a suspect who tried to run from the scene of a burglary. The deputy told investigators the burglar pointed a gun at him. The burglar, who later pleaded guilty, claims the officer planted a gun to justify the shooting. Investigative reporter Annie Gilbertson combs through the evidence in an effort to piece together what happened that morning.&nbsp;</p>]]></content:encoded>
+      <itunes:summary>Who would you believe?</itunes:summary>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>1</itunes:episode>
+      <itunes:author>KPCC | Southern California Public Radio</itunes:author>
+      <itunes:image href="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/29f960f3-9705-41d2-939b-ab09010ffff0/e47bd01d-723b-4fca-965e-ab09010ffffe/image.jpg?t=1574094620&amp;size=Large" />
+      <media:content url="https://traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/29f960f3-9705-41d2-939b-ab09010ffff0/ca12c4ad-9580-41fd-a1be-ab09011030a9/audio.mp3?utm_source=Podcast&amp;in_playlist=e47bd01d-723b-4fca-965e-ab09010ffffe" type="audio/mpeg">
+        <media:player url="https://omny.fm/shows/repeat/a-burglar-accuses-an-officer/embed" />
+      </media:content>
+      <media:content url="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/29f960f3-9705-41d2-939b-ab09010ffff0/e47bd01d-723b-4fca-965e-ab09010ffffe/image.jpg?t=1574094620&amp;size=Large" type="image/jpeg" />
+      <guid isPermaLink="false">ffe5458c-0b6c-11e8-9316-e7f98b8d4f92</guid>
+      <omny:clipId>ca12c4ad-9580-41fd-a1be-ab09011030a9</omny:clipId>
+      <pubDate>Wed, 07 Feb 2018 08:00:00 +0000</pubDate>
+      <itunes:duration>1433</itunes:duration>
+      <enclosure url="https://traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/29f960f3-9705-41d2-939b-ab09010ffff0/ca12c4ad-9580-41fd-a1be-ab09011030a9/audio.mp3?utm_source=Podcast&amp;in_playlist=e47bd01d-723b-4fca-965e-ab09010ffffe" length="22971898" type="audio/mpeg" />
+      <link>https://laist.com/podcasts/repeat.php</link>
+    </item>
+    <item>
+      <title>The Inzunza File</title>
+      <itunes:title>The Inzunza File</itunes:title>
+      <description>Each time, Inzunza said he feared for his life, and each time officials found Inzunza was justified to shoot. But three of the men who were shot at tell a different story. They claim Deputy Inzunza either shot without provocation or lied to justify his shootings. Reporter Annie Gilbertson heads to the home of Deputy Inzunza to ask about his shootings and digs into the background of the men he shot at.</description>
+      <content:encoded><![CDATA[<p>Each time, Inzunza said he feared for his life, and each time officials found Inzunza was justified to shoot. But three of the men who were shot at tell a different story. They claim Deputy Inzunza either shot without provocation or lied to justify his shootings.&nbsp;Reporter Annie Gilbertson heads to the home of Deputy Inzunza to ask about his shootings and digs into the background of the men he shot at.</p>]]></content:encoded>
+      <itunes:summary>Los Angeles Sheriff’s Deputy Gonzalo Inzunza shot at four people in seven months — a cluster of police shootings like few others in Los Angeles County.</itunes:summary>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>2</itunes:episode>
+      <itunes:author>KPCC | Southern California Public Radio</itunes:author>
+      <itunes:image href="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/29f960f3-9705-41d2-939b-ab09010ffff0/e47bd01d-723b-4fca-965e-ab09010ffffe/image.jpg?t=1574094620&amp;size=Large" />
+      <media:content url="https://traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/29f960f3-9705-41d2-939b-ab09010ffff0/f5748f2c-c1b8-4e44-903b-ab0901102a8a/audio.mp3?utm_source=Podcast&amp;in_playlist=e47bd01d-723b-4fca-965e-ab09010ffffe" type="audio/mpeg">
+        <media:player url="https://omny.fm/shows/repeat/the-inzunza-file/embed" />
+      </media:content>
+      <media:content url="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/29f960f3-9705-41d2-939b-ab09010ffff0/e47bd01d-723b-4fca-965e-ab09010ffffe/image.jpg?t=1574094620&amp;size=Large" type="image/jpeg" />
+      <guid isPermaLink="false">b910d1f6-0b6e-11e8-bb8b-5f022bbcb26a</guid>
+      <omny:clipId>f5748f2c-c1b8-4e44-903b-ab0901102a8a</omny:clipId>
+      <pubDate>Wed, 07 Feb 2018 09:00:00 +0000</pubDate>
+      <itunes:duration>1969</itunes:duration>
+      <enclosure url="https://traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/29f960f3-9705-41d2-939b-ab09010ffff0/f5748f2c-c1b8-4e44-903b-ab0901102a8a/audio.mp3?utm_source=Podcast&amp;in_playlist=e47bd01d-723b-4fca-965e-ab09010ffffe" length="31538150" type="audio/mpeg" />
+      <link>https://laist.com/podcasts/repeat.php</link>
+    </item>
+    <item>
+      <title>Witnesses in Uniform </title>
+      <itunes:title>Witnesses in Uniform </itunes:title>
+      <description>All four of the men Los Angeles County Sheriff’s Deputy Gonzalo Inzunza shot at were accused of a crime. Tennell Billups believes law enforcement purposefully sought trumped up charges, making Billups look dangerous and Inzunza appear as though he had to shoot. Did the evidence back the men’s claims? Reporter Annie Gilbertson scours statements from deputies who witnessed the shooting to figure out what they saw the day Billups was shot. She unearths startling details about Billups’ past, further complicating the question of what happened. </description>
+      <content:encoded><![CDATA[<p>All four of the men Los Angeles County Sheriff&rsquo;s Deputy Gonzalo Inzunza shot at were accused of a crime. Tennell Billups believes law enforcement purposefully sought trumped up charges, making Billups look dangerous and Inzunza appear as though he had to shoot. Did the evidence back the men&rsquo;s claims?&nbsp;Reporter Annie Gilbertson scours statements from deputies who witnessed the shooting to figure out what they saw the day Billups was shot. She unearths startling details about Billups&rsquo; past, further complicating the question of what happened.&nbsp;</p>]]></content:encoded>
+      <itunes:summary>Reporter Annie Gilbertson scours statements from deputies who witnessed the shooting to figure out what they saw the day Billups was shot.</itunes:summary>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>3</itunes:episode>
+      <itunes:author>KPCC | Southern California Public Radio</itunes:author>
+      <itunes:image href="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/29f960f3-9705-41d2-939b-ab09010ffff0/e47bd01d-723b-4fca-965e-ab09010ffffe/image.jpg?t=1574094620&amp;size=Large" />
+      <media:content url="https://traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/29f960f3-9705-41d2-939b-ab09010ffff0/2ed5015e-d8ad-437b-b3d7-ab09011022b5/audio.mp3?utm_source=Podcast&amp;in_playlist=e47bd01d-723b-4fca-965e-ab09010ffffe" type="audio/mpeg">
+        <media:player url="https://omny.fm/shows/repeat/witnesses-in-uniform/embed" />
+      </media:content>
+      <media:content url="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/29f960f3-9705-41d2-939b-ab09010ffff0/e47bd01d-723b-4fca-965e-ab09010ffffe/image.jpg?t=1574094620&amp;size=Large" type="image/jpeg" />
+      <guid isPermaLink="false">4a596234-10ee-11e8-9e73-3b6edf0d9aeb</guid>
+      <omny:clipId>2ed5015e-d8ad-437b-b3d7-ab09011022b5</omny:clipId>
+      <pubDate>Wed, 14 Feb 2018 08:00:00 +0000</pubDate>
+      <itunes:duration>2784</itunes:duration>
+      <enclosure url="https://traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/29f960f3-9705-41d2-939b-ab09010ffff0/2ed5015e-d8ad-437b-b3d7-ab09011022b5/audio.mp3?utm_source=Podcast&amp;in_playlist=e47bd01d-723b-4fca-965e-ab09010ffffe" length="44582248" type="audio/mpeg" />
+      <link>https://laist.com/podcasts/repeat.php</link>
+    </item>
+    <item>
+      <title>The Investigation </title>
+      <itunes:title>The Investigation </itunes:title>
+      <description>The Los Angeles County Sheriff’s Department investigates its own officers’ shootings —a common practice in California. Officials are adamant that their investigations into police shootings are impartial, highly supervised and beyond reproach. Reporter Annie Gilbertson talks to an investigator assigned to one of Deputy Gonzalo Inzunza’s shootings about discrepancies in the case. Along the way, she discovers some troubling details. </description>
+      <content:encoded><![CDATA[<p>The Los Angeles County Sheriff&rsquo;s Department investigates its own officers&rsquo; shootings &mdash;a common practice in California. Officials are adamant that their investigations into police shootings are impartial, highly supervised and beyond reproach. Reporter Annie Gilbertson talks to an investigator assigned to one of Deputy Gonzalo Inzunza&rsquo;s shootings about discrepancies in the case. Along the way, she discovers some troubling details.&nbsp;</p>]]></content:encoded>
+      <itunes:summary>Reporter Annie Gilbertson discovers some troubling details.</itunes:summary>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>4</itunes:episode>
+      <itunes:author>KPCC | Southern California Public Radio</itunes:author>
+      <itunes:image href="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/29f960f3-9705-41d2-939b-ab09010ffff0/e47bd01d-723b-4fca-965e-ab09010ffffe/image.jpg?t=1574094620&amp;size=Large" />
+      <media:content url="https://traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/29f960f3-9705-41d2-939b-ab09010ffff0/e2c1f953-46ee-4238-b4e7-ab0901101a22/audio.mp3?utm_source=Podcast&amp;in_playlist=e47bd01d-723b-4fca-965e-ab09010ffffe" type="audio/mpeg">
+        <media:player url="https://omny.fm/shows/repeat/the-investigation/embed" />
+      </media:content>
+      <media:content url="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/29f960f3-9705-41d2-939b-ab09010ffff0/e47bd01d-723b-4fca-965e-ab09010ffffe/image.jpg?t=1574094620&amp;size=Large" type="image/jpeg" />
+      <guid isPermaLink="false">612fde20-166b-11e8-bc6e-13430b9d4e5f</guid>
+      <omny:clipId>e2c1f953-46ee-4238-b4e7-ab0901101a22</omny:clipId>
+      <pubDate>Wed, 21 Feb 2018 08:00:00 +0000</pubDate>
+      <itunes:duration>2924</itunes:duration>
+      <enclosure url="https://traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/29f960f3-9705-41d2-939b-ab09010ffff0/e2c1f953-46ee-4238-b4e7-ab0901101a22/audio.mp3?utm_source=Podcast&amp;in_playlist=e47bd01d-723b-4fca-965e-ab09010ffffe" length="46826265" type="audio/mpeg" />
+      <link>https://laist.com/podcasts/repeat.php</link>
+    </item>
+    <item>
+      <title>"Shit Magnets" </title>
+      <itunes:title>"Shit Magnets" </itunes:title>
+      <description>Retired Los Angeles County Sheriff’s Deputy Anthony Forlano fired his gun in seven incidents, grisly experiences he says stems from working busy patrol areas and regularly encountering armed suspects. Sheriff’s department lore holds that certain deputies are magnets for specific types of crimes — so-called “shit magnets” — such as frequently finding suspects with guns. Reporter Annie Gilbertson finds the sheriff’s department is tracking deputies with multiple shootings, and she raises the question: should repeat shooters remain on patrol? </description>
+      <content:encoded><![CDATA[<p>Retired Los Angeles County Sheriff’s Deputy Anthony Forlano fired his gun in seven incidents, grisly experiences he says stems from working busy patrol areas and regularly encountering armed suspects. Sheriff’s department lore holds that certain deputies are magnets for specific types of crimes — so-called “shit magnets” — such as frequently finding suspects with guns. Reporter Annie Gilbertson finds the sheriff’s department is tracking deputies with multiple shootings, and she raises the question: should repeat shooters remain on patrol? </p>]]></content:encoded>
+      <itunes:summary>Why do some officers shoot more often than others?</itunes:summary>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>5</itunes:episode>
+      <itunes:author>KPCC | Southern California Public Radio</itunes:author>
+      <itunes:image href="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/29f960f3-9705-41d2-939b-ab09010ffff0/e47bd01d-723b-4fca-965e-ab09010ffffe/image.jpg?t=1574094620&amp;size=Large" />
+      <media:content url="https://traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/29f960f3-9705-41d2-939b-ab09010ffff0/bd6188b9-d16f-411f-8824-ab09011012ed/audio.mp3?utm_source=Podcast&amp;in_playlist=e47bd01d-723b-4fca-965e-ab09010ffffe" type="audio/mpeg">
+        <media:player url="https://omny.fm/shows/repeat/shit-magnets/embed" />
+      </media:content>
+      <media:content url="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/29f960f3-9705-41d2-939b-ab09010ffff0/e47bd01d-723b-4fca-965e-ab09010ffffe/image.jpg?t=1574094620&amp;size=Large" type="image/jpeg" />
+      <guid isPermaLink="false">67809074-1906-11e8-8513-a7ecaa2e7653</guid>
+      <omny:clipId>bd6188b9-d16f-411f-8824-ab09011012ed</omny:clipId>
+      <pubDate>Wed, 28 Feb 2018 08:00:00 +0000</pubDate>
+      <itunes:duration>2962</itunes:duration>
+      <enclosure url="https://traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/29f960f3-9705-41d2-939b-ab09010ffff0/bd6188b9-d16f-411f-8824-ab09011012ed/audio.mp3?utm_source=Podcast&amp;in_playlist=e47bd01d-723b-4fca-965e-ab09010ffffe" length="47425612" type="audio/mpeg" />
+      <link>https://laist.com/podcasts/repeat.php</link>
+    </item>
+    <item>
+      <title>The Light </title>
+      <itunes:title>The Light </itunes:title>
+      <description>It often falls to local law enforcement to decide what use of force is reasonable and when officers cross the line. Acceptable conduct can differ depending on where you live. In California, much of the work of police accountability — from the internal investigations to details of the findings — is kept hidden from public view, some of it by state law. There are some who believe the public is not equipped to understand police behavior. But are these secretive laws protecting officers and their public employers from scrutiny? Reporter Annie Gilbertson takes what she’s learned about Deputy Gonzalo Inzunza to Los Angeles County Sheriff’s Department officials, who promise to review his conduct. Annie does her own review, looking for clues that may point to how officials have determined what level of force is acceptable.</description>
+      <content:encoded><![CDATA[<p>It often falls to local law enforcement to decide what use of force is reasonable and when officers cross the line. Acceptable conduct can differ depending on where you live.&nbsp;In California, much of the work of police accountability &mdash; from the internal investigations to details of the findings &mdash; is kept hidden from public view, some of it by state law. There are some who believe the public is not equipped to understand police behavior. But are these secretive laws protecting officers and their public employers from scrutiny? Reporter Annie Gilbertson takes what she&rsquo;s learned about Deputy Gonzalo Inzunza to Los Angeles County Sheriff&rsquo;s Department officials, who promise to review his conduct. Annie does her own review, looking for clues that may point to how officials have determined what level of force is acceptable.</p>]]></content:encoded>
+      <itunes:summary>There are some who believe the public is not equipped to understand police behavior. But are these secretive laws protecting officers and their public employers from scrutiny?</itunes:summary>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>6</itunes:episode>
+      <itunes:author>KPCC | Southern California Public Radio</itunes:author>
+      <itunes:image href="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/29f960f3-9705-41d2-939b-ab09010ffff0/e47bd01d-723b-4fca-965e-ab09010ffffe/image.jpg?t=1574094620&amp;size=Large" />
+      <media:content url="https://traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/29f960f3-9705-41d2-939b-ab09010ffff0/49eebc50-aa0e-4154-9c0e-ab0901100a39/audio.mp3?utm_source=Podcast&amp;in_playlist=e47bd01d-723b-4fca-965e-ab09010ffffe" type="audio/mpeg">
+        <media:player url="https://omny.fm/shows/repeat/the-light/embed" />
+      </media:content>
+      <media:content url="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/29f960f3-9705-41d2-939b-ab09010ffff0/e47bd01d-723b-4fca-965e-ab09010ffffe/image.jpg?t=1574094620&amp;size=Large" type="image/jpeg" />
+      <guid isPermaLink="false">1ca25542-216c-11e8-a511-13c2ee0928f9</guid>
+      <omny:clipId>49eebc50-aa0e-4154-9c0e-ab0901100a39</omny:clipId>
+      <pubDate>Wed, 07 Mar 2018 08:00:00 +0000</pubDate>
+      <itunes:duration>3368</itunes:duration>
+      <enclosure url="https://traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/29f960f3-9705-41d2-939b-ab09010ffff0/49eebc50-aa0e-4154-9c0e-ab0901100a39/audio.mp3?utm_source=Podcast&amp;in_playlist=e47bd01d-723b-4fca-965e-ab09010ffffe" length="53933227" type="audio/mpeg" />
+      <link>https://laist.com/podcasts/repeat.php</link>
+    </item>
+    <item>
+      <title>The Update</title>
+      <itunes:title>The Update</itunes:title>
+      <description>The Los Angeles County Sheriff's Department inspector general tells his people to listen to the podcast and look into questions raised. Sheriff Jim McDonnell is up for re-election, and Deputy Mike Coberg supports his opponent. Tennell Billups is transferred to another prison. </description>
+      <content:encoded><![CDATA[<p>The Los Angeles County Sheriff's Department inspector general tells his people to listen to the podcast and look into questions raised. Sheriff Jim McDonnell is up for re-election, and Deputy Mike Coberg supports his opponent. Tennell Billups is transferred to another prison. </p>]]></content:encoded>
+      <itunes:summary>A watchdog, an election, and some celery celebrating.</itunes:summary>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>7</itunes:episode>
+      <itunes:author>KPCC | Southern California Public Radio</itunes:author>
+      <itunes:image href="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/29f960f3-9705-41d2-939b-ab09010ffff0/e47bd01d-723b-4fca-965e-ab09010ffffe/image.jpg?t=1574094620&amp;size=Large" />
+      <media:content url="https://traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/29f960f3-9705-41d2-939b-ab09010ffff0/4dccc23c-253e-4c3c-906f-ab09011006e3/audio.mp3?utm_source=Podcast&amp;in_playlist=e47bd01d-723b-4fca-965e-ab09010ffffe" type="audio/mpeg">
+        <media:player url="https://omny.fm/shows/repeat/the-update/embed" />
+      </media:content>
+      <media:content url="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/29f960f3-9705-41d2-939b-ab09010ffff0/e47bd01d-723b-4fca-965e-ab09010ffffe/image.jpg?t=1574094620&amp;size=Large" type="image/jpeg" />
+      <guid isPermaLink="false">61732b80-37a4-11e8-a3be-33d2548300fb</guid>
+      <omny:clipId>4dccc23c-253e-4c3c-906f-ab09011006e3</omny:clipId>
+      <pubDate>Wed, 04 Apr 2018 07:00:00 +0000</pubDate>
+      <itunes:duration>464</itunes:duration>
+      <enclosure url="https://traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/29f960f3-9705-41d2-939b-ab09010ffff0/4dccc23c-253e-4c3c-906f-ab09011006e3/audio.mp3?utm_source=Podcast&amp;in_playlist=e47bd01d-723b-4fca-965e-ab09010ffffe" length="7464741" type="audio/mpeg" />
+      <link>https://laist.com/podcasts/repeat.php</link>
+    </item>
+    <item>
+      <title>A Message From Annie </title>
+      <itunes:title>A Message From Annie </itunes:title>
+      <description>Billups receives and interesting letter, the investigative team looks into prosecutors and a special recommendation. </description>
+      <content:encoded><![CDATA[<p>Billups receives and interesting letter, the investigative team looks into prosecutors and a special recommendation. </p>]]></content:encoded>
+      <itunes:summary>What we are working on next</itunes:summary>
+      <itunes:episodeType>bonus</itunes:episodeType>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>8</itunes:episode>
+      <itunes:author>KPCC | Southern California Public Radio</itunes:author>
+      <itunes:image href="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/29f960f3-9705-41d2-939b-ab09010ffff0/e47bd01d-723b-4fca-965e-ab09010ffffe/image.jpg?t=1574094620&amp;size=Large" />
+      <media:content url="https://traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/29f960f3-9705-41d2-939b-ab09010ffff0/29fb93cc-c69f-4425-9af7-ab09011003de/audio.mp3?utm_source=Podcast&amp;in_playlist=e47bd01d-723b-4fca-965e-ab09010ffffe" type="audio/mpeg">
+        <media:player url="https://omny.fm/shows/repeat/a-message-from-annie/embed" />
+      </media:content>
+      <media:content url="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/29f960f3-9705-41d2-939b-ab09010ffff0/e47bd01d-723b-4fca-965e-ab09010ffffe/image.jpg?t=1574094620&amp;size=Large" type="image/jpeg" />
+      <guid isPermaLink="false">9da2a37c-749b-11e8-ba7d-735711803bd4</guid>
+      <omny:clipId>29fb93cc-c69f-4425-9af7-ab09011003de</omny:clipId>
+      <pubDate>Thu, 21 Jun 2018 07:00:00 +0000</pubDate>
+      <itunes:duration>362</itunes:duration>
+      <enclosure url="https://traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/29f960f3-9705-41d2-939b-ab09010ffff0/29fb93cc-c69f-4425-9af7-ab09011003de/audio.mp3?utm_source=Podcast&amp;in_playlist=e47bd01d-723b-4fca-965e-ab09010ffffe" length="5828452" type="audio/mpeg" />
+      <link>https://laist.com/podcasts/repeat.php</link>
+    </item>
+    <item>
+      <title>Introducing WILD by LAist Studios</title>
+      <itunes:title>Introducing WILD by LAist Studios</itunes:title>
+      <description>Introducing WILD by LAist Studios, a podcast about origin stories. About those moments big and small that transform people forever. Season 1 of WILD: Home Forever is a time capsule of these kinds of moments captured during a global pandemic that left a lot of us "growing up" again while stuck at home for more than a year.
+
+In episode 1, we meet Daisy Figueroa who went back to her childhood home and decides to transform it. In the process, she creates her own business and redefines the standard of living for people in her community. 
+
+Sponsors include:
+
+Match with a licensed therapist when you go to talkspace.com and get $100 off your first month with the promo code WILD.
+
+This program is made possible in part by the Corporation for Public Broadcasting, a private corporation funded by the American people.</description>
+      <content:encoded><![CDATA[<p>Introducing WILD by LAist Studios, a podcast about origin stories. About those moments big and small that transform people forever. Season 1 of WILD: Home Forever is a time capsule of these kinds of moments captured during a global pandemic that left a lot of us "growing up" again while stuck at home for more than a year.</p>
+<p>In episode 1, we meet Daisy Figueroa who went back to her childhood home and decides to transform it. In the process, she creates her own business and redefines the standard of living for people in her community.&nbsp;</p>
+<p>Sponsors include:</p>
+<p>Match with a licensed therapist when you go to talkspace.com and get $100 off your first month with the promo code WILD.</p>
+<p>This program is made possible in part by the Corporation for Public Broadcasting, a private corporation funded by the American people.</p>]]></content:encoded>
+      <itunes:summary>Introducing WILD by LAist Studios, a podcast about origin stories. About those moments big and small that transform people forever. Season 1 of WILD: Home Forever is a time capsule of these kinds of moments captured during a global pandemic that left a lot of us "growing up" again while stuck at home for more than a year.
+
+In episode 1, we meet Daisy Figueroa who went back to her childhood home and decides to transform it. In the process, she creates her own business and redefines the standard of living for people in her community. 
+
+Sponsors include:
+
+Match with a licensed therapist when you go to talkspace.com and get $100 off your first month with the promo code WILD.
+
+This program is made possible in part by the Corporation for Public Broadcasting, a private corporation funded by the American people.</itunes:summary>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:author>KPCC | Southern California Public Radio</itunes:author>
+      <itunes:image href="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/29f960f3-9705-41d2-939b-ab09010ffff0/e47bd01d-723b-4fca-965e-ab09010ffffe/image.jpg?t=1574094620&amp;size=Large" />
+      <media:content url="https://traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/29f960f3-9705-41d2-939b-ab09010ffff0/e4cddfa0-5c71-4a3e-98f8-ad55010ecc4e/audio.mp3?utm_source=Podcast&amp;in_playlist=e47bd01d-723b-4fca-965e-ab09010ffffe" type="audio/mpeg">
+        <media:player url="https://omny.fm/shows/repeat/introducing-wild-by-laist-studios/embed" />
+      </media:content>
+      <media:content url="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/29f960f3-9705-41d2-939b-ab09010ffff0/e47bd01d-723b-4fca-965e-ab09010ffffe/image.jpg?t=1574094620&amp;size=Large" type="image/jpeg" />
+      <guid isPermaLink="false">e4cddfa0-5c71-4a3e-98f8-ad55010ecc4e</guid>
+      <omny:clipId>e4cddfa0-5c71-4a3e-98f8-ad55010ecc4e</omny:clipId>
+      <pubDate>Thu, 01 Jul 2021 09:30:00 +0000</pubDate>
+      <itunes:duration>2066</itunes:duration>
+      <enclosure url="https://traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/29f960f3-9705-41d2-939b-ab09010ffff0/e4cddfa0-5c71-4a3e-98f8-ad55010ecc4e/audio.mp3?utm_source=Podcast&amp;in_playlist=e47bd01d-723b-4fca-965e-ab09010ffffe" length="33103214" type="audio/mpeg" />
+      <link>https://laist.com/wild</link>
+      <itunes:explicit>yes</itunes:explicit>
+    </item>
+  </channel>
+</rss>

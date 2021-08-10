@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">
+<head>
+    <![if !IE]>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <![endif]>
+
+    <!--[if !(IE 8)]
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <![endif]-->
+
+    <meta name="description" content="Trustworthy, high-quality journalism starts with knowledgeable sources. Join more than 180,000 sources in the Public Insight Network." />
+    <meta name="google-site-verification" content="WSFNYYIyKmz2nyG9NDjBNh88mCU6WeANve_OpgxEmM0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Public Insight Network</title>
+
+    <link rel="stylesheet" type="text/css" media="all" href="https://www.publicinsightnetwork.org/source/css/960/reset.css?_=1406056489" />
+    <link rel="stylesheet" type="text/css" media="all" href="https://www.publicinsightnetwork.org/source/css/960/text.css?_=1406056489" />
+    <link rel="stylesheet" type="text/css" media="all" href="https://www.publicinsightnetwork.org/source/css/960/960-1024.css?_=1406056489" />
+    <link rel="stylesheet" type="text/css" media="all" href="https://www.publicinsightnetwork.org/source/css/grid.css?_=1406056489" />
+
+    <link rel="stylesheet" type="text/css" media="all" href="https://www.publicinsightnetwork.org/source/js/fancybox.1.3.4/jquery.fancybox-1.3.4.css?_=1406056490" />
+    <link rel="stylesheet" type="text/css" media="all" href="https://www.publicinsightnetwork.org/source/js/nivoslider/nivo-slider.css?_=1406056490" />
+    <link rel="stylesheet" type="text/css" media="all" href="https://www.publicinsightnetwork.org/source/js/nivoslider/themes/default/default.css?_=1406056490" />
+
+    <link rel="stylesheet" type="text/css" href="https://www.publicinsightnetwork.org/source/css/form-errors.css?_=1406056489" />
+    <link rel="stylesheet" type="text/css" href="https://www.publicinsightnetwork.org/source/css/font-awesome.css?_=1406056489" />
+     
+    <link rel="stylesheet" type="text/css" href="https://www.publicinsightnetwork.org/source/css/wp-less/normalize-5f2f7fb937.css?_=1503001066" />
+    <link rel="stylesheet" type="text/css" href="https://www.publicinsightnetwork.org/source/css/wp-less/base-5f2f7fb937.css?_=1503001067" />
+    <link rel="stylesheet" type="text/css" href="https://www.publicinsightnetwork.org/source/css/wp-less/481up-5f2f7fb937.css?_=1503001067" />
+    <link rel="stylesheet" type="text/css" href="https://www.publicinsightnetwork.org/source/css/wp-less/768up-14254c5588.css?_=1503001067" />
+    <link rel="stylesheet" type="text/css" href="https://www.publicinsightnetwork.org/source/css/wp-less/1030up-5f2f7fb937.css?_=1503001067" />
+    <link rel="stylesheet" type="text/css" href="https://www.publicinsightnetwork.org/source/css/wp-less/ie-5f2f7fb937.css?_=1503001067" />
+    <link rel="stylesheet" type="text/css" href="https://www.publicinsightnetwork.org/source/css/wp-less/print-5f2f7fb937.css?_=1503001067" />
+
+    <link rel="stylesheet" type="text/css" href="https://www.publicinsightnetwork.org/source/css/style.css?_=1423115009" />
+    <link rel="stylesheet" type="text/css" href="https://www.publicinsightnetwork.org/source/css/bootstrap/icons.css?_=1406056489" />
+    <link rel="stylesheet" type="text/css" href="https://www.publicinsightnetwork.org/source/css/tooltip.css?_=1406056489" />
+    
+    <script type="text/javascript" src="https://www.publicinsightnetwork.org/source/js/jquery-1.8.1.min.js?_=1406056490"></script>
+    <script type="text/javascript" src="https://www.publicinsightnetwork.org/source/js/bootstrap/bootstrap.js?_=1406056490"></script>
+    <script type="text/javascript" src="https://www.publicinsightnetwork.org/source/js/bootstrap/bootstrap-tooltip.js?_=1406056490"></script>
+    
+    <!-- Twitter Bootstrap tooltip settings -->
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $("[rel=tooltip]").tooltip(
+                {delay: { show: 400, hide: 100 }}
+            );            
+        });
+    </script>
+
+    <script type="text/javascript">
+        // ensure top-level namespace is initialized
+        if (!$.MyPIN2) $.MyPIN2 = {}
+        // global constants
+        $.MyPIN2.IMG_URL  = "https://www.publicinsightnetwork.org/source/img";
+        $.MyPIN2.BASE_URL = "https://www.publicinsightnetwork.org/source/en/";
+        $.MyPIN2.LOADING_IMG = '<img alt="loading" id="loading-img" src="https://www.publicinsightnetwork.org/source/en/scpr/'&#32;+&#32;$.MyPIN2.IMG_URL&#32;+&#32;'/loading.gif" />';
+        $.MyPIN2.FACEBOOK_APP_ID = "134796226568397";
+        $.MyPIN2.BACK_URL = "https://www.publicinsightnetwork.org/source/en/newsroom/SCPR";
+    </script>
+
+    <script type="text/javascript">
+        // Translations for Javascript messaging, etc.
+        $.MyPIN2.Translations = {};
+
+        $.MyPIN2.Translations.SAVING      ="Saving";
+        $.MyPIN2.Translations.PLEASE_WAIT = "Please wait...";
+        $.MyPIN2.Translations.DELETING    = "Deleting...";
+        $.MyPIN2.Translations.FACEBOOK_LOGIN_ERROR
+                                          = "Something has gone wrong. We're very sorry! Please navigate back to the Source homepage and try again.";
+        $.MyPIN2.Translations.FACEBOOK_LOGGING_IN
+                                          = "Logging in with Facebook...";
+        $.MyPIN2.Translations.YOURE_A_SOURCE = "You're a source";
+        $.MyPIN2.Translations.BECOME_A_SOURCE = "Become a source";
+        $.MyPIN2.Translations.OPT_OUT = "Opt out";
+        $.MyPIN2.Translations.TOOLTIP_BECOME_A_SOURCE = "This will allow journalists to contact you about current events and issues.";
+        $.MyPIN2.Translations.TOOLTIP_OPT_OUT = "This newsroom will stop contacting you to help with their coverage.";
+        $.MyPIN2.Translations.MUST_ENTER = "You must enter a username and password.";
+        $.MyPIN2.Translations.LOGIN_FAILED = "Sorry, login failed. Please try again.";
+        $.MyPIN2.Translations.LOGGING_IN = " Logging in...";
+        $.MyPIN2.Translations.VERIFYING_PASSWORD = " Verifying password...";
+        $.MyPIN2.Translations.THANK_YOU_FOR_SHARING_INSIGHT = "Thank you for sharing your insight. A reporter or PIN analyst may contact you to hear more. Even if we don't follow up with you, please know that your contribution has been read, and is being used for background research.";
+        $.MyPIN2.Translations.THANK_YOU_FOR_SHARING_PUBLISHED_INSIGHT = "Thank you for adding your insight. We are reviewing your response and will send you an email when it's published. In the meantime, take a look at what others have shared.";
+
+    </script>
+
+
+
+</head>
+
+<body>
+<!-- Google Tag Manager -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5B3FSV"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-5B3FSV');
+</script>
+<!-- End Google Tag Manager -->
+<div id="sticky-footer">
+
+<!-- Facebook JavaScript SDK -->
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=134796226568397";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<!-- End Facebook SDK -->
+
+    
+
+
+<div id="container">
+    <header role="banner" class="header clearfix">
+        <div id="inner-header" class="wrap clearfix">    
+            <a href="https://www.publicinsightnetwork.org/"><img src="https://www.publicinsightnetwork.org/img/pin-apm-logo-rev.png" alt="Public Insight Network" id="logo" /></a>
+
+            <a id="mobile-search-button" data-toggle="collapse" data-target="#searchform" ontouchstart="">
+                <i class="icon-search"></i>
+            </a>
+                        
+                <!-- Nav toggle for mobile -->
+	<a class="btn btn-navbar" id="nav-toggle" data-toggle="collapse" data-target="#nav-mobile" ontouchstart="">
+           <span class="icon-bar"></span>
+           <span class="icon-bar"></span>
+           <span class="icon-bar"></span>
+        </a>
+
+<nav role="navigation" class="nav collapse" id="nav-mobile">
+    <div class="menu clearfix"><ul id="menu-main-navigation" class="menu">
+        <ul>
+            <li id="menu-item-41" class="menu-item menu-item-type-custom menu-item-object-custom">
+                <a href="https://www.publicinsightnetwork.org/">Home<br><span class="sub"></span></a>
+            </li>
+            <li id="menu-item-39" class="menu-item menu-item-type-post_type menu-item-object-page">
+                <a href="https://www.publicinsightnetwork.org/about/">About<br><span class="sub"></span></a>
+            </li>
+            <li id="menu-item-245" class="menu-item menu-item-type-taxonomy menu-item-object-category">
+                <a href="signup.html#">For Journalists<br><span class="sub"></span></a>
+             
+                <ul class="sub-menu">
+                    <li id="menu-item-670" class="menu-item menu-item-type-custom menu-item-object-custom">
+	                    <a href="https://www.publicinsightnetwork.org/journalist-signup/">Become a PIN Journalist<br><span class="sub"></span></a>
+	                </li>
+                    <li id="menu-item-672" class="menu-item menu-item-type-custom menu-item-object-custom">
+	                    <a href="https://www.publicinsightnetwork.org/partner-notes/">PIN Blog<br><span class="sub"></span></a>
+	                </li>
+	                
+                </ul>
+            </li>
+        </ul>
+    </div><!-- end menu -->
+    
+							
+
+    <div id="logged_out_widgets">
+                        <a href="https://www.publicinsightnetwork.org/source/en/login?back=https%3A%2F%2Fwww.publicinsightnetwork.org%2Fsource%2Fen%2Fscpr%2Fsignup" id="login-landing">Login</a>
+            </div>
+    
+</nav>   
+<!-- End main nav -->		
+             
+
+
+
+            <div class="collapse" id="searchform">
+    <form id="site-search" role="search" method="get" action="https://www.publicinsightnetwork.org/">
+        <div>
+            <input type="text" value="" name="s" id="s" placeholder="Search the site">
+            <input type="submit" id="searchsubmit" value="Search">
+        </div>
+    </form>                    
+</div>
+        </div>
+    </header>
+</div>
+
+<div id="main">
+    <div class="wrap">
+        <div class="eightcol">
+            <div class="widget" id="signup_widget">
+                <div class="widget-content">
+                
+                    <div class="clearfix" id="signup-process">
+                        <ul>
+                          <li id="signup-process-current"><span>1.</span> Create profile</li>
+                          <li><span>2.</span> Confirm email</li>
+                          <li><span>3.</span> Set password</li>
+                        </ul>
+                    </div>
+
+                    
+                    <div class="clearfix" id="partner-signup-logo">
+                        <div id="newsroom-logo" style="width: 107px; margin-right: 15px;">
+                                     <a href="https://www.publicinsightnetwork.org/source/en/newsroom/SCPR" title="Southern California Public Radio">
+                          <img class="partner-signup-logo" src="https://www.publicinsightnetwork.org/air2/img/org/366f6d7b6e32/logo_medium.png?1371662756" alt="Southern California Public Radio" />
+                         </a>
+                                    </div>
+                                    <h2><a href="https://www.publicinsightnetwork.org/source/en/newsroom/SCPR">Southern California Public Radio</a></h2>
+                                    KPCC is the primary public media news source for Southern California, delivering news, information and entertainment that reflects life in our region.                    </div>
+
+                    
+
+                    <div class="sixcol clearfix" id="signup">
+                        <p style="font-size: 11px; text-transform: uppercase; color: #999; padding-left: 10px;">(All Fields Required)</p>
+
+                        <form action="https://www.publicinsightnetwork.org/source/en/SCPR/signup" method="post" accept-charset="UTF-8">
+                            <ul class="clearfix">
+                                <li>
+                                    <label for="fname">First Name</label>
+
+                                    <div class="field required">
+                                        <input type="text" class="verifyText"
+                                            id="first_name"
+                                            name="src_first_name" 
+                                            value=""
+                                            style="width: 200px;" />
+                                    </div>
+                                </li>
+
+                                <li>
+                                    <label for="fname">Last Name</label>
+
+                                    <div class="field required">
+                                        <input type="text" class="verifyText"
+                                            id="last_name"
+                                            name="src_last_name"
+                                            value=""
+                                            style="width: 200px;" />
+                                    </div>
+                                </li>
+
+                                <li>
+                                    <label for="e-mail">Email</label>
+
+                                    <div class="field required">
+                                        <input type="text" class="verifyMail"
+                                            id="email"
+                                            name="sem_email" 
+                                            value="" />
+                                    </div>
+                                </li>
+
+                                <li>
+                                    <label for="e-mail">
+                                        Email                                        <span style="font-size: 10px; text-transform: uppercase; color: #999;">(verify)</span>
+                                    </label>
+
+                                    <div class="field required">
+                                        <input type="text" class="verifyMail"
+                                            id="email2"
+                                            name="sem_email_verify"
+                                            value="" />
+                                    </div>
+                                </li>
+
+                                <li>
+                                    <label for="zip">Postal Code</label>
+
+                                    <div class="field required">
+                                        <input type="text" class="verifyText"
+                                            id="zip_code"
+                                            name="smadd_zip" 
+                                            value="" />
+                                    </div>
+                                </li>
+
+                                
+                                <li>
+                                    <label for="newsroom">
+                                         <a rel="tooltip" data-title="Selecting your primary newsroom will help us display more relevant queries and stories.">Primary Newsroom</a>
+                                    </label>
+
+                                    <div class="field" id="newsroom-combo">
+                                        <select name="newsroom">
+<option value=""></option>
+<option value="apmpin">American Public Media</option>
+<option value="arw">American RadioWorks</option>
+<option value="APMreports">APM Reports</option>
+<option value="BrainsOn">Brains On</option>
+<option value="marketplace">Marketplace</option>
+<option value="MM">Marketplace Money</option>
+<option value="mpr">MPR</option>
+<option value="SCPR" selected="selected">Southern California Public Radio</option>
+<option value="TTFA">Terrible, Thanks for Asking</option>
+<option value="watermain">The Water Main</option>
+<option value="YourClassical">YourClassical</option>
+</select>                                    </div>
+                                </li>
+                            </ul>
+
+                            <input type="submit"
+                                value="Create profile &raquo;"
+                                id="join"
+                                name="join"
+                                style="float: left; margin-right: 5px; margin-left: 10px;" />
+
+                            <button id="cancel-button" class="update-cancel">
+                                Cancel                            </button>
+                        </form>
+                    </div>
+
+                    <div class="clear"></div>
+                    
+                    <div id="login-fb">        
+                        <script type="text/javascript">
+                            var FACEBOOK_APP_ID = "134796226568397";
+                        </script>
+
+                        <div id="fb-root"></div>
+                        <span style="display: inline-block; padding-top: 10px;">Or, create your profile using Facebook: </span>
+                        <button id="facebook-login-button"></button>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="fourcol last" id="sidebar" style="margin-top: 20px;">
+    <p>
+<strong>What is this all about?</strong><br />
+Trustworthy, high-quality journalism starts with knowledgeable sources. We created the <a href="http://publicinsightnetwork.org/">Public Insight Network</a> (PIN) to help people like you share what you know with journalists and to learn from the insights and experiences of others.</p>
+
+<hr />
+
+<p>     
+<strong>Who sees my personal information?</strong><br />
+We treat your information with utmost care and confidentiality. Only journalists at <a href="http://americanpublicmedia.publicradio.org/">American Public Media</a> and newsrooms you have chosen to have a relationship with can see your profile information and your insights.
+</p>
+
+<hr />
+
+<p>
+<strong>Will I get flooded with spam?</strong><br />
+Absolutely not. You're going to get smart, focused emails from working journalists seeking help covering the news. You won't get any unwanted solicitations, nor will we share your contact information with anyone outside of PIN without your explicit permission. 
+</p>
+
+<hr />
+
+<p>
+<strong>Already in the PIN?</strong>
+<br />
+If you're already in the Public Insight Network, creating a profile will allow you to update your information, search for and answer relevant questions on topics important to you, and manage your relationships to journalists in the Network.</p>
+
+<hr />
+    
+<p>
+<strong>Still have questions?</strong><br />
+View the <a href="https://www.publicinsightnetwork.org/source/en/faq">FAQ</a> or send us an <a href="mailto:support@publicinsightnetwork.org">email</a> or contact a member of the PIN team.
+</p>
+
+
+</div>  
+
+
+        <div class="clear"></div>
+    </div>
+</div>
+<div style="height: 95px;"></div><!-- whitespace placeholder -->
+</div><!-- end #sticky-footer -->
+
+
+<!-- START footer -->
+
+<footer role="contentinfo" class="footer">
+    <div id="inner-footer" class="wrap clearfix">
+        
+        <div>
+            <p>
+                <a href="https://www.publicinsightnetwork.org/source/en/">English</a> <span>|</span>
+                <a href="https://www.publicinsightnetwork.org/source/es/">Espa&ntilde;ol</a>
+            </p>
+        </div>
+
+        <div>
+            <strong><a href="https://www.facebook.com/publicinsight">Facebook</a></strong>
+            <span> | </span>
+            <strong><a href="https://twitter.com/publicinsight">Twitter</a></strong>
+            <span> | </span>
+            <strong><a href="http://publicinsightnetwork.org/about/">About</a></strong>
+            <span> | </span>
+            <strong><a href="mailto:support@publicinsightnetwork.org">Contact</a></strong>
+            <span> | </span>
+            <strong><a href="https://www.publicinsightnetwork.org/source/en/faq">FAQs</a></strong>
+            <br />
+            <a href="http://americanpublicmedia.publicradio.org/terms/">Terms &amp; Conditions</a>
+            <span> | </span>
+            <a href="http://americanpublicmedia.publicradio.org/about/privacy/#pin">Privacy Policy</a>
+            <br />
+            <span>&copy; Copyright 2021 &middot; <a href="http://americanpublicmedia.publicradio.org/">American Public Media</a></span>
+        </div>
+                
+    </div> <!-- end #inner-footer -->
+</footer>
+<!-- END footer -->
+
+    <script type="text/javascript">
+    //<![CDATA[
+    $(window).load(function(){
+        $(function() {
+
+            // activate tooltips
+            $('a.tooltip').tooltip({
+                delay: 0,
+                top: 15,
+                left: -100,
+                showURL: false,
+                fade: 250
+            });
+
+            // turn off link aspect of the tooltips
+            $('a.tooltip').click( function(){ return false; });
+        });
+    });
+    //]]>
+    </script>
+
+    <script type="text/javascript" src="https://www.publicinsightnetwork.org/source/js/jquery.blockUI.js?_=1406056490"></script>
+    <script type="text/javascript" src="https://www.publicinsightnetwork.org/source/js/utils.js?_=1406056490"></script>
+    
+    
+    <!-- Fancybox -->
+    <script type="text/javascript" src="https://www.publicinsightnetwork.org/source/js/fancybox.1.3.4/jquery.fancybox-1.3.4.js?_=1406056490"></script>
+    <script type="text/javascript">
+        $("#modal").fancybox({
+            'showCloseButton' : true
+        });
+        
+        $(document).ready(function() {
+            $('.fancybox-media').fancybox({
+                type  :  'iframe',
+                openEffect  : 'none',
+                closeEffect : 'none',
+                helpers : {
+                    media : {}
+                }
+            });
+        });
+    </script>
+    <!-- End Fancybox -->
+    
+
+    <!-- AddThis Button BEGIN -->
+    <script type="text/javascript">
+        var addthis_config = {"data_track_clickback":true};
+    </script>
+    <script type="text/javascript" src="https://s7.addthis.com/js/300/addthis_widget.js#pubid=ra-506b362f10358cc3"></script>
+    <!-- AddThis Button END -->
+    <script type="text/javascript" src="https://www.publicinsightnetwork.org/source/js/logger.js?_=1406056490"></script>
+    <script type="text/javascript" src="https://www.publicinsightnetwork.org/source/js/error.js?_=1406056490"></script>
+
+    <script type="text/javascript" src="https://www.publicinsightnetwork.org/source/js/facebook.js?ts=1626493857"></script>
+    <script type="text/javascript" src="https://www.publicinsightnetwork.org/source/js/jquery.cookie.js?_=1406056490"></script>
+    <script type="text/javascript">
+                 $(document).ready( $.MyPIN2.Facebook.ready );
+         </script>
+
+</body>
+</html>
+<!-- hostname=hqwebpinprod01.mpr.org  action=signup -->
+<!-- version=MYPIN2_VERSION -->

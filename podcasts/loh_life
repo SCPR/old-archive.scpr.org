@@ -1,0 +1,506 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+  <channel>
+    <title>The Loh Life</title>
+    <link>https://www.scpr.org/programs/loh-life/</link>
+    <atom:link href="https://www.scpr.org/programs/loh-life/" rel="alternate"/>
+    <atom:link href="https://www.scpr.org/podcasts/loh_life" rel="self" type="application/rss+xml"/>
+    <language>en-us</language>
+    <description>The Loh Life is writer and performer Sandra Tsing Loh&amp;#39;s irreverent weekly take on life in early 21st century Southern California. She talks about motherhood, politics, pop culture, and more.</description>
+    <image>
+      <url>https://media.scpr.org/assets/images/podcasts/kpcc-podcast-cover-lohlife.jpg</url>
+      <title>The Loh Life</title>
+      <link>https://www.scpr.org/programs/loh-life/</link>
+    </image>
+    <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+    <itunes:summary>The Loh Life is writer and performer Sandra Tsing Loh&amp;#39;s irreverent weekly take on life in early 21st century Southern California. She talks about motherhood, politics, pop culture, and more.</itunes:summary>
+    <itunes:category text="News &amp; Politics"/>
+    <itunes:owner>
+      <itunes:name>KPCC 89.3 | Southern California Public Radio</itunes:name>
+      <itunes:email>contact@kpcc.org</itunes:email>
+    </itunes:owner>
+    <itunes:image href="https://media.scpr.org/assets/images/podcasts/kpcc-podcast-cover-lohlife.jpg"/>
+    <itunes:explicit>no</itunes:explicit>
+    <item>
+      <title>SUMMER FAMILY VISIT</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>Part Three: Going to the Dogs</itunes:summary>
+      <description>Part Three: Going to the Dogs</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/loh-life/2017/09/11/16793/</guid>
+      <pubDate>Mon, 11 Sep 2017 07:00:00 GMT</pubDate>
+      <itunes:keywords>KPCC, Los Angeles, Southern California, LA</itunes:keywords>
+      <link>https://www.scpr.org/programs/loh-life/2017/09/11/16793/</link>
+      <enclosure url="https://media.scpr.org/podcasts/features/20170911_features10224.mp3?context=loh-life&amp;via=podcast" length="1536962" type="audio/mpeg"/>
+      <itunes:duration>192</itunes:duration>
+    </item>
+    <item>
+      <title>SUMMER FAMILY VISIT</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>Part Two: Into the Woods</itunes:summary>
+      <description>Part Two: Into the Woods</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/loh-life/2017/09/04/16767/</guid>
+      <pubDate>Mon, 04 Sep 2017 07:00:00 GMT</pubDate>
+      <itunes:keywords>KPCC, Los Angeles, Southern California, LA</itunes:keywords>
+      <link>https://www.scpr.org/programs/loh-life/2017/09/04/16767/</link>
+      <enclosure url="https://media.scpr.org/podcasts/features/20170904_features10224.mp3?context=loh-life&amp;via=podcast" length="1529021" type="audio/mpeg"/>
+      <itunes:duration>191</itunes:duration>
+    </item>
+    <item>
+      <title>HOME CARE</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>Part Three:  Fixer Upper Downer</itunes:summary>
+      <description>Part Three:  Fixer Upper Downer</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/loh-life/2017/08/21/16695/</guid>
+      <pubDate>Mon, 21 Aug 2017 07:00:00 GMT</pubDate>
+      <itunes:keywords>KPCC, Los Angeles, Southern California, LA</itunes:keywords>
+      <link>https://www.scpr.org/programs/loh-life/2017/08/21/16695/</link>
+      <enclosure url="https://media.scpr.org/podcasts/features/20170821_features10224.mp3?context=loh-life&amp;via=podcast" length="1536962" type="audio/mpeg"/>
+      <itunes:duration>192</itunes:duration>
+    </item>
+    <item>
+      <title>POOL</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>A brief escape from reality...interrupted</itunes:summary>
+      <description>A brief escape from reality...interrupted</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/loh-life/2017/07/17/16438/</guid>
+      <pubDate>Mon, 17 Jul 2017 07:00:00 GMT</pubDate>
+      <itunes:keywords>KPCC, Los Angeles, Southern California, LA</itunes:keywords>
+      <link>https://www.scpr.org/programs/loh-life/2017/07/17/16438/</link>
+      <enclosure url="https://media.scpr.org/podcasts/features/20170718_features1934.mp3?context=loh-life&amp;via=podcast" length="1459849" type="audio/mpeg"/>
+      <itunes:duration>182</itunes:duration>
+    </item>
+    <item>
+      <title>13 REASONS WHY NOT</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>Part One: Teen Drama</itunes:summary>
+      <description>Part One: Teen Drama</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/loh-life/2017/05/22/16051/</guid>
+      <pubDate>Mon, 22 May 2017 07:00:00 GMT</pubDate>
+      <itunes:keywords>KPCC, Los Angeles, Southern California, LA</itunes:keywords>
+      <link>https://www.scpr.org/programs/loh-life/2017/05/22/16051/</link>
+      <enclosure url="https://media.scpr.org/podcasts/features/20170522_features1324.mp3?context=loh-life&amp;via=podcast" length="1304786" type="audio/mpeg"/>
+      <itunes:duration>163</itunes:duration>
+    </item>
+    <item>
+      <title>THE MARCH FOR SCIENCE AS SEEN FROM HOME</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>Part Two: Science is Love</itunes:summary>
+      <description>Part Two: Science is Love</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/loh-life/2017/05/15/16007/</guid>
+      <pubDate>Mon, 15 May 2017 07:00:00 GMT</pubDate>
+      <itunes:keywords>KPCC, Los Angeles, Southern California, LA</itunes:keywords>
+      <link>https://www.scpr.org/programs/loh-life/2017/05/15/16007/</link>
+      <enclosure url="https://media.scpr.org/podcasts/features/20170515_features10224.mp3?context=loh-life&amp;via=podcast" length="1537171" type="audio/mpeg"/>
+      <itunes:duration>192</itunes:duration>
+    </item>
+    <item>
+      <title>THE MARCH FOR SCIENCE AS SEEN FROM HOME</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>Part One: Pun Times</itunes:summary>
+      <description>Part One: Pun Times</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/loh-life/2017/05/08/15962/</guid>
+      <pubDate>Mon, 08 May 2017 07:00:00 GMT</pubDate>
+      <itunes:keywords>KPCC, Los Angeles, Southern California, LA</itunes:keywords>
+      <link>https://www.scpr.org/programs/loh-life/2017/05/08/15962/</link>
+      <enclosure url="https://media.scpr.org/podcasts/features/20170508_features10224.mp3?context=loh-life&amp;via=podcast" length="1536962" type="audio/mpeg"/>
+      <itunes:duration>192</itunes:duration>
+    </item>
+    <item>
+      <title>IT'S TAXING</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>Part Two: Buggy.</itunes:summary>
+      <description>Part Two: Buggy.</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/loh-life/2017/05/01/15924/</guid>
+      <pubDate>Mon, 01 May 2017 07:00:00 GMT</pubDate>
+      <itunes:keywords>KPCC, Los Angeles, Southern California, LA</itunes:keywords>
+      <link>https://www.scpr.org/programs/loh-life/2017/05/01/15924/</link>
+      <enclosure url="https://media.scpr.org/podcasts/features/20170501_features10224.mp3?context=loh-life&amp;via=podcast" length="1537171" type="audio/mpeg"/>
+      <itunes:duration>192</itunes:duration>
+    </item>
+    <item>
+      <title>IT'S TAXING</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>Part One: Lost in the Schwabbery</itunes:summary>
+      <description>Part One: Lost in the Schwabbery</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/loh-life/2017/04/24/15826/</guid>
+      <pubDate>Mon, 24 Apr 2017 07:00:00 GMT</pubDate>
+      <itunes:keywords>KPCC, Los Angeles, Southern California, LA</itunes:keywords>
+      <link>https://www.scpr.org/programs/loh-life/2017/04/24/15826/</link>
+      <enclosure url="https://media.scpr.org/podcasts/features/20170424_features10224.mp3?context=loh-life&amp;via=podcast" length="1527767" type="audio/mpeg"/>
+      <itunes:duration>190</itunes:duration>
+    </item>
+    <item>
+      <title>Farm to table, part two: Hashtag foodporn</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>Sandra Tsing-Loh hits the farmer's market.</itunes:summary>
+      <description>Sandra Tsing-Loh hits the farmer's market.</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/loh-life/2017/04/17/15792/</guid>
+      <pubDate>Mon, 17 Apr 2017 07:00:00 GMT</pubDate>
+      <itunes:keywords>KPCC, Los Angeles, Southern California, LA</itunes:keywords>
+      <link>https://www.scpr.org/programs/loh-life/2017/04/17/15792/</link>
+      <enclosure url="https://media.scpr.org/podcasts/features/20170418_features10224.mp3?context=loh-life&amp;via=podcast" length="1537171" type="audio/mpeg"/>
+      <itunes:duration>192</itunes:duration>
+    </item>
+    <item>
+      <title>Farm To Table, Part One: Hangry Lady</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>Women do most of the cooking, but men get all the cooking shows? Sandra Tsing-Loh wonders why.</itunes:summary>
+      <description>Women do most of the cooking, but men get all the cooking shows? Sandra Tsing-Loh wonders why.</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/loh-life/2017/04/10/15752/</guid>
+      <pubDate>Mon, 10 Apr 2017 07:00:00 GMT</pubDate>
+      <itunes:keywords>KPCC, Los Angeles, Southern California, LA</itunes:keywords>
+      <link>https://www.scpr.org/programs/loh-life/2017/04/10/15752/</link>
+      <enclosure url="https://media.scpr.org/podcasts/features/20170410_features10224.mp3?context=loh-life&amp;via=podcast" length="1537380" type="audio/mpeg"/>
+      <itunes:duration>192</itunes:duration>
+    </item>
+    <item>
+      <title>Beauty and the Beast, and a whole heck of a lot of twirling cutlery</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>Sandra Tsing-Loh sees "Beauty and the Beast" one too many times.</itunes:summary>
+      <description>Sandra Tsing-Loh sees "Beauty and the Beast" one too many times.</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/loh-life/2017/04/03/15707/</guid>
+      <pubDate>Mon, 03 Apr 2017 07:00:00 GMT</pubDate>
+      <itunes:keywords>KPCC, Los Angeles, Southern California, LA</itunes:keywords>
+      <link>https://www.scpr.org/programs/loh-life/2017/04/03/15707/</link>
+      <enclosure url="https://media.scpr.org/podcasts/features/20170403_features10224.mp3?context=loh-life&amp;via=podcast" length="1529439" type="audio/mpeg"/>
+      <itunes:duration>191</itunes:duration>
+    </item>
+    <item>
+      <title>Part Two: Starship Entrepreneur</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>Sandra Tsing-Loh's adventures at South By Southwest continue.</itunes:summary>
+      <description>Sandra Tsing-Loh's adventures at South By Southwest continue.</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/loh-life/2017/03/27/15660/</guid>
+      <pubDate>Mon, 27 Mar 2017 07:00:00 GMT</pubDate>
+      <itunes:keywords>KPCC, Los Angeles, Southern California, LA</itunes:keywords>
+      <link>https://www.scpr.org/programs/loh-life/2017/03/27/15660/</link>
+      <enclosure url="https://media.scpr.org/podcasts/features/20170327_features10224.mp3?context=loh-life&amp;via=podcast" length="1521289" type="audio/mpeg"/>
+      <itunes:duration>190</itunes:duration>
+    </item>
+    <item>
+      <title>Entrepreneurs, Pt. 1</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>Sandra Tsing-Loh on dropping the ball to achieve more.</itunes:summary>
+      <description>Sandra Tsing-Loh on dropping the ball to achieve more.</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/loh-life/2017/03/20/15575/</guid>
+      <pubDate>Mon, 20 Mar 2017 07:00:00 GMT</pubDate>
+      <itunes:keywords>KPCC, Los Angeles, Southern California, LA</itunes:keywords>
+      <link>https://www.scpr.org/programs/loh-life/2017/03/20/15575/</link>
+      <enclosure url="https://media.scpr.org/podcasts/features/20170320_features10224.mp3?context=loh-life&amp;via=podcast" length="1536753" type="audio/mpeg"/>
+      <itunes:duration>192</itunes:duration>
+    </item>
+    <item>
+      <title>Double Nickels, Part Two: Viral Paella</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>Sandra Tsing-Loh dives into the big 5-5 birthday.</itunes:summary>
+      <description>Sandra Tsing-Loh dives into the big 5-5 birthday.</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/loh-life/2017/03/13/15531/</guid>
+      <pubDate>Mon, 13 Mar 2017 07:00:00 GMT</pubDate>
+      <itunes:keywords>KPCC, Los Angeles, Southern California, LA</itunes:keywords>
+      <link>https://www.scpr.org/programs/loh-life/2017/03/13/15531/</link>
+      <enclosure url="https://media.scpr.org/podcasts/features/20170313_features1109.mp3?context=loh-life&amp;via=podcast" length="1456714" type="audio/mpeg"/>
+      <itunes:duration>182</itunes:duration>
+    </item>
+    <item>
+      <title>Double Nickels, Part Two: Guest List From Heck!</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>Sandra Tsing-Loh muses on turning the big 5-5.</itunes:summary>
+      <description>Sandra Tsing-Loh muses on turning the big 5-5.</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/loh-life/2017/03/06/15497/</guid>
+      <pubDate>Mon, 06 Mar 2017 08:00:00 GMT</pubDate>
+      <itunes:keywords>KPCC, Los Angeles, Southern California, LA</itunes:keywords>
+      <link>https://www.scpr.org/programs/loh-life/2017/03/06/15497/</link>
+      <enclosure url="https://media.scpr.org/podcasts/features/20170306_features10224.mp3?context=loh-life&amp;via=podcast" length="1537380" type="audio/mpeg"/>
+      <itunes:duration>192</itunes:duration>
+    </item>
+    <item>
+      <title>Double Nickels, Part One: Spry</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>Sandra Tsing-Loh muses on turning the big 5-5.</itunes:summary>
+      <description>Sandra Tsing-Loh muses on turning the big 5-5.</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/loh-life/2017/02/27/15456/</guid>
+      <pubDate>Mon, 27 Feb 2017 08:00:00 GMT</pubDate>
+      <itunes:keywords>KPCC, Los Angeles, Southern California, LA</itunes:keywords>
+      <link>https://www.scpr.org/programs/loh-life/2017/02/27/15456/</link>
+      <enclosure url="https://media.scpr.org/podcasts/features/20170227_features1532.mp3?context=loh-life&amp;via=podcast" length="1284933" type="audio/mpeg"/>
+      <itunes:duration>160</itunes:duration>
+    </item>
+    <item>
+      <title>Part Four: Tools Of Resistance</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>Sandra Tsing Loh heads to the Women's March in Downtown Los Angeles with her family</itunes:summary>
+      <description>Sandra Tsing Loh heads to the Women's March in Downtown Los Angeles with her family</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/loh-life/2017/02/20/15365/</guid>
+      <pubDate>Mon, 20 Feb 2017 08:00:00 GMT</pubDate>
+      <itunes:keywords>KPCC, Los Angeles, Southern California, LA</itunes:keywords>
+      <link>https://www.scpr.org/programs/loh-life/2017/02/20/15365/</link>
+      <enclosure url="https://media.scpr.org/podcasts/features/20170220_features1059.mp3?context=loh-life&amp;via=podcast" length="1319833" type="audio/mpeg"/>
+      <itunes:duration>164</itunes:duration>
+    </item>
+    <item>
+      <title>Part Three: Bad Mother</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>Sandra Tsing Loh heads to the Women's March in Downtown Los Angeles with her family</itunes:summary>
+      <description>Sandra Tsing Loh heads to the Women's March in Downtown Los Angeles with her family</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/loh-life/2017/02/13/15316/</guid>
+      <pubDate>Mon, 13 Feb 2017 08:00:00 GMT</pubDate>
+      <itunes:keywords>KPCC, Los Angeles, Southern California, LA</itunes:keywords>
+      <link>https://www.scpr.org/programs/loh-life/2017/02/13/15316/</link>
+      <enclosure url="https://media.scpr.org/podcasts/loh/20170213_lohlife.mp3?context=loh-life&amp;via=podcast" length="1297054" type="audio/mpeg"/>
+      <itunes:duration>162</itunes:duration>
+    </item>
+    <item>
+      <title>THE MARCH 2</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>Part Two: The Crowd</itunes:summary>
+      <description>Part Two: The Crowd</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/loh-life/2017/02/06/15276/</guid>
+      <pubDate>Mon, 06 Feb 2017 18:57:00 GMT</pubDate>
+      <itunes:keywords>KPCC, Los Angeles, Southern California, LA</itunes:keywords>
+      <link>https://www.scpr.org/programs/loh-life/2017/02/06/15276/</link>
+      <enclosure url="https://media.scpr.org/podcasts/loh/20170206_lohlife.mp3?context=loh-life&amp;via=podcast" length="1372496" type="audio/mpeg"/>
+      <itunes:duration>171</itunes:duration>
+    </item>
+    <item>
+      <title>THE MARCH</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>Part One: The Metro</itunes:summary>
+      <description>Part One: The Metro</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/loh-life/2017/01/30/15225/</guid>
+      <pubDate>Mon, 30 Jan 2017 20:47:00 GMT</pubDate>
+      <itunes:keywords>KPCC, Los Angeles, Southern California, LA</itunes:keywords>
+      <link>https://www.scpr.org/programs/loh-life/2017/01/30/15225/</link>
+      <enclosure url="https://media.scpr.org/podcasts/loh/20170130_lohlife.mp3?context=loh-life&amp;via=podcast" length="1300607" type="audio/mpeg"/>
+      <itunes:duration>162</itunes:duration>
+    </item>
+    <item>
+      <title>OFF-THE-RACK HOLIDAYS</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>Part Three: A Pretty Good Enough Christmas</itunes:summary>
+      <description>Part Three: A Pretty Good Enough Christmas</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/loh-life/2017/01/16/15113/</guid>
+      <pubDate>Mon, 16 Jan 2017 19:22:00 GMT</pubDate>
+      <itunes:keywords>KPCC, Los Angeles, Southern California, LA</itunes:keywords>
+      <link>https://www.scpr.org/programs/loh-life/2017/01/16/15113/</link>
+      <enclosure url="https://media.scpr.org/podcasts/loh/20170116_lohlife.mp3?context=loh-life&amp;via=podcast" length="1297681" type="audio/mpeg"/>
+      <itunes:duration>162</itunes:duration>
+    </item>
+    <item>
+      <title>Part Two: Lowest Bar Ever</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>Part Two: Lowest Bar Ever</itunes:summary>
+      <description>Part Two: Lowest Bar Ever</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/loh-life/2017/01/09/15068/</guid>
+      <pubDate>Mon, 09 Jan 2017 20:41:00 GMT</pubDate>
+      <itunes:keywords>KPCC, Los Angeles, Southern California, LA</itunes:keywords>
+      <link>https://www.scpr.org/programs/loh-life/2017/01/09/15068/</link>
+      <enclosure url="https://media.scpr.org/podcasts/loh/20170109_lohlife.mp3?context=loh-life&amp;via=podcast" length="1238749" type="audio/mpeg"/>
+      <itunes:duration>154</itunes:duration>
+    </item>
+    <item>
+      <title>OFF-THE-RACK HOLIDAYS</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>Part One: Flipping the Bird</itunes:summary>
+      <description>Part One: Flipping the Bird</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/loh-life/2017/01/02/15028/</guid>
+      <pubDate>Mon, 02 Jan 2017 19:16:00 GMT</pubDate>
+      <itunes:keywords>KPCC, Los Angeles, Southern California, LA</itunes:keywords>
+      <link>https://www.scpr.org/programs/loh-life/2017/01/02/15028/</link>
+      <enclosure url="https://media.scpr.org/podcasts/loh/20170102_lohlife.mp3?context=loh-life&amp;via=podcast" length="1281171" type="audio/mpeg"/>
+      <itunes:duration>160</itunes:duration>
+    </item>
+    <item>
+      <title>NEVER A CROSS WORD</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>NEVER A CROSS WORD</itunes:summary>
+      <description>NEVER A CROSS WORD</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/loh-life/2016/12/26/14996/</guid>
+      <pubDate>Mon, 26 Dec 2016 19:22:00 GMT</pubDate>
+      <itunes:keywords>KPCC, Los Angeles, Southern California, LA</itunes:keywords>
+      <link>https://www.scpr.org/programs/loh-life/2016/12/26/14996/</link>
+      <enclosure url="https://media.scpr.org/podcasts/features/20161226_features1720.mp3?context=loh-life&amp;via=podcast" length="1320878" type="audio/mpeg"/>
+      <itunes:duration>165</itunes:duration>
+    </item>
+    <item>
+      <title>INNER PEACE</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>Part Four: The Church on the Left</itunes:summary>
+      <description>Part Four: The Church on the Left</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/loh-life/2016/12/19/14885/</guid>
+      <pubDate>Mon, 19 Dec 2016 20:50:00 GMT</pubDate>
+      <itunes:keywords>KPCC, Los Angeles, Southern California, LA</itunes:keywords>
+      <link>https://www.scpr.org/programs/loh-life/2016/12/19/14885/</link>
+      <enclosure url="https://media.scpr.org/podcasts/loh/20161219_lohlife.mp3?context=loh-life&amp;via=podcast" length="1353060" type="audio/mpeg"/>
+      <itunes:duration>169</itunes:duration>
+    </item>
+    <item>
+      <title>INNER PEACE</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>Part Three: Pew Research</itunes:summary>
+      <description>Part Three: Pew Research</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/loh-life/2016/12/12/14832/</guid>
+      <pubDate>Mon, 12 Dec 2016 19:59:00 GMT</pubDate>
+      <itunes:keywords>KPCC, Los Angeles, Southern California, LA</itunes:keywords>
+      <link>https://www.scpr.org/programs/loh-life/2016/12/12/14832/</link>
+      <enclosure url="https://media.scpr.org/podcasts/loh/20161212_lohlife.mp3?context=loh-life&amp;via=podcast" length="1368734" type="audio/mpeg"/>
+      <itunes:duration>171</itunes:duration>
+    </item>
+    <item>
+      <title>INNER PEACE</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>Part Two: Namaste Nasty Woman</itunes:summary>
+      <description>Part Two: Namaste Nasty Woman</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/loh-life/2016/12/05/14781/</guid>
+      <pubDate>Mon, 05 Dec 2016 17:34:00 GMT</pubDate>
+      <itunes:keywords>KPCC, Los Angeles, Southern California, LA</itunes:keywords>
+      <link>https://www.scpr.org/programs/loh-life/2016/12/05/14781/</link>
+      <enclosure url="https://media.scpr.org/podcasts/loh/20161205_lohlife.mp3?context=loh-life&amp;via=podcast" length="1365181" type="audio/mpeg"/>
+      <itunes:duration>170</itunes:duration>
+    </item>
+    <item>
+      <title>INNER PEACE</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>Part One: Newsies</itunes:summary>
+      <description>Part One: Newsies</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/loh-life/2016/11/28/14749/</guid>
+      <pubDate>Mon, 28 Nov 2016 21:50:00 GMT</pubDate>
+      <itunes:keywords>KPCC, Los Angeles, Southern California, LA</itunes:keywords>
+      <link>https://www.scpr.org/programs/loh-life/2016/11/28/14749/</link>
+      <enclosure url="https://media.scpr.org/podcasts/loh/20161128_lohlife.mp3?context=loh-life&amp;via=podcast" length="1460894" type="audio/mpeg"/>
+      <itunes:duration>182</itunes:duration>
+    </item>
+    <item>
+      <title>STRETCH PANTS</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>STRETCH PANTS</itunes:summary>
+      <description>STRETCH PANTS</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/loh-life/2016/11/21/14653/</guid>
+      <pubDate>Mon, 21 Nov 2016 19:15:00 GMT</pubDate>
+      <itunes:keywords>KPCC, Los Angeles, Southern California, LA</itunes:keywords>
+      <link>https://www.scpr.org/programs/loh-life/2016/11/21/14653/</link>
+      <enclosure url="https://media.scpr.org/podcasts/loh/20161121_lohlife.mp3?context=loh-life&amp;via=podcast" length="1464238" type="audio/mpeg"/>
+      <itunes:duration>183</itunes:duration>
+    </item>
+    <item>
+      <title>YANKEE CANDLE</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>YANKEE CANDLE</itunes:summary>
+      <description>YANKEE CANDLE</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/loh-life/2016/11/14/14610/</guid>
+      <pubDate>Mon, 14 Nov 2016 17:40:00 GMT</pubDate>
+      <itunes:keywords>KPCC, Los Angeles, Southern California, LA</itunes:keywords>
+      <link>https://www.scpr.org/programs/loh-life/2016/11/14/14610/</link>
+      <enclosure url="https://media.scpr.org/podcasts/loh/20161114_lohlife.mp3?context=loh-life&amp;via=podcast" length="1461103" type="audio/mpeg"/>
+      <itunes:duration>182</itunes:duration>
+    </item>
+    <item>
+      <title>MRS. CLEAN</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>Part Three: The Dirt Devil Inside Me</itunes:summary>
+      <description>Part Three: The Dirt Devil Inside Me</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/loh-life/2016/11/07/14589/</guid>
+      <pubDate>Mon, 07 Nov 2016 21:09:00 GMT</pubDate>
+      <itunes:keywords>KPCC, Los Angeles, Southern California, LA</itunes:keywords>
+      <link>https://www.scpr.org/programs/loh-life/2016/11/07/14589/</link>
+      <enclosure url="https://media.scpr.org/podcasts/loh/20161107_lohlife.mp3?context=loh-life&amp;via=podcast" length="1424113" type="audio/mpeg"/>
+      <itunes:duration>177</itunes:duration>
+    </item>
+    <item>
+      <title>MRS. CLEAN</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>Part Two: Liberal Dirt</itunes:summary>
+      <description>Part Two: Liberal Dirt</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/loh-life/2016/10/31/14567/</guid>
+      <pubDate>Mon, 31 Oct 2016 19:13:00 GMT</pubDate>
+      <itunes:keywords>KPCC, Los Angeles, Southern California, LA</itunes:keywords>
+      <link>https://www.scpr.org/programs/loh-life/2016/10/31/14567/</link>
+      <enclosure url="https://media.scpr.org/podcasts/loh/20161031_lohlife.mp3?context=loh-life&amp;via=podcast" length="1460685" type="audio/mpeg"/>
+      <itunes:duration>182</itunes:duration>
+    </item>
+    <item>
+      <title>MRS. CLEAN</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>Part One: The Grail</itunes:summary>
+      <description>Part One: The Grail</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/loh-life/2016/10/24/14521/</guid>
+      <pubDate>Mon, 24 Oct 2016 19:42:00 GMT</pubDate>
+      <itunes:keywords>KPCC, Los Angeles, Southern California, LA</itunes:keywords>
+      <link>https://www.scpr.org/programs/loh-life/2016/10/24/14521/</link>
+      <enclosure url="https://media.scpr.org/podcasts/loh/20161024_lohlife.mp3?context=loh-life&amp;via=podcast" length="1472806" type="audio/mpeg"/>
+      <itunes:duration>184</itunes:duration>
+    </item>
+    <item>
+      <title>October surprise</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>No surprise that this is an insane election month.  Oy!
+</itunes:summary>
+      <description>No surprise that this is an insane election month.  Oy!
+</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/loh-life/2016/10/17/14478/</guid>
+      <pubDate>Mon, 17 Oct 2016 17:57:00 GMT</pubDate>
+      <itunes:keywords>KPCC, Los Angeles, Southern California, LA</itunes:keywords>
+      <link>https://www.scpr.org/programs/loh-life/2016/10/17/14478/</link>
+      <enclosure url="https://media.scpr.org/podcasts/loh/20161017_lohlife.mp3?context=loh-life&amp;via=podcast" length="1272812" type="audio/mpeg"/>
+      <itunes:duration>159</itunes:duration>
+    </item>
+    <item>
+      <title>FLABBRAMOM</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>Part Four: Failed Parent</itunes:summary>
+      <description>Part Four: Failed Parent</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/loh-life/2016/10/10/14448/</guid>
+      <pubDate>Mon, 10 Oct 2016 16:36:00 GMT</pubDate>
+      <itunes:keywords>KPCC, Los Angeles, Southern California, LA</itunes:keywords>
+      <link>https://www.scpr.org/programs/loh-life/2016/10/10/14448/</link>
+      <enclosure url="https://media.scpr.org/podcasts/loh/20161010_lohlife.mp3?context=loh-life&amp;via=podcast" length="1424949" type="audio/mpeg"/>
+      <itunes:duration>178</itunes:duration>
+    </item>
+    <item>
+      <title>FLABBRAMOM</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>Part Three: Life of Crime</itunes:summary>
+      <description>Part Three: Life of Crime</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/loh-life/2016/10/03/14411/</guid>
+      <pubDate>Mon, 03 Oct 2016 19:31:00 GMT</pubDate>
+      <itunes:keywords>KPCC, Los Angeles, Southern California, LA</itunes:keywords>
+      <link>https://www.scpr.org/programs/loh-life/2016/10/03/14411/</link>
+      <enclosure url="https://media.scpr.org/podcasts/loh/20161003_lohlife.mp3?context=loh-life&amp;via=podcast" length="1380855" type="audio/mpeg"/>
+      <itunes:duration>172</itunes:duration>
+    </item>
+    <item>
+      <title>FLABBRAMOM</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>Part Two: Unconventional</itunes:summary>
+      <description>Part Two: Unconventional</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/loh-life/2016/09/26/14381/</guid>
+      <pubDate>Mon, 26 Sep 2016 19:20:00 GMT</pubDate>
+      <itunes:keywords>KPCC, Los Angeles, Southern California, LA</itunes:keywords>
+      <link>https://www.scpr.org/programs/loh-life/2016/09/26/14381/</link>
+      <enclosure url="https://media.scpr.org/podcasts/loh/20160926_lohlife.mp3?context=loh-life&amp;via=podcast" length="1469044" type="audio/mpeg"/>
+      <itunes:duration>183</itunes:duration>
+    </item>
+    <item>
+      <title>FLABBRAMOM</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>Part One: Doki Doki Chu!</itunes:summary>
+      <description>Part One: Doki Doki Chu!</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/loh-life/2016/09/19/14330/</guid>
+      <pubDate>Mon, 19 Sep 2016 19:30:00 GMT</pubDate>
+      <itunes:keywords>KPCC, Los Angeles, Southern California, LA</itunes:keywords>
+      <link>https://www.scpr.org/programs/loh-life/2016/09/19/14330/</link>
+      <enclosure url="https://media.scpr.org/podcasts/loh/20160919_lohlife.mp3?context=loh-life&amp;via=podcast" length="1456714" type="audio/mpeg"/>
+      <itunes:duration>182</itunes:duration>
+    </item>
+    <item>
+      <title>POKEMON GO</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>Part Four: Perfection</itunes:summary>
+      <description>Part Four: Perfection</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/loh-life/2016/09/12/14285/</guid>
+      <pubDate>Mon, 12 Sep 2016 20:09:00 GMT</pubDate>
+      <itunes:keywords>KPCC, Los Angeles, Southern California, LA</itunes:keywords>
+      <link>https://www.scpr.org/programs/loh-life/2016/09/12/14285/</link>
+      <enclosure url="https://media.scpr.org/podcasts/loh/20160912_lohlife.mp3?context=loh-life&amp;via=podcast" length="1572489" type="audio/mpeg"/>
+      <itunes:duration>196</itunes:duration>
+    </item>
+  </channel>
+</rss>

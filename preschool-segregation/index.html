@@ -1,0 +1,484 @@
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <script
+    src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+    crossorigin="anonymous">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.12.0/d3.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/turf@3.0.14/turf.min.js"></script>
+  <script src="https://use.typekit.net/cka2qre.js"></script>
+  <script>try{Typekit.load({ async: true });}catch(e){}</script>
+  <script src="https://use.fontawesome.com/0a49b9235d.js"></script>
+  
+    <script type="text/javascript" src="https://projects.laist.com/lib/js/lib-main.js"></script>
+  
+
+  <link rel="stylesheet" href="https://projects.laist.com/lib/styles_soundcite_player.css" type="text/css">
+  
+    <link rel="stylesheet" type="text/css" href="https://projects.laist.com/lib/css/lib-nav.css" />
+  
+  <link rel="stylesheet" type="text/css" href="https://projects.laist.com/lib/css/lib-footer.css" />
+  <link rel="stylesheet" type="text/css" href="https://projects.laist.com/lib/css/lib-bootstrap.css" />
+  <link rel="stylesheet" type="text/css" href="https://projects.laist.com/lib/css/lib-main.css" />
+  <link rel="stylesheet" type="text/css" href="https://projects.laist.com/lib/css/lib-promos.css" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" integrity="sha384-v8BU367qNbs/aIZIxuivaU55N5GPF89WBerHoGA4QTcbUjYiLQtKdrfXnqAcXyTv" crossorigin="anonymous" />
+  <meta content="segregation, integration, preschool, pre-K, early childhood, education, K-12, Los Angeles, L.A." name="keywords" />
+
+      <meta property="og:site_name" content="LAist.com" />
+
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+      <meta content="65 years after the Supreme Court desegregated public education, California’s public preschools are almost entirely nonwhite." name="description" />
+
+      <title>Extremely Separate And Widely Unequal</title>
+      <meta property="og:url" content="https://projects.laist.com/2019/preschool-segregation/index.html"/>
+      <meta property="og:title" content="California’s Preschools: Extremely Separate And Widely Unequal"/>
+      <meta property="og:description" content="How California’s Preschools Became More Segregated Than K-12 Public Schools" name="description"/>
+      <meta property="og:image" content="https://projects.laist.com/2019/preschool-segregation/images/_share.jpg"/>
+      <meta property="og:image:height" content="630"/>
+      <meta property="og:image:width" content="1200"/>
+      <meta property="og:type" content="article" />
+      <meta property="fb:app_id" content="883507005176874" />
+      <meta property="article:author" content="https://www.facebook.com/theLAist/" />
+      <meta property="article:publisher" content="https://www.facebook.com/theLAist/" />
+      <meta name="twitter:card" content="summary_large_image">
+      <meta name="twitter:site" content="https://www.laist.com" />
+      <meta name="twitter:creator" content="@LAist" />
+
+<!-- Google Analytics -->
+      <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0], j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src= 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f); })(window,document,'script','dataLayer','GTM-585PL29');</script>
+
+      <!-- Google Publisher Tags -->
+      <script async src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"></script>
+      <script>
+        window.googletag = window.googletag || {cmd: []};
+        var gptAdSlots = [];
+        googletag.cmd.push(function() {
+          gptAdSlots[0] = googletag.defineSlot('/127204706/laist_special_projects_production', [300, 250], 'dfp-pos-1')
+            .setTargeting('laist_proj_position',['1'])
+            .addService(googletag.pubads());
+
+          gptAdSlots[1] = googletag.defineSlot('/127204706/laist_special_projects_production', [300, 250], 'dfp-pos-2')
+            .setTargeting('laist_proj_position',['2'])
+            .addService(googletag.pubads());
+
+          gptAdSlots[2] = googletag.defineSlot('/127204706/laist_special_projects_production', [300, 250], 'dfp-pos-3')
+            .setTargeting('laist_proj_position',['3'])
+            .addService(googletag.pubads());
+
+          googletag.pubads().enableSingleRequest();
+          googletag.enableServices();
+        });
+      </script>
+<link rel="stylesheet" href="https://projects.laist.com/2019/preschool-segregation/css/prek.css" />
+<link rel="stylesheet" href="https://projects.laist.com/2019/preschool-segregation/css/styles.css"/>
+</head>
+<header>
+    <div class="navbar-container" id="laist-nav">
+        <div class="navbar nav-area">
+            <div class="laist-dropdown">
+                <button class="home-btn" id="hamburger-menu"><i class="fas fa-bars"></i></button>
+                <div class="dropdown-content">
+                    <a href="https://laist.com/" target="_blank">LAist Home</a>
+                    <a href="https://laist.com/news/" target="_blank">News</a>
+                    <a href="https://laist.com/arts/" target="_blank">Arts &amp; Entertainment</a>
+                    <a href="https://laist.com/food/" target="_blank">Food</a>
+                    <a href="https://projects.laist.com/how-to-la/index.html" target="_blank">How to LA</a>
+                </div>
+            </div>
+            <a href="https://www.laist.com" target="_blank" class="logo">
+                <img src="https://projects.laist.com/2019/preschool-segregation/images/laist-white-horz.png" width="100px" alt="LAist">
+            </a>
+                            <!-- 3 -->
+                <div id="donate-laist" class="donate"><a href="https://support.laist.com/projects" target="_blank"><i class="fas fa-heart"></i>&nbsp;DONATE</a></div>
+            
+        </div>
+        <div class="progress-container">
+            <div class="progress-bar" id="indicator-bar"></div>
+        </div>
+    </div>
+</header>
+
+
+<body>
+  <figure><img class="header-img" src="https://projects.laist.com/2019/preschool-segregation/images/kids.jpeg" width="100%" /></figure>
+<div class="first-cutline">
+<p class="cutline">(Courtesy L.A. Public Library / Herald Examiner Collection)</p>
+</div>
+<section class="story-container first-container">
+<section class="intro-teaser"></section>
+<div class="header-text">
+<h1 class="title">Extremely Separate And Widely Unequal</h1>
+<p class="large-text">65 years after the Supreme Court desegregated public education, California's public preschools are almost entirely nonwhite.</p>
+<div class="story-byline">By Deepa Fernandes</div>
+<div class="story-pubdate">Published Dec. 18, 2019</div>
+<div class="social-share">
+<div class="social" id="twitter-share"><i class="fab fa-twitter"></i> TWITTER</div>
+<div class="social" id="fb-share"><i class="fab fa-facebook"></i> FACEBOOK</div>
+</div>
+</div>
+<p>More than 65 years after the U.S. Supreme Court struck down the "separate but equal" doctrine in its landmark <em><a href="https://www.oyez.org/cases/1940-1955/347us483">Brown v. Board of Education </a></em>decision, California's public preschools remain deeply segregated.</p>
+<p>The numbers are striking:</p>
+<ul>
+<li>94% of students across all preschools run by the Los Angeles Unified School District, are children of color, according to the <a href="https://ocrdata.ed.gov/DistrictSchoolSearch#districtSearch">U.S. Education Department's Office of Civil Rights</a>.</li>
+<li>Just 2% of children attending most Head Start programs in L.A. County are white and almost 90% are Latino, the L.A. County Office of Education says.</li>
+<li>Home-based preschools are even more segregated, according to a recent study <a href="https://www.urban.org/features/segregated-start">by the Urban Institute</a>.</li>
+</ul>
+<p>Why?</p>
+<p>The answer lies in the limits of <em>Brown </em>-- the ruling doesn't explicitly extend to preschools. In the decades since it became law, initially well-meaning but ultimately flawed funding policies have mostly left preschools in California either all white, all Latino, or in some cases, all black.</p>
+
+<div id="dfp-pos-1" class="dfp-slot" style="width: 300px; height: 250px;">
+<p class="ad-tag">ADVERTISEMENT</p>
+<script>// <![CDATA[
+googletag.cmd.push(function() { googletag.display('dfp-pos-1'); });
+// ]]></script>
+</div>
+<p>"Over half of all of California's preschool students are in preschools that are 90 to 100% students of color," said Erica Frankenberg, a professor of education at Penn State University who studies preschool segregation nationwide.</p>
+<blockquote><b>"Our data is devastating."</b> <cite>~ Carrie Gillispie, senior policy analyst at The Education Trust</cite></blockquote>
+<iframe width="100%" height="685px" src="https://embed.laist.com/2019/embed-prek-segregation/district-bar-chart.html" frameborder="0"></iframe> <br /><br />
+<p>For parents like Denise Wilson of Compton, it's not an abstract legal question. It's a fundamental, day-to-day struggle to get her 4-year-old twins off to the right start in life.</p>
+<p>"Why it is so hard to find quality preschool?" she asks.</p>
+<hr />
+<p><strong>We're asking you to step up today to support high-quality, in-depth reporting like this story. <a href="https://support.kpcc.org/laistcye19afterarticle">Become an LAist member &gt;&gt;</a></strong></p>
+<hr />
+<p>Poorer quality early education for children of color has been widely documented. Most recently The Education Trust, a research and advocacy group, did <a href="https://edtrust.org/resource/young-learners-missed-opportunities/">a nationwide study</a> that found few states meet many of the early education quality benchmarks in their public preschool programs.</p>
+<p>"Our data is devastating," Carrie Gillispie, senior policy analyst at The Education Trust, <a href="https://edtrust.org/resource/young-learners-missed-opportunities/">wrote</a> in a summary of the study. "Despite overwhelming research on the value of high-quality preschool, states continue to willfully neglect our youngest students of color."</p>
+<p>Decades of research has shown that a high-quality preschool education greatly improves educational outcomes for all children. But funding disparities in California preschools mean many low-income children do not get off to a quality start.</p>
+<div id="sign-up-newsletter">
+<h1 id="sign-up-newsletter__header">Get The Best Of LAist In Your Inbox</h1>
+<p id="sign-up-newsletter__description">Sign up for our daily newsletter to receive the latest on local politics, food, culture and the absurdities of L.A. life.</p>
+<form action="https://mcpostman.publicradio.org/subscription_requests" id="sign-up-newsletter__form" class="mcpostman-form" method="post" _lpchecked="1"><input name="subscription_request[property_key]" value="ac6e3d90-b7e2-48a1-88e0-c90179903b3c" type="hidden" /> <input name="subscription_request[sde_external_key]" value="" type="hidden" /> <input name="subscription_request[fsm][Form_BusinessUnit]" value="SCPR" type="hidden" /> <input name="subscription_request[fsm][Form_FormName]" value="SCPR_LAist_Subscribe_Form" type="hidden" /> <input name="subscription_request[fsm][Form_Opt_In_Source]" value="SCPR Newsletter" type="hidden" /> <input name="subscription_request[fsm][Form_Email_Address]" id="sign-up-newsletter__email" required="required" maxlength="254" type="email" placeholder="email@domain.com" /> <input name="subscription_request[publication_lists][1116]" value="on" type="hidden" /> <button id="sign-up-newsletter__sign-up" type="submit">SUBSCRIBE</button></form></div>
+<p>There are solutions. Some educators say universal preschool is the answer. Others have succeeded with innovative specialized programs -- like a dual-language immersion model in Glendale, or a Silicon Valley preschool that has successfully attracted families from across the income spectrum. Still others have instituted curriculum reforms that place greater emphasis on play over academics to better engage children.</p>
+<p>But before we explore what's working and why, we have to look first at the root causes of California's overwhelmingly segregated public preschool system.</p>
+<!--%252525252520Audio%252525252520slider%252525252520-->
+<p class="subhed centered">LISTEN TO THIS STORY</p>
+<div class="slide active-slide" id="radio" data-slide="0">
+<div class="line-arrow right"></div>
+<div class="slide-wrapper">
+<p class="audio-intro">Listen to our 3-part radio series by education reporter Deepa Fernandes. Click below to begin and use the arrows to navigate through the audio. <br /> <br /> Double-click the <strong>PLAY</strong> button below to listen and use the arrows to navigate through the sections.</p>
+<div class="slide-title">Part 1: Why California's Preschools Are So Segregated</div>
+<div class="audio-box" snd="1-1">
+<div class="audio-details">
+<div class="pause clearfix"><i class="fa fa-play" aria-hidden="true"></i></div>
+</div>
+<div id="wave1" class="wavesurfer">
+<div id="w1-1" class="waveform"><wave style="display: block; position: relative; -webkit-user-select: none; height: 60px; width: 100%; overflow-x: auto; overflow-y: hidden;"><wave style="position: absolute; z-index: 3; left: 0px; top: 0px; bottom: 0px; overflow: hidden; width: 0px; display: none; box-sizing: border-box; border-right-style: solid; pointer-events: none; border-right-width: 1px; border-right-color: #333333;"><canvas style="position: absolute; left: 0px; top: 0px; bottom: 0px; height: 100%;"></canvas></wave><canvas style="position: absolute; z-index: 2; left: 0px; top: 0px; bottom: 0px; height: 100%; pointer-events: none;"></canvas></wave></div>
+</div>
+</div>
+</div>
+</div>
+<div class="slide" data-slide="1">
+<div class="line-arrow right"></div>
+<div class="line-arrow left"></div>
+<div class="slide-wrapper">
+<p class="audio-intro">Listen to our 3-part radio series by education reporter Deepa Fernandes. Click below to begin and use the arrows to navigate through the audio. <br /> <br /> Double-click the <strong>PLAY</strong> button below to listen and use the arrows to navigate through the sections.</p>
+<div class="slide-title">Part 2: 'Why Can't I Find A Quality Preschool?'</div>
+<div class="audio-box" snd="1-2">
+<div class="audio-details">
+<div class="pause clearfix"><i class="fa fa-play" aria-hidden="true"></i></div>
+</div>
+<div id="wave2" class="wavesurfer">
+<div id="w1-2" class="waveform"><wave style="display: block; position: relative; -webkit-user-select: none; height: 60px; width: 100%; overflow-x: auto; overflow-y: hidden;"><wave style="position: absolute; z-index: 3; left: 0px; top: 0px; bottom: 0px; overflow: hidden; width: 0px; display: none; box-sizing: border-box; border-right-style: solid; pointer-events: none; border-right-width: 1px; border-right-color: #333333;"><canvas style="position: absolute; left: 0px; top: 0px; bottom: 0px; height: 100%;"></canvas></wave><canvas style="position: absolute; z-index: 2; left: 0px; top: 0px; bottom: 0px; height: 100%; pointer-events: none;"></canvas></wave></div>
+</div>
+</div>
+</div>
+</div>
+<div class="slide" data-slide="2">
+<div class="line-arrow left"></div>
+<div class="slide-wrapper">
+<p class="audio-intro">Listen to our 3-part radio series by education reporter Deepa Fernandes. Click below to begin and use the arrows to navigate through the audio. <br /> <br /> Double-click the <strong>PLAY</strong> button below to listen and use the arrows to navigate through the sections.</p>
+<div class="slide-title">Part 3: Where Preschool Integration Works</div>
+<div class="audio-box" snd="1-3">
+<div class="audio-details">
+<div class="pause clearfix"><i class="fa fa-play" aria-hidden="true"></i></div>
+</div>
+<div id="wave3" class="wavesurfer">
+<div id="w1-3" class="waveform"><wave style="display: block; position: relative; -webkit-user-select: none; height: 60px; width: 100%; overflow-x: auto; overflow-y: hidden;"><wave style="position: absolute; z-index: 3; left: 0px; top: 0px; bottom: 0px; overflow: hidden; width: 0px; display: none; box-sizing: border-box; border-right-style: solid; pointer-events: none; border-right-width: 1px; border-right-color: #333333;"><canvas style="position: absolute; left: 0px; top: 0px; bottom: 0px; height: 100%;"></canvas></wave><canvas style="position: absolute; z-index: 2; left: 0px; top: 0px; bottom: 0px; height: 100%; pointer-events: none;"></canvas></wave></div>
+</div>
+</div>
+</div>
+</div>
+<p class="subhed">A LANDMARK U.S. SUPREME COURT RULING</p>
+<p>In 1954, the Supreme Court handed down its momentous decision in <em>Brown v. Board of Education, Topeka, </em>which found that separate schools for nonwhite children were inherently unequal, and thus unconstitutional.</p>
+<p>"Does the segregation of children in public schools solely on the basis of race deprive the children of the minority group of educational opportunities? We believe it does," Chief Justice Earl Warren wrote in the <a href=" 	http://www.ourdocuments.gov/doc.php?doc=87&amp;page=transcript">unanimous decision</a>.</p>
+<img src="https://projects.laist.com/2019/preschool-segregation/images/separatebutequal4.png" alt="Justice Earl Warren wrote the Supreme Court decision in Brown v. Board of Education: &quot;We conclude that in the field of public education, the doctrine of &quot;separate but equal&quot; has no place. Separate educational facilities are inherently unequal." />
+<p class="cutline">Justice Earl Warren authored the Supreme Court decision in <em>Brown v. Board of Education.</em></p>
+<p>It was a decision that carried big implications for public education.</p>
+<p>"<em>Brown v. Board</em> was a watershed moment in America, both for the law and for public education, because it meant that segregation was outlawed throughout the land, and that students of all backgrounds could come together to learn," said civil rights attorney Anurima Bhargava, who served as chief of the Educational Opportunities Section at the Department of Justice in the Obama Administration.</p>
+<p>But the decision didn't extend to explicitly include <em>preschool </em>students of all backgrounds.</p>
+<img class="img-float right" src="https://projects.laist.com/2019/preschool-segregation/images/AP_5201010435@2x.png" alt="Linda Brown Smith was a 3rd grader when her father started a class-action suit in 1951 that led to the U.S. Supreme Court's 1954 landmark decision against school segregation. (AP Photo)" />
+<p class="photo-cutline cutline img-float right">Linda Brown Smith was a 3rd grader when her father started a class-action suit in 1951 that led to the U.S. Supreme Court's 1954 landmark decision against school segregation. (AP Photo)</p>
+<p>"<em>Brown v. Board</em> applied to public education, and we understood that to be elementary and secondary education," Bhargava said. "It didn't include pre-K and kindergarten because at the time in America, those were not compulsory parts of public education."</p>
+<p>Which meant that while Bhargava had over 200 desegregation cases on her team's docket during her time at the Justice department, none of them explicitly included preschool.</p>
+<p>The Supreme Court <a href="https://supreme.justia.com/cases/federal/us/391/430/#tab-opinion-1947387">ruled again in 1968</a> on the issue of segregation, mandating that schools not be racially identifiable. It ordered that segregation be eliminated "root and branch."</p>
+<p>Yet again, this ruling has not been applied to preschool. In fact, the polar opposite is true for preschool: the government act of funding only the very poorest to attend early education has baked segregation into the system.</p>
+<p>California Attorney General Xavier Becerra recently brought a<a href="https://www.latimes.com/california/story/2019-09-21/desegregation-order-sausalito-marin-county"> successful desegregation case</a>, the first in 50 years in California, aimed at K-8 schools in a small school district in Marin County. Yet his office said there are no plans to bring any preschool desegregation cases.</p>
+<p>Bhargava said there is another legal route that could be used: "Under <a href="https://www.justice.gov/crt/fcs/TitleVI">Title VI of the Civil Rights Act of 1964</a>, no preschool that receives federal funds can discriminate or segregate on the basis of race," she said.</p>
+<p>Bhargava is hopeful that deeply segregated preschools will be considered as part of new desegregation cases. "Given the expansion and necessity of pre-K to the provision of equal educational opportunities today, it is critical that pre-K be part of the ongoing work to desegregate the nation's schools."</p>
+<p class="subhed">GOOD INTENTIONS, BAD CONSEQUENCES</p>
+<p>The highly segregated public preschools we see today started with very good intentions. <a href="https://www.acf.hhs.gov/ohs">Head Start</a>, the federal program to offer early education to children from impoverished families, was created in 1965 -- and 55 years later, there is an unintended consequence, according to Richard Kahlenberg, senior fellow at the Century Foundation.</p>
+<p>"Now we have a system that is consciously segregated by economic status, given the means testing in Head Start which purposely excludes any student who is not economically needy," Kahlenberg said. "What makes it particularly egregious is that there's evidence to suggest that economic segregation at the pre-K level is even higher than at the K-12 level."</p>
+<!--%252525252520GPT%252525252520Position%2525252525202-->
+<div id="dfp-pos-2" class="dfp-slot" style="width: 300px; height: 250px;">
+<p class="ad-tag">ADVERTISEMENT</p>
+<script>// <![CDATA[
+googletag.cmd.push(function() { googletag.display('dfp-pos-2'); });
+// ]]></script>
+</div>
+<p>Similar restrictions exist as to who will be funded to attend state preschool in California. Part of this is because the California Education Code was written to limit the percentage of children from higher-income families eligible to attend. This has meant that large school districts, like Los Angeles Unified, have felt obliged to strictly follow the code, according to Dean Tagawa, director of early education at the district.</p>
+<p>A <a href="https://casetext.com/statute/california-codes/california-education-code/title-1-general-education-code-provisions/division-1-general-education-code-provisions/part-6-education-programs-state-master-plans/chapter-2-child-care-and-development-services-act/article-7-california-state-preschool-programs/section-82363-enrollment-of-four-year-olds-attending-preschool-programs-with-80-percent-of-pupils-eligible-for-free-or-reduced-priced-meals">change in the education code</a> that goes into effect on Jan. 1, 2020 will allow schools to increase enrollment of 4-year-olds who are ineligible for free or reduced-price lunches to as much as 20%. But that still leaves 80% of children from low-income families, which based on current demographics, means at least 80% children of color.</p>
+<p>And for many children attending public preschools in California, separate is not equal.</p>
+<p class="subhed">A CASE STUDY FROM COMPTON</p>
+<img src="https://projects.laist.com/2019/preschool-segregation/images/ECE&#32;SEGREGATION--1@2x.png" alt="Denise Wilson with her children photographed at Hemmingway Park in Compton on December 5th, 2019. (Chava Sanchez/LAist)" />
+<p class="photo-cutline cutline">Denise Wilson with her children photographed at Hemmingway Park in Compton on December 5th, 2019. (Chava Sanchez/LAist)</p>
+<p>Denise Wilson has held various jobs in her life, but one stands out. She was a detention services officer at Los Padrinos Juvenile Hall in Downey. Wilson remembers that she and other staff members would bark orders at kids to keep them in line, the daily schedule was highly regimented to keep the adults in control at all times, and the aesthetics of the building were drab and monotonous.</p>
+<p>What makes Wilson uncomfortable, and sometimes even angry, is that two Compton preschools her 4-year-old twins attended seemed to operate using the same tactics and methodology used at Los Padrinos.</p>
+<p>"I just feel sad for the kids because I feel like it is just perpetuating the school-to-prison pipeline," Wilson said on a recent afternoon as we sat parked outside her children's federally funded Head Start center in Compton. Wilson has since withdrawn her kids from the center and placed them in another preschool.</p>
+<p>She worries that as her children get older, and because they are black, they will encounter implicit bias and unfair discipline, and it will all seem normal, "like, you remember this from preschool."</p>
+<p>Wilson describes her son, Mathew, as "very active." She said she often found Mathew by himself in the office, "in isolation," when she went to pick him up. When she asked the teachers why Mathew was not with the rest of the children, they said it was because he wasn't listening. Wilson saw this as an "in-school suspension," even though the teachers said Mathew was not suspended.</p>
+<blockquote><b>"Why is it so hard to find quality preschool?"</b> <cite>~ Denise Wilson, parent of a preschool student in Compton</cite></blockquote>
+<p>Wilson said she felt the preschool teachers were not well-trained, didn't understand how important freeplay is for social-emotional learning, and unreasonably expected the preschoolers to follow regimented orders at all times. While she wants her children to learn to read and write, "they teach literacy by tracing," Wilson said.</p>
+<p>Even fun, art-based activities have been problematic. Recently Wilson spent the weekend in a hospital emergency room after her daughter got a bead stuck in her ear. It happened, Wilson surmised, during a bracelet-making project. "No one told me at the school that there was a bead stuck in her ear. I learned that by myself." She wonders how well the children were supervised, calling the bead incident "neglectful."</p>
+<p>Wilson had previously removed her twins from another Head Start center in Compton. She said the classrooms were unsanitary and poorly organized.</p>
+<p>"The bathroom odors used to be so rank," Wilson said. There always seemed to be "a lot of flies" around the restrooms, which were located in the classroom and next door to the kitchen.</p>
+<p>"The exterminators used to come in all the time," Wilson added.</p>
+<p>Sometimes the teachers refused to talk with her about her children's day. When she begged to have her twins in the same class, the site manager always had an excuse as to why it couldn't happen. The separation was hard on the children, who were then 3 years old.</p>
+<p>Wilson is clear to point out that she thinks Head Start is critical for families like hers who cannot afford to pay for preschool. She is grateful her twins have access to early education, and she knows there are strict program performance standards that all Head Start programs have to meet.</p>
+<p>She also knows the funding these preschool programs receive is minimal and that teachers have to make small miracles every day with the meager resources they have. She wonders if it has anything to do with the fact that the overwhelming majority of children in her twins' public preschool are children of color.</p>
+<p class="subhed">MONEY BUYS QUALITY</p>
+<img src="https://projects.laist.com/2019/preschool-segregation/images/_DSF1697@2x.png" alt="Paint-covered easels display the works of two students at the Pacific Avenue Education Center in Glendale. (Chava Sanchez/LAist)" />
+<p class="photo-cutline cutline">Paint-covered easels display the works of two students at the Pacific Avenue Education Center in Glendale. (Chava Sanchez/LAist)</p>
+<p>When the Supreme Court ruled in <em>Brown </em>that segregated education was unconstitutional, one of the main reasons given was that separate educational institutions could never be equal in quality.</p>
+<p>That's been borne out by research. In its nationwide study, The Education Trust found that <a href="https://www.google.com/url?q=https://edtrust.org/early-childhood-tool/california/&amp;sa=D&amp;ust=1575493935161000&amp;usg=AFQjCNHNXqoOX9vm6Cs9v3rG2k1cVMzzEA">California meets just five of the 10 markers of quality preschool</a> in its public programs.</p>
+<p>It's hard to imagine Denise Wilson's description of persistent flies around her children's restroom at a Compton preschool, or the isolation punishment when her son didn't listen, being applied to a private, market-rate preschool.</p>
+<blockquote><b>The California State Preschool Program (CSPP) pays about $1,000 a month for each full-day, full-time child. Market rate preschool can run from $1,500 to $2,200 a month.</b></blockquote>
+<p>"Denise is one of millions of California parents who are struggling and challenged by inadequacies of this system," said Mary <span>Ignatius</span>, a community organizer with <a href="http://www.parentvoices.org/">Parent Voices</a>.</p>
+<p>While Wilson has had a poor experience, <span>Ignatius</span> adds that many public preschools are high quality. Yet the reality is some of the very elements that the <em>Brown</em> decision declared as unequal are all hallmarks of public preschool today.</p>
+<p>The problem starts with the money, said <span>Ignatius</span>. "We have a very woefully, inadequately funded system."</p>
+<p><a href="https://achieve.lausd.net/Page/501">The California State Preschool Program (CSPP)</a> pays about $1,000 a month for each full-day, full-time child. Compare that to market rate preschool, which can run from $1,500 to $2,200 a month. Over the course of a year, that means dramatically less money -- from $6,000 to $14,000 less per child -- at a public preschool. If a site has 24 children enrolled, that's almost $150,000 less per year at a publicly funded preschool.</p>
+<p>"The programs that are out there are trying to hold on and keep it together with the passion and love they bring to serving children, but they're not superheroes," <span>Ignatius</span> said. "They can't make something great when they don't have enough resources."</p>
+<p>It's as simple as this: extra money buys extra quality, she said. And in California, the kids who end up in preschools with dramatically less money are, with little exception, all children of color.</p>
+<p>One place that money gets spent is teacher salaries. Marcy Whitebook, director of the <a href="https://cscce.berkeley.edu/">Center for the Study of Child Care Employment </a>at UC Berkeley and an expert on early educators' salaries in California, says most preschool teachers are underpaid. Many earn only minimum wage and can't afford higher education or graduate studies to learn more deeply about early childhood development.</p>
+<p>Then there is the pay disparity issue between teachers in public and private programs in California.</p>
+<!--%252525252520GPT%252525252520Position%2525252525203-->
+<div id="dfp-pos-3" class="dfp-slot" style="width: 300px; height: 250px;">
+<p class="ad-tag">ADVERTISEMENT</p>
+<script>// <![CDATA[
+googletag.cmd.push(function() { googletag.display('dfp-pos-3'); });
+// ]]></script>
+</div>
+<p>"In the programs where they are basically serving high-income families, they are more likely to pay their teachers somewhat higher than those that are funding children who are from low-income families who qualify for subsidies," said Whitebook, whose center is poised to release a report on the disparities.</p>
+<p>It's a familiar concept. In segregated K-12 schools, it has long been held that paying teachers less who work in all-black or all-Latino schools is a straight line to an unequal education. A study conducted by Whitebook and her team in Marin County demonstrates the pay disparities.</p>
+<p>"In the study in Marin, we found that the teachers in the private centers were earning about $1 more (per hour) than state preschool teachers, and about $7 more than Head Start teachers." All these teachers had a bachelors degree, Whitebook added, but the public preschool teachers still earned less.</p>
+<p>"A dollar difference over a year [adds up to] $2,000, and $2 is roughly $4,000," Whitebook said. The extra pay matters, she said. "You're providing a little bit of relief for teachers -- that is not good compensation, I want to make that distinction. It's maybe poverty relief. But that little bit of money may mean that someone stays a little bit longer. So for the children they're taking care of it means a little less instability."</p>
+<p class="subhed">WHAT'S BEST, PLAYTIME OR ABC'S?</p>
+<img src="https://projects.laist.com/2019/preschool-segregation/images/ECE&#32;SEGREGATION--40@2x.png" alt="Denise Wilson's 4-year-old twins play at Hemmingway Park in Compton. (Chava Sanchez/LAist)" />
+<p class="photo-cutline cutline">Denise Wilson's 4-year-old twins play at Hemmingway Park in Compton. (Chava Sanchez/LAist)</p>
+<p>There's another issue that can also define quality when it comes to early education: the curriculum, or method of teaching used. Many publicly funded programs have traditionally focused more on early academics, while private pay programs in wealthy areas tend to use play-based and child-led inquiry models for teaching and learning.</p>
+<p>At public preschools, it's common for children to spend time at desks and on academics. Basically, public preschool can often look like elementary school. This approach is not based on evidence of how small children learn best, according to Pedro Noguera, a professor of education at UCLA.</p>
+<p>"Because of the fixation on student achievement as measured by test scores, what we've started to see in some schools is a kind of regimentation of children, even as early as 3 and 4," Noguera said.</p>
+<p>He has studied school inequities and says children in wealthier preschools are often encouraged to play their way to learning, rather than performing deskbound tasks like filling out a worksheet.</p>
+<p>"The contrast is striking because for affluent children it tends to be much more emphasis on play and socialization -- learning that is embedded into play -- so it's not as though they are not learning," Noguera said.</p>
+<blockquote><b>"When we test-test-test we drill and we kill the creativity and the desire and love of wanting to learn."</b> <cite>~ Yolanda Carlos, professor of early education at Pacific Oaks College</cite></blockquote>
+<p>More academics at preschool often comes at the expense of social-emotional learning. Coloring a worksheet about sharing won't mean a child will put that into practice in the sandpit. But it may mean that the child will have better fine motor control when using a crayon or pencil, and it may mean they start kindergarten knowing more letters and numbers.</p>
+<p>Yet to Yolanda Carlos, professor of early education at Pacific Oaks College, the focus of public preschools on academics is for one main reason: accountability. Public programs must prove they are educating the children, and this leads to not just an academic-heavy preschool experience, but also one full of testing.</p>
+<p>"When we test-test-test we drill and we kill the creativity and the desire and love of wanting to learn," Carlos said.</p>
+<p>Carlos teaches a Masters' level seminar for working early educators, and during a recent class her students debated the pros and cons of assessing development of preschool aged children.</p>
+<p>Assessment happens a lot in public preschools, and almost never in private schools. The Master's students discussed a widely used assessment tool called <a href="https://www.cde.ca.gov/sp/cd/ci/desiredresults.asp">Desired Results Developmental Profile</a>, or DRDP. Carlos asked if they have to assess their children using DRDP. All the teachers in public programs raised their hands.</p>
+<p>Celina Waddy used to work at a state preschool. "There are so many measures that took so much time that it became more about the DRDP than actually teaching the children and making those meaningful relationships," she said.</p>
+<p>Another teacher, Francisco Martinez, said he always keeps a notebook in his pocket to scribble down his observations of the children. At the end of the day, he inputs all his data into a computer system that tracks each child.</p>
+<p>"So [would you] say close to four hours a day you were spending gathering data and inputting data? Is that correct?" Carlos asked Martinez.</p>
+<p>"Yes," the teacher responded.</p>
+<p>Constantly making notes to remember what children achieved and where they struggled -- all required in publicly funded programs -- has many benefits. It helps identify developmental challenges early and seek remedies. Yet it is also cumbersome, Carlos said.</p>
+<p>"It's not truly about the child and their learning, it's only for gathering the data and the evidence," she said.</p>
+<p>And it is mostly happens only in programs attended by low-income children, overwhelmingly children of color.</p>
+<p>Carlos emphasizes that there are many individual Head Start and State Preschool programs that are doing things differently. LAUSD recently changed to play-based curriculum, which has involved an overhaul of how preschool teachers run their classrooms. The Long Beach school district's Head Start program also is in the process of sweeping out the more academic-heavy methodology for a play-based curriculum. Yet teachers in all these programs still have to spend vast amounts of time testing and gathering data on their students.</p>
+<p class="subhed">INTEGRATED PRESCHOOLS: DO THEY WORK?</p>
+<img src="https://projects.laist.com/2019/preschool-segregation/images/_DSF1707@2x.png" alt="Miguel Angel and Liam share breakfast during morning snack time at a dual-language head start program at Pacific Avenue Education Center in Glendale. (Chava Sanchez/LAist)" />
+<p class="photo-cutline cutline">Miguel Angel and Liam share breakfast during morning snack time at a dual-language head start program at Pacific Avenue Education Center in Glendale. (Chava Sanchez/LAist)</p>
+<p>Diana Ramirez, a youth development worker, knew she didn't want her toddler sitting at a desk all day focused only on academics. But Ramirez, who grew up near Silicon Valley in East Menlo Park, also knew that the preschool offerings were slim on her budget.</p>
+<p>"In terms of quality I know Head Start, especially in San Mateo County, hasn't had a really good reputation, there is a bit of heavy academics," Ramirez said.</p>
+<p>There were amazing play-based programs close by -- East Menlo Park borders Stanford University and Silicon Valley. But Ramirez couldn't afford any of these preschools.</p>
+<p>"The access to a full-day program isn't quite readily available for many of our low-income [community] members who are looking into working more than one job," Ramirez said.</p>
+<p>Since she worked at an afterschool program, Ramirez knew local teachers. They advised her to seek a play-based preschool with a focus on social-emotional learning.</p>
+<p>Ramirez checked out the local state preschool, but she was not impressed. She didn't know what to do, the options seemed limited. Then, something amazing happened. A brand-new preschool opened in her neighborhood, with free slots for low-income children.</p>
+<p>The preschool is called <a href="https://www.allfive.org/">All 5</a>, and it wasn't a standard academic-heavy Head Start or state preschool. This preschool had a large outdoor yard with all sorts of fun toys, it promised that children's learning was embedded in their play. It looked impressively like the one on Stanford's campus.</p>
+<img src="https://projects.laist.com/2019/preschool-segregation/images/IMG_9131@2x.png" alt="A teacher at All 5 preschool in East Menlo Park reads to a children who have chosen book time after they woke up from their naps. All 5 preschool has integration as an explicit part of its mission, reserving half the seats for low-income children and the other half for middle and upper income children. (Deepa Fernandes for LAist)" />
+<p class="photo-cutline cutline">Julián Zaldana leads a group of preschoolers in a block jumping game at All 5 preschool in East Menlo Park. Zaldana started at All 5 when he was 2.9 years old, and in the years he has attended his speech delay has improved greatly, according to his mother, Diana Ramirez. Zaldana's friends span the socio-economic spectrum. (Deepa Fernandes for LAist)</p>
+<p>"So my son started there right when he was qualified to start at 2.9 years old," Ramirez said. "He's had a bit of a speech delay but in the last few months that's definitely been a huge growth," she said, attributing it to the language-rich environment the teachers create.</p>
+<p>All 5 is unusual in the early education landscape because it has the goal of integration firmly in its mission. Fifty percent of its seats are subsidized by the government for low-income children, and the other 50% are alloted to paying families.</p>
+<p>The higher-end seats are at market rate for the area -- $2,200 a month for full-time care. That price tag alone is more than what half of the families in attendance earn. Yet with high-paying tech jobs proliferating in the area, this preschool is where the children of Facebook tech employees might play and learn alongside the children of the Facebook support staff.</p>
+<p>Ramirez believes her son, despite being subsidized by the government, is getting this high-quality education because there are also children who come from families that can pay top dollar for preschool. That's exactly what the preschool founder, Carol Thomsen, wanted when she opened All 5 in 2015.</p>
+<p>"Families that are full-pay families do have demands and they are our accountability," Thomsen said. "I expect from them to be held to the highest standards because if we can't meet their standards, then I believe our school isn't good enough for anybody."</p>
+<p>When Thomsen opened All 5, the subsidized seats filled up right away and there was a waiting list. But Thomsen wanted to fill all her high-income seats, too.</p>
+<p>"We have this incredible opportunity to get all these people who work at Facebook," Thomsen said. "Families that make over $200,000 a year and families that make $20,000 a year are all here in this program."</p>
+<p>Thomsen struggled to fill the slots for higher-income families in the first years. She heard various hesitations from prospective parents. One came up time and again.</p>
+<p>"'My child is up here, she's starting at this higher level, and those children are starting down there at this lower level, and my child's going to go down and that child's going to go up,'" Thomsen said, citing a typical concern.</p>
+<img src="https://projects.laist.com/2019/preschool-segregation/images/IMG_9118@2x.png" alt="A teacher at All 5 preschool in East Menlo Park reads to children who have chosen book time after they woke up from their naps. All 5 preschool has integration as an explicit part of its mission, reserving half the seats for low-income children and the other half for middle and upper income children. (Deepa Fernandes for LAist)" />
+<p class="photo-cutline cutline">A teacher at All 5 preschool in East Menlo Park reads to children who have chosen book time after they woke up from their naps. All 5 preschool has integration as an explicit part of its mission, reserving half the seats for low-income children and the other half for middle and upper income children. (Deepa Fernandes for LAist)</p>
+<p>It's a fear that parents have voiced since the Supreme Court desegregated K-12 schools. At the preschool level, the concern looks like this: Will children with lesser vocabulary, fewer books in their homes, maybe with parents who don't speak English or didn't graduate high school, stall the development of children from higher socioeconomic families?</p>
+<p>Jeanne Reid, a researcher at Columbia University, says there is simply no evidence to back this up.</p>
+<p>"Higher-skilled children are in no way harmed by attending preschool with lower-skilled children," Reid said. In fact, research done by Reid and others shows quite the opposite. "There's evidence that there is more learning going on in those classrooms."</p>
+<p>Reid said there are intangible benefits from integrated preschool classrooms.</p>
+<p>"Higher-skilled children or higher (income) children...learn social skills and how to deal with children, how to manage with children, how to have fun with children and how to collaborate with children who are very different from themselves, and in the long run that's likely to benefit them in their jobs and in the global economy," Reid said.</p>
+<p>It's exactly what one sees in action at All 5. When an upper-income parent arrives to pick up their child, they may chat with a parent of a subsidized child. "Their children are friends," Thomsen said.</p>
+<p>Five years after All 5 opened, all of the slots are filled and there is now also a waiting list for the full-pay seats. Thomsen believes her experiment demonstrates that if integrated preschools were readily available, and quality of the school was high, parents would indeed choose this way.</p>
+<p class="subhed">WHY NOT FREE PRESCHOOL FOR ALL KIDS?</p>
+<p>What Carol Thomsen created at All 5 could be replicated by the state through a universal pre-K model. That's where preschool is free and open to any child, just like K-12. The government foots the bill for every child to access a quality preschool.</p>
+<blockquote><b>"If we had all the money in the world I think you would try and avoid segregation and fund everybody."</b> <cite>~ Michael Kirst, chair of the California Board of Education under Gov. Jerry Brown</cite></blockquote>
+<p>Yet California has resisted this, citing cost. The previous chair of the California Board of Education, Michael Kirst, who served four terms under Gov. Jerry Brown in the position, was clear that he could not sanction the expenditure of state funds for children from wealthy families to attend preschool when so many low-income children were missing out.</p>
+<p>"If we had all the money in the world I think you would try and avoid segregation and fund everybody," he said.</p>
+<p>However, the new Board of Education chair, Linda Darling-Hammond, departs from her predecessor.</p>
+<p>"Rather than say we can't afford universal pre-K where we're paying for the children of movie stars as well as others, but that leaves us with just segregated low-income pre-K, how do we get an integrated system that brings all children together in a context where they can learn together?" she asked. "This is one of the things the Master Plan will be taking up."</p>
+<p>The Master Plan will be the result of almost one year's worth of work by experts appointed to focus on how to improve the state's early-care system. The plan is scheduled to be presented in October 2020. <a href="https://www.gov.ca.gov/2019/11/22/governor-newsom-announces-early-childhood-policy-council-and-a-team-to-develop-master-plan-for-early-learning-and-care/">A press release from the Governor's office</a> touted that it will be "a comprehensive roadmap for California to accelerate the Governor's goal of providing universal preschool and action steps to increase access to affordable, high-quality child care that embraces the strengths and meets the needs of parents and young children."</p>
+<p class="subhed">HOW TO ATTRACT DIVERSE STUDENTS</p>
+<p>The Governor's team may want to study what is happening in the Glendale School district. The <a href="https://www.gusd.net/Page/5680">district's preschool model</a> includes this innovative incentive: <a href="https://www.gusd.net/site/Default.aspx?PageID=941">dual-language immersion</a> and high-quality preschool classrooms.</p>
+<p>The program has attracted higher-income parents who pay full rate to put their child into one of its state preschool classrooms alongside children subsidized by the state. The diversity here is by design, said Rebecca Andrade, director of early learning. That's resulted in classrooms where white students range from 30% to 50% of the students, remarkably different from state preschool classrooms across the state.</p>
+<p>"We distribute our slots for subsidy across our 14 classrooms so that allows us to also offer space in that same classroom to fee-based families," Andrade said.</p>
+<p>It costs about $1,000 a month for full-time preschool here. Andrade credits the growing popularity of Spanish immersion education for getting middle-class parents to pay for the state preschool program. The program has been so popular among higher income and white families in the district that there is a waiting list.</p>
+<img src="https://projects.laist.com/2019/preschool-segregation/images/_DSF1772@2x.png" alt="Maria Ruiz Zendejas, a teacher at Pacific Avenue Education Center, reads to her students in Spanish. (Chava Sanchez/LAist)" />
+<p class="cutline">Maria Ruiz Zendejas, a teacher at Pacific Avenue Education Center, reads to her students in Spanish. (Chava Sanchez/LAist)</p>
+<p>While Spanish immersion has been a carrot to draw in higher-income families, Andrade says once their children enroll, parents see up close the benefits of an integrated preschool classroom.</p>
+<p>Teacher Maria Ruiz said the children constantly learn from each other. Simple lessons that can come even when a kid pulls out a lunch pail.</p>
+<p>"We learned that the Salvadoran tamales are different from the Mexican tamales," Ruiz said. "Some of our students, for example the white students, some of them they haven't tried [tamales], it's something totally new for them."</p>
+<p>It is simple lessons like this, at such a young age, that help the children learn from each other and become friends across class and race lines, Ruiz said.</p>
+<p>And it brings parents together too, when at this young age they tend to want to get to know the families of their children's friends.</p>
+<p>"We have parents that are teachers and we have parents that work at a fast food restaurant, and it doesn't matter for the students," Ruiz said. "They do play dates together where parents come together and say 'my child wants to play with your child and well let's go to the park or something.'"</p>
+<p>This preschool teacher hopes her little students will continue these multicultural friendships well beyond her classroom, and if they can, the future looks bright, she said.</p>
+<p><em><strong>Correction:</strong> The last names of Marcy Whitebook and Mary <span>Ignatius </span>were misspelled in a previous version of this story. LAist regrets the error.</em></p>
+<hr />
+<p><strong><em>Deepa Fernandes is a reporting fellow at Pacific Oaks College, which is funded in part by First 5 LA.</em></strong></p>
+<script>// <![CDATA[
+var styleNode = document.createElement("style");document.head.appendChild(styleNode);styleNode.innerHTML = ".hearken-embed.cleanslate .header--image, .hearken-embed.cleanslate .header--text, .hearken-embed.cleanslate .footer--text {display: none !important;}";
+// ]]></script>
+<script async="" src="https://modules.wearehearken.com/kpcc/embed/4456.js"></script>
+</section>
+  <footer class="site-footer" id="about">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 col-md-4">
+        
+          <h6>SUPPORT LAIST</h6>
+          <p class="about-text">Education reporting is complex. Here at LAist, our goal is to bring you education coverage you can’t find anywhere else, from diapers to diplomas. This comprehensive coverage (including stories like this one!) is only possible when you <b><a href="https://support.kpcc.org/laistcye19afterarticle">support LAist reporting today</a></b>.</p>
+        
+        <h6>Sign Up For The LAist Newsletter</h6>
+        <form action="https://mcpostman.publicradio.org/subscription_requests" id="sign-up-newsletter__form__footer" class="mcpostman-form" method="post" _lpchecked="1">
+              <input name="subscription_request[property_key]" value="ac6e3d90-b7e2-48a1-88e0-c90179903b3c" type="hidden">
+              <input name="subscription_request[sde_external_key]" value="" type="hidden">
+              <input name="subscription_request[fsm][Form_BusinessUnit]" value="SCPR" type="hidden">
+              <input name="subscription_request[fsm][Form_FormName]" value="SCPR_LAist_Subscribe_Form" type="hidden">
+              <input name="subscription_request[fsm][Form_Opt_In_Source]" value="SCPR Newsletter" type="hidden">
+              <input name="subscription_request[fsm][Form_Email_Address]" id="sign-up-newsletter__email" required="required" maxlength="254" type="email" placeholder="email@domain.com">
+              <input name="subscription_request[publication_lists][1116]" value="on" type="hidden">
+          <button data-collapse="" id="footer__submit" type="submit">Subscribe</button>
+        </form>
+      </div>
+
+      <div class="col-sm-12 col-md-8">
+        <div class="row">
+          
+            <div class="col-xs-6 col-md-4">
+              <h6 id="footer__authors">Author</h6>
+              <ul id="footer-links__authors" class="footer-links">
+                <li class="site-footer__authors">Deepa Fernandes</li>
+              </ul>
+            </div>
+          
+            <div class="col-xs-6 col-md-4">
+              <h6 id="footer__editors">Editor</h6>
+              <ul id="footer-links__editors" class="footer-links">
+                <li class="site-footer__editors">Tony Marcano</li>
+              </ul>
+            </div>
+          
+            <div class="col-xs-6 col-md-4">
+              <h6 id="footer__designers-and-developers">Design &amp; Development</h6>
+              <ul id="footer-links__designers-and-developers" class="footer-links">
+                <li class="site-footer__designers-and-developers">Brian Frank, Dana Amihere</li>
+              </ul>
+            </div>
+          
+            <div class="col-xs-6 col-md-4">
+              <h6 id="footer__photographers">Photography</h6>
+              <ul id="footer-links__photographers" class="footer-links">
+                <li class="site-footer__photographers">Chava Sanchez, Deepa Fernandes</li>
+              </ul>
+            </div>
+          
+            <div class="col-xs-6 col-md-4">
+              <h6 id="footer__videographers">Video</h6>
+              <ul id="footer-links__videographers" class="footer-links">
+                <li class="site-footer__videographers">Chava</li>
+              </ul>
+            </div>
+        </div>
+      </div>
+    </div>
+    <hr>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 col-sm-6 col-xs-12">
+        <p class="copyright-text">Copyright © <span>2019</span> All Rights Reserved by
+      <a href="https://www.laist.com">LAist</a>.
+        </p>
+      </div>
+
+      <div class="col-md-4 col-sm-6 col-xs-12">
+        <ul class="social-icons">
+          <li><a class="facebook" href="https://www.facebook.com/theLAist/"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+          <li><a class="twitter" href="https://twitter.com/LAist"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+          <li><a class="instagram" href="https://www.instagram.com/laistpics/?hl=en"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+  <script type="text/javascript" src="https://w.soundcloud.com/player/api.js"></script>
+<script type="text/javascript" src="https://projects.laist.com/lib/js/lib-soundcite.js"></script>
+<script type="text/javascript" src="https://projects.laist.com/lib/js/lib-wavesurfer.js"></script>
+<script type="text/javascript" src="https://projects.laist.com/lib/js/lib-feed_footer.js"></script>
+  <script>
+      // Facebook
+      window.fbAsyncInit = function() {
+        FB.init({
+          appId            : '883507005176874',
+          autoLogAppEvents : true,
+          xfbml            : true,
+          version          : 'v3.1'
+        });
+      };
+      (function(d, s, id){
+         var js, fjs = d.getElementsByTagName(s)[0];
+         if (d.getElementById(id)) {return;}
+         js = d.createElement(s); js.id = id;
+         js.src = "https://connect.facebook.net/en_US/sdk.js";
+         fjs.parentNode.insertBefore(js, fjs);
+       }(document, 'script', 'facebook-jssdk'));
+      // Facebook web intent
+      document.getElementById('fb-share').onclick = function() {
+        FB.ui({
+          method: 'share',
+          display: 'popup',
+          href: 'https://projects.laist.com/2019/preschool-segregation/index.html',
+        }, function(response){});
+      }
+    </script>
+    <script>
+      // Twitter web intent
+      document.getElementById('twitter-share').onclick = function() {
+        const url = "https://projects.laist.com/2019/preschool-segregation/index.html";
+        const text = "The Supreme Court desegregated schools 65 years ago, right? So how come California's public preschools are almost entirely nonwhite? Hint: Pre-K wasn't mandatory in 1954 (it still isn't).";
+        window.open('http://twitter.com/share?url='+encodeURIComponent(url)+'&text='+encodeURIComponent(text), '', 'left=0,top=0,width=550,height=450,personalbar=0,toolbar=0,scrollbars=0,resizable=0');
+      }
+    </script>
+<script src="https://projects.laist.com/2019/preschool-segregation/js/jukebox.js"></script>
+<script type="text/javascript" src="https://projects.laist.com/2019/preschool-segregation/js/districts.js"></script>
+</body>

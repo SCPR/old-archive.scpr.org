@@ -1,0 +1,524 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+  <channel>
+    <title>Tuesday Reviewsday</title>
+    <link>https://www.scpr.org/programs/take-two/</link>
+    <atom:link href="https://www.scpr.org/programs/take-two/" rel="alternate"/>
+    <atom:link href="https://www.scpr.org/podcasts/tuesday-reviewsday" rel="self" type="application/rss+xml"/>
+    <language>en-us</language>
+    <description>New music every week, as chosen by tastemakers on Take Two from Southern California Public Radio. Hear from Shirley Halperin, news director at Billboard Magazine, Oliver Wang of Soul-Sides, music supervisor Morgan Rhodes, music journalists Chris Martins, Steve Hochman and more.</description>
+    <image>
+      <url>https://media.scpr.org/assets/images/podcasts/kpcc-podcast-cover-tuesdayreviewsday.jpg</url>
+      <title>Tuesday Reviewsday</title>
+      <link>https://www.scpr.org/programs/take-two/</link>
+    </image>
+    <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+    <itunes:summary>New music every week, as chosen by tastemakers on Take Two from Southern California Public Radio. Hear from Shirley Halperin, news director at Billboard Magazine, Oliver Wang of Soul-Sides, music supervisor Morgan Rhodes, music journalists Chris Martins, Steve Hochman and more.</itunes:summary>
+    <itunes:category text="Music"/>
+    <itunes:owner>
+      <itunes:name>KPCC 89.3 | Southern California Public Radio</itunes:name>
+      <itunes:email>contact@kpcc.org</itunes:email>
+    </itunes:owner>
+    <itunes:image href="https://media.scpr.org/assets/images/podcasts/kpcc-podcast-cover-tuesdayreviewsday.jpg"/>
+    <itunes:explicit>no</itunes:explicit>
+    <item>
+      <title>Tuesday Reviewsday: new summer jams! </title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>Time to update your playlist! Every week we’ll get a whole raft of new music. This week, Take Two contributor Oliver Wang brings us his selections. 
+</itunes:summary>
+      <description>Time to update your playlist! Every week we’ll get a whole raft of new music. This week, Take Two contributor Oliver Wang brings us his selections. 
+</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/tuesday-reviewsday/2017/06/06/16176/</guid>
+      <pubDate>Tue, 06 Jun 2017 18:13:00 GMT</pubDate>
+      <itunes:keywords>Los Angeles, California, Southern California, music, Oliver Wang, Morgan Rhodes, Nic Harcourt</itunes:keywords>
+      <link>https://www.scpr.org/programs/tuesday-reviewsday/2017/06/06/16176/</link>
+      <enclosure url="https://media.scpr.org/podcasts/upload/2017/06/06/Audio_1_03-3e05d24d.mp3?context=tuesday-reviewsday&amp;via=podcast" length="17181203" type="audio/mpeg"/>
+      <itunes:duration>429</itunes:duration>
+    </item>
+    <item>
+      <title>Tuesday Reviewsday: Jazzmeia Horn and more </title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>Tuesday Reviewsday is our weekly new music segment, and this week Morgan Rhodes join A Martinez  to talk about the latest releases.</itunes:summary>
+      <description>Tuesday Reviewsday is our weekly new music segment, and this week Morgan Rhodes join A Martinez  to talk about the latest releases.</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/tuesday-reviewsday/2017/05/23/16067/</guid>
+      <pubDate>Tue, 23 May 2017 18:23:00 GMT</pubDate>
+      <itunes:keywords>Los Angeles, California, Southern California, music, Oliver Wang, Morgan Rhodes, Nic Harcourt</itunes:keywords>
+      <link>https://www.scpr.org/programs/tuesday-reviewsday/2017/05/23/16067/</link>
+      <enclosure url="https://media.scpr.org/podcasts/upload/2017/05/23/Audio_1_08-78376ef9.mp3?context=tuesday-reviewsday&amp;via=podcast" length="23355923" type="audio/mpeg"/>
+      <itunes:duration>583</itunes:duration>
+    </item>
+    <item>
+      <title>Tuesday Reviewsday: Juanes and La Santa Cecilia </title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>Music journailist Justino Aguila joins Take Two for the latest installment of Tuesday Reviewsday </itunes:summary>
+      <description>Music journailist Justino Aguila joins Take Two for the latest installment of Tuesday Reviewsday </description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/tuesday-reviewsday/2017/05/16/16019/</guid>
+      <pubDate>Tue, 16 May 2017 19:49:00 GMT</pubDate>
+      <itunes:keywords>Los Angeles, California, Southern California, music, Oliver Wang, Morgan Rhodes, Nic Harcourt</itunes:keywords>
+      <link>https://www.scpr.org/programs/tuesday-reviewsday/2017/05/16/16019/</link>
+      <enclosure url="https://media.scpr.org/podcasts/upload/2017/05/16/Audio_1_06-4fa0c9fd.mp3?context=tuesday-reviewsday&amp;via=podcast" length="18716243" type="audio/mpeg"/>
+      <itunes:duration>467</itunes:duration>
+    </item>
+    <item>
+      <title>Tuesday Reviewsday: Prince's newly released single, Electric Intercourse </title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>If you love music, but don't have the time to keep up with what's new, you should listen to Tuesday Reviewsday. 
+
+Every week our critics join our hosts in the studio to talk about what you should be listening to in one short segment. This week A Martinez is joined by Oliver Wang -  music writer, scholar, and DJ.</itunes:summary>
+      <description>If you love music, but don't have the time to keep up with what's new, you should listen to Tuesday Reviewsday. 
+
+Every week our critics join our hosts in the studio to talk about what you should be listening to in one short segment. This week A Martinez is joined by Oliver Wang -  music writer, scholar, and DJ.</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/tuesday-reviewsday/2017/05/09/15971/</guid>
+      <pubDate>Tue, 09 May 2017 17:29:00 GMT</pubDate>
+      <itunes:keywords>Los Angeles, California, Southern California, music, Oliver Wang, Morgan Rhodes, Nic Harcourt</itunes:keywords>
+      <link>https://www.scpr.org/programs/tuesday-reviewsday/2017/05/09/15971/</link>
+      <enclosure url="https://media.scpr.org/podcasts/upload/2017/05/09/Audio_1_01-01-3924442a.mp3?context=tuesday-reviewsday&amp;via=podcast" length="20234963" type="audio/mpeg"/>
+      <itunes:duration>505</itunes:duration>
+    </item>
+    <item>
+      <title>Kendrick Lamar, Joey Badass and Frank Ocean, with a little help from Jay Z and friends </title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>If you love music, but don't have the time to keep up with what's new, you should listen to Tuesday Reviewsday. 
+
+Every week our critics join our hosts in the studio to talk about what you should be listening to in one short segment. This week A Martinez is joined by Oliver Wang -  music writer, scholar, and DJ.</itunes:summary>
+      <description>If you love music, but don't have the time to keep up with what's new, you should listen to Tuesday Reviewsday. 
+
+Every week our critics join our hosts in the studio to talk about what you should be listening to in one short segment. This week A Martinez is joined by Oliver Wang -  music writer, scholar, and DJ.</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/tuesday-reviewsday/2017/04/18/15797/</guid>
+      <pubDate>Tue, 18 Apr 2017 20:34:00 GMT</pubDate>
+      <itunes:keywords>Los Angeles, California, Southern California, music, Oliver Wang, Morgan Rhodes, Nic Harcourt</itunes:keywords>
+      <link>https://www.scpr.org/programs/tuesday-reviewsday/2017/04/18/15797/</link>
+      <enclosure url="https://media.scpr.org/podcasts/upload/2017/04/18/trdaot_45410_TAKETWO-e851e14d.mp3?context=tuesday-reviewsday&amp;via=podcast" length="13493228" type="audio/mpeg"/>
+      <itunes:duration>562</itunes:duration>
+    </item>
+    <item>
+      <title>New music Tuesday: Residente and Dario Black </title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>Every week we keep you musically informed with the latest selections and reviews. Today we hear from music journalist Justino Aguila.
+</itunes:summary>
+      <description>Every week we keep you musically informed with the latest selections and reviews. Today we hear from music journalist Justino Aguila.
+</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/tuesday-reviewsday/2017/04/04/15716/</guid>
+      <pubDate>Tue, 04 Apr 2017 21:59:00 GMT</pubDate>
+      <itunes:keywords>Los Angeles, California, Southern California, music, Oliver Wang, Morgan Rhodes, Nic Harcourt</itunes:keywords>
+      <link>https://www.scpr.org/programs/tuesday-reviewsday/2017/04/04/15716/</link>
+      <enclosure url="https://media.scpr.org/podcasts/upload/2017/04/04/Audio_1_05-24a94ee8.mp3?context=tuesday-reviewsday&amp;via=podcast" length="21506003" type="audio/mpeg"/>
+      <itunes:duration>537</itunes:duration>
+    </item>
+    <item>
+      <title>Tuesday Reviewsday: Drake, Moonchild and more</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>Every week we get a look at the new music you should be listening to. This week music supervisor Morgan Rhodes offers her take.</itunes:summary>
+      <description>Every week we get a look at the new music you should be listening to. This week music supervisor Morgan Rhodes offers her take.</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/tuesday-reviewsday/2017/03/28/15672/</guid>
+      <pubDate>Tue, 28 Mar 2017 19:30:00 GMT</pubDate>
+      <itunes:keywords>Los Angeles, California, Southern California, music, Oliver Wang, Morgan Rhodes, Nic Harcourt</itunes:keywords>
+      <link>https://www.scpr.org/programs/tuesday-reviewsday/2017/03/28/15672/</link>
+      <enclosure url="https://media.scpr.org/podcasts/upload/2017/03/28/Audio_1_05-84569f5a.mp3?context=tuesday-reviewsday&amp;via=podcast" length="23601683" type="audio/mpeg"/>
+      <itunes:duration>590</itunes:duration>
+    </item>
+    <item>
+      <title>Nicki Minaj, Frank Ocean and more </title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>If you love music, but don't have the time to keep up with what's new, you should listen to Tuesday Reviewsday. </itunes:summary>
+      <description>If you love music, but don't have the time to keep up with what's new, you should listen to Tuesday Reviewsday. </description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/tuesday-reviewsday/2017/03/21/15587/</guid>
+      <pubDate>Tue, 21 Mar 2017 17:32:00 GMT</pubDate>
+      <itunes:keywords>Los Angeles, California, Southern California, music, Oliver Wang, Morgan Rhodes, Nic Harcourt</itunes:keywords>
+      <link>https://www.scpr.org/programs/tuesday-reviewsday/2017/03/21/15587/</link>
+      <enclosure url="https://media.scpr.org/podcasts/upload/2017/03/21/trdmix_45406_TAKETWO-5e9e9d5d.mp3?context=tuesday-reviewsday&amp;via=podcast" length="13806071" type="audio/mpeg"/>
+      <itunes:duration>575</itunes:duration>
+    </item>
+    <item>
+      <title>New music Tuesday: Rhiannon Giddens, Ibibio Sound Machine and more</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>Every week our critics join our hosts in the studio to give you some tips on new music. Joining us this week, music journalist Steve Hochman</itunes:summary>
+      <description>Every week our critics join our hosts in the studio to give you some tips on new music. Joining us this week, music journalist Steve Hochman</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/tuesday-reviewsday/2017/02/14/15326/</guid>
+      <pubDate>Tue, 14 Feb 2017 22:47:00 GMT</pubDate>
+      <itunes:keywords>Los Angeles, California, Southern California, music, Oliver Wang, Morgan Rhodes, Nic Harcourt</itunes:keywords>
+      <link>https://www.scpr.org/programs/tuesday-reviewsday/2017/02/14/15326/</link>
+      <enclosure url="https://media.scpr.org/podcasts/upload/2017/02/14/Audio_1_09-d59041c3.mp3?context=tuesday-reviewsday&amp;via=podcast" length="18784403" type="audio/mpeg"/>
+      <itunes:duration>469</itunes:duration>
+    </item>
+    <item>
+      <title>New music Tuesday: Cece Winans, Kid Koala and more </title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>If you love music, but don't have the time to keep up with what's new, we've got the solution ...  Tuesday Reviewsday. 
+
+Every week our critics join our hosts in the studio to talk about what you should be listening to in one short segment. This week we're joined by music supervisor Morgan Rhodes and Oliver Wang from Soul-Sides.com.</itunes:summary>
+      <description>If you love music, but don't have the time to keep up with what's new, we've got the solution ...  Tuesday Reviewsday. 
+
+Every week our critics join our hosts in the studio to talk about what you should be listening to in one short segment. This week we're joined by music supervisor Morgan Rhodes and Oliver Wang from Soul-Sides.com.</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/tuesday-reviewsday/2017/02/07/15284/</guid>
+      <pubDate>Tue, 07 Feb 2017 21:05:00 GMT</pubDate>
+      <itunes:keywords>Los Angeles, California, Southern California, music, Oliver Wang, Morgan Rhodes, Nic Harcourt</itunes:keywords>
+      <link>https://www.scpr.org/programs/tuesday-reviewsday/2017/02/07/15284/</link>
+      <enclosure url="https://media.scpr.org/podcasts/upload/2017/02/07/Audio_1_02-67a71847.mp3?context=tuesday-reviewsday&amp;via=podcast" length="22531283" type="audio/mpeg"/>
+      <itunes:duration>563</itunes:duration>
+    </item>
+    <item>
+      <title>Tuesday Reviewsday</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>Every week our music experts come in to talk about the best new tunes in one short segment. This week, Billboard's Leila Cobo and music journalist Justino Aguila join A Martinez with their top picks. </itunes:summary>
+      <description>Every week our music experts come in to talk about the best new tunes in one short segment. This week, Billboard's Leila Cobo and music journalist Justino Aguila join A Martinez with their top picks. </description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/tuesday-reviewsday/2017/01/31/15231/</guid>
+      <pubDate>Tue, 31 Jan 2017 19:45:00 GMT</pubDate>
+      <itunes:keywords>Los Angeles, California, Southern California, music, Oliver Wang, Morgan Rhodes, Nic Harcourt</itunes:keywords>
+      <link>https://www.scpr.org/programs/tuesday-reviewsday/2017/01/31/15231/</link>
+      <enclosure url="https://media.scpr.org/podcasts/upload/2017/01/31/Audio_1_09-03f81074.mp3?context=tuesday-reviewsday&amp;via=podcast" length="23140883" type="audio/mpeg"/>
+      <itunes:duration>578</itunes:duration>
+    </item>
+    <item>
+      <title>Latin American music from Café Tacuba, Diana Fuentes, David Bisbal and more</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>This week we've got new music from Latin America from our new music experts. The legendary Café Tacuba is back and Diana Fuentes has some new sounds too.</itunes:summary>
+      <description>This week we've got new music from Latin America from our new music experts. The legendary Café Tacuba is back and Diana Fuentes has some new sounds too.</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/tuesday-reviewsday/2017/01/10/15071/</guid>
+      <pubDate>Tue, 10 Jan 2017 17:32:00 GMT</pubDate>
+      <itunes:keywords>Los Angeles, California, Southern California, music, Oliver Wang, Morgan Rhodes, Nic Harcourt</itunes:keywords>
+      <link>https://www.scpr.org/programs/tuesday-reviewsday/2017/01/10/15071/</link>
+      <enclosure url="https://media.scpr.org/podcasts/upload/2017/01/10/TRMp3-949d7ae5.mp3?context=tuesday-reviewsday&amp;via=podcast" length="12759936" type="audio/mpeg"/>
+      <itunes:duration>455</itunes:duration>
+    </item>
+    <item>
+      <title>Hawaiian music from Calcutta</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>As it turns out, Hawaiian music has a storied history in India.</itunes:summary>
+      <description>As it turns out, Hawaiian music has a storied history in India.</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/tuesday-reviewsday/2017/01/03/15029/</guid>
+      <pubDate>Tue, 03 Jan 2017 09:00:00 GMT</pubDate>
+      <itunes:keywords>Los Angeles, California, Southern California, music, Oliver Wang, Morgan Rhodes, Nic Harcourt</itunes:keywords>
+      <link>https://www.scpr.org/programs/tuesday-reviewsday/2017/01/03/15029/</link>
+      <enclosure url="https://media.scpr.org/podcasts/upload/2017/01/02/TR_45801_TAKETWO-43db77a1.mp3?context=tuesday-reviewsday&amp;via=podcast" length="13712091" type="audio/mpeg"/>
+      <itunes:duration>489</itunes:duration>
+    </item>
+    <item>
+      <title>The best music of 2016</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>We've got a breakdown of the best neo-soul, R&amp;B and hip hop that 2016 had to offer.</itunes:summary>
+      <description>We've got a breakdown of the best neo-soul, R&amp;B and hip hop that 2016 had to offer.</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/tuesday-reviewsday/2016/12/27/14991/</guid>
+      <pubDate>Tue, 27 Dec 2016 18:34:00 GMT</pubDate>
+      <itunes:keywords>Los Angeles, California, Southern California, music, Oliver Wang, Morgan Rhodes, Nic Harcourt</itunes:keywords>
+      <link>https://www.scpr.org/programs/tuesday-reviewsday/2016/12/27/14991/</link>
+      <enclosure url="https://media.scpr.org/podcasts/upload/2016/12/27/TRmp3-4a8ee4e7.mp3?context=tuesday-reviewsday&amp;via=podcast" length="23204832" type="audio/mpeg"/>
+      <itunes:duration>828</itunes:duration>
+    </item>
+    <item>
+      <title>The best Christmas music from Latin America</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>How many ways can you sing Feliz Navidad? Take a listen to find out.</itunes:summary>
+      <description>How many ways can you sing Feliz Navidad? Take a listen to find out.</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/tuesday-reviewsday/2016/12/20/14896/</guid>
+      <pubDate>Tue, 20 Dec 2016 15:25:00 GMT</pubDate>
+      <itunes:keywords>Los Angeles, California, Southern California, music, Oliver Wang, Morgan Rhodes, Nic Harcourt</itunes:keywords>
+      <link>https://www.scpr.org/programs/tuesday-reviewsday/2016/12/20/14896/</link>
+      <enclosure url="https://media.scpr.org/podcasts/upload/2016/12/20/TRMp3-570c58a4.mp3?context=tuesday-reviewsday&amp;via=podcast" length="27214080" type="audio/mpeg"/>
+      <itunes:duration>680</itunes:duration>
+    </item>
+    <item>
+      <title>Childish Gambino, Thievery Corporation, Nouvelle Vague, Gabriel Garzon Montano and Zilla Mayes</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>Childish Gambino (Donald Glover) was already having the best year ever, but his new album takes 2016 to the next level for the artist.</itunes:summary>
+      <description>Childish Gambino (Donald Glover) was already having the best year ever, but his new album takes 2016 to the next level for the artist.</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/tuesday-reviewsday/2016/12/13/14844/</guid>
+      <pubDate>Tue, 13 Dec 2016 17:58:00 GMT</pubDate>
+      <itunes:keywords>Los Angeles, California, Southern California, music, Oliver Wang, Morgan Rhodes, Nic Harcourt</itunes:keywords>
+      <link>https://www.scpr.org/programs/tuesday-reviewsday/2016/12/13/14844/</link>
+      <enclosure url="https://media.scpr.org/podcasts/upload/2016/12/13/TRmp3-057eff5a.mp3?context=tuesday-reviewsday&amp;via=podcast" length="21715008" type="audio/mpeg"/>
+      <itunes:duration>775</itunes:duration>
+    </item>
+    <item>
+      <title>Kate Bush, Emiliana Torrini and Alkibar Junior</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>After years, Kate Bush is back with a new live album. </itunes:summary>
+      <description>After years, Kate Bush is back with a new live album. </description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/tuesday-reviewsday/2016/12/07/14800/</guid>
+      <pubDate>Wed, 07 Dec 2016 16:20:00 GMT</pubDate>
+      <itunes:keywords>Los Angeles, California, Southern California, music, Oliver Wang, Morgan Rhodes, Nic Harcourt</itunes:keywords>
+      <link>https://www.scpr.org/programs/tuesday-reviewsday/2016/12/07/14800/</link>
+      <enclosure url="https://media.scpr.org/podcasts/upload/2016/12/07/TRmp3-3f410484.mp3?context=tuesday-reviewsday&amp;via=podcast" length="8155219" type="audio/mpeg"/>
+      <itunes:duration>509</itunes:duration>
+    </item>
+    <item>
+      <title>Music from Latin America: Celia Cruz, Jacob Forever, Regulo Caro and Torreblanca</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>We take a listen to old and new Cuban music, and talk about how things might change now that Fidel Castro is gone.</itunes:summary>
+      <description>We take a listen to old and new Cuban music, and talk about how things might change now that Fidel Castro is gone.</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/tuesday-reviewsday/2016/11/29/14752/</guid>
+      <pubDate>Tue, 29 Nov 2016 17:04:00 GMT</pubDate>
+      <itunes:keywords>Los Angeles, California, Southern California, music, Oliver Wang, Morgan Rhodes, Nic Harcourt</itunes:keywords>
+      <link>https://www.scpr.org/programs/tuesday-reviewsday/2016/11/29/14752/</link>
+      <enclosure url="https://media.scpr.org/podcasts/upload/2016/11/29/TRmp3-fe1a6124.mp3?context=tuesday-reviewsday&amp;via=podcast" length="10293080" type="audio/mpeg"/>
+      <itunes:duration>643</itunes:duration>
+    </item>
+    <item>
+      <title>A Tribe Called Quest, Lee Fields and Low Leaf</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>A Tribe Called Quest is back with their final album and it's everything that you'd want it to be and more.</itunes:summary>
+      <description>A Tribe Called Quest is back with their final album and it's everything that you'd want it to be and more.</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/tuesday-reviewsday/2016/11/22/14663/</guid>
+      <pubDate>Tue, 22 Nov 2016 22:42:00 GMT</pubDate>
+      <itunes:keywords>Los Angeles, California, Southern California, music, Oliver Wang, Morgan Rhodes, Nic Harcourt</itunes:keywords>
+      <link>https://www.scpr.org/programs/tuesday-reviewsday/2016/11/22/14663/</link>
+      <enclosure url="https://media.scpr.org/podcasts/upload/2016/11/22/TribeMp3-006827ce.mp3?context=tuesday-reviewsday&amp;via=podcast" length="7546880" type="audio/mpeg"/>
+      <itunes:duration>539</itunes:duration>
+    </item>
+    <item>
+      <title>Mike Watt, Leah Paul and Jefferson Street Parade Band</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>We’ve been through a lot of emotions this past week. With that in mind, today we have music to reflect some of that.</itunes:summary>
+      <description>We’ve been through a lot of emotions this past week. With that in mind, today we have music to reflect some of that.</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/tuesday-reviewsday/2016/11/15/14609/</guid>
+      <pubDate>Tue, 15 Nov 2016 09:00:00 GMT</pubDate>
+      <itunes:keywords>Los Angeles, California, Southern California, music, Oliver Wang, Morgan Rhodes, Nic Harcourt</itunes:keywords>
+      <link>https://www.scpr.org/programs/tuesday-reviewsday/2016/11/15/14609/</link>
+      <enclosure url="https://media.scpr.org/podcasts/upload/2016/11/14/TRmP3-2179dcd8.mp3?context=tuesday-reviewsday&amp;via=podcast" length="23992320" type="audio/mpeg"/>
+      <itunes:duration>599</itunes:duration>
+    </item>
+    <item>
+      <title>Drake beefs with Kid Kudi, Ari Lennox slays and more</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>Is this Drake’s new mid-life crisis now that he’s turning 30?</itunes:summary>
+      <description>Is this Drake’s new mid-life crisis now that he’s turning 30?</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/tuesday-reviewsday/2016/11/01/14570/</guid>
+      <pubDate>Tue, 01 Nov 2016 16:50:00 GMT</pubDate>
+      <itunes:keywords>Los Angeles, California, Southern California, music, Oliver Wang, Morgan Rhodes, Nic Harcourt</itunes:keywords>
+      <link>https://www.scpr.org/programs/tuesday-reviewsday/2016/11/01/14570/</link>
+      <enclosure url="https://media.scpr.org/podcasts/upload/2016/11/01/TRmp3-56d79b27.mp3?context=tuesday-reviewsday&amp;via=podcast" length="18911808" type="audio/mpeg"/>
+      <itunes:duration>787</itunes:duration>
+    </item>
+    <item>
+      <title>Shirley Collins,  Afro-Rock and West African tunes</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>On our weekly new music segment we've got a power group from West Africa, legendary British singer Shirley Collins and some Afro-Rock from New York.</itunes:summary>
+      <description>On our weekly new music segment we've got a power group from West Africa, legendary British singer Shirley Collins and some Afro-Rock from New York.</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/tuesday-reviewsday/2016/10/25/14524/</guid>
+      <pubDate>Tue, 25 Oct 2016 13:39:00 GMT</pubDate>
+      <itunes:keywords>Los Angeles, California, Southern California, music, Oliver Wang, Morgan Rhodes, Nic Harcourt</itunes:keywords>
+      <link>https://www.scpr.org/programs/tuesday-reviewsday/2016/10/25/14524/</link>
+      <enclosure url="https://media.scpr.org/podcasts/upload/2016/10/25/TRMp3-4d7a535f.mp3?context=tuesday-reviewsday&amp;via=podcast" length="16462263" type="audio/mpeg"/>
+      <itunes:duration>587</itunes:duration>
+    </item>
+    <item>
+      <title>Jenni Rivera, Franco de Vita, Helado Negro and more</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>While Jenni Rivera passed away years ago, her estate is still releasing previously unheard work, of which Justino Aguila has brought in to the studio.</itunes:summary>
+      <description>While Jenni Rivera passed away years ago, her estate is still releasing previously unheard work, of which Justino Aguila has brought in to the studio.</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/tuesday-reviewsday/2016/10/17/14480/</guid>
+      <pubDate>Mon, 17 Oct 2016 21:11:00 GMT</pubDate>
+      <itunes:keywords>Los Angeles, California, Southern California, music, Oliver Wang, Morgan Rhodes, Nic Harcourt</itunes:keywords>
+      <link>https://www.scpr.org/programs/tuesday-reviewsday/2016/10/17/14480/</link>
+      <enclosure url="https://media.scpr.org/podcasts/upload/2016/10/17/TRMp3-1cec4494.mp3?context=tuesday-reviewsday&amp;via=podcast" length="20052009" type="audio/mpeg"/>
+      <itunes:duration>626</itunes:duration>
+    </item>
+    <item>
+      <title>Solange, Moses Sumney, The Impressions and more</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>"I think that it's a good commentary on people that are interested in how black hair feels, but not as interested in how black people feel." Morgan Rhodes on the new work from Solange.</itunes:summary>
+      <description>"I think that it's a good commentary on people that are interested in how black hair feels, but not as interested in how black people feel." Morgan Rhodes on the new work from Solange.</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/tuesday-reviewsday/2016/10/11/14454/</guid>
+      <pubDate>Tue, 11 Oct 2016 17:39:00 GMT</pubDate>
+      <itunes:keywords>Los Angeles, California, Southern California, music, Oliver Wang, Morgan Rhodes, Nic Harcourt</itunes:keywords>
+      <link>https://www.scpr.org/programs/tuesday-reviewsday/2016/10/11/14454/</link>
+      <enclosure url="https://media.scpr.org/podcasts/upload/2016/10/11/TRMp3-2cee3703.mp3?context=tuesday-reviewsday&amp;via=podcast" length="15212669" type="audio/mpeg"/>
+      <itunes:duration>633</itunes:duration>
+    </item>
+    <item>
+      <title>Shovels &amp; Ropes, Insects vs Robots and Wadada Leo Smith</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>Willie Nelson's son Jacob Micah heads up the band Insects vs Robots, which sounds nothing like anything his father has done.</itunes:summary>
+      <description>Willie Nelson's son Jacob Micah heads up the band Insects vs Robots, which sounds nothing like anything his father has done.</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/tuesday-reviewsday/2016/10/04/14416/</guid>
+      <pubDate>Tue, 04 Oct 2016 15:42:00 GMT</pubDate>
+      <itunes:keywords>Los Angeles, California, Southern California, music, Oliver Wang, Morgan Rhodes, Nic Harcourt</itunes:keywords>
+      <link>https://www.scpr.org/programs/tuesday-reviewsday/2016/10/04/14416/</link>
+      <enclosure url="https://media.scpr.org/podcasts/upload/2016/10/04/TRMp3-e1069475.mp3?context=tuesday-reviewsday&amp;via=podcast" length="23417208" type="audio/mpeg"/>
+      <itunes:duration>585</itunes:duration>
+    </item>
+    <item>
+      <title>The Beatles, Macy Gray, The Greer Brothers and more</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>The Beatles' iconic 1965 concert at the Hollywood Bowl has been remastered so that listeners can hear the band over their screaming fans.</itunes:summary>
+      <description>The Beatles' iconic 1965 concert at the Hollywood Bowl has been remastered so that listeners can hear the band over their screaming fans.</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/tuesday-reviewsday/2016/09/20/14332/</guid>
+      <pubDate>Tue, 20 Sep 2016 14:40:00 GMT</pubDate>
+      <itunes:keywords>Los Angeles, California, Southern California, music, Oliver Wang, Morgan Rhodes, Nic Harcourt</itunes:keywords>
+      <link>https://www.scpr.org/programs/tuesday-reviewsday/2016/09/20/14332/</link>
+      <enclosure url="https://media.scpr.org/podcasts/upload/2016/09/20/TRmp3-e51a8943.mp3?context=tuesday-reviewsday&amp;via=podcast" length="30732538" type="audio/mpeg"/>
+      <itunes:duration>768</itunes:duration>
+    </item>
+    <item>
+      <title>A Tribe Called Red, Slavic Soul Party! and Metá Metá</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>A Brazilian band with metal roots, a first-nation Canadian electronica group, and a band from NYC with a Slavic sound.
+</itunes:summary>
+      <description>A Brazilian band with metal roots, a first-nation Canadian electronica group, and a band from NYC with a Slavic sound.
+</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/tuesday-reviewsday/2016/09/13/14295/</guid>
+      <pubDate>Tue, 13 Sep 2016 20:36:00 GMT</pubDate>
+      <itunes:keywords>Los Angeles, California, Southern California, music, Oliver Wang, Morgan Rhodes, Nic Harcourt</itunes:keywords>
+      <link>https://www.scpr.org/programs/tuesday-reviewsday/2016/09/13/14295/</link>
+      <enclosure url="https://media.scpr.org/podcasts/upload/2016/09/13/TRMp3-f9457f5c.mp3?context=tuesday-reviewsday&amp;via=podcast" length="15363343" type="audio/mpeg"/>
+      <itunes:duration>480</itunes:duration>
+    </item>
+    <item>
+      <title>New music Tuesday: Angie Stone, Flamingosis and music from The Suicide Squad</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>Oliver Wang and Morgan Rhodes give their weekly picks. </itunes:summary>
+      <description>Oliver Wang and Morgan Rhodes give their weekly picks. </description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/tuesday-reviewsday/2016/08/09/14029/</guid>
+      <pubDate>Tue, 09 Aug 2016 20:13:00 GMT</pubDate>
+      <itunes:keywords>Los Angeles, California, Southern California, music, Oliver Wang, Morgan Rhodes, Nic Harcourt</itunes:keywords>
+      <link>https://www.scpr.org/programs/tuesday-reviewsday/2016/08/09/14029/</link>
+      <enclosure url="https://media.scpr.org/podcasts/upload/2016/08/09/Audio_1_03-994ea54e.mp3?context=tuesday-reviewsday&amp;via=podcast" length="34618079" type="audio/mpeg"/>
+      <itunes:duration>865</itunes:duration>
+    </item>
+    <item>
+      <title>Ricardo Arjona, Reik, La Tribu de Abrante and Borchardt</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>This week we dive into the work of artists from across Latin America.</itunes:summary>
+      <description>This week we dive into the work of artists from across Latin America.</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/tuesday-reviewsday/2016/07/26/13921/</guid>
+      <pubDate>Tue, 26 Jul 2016 20:25:00 GMT</pubDate>
+      <itunes:keywords>Los Angeles, California, Southern California, music, Oliver Wang, Morgan Rhodes, Nic Harcourt</itunes:keywords>
+      <link>https://www.scpr.org/programs/tuesday-reviewsday/2016/07/26/13921/</link>
+      <enclosure url="https://media.scpr.org/podcasts/upload/2016/07/26/TRMp3-0382dc97.mp3?context=tuesday-reviewsday&amp;via=podcast" length="21036721" type="audio/mpeg"/>
+      <itunes:duration>657</itunes:duration>
+    </item>
+    <item>
+      <title>Soapkills, the Helsinki-Cotonou Ensemble and The Breath</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>Today we've got the most public radio-ey thing ever: a Finnish guitarist who traveled to West Africa for a collaboration with a local singer-percussionist.</itunes:summary>
+      <description>Today we've got the most public radio-ey thing ever: a Finnish guitarist who traveled to West Africa for a collaboration with a local singer-percussionist.</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/tuesday-reviewsday/2016/07/12/13814/</guid>
+      <pubDate>Tue, 12 Jul 2016 22:10:00 GMT</pubDate>
+      <itunes:keywords>Los Angeles, California, Southern California, music, Oliver Wang, Morgan Rhodes, Nic Harcourt</itunes:keywords>
+      <link>https://www.scpr.org/programs/tuesday-reviewsday/2016/07/12/13814/</link>
+      <enclosure url="https://media.scpr.org/podcasts/upload/2016/07/12/Trmp3-373e3af4.mp3?context=tuesday-reviewsday&amp;via=podcast" length="11031360" type="audio/mpeg"/>
+      <itunes:duration>551</itunes:duration>
+    </item>
+    <item>
+      <title>Shakira, Pepe Aguilar, Alkilados and more</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>We're traveling throughout Latin America with new songs from Shakira, Banda el Recodo and more.</itunes:summary>
+      <description>We're traveling throughout Latin America with new songs from Shakira, Banda el Recodo and more.</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/tuesday-reviewsday/2016/07/05/13730/</guid>
+      <pubDate>Tue, 05 Jul 2016 17:10:00 GMT</pubDate>
+      <itunes:keywords>Los Angeles, California, Southern California, music, Oliver Wang, Morgan Rhodes, Nic Harcourt</itunes:keywords>
+      <link>https://www.scpr.org/programs/tuesday-reviewsday/2016/07/05/13730/</link>
+      <enclosure url="https://media.scpr.org/podcasts/upload/2016/07/05/TRmp3_1-fb502231.mp3?context=tuesday-reviewsday&amp;via=podcast" length="21295856" type="audio/mpeg"/>
+      <itunes:duration>665</itunes:duration>
+    </item>
+    <item>
+      <title> Laura Mvula, DJ Shadow and Incognito</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>Every week we get the freshest music for whatever listening device you may use. On tap this week, new picks from Oliver Wang and Morgan Rhodes. 
+ </itunes:summary>
+      <description>Every week we get the freshest music for whatever listening device you may use. On tap this week, new picks from Oliver Wang and Morgan Rhodes. 
+ </description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/tuesday-reviewsday/2016/06/28/13671/</guid>
+      <pubDate>Tue, 28 Jun 2016 17:04:00 GMT</pubDate>
+      <itunes:keywords>Los Angeles, California, Southern California, music, Oliver Wang, Morgan Rhodes, Nic Harcourt</itunes:keywords>
+      <link>https://www.scpr.org/programs/tuesday-reviewsday/2016/06/28/13671/</link>
+      <enclosure url="https://media.scpr.org/podcasts/upload/2016/06/28/trd_45405_TAKETWO-97ac383b.mp3?context=tuesday-reviewsday&amp;via=podcast" length="10038164" type="audio/mpeg"/>
+      <itunes:duration>836</itunes:duration>
+    </item>
+    <item>
+      <title>Charlie Parker, Ruby Friedman Orchestra and The Low Anthem</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>As record companies have mined the vaults to release everything "legacy" artists ever recorded, the results have been unsatisfying, but this Charlie Parker album is different.</itunes:summary>
+      <description>As record companies have mined the vaults to release everything "legacy" artists ever recorded, the results have been unsatisfying, but this Charlie Parker album is different.</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/tuesday-reviewsday/2016/06/21/13627/</guid>
+      <pubDate>Tue, 21 Jun 2016 08:00:00 GMT</pubDate>
+      <itunes:keywords>Los Angeles, California, Southern California, music, Oliver Wang, Morgan Rhodes, Nic Harcourt</itunes:keywords>
+      <link>https://www.scpr.org/programs/tuesday-reviewsday/2016/06/21/13627/</link>
+      <enclosure url="https://media.scpr.org/podcasts/upload/2016/06/20/TR_45821_TAKETWO-c5b477a6.mp3?context=tuesday-reviewsday&amp;via=podcast" length="4208640" type="audio/mpeg"/>
+      <itunes:duration>526</itunes:duration>
+    </item>
+    <item>
+      <title>Kany Garcia, Gloria Trevi, Joss Favela and Mariachi Divas de Cindy Shea</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>Regional Mexican music, sweet Latin American inspired tunes and the infamous Gloria Trevi.</itunes:summary>
+      <description>Regional Mexican music, sweet Latin American inspired tunes and the infamous Gloria Trevi.</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/tuesday-reviewsday/2016/06/14/13563/</guid>
+      <pubDate>Tue, 14 Jun 2016 08:00:00 GMT</pubDate>
+      <itunes:keywords>Los Angeles, California, Southern California, music, Oliver Wang, Morgan Rhodes, Nic Harcourt</itunes:keywords>
+      <link>https://www.scpr.org/programs/tuesday-reviewsday/2016/06/14/13563/</link>
+      <enclosure url="https://media.scpr.org/podcasts/upload/2016/06/13/TR_45801_TAKETWO-a2fcacfe.mp3?context=tuesday-reviewsday&amp;via=podcast" length="5242880" type="audio/mpeg"/>
+      <itunes:duration>655</itunes:duration>
+    </item>
+    <item>
+      <title>Allen Toussaint, Xenia Rubinos and Fantastic Negrito</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>We have breakthrough albums from two young artists, both reshaping urban sounds with some sharp social criticism, plus the final album from one of the towering figures of modern American music.</itunes:summary>
+      <description>We have breakthrough albums from two young artists, both reshaping urban sounds with some sharp social criticism, plus the final album from one of the towering figures of modern American music.</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/tuesday-reviewsday/2016/05/31/13444/</guid>
+      <pubDate>Tue, 31 May 2016 13:21:00 GMT</pubDate>
+      <itunes:keywords>Los Angeles, California, Southern California, music, Oliver Wang, Morgan Rhodes, Nic Harcourt</itunes:keywords>
+      <link>https://www.scpr.org/programs/tuesday-reviewsday/2016/05/31/13444/</link>
+      <enclosure url="https://media.scpr.org/podcasts/upload/2016/05/31/TR_45801_TAKETWO-f37c61e4.mp3?context=tuesday-reviewsday&amp;via=podcast" length="4079281" type="audio/mpeg"/>
+      <itunes:duration>509</itunes:duration>
+    </item>
+    <item>
+      <title>Madame Récamier and Arthur Hanlon</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>A poppy Mexico City transplant who's on par with the likes of Natalia Lafourcade and an American pianist who's translating Latin American classics.</itunes:summary>
+      <description>A poppy Mexico City transplant who's on par with the likes of Natalia Lafourcade and an American pianist who's translating Latin American classics.</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/tuesday-reviewsday/2016/05/24/13392/</guid>
+      <pubDate>Tue, 24 May 2016 15:15:00 GMT</pubDate>
+      <itunes:keywords>Los Angeles, California, Southern California, music, Oliver Wang, Morgan Rhodes, Nic Harcourt</itunes:keywords>
+      <link>https://www.scpr.org/programs/tuesday-reviewsday/2016/05/24/13392/</link>
+      <enclosure url="https://media.scpr.org/podcasts/upload/2016/05/24/TR_45801_TAKETWO-8be59c8a.mp3?context=tuesday-reviewsday&amp;via=podcast" length="3211389" type="audio/mpeg"/>
+      <itunes:duration>401</itunes:duration>
+    </item>
+    <item>
+      <title>Corinne Bailey Rae, Chance the Rapper and more</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>We've got new music from De La Sol, The Jack Moves and Kandace Springs.</itunes:summary>
+      <description>We've got new music from De La Sol, The Jack Moves and Kandace Springs.</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/tuesday-reviewsday/2016/05/17/13359/</guid>
+      <pubDate>Tue, 17 May 2016 21:24:00 GMT</pubDate>
+      <itunes:keywords>Los Angeles, California, Southern California, music, Oliver Wang, Morgan Rhodes, Nic Harcourt</itunes:keywords>
+      <link>https://www.scpr.org/programs/tuesday-reviewsday/2016/05/17/13359/</link>
+      <enclosure url="https://media.scpr.org/podcasts/upload/2016/05/17/TR-1e82402f.mp3?context=tuesday-reviewsday&amp;via=podcast" length="4033664" type="audio/mpeg"/>
+      <itunes:duration>722</itunes:duration>
+    </item>
+    <item>
+      <title>Adia Victoria, Jack DeJohnette and Leyla McCalla</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>Jazz legend Jack DeJohnette is back, side by side, with son of fellow legend John Coltrane.</itunes:summary>
+      <description>Jazz legend Jack DeJohnette is back, side by side, with son of fellow legend John Coltrane.</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/tuesday-reviewsday/2016/05/11/13321/</guid>
+      <pubDate>Wed, 11 May 2016 15:38:00 GMT</pubDate>
+      <itunes:keywords>Los Angeles, California, Southern California, music, Oliver Wang, Morgan Rhodes, Nic Harcourt</itunes:keywords>
+      <link>https://www.scpr.org/programs/tuesday-reviewsday/2016/05/11/13321/</link>
+      <enclosure url="https://media.scpr.org/podcasts/upload/2016/05/11/TR_45801_TAKETWO-6313e216.mp3?context=tuesday-reviewsday&amp;via=podcast" length="4357642" type="audio/mpeg"/>
+      <itunes:duration>544</itunes:duration>
+    </item>
+    <item>
+      <title>Latin music from Gente de Zona and Alex Anwandter</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>Latin American bangers are on tap this week with new music from Gente de Zona and Alex Anwandter, as talked about by Justino Aguila from Billboard Magazine.</itunes:summary>
+      <description>Latin American bangers are on tap this week with new music from Gente de Zona and Alex Anwandter, as talked about by Justino Aguila from Billboard Magazine.</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/tuesday-reviewsday/2016/05/03/13266/</guid>
+      <pubDate>Tue, 03 May 2016 21:31:00 GMT</pubDate>
+      <itunes:keywords>Los Angeles, California, Southern California, music, Oliver Wang, Morgan Rhodes, Nic Harcourt</itunes:keywords>
+      <link>https://www.scpr.org/programs/tuesday-reviewsday/2016/05/03/13266/</link>
+      <enclosure url="https://media.scpr.org/podcasts/upload/2016/05/03/TR_45801_TAKETWO-e339d402.mp3?context=tuesday-reviewsday&amp;via=podcast" length="8257979" type="audio/mpeg"/>
+      <itunes:duration>516</itunes:duration>
+    </item>
+    <item>
+      <title>How Prince's sound changed from 1979 to 2016</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>We take a deep dive on Prince's career, from 1979 to 2016, to get an idea of how The Purple One's sound changed over the years.</itunes:summary>
+      <description>We take a deep dive on Prince's career, from 1979 to 2016, to get an idea of how The Purple One's sound changed over the years.</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/tuesday-reviewsday/2016/04/26/13179/</guid>
+      <pubDate>Tue, 26 Apr 2016 17:30:00 GMT</pubDate>
+      <itunes:keywords>Los Angeles, California, Southern California, music, Oliver Wang, Morgan Rhodes, Nic Harcourt</itunes:keywords>
+      <link>https://www.scpr.org/programs/tuesday-reviewsday/2016/04/26/13179/</link>
+      <enclosure url="https://media.scpr.org/podcasts/upload/2016/04/26/princepodcastfinal-a7fbc498.mp3?context=tuesday-reviewsday&amp;via=podcast" length="20445638" type="audio/mpeg"/>
+      <itunes:duration>1277</itunes:duration>
+    </item>
+  </channel>
+</rss>

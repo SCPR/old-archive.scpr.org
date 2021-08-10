@@ -1,0 +1,504 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+  <channel>
+    <title>KPCC News</title>
+    <link>http://www.kpcc.org</link>
+    <atom:link href="http://www.kpcc.org" rel="alternate"/>
+    <atom:link href="https://www.scpr.org/podcasts/news" rel="self" type="application/rss+xml"/>
+    <language>en-us</language>
+    <description>The latest news stories from 89.3 KPCC, Southern California Public Radio.</description>
+    <image>
+      <url>https://media.scpr.org/assets/images/podcasts/kpcc-podcast-cover-news.jpg</url>
+      <title>KPCC News</title>
+      <link>http://www.kpcc.org</link>
+    </image>
+    <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+    <itunes:summary>The latest news stories from 89.3 KPCC, Southern California Public Radio.</itunes:summary>
+    <itunes:category text="News &amp; Politics"/>
+    <itunes:owner>
+      <itunes:name>KPCC 89.3 | Southern California Public Radio</itunes:name>
+      <itunes:email>contact@kpcc.org</itunes:email>
+    </itunes:owner>
+    <itunes:image href="https://media.scpr.org/assets/images/podcasts/kpcc-podcast-cover-news.jpg"/>
+    <itunes:explicit>no</itunes:explicit>
+    <item>
+      <title>The Expanded Child Tax Credit Is Here. Here's What You Need To Know</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>The first monthly payments under the expanded child tax credit were disbursed on Thursday. The White House says relief is on the way to the families of nearly 60 million children.</itunes:summary>
+      <description>The first monthly payments under the expanded child tax credit were disbursed on Thursday. The White House says relief is on the way to the families of nearly 60 million children.</description>
+      <guid isPermaLink="true">https://www.scpr.org/news/2021/07/15/98475/the-expanded-child-tax-credit-is-here-here-s-what/</guid>
+      <pubDate>Thu, 15 Jul 2021 16:20:06 GMT</pubDate>
+      <itunes:keywords>news, kpcc, scpr</itunes:keywords>
+      <link>https://www.scpr.org/news/2021/07/15/98475/the-expanded-child-tax-credit-is-here-here-s-what/</link>
+      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/me/2021/07/20210715_me_the_first_monthly_payments_under_the_expanded_child_tax_credit_are_being_sent.mp3?orgId=1&amp;topicId=1006&amp;d=229&amp;story=1016122095&amp;ft=nprml&amp;f=1001%2C1007%2C93568166%2C102920358%2C103537970%2C173754155%2C311911180&amp;context=news" length="3675996" type="audio/mpeg"/>
+      <itunes:duration>229</itunes:duration>
+    </item>
+    <item>
+      <title>Evacuation Of Afghan Interpreters And Others Who Aided U.S. To Begin In Late July</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>The Biden administration faced mounting pressure to relocate about 18,000 Afghans who helped with U.S. military operations, along with their families. Many fear a resurgent Taliban will seek revenge. </itunes:summary>
+      <description>The Biden administration faced mounting pressure to relocate about 18,000 Afghans who helped with U.S. military operations, along with their families. Many fear a resurgent Taliban will seek revenge. </description>
+      <guid isPermaLink="true">https://www.scpr.org/news/2021/07/14/98466/evacuation-of-afghan-interpreters-and-others-who-a/</guid>
+      <pubDate>Thu, 15 Jul 2021 00:20:06 GMT</pubDate>
+      <itunes:keywords>news, kpcc, scpr</itunes:keywords>
+      <link>https://www.scpr.org/news/2021/07/14/98466/evacuation-of-afghan-interpreters-and-others-who-a/</link>
+      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/atc/2021/07/20210714_atc_evacuation_of_afghan_interpreters_and_others_who_aided_us_to_begin_in_late_july.mp3?orgId=1&amp;topicId=1122&amp;d=194&amp;p=2&amp;story=1016080353&amp;ft=nprml&amp;f=1001%2C1007%2C93568166%2C102920358%2C103537970%2C173754155%2C311911180&amp;context=news" length="3108407" type="audio/mpeg"/>
+      <itunes:duration>194</itunes:duration>
+    </item>
+    <item>
+      <title>Inflation Is Still High. Used Car Prices Could Help Explain What Happens Next</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>A surge in prices of used cars was a major driver of inflation earlier this year, but there are signs those price hikes may be shifting into reverse.</itunes:summary>
+      <description>A surge in prices of used cars was a major driver of inflation earlier this year, but there are signs those price hikes may be shifting into reverse.</description>
+      <guid isPermaLink="true">https://www.scpr.org/news/2021/07/13/98451/inflation-is-still-high-used-car-prices-could-help/</guid>
+      <pubDate>Tue, 13 Jul 2021 11:20:23 GMT</pubDate>
+      <itunes:keywords>news, kpcc, scpr</itunes:keywords>
+      <link>https://www.scpr.org/news/2021/07/13/98451/inflation-is-still-high-used-car-prices-could-help/</link>
+      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/me/2021/07/20210713_me_inflation_is_still_high_used_car_prices_could_help_explain_what_happens_next.mp3?orgId=1&amp;topicId=1017&amp;aggIds=812054919&amp;d=229&amp;p=3&amp;story=1014697915&amp;ft=nprml&amp;f=1001%2C1007%2C93568166%2C102920358%2C103537970%2C173754155%2C311911180&amp;context=news" length="3672234" type="audio/mpeg"/>
+      <itunes:duration>229</itunes:duration>
+    </item>
+    <item>
+      <title>With Record 2020 Turnout, Youth Activists Turn Their Energy To 2021 Redistricting </title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>In Georgia, students are showing up to public redistricting meetings and voicing their concerns about how politicians and map makers draw political lines in the future.</itunes:summary>
+      <description>In Georgia, students are showing up to public redistricting meetings and voicing their concerns about how politicians and map makers draw political lines in the future.</description>
+      <guid isPermaLink="true">https://www.scpr.org/news/2021/07/13/98450/with-record-2020-turnout-youth-activists-turn-thei/</guid>
+      <pubDate>Tue, 13 Jul 2021 11:20:13 GMT</pubDate>
+      <itunes:keywords>news, kpcc, scpr</itunes:keywords>
+      <link>https://www.scpr.org/news/2021/07/13/98450/with-record-2020-turnout-youth-activists-turn-thei/</link>
+      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/me/2021/07/20210713_me_with_record_2020_turnout_youth_activists_turn_energy_to_2021_redistricting_.mp3?orgId=448&amp;topicId=1003&amp;d=215&amp;p=3&amp;story=1015082704&amp;ft=nprml&amp;f=1001%2C1007%2C93568166%2C102920358%2C103537970%2C173754155%2C311911180&amp;context=news" length="3454895" type="audio/mpeg"/>
+      <itunes:duration>215</itunes:duration>
+    </item>
+    <item>
+      <title>The Best Of Bats: Favorite Pieces From The NPR Archive</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>We are marking 50 years of NPR with a look back at stories from the archive. For this collection, we take a look at our best stories on bats.</itunes:summary>
+      <description>We are marking 50 years of NPR with a look back at stories from the archive. For this collection, we take a look at our best stories on bats.</description>
+      <guid isPermaLink="true">https://www.scpr.org/news/2021/07/12/98442/the-best-of-bats-favorite-pieces-from-the-npr-arch/</guid>
+      <pubDate>Mon, 12 Jul 2021 20:20:05 GMT</pubDate>
+      <itunes:keywords>news, kpcc, scpr</itunes:keywords>
+      <link>https://www.scpr.org/news/2021/07/12/98442/the-best-of-bats-favorite-pieces-from-the-npr-arch/</link>
+      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/02/20170221_me_the_next_pandemic_could_be_dripping_on_your_head.mp3?orgId=1&amp;topicId=1132&amp;aggIds=978593267&amp;d=436&amp;story=1014644289&amp;ft=nprml&amp;f=1001%2C1007%2C93568166%2C102920358%2C103537970%2C173754155%2C311911180&amp;context=news" length="6976410" type="audio/mpeg"/>
+      <itunes:duration>436</itunes:duration>
+    </item>
+    <item>
+      <title>A Federal Probe Into Indian Boarding School Gravesites Seeks To Bring Healing </title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>The U.S. is about to undertake a national investigation into hundreds of American Indian boarding schools that operated for more than a century and served to "kill the Indian to save the man." </itunes:summary>
+      <description>The U.S. is about to undertake a national investigation into hundreds of American Indian boarding schools that operated for more than a century and served to "kill the Indian to save the man." </description>
+      <guid isPermaLink="true">https://www.scpr.org/news/2021/07/11/98429/a-federal-probe-into-indian-boarding-school-graves/</guid>
+      <pubDate>Sun, 11 Jul 2021 13:00:06 GMT</pubDate>
+      <itunes:keywords>news, kpcc, scpr</itunes:keywords>
+      <link>https://www.scpr.org/news/2021/07/11/98429/a-federal-probe-into-indian-boarding-school-graves/</link>
+      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/atc/2021/06/20210619_atc_tribes_call_for_reparations.mp3?orgId=720&amp;topicId=1003&amp;d=238&amp;story=1013772743&amp;ft=nprml&amp;f=1001%2C1007%2C93568166%2C102920358%2C103537970%2C173754155%2C311911180&amp;context=news" length="3821445" type="audio/mpeg"/>
+      <itunes:duration>238</itunes:duration>
+    </item>
+    <item>
+      <title>Ex-Colombian Soldiers' Arrests Add To The Mystery Around The Haiti Assassination</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>More than a dozen former Colombian soldiers are detained in connection with the assassination of President Jovenel Moïse. Some officials and analysts say the Colombians are being used as scapegoats. </itunes:summary>
+      <description>More than a dozen former Colombian soldiers are detained in connection with the assassination of President Jovenel Moïse. Some officials and analysts say the Colombians are being used as scapegoats. </description>
+      <guid isPermaLink="true">https://www.scpr.org/news/2021/07/10/98424/ex-colombian-soldiers-arrests-add-to-the-mystery-a/</guid>
+      <pubDate>Sat, 10 Jul 2021 19:00:08 GMT</pubDate>
+      <itunes:keywords>news, kpcc, scpr</itunes:keywords>
+      <link>https://www.scpr.org/news/2021/07/10/98424/ex-colombian-soldiers-arrests-add-to-the-mystery-a/</link>
+      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/atc/2021/07/20210709_atc_6_suspects_in_killing_of_haitis_president_are_confirmed_as_colombian_nationals.mp3?orgId=1&amp;topicId=1127&amp;d=194&amp;story=1014947924&amp;ft=nprml&amp;f=1001%2C1007%2C93568166%2C102920358%2C103537970%2C173754155%2C311911180&amp;context=news" length="3109243" type="audio/mpeg"/>
+      <itunes:duration>194</itunes:duration>
+    </item>
+    <item>
+      <title>How New Biden Rules Could Make It Easier To Buy Hearing Aids Or Fix Your Phone</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>In a new executive order, President Biden aims to kickstart competition for consumers, workers and farmers in ways both big and small, starting with a list of 72 initiatives.</itunes:summary>
+      <description>In a new executive order, President Biden aims to kickstart competition for consumers, workers and farmers in ways both big and small, starting with a list of 72 initiatives.</description>
+      <guid isPermaLink="true">https://www.scpr.org/news/2021/07/09/98414/how-new-biden-rules-could-make-it-easier-to-buy-he/</guid>
+      <pubDate>Fri, 09 Jul 2021 13:20:11 GMT</pubDate>
+      <itunes:keywords>news, kpcc, scpr</itunes:keywords>
+      <link>https://www.scpr.org/news/2021/07/09/98414/how-new-biden-rules-could-make-it-easier-to-buy-he/</link>
+      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/me/2021/07/20210709_me_biden_competition_eo.mp3?orgId=1&amp;topicId=1014&amp;d=209&amp;p=3&amp;story=1014415021&amp;ft=nprml&amp;f=1001%2C1007%2C93568166%2C102920358%2C103537970%2C173754155%2C311911180&amp;context=news" length="3347898" type="audio/mpeg"/>
+      <itunes:duration>209</itunes:duration>
+    </item>
+    <item>
+      <title>Fauci Says Current Vaccines Will Stand Up To The Delta Variant</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>All the data so far shows the vaccines are highly effective at preventing serious disease or hospitalization, Dr. Anthony Fauci said. Vaccination is also imperative to preventing mutations, he added.</itunes:summary>
+      <description>All the data so far shows the vaccines are highly effective at preventing serious disease or hospitalization, Dr. Anthony Fauci said. Vaccination is also imperative to preventing mutations, he added.</description>
+      <guid isPermaLink="true">https://www.scpr.org/news/2021/07/08/98409/fauci-says-current-vaccines-will-stand-up-to-the-d/</guid>
+      <pubDate>Thu, 08 Jul 2021 23:40:07 GMT</pubDate>
+      <itunes:keywords>news, kpcc, scpr</itunes:keywords>
+      <link>https://www.scpr.org/news/2021/07/08/98409/fauci-says-current-vaccines-will-stand-up-to-the-d/</link>
+      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/atc/2021/07/20210708_atc_enter_title.mp3?orgId=1&amp;topicId=1128&amp;aggIds=812054919&amp;d=436&amp;p=2&amp;story=1014214448&amp;ft=nprml&amp;f=1001%2C1007%2C93568166%2C102920358%2C103537970%2C173754155%2C311911180&amp;context=news" length="6977873" type="audio/mpeg"/>
+      <itunes:duration>436</itunes:duration>
+    </item>
+    <item>
+      <title>The Tokyo Olympics Will Take Place Under A State Of Emergency And Without Spectators</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>Growing alarm about the Tokyo Games resulting in a surge of coronavirus cases has pushed Prime Minister Yoshihide Suga to announce a new round of emergency measures.</itunes:summary>
+      <description>Growing alarm about the Tokyo Games resulting in a surge of coronavirus cases has pushed Prime Minister Yoshihide Suga to announce a new round of emergency measures.</description>
+      <guid isPermaLink="true">https://www.scpr.org/news/2021/07/08/98406/the-tokyo-olympics-will-take-place-under-a-state-o/</guid>
+      <pubDate>Thu, 08 Jul 2021 16:20:09 GMT</pubDate>
+      <itunes:keywords>news, kpcc, scpr</itunes:keywords>
+      <link>https://www.scpr.org/news/2021/07/08/98406/the-tokyo-olympics-will-take-place-under-a-state-o/</link>
+      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/me/2021/07/20210708_me_japan_olympics_spectators.mp3?orgId=1&amp;topicId=1055&amp;d=220&amp;p=3&amp;story=1014160318&amp;ft=nprml&amp;f=1001%2C1007%2C93568166%2C102920358%2C103537970%2C173754155%2C311911180&amp;context=news" length="3523022" type="audio/mpeg"/>
+      <itunes:duration>220</itunes:duration>
+    </item>
+    <item>
+      <title>How An Anti-Vice Crusader Sabotaged The Early Birth Control Movement </title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>The Comstock Act, which passed in 1873, virtually outlawed contraception. In &lt;em&gt;The Man Who Hated Women, &lt;/em&gt;author Amy Sohn writes about the man behind the law — and the women prosecuted under it.</itunes:summary>
+      <description>The Comstock Act, which passed in 1873, virtually outlawed contraception. In &lt;em&gt;The Man Who Hated Women, &lt;/em&gt;author Amy Sohn writes about the man behind the law — and the women prosecuted under it.</description>
+      <guid isPermaLink="true">https://www.scpr.org/news/2021/07/07/98396/how-an-anti-vice-crusader-sabotaged-the-early-birt/</guid>
+      <pubDate>Wed, 07 Jul 2021 19:00:05 GMT</pubDate>
+      <itunes:keywords>news, kpcc, scpr</itunes:keywords>
+      <link>https://www.scpr.org/news/2021/07/07/98396/how-an-anti-vice-crusader-sabotaged-the-early-birt/</link>
+      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/fa/2021/07/20210707_fa_01.mp3?orgId=427869011&amp;topicId=1128&amp;d=2242&amp;p=13&amp;story=1013592570&amp;ft=nprml&amp;f=1001%2C1007%2C93568166%2C102920358%2C103537970%2C173754155%2C311911180&amp;context=news" length="35803203" type="audio/mpeg"/>
+      <itunes:duration>2242</itunes:duration>
+    </item>
+    <item>
+      <title>Mental Health Counselors Address Enormous Grief From Surfside Families</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>NPR's Mary Louise Kelly talks with Sandy Ala, a counselor working with Jewish Community Services of South Florida, who has been talking with survivors and families waiting for news in Surfside.</itunes:summary>
+      <description>NPR's Mary Louise Kelly talks with Sandy Ala, a counselor working with Jewish Community Services of South Florida, who has been talking with survivors and families waiting for news in Surfside.</description>
+      <guid isPermaLink="true">https://www.scpr.org/news/2021/07/06/98387/mental-health-counselors-address-enormous-grief-fr/</guid>
+      <pubDate>Tue, 06 Jul 2021 23:00:11 GMT</pubDate>
+      <itunes:keywords>news, kpcc, scpr</itunes:keywords>
+      <link>https://www.scpr.org/news/2021/07/06/98387/mental-health-counselors-address-enormous-grief-fr/</link>
+      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/atc/2021/07/20210706_atc_theyre_grieving_and_they_need_support_licensed_counselor_on_the_ground_in_surfside.mp3?orgId=1&amp;topicId=1003&amp;d=237&amp;p=2&amp;story=1013508965&amp;ft=nprml&amp;f=1001%2C1007%2C93568166%2C102920358%2C103537970%2C173754155%2C311911180&amp;context=news" length="3805145" type="audio/mpeg"/>
+      <itunes:duration>237</itunes:duration>
+    </item>
+    <item>
+      <title>Obesity Drug's Promise Now Hinges On Insurance Coverage</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>Clinical trials show Wegovy triples the average weight loss seen with other drugs. Whether it will reach many patients largely depends on whether insurers decide to cover it.</itunes:summary>
+      <description>Clinical trials show Wegovy triples the average weight loss seen with other drugs. Whether it will reach many patients largely depends on whether insurers decide to cover it.</description>
+      <guid isPermaLink="true">https://www.scpr.org/news/2021/07/06/98382/obesity-drug-s-promise-now-hinges-on-insurance-cov/</guid>
+      <pubDate>Tue, 06 Jul 2021 11:00:11 GMT</pubDate>
+      <itunes:keywords>news, kpcc, scpr</itunes:keywords>
+      <link>https://www.scpr.org/news/2021/07/06/98382/obesity-drug-s-promise-now-hinges-on-insurance-cov/</link>
+      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/wesun/2021/06/20210620_wesun_new_obesity_drugs_promise_now_hinges_on_insurance_coverage.mp3?orgId=1&amp;topicId=1128&amp;d=257&amp;p=10&amp;story=1007772101&amp;ft=nprml&amp;f=1001%2C1007%2C93568166%2C102920358%2C103537970%2C173754155%2C311911180&amp;context=news" length="4114435" type="audio/mpeg"/>
+      <itunes:duration>257</itunes:duration>
+    </item>
+    <item>
+      <title>It's A Tricky Balancing Act For Countries Awaiting Vaccine Doses</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>They have to figure out how to distribute the vaccines — and keep their citizens interested in getting their jab — without knowing when supplies will arrive.</itunes:summary>
+      <description>They have to figure out how to distribute the vaccines — and keep their citizens interested in getting their jab — without knowing when supplies will arrive.</description>
+      <guid isPermaLink="true">https://www.scpr.org/news/2021/07/05/98375/it-s-a-tricky-balancing-act-for-countries-awaiting/</guid>
+      <pubDate>Mon, 05 Jul 2021 13:40:05 GMT</pubDate>
+      <itunes:keywords>news, kpcc, scpr</itunes:keywords>
+      <link>https://www.scpr.org/news/2021/07/05/98375/it-s-a-tricky-balancing-act-for-countries-awaiting/</link>
+      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/atc/2021/06/20210629_atc_covax_gets_more_doses.mp3?orgId=1&amp;topicId=1031&amp;d=231&amp;story=1011690896&amp;ft=nprml&amp;f=1001%2C1007%2C93568166%2C102920358%2C103537970%2C173754155%2C311911180&amp;context=news" length="3704417" type="audio/mpeg"/>
+      <itunes:duration>231</itunes:duration>
+    </item>
+    <item>
+      <title>A California Town Has No Reliable Running Water During A Heat Wave</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>Teviston is home to some 700 people, mostly farmworkers. Since early June, residents have been forced to use stored and bottled water after the pump in the town's only functioning well broke down.</itunes:summary>
+      <description>Teviston is home to some 700 people, mostly farmworkers. Since early June, residents have been forced to use stored and bottled water after the pump in the town's only functioning well broke down.</description>
+      <guid isPermaLink="true">https://www.scpr.org/news/2021/07/03/98364/a-california-town-has-no-reliable-running-water-du/</guid>
+      <pubDate>Sat, 03 Jul 2021 22:20:02 GMT</pubDate>
+      <itunes:keywords>news, kpcc, scpr</itunes:keywords>
+      <link>https://www.scpr.org/news/2021/07/03/98364/a-california-town-has-no-reliable-running-water-du/</link>
+      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/wesat/2021/07/20210703_wesat_ca_heat_wave.mp3?orgId=1&amp;topicId=1003&amp;d=230&amp;story=1012887249&amp;ft=nprml&amp;f=1001%2C1007%2C93568166%2C102920358%2C103537970%2C173754155%2C311911180&amp;context=news" length="3686027" type="audio/mpeg"/>
+      <itunes:duration>230</itunes:duration>
+    </item>
+    <item>
+      <title>Marathons, Triathlons And More: What Motivates Us To Undertake Physical Feats?</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>Whether you’re new to running or you’ve finished your tenth triathlon, we want to hear from you about what motivates you and how that translates into pushing yourself physically. </itunes:summary>
+      <description>Whether you’re new to running or you’ve finished your tenth triathlon, we want to hear from you about what motivates you and how that translates into pushing yourself physically. </description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/airtalk/2021/07/02/66928/marathons-triathlons-and-more-what-motivates-us-to/</guid>
+      <pubDate>Fri, 02 Jul 2021 16:32:20 GMT</pubDate>
+      <itunes:keywords>news, kpcc, scpr</itunes:keywords>
+      <link>https://www.scpr.org/programs/airtalk/2021/07/02/66928/marathons-triathlons-and-more-what-motivates-us-to/</link>
+      <enclosure url="https://traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/39d4b39e-aa2d-40b1-bc07-ab2201235e43/31987154-c257-4806-b32e-ad59013ab97e/audio.mp3?context=news" length="15787157" type="audio/mpeg"/>
+      <itunes:duration>985</itunes:duration>
+    </item>
+    <item>
+      <title>With Newsom Recall Election Date Set, We Check In On The Challengers</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>California on Thursday scheduled a Sept. 14 recall election that could drive Democratic Gov. Gavin Newsom from office, the result of a political uprising largely driven by angst over state coronavirus orders that shuttered schools and businesses and upended life for millions of Californians.</itunes:summary>
+      <description>California on Thursday scheduled a Sept. 14 recall election that could drive Democratic Gov. Gavin Newsom from office, the result of a political uprising largely driven by angst over state coronavirus orders that shuttered schools and businesses and upended life for millions of Californians.</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/airtalk/2021/07/02/66927/with-newsom-recall-election-date-set-we-check-in-o/</guid>
+      <pubDate>Fri, 02 Jul 2021 16:27:55 GMT</pubDate>
+      <itunes:keywords>news, kpcc, scpr</itunes:keywords>
+      <link>https://www.scpr.org/programs/airtalk/2021/07/02/66927/with-newsom-recall-election-date-set-we-check-in-o/</link>
+      <enclosure url="https://traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/39d4b39e-aa2d-40b1-bc07-ab2201235e43/5e21e32d-1f67-4b48-ae1c-ad59013ab8d9/audio.mp3?context=news" length="16789825" type="audio/mpeg"/>
+      <itunes:duration>1047</itunes:duration>
+    </item>
+    <item>
+      <title>FilmWeek: ‘The Boss Baby: Family Business,’ ‘Long Story Short,’ ‘No Sudden Movement,’ And More </title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>Larry Mantle and KPCC film critics Lael Loewenstein, Wade Major and Charles Solomon review this weekend’s new movie releases on streaming and on demand platforms.</itunes:summary>
+      <description>Larry Mantle and KPCC film critics Lael Loewenstein, Wade Major and Charles Solomon review this weekend’s new movie releases on streaming and on demand platforms.</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/filmweek/2021/07/02/66924/filmweek-the-boss-baby-family-business-long-story/</guid>
+      <pubDate>Fri, 02 Jul 2021 16:25:47 GMT</pubDate>
+      <itunes:keywords>news, kpcc, scpr</itunes:keywords>
+      <link>https://www.scpr.org/programs/filmweek/2021/07/02/66924/filmweek-the-boss-baby-family-business-long-story/</link>
+      <enclosure url="https://chtbl.com/track/84GC29/dts.podtrac.com/redirect.mp3/traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/b8eef1ff-8d0d-43d5-b470-ab81016f9909/705b404d-95ab-44c0-9319-ad5901163900/audio.mp3?context=news" length="29351697" type="audio/mpeg"/>
+      <itunes:duration>1833</itunes:duration>
+    </item>
+    <item>
+      <title>COVID-19 AMA: J&amp;J Says Its Vaccine Is Effective Against Delta Variant, WHO Says All Authorized Vaccines Should Be Recognized By The West And More</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>In our continuing series looking at the latest medical research and news on COVID-19, Larry Mantle speaks with Dr. Annabelle De St. Maurice from University of California Los Angeles/Mattel Children’s hospital.</itunes:summary>
+      <description>In our continuing series looking at the latest medical research and news on COVID-19, Larry Mantle speaks with Dr. Annabelle De St. Maurice from University of California Los Angeles/Mattel Children’s hospital.</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/airtalk/2021/07/02/66926/covid-19-ama-j-j-says-its-vaccine-is-effective-aga/</guid>
+      <pubDate>Fri, 02 Jul 2021 16:23:15 GMT</pubDate>
+      <itunes:keywords>news, kpcc, scpr</itunes:keywords>
+      <link>https://www.scpr.org/programs/airtalk/2021/07/02/66926/covid-19-ama-j-j-says-its-vaccine-is-effective-aga/</link>
+      <enclosure url="https://traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/39d4b39e-aa2d-40b1-bc07-ab2201235e43/dedefedc-59bc-4086-adb0-ad59013ab8e2/audio.mp3?context=news" length="16632825" type="audio/mpeg"/>
+      <itunes:duration>1038</itunes:duration>
+    </item>
+    <item>
+      <title>FilmWeek and Chill: How ‘Airplane!’ Made Its Mark On Parody In The 1980s </title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>The iconic 1980 film “Airplane!” from the ZAZ directing team, Jim Abrahams, David Zucker and Jerry Zucker parodies the plot and characters from the 1957 disaster flick “Zero Hour!”</itunes:summary>
+      <description>The iconic 1980 film “Airplane!” from the ZAZ directing team, Jim Abrahams, David Zucker and Jerry Zucker parodies the plot and characters from the 1957 disaster flick “Zero Hour!”</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/filmweek/2021/07/02/66925/filmweek-and-chill-how-airplane-made-its-mark-on-p/</guid>
+      <pubDate>Fri, 02 Jul 2021 16:16:06 GMT</pubDate>
+      <itunes:keywords>news, kpcc, scpr</itunes:keywords>
+      <link>https://www.scpr.org/programs/filmweek/2021/07/02/66925/filmweek-and-chill-how-airplane-made-its-mark-on-p/</link>
+      <enclosure url="https://chtbl.com/track/84GC29/dts.podtrac.com/redirect.mp3/traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/b8eef1ff-8d0d-43d5-b470-ab81016f9909/cbf7e24f-8a5d-4e1b-8f99-ad59011d85f3/audio.mp3?context=news" length="18294127" type="audio/mpeg"/>
+      <itunes:duration>1142</itunes:duration>
+    </item>
+    <item>
+      <title>Business Should Be Booming — If Only There Were Enough Workers For The Job</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>Small businesses are struggling to find enough workers to keep pace with booming demand.</itunes:summary>
+      <description>Small businesses are struggling to find enough workers to keep pace with booming demand.</description>
+      <guid isPermaLink="true">https://www.scpr.org/news/2021/07/02/98355/business-should-be-booming-if-only-there-were-enou/</guid>
+      <pubDate>Fri, 02 Jul 2021 11:00:20 GMT</pubDate>
+      <itunes:keywords>news, kpcc, scpr</itunes:keywords>
+      <link>https://www.scpr.org/news/2021/07/02/98355/business-should-be-booming-if-only-there-were-enou/</link>
+      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/atc/2021/07/20210701_atc_made_it_through_the_pandemic_now_a_labor_shortage_is_crippling_their_businesst.mp3?orgId=1&amp;topicId=1017&amp;aggIds=812054919&amp;d=242&amp;p=2&amp;story=1012187548&amp;ft=nprml&amp;f=1001%2C1007%2C93568166%2C102920358%2C103537970%2C173754155%2C311911180&amp;context=news" length="3887483" type="audio/mpeg"/>
+      <itunes:duration>242</itunes:duration>
+    </item>
+    <item>
+      <title>Domestic Violence Is The Number One Driver Of Homelessness For Women In LA County— Why Is It Rarely Addressed In Policy?</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>The majority of unhoused women across the nation — 57% according to recent data — say domestic violence is the direct cause of losing their permanent home. </itunes:summary>
+      <description>The majority of unhoused women across the nation — 57% according to recent data — say domestic violence is the direct cause of losing their permanent home. </description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/airtalk/2021/07/01/66921/domestic-violence-is-the-number-one-driver-of-home/</guid>
+      <pubDate>Thu, 01 Jul 2021 16:23:00 GMT</pubDate>
+      <itunes:keywords>news, kpcc, scpr</itunes:keywords>
+      <link>https://www.scpr.org/programs/airtalk/2021/07/01/66921/domestic-violence-is-the-number-one-driver-of-home/</link>
+      <enclosure url="https://traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/39d4b39e-aa2d-40b1-bc07-ab2201235e43/57d9860d-5a12-4a82-adf0-ad580150baff/audio.mp3?context=news" length="28418806" type="audio/mpeg"/>
+      <itunes:duration>1774</itunes:duration>
+    </item>
+    <item>
+      <title>COVID-19 AMA: LA County’s New COVID-19 Cases Have Doubled, Vaccinated People Who Got Infected Carry Less Virus, CDC Researchers Say And More</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>In our continuing series looking at the latest medical research and news on COVID-19, Larry Mantle speaks with UCSF’s Dr. Peter Chin-Hong. </itunes:summary>
+      <description>In our continuing series looking at the latest medical research and news on COVID-19, Larry Mantle speaks with UCSF’s Dr. Peter Chin-Hong. </description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/airtalk/2021/07/01/66923/covid-19-ama-la-county-s-new-covid-19-cases-have-d/</guid>
+      <pubDate>Thu, 01 Jul 2021 16:19:33 GMT</pubDate>
+      <itunes:keywords>news, kpcc, scpr</itunes:keywords>
+      <link>https://www.scpr.org/programs/airtalk/2021/07/01/66923/covid-19-ama-la-county-s-new-covid-19-cases-have-d/</link>
+      <enclosure url="https://traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/39d4b39e-aa2d-40b1-bc07-ab2201235e43/ceddd02c-a702-43b6-81bb-ad580150baf6/audio.mp3?context=news" length="21033507" type="audio/mpeg"/>
+      <itunes:duration>1313</itunes:duration>
+    </item>
+    <item>
+      <title>The History And Present Of American Indian Boarding Schools, Including In SoCal </title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>Earlier this month, Secretary of the Interior Deb Haaland announced an effort to search federal boarding schools for burial sites of Native American kids. </itunes:summary>
+      <description>Earlier this month, Secretary of the Interior Deb Haaland announced an effort to search federal boarding schools for burial sites of Native American kids. </description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/airtalk/2021/07/01/66922/the-history-and-present-of-american-indian-boardin/</guid>
+      <pubDate>Thu, 01 Jul 2021 16:17:38 GMT</pubDate>
+      <itunes:keywords>news, kpcc, scpr</itunes:keywords>
+      <link>https://www.scpr.org/programs/airtalk/2021/07/01/66922/the-history-and-present-of-american-indian-boardin/</link>
+      <enclosure url="https://traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/39d4b39e-aa2d-40b1-bc07-ab2201235e43/3bd9c36c-3b37-4864-b2ac-ad580150baf6/audio.mp3?context=news" length="20826497" type="audio/mpeg"/>
+      <itunes:duration>1300</itunes:duration>
+    </item>
+    <item>
+      <title>The Supreme Court’s Final Rulings Of The Spring 2021 Term, Plus A Retrospective On Some Of Its Biggest Cases</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>The U.S. Supreme Court ends its spring term today with two final decisions expected to come down, one involving a pivotal voting rights case out of Arizona and the other involving so-called “dark money” and campaign finance. </itunes:summary>
+      <description>The U.S. Supreme Court ends its spring term today with two final decisions expected to come down, one involving a pivotal voting rights case out of Arizona and the other involving so-called “dark money” and campaign finance. </description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/airtalk/2021/07/01/66920/the-supreme-court-s-final-rulings-of-the-spring-20/</guid>
+      <pubDate>Thu, 01 Jul 2021 16:07:38 GMT</pubDate>
+      <itunes:keywords>news, kpcc, scpr</itunes:keywords>
+      <link>https://www.scpr.org/programs/airtalk/2021/07/01/66920/the-supreme-court-s-final-rulings-of-the-spring-20/</link>
+      <enclosure url="https://traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/39d4b39e-aa2d-40b1-bc07-ab2201235e43/48605624-affc-420e-babf-ad580150bb03/audio.mp3?context=news" length="17632511" type="audio/mpeg"/>
+      <itunes:duration>1100</itunes:duration>
+    </item>
+    <item>
+      <title>LA City Council to Vote on New Measure to Restrict Homeless Encampments</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>The Los Angeles City Council votes Thursday on a proposal to ban sleeping or camping in certain parts of the city, including near schools, parks, libraries, and other “sensitive” facilities like daycares.</itunes:summary>
+      <description>The Los Angeles City Council votes Thursday on a proposal to ban sleeping or camping in certain parts of the city, including near schools, parks, libraries, and other “sensitive” facilities like daycares.</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/airtalk/2021/07/01/66919/la-city-council-to-vote-on-new-measure-to-restrict/</guid>
+      <pubDate>Thu, 01 Jul 2021 16:04:15 GMT</pubDate>
+      <itunes:keywords>news, kpcc, scpr</itunes:keywords>
+      <link>https://www.scpr.org/programs/airtalk/2021/07/01/66919/la-city-council-to-vote-on-new-measure-to-restrict/</link>
+      <enclosure url="https://traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/39d4b39e-aa2d-40b1-bc07-ab2201235e43/e2b12124-dbbe-4922-bd28-ad580150baf4/audio.mp3?context=news" length="10806328" type="audio/mpeg"/>
+      <itunes:duration>673</itunes:duration>
+    </item>
+    <item>
+      <title>Two New NBA Coaching Hires Create Unwanted Controversy For A Progressive League</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>The Portland Trailblazers and Dallas Mavericks have hired new coaches with stellar records as players — but questionable off-court problems. The moves have roiled the typically progressive NBA.</itunes:summary>
+      <description>The Portland Trailblazers and Dallas Mavericks have hired new coaches with stellar records as players — but questionable off-court problems. The moves have roiled the typically progressive NBA.</description>
+      <guid isPermaLink="true">https://www.scpr.org/news/2021/06/30/98336/two-new-nba-coaching-hires-create-unwanted-controv/</guid>
+      <pubDate>Wed, 30 Jun 2021 23:20:08 GMT</pubDate>
+      <itunes:keywords>news, kpcc, scpr</itunes:keywords>
+      <link>https://www.scpr.org/news/2021/06/30/98336/two-new-nba-coaching-hires-create-unwanted-controv/</link>
+      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/me/2021/06/20210630_me_nba_coaches_controversy.mp3?orgId=1&amp;topicId=1055&amp;d=168&amp;story=1011859755&amp;ft=nprml&amp;f=1001%2C1007%2C93568166%2C102920358%2C103537970%2C173754155%2C311911180&amp;context=news" length="2701733" type="audio/mpeg"/>
+      <itunes:duration>168</itunes:duration>
+    </item>
+    <item>
+      <title>As South Florida Grieves Condo Victims, Miami Beach Cancels Its July 4th Celebrations</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>The city of Miami Beach is cancelling its fireworks and other July 4th festivities out of respect for the families and victims of the condominium collapse in neighboring Surfside, Fla.</itunes:summary>
+      <description>The city of Miami Beach is cancelling its fireworks and other July 4th festivities out of respect for the families and victims of the condominium collapse in neighboring Surfside, Fla.</description>
+      <guid isPermaLink="true">https://www.scpr.org/news/2021/06/30/98328/as-south-florida-grieves-condo-victims-miami-beach/</guid>
+      <pubDate>Wed, 30 Jun 2021 19:00:09 GMT</pubDate>
+      <itunes:keywords>news, kpcc, scpr</itunes:keywords>
+      <link>https://www.scpr.org/news/2021/06/30/98328/as-south-florida-grieves-condo-victims-miami-beach/</link>
+      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/me/2021/06/20210630_me_surfside_rescue_efforts.mp3?orgId=1&amp;topicId=1003&amp;d=420&amp;story=1011759094&amp;ft=nprml&amp;f=1001%2C1007%2C93568166%2C102920358%2C103537970%2C173754155%2C311911180&amp;context=news" length="6727516" type="audio/mpeg"/>
+      <itunes:duration>420</itunes:duration>
+    </item>
+    <item>
+      <title>Rescue Teams Hold Out Hope Of Finding Survivors In Florida Condo Collapse</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>It's been nearly a week since part of the building in Surfside, Fla., collapsed. "We still remain hopeful because that's who we are," says Leon Roy Hausmann, a representative of one rescue group.</itunes:summary>
+      <description>It's been nearly a week since part of the building in Surfside, Fla., collapsed. "We still remain hopeful because that's who we are," says Leon Roy Hausmann, a representative of one rescue group.</description>
+      <guid isPermaLink="true">https://www.scpr.org/news/2021/06/30/98326/rescue-teams-hold-out-hope-of-finding-survivors-in/</guid>
+      <pubDate>Wed, 30 Jun 2021 18:00:08 GMT</pubDate>
+      <itunes:keywords>news, kpcc, scpr</itunes:keywords>
+      <link>https://www.scpr.org/news/2021/06/30/98326/rescue-teams-hold-out-hope-of-finding-survivors-in/</link>
+      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/me/2021/06/20210630_me_surfside_rescue_efforts.mp3?orgId=1&amp;topicId=1003&amp;d=420&amp;story=1011719134&amp;ft=nprml&amp;f=1001%2C1007%2C93568166%2C102920358%2C103537970%2C173754155%2C311911180&amp;context=news" length="6727516" type="audio/mpeg"/>
+      <itunes:duration>420</itunes:duration>
+    </item>
+    <item>
+      <title>How And Why Was Bill Cosby’s Sex Assault Conviction Overturned?</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>Pennsylvania’s highest court overturned. Bill Cosby’s sex assault conviction Wednesday after finding an agreement with a previous prosecutor prevented him from being charged in the case.</itunes:summary>
+      <description>Pennsylvania’s highest court overturned. Bill Cosby’s sex assault conviction Wednesday after finding an agreement with a previous prosecutor prevented him from being charged in the case.</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/airtalk/2021/06/30/66918/how-and-why-was-bill-cosby-s-sex-assault-convictio/</guid>
+      <pubDate>Wed, 30 Jun 2021 17:52:59 GMT</pubDate>
+      <itunes:keywords>news, kpcc, scpr</itunes:keywords>
+      <link>https://www.scpr.org/programs/airtalk/2021/06/30/66918/how-and-why-was-bill-cosby-s-sex-assault-convictio/</link>
+      <enclosure url="https://traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/39d4b39e-aa2d-40b1-bc07-ab2201235e43/11b184e5-21f7-4dd9-a870-ad570143a45c/audio.mp3?context=news" length="18583694" type="audio/mpeg"/>
+      <itunes:duration>1159</itunes:duration>
+    </item>
+    <item>
+      <title>Frank Sinatra’s Life From His Manager’s Point Of View</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>Tony Oppedisano was Frank Sinatra’s friend and manager, and now he’s also an author of “Sinatra and Me: In the Wee Small Hours,” which dives into Sinatra’s life. We sit down with Oppedisano to discuss the book.</itunes:summary>
+      <description>Tony Oppedisano was Frank Sinatra’s friend and manager, and now he’s also an author of “Sinatra and Me: In the Wee Small Hours,” which dives into Sinatra’s life. We sit down with Oppedisano to discuss the book.</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/airtalk/2021/06/30/66914/frank-sinatra-s-life-from-his-manager-s-point-of-v/</guid>
+      <pubDate>Wed, 30 Jun 2021 16:24:43 GMT</pubDate>
+      <itunes:keywords>news, kpcc, scpr</itunes:keywords>
+      <link>https://www.scpr.org/programs/airtalk/2021/06/30/66914/frank-sinatra-s-life-from-his-manager-s-point-of-v/</link>
+      <enclosure url="https://traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/39d4b39e-aa2d-40b1-bc07-ab2201235e43/4d399045-6699-45cb-8ac7-ad570143a453/audio.mp3?context=news" length="17426347" type="audio/mpeg"/>
+      <itunes:duration>1087</itunes:duration>
+    </item>
+    <item>
+      <title>Newsom Facing Criticism As He Meets With President Biden To Talk Wildfire Prevention Efforts, Higher Pay For Firefighters</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>President Joe Biden wants to boost firefighter pay to $15 an hour. It’s one of the things he and his administration are discussing with west coast state leaders, including California Gov. Gavin Newsom. </itunes:summary>
+      <description>President Joe Biden wants to boost firefighter pay to $15 an hour. It’s one of the things he and his administration are discussing with west coast state leaders, including California Gov. Gavin Newsom. </description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/airtalk/2021/06/30/66916/newsom-facing-criticism-as-he-meets-with-president/</guid>
+      <pubDate>Wed, 30 Jun 2021 16:21:06 GMT</pubDate>
+      <itunes:keywords>news, kpcc, scpr</itunes:keywords>
+      <link>https://www.scpr.org/programs/airtalk/2021/06/30/66916/newsom-facing-criticism-as-he-meets-with-president/</link>
+      <enclosure url="https://traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/39d4b39e-aa2d-40b1-bc07-ab2201235e43/91fa32cb-5ba7-47a2-9777-ad570143a452/audio.mp3?context=news" length="12928406" type="audio/mpeg"/>
+      <itunes:duration>806</itunes:duration>
+    </item>
+    <item>
+      <title>Your Brain On Our Shaky Post-Pandemic Re-Opening</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>If you’ve been to an unmasked party after California’s reopening, you may have experienced a feeling of transgression and social anxiety.</itunes:summary>
+      <description>If you’ve been to an unmasked party after California’s reopening, you may have experienced a feeling of transgression and social anxiety.</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/airtalk/2021/06/30/66915/your-brain-on-our-shaky-post-pandemic-re-opening/</guid>
+      <pubDate>Wed, 30 Jun 2021 16:17:17 GMT</pubDate>
+      <itunes:keywords>news, kpcc, scpr</itunes:keywords>
+      <link>https://www.scpr.org/programs/airtalk/2021/06/30/66915/your-brain-on-our-shaky-post-pandemic-re-opening/</link>
+      <enclosure url="https://traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/39d4b39e-aa2d-40b1-bc07-ab2201235e43/2ba6d11f-cd85-4b98-b2fd-ad57014438cc/audio.mp3?context=news" length="16366811" type="audio/mpeg"/>
+      <itunes:duration>1021</itunes:duration>
+    </item>
+    <item>
+      <title>COVID-19 AMA: State Masking Guidelines Conflict With LA County Recommendation; Delta Variant Accounts For 26% Of U.S. COVID Cases And More</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>In our continuing series looking at the latest medical research and news on COVID-19, Larry Mantle speaks with Dr. Kimberly Shriner of Huntington Hospital in Pasadena. </itunes:summary>
+      <description>In our continuing series looking at the latest medical research and news on COVID-19, Larry Mantle speaks with Dr. Kimberly Shriner of Huntington Hospital in Pasadena. </description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/airtalk/2021/06/30/66913/covid-19-ama-state-masking-guidelines-conflict-wit/</guid>
+      <pubDate>Wed, 30 Jun 2021 16:12:43 GMT</pubDate>
+      <itunes:keywords>news, kpcc, scpr</itunes:keywords>
+      <link>https://www.scpr.org/programs/airtalk/2021/06/30/66913/covid-19-ama-state-masking-guidelines-conflict-wit/</link>
+      <enclosure url="https://traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/39d4b39e-aa2d-40b1-bc07-ab2201235e43/64c55ef1-482f-4a87-b674-ad570143a45d/audio.mp3?context=news" length="15823224" type="audio/mpeg"/>
+      <itunes:duration>987</itunes:duration>
+    </item>
+    <item>
+      <title>An Exit Interview With Outgoing LAUSD Superintendent Austin Beutner</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>It’s safe to say LAUSD Superintendent Austin Beutner’s time in office was unlike any of his predecessors’. </itunes:summary>
+      <description>It’s safe to say LAUSD Superintendent Austin Beutner’s time in office was unlike any of his predecessors’. </description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/airtalk/2021/06/30/66912/an-exit-interview-with-outgoing-lausd-superintende/</guid>
+      <pubDate>Wed, 30 Jun 2021 16:08:20 GMT</pubDate>
+      <itunes:keywords>news, kpcc, scpr</itunes:keywords>
+      <link>https://www.scpr.org/programs/airtalk/2021/06/30/66912/an-exit-interview-with-outgoing-lausd-superintende/</link>
+      <enclosure url="https://traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/39d4b39e-aa2d-40b1-bc07-ab2201235e43/c6cbe87e-722c-4a97-8dfb-ad570143a45c/audio.mp3?context=news" length="17015103" type="audio/mpeg"/>
+      <itunes:duration>1061</itunes:duration>
+    </item>
+    <item>
+      <title>Progressives Are Hoping That Justice Stephen Breyer Steps Down At The End Of The Term</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>They want President Biden to appoint a young liberal to replace the 82-year-old justice. But Breyer has publicly shown no indication of whether he will stay or go. </itunes:summary>
+      <description>They want President Biden to appoint a young liberal to replace the 82-year-old justice. But Breyer has publicly shown no indication of whether he will stay or go. </description>
+      <guid isPermaLink="true">https://www.scpr.org/news/2021/06/30/98321/progressives-are-hoping-that-justice-stephen-breye/</guid>
+      <pubDate>Wed, 30 Jun 2021 11:20:17 GMT</pubDate>
+      <itunes:keywords>news, kpcc, scpr</itunes:keywords>
+      <link>https://www.scpr.org/news/2021/06/30/98321/progressives-are-hoping-that-justice-stephen-breye/</link>
+      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/me/2021/06/20210630_me_progressives_are_hoping_that_justice_stephen_breyer_steps_down_at_the_end_of_the_term.mp3?orgId=1&amp;topicId=1014&amp;d=228&amp;p=3&amp;story=1011273434&amp;ft=nprml&amp;f=1001%2C1007%2C93568166%2C102920358%2C103537970%2C173754155%2C311911180&amp;context=news" length="3655516" type="audio/mpeg"/>
+      <itunes:duration>228</itunes:duration>
+    </item>
+    <item>
+      <title>The First Wave Of Post-Trump Books Arrives. And They Fight To Make Sense Of The Chaos</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>Authors are unearthing fresh details on the pandemic response and election fallout. The difficulty they face discerning the truth and meaning from all of that reflects the turmoil of the Trump years.</itunes:summary>
+      <description>Authors are unearthing fresh details on the pandemic response and election fallout. The difficulty they face discerning the truth and meaning from all of that reflects the turmoil of the Trump years.</description>
+      <guid isPermaLink="true">https://www.scpr.org/news/2021/06/30/98319/the-first-wave-of-post-trump-books-arrives-and-the/</guid>
+      <pubDate>Wed, 30 Jun 2021 11:00:12 GMT</pubDate>
+      <itunes:keywords>news, kpcc, scpr</itunes:keywords>
+      <link>https://www.scpr.org/news/2021/06/30/98319/the-first-wave-of-post-trump-books-arrives-and-the/</link>
+      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/atc/2021/06/20210629_atc_trump_books.mp3?orgId=1&amp;topicId=1014&amp;d=237&amp;story=1011400394&amp;ft=nprml&amp;f=1001%2C1007%2C93568166%2C102920358%2C103537970%2C173754155%2C311911180&amp;context=news" length="3803473" type="audio/mpeg"/>
+      <itunes:duration>237</itunes:duration>
+    </item>
+    <item>
+      <title>COVID-19 AMA: Indoor Masking, The Delta Variant And More</title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>In our continuing series looking at the latest medical research and news on COVID-19, Larry Mantle speaks with UCLA’s Dr. Kim-Farley. </itunes:summary>
+      <description>In our continuing series looking at the latest medical research and news on COVID-19, Larry Mantle speaks with UCLA’s Dr. Kim-Farley. </description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/airtalk/2021/06/29/66911/covid-19-ama-indoor-masking-the-delta-variant-and/</guid>
+      <pubDate>Tue, 29 Jun 2021 16:39:18 GMT</pubDate>
+      <itunes:keywords>news, kpcc, scpr</itunes:keywords>
+      <link>https://www.scpr.org/programs/airtalk/2021/06/29/66911/covid-19-ama-indoor-masking-the-delta-variant-and/</link>
+      <enclosure url="https://traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/39d4b39e-aa2d-40b1-bc07-ab2201235e43/aac1e6d0-6e75-4f04-925e-ad56014624bb/audio.mp3?context=news" length="32039876" type="audio/mpeg"/>
+      <itunes:duration>2000</itunes:duration>
+    </item>
+    <item>
+      <title>CA Extends Rent Protections, Plans To Pay Past-Due Rent For Low-Income Residents. What Does This Mean For Tenants And Landlords? </title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>Gov. Gavin Newsom signed a bill Monday that extends an eviction moratorium for three more months and means some residents will see all their past-due rent paid for by the state. </itunes:summary>
+      <description>Gov. Gavin Newsom signed a bill Monday that extends an eviction moratorium for three more months and means some residents will see all their past-due rent paid for by the state. </description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/airtalk/2021/06/29/66910/ca-extends-rent-protections-plans-to-pay-past-due/</guid>
+      <pubDate>Tue, 29 Jun 2021 16:34:10 GMT</pubDate>
+      <itunes:keywords>news, kpcc, scpr</itunes:keywords>
+      <link>https://www.scpr.org/programs/airtalk/2021/06/29/66910/ca-extends-rent-protections-plans-to-pay-past-due/</link>
+      <enclosure url="https://traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/39d4b39e-aa2d-40b1-bc07-ab2201235e43/3812d0c6-792a-43fc-9151-ad560146249f/audio.mp3?context=news" length="17318662" type="audio/mpeg"/>
+      <itunes:duration>1080</itunes:duration>
+    </item>
+    <item>
+      <title>A New Government UFO Report Finds No Sign Of Alien Life, Cannot Explain Over Hundred Object Sightings </title>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:summary>A long-awaited U.S. government report on UFOs released Friday makes at least one thing clear: The truth is still out there.</itunes:summary>
+      <description>A long-awaited U.S. government report on UFOs released Friday makes at least one thing clear: The truth is still out there.</description>
+      <guid isPermaLink="true">https://www.scpr.org/programs/airtalk/2021/06/29/66909/a-new-government-ufo-report-finds-no-sign-of-alien/</guid>
+      <pubDate>Tue, 29 Jun 2021 16:31:13 GMT</pubDate>
+      <itunes:keywords>news, kpcc, scpr</itunes:keywords>
+      <link>https://www.scpr.org/programs/airtalk/2021/06/29/66909/a-new-government-ufo-report-finds-no-sign-of-alien/</link>
+      <enclosure url="https://traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/39d4b39e-aa2d-40b1-bc07-ab2201235e43/cec0ab48-348f-4057-917c-ad56014624b2/audio.mp3?context=news" length="16428357" type="audio/mpeg"/>
+      <itunes:duration>1025</itunes:duration>
+    </item>
+  </channel>
+</rss>

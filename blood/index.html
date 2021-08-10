@@ -1,0 +1,175 @@
+
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+
+<!--Base Page URL-->
+<base href=""/>
+<!--API URL-->
+<base href=""/>
+<!--Login(Authentication) Api URL-->
+<base href=""/>
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>Schedule Your Blood Donation With The Red Cross</title>
+
+
+<meta name="template" content="base"/>
+
+
+
+
+    
+    
+<link rel="stylesheet" href="https://www.redcrossblood.org/etc/clientlibs/redcross/rcbblooddrive.min.cade0c048c099a5c66c08ee768b99b62.css" type="text/css">
+
+
+
+
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+
+<!-- Open Graph -->
+<meta name="tags"/>
+<meta property="og:url" content="https://www.redcrossblood.org/give.html"/>
+<meta property="og:title" content="Schedule Your Blood Donation With The Red Cross"/>
+<meta property="og:description"/>
+<meta property="og:image" content="https://www.redcross.org/content/dam/redcrossblood/social-media-images/FB_Donor_Image1.jpg"/>
+
+<meta property="og:site" content="American Red Cross"/>
+<meta property="og:type" content="website"/>
+<meta property="fb:app_id" content="10153219241815949"/>
+
+    
+
+
+
+
+<!-- New Relic -->
+<script type="text/javascript" src="https://www.redcrossblood.org/etc/clientlibs/redcross/rcbblooddrive/new-relic/new-relic-rcbbloodapp-prod.js"></script>
+<!-- JQuery -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.slim.min.js"></script>
+<!-- DTM -->
+<script src="https://assets.adobedtm.com/16a36399704a/453d9ca51f91/launch-a1e85d51a3d8.min.js"></script>
+
+<!-- Add This -->
+<script async id="addthis-script" type="text/javascript" src="https://s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5e57f278d51ec8f1"></script>
+
+<!--DATA LAYER-->
+<script type="text/javascript">
+    var digitalData = {
+        sysEnv: {
+            siteCode: 'rcb',
+        },
+        page:{
+            path: '/content/redcrossblood/en/give',
+            pageName: 'rcb:give',
+            version: '',
+            language: 'english'
+        },
+        search:{
+            keyword:'donation', //The keyword entered by the user for internal search
+            results:''  // # of results returned for the search
+        },
+        user: {
+            userName: '$uid'
+        }
+     };
+
+    $( document ).ready(function() {
+    var result = "";
+    var uid = "";
+    var name = "profile=";
+    var decodedCookie = decodeURIComponent(document.cookie);
+    var ca = decodedCookie.split(';');
+
+      for(var i = 0; i < ca.length; i++) {
+        var c = ca[i];
+        while (c.charAt(0) == ' ') {
+          c = c.substring(1);
+        }
+        if (c.indexOf(name) == 0) {
+          result = c.substring(name.length, c.length);
+          result = result.replace("{", "");
+          result = result.replace("}", "");
+          var p = result.split(",");
+          var u = p[0].split(":");
+          uid = u[1].replace(/["]+/g, '');
+        }
+      }
+
+    if ( uid !== null && uid !== '') {
+      digitalData.user.userName = 'OID_' + uid;
+    }
+    else {
+      digitalData.user.userName = uid;
+    }
+
+  });
+</script>
+
+
+    
+    
+
+    
+
+    
+    
+    
+
+<link rel="icon" type="image/vnd.microsoft.icon" href="https://www.redcrossblood.org/etc/designs/redcross/rcbcontent/favicon.ico"/>
+<link rel="shortcut icon" type="image/vnd.microsoft.icon" href="https://www.redcrossblood.org/etc/designs/redcross/rcbcontent/favicon.ico"/>
+
+</head>
+    <body class="base page basicpage">
+        
+        
+            
+
+
+
+            
+
+
+
+  <rcb-app></rcb-app>
+
+
+
+
+
+
+    
+    
+<script type="text/javascript" src="https://www.redcrossblood.org/etc/clientlibs/redcross/rcbblooddrive.min.c8cb1895f8b7b44b249f8c24c2563b13.js"></script>
+
+
+
+
+
+<script type="text/javascript">_satellite.pageBottom();</script>
+            
+    
+    
+
+    
+    
+
+
+
+
+
+<script type="text/javascript">_satellite.pageBottom();</script>
+    
+
+    
+
+
+            
+
+        
+    </body>
+</html>
