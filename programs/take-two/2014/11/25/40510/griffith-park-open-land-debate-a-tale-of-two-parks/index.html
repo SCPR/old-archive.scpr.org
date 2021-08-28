@@ -28,7 +28,7 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="black" />
 <meta name="format-detection" content="telephone=no" />
 <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
-<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam-cell.nr-data.net","errorBeacon":"bam-cell.nr-data.net","licenseKey":"3a7254ec4f","applicationID":"446356","transactionName":"JV4MRkQMDVRTRUlIRQlWEFNbEE5LU1ALXVkS","queueTime":0,"applicationTime":1699,"agent":""}</script>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam-cell.nr-data.net","errorBeacon":"bam-cell.nr-data.net","licenseKey":"3a7254ec4f","applicationID":"446356","transactionName":"JV4MRkQMDVRTRUlIRQlWEFNbEE5LU1ALXVkS","queueTime":0,"applicationTime":5193,"agent":""}</script>
 <script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"UwcDWFBADAcGV1RU",licenseKey:"3a7254ec4f",applicationID:"446356"};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var i=e[n]={exports:{}};t[n][0].call(i.exports,function(e){var i=t[n][1][e];return r(i||e)},i,i.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var i=0;i<n.length;i++)r(n[i]);return r}({1:[function(t,e,n){function r(t){try{s.console&&console.log(t)}catch(e){}}var i,o=t("ee"),a=t(22),s={};try{i=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(s.console=!0,i.indexOf("dev")!==-1&&(s.dev=!0),i.indexOf("nr_dev")!==-1&&(s.nrDev=!0))}catch(c){}s.nrDev&&o.on("internal-error",function(t){r(t.stack)}),s.dev&&o.on("fn-err",function(t,e,n){r(n.stack)}),s.dev&&(r("NR AGENT IN DEVELOPMENT MODE"),r("flags: "+a(s,function(t,e){return t}).join(", ")))},{}],2:[function(t,e,n){function r(t,e,n,r,s){try{p?p-=1:i(s||new UncaughtException(t,e,n),!0)}catch(f){try{o("ierr",[f,c.now(),!0])}catch(d){}}return"function"==typeof u&&u.apply(this,a(arguments))}function UncaughtException(t,e,n){this.message=t||"Uncaught error with no additional information",this.sourceURL=e,this.line=n}function i(t,e){var n=e?null:c.now();o("err",[t,n])}var o=t("handle"),a=t(23),s=t("ee"),c=t("loader"),f=t("gos"),u=window.onerror,d=!1,l="nr@seenError";if(!c.disabled){var p=0;c.features.err=!0,t(1),window.onerror=r;try{throw new Error}catch(h){"stack"in h&&(t(6),t(5),"addEventListener"in window&&t(3),c.xhrWrappable&&t(7),d=!0)}s.on("fn-start",function(t,e,n){d&&(p+=1)}),s.on("fn-err",function(t,e,n){d&&!n[l]&&(f(n,l,function(){return!0}),this.thrown=!0,i(n))}),s.on("fn-end",function(){d&&!this.thrown&&p>0&&(p-=1)}),s.on("internal-error",function(t){o("ierr",[t,c.now(),!0])})}},{}],3:[function(t,e,n){function r(t){for(var e=t;e&&!e.hasOwnProperty(u);)e=Object.getPrototypeOf(e);e&&i(e)}function i(t){s.inPlace(t,[u,d],"-",o)}function o(t,e){return t[1]}var a=t("ee").get("events"),s=t("wrap-function")(a,!0),c=t("gos"),f=XMLHttpRequest,u="addEventListener",d="removeEventListener";e.exports=a,"getPrototypeOf"in Object?(r(document),r(window),r(f.prototype)):f.prototype.hasOwnProperty(u)&&(i(window),i(f.prototype)),a.on(u+"-start",function(t,e){var n=t[1],r=c(n,"nr@wrapped",function(){function t(){if("function"==typeof n.handleEvent)return n.handleEvent.apply(n,arguments)}var e={object:t,"function":n}[typeof n];return e?s(e,"fn-",null,e.name||"anonymous"):n});this.wrapped=t[1]=r}),a.on(d+"-start",function(t){t[1]=this.wrapped||t[1]})},{}],4:[function(t,e,n){function r(t,e,n){var r=t[e];"function"==typeof r&&(t[e]=function(){var t=o(arguments),e={};i.emit(n+"before-start",[t],e);var a;e[m]&&e[m].dt&&(a=e[m].dt);var s=r.apply(this,t);return i.emit(n+"start",[t,a],s),s.then(function(t){return i.emit(n+"end",[null,t],s),t},function(t){throw i.emit(n+"end",[t],s),t})})}var i=t("ee").get("fetch"),o=t(23),a=t(22);e.exports=i;var s=window,c="fetch-",f=c+"body-",u=["arrayBuffer","blob","json","text","formData"],d=s.Request,l=s.Response,p=s.fetch,h="prototype",m="nr@context";d&&l&&p&&(a(u,function(t,e){r(d[h],e,f),r(l[h],e,f)}),r(s,"fetch",c),i.on(c+"end",function(t,e){var n=this;if(e){var r=e.headers.get("content-length");null!==r&&(n.rxSize=r),i.emit(c+"done",[null,e],n)}else i.emit(c+"done",[t],n)}))},{}],5:[function(t,e,n){var r=t("ee").get("raf"),i=t("wrap-function")(r),o="equestAnimationFrame";e.exports=r,i.inPlace(window,["r"+o,"mozR"+o,"webkitR"+o,"msR"+o],"raf-"),r.on("raf-start",function(t){t[0]=i(t[0],"fn-")})},{}],6:[function(t,e,n){function r(t,e,n){t[0]=a(t[0],"fn-",null,n)}function i(t,e,n){this.method=n,this.timerDuration=isNaN(t[1])?0:+t[1],t[0]=a(t[0],"fn-",this,n)}var o=t("ee").get("timer"),a=t("wrap-function")(o),s="setTimeout",c="setInterval",f="clearTimeout",u="-start",d="-";e.exports=o,a.inPlace(window,[s,"setImmediate"],s+d),a.inPlace(window,[c],c+d),a.inPlace(window,[f,"clearImmediate"],f+d),o.on(c+u,r),o.on(s+u,i)},{}],7:[function(t,e,n){function r(t,e){d.inPlace(e,["onreadystatechange"],"fn-",s)}function i(){var t=this,e=u.context(t);t.readyState>3&&!e.resolved&&(e.resolved=!0,u.emit("xhr-resolved",[],t)),d.inPlace(t,w,"fn-",s)}function o(t){x.push(t),h&&(b?b.then(a):v?v(a):(E=-E,R.data=E))}function a(){for(var t=0;t<x.length;t++)r([],x[t]);x.length&&(x=[])}function s(t,e){return e}function c(t,e){for(var n in t)e[n]=t[n];return e}t(3);var f=t("ee"),u=f.get("xhr"),d=t("wrap-function")(u),l=NREUM.o,p=l.XHR,h=l.MO,m=l.PR,v=l.SI,g="readystatechange",w=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"],x=[];e.exports=u;var y=window.XMLHttpRequest=function(t){var e=new p(t);try{u.emit("new-xhr",[e],e),e.addEventListener(g,i,!1)}catch(n){try{u.emit("internal-error",[n])}catch(r){}}return e};if(c(p,y),y.prototype=p.prototype,d.inPlace(y.prototype,["open","send"],"-xhr-",s),u.on("send-xhr-start",function(t,e){r(t,e),o(e)}),u.on("open-xhr-start",r),h){var b=m&&m.resolve();if(!v&&!m){var E=1,R=document.createTextNode(E);new h(a).observe(R,{characterData:!0})}}else f.on("fn-end",function(t){t[0]&&t[0].type===g||a()})},{}],8:[function(t,e,n){function r(t){if(!s(t))return null;var e=window.NREUM;if(!e.loader_config)return null;var n=(e.loader_config.accountID||"").toString()||null,r=(e.loader_config.agentID||"").toString()||null,f=(e.loader_config.trustKey||"").toString()||null;if(!n||!r)return null;var h=p.generateSpanId(),m=p.generateTraceId(),v=Date.now(),g={spanId:h,traceId:m,timestamp:v};return(t.sameOrigin||c(t)&&l())&&(g.traceContextParentHeader=i(h,m),g.traceContextStateHeader=o(h,v,n,r,f)),(t.sameOrigin&&!u()||!t.sameOrigin&&c(t)&&d())&&(g.newrelicHeader=a(h,m,v,n,r,f)),g}function i(t,e){return"00-"+e+"-"+t+"-01"}function o(t,e,n,r,i){var o=0,a="",s=1,c="",f="";return i+"@nr="+o+"-"+s+"-"+n+"-"+r+"-"+t+"-"+a+"-"+c+"-"+f+"-"+e}function a(t,e,n,r,i,o){var a="btoa"in window&&"function"==typeof window.btoa;if(!a)return null;var s={v:[0,1],d:{ty:"Browser",ac:r,ap:i,id:t,tr:e,ti:n}};return o&&r!==o&&(s.d.tk=o),btoa(JSON.stringify(s))}function s(t){return f()&&c(t)}function c(t){var e=!1,n={};if("init"in NREUM&&"distributed_tracing"in NREUM.init&&(n=NREUM.init.distributed_tracing),t.sameOrigin)e=!0;else if(n.allowed_origins instanceof Array)for(var r=0;r<n.allowed_origins.length;r++){var i=h(n.allowed_origins[r]);if(t.hostname===i.hostname&&t.protocol===i.protocol&&t.port===i.port){e=!0;break}}return e}function f(){return"init"in NREUM&&"distributed_tracing"in NREUM.init&&!!NREUM.init.distributed_tracing.enabled}function u(){return"init"in NREUM&&"distributed_tracing"in NREUM.init&&!!NREUM.init.distributed_tracing.exclude_newrelic_header}function d(){return"init"in NREUM&&"distributed_tracing"in NREUM.init&&NREUM.init.distributed_tracing.cors_use_newrelic_header!==!1}function l(){return"init"in NREUM&&"distributed_tracing"in NREUM.init&&!!NREUM.init.distributed_tracing.cors_use_tracecontext_headers}var p=t(19),h=t(10);e.exports={generateTracePayload:r,shouldGenerateTrace:s}},{}],9:[function(t,e,n){function r(t){var e=this.params,n=this.metrics;if(!this.ended){this.ended=!0;for(var r=0;r<l;r++)t.removeEventListener(d[r],this.listener,!1);e.aborted||(n.duration=a.now()-this.startTime,this.loadCaptureCalled||4!==t.readyState?null==e.status&&(e.status=0):o(this,t),n.cbTime=this.cbTime,u.emit("xhr-done",[t],t),s("xhr",[e,n,this.startTime]))}}function i(t,e){var n=c(e),r=t.params;r.host=n.hostname+":"+n.port,r.pathname=n.pathname,t.parsedOrigin=n,t.sameOrigin=n.sameOrigin}function o(t,e){t.params.status=e.status;var n=v(e,t.lastSize);if(n&&(t.metrics.rxSize=n),t.sameOrigin){var r=e.getResponseHeader("X-NewRelic-App-Data");r&&(t.params.cat=r.split(", ").pop())}t.loadCaptureCalled=!0}var a=t("loader");if(a.xhrWrappable&&!a.disabled){var s=t("handle"),c=t(10),f=t(8).generateTracePayload,u=t("ee"),d=["load","error","abort","timeout"],l=d.length,p=t("id"),h=t(15),m=t(14),v=t(11),g=NREUM.o.REQ,w=window.XMLHttpRequest;a.features.xhr=!0,t(7),t(4),u.on("new-xhr",function(t){var e=this;e.totalCbs=0,e.called=0,e.cbTime=0,e.end=r,e.ended=!1,e.xhrGuids={},e.lastSize=null,e.loadCaptureCalled=!1,e.params=this.params||{},e.metrics=this.metrics||{},t.addEventListener("load",function(n){o(e,t)},!1),h&&(h>34||h<10)||window.opera||t.addEventListener("progress",function(t){e.lastSize=t.loaded},!1)}),u.on("open-xhr-start",function(t){this.params={method:t[0]},i(this,t[1]),this.metrics={}}),u.on("open-xhr-end",function(t,e){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&e.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid);var n=f(this.parsedOrigin);if(n){var r=!1;n.newrelicHeader&&(e.setRequestHeader("newrelic",n.newrelicHeader),r=!0),n.traceContextParentHeader&&(e.setRequestHeader("traceparent",n.traceContextParentHeader),n.traceContextStateHeader&&e.setRequestHeader("tracestate",n.traceContextStateHeader),r=!0),r&&(this.dt=n)}}),u.on("send-xhr-start",function(t,e){var n=this.metrics,r=t[0],i=this;if(n&&r){var o=m(r);o&&(n.txSize=o)}this.startTime=a.now(),this.listener=function(t){try{"abort"!==t.type||i.loadCaptureCalled||(i.params.aborted=!0),("load"!==t.type||i.called===i.totalCbs&&(i.onloadCalled||"function"!=typeof e.onload))&&i.end(e)}catch(n){try{u.emit("internal-error",[n])}catch(r){}}};for(var s=0;s<l;s++)e.addEventListener(d[s],this.listener,!1)}),u.on("xhr-cb-time",function(t,e,n){this.cbTime+=t,e?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof n.onload||this.end(n)}),u.on("xhr-load-added",function(t,e){var n=""+p(t)+!!e;this.xhrGuids&&!this.xhrGuids[n]&&(this.xhrGuids[n]=!0,this.totalCbs+=1)}),u.on("xhr-load-removed",function(t,e){var n=""+p(t)+!!e;this.xhrGuids&&this.xhrGuids[n]&&(delete this.xhrGuids[n],this.totalCbs-=1)}),u.on("addEventListener-end",function(t,e){e instanceof w&&"load"===t[0]&&u.emit("xhr-load-added",[t[1],t[2]],e)}),u.on("removeEventListener-end",function(t,e){e instanceof w&&"load"===t[0]&&u.emit("xhr-load-removed",[t[1],t[2]],e)}),u.on("fn-start",function(t,e,n){e instanceof w&&("onload"===n&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=a.now()))}),u.on("fn-end",function(t,e){this.xhrCbStart&&u.emit("xhr-cb-time",[a.now()-this.xhrCbStart,this.onload,e],e)}),u.on("fetch-before-start",function(t){function e(t,e){var n=!1;return e.newrelicHeader&&(t.set("newrelic",e.newrelicHeader),n=!0),e.traceContextParentHeader&&(t.set("traceparent",e.traceContextParentHeader),e.traceContextStateHeader&&t.set("tracestate",e.traceContextStateHeader),n=!0),n}var n,r=t[1]||{};"string"==typeof t[0]?n=t[0]:t[0]&&t[0].url?n=t[0].url:window.URL&&t[0]&&t[0]instanceof URL&&(n=t[0].href),n&&(this.parsedOrigin=c(n),this.sameOrigin=this.parsedOrigin.sameOrigin);var i=f(this.parsedOrigin);if(i&&(i.newrelicHeader||i.traceContextParentHeader))if("string"==typeof t[0]||window.URL&&t[0]&&t[0]instanceof URL){var o={};for(var a in r)o[a]=r[a];o.headers=new Headers(r.headers||{}),e(o.headers,i)&&(this.dt=i),t.length>1?t[1]=o:t.push(o)}else t[0]&&t[0].headers&&e(t[0].headers,i)&&(this.dt=i)}),u.on("fetch-start",function(t,e){this.params={},this.metrics={},this.startTime=a.now(),t.length>=1&&(this.target=t[0]),t.length>=2&&(this.opts=t[1]);var n,r=this.opts||{},o=this.target;"string"==typeof o?n=o:"object"==typeof o&&o instanceof g?n=o.url:window.URL&&"object"==typeof o&&o instanceof URL&&(n=o.href),i(this,n);var s=(""+(o&&o instanceof g&&o.method||r.method||"GET")).toUpperCase();this.params.method=s,this.txSize=m(r.body)||0}),u.on("fetch-done",function(t,e){this.params||(this.params={}),this.params.status=e?e.status:0;var n;"string"==typeof this.rxSize&&this.rxSize.length>0&&(n=+this.rxSize);var r={txSize:this.txSize,rxSize:n,duration:a.now()-this.startTime};s("xhr",[this.params,r,this.startTime])})}},{}],10:[function(t,e,n){var r={};e.exports=function(t){if(t in r)return r[t];var e=document.createElement("a"),n=window.location,i={};e.href=t,i.port=e.port;var o=e.href.split("://");!i.port&&o[1]&&(i.port=o[1].split("/")[0].split("@").pop().split(":")[1]),i.port&&"0"!==i.port||(i.port="https"===o[0]?"443":"80"),i.hostname=e.hostname||n.hostname,i.pathname=e.pathname,i.protocol=o[0],"/"!==i.pathname.charAt(0)&&(i.pathname="/"+i.pathname);var a=!e.protocol||":"===e.protocol||e.protocol===n.protocol,s=e.hostname===document.domain&&e.port===n.port;return i.sameOrigin=a&&(!e.hostname||s),"/"===i.pathname&&(r[t]=i),i}},{}],11:[function(t,e,n){function r(t,e){var n=t.responseType;return"json"===n&&null!==e?e:"arraybuffer"===n||"blob"===n||"json"===n?i(t.response):"text"===n||""===n||void 0===n?i(t.responseText):void 0}var i=t(14);e.exports=r},{}],12:[function(t,e,n){function r(){}function i(t,e,n){return function(){return o(t,[f.now()].concat(s(arguments)),e?null:this,n),e?void 0:this}}var o=t("handle"),a=t(22),s=t(23),c=t("ee").get("tracer"),f=t("loader"),u=NREUM;"undefined"==typeof window.newrelic&&(newrelic=u);var d=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",p=l+"ixn-";a(d,function(t,e){u[e]=i(l+e,!0,"api")}),u.addPageAction=i(l+"addPageAction",!0),u.setCurrentRouteName=i(l+"routeName",!0),e.exports=newrelic,u.interaction=function(){return(new r).get()};var h=r.prototype={createTracer:function(t,e){var n={},r=this,i="function"==typeof e;return o(p+"tracer",[f.now(),t,n],r),function(){if(c.emit((i?"":"no-")+"fn-start",[f.now(),r,i],n),i)try{return e.apply(this,arguments)}catch(t){throw c.emit("fn-err",[arguments,this,t],n),t}finally{c.emit("fn-end",[f.now()],n)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,e){h[e]=i(p+e)}),newrelic.noticeError=function(t,e){"string"==typeof t&&(t=new Error(t)),o("err",[t,f.now(),!1,e])}},{}],13:[function(t,e,n){function r(t){if(NREUM.init){for(var e=NREUM.init,n=t.split("."),r=0;r<n.length-1;r++)if(e=e[n[r]],"object"!=typeof e)return;return e=e[n[n.length-1]]}}e.exports={getConfiguration:r}},{}],14:[function(t,e,n){e.exports=function(t){if("string"==typeof t&&t.length)return t.length;if("object"==typeof t){if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if(!("undefined"!=typeof FormData&&t instanceof FormData))try{return JSON.stringify(t).length}catch(e){return}}}},{}],15:[function(t,e,n){var r=0,i=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);i&&(r=+i[1]),e.exports=r},{}],16:[function(t,e,n){function r(){return s.exists&&performance.now?Math.round(performance.now()):(o=Math.max((new Date).getTime(),o))-a}function i(){return o}var o=(new Date).getTime(),a=o,s=t(24);e.exports=r,e.exports.offset=a,e.exports.getLastTimestamp=i},{}],17:[function(t,e,n){function r(t){return!(!t||!t.protocol||"file:"===t.protocol)}e.exports=r},{}],18:[function(t,e,n){function r(t,e){var n=t.getEntries();n.forEach(function(t){"first-paint"===t.name?d("timing",["fp",Math.floor(t.startTime)]):"first-contentful-paint"===t.name&&d("timing",["fcp",Math.floor(t.startTime)])})}function i(t,e){var n=t.getEntries();n.length>0&&d("lcp",[n[n.length-1]])}function o(t){t.getEntries().forEach(function(t){t.hadRecentInput||d("cls",[t])})}function a(t){if(t instanceof h&&!v){var e=Math.round(t.timeStamp),n={type:t.type};e<=l.now()?n.fid=l.now()-e:e>l.offset&&e<=Date.now()?(e-=l.offset,n.fid=l.now()-e):e=l.now(),v=!0,d("timing",["fi",e,n])}}function s(t){"hidden"===t&&d("pageHide",[l.now()])}if(!("init"in NREUM&&"page_view_timing"in NREUM.init&&"enabled"in NREUM.init.page_view_timing&&NREUM.init.page_view_timing.enabled===!1)){var c,f,u,d=t("handle"),l=t("loader"),p=t(21),h=NREUM.o.EV;if("PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver){c=new PerformanceObserver(r);try{c.observe({entryTypes:["paint"]})}catch(m){}f=new PerformanceObserver(i);try{f.observe({entryTypes:["largest-contentful-paint"]})}catch(m){}u=new PerformanceObserver(o);try{u.observe({type:"layout-shift",buffered:!0})}catch(m){}}if("addEventListener"in document){var v=!1,g=["click","keydown","mousedown","pointerdown","touchstart"];g.forEach(function(t){document.addEventListener(t,a,!1)})}p(s)}},{}],19:[function(t,e,n){function r(){function t(){return e?15&e[n++]:16*Math.random()|0}var e=null,n=0,r=window.crypto||window.msCrypto;r&&r.getRandomValues&&(e=r.getRandomValues(new Uint8Array(31)));for(var i,o="xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx",a="",s=0;s<o.length;s++)i=o[s],"x"===i?a+=t().toString(16):"y"===i?(i=3&t()|8,a+=i.toString(16)):a+=i;return a}function i(){return a(16)}function o(){return a(32)}function a(t){function e(){return n?15&n[r++]:16*Math.random()|0}var n=null,r=0,i=window.crypto||window.msCrypto;i&&i.getRandomValues&&Uint8Array&&(n=i.getRandomValues(new Uint8Array(31)));for(var o=[],a=0;a<t;a++)o.push(e().toString(16));return o.join("")}e.exports={generateUuid:r,generateSpanId:i,generateTraceId:o}},{}],20:[function(t,e,n){function r(t,e){if(!i)return!1;if(t!==i)return!1;if(!e)return!0;if(!o)return!1;for(var n=o.split("."),r=e.split("."),a=0;a<r.length;a++)if(r[a]!==n[a])return!1;return!0}var i=null,o=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var s=navigator.userAgent,c=s.match(a);c&&s.indexOf("Chrome")===-1&&s.indexOf("Chromium")===-1&&(i="Safari",o=c[1])}e.exports={agent:i,version:o,match:r}},{}],21:[function(t,e,n){function r(t){function e(){t(a&&document[a]?document[a]:document[i]?"hidden":"visible")}"addEventListener"in document&&o&&document.addEventListener(o,e,!1)}e.exports=r;var i,o,a;"undefined"!=typeof document.hidden?(i="hidden",o="visibilitychange",a="visibilityState"):"undefined"!=typeof document.msHidden?(i="msHidden",o="msvisibilitychange"):"undefined"!=typeof document.webkitHidden&&(i="webkitHidden",o="webkitvisibilitychange",a="webkitVisibilityState")},{}],22:[function(t,e,n){function r(t,e){var n=[],r="",o=0;for(r in t)i.call(t,r)&&(n[o]=e(r,t[r]),o+=1);return n}var i=Object.prototype.hasOwnProperty;e.exports=r},{}],23:[function(t,e,n){function r(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,i=n-e||0,o=Array(i<0?0:i);++r<i;)o[r]=t[e+r];return o}e.exports=r},{}],24:[function(t,e,n){e.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(t,e,n){function r(){}function i(t){function e(t){return t&&t instanceof r?t:t?f(t,c,a):a()}function n(n,r,i,o,a){if(a!==!1&&(a=!0),!p.aborted||o){t&&a&&t(n,r,i);for(var s=e(i),c=m(n),f=c.length,u=0;u<f;u++)c[u].apply(s,r);var l=d[x[n]];return l&&l.push([y,n,r,s]),s}}function o(t,e){w[t]=m(t).concat(e)}function h(t,e){var n=w[t];if(n)for(var r=0;r<n.length;r++)n[r]===e&&n.splice(r,1)}function m(t){return w[t]||[]}function v(t){return l[t]=l[t]||i(n)}function g(t,e){p.aborted||u(t,function(t,n){e=e||"feature",x[n]=e,e in d||(d[e]=[])})}var w={},x={},y={on:o,addEventListener:o,removeEventListener:h,emit:n,get:v,listeners:m,context:e,buffer:g,abort:s,aborted:!1};return y}function o(t){return f(t,c,a)}function a(){return new r}function s(){(d.api||d.feature)&&(p.aborted=!0,d=p.backlog={})}var c="nr@context",f=t("gos"),u=t(22),d={},l={},p=e.exports=i();e.exports.getOrSetContext=o,p.backlog=d},{}],gos:[function(t,e,n){function r(t,e,n){if(i.call(t,e))return t[e];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:r,writable:!0,enumerable:!1}),r}catch(o){}return t[e]=r,r}var i=Object.prototype.hasOwnProperty;e.exports=r},{}],handle:[function(t,e,n){function r(t,e,n,r){i.buffer([t],r),i.emit(t,e,n)}var i=t("ee").get("handle");e.exports=r,r.ee=i},{}],id:[function(t,e,n){function r(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:a(t,o,function(){return i++})}var i=1,o="nr@id",a=t("gos");e.exports=r},{}],loader:[function(t,e,n){function r(){if(!M++){var t=O.info=NREUM.info,e=m.getElementsByTagName("script")[0];if(setTimeout(f.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&e))return f.abort();c(E,function(e,n){t[e]||(t[e]=n)});var n=a();s("mark",["onload",n+O.offset],null,"api"),s("timing",["load",n]);var r=m.createElement("script");0===t.agent.indexOf("http://")||0===t.agent.indexOf("https://")?r.src=t.agent:r.src=p+"://"+t.agent,e.parentNode.insertBefore(r,e)}}function i(){"complete"===m.readyState&&o()}function o(){s("mark",["domContent",a()+O.offset],null,"api")}var a=t(16),s=t("handle"),c=t(22),f=t("ee"),u=t(20),d=t(17),l=t(13),p=l.getConfiguration("ssl")===!1?"http":"https",h=window,m=h.document,v="addEventListener",g="attachEvent",w=h.XMLHttpRequest,x=w&&w.prototype,y=!d(h.location);NREUM.o={ST:setTimeout,SI:h.setImmediate,CT:clearTimeout,XHR:w,REQ:h.Request,EV:h.Event,PR:h.Promise,MO:h.MutationObserver};var b=""+location,E={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1210.min.js"},R=w&&x&&x[v]&&!/CriOS/.test(navigator.userAgent),O=e.exports={offset:a.getLastTimestamp(),now:a,origin:b,features:{},xhrWrappable:R,userAgent:u,disabled:y};if(!y){t(12),t(18),m[v]?(m[v]("DOMContentLoaded",o,!1),h[v]("load",r,!1)):(m[g]("onreadystatechange",i),h[g]("onload",r)),s("mark",["firstbyte",a.getLastTimestamp()],null,"api");var M=0}},{}],"wrap-function":[function(t,e,n){function r(t,e){function n(e,n,r,c,f){function nrWrapper(){var o,a,u,l;try{a=this,o=d(arguments),u="function"==typeof r?r(o,a):r||{}}catch(p){i([p,"",[o,a,c],u],t)}s(n+"start",[o,a,c],u,f);try{return l=e.apply(a,o)}catch(h){throw s(n+"err",[o,a,h],u,f),h}finally{s(n+"end",[o,a,l],u,f)}}return a(e)?e:(n||(n=""),nrWrapper[l]=e,o(e,nrWrapper,t),nrWrapper)}function r(t,e,r,i,o){r||(r="");var s,c,f,u="-"===r.charAt(0);for(f=0;f<e.length;f++)c=e[f],s=t[c],a(s)||(t[c]=n(s,u?c+r:r,i,c,o))}function s(n,r,o,a){if(!h||e){var s=h;h=!0;try{t.emit(n,r,o,e,a)}catch(c){i([c,n,r,o],t)}h=s}}return t||(t=u),n.inPlace=r,n.flag=l,n}function i(t,e){e||(e=u);try{e.emit("internal-error",t)}catch(n){}}function o(t,e,n){if(Object.defineProperty&&Object.keys)try{var r=Object.keys(t);return r.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(o){i([o],n)}for(var a in t)p.call(t,a)&&(e[a]=t[a]);return e}function a(t){return!(t&&t instanceof Function&&t.apply&&!t[l])}function s(t,e){var n=e(t);return n[l]=t,o(t,n,u),n}function c(t,e,n){var r=t[e];t[e]=s(r,n)}function f(){for(var t=arguments.length,e=new Array(t),n=0;n<t;++n)e[n]=arguments[n];return e}var u=t("ee"),d=t(23),l="nr@original",p=Object.prototype.hasOwnProperty,h=!1;e.exports=r,e.exports.wrapFunction=s,e.exports.wrapInPlace=c,e.exports.argsToArray=f},{}]},{},["loader",2,9]);</script>
 <meta property="fb:app_id" content="129848480405753" />
 <meta property="fb:pages" content="21819923015,329876903846185,459190287458280,106721516050,172994359388346" />
@@ -65,12 +65,12 @@
 
 
 <meta name="csrf-param" content="authenticity_token" />
-<meta name="csrf-token" content="tQaAFeUKgjbl24kUXkIKoU6M+nDsFtDUH154CeGZ6zxHUqxgPem4cfSwO1kw2OetKMj4bZbejfepaKa9JAit/A==" />
+<meta name="csrf-token" content="ofGPMntUdAjITaUcFCX7sVwM85o2OACY2h7O16eDNSP8mKrhX4ZGF1XMiI03g9HRFeue/79cExRHC32Bhg9tIw==" />
 
 <link rel="alternate" type="application/rss+xml" title="RSS" href="https://scpr.org/feeds/all_news" />
 <link rel="amphtml" href="https://www.scpr.org/programs/take-two/2014/11/25/40510/griffith-park-open-land-debate-a-tale-of-two-parks.amp" />
 
-<link rel="shortcut icon" type="image/x-icon" href="../../../../../../favicon.ico.html" />
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
 
 <script>
   window.fbAsyncInit = function() {
@@ -114,7 +114,7 @@
    }
  </script>
 
-    <link rel="stylesheet" media="screen" href="../../../../../../assets/application-7f7821ce515de5e972962c5c644583f6.css.html" />
+    <link rel="stylesheet" media="screen" href="/assets/application-7f7821ce515de5e972962c5c644583f6.css" />
     
     <!-- Start: GPT Async -->
 <script type='text/javascript'>
@@ -184,7 +184,7 @@
 <!-- chartbeat timing for load start -->
 <script type="text/javascript">var _sf_startpt=(new Date()).getTime()</script>
 
-    <script src="../../../../../../assets/application-5438c131fea4e82cd9b15c59115cba6e.js.html"></script>
+    <script src="/assets/application-5438c131fea4e82cd9b15c59115cba6e.js"></script>
     <script>
       // Function for lazy loading slideshow images
       function imgLoaded(img) {
@@ -212,7 +212,7 @@
 <nav class="o-mast o-mast--mobile">
   <div class="o-mast__nav-background"></div>
   <div class="o-mast__logo">
-    <a href="https://archive.kpcc.org/" class="o-mast__logo-link" class="track-event" data-ga-category="Menu" data-ga-action="Clickthrough" data-ga-label="Home">
+    <a href="/" class="o-mast__logo-link" class="track-event" data-ga-category="Menu" data-ga-action="Clickthrough" data-ga-label="Home">
       <svg>
         <use class="" xlink:href="/static/images/scpr-sprite.svg#logo_kpcc-black"/>
       </svg>
@@ -234,14 +234,14 @@
 
     <li class="o-mast__item o-mast__item--mobile-row">
       <span class="o-mast__caption--mobile" href="/news" class="track-event" data-ga-category="Menu" data-ga-action="Clickthrough" data-ga-label="News">Member-supported news for Southern California</span>
-      <a class="o-mast__nav-link o-mast__nav-link--listen-live" href="https://archive.kpcc.org/listen_live" class="track-event" data-ga-category="Menu" data-ga-action="Clickthrough" data-ga-label="Listen Live">Listen Live</a>
+      <a class="o-mast__nav-link o-mast__nav-link--listen-live" href="/listen_live" class="track-event" data-ga-category="Menu" data-ga-action="Clickthrough" data-ga-label="Listen Live">Listen Live</a>
     </li>
 
     <li class="o-mast__item">
-      <a class="o-mast__nav-link o-mast__nav-link--with-submenu o-mast__item--news" href="https://archive.kpcc.org/news" class="track-event" data-ga-category="Menu" data-ga-action="Clickthrough" data-ga-label="News">
+      <a class="o-mast__nav-link o-mast__nav-link--with-submenu o-mast__item--news" href="/news" class="track-event" data-ga-category="Menu" data-ga-action="Clickthrough" data-ga-label="News">
         News
       </a>
-      <a class="o-mast__nav-link o-mast__nav-link--with-submenu" href="https://archive.kpcc.org/programs" class="track-event" data-ga-category="Menu" data-ga-action="Clickthrough" data-ga-label="Programs">
+      <a class="o-mast__nav-link o-mast__nav-link--with-submenu" href="/programs" class="track-event" data-ga-category="Menu" data-ga-action="Clickthrough" data-ga-label="Programs">
         Programs
         <svg class="b-icon b-icon--size-sm b-icon--left">
           <use class="b-icon--line" xlink:href="/static/images/scpr-sprite.svg#icon_line-right-arrow"/>
@@ -252,10 +252,10 @@
           <h6 class="o-mast__section-heading">Featured Programs</h6>
           <ul class="o-mast__section-list">
               <li>
-                <a href="https://archive.kpcc.org/programs/airtalk">AirTalk</a>
+                <a href="/programs/airtalk">AirTalk</a>
               </li>
               <li>
-                <a href="https://archive.kpcc.org/programs/filmweek">FilmWeek</a>
+                <a href="/programs/filmweek">FilmWeek</a>
               </li>
           </ul>
         </div>
@@ -263,21 +263,21 @@
           <h6 class="o-mast__section-heading">All Programs</h6>
           <ul class="o-mast__section-list">
             <li>
-              <a href="https://archive.kpcc.org/programs">Programs A-Z</a>
+              <a href="/programs">Programs A-Z</a>
             </li>
             <li>
-              <a href="https://archive.kpcc.org/schedule">Program Schedule</a>
+              <a href="/schedule">Program Schedule</a>
             </li>
             <li>
-              <a href="https://archive.kpcc.org/podcasts">Podcasts</a>
+              <a href="/podcasts">Podcasts</a>
             </li>
             <li>
-              <a href="https://archive.kpcc.org/archive/2021/07/15/?section=programs">Archive</a>
+              <a href="/archive/2021/08/26/?section=programs">Archive</a>
             </li>
           </ul>
         </div>
       </div>
-      <a class="o-mast__nav-link o-mast__nav-link--with-submenu" href="https://archive.kpcc.org/events/kpcc-in-person" class="track-event" data-ga-category="Menu" data-ga-action="Clickthrough" data-ga-label="Events">
+      <a class="o-mast__nav-link o-mast__nav-link--with-submenu" href="/events/kpcc-in-person" class="track-event" data-ga-category="Menu" data-ga-action="Clickthrough" data-ga-label="Events">
         Events
         <svg class="b-icon b-icon--size-sm b-icon--left">
           <use class="b-icon--line" xlink:href="/static/images/scpr-sprite.svg#icon_line-right-arrow"/>
@@ -288,13 +288,13 @@
           <h6 class="o-mast__section-heading">KPCC In Person</h6>
           <ul class="o-mast__section-list">
             <li>
-              <a href="https://archive.kpcc.org/events/kpcc-in-person/list">KPCC In Person</a>
+              <a href="/events/kpcc-in-person/list">KPCC In Person</a>
             </li>
             <li>
-              <a href="https://archive.kpcc.org/events/kpcc-in-person/upcoming">Upcoming Events</a>
+              <a href="/events/kpcc-in-person/upcoming">Upcoming Events</a>
             </li>
             <li>
-              <a href="https://archive.kpcc.org/events/kpcc-in-person/archive">Past Events</a>
+              <a href="/events/kpcc-in-person/archive">Past Events</a>
             </li>
           </ul>
         </div>
@@ -310,7 +310,7 @@
     </li>
 
     <li class="o-mast__item">
-      <a class="o-mast__nav-link o-mast__nav-link--with-submenu" href="https://archive.kpcc.org/support" class="track-event" data-ga-category="Menu" data-ga-action="Clickthrough" data-ga-label="Support Us">
+      <a class="o-mast__nav-link o-mast__nav-link--with-submenu" href="/support" class="track-event" data-ga-category="Menu" data-ga-action="Clickthrough" data-ga-label="Support Us">
         Support Us
         <svg class="b-icon b-icon--size-sm b-icon--left">
           <use class="b-icon--line" xlink:href="/static/images/scpr-sprite.svg#icon_line-right-arrow"/>
@@ -335,19 +335,19 @@
         <div class="o-mast__section">
           <ul class="o-mast__section-list o-mast__section-list--no-heading text-columns--sm-2">
             <li>
-              <a href="https://archive.kpcc.org/about/faq/#membership">About sustaining membership</a>
+              <a href="/about/faq/#membership">About sustaining membership</a>
             </li>
             <li>
               <a href="https://support.kpcc.org/ccupdate&_ga=1.206361616.2096948162.1473892732">Update your credit card</a>
             </li>
             <li>
-              <a href="https://archive.kpcc.org/about/faq/#membership">Member benefits</a>
+              <a href="/about/faq/#membership">Member benefits</a>
             </li>
           </ul>
           <h6 class="o-mast__section-heading" style="margin-top: 2em;">Ways to Support</h6>
           <ul class="o-mast__section-list text-columns--sm-2">
             <li>
-              <a href="https://archive.kpcc.org/gala">
+              <a href="/gala">
                 Annual Gala
               </a>
             </li>
@@ -356,7 +356,7 @@
       </div>
       </div>
       </div>
-      <a class="o-mast__nav-link o-mast__nav-link--with-submenu" href="https://archive.kpcc.org/about" class="track-event" data-ga-category="Menu" data-ga-action="Clickthrough" data-ga-label="About Us">
+      <a class="o-mast__nav-link o-mast__nav-link--with-submenu" href="/about" class="track-event" data-ga-category="Menu" data-ga-action="Clickthrough" data-ga-label="About Us">
         About Us
         <svg class="b-icon b-icon--size-sm b-icon--left">
           <use class="b-icon--line" xlink:href="/static/images/scpr-sprite.svg#icon_line-right-arrow"/>
@@ -379,19 +379,19 @@
               </a>
             </li>
             <li>
-              <a href="https://archive.kpcc.org/contact">Contact us</a>
+              <a href="/contact">Contact us</a>
             </li>
             <li>
-              <a href="https://archive.kpcc.org/network">Become a source</a>
+              <a href="/network">Become a source</a>
             </li>
             <li>
-              <a href="https://archive.kpcc.org/contact/#form">Share a news tip</a>
+              <a href="/contact/#form">Share a news tip</a>
             </li>
           </ul>
           <h6 class="o-mast__section-heading">Learn more about us</h6>
           <ul class="o-mast__section-list">
             <li>
-              <a href="https://archive.kpcc.org/about">About KPCC</a>
+              <a href="/about">About KPCC</a>
             </li>
           </ul>
         </div>
@@ -399,19 +399,19 @@
           <h6 class="o-mast__section-heading">People</h6>
           <ul class="o-mast__section-list">
             <li>
-              <a href="https://archive.kpcc.org/about/people/staff">Staff Directory</a>
+              <a href="/about/people/staff">Staff Directory</a>
             </li>
             <li>
-              <a href="https://archive.kpcc.org/about/people/leadership">Executive leadership</a>
+              <a href="/about/people/leadership">Executive leadership</a>
             </li>
             <li>
-              <a href="https://archive.kpcc.org/about/people/board">Board of Trustees</a>
+              <a href="/about/people/board">Board of Trustees</a>
             </li>
             <li>
-              <a href="https://archive.kpcc.org/about/people/council">Regional Advisory Council</a>
+              <a href="/about/people/council">Regional Advisory Council</a>
             </li>
             <li>
-              <a href="https://archive.kpcc.org/jobs">Careers</a>
+              <a href="/jobs">Careers</a>
             </li>
           </ul>
         </div>
@@ -445,7 +445,7 @@
 
   <div class="o-mast__action o-mast__search">
 
-    <form method="get" action="https://archive.kpcc.org/search/">
+    <form method="get" action="/search/">
       <input type="text" placeholder="Enter your search here" name="q" id="q" />
       <label for="o-mast__search-toggler-checkbox" class="o-mast__search-link" href="#">
         <svg class="b-icon b-icon--search-open">
@@ -500,8 +500,8 @@
   </div>
 </div>
         <section id="o-prologue--program__segment" class="o-prologue o-prologue--program">
-    <a class="o-prologue__logo" href="https://archive.kpcc.org/programs/take-two">
-        <object data='../../../../../../assets/show-logos/take-two-0e428b2841280a2b22b5b2255329c774.svg' type="image/svg+xml"></object>
+    <a class="o-prologue__logo" href="/programs/take-two">
+        <object data='/assets/show-logos/take-two-0e428b2841280a2b22b5b2255329c774.svg' type="image/svg+xml"></object>
     </a>
     <span class="o-prologue__description">
       <div class="o-prologue__teaser">
@@ -556,21 +556,21 @@
   <aside class=""  >
   <ul class="o-social-tools o-social-tools--vert">
     <li class="email">
-      <a href="https://archive.kpcc.org/content/share?obj_key=show_segment-40510" class="social_email b-popup__link track-event email" target="_blank" data-key="show_segment-40510" data-ga-category="Article" data-ga-action="Share" data-ga-label="Email">
+      <a href="/content/share?obj_key=show_segment-40510" class="social_email b-popup__link track-event email" target="_blank" data-key="show_segment-40510" data-ga-category="Article" data-ga-action="Share" data-ga-label="Email">
         <svg class="b-icon">
           <use class="b-icon--color-gray-light" xlink:href="/static/images/scpr-sprite.svg#icon_line-email"/>
         </svg>
       </a>
     </li>
     <li class="facebook">
-      <a href="griffith-park-open-land-debate-a-tale-of-two-parks.html#" class="social_fb b-popup__link track-event facebook" data-ga-category="Article" data-ga-action="Share" data-ga-label="Facebook" data-url="https://www.scpr.org/programs/take-two/2014/11/25/40510/griffith-park-open-land-debate-a-tale-of-two-parks/">
+      <a href="#" class="social_fb b-popup__link track-event facebook" data-ga-category="Article" data-ga-action="Share" data-ga-label="Facebook" data-url="https://www.scpr.org/programs/take-two/2014/11/25/40510/griffith-park-open-land-debate-a-tale-of-two-parks/">
         <svg class="b-icon">
           <use class="b-icon--color-gray-light" xlink:href="/static/images/scpr-sprite.svg#icon_line-facebook-inverted"/>
         </svg>
       </a>
     </li>
     <li class="twitter">
-      <a href="griffith-park-open-land-debate-a-tale-of-two-parks.html#" class="social_twit b-popup__link track-event twitter" data-ga-category="Article" data-ga-action="Share" data-ga-label="Twitter" data-url="https://www.scpr.org/programs/take-two/2014/11/25/40510/griffith-park-open-land-debate-a-tale-of-two-parks/" data-text="Griffith%20Park%20open%20land%20debate%3A%20A%20tale%20of%20two%20parks">
+      <a href="#" class="social_twit b-popup__link track-event twitter" data-ga-category="Article" data-ga-action="Share" data-ga-label="Twitter" data-url="https://www.scpr.org/programs/take-two/2014/11/25/40510/griffith-park-open-land-debate-a-tale-of-two-parks/" data-text="Griffith%20Park%20open%20land%20debate%3A%20A%20tale%20of%20two%20parks">
         <svg class="b-icon">
           <use class="b-icon--color-gray-light" xlink:href="/static/images/scpr-sprite.svg#icon_line-twitter"/>
         </svg>
@@ -610,7 +610,7 @@
 </aside><hr class="b-rule l-column--right" style="order: 12;" />
 
 <aside class="o-content-cluster l-column--right" style="order: 1000;" >
-  <h6 class="b-heading b-heading--h6 b-heading--uppercase u-text-color--gray b-heading--medium">Recently on <a class="u-text-color--sec" href="https://archive.kpcc.org/programs/take-two/">Take Two</a></h6>
+  <h6 class="b-heading b-heading--h6 b-heading--uppercase u-text-color--gray b-heading--medium">Recently on <a class="u-text-color--sec" href="/programs/take-two/">Take Two</a></h6>
   <ul class="o-content-cluster c-list c-list--horiz">
     <li class="o-content-cluster__content">
       <div class="o-content-cluster__thumb o-figure o-figure--four-by-three">
@@ -657,10 +657,10 @@
   
   <div class="o-content-cluster__description b-heading--book">Join Take Two each weekday at 9 AM where we’ll translate the day’s headlines for Southern California, making sense of the news and cultural events that people are talking about. Find us on 89.3 KPCC, hosted by A Martinez.</div>
   <ul class="o-content-cluster__share-links c-list">
-    <li class="facebook"><a class="o-content-cluster__share-link o-content-cluster__share-link--facebook" target="_blank" href="http://www.facebook.com/pages/Take-Two/459190287458280"><img src="../../../../../../assets/o-content-cluster/fb-8934354f645db213e32f34bbf7f3f90c.svg" alt="Fb" />Facebook</a></li>
-    <li class="podcast"><a class="o-content-cluster__share-link o-content-cluster__share-link--podcast" target="_blank" href="http://itunes.apple.com/us/podcast/take-two/id567838996"><img src="../../../../../../assets/o-content-cluster/podcast-8915a415f08811b53a8d529d66cb64bc.svg" alt="Podcast" />Podcast</a></li>
-    <li class="email"><a class="o-content-cluster__share-link o-content-cluster__share-link--rss" target="_blank" href="http://feeds.scpr.org/kpcc-taketwo"><img src="../../../../../../assets/o-content-cluster/rss-385fdd214a4b2e307f9490b6eb1d0707.svg" alt="Rss" />RSS</a></li>
-    <li class="email"><a class="o-content-cluster__share-link o-content-cluster__share-link--email" href="mailto:taketwoshow@scpr.org"><img src="../../../../../../assets/o-content-cluster/email-b032c46846c97c9e50da171e1a5ba68c.svg" alt="Email" />Email</a></li>
+    <li class="facebook"><a class="o-content-cluster__share-link o-content-cluster__share-link--facebook" target="_blank" href="http://www.facebook.com/pages/Take-Two/459190287458280"><img src="/assets/o-content-cluster/fb-8934354f645db213e32f34bbf7f3f90c.svg" alt="Fb" />Facebook</a></li>
+    <li class="podcast"><a class="o-content-cluster__share-link o-content-cluster__share-link--podcast" target="_blank" href="http://itunes.apple.com/us/podcast/take-two/id567838996"><img src="/assets/o-content-cluster/podcast-8915a415f08811b53a8d529d66cb64bc.svg" alt="Podcast" />Podcast</a></li>
+    <li class="email"><a class="o-content-cluster__share-link o-content-cluster__share-link--rss" target="_blank" href="http://feeds.scpr.org/kpcc-taketwo"><img src="/assets/o-content-cluster/rss-385fdd214a4b2e307f9490b6eb1d0707.svg" alt="Rss" />RSS</a></li>
+    <li class="email"><a class="o-content-cluster__share-link o-content-cluster__share-link--email" href="mailto:taketwoshow@scpr.org"><img src="/assets/o-content-cluster/email-b032c46846c97c9e50da171e1a5ba68c.svg" alt="Email" />Email</a></li>
   </ul>
 </aside>
 
@@ -723,21 +723,21 @@
 <aside class=""  >
   <ul class="o-social-tools o-social-tools--horiz">
     <li class="email">
-      <a href="https://archive.kpcc.org/content/share?obj_key=show_segment-40510" class="social_email b-popup__link track-event email" target="_blank" data-key="show_segment-40510" data-ga-category="Article" data-ga-action="Share" data-ga-label="Email">
+      <a href="/content/share?obj_key=show_segment-40510" class="social_email b-popup__link track-event email" target="_blank" data-key="show_segment-40510" data-ga-category="Article" data-ga-action="Share" data-ga-label="Email">
         <svg class="b-icon">
           <use class="b-icon--color-gray-light" xlink:href="/static/images/scpr-sprite.svg#icon_line-email"/>
         </svg>
       </a>
     </li>
     <li class="facebook">
-      <a href="griffith-park-open-land-debate-a-tale-of-two-parks.html#" class="social_fb b-popup__link track-event facebook" data-ga-category="Article" data-ga-action="Share" data-ga-label="Facebook" data-url="https://www.scpr.org/programs/take-two/2014/11/25/40510/griffith-park-open-land-debate-a-tale-of-two-parks/">
+      <a href="#" class="social_fb b-popup__link track-event facebook" data-ga-category="Article" data-ga-action="Share" data-ga-label="Facebook" data-url="https://www.scpr.org/programs/take-two/2014/11/25/40510/griffith-park-open-land-debate-a-tale-of-two-parks/">
         <svg class="b-icon">
           <use class="b-icon--color-gray-light" xlink:href="/static/images/scpr-sprite.svg#icon_line-facebook-inverted"/>
         </svg>
       </a>
     </li>
     <li class="twitter">
-      <a href="griffith-park-open-land-debate-a-tale-of-two-parks.html#" class="social_twit b-popup__link track-event twitter" data-ga-category="Article" data-ga-action="Share" data-ga-label="Twitter" data-url="https://www.scpr.org/programs/take-two/2014/11/25/40510/griffith-park-open-land-debate-a-tale-of-two-parks/" data-text="Griffith%20Park%20open%20land%20debate%3A%20A%20tale%20of%20two%20parks">
+      <a href="#" class="social_twit b-popup__link track-event twitter" data-ga-category="Article" data-ga-action="Share" data-ga-label="Twitter" data-url="https://www.scpr.org/programs/take-two/2014/11/25/40510/griffith-park-open-land-debate-a-tale-of-two-parks/" data-text="Griffith%20Park%20open%20land%20debate%3A%20A%20tale%20of%20two%20parks">
         <svg class="b-icon">
           <use class="b-icon--color-gray-light" xlink:href="/static/images/scpr-sprite.svg#icon_line-twitter"/>
         </svg>
@@ -783,59 +783,59 @@
   <h6 class="b-heading b-heading--h6 b-heading--uppercase u-text-color--gray">Related links</h6>
   <ul class="c-list c-list--vert c-list--bullet c-list--bullet-lightest">
       <li class="b-heading--medium">
-        <a href="https://archive.kpcc.org/news/2014/11/25/48280/proposed-trails-would-cross-where-mountain-lion-p/">Trails would cross where iconic cougar entered Griffith Park</a>
+        <a href="/news/2014/11/25/48280/proposed-trails-would-cross-where-mountain-lion-p/">Trails would cross where iconic cougar entered Griffith Park</a>
       </li>
   </ul>
 </aside>
 
 <aside class="o-more-from-episode " style="order: 999;">
-  <span class="o-more-from-episode__message">More from this episode:</span> <a class="o-more-from-episode__link b-link--callout b-heading--book b-link" href="https://archive.kpcc.org/programs/take-two/2014/11/25/10966/">Take Two FOR November 25, 2014</a>
-  <h3 class="b-heading b-heading--h3 b-heading--serif"><a href="https://archive.kpcc.org/programs/take-two/2014/11/25/10966/">Ferguson decision aftermath, what US-Mexico border sounds like, Shazam app's effect on music industry</a></h3>
+  <span class="o-more-from-episode__message">More from this episode:</span> <a class="o-more-from-episode__link b-link--callout b-heading--book b-link" href="/programs/take-two/2014/11/25/10966/">Take Two FOR November 25, 2014</a>
+  <h3 class="b-heading b-heading--h3 b-heading--serif"><a href="/programs/take-two/2014/11/25/10966/">Ferguson decision aftermath, what US-Mexico border sounds like, Shazam app's effect on music industry</a></h3>
   <ul class="c-list c-list--vert c-list--bullet">
       <li class="b-heading--medium">
-        <a href="../40505/ferguson-decision-prompts-protests-across-the-nati.html">Ferguson decision prompts protests across the nation</a>
+        <a href="/programs/take-two/2014/11/25/40505/ferguson-decision-prompts-protests-across-the-nati/">Ferguson decision prompts protests across the nation</a>
       </li>
       <li class="b-heading--medium">
-        <a href="../40504/how-can-distrust-between-police-and-communities-of.html">How can distrust between police and communities of color be resolved?</a>
+        <a href="/programs/take-two/2014/11/25/40504/how-can-distrust-between-police-and-communities-of/">How can distrust between police and communities of color be resolved?</a>
       </li>
       <li class="b-heading--medium">
-        <a href="../40509/grand-juries-their-role-process-and-ferguson.html">Grand juries: Their role, process and Ferguson</a>
+        <a href="/programs/take-two/2014/11/25/40509/grand-juries-their-role-process-and-ferguson/">Grand juries: Their role, process and Ferguson</a>
       </li>
       <li class="b-heading--medium">
-        <a href="../40503/artists-use-lost-objects-to-tell-the-story-of-us-m.html">Artists use lost objects to tell the story of US-Mexico border</a>
+        <a href="/programs/take-two/2014/11/25/40503/artists-use-lost-objects-to-tell-the-story-of-us-m/">Artists use lost objects to tell the story of US-Mexico border</a>
       </li>
       <li class="b-heading--medium">
-        <a href="../../26/40499/tuesday-reviewsday-azealia-banks-prhyme-and-more.html">Tuesday Reviewsday: Azealia Banks, Prhyme and more</a>
+        <a href="/programs/take-two/2014/11/26/40499/tuesday-reviewsday-azealia-banks-prhyme-and-more/">Tuesday Reviewsday: Azealia Banks, Prhyme and more</a>
       </li>
       <li class="b-heading--medium">
-        <a href="../40519/how-shazam-helps-music-execs-find-the-next-big-thi.html">How Shazam helps music execs find the next big thing</a>
+        <a href="/programs/take-two/2014/11/25/40519/how-shazam-helps-music-execs-find-the-next-big-thi/">How Shazam helps music execs find the next big thing</a>
       </li>
       <li class="b-heading--medium">
-        <a href="../40506/tech-workers-disappointed-by-obama-on-immigration.html">Tech workers disappointed by Obama on immigration</a>
+        <a href="/programs/take-two/2014/11/25/40506/tech-workers-disappointed-by-obama-on-immigration/">Tech workers disappointed by Obama on immigration</a>
       </li>
       <li class="b-heading--medium">
-        <a href="griffith-park-open-land-debate-a-tale-of-two-parks.html">Griffith Park open land debate: A tale of two parks</a>
+        <a href="/programs/take-two/2014/11/25/40510/griffith-park-open-land-debate-a-tale-of-two-parks/">Griffith Park open land debate: A tale of two parks</a>
       </li>
       <li class="b-heading--medium">
-        <a href="../40507/runyon-canyon-now-has-valet-parking-huh.html">Runyon Canyon now has valet parking. Huh?</a>
+        <a href="/programs/take-two/2014/11/25/40507/runyon-canyon-now-has-valet-parking-huh/">Runyon Canyon now has valet parking. Huh?</a>
       </li>
       <li class="b-heading--medium">
-        <a href="../40517/why-turkey-on-thanksgiving-a-food-historian-explai.html">Why turkey on Thanksgiving? A food historian explains</a>
+        <a href="/programs/take-two/2014/11/25/40517/why-turkey-on-thanksgiving-a-food-historian-explai/">Why turkey on Thanksgiving? A food historian explains</a>
       </li>
       <li class="b-heading--medium">
-        <a href="../40508/what-dishes-make-you-say-no-thanks-at-thanksgiving.html">What dishes make you say 'no, thanks,' at Thanksgiving?</a>
+        <a href="/programs/take-two/2014/11/25/40508/what-dishes-make-you-say-no-thanks-at-thanksgiving/">What dishes make you say 'no, thanks,' at Thanksgiving?</a>
       </li>
       <li class="b-heading--medium">
-        <a href="../40515/fda-sets-new-calorie-labeling-rules-for-restaurant.html">FDA sets new calorie labeling rules for restaurants, movie theaters, other food sellers </a>
+        <a href="/programs/take-two/2014/11/25/40515/fda-sets-new-calorie-labeling-rules-for-restaurant/">FDA sets new calorie labeling rules for restaurants, movie theaters, other food sellers </a>
       </li>
       <li class="b-heading--medium">
-        <a href="../40516/hong-kong-protests-for-democracy-continue.html">Hong Kong protests for democracy continue</a>
+        <a href="/programs/take-two/2014/11/25/40516/hong-kong-protests-for-democracy-continue/">Hong Kong protests for democracy continue</a>
       </li>
       <li class="b-heading--medium">
-        <a href="../40518/future-uncertain-for-california-students-in-colleg.html">Future uncertain for California students in college campus sell-off</a>
+        <a href="/programs/take-two/2014/11/25/40518/future-uncertain-for-california-students-in-colleg/">Future uncertain for California students in college campus sell-off</a>
       </li>
       <li class="b-heading--medium">
-        <a href="../40514/100-days-in-ferguson-new-film-documents-community.html">'100 days in Ferguson': New film documents community after Michael Brown shooting </a>
+        <a href="/programs/take-two/2014/11/25/40514/100-days-in-ferguson-new-film-documents-community/">'100 days in Ferguson': New film documents community after Michael Brown shooting </a>
       </li>
   </ul>
 </aside>
@@ -844,21 +844,21 @@
 <aside class=""  >
   <ul class="o-social-tools o-social-tools--horiz">
     <li class="email">
-      <a href="https://archive.kpcc.org/content/share?obj_key=show_segment-40510" class="social_email b-popup__link track-event email" target="_blank" data-key="show_segment-40510" data-ga-category="Article" data-ga-action="Share" data-ga-label="Email">
+      <a href="/content/share?obj_key=show_segment-40510" class="social_email b-popup__link track-event email" target="_blank" data-key="show_segment-40510" data-ga-category="Article" data-ga-action="Share" data-ga-label="Email">
         <svg class="b-icon">
           <use class="b-icon--color-gray-light" xlink:href="/static/images/scpr-sprite.svg#icon_line-email"/>
         </svg>
       </a>
     </li>
     <li class="facebook">
-      <a href="griffith-park-open-land-debate-a-tale-of-two-parks.html#" class="social_fb b-popup__link track-event facebook" data-ga-category="Article" data-ga-action="Share" data-ga-label="Facebook" data-url="https://www.scpr.org/programs/take-two/2014/11/25/40510/griffith-park-open-land-debate-a-tale-of-two-parks/">
+      <a href="#" class="social_fb b-popup__link track-event facebook" data-ga-category="Article" data-ga-action="Share" data-ga-label="Facebook" data-url="https://www.scpr.org/programs/take-two/2014/11/25/40510/griffith-park-open-land-debate-a-tale-of-two-parks/">
         <svg class="b-icon">
           <use class="b-icon--color-gray-light" xlink:href="/static/images/scpr-sprite.svg#icon_line-facebook-inverted"/>
         </svg>
       </a>
     </li>
     <li class="twitter">
-      <a href="griffith-park-open-land-debate-a-tale-of-two-parks.html#" class="social_twit b-popup__link track-event twitter" data-ga-category="Article" data-ga-action="Share" data-ga-label="Twitter" data-url="https://www.scpr.org/programs/take-two/2014/11/25/40510/griffith-park-open-land-debate-a-tale-of-two-parks/" data-text="Griffith%20Park%20open%20land%20debate%3A%20A%20tale%20of%20two%20parks">
+      <a href="#" class="social_twit b-popup__link track-event twitter" data-ga-category="Article" data-ga-action="Share" data-ga-label="Twitter" data-url="https://www.scpr.org/programs/take-two/2014/11/25/40510/griffith-park-open-land-debate-a-tale-of-two-parks/" data-text="Griffith%20Park%20open%20land%20debate%3A%20A%20tale%20of%20two%20parks">
         <svg class="b-icon">
           <use class="b-icon--color-gray-light" xlink:href="/static/images/scpr-sprite.svg#icon_line-twitter"/>
         </svg>
@@ -894,18 +894,18 @@
 
 <section class="o-featured-programs l-column--boundless"  style="order: 1001">
   <h2 class="o-featured-programs__heading">Enjoy Take Two? Try KPCC’s other programs.</h2>
-  <a class="o-featured-programs__all-programs-link" href="https://archive.kpcc.org/programs"><span class="b-link--callout">See all of our programs</span></a>
+  <a class="o-featured-programs__all-programs-link" href="/programs"><span class="b-link--callout">See all of our programs</span></a>
     <div class="o-featured-programs__program">
 
-      <a href="https://archive.kpcc.org/programs/airtalk/">
+      <a href="/programs/airtalk/">
         <figure class="o-featured-programs__program-figure o-figure o-figure--widescreen">
-          <img class="o-figure__img" src="../../../../../../assets/programs/airtalk-4412b6c8664a6b9b729a358b4bd76379.jpg" style="background-image: url(../../../../../../assets/programs/airtalk-4412b6c8664a6b9b729a358b4bd76379.jpg);">
+          <img class="o-figure__img" src="/assets/programs/airtalk-4412b6c8664a6b9b729a358b4bd76379.jpg" style="background-image: url(/assets/programs/airtalk-4412b6c8664a6b9b729a358b4bd76379.jpg);">
         </figure>
       </a>
 
       <div class="o-featured-programs__program-description">
-        <h1 class="o-featured-programs__program-title"><a href="https://archive.kpcc.org/programs/airtalk/">AirTalk</a></h1>
-        <h2 class="o-featured-programs__program-host"><a href="https://archive.kpcc.org/programs/airtalk/">With Larry Mantle</a></h2>
+        <h1 class="o-featured-programs__program-title"><a href="/programs/airtalk/">AirTalk</a></h1>
+        <h2 class="o-featured-programs__program-host"><a href="/programs/airtalk/">With Larry Mantle</a></h2>
         <h3 class="o-featured-programs__program-airtime">Weekdays 10 am - 12 pm</h3>
         <p class="o-featured-programs__program-teaser">Lively and in-depth discussions of city news, politics, science, entertainment, the arts, and more.</p>
       </div>
@@ -914,7 +914,7 @@
           <div class="o-featured-programs__program-footer-date">
             Latest <time datetime="2021-07-06 09:45:00 -0700">Jul.6</time>
           </div>
-          <a href="https://archive.kpcc.org/programs/airtalk/2021/07/06/21864/">
+          <a href="/programs/airtalk/2021/07/06/21864/">
             <div class="o-featured-programs__program-headline">
               COVID-19 AMA: National Vaccination Campaign, Variants And Vaccinating Animals 
             </div>
@@ -923,15 +923,15 @@
     </div>
     <div class="o-featured-programs__program">
 
-      <a href="https://archive.kpcc.org/programs/filmweek/">
+      <a href="/programs/filmweek/">
         <figure class="o-featured-programs__program-figure o-figure o-figure--widescreen">
-          <img class="o-figure__img" src="../../../../../../assets/programs/filmweek-7f098addfc273da97d493045e8635352.jpg" style="background-image: url(../../../../../../assets/programs/filmweek-7f098addfc273da97d493045e8635352.jpg);">
+          <img class="o-figure__img" src="/assets/programs/filmweek-7f098addfc273da97d493045e8635352.jpg" style="background-image: url(/assets/programs/filmweek-7f098addfc273da97d493045e8635352.jpg);">
         </figure>
       </a>
 
       <div class="o-featured-programs__program-description">
-        <h1 class="o-featured-programs__program-title"><a href="https://archive.kpcc.org/programs/filmweek/">FilmWeek</a></h1>
-        <h2 class="o-featured-programs__program-host"><a href="https://archive.kpcc.org/programs/filmweek/">With Larry Mantle</a></h2>
+        <h1 class="o-featured-programs__program-title"><a href="/programs/filmweek/">FilmWeek</a></h1>
+        <h2 class="o-featured-programs__program-host"><a href="/programs/filmweek/">With Larry Mantle</a></h2>
         <h3 class="o-featured-programs__program-airtime">Friday 11 am - noon</h3>
         <p class="o-featured-programs__program-teaser">Reviews of the week's new movies, interviews with filmmakers, and discussion.</p>
       </div>
@@ -940,7 +940,7 @@
           <div class="o-featured-programs__program-footer-date">
             Latest <time datetime="2021-07-02 09:26:00 -0700">Jul.2</time>
           </div>
-          <a href="https://archive.kpcc.org/programs/filmweek/2021/07/02/21861/">
+          <a href="/programs/filmweek/2021/07/02/21861/">
             <div class="o-featured-programs__program-headline">
               FilmWeek: ‘The Boss Baby: Family Business,’ ‘Long Story Short,’ ‘No Sudden Movement,’ And More 
             </div>
@@ -955,48 +955,48 @@
   <h4 class="o-popular-stories__heading b-heading b-heading--h4 b-heading--uppercase u-text-color--gray-warm b-heading--medium">What's popular now on KPCC</h4>
     <div class="o-popular-stories__story track-event">
       <figure class="o-popular-stories__figure o-figure o-figure--four-by-three">
-        <a data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="Popular Now Quadrant" href="https://archive.kpcc.org/news/2021/07/16/98496/federal-judge-rules-against-daca-program-but-curre/">
-        <img class="o-figure__img" src="https://a.scpr.org/i/92ae57ecfaada94b8dec8133301841f9/234276-full.jpg" style="background-image: url(https://a.scpr.org/i/92ae57ecfaada94b8dec8133301841f9/234276-full.jpg)" />
+        <a data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="Popular Now Quadrant" href="/news/2021/08/27/99010/a-u-s-intelligence-report-fails-to-pinpoint-covid/">
+        <img class="o-figure__img" src="https://a.scpr.org/i/59d668f71ceddb95fd85b2c74ff3dbe0/234805-full.jpg" style="background-image: url(https://a.scpr.org/i/59d668f71ceddb95fd85b2c74ff3dbe0/234805-full.jpg)" />
 </a>        <figcaption class="o-popular-stories__caption">
-          <a data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="Popular Now Quadrant" href="https://archive.kpcc.org/news/2021/07/16/98496/federal-judge-rules-against-daca-program-but-curre/">
-          Federal Judge Rules Against DACA Program But Current Recipients Are Safe For Now
+          <a data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="Popular Now Quadrant" href="/news/2021/08/27/99010/a-u-s-intelligence-report-fails-to-pinpoint-covid/">
+          A U.S. Intelligence Report Fails To Pinpoint COVID's Origins 
 </a>        </figcaption>
       </figure>
     </div>
     <div class="o-popular-stories__story track-event">
       <figure class="o-popular-stories__figure o-figure o-figure--four-by-three">
-        <a data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="Popular Now Quadrant" href="https://archive.kpcc.org/news/2021/07/16/98495/mystery-surrounds-florida-company-suspected-in-ass/">
-        <img class="o-figure__img" src="https://a.scpr.org/i/343a3275fe2fd6624fa936e7f74547d6/234273-full.jpg" style="background-image: url(https://a.scpr.org/i/343a3275fe2fd6624fa936e7f74547d6/234273-full.jpg)" />
+        <a data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="Popular Now Quadrant" href="/news/2021/08/27/99009/peloton-says-it-s-been-subpoenaed-by-doj-and-dhs-o/">
+        <img class="o-figure__img" src="https://a.scpr.org/i/d116dd563eb2b33c35b08772770cc978/234804-full.jpg" style="background-image: url(https://a.scpr.org/i/d116dd563eb2b33c35b08772770cc978/234804-full.jpg)" />
 </a>        <figcaption class="o-popular-stories__caption">
-          <a data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="Popular Now Quadrant" href="https://archive.kpcc.org/news/2021/07/16/98495/mystery-surrounds-florida-company-suspected-in-ass/">
-          Mystery Surrounds Florida Company Suspected In Assassination of Haiti's President
+          <a data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="Popular Now Quadrant" href="/news/2021/08/27/99009/peloton-says-it-s-been-subpoenaed-by-doj-and-dhs-o/">
+          Peloton Says It's Been Subpoenaed By DOJ And DHS Over Its Product Injury Reporting
 </a>        </figcaption>
       </figure>
     </div>
     <div class="o-popular-stories__story track-event">
       <figure class="o-popular-stories__figure o-figure o-figure--four-by-three">
-        <a data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="Popular Now Quadrant" href="https://archive.kpcc.org/news/2021/07/16/98494/u-s-covid-deaths-are-rising-again-experts-call-it/">
-        <img class="o-figure__img" src="https://a.scpr.org/i/c3193aa3ed5dc3bd5e1a22d26dcab8c3/234272-full.jpg" style="background-image: url(https://a.scpr.org/i/c3193aa3ed5dc3bd5e1a22d26dcab8c3/234272-full.jpg)" />
+        <a data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="Popular Now Quadrant" href="/news/2021/08/27/99008/the-u-s-has-set-up-a-mass-vaccination-site-for-afg/">
+        <img class="o-figure__img" src="https://a.scpr.org/i/3eb3e541688e115debdec435d4172dd6/234803-full.jpg" style="background-image: url(https://a.scpr.org/i/3eb3e541688e115debdec435d4172dd6/234803-full.jpg)" />
 </a>        <figcaption class="o-popular-stories__caption">
-          <a data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="Popular Now Quadrant" href="https://archive.kpcc.org/news/2021/07/16/98494/u-s-covid-deaths-are-rising-again-experts-call-it/">
-          U.S. COVID Deaths Are Rising Again. Experts Call It A 'Pandemic Of The Unvaccinated'
+          <a data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="Popular Now Quadrant" href="/news/2021/08/27/99008/the-u-s-has-set-up-a-mass-vaccination-site-for-afg/">
+          The U.S. Has Set Up A Mass Vaccination Site For Afghans Arriving In Virginia
 </a>        </figcaption>
       </figure>
     </div>
     <div class="o-popular-stories__story track-event">
       <figure class="o-popular-stories__figure o-figure o-figure--four-by-three">
-        <a data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="Popular Now Quadrant" href="https://archive.kpcc.org/news/2021/07/16/98493/virginia-shifts-700-million-in-relief-funds-to-boo/">
-        <img class="o-figure__img" src="../../../../../../assets/meta/facebook-73514b02830df167eb8bfbe15710b5cb.jpg.html" style="background-image: url(../../../../../../assets/meta/facebook-73514b02830df167eb8bfbe15710b5cb.jpg.html)" />
+        <a data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="Popular Now Quadrant" href="/news/2021/08/27/99007/greenhouse-gas-levels-are-the-highest-ever-seen-an/">
+        <img class="o-figure__img" src="https://a.scpr.org/i/281c84db9a64d3e9cba7721d02ebce5e/234802-full.jpg" style="background-image: url(https://a.scpr.org/i/281c84db9a64d3e9cba7721d02ebce5e/234802-full.jpg)" />
 </a>        <figcaption class="o-popular-stories__caption">
-          <a data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="Popular Now Quadrant" href="https://archive.kpcc.org/news/2021/07/16/98493/virginia-shifts-700-million-in-relief-funds-to-boo/">
-          Virginia Shifts $700 Million In Relief Funds To Boost Rural Broadband Access
+          <a data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="Popular Now Quadrant" href="/news/2021/08/27/99007/greenhouse-gas-levels-are-the-highest-ever-seen-an/">
+          Greenhouse Gas Levels Are The Highest Ever Seen — And That's Going Back 800,000 Years
 </a>        </figcaption>
       </figure>
     </div>
 </section>
 
 <aside class="o-epilogue l-column--boundless" style="order: 1001">
-  <img class="o-epilogue__graphic" src="../../../../../../assets/graphic_epilogue-donate-da43de6f4b535f18d15ac128cd10b27d.svg.html">
+  <img class="o-epilogue__graphic" src="/assets/graphic_epilogue-donate-da43de6f4b535f18d15ac128cd10b27d.svg">
   <div class="o-epilogue__text">
     <h1 class="o-epilogue__heading"><a href="https://support.kpcc.org/default?ms=subfooter">KPCC's  coverage is a Southern California resource provided by member-supported public radio. We can't do it without you.</a></h1>
     <a class="o-epilogue-callout b-link b-link--callout" href="https://support.kpcc.org/default?ms=subfooter">Your contributions power KPCC.  Give today.</a>
@@ -1004,7 +1004,7 @@
 </aside>
 
 
-<script src="../../../../../../assets/programs-8e72d6a8e52a8639b9a4d4bb7d9ce629.js"></script>
+<script src="/assets/programs-8e72d6a8e52a8639b9a4d4bb7d9ce629.js"></script>
 
     </main>
     <footer class="">
@@ -1012,7 +1012,7 @@
       <div class="o-footer">
   <div class="l-section--margin-sm l-row l-row--lg l-between l-bottom">
     <div class="o-footer__logo-container l-col l-center@media-desktop">
-      <a href="https://archive.kpcc.org/">
+      <a href="/">
         <svg class="o-footer__logo icon--left">
           <use class="" xlink:href="/static/images/scpr-sprite.svg#logo_kpcc-white"/>
         </svg>
@@ -1032,37 +1032,37 @@
   <nav class="o-footer__nav footer__nav--expanded u-text-align--center">
     <div class="l-section--margin-sm">
       <ul class="c-list--horiz c-list--divider b-text b-text--bold">
-        <li><a class="b-link b-link--white-dark-bg" href="https://archive.kpcc.org/local">Local</a></li>
-        <li><a class="b-link b-link--white-dark-bg" href="https://archive.kpcc.org/world">US &amp; World</a></li>
-        <li><a class="b-link b-link--white-dark-bg" href="https://archive.kpcc.org/arts">Arts &amp; Entertainment</a></li>
-        <li><a class="b-link b-link--white-dark-bg" href="https://archive.kpcc.org/crime">Crime &amp; Justice</a></li>
+        <li><a class="b-link b-link--white-dark-bg" href="/local">Local</a></li>
+        <li><a class="b-link b-link--white-dark-bg" href="/world">US &amp; World</a></li>
+        <li><a class="b-link b-link--white-dark-bg" href="/arts">Arts &amp; Entertainment</a></li>
+        <li><a class="b-link b-link--white-dark-bg" href="/crime">Crime &amp; Justice</a></li>
       </ul>
     </div>
     <div class="l-section--margin-sm">
       <ul class="c-list--horiz b-text">
-        <li><a class="b-link b-link--white-dark-bg" href="https://archive.kpcc.org/programs/take-two">Take Two</a></li>
-        <li><a class="b-link b-link--white-dark-bg" href="https://archive.kpcc.org/programs/airtalk">AirTalk</a></li>
-        <li><a class="b-link b-link--white-dark-bg" href="https://archive.kpcc.org/programs/offramp">Off-Ramp</a></li>
-        <li><a class="b-link b-link--white-dark-bg" href="https://archive.kpcc.org/programs/the-frame">The Frame</a></li>
-        <li><a class="b-link b-link--white-dark-bg" href="https://archive.kpcc.org/schedule">Program Schedule</a></li>
-        <li><a class="b-link b-link--white-dark-bg" href="https://archive.kpcc.org/programs">Programs A-Z</a></li>
-        <li><a class="b-link b-link--white-dark-bg" href="https://archive.kpcc.org/events/kpcc-in-person">KPCC In Person</a></li>
-        <li><a class="b-link b-link--white-dark-bg" href="https://archive.kpcc.org/about">About KPCC</a></li>
-        <li><a class="b-link b-link--white-dark-bg" href="https://archive.kpcc.org/contact/#form">Contact Us</a></li>
-        <li><a class="b-link b-link--white-dark-bg" href="https://archive.kpcc.org/about/people/staff">Staff Directory</a></li>
-        <li><a class="b-link b-link--white-dark-bg" href="https://archive.kpcc.org/jobs">Careers</a></li>
-        <li><a class="link link--white-dark-bg" href="https://archive.kpcc.org/support/car_donation">Donate Your Vehicle</a></li>
+        <li><a class="b-link b-link--white-dark-bg" href="/programs/take-two">Take Two</a></li>
+        <li><a class="b-link b-link--white-dark-bg" href="/programs/airtalk">AirTalk</a></li>
+        <li><a class="b-link b-link--white-dark-bg" href="/programs/offramp">Off-Ramp</a></li>
+        <li><a class="b-link b-link--white-dark-bg" href="/programs/the-frame">The Frame</a></li>
+        <li><a class="b-link b-link--white-dark-bg" href="/schedule">Program Schedule</a></li>
+        <li><a class="b-link b-link--white-dark-bg" href="/programs">Programs A-Z</a></li>
+        <li><a class="b-link b-link--white-dark-bg" href="/events/kpcc-in-person">KPCC In Person</a></li>
+        <li><a class="b-link b-link--white-dark-bg" href="/about">About KPCC</a></li>
+        <li><a class="b-link b-link--white-dark-bg" href="/contact/#form">Contact Us</a></li>
+        <li><a class="b-link b-link--white-dark-bg" href="/about/people/staff">Staff Directory</a></li>
+        <li><a class="b-link b-link--white-dark-bg" href="/jobs">Careers</a></li>
+        <li><a class="link link--white-dark-bg" href="/support/car_donation">Donate Your Vehicle</a></li>
       </ul>
     </div>
   </nav>
   <nav class="o-footer__nav footer__nav--compact u-text-align--center">
     <div class="l-section--margin-sm">
       <ul class="c-list--horiz c-list--divider b-text b-text--bold">
-        <li><a class="b-link b-link--white-dark-bg" href="https://archive.kpcc.org/news">News</a></li>
-        <li><a class="b-link b-link--white-dark-bg" href="https://archive.kpcc.org/programs">Programs</a></li>
-        <li><a class="b-link b-link--white-dark-bg" href="https://archive.kpcc.org/events/kpcc-in-person">Events</a></li>
-        <li><a class="b-link b-link--white-dark-bg" href="https://archive.kpcc.org/support">Support</a></li>
-        <li><a class="b-link b-link--white-dark-bg" href="https://archive.kpcc.org/about">About</a></li>
+        <li><a class="b-link b-link--white-dark-bg" href="/news">News</a></li>
+        <li><a class="b-link b-link--white-dark-bg" href="/programs">Programs</a></li>
+        <li><a class="b-link b-link--white-dark-bg" href="/events/kpcc-in-person">Events</a></li>
+        <li><a class="b-link b-link--white-dark-bg" href="/support">Support</a></li>
+        <li><a class="b-link b-link--white-dark-bg" href="/about">About</a></li>
       </ul>
     </div>
   </nav>
@@ -1107,10 +1107,10 @@
     </div>
     <nav class="l-col l-end l-center@media-wide">
       <ul class="c-list--horiz b-text b-text--small u-text-color--gray">
-        <li><a class="b-link b-link--gray-dark-bg" href="https://archive.kpcc.org/terms/">Terms &amp; Conditions</a></li>
-        <li><a class="b-link b-link--gray-dark-bg" href="https://archive.kpcc.org/privacy/">Privacy</a></li>
-        <li><a class="b-link b-link--gray-dark-bg" href="https://archive.kpcc.org/web_site_feedback/">Feedback</a></li>
-        <li><a class="b-link b-link--gray-dark-bg" href="https://archive.kpcc.org/about/public/">EEO Public Reports</a></li>
+        <li><a class="b-link b-link--gray-dark-bg" href="/terms/">Terms &amp; Conditions</a></li>
+        <li><a class="b-link b-link--gray-dark-bg" href="/privacy/">Privacy</a></li>
+        <li><a class="b-link b-link--gray-dark-bg" href="/web_site_feedback/">Feedback</a></li>
+        <li><a class="b-link b-link--gray-dark-bg" href="/about/public/">EEO Public Reports</a></li>
         <li>&copy; 2021 Southern California Public Radio</li>
       </ul>
     </nav>
@@ -1158,7 +1158,7 @@
         </div>
       </div>
       <div class="o-audio-bar__buttons">
-          <a class="o-audio-bar__download" href="griffith-park-open-land-debate-a-tale-of-two-parks.html#" download>
+          <a class="o-audio-bar__download" href="#" download>
             <svg class="b-icon o-audio-bar__download-icon" data-ga-category="Article" data-ga-action="Volume" data-ga-label="Player">
               <use class="" xlink:href="/static/images/scpr-sprite.svg#icon_line-download"/>
               Download
@@ -1291,7 +1291,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                         };
 </script>
   <noscript>
-    <img src="https://pixel.quantserve.com/pixel/p-_ZNT1e57PQPC3.gif?labels=_fp.event.Default" style="display: none;" border="0" height="1" width="1" alt="Quantcast"/>
+    <img src="//pixel.quantserve.com/pixel/p-_ZNT1e57PQPC3.gif?labels=_fp.event.Default" style="display: none;" border="0" height="1" width="1" alt="Quantcast"/>
   </noscript>
 <!-- End Quantcast Tag -->
 
@@ -1320,6 +1320,6 @@ $(function() {
 </html>
 
 
-    <script src="../../../../../../assets/better_homepage/style-guide-595f2dc3b18234ed913ffd5b40175ebc.js" async="async"></script>
+    <script src="/assets/better_homepage/style-guide-595f2dc3b18234ed913ffd5b40175ebc.js" async="async"></script>
   </body>
 </html>

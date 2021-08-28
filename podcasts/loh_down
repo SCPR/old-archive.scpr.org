@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xmlns:psc="https://podlove.org/simple-chapters/" xmlns:omny="https://omny.fm/rss-extensions" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" xmlns:acast="https://schema.acast.com/1.0/" version="2.0">
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xmlns:psc="https://podlove.org/simple-chapters/" xmlns:omny="https://omny.fm/rss-extensions" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" xmlns:acast="https://schema.acast.com/1.0/" xmlns:podcast="https://podcastindex.org/namespace/1.0" version="2.0">
   <channel>
+    <omny:organizationId>acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43</omny:organizationId>
+    <omny:programId>dbea70f2-addb-4e5f-9e2d-ab09010d04b9</omny:programId>
+    <omny:networkId>b487d8dd-df6e-4c01-b78e-ab100184df07</omny:networkId>
     <language>en-US</language>
     <atom:link rel="self" type="application/rss+xml" href="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/bfa45218-c486-4ff0-8d0b-ab09010d04da/podcast.rss" />
     <atom:link rel="next" type="application/rss+xml" href="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/bfa45218-c486-4ff0-8d0b-ab09010d04da/podcast.rss?page=2" />
@@ -27,6 +30,606 @@
       <title>The Loh Down on Science</title>
       <link>https://www.scpr.org/programs/loh-down-on-science</link>
     </image>
+    <item>
+      <title>Bean-ough Stress</title>
+      <itunes:title>Bean-ough Stress</itunes:title>
+      <description>Feeling stressed? Have a bubble bath, a glass of wine, and… an apple</description>
+      <content:encoded><![CDATA[<p>Feeling stressed? Have a bubble bath, a glass of wine, and&hellip; an apple</p>]]></content:encoded>
+      <itunes:summary>Feeling stressed? Have a bubble bath, a glass of wine, and… an apple</itunes:summary>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:author>KPCC 89.3</itunes:author>
+      <itunes:image href="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/bfa45218-c486-4ff0-8d0b-ab09010d04da/image.jpg?t=1574093969&amp;size=Large" />
+      <media:content url="https://traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/0de8362a-7944-4bd2-a89f-ad73015760a5/audio.mp3?utm_source=Podcast&amp;in_playlist=bfa45218-c486-4ff0-8d0b-ab09010d04da" type="audio/mpeg">
+        <media:player url="https://omny.fm/shows/the-loh-down-on-science/bean-ough-stress/embed" />
+      </media:content>
+      <media:content url="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/bfa45218-c486-4ff0-8d0b-ab09010d04da/image.jpg?t=1574093969&amp;size=Large" type="image/jpeg" />
+      <guid isPermaLink="false">0de8362a-7944-4bd2-a89f-ad73015760a5</guid>
+      <omny:clipId>0de8362a-7944-4bd2-a89f-ad73015760a5</omny:clipId>
+      <pubDate>Fri, 27 Aug 2021 09:00:00 +0000</pubDate>
+      <itunes:duration>90</itunes:duration>
+      <enclosure url="https://traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/0de8362a-7944-4bd2-a89f-ad73015760a5/audio.mp3?utm_source=Podcast&amp;in_playlist=bfa45218-c486-4ff0-8d0b-ab09010d04da" length="1466273" type="audio/mpeg" />
+      <link>https://omny.fm/shows/the-loh-down-on-science/bean-ough-stress</link>
+    </item>
+    <item>
+      <title>Step it Up!</title>
+      <itunes:title>Step it Up!</itunes:title>
+      <description>My shoes are too tight! Knot again!</description>
+      <content:encoded><![CDATA[<p>My shoes are too tight! Knot again!</p>]]></content:encoded>
+      <itunes:summary>My shoes are too tight! Knot again!</itunes:summary>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:author>KPCC 89.3</itunes:author>
+      <itunes:image href="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/bfa45218-c486-4ff0-8d0b-ab09010d04da/image.jpg?t=1574093969&amp;size=Large" />
+      <media:content url="https://traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/45162435-4f14-4e11-909f-ad730157608f/audio.mp3?utm_source=Podcast&amp;in_playlist=bfa45218-c486-4ff0-8d0b-ab09010d04da" type="audio/mpeg">
+        <media:player url="https://omny.fm/shows/the-loh-down-on-science/step-it-up/embed" />
+      </media:content>
+      <media:content url="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/bfa45218-c486-4ff0-8d0b-ab09010d04da/image.jpg?t=1574093969&amp;size=Large" type="image/jpeg" />
+      <guid isPermaLink="false">45162435-4f14-4e11-909f-ad730157608f</guid>
+      <omny:clipId>45162435-4f14-4e11-909f-ad730157608f</omny:clipId>
+      <pubDate>Thu, 26 Aug 2021 09:00:00 +0000</pubDate>
+      <itunes:duration>90</itunes:duration>
+      <enclosure url="https://traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/45162435-4f14-4e11-909f-ad730157608f/audio.mp3?utm_source=Podcast&amp;in_playlist=bfa45218-c486-4ff0-8d0b-ab09010d04da" length="1466268" type="audio/mpeg" />
+      <link>https://omny.fm/shows/the-loh-down-on-science/step-it-up</link>
+    </item>
+    <item>
+      <title>Orangutan Obstacles</title>
+      <itunes:title>Orangutan Obstacles</itunes:title>
+      <description>Can I get extra fries with that Big Mac?</description>
+      <content:encoded><![CDATA[<p>Can I get extra fries with that Big Mac?</p>]]></content:encoded>
+      <itunes:summary>Can I get extra fries with that Big Mac?</itunes:summary>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:author>KPCC 89.3</itunes:author>
+      <itunes:image href="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/bfa45218-c486-4ff0-8d0b-ab09010d04da/image.jpg?t=1574093969&amp;size=Large" />
+      <media:content url="https://traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/82d82770-890b-46e5-a18d-ad730157605f/audio.mp3?utm_source=Podcast&amp;in_playlist=bfa45218-c486-4ff0-8d0b-ab09010d04da" type="audio/mpeg">
+        <media:player url="https://omny.fm/shows/the-loh-down-on-science/orangutan-obstacles/embed" />
+      </media:content>
+      <media:content url="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/bfa45218-c486-4ff0-8d0b-ab09010d04da/image.jpg?t=1574093969&amp;size=Large" type="image/jpeg" />
+      <guid isPermaLink="false">82d82770-890b-46e5-a18d-ad730157605f</guid>
+      <omny:clipId>82d82770-890b-46e5-a18d-ad730157605f</omny:clipId>
+      <pubDate>Wed, 25 Aug 2021 09:00:00 +0000</pubDate>
+      <itunes:duration>90</itunes:duration>
+      <enclosure url="https://traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/82d82770-890b-46e5-a18d-ad730157605f/audio.mp3?utm_source=Podcast&amp;in_playlist=bfa45218-c486-4ff0-8d0b-ab09010d04da" length="1466276" type="audio/mpeg" />
+      <link>https://omny.fm/shows/the-loh-down-on-science/orangutan-obstacles</link>
+    </item>
+    <item>
+      <title>Communication is Key</title>
+      <itunes:title>Communication is Key</itunes:title>
+      <description>It’s been too long! Let’s grab coffee and catch up! </description>
+      <content:encoded><![CDATA[<p>It&rsquo;s been too long! Let&rsquo;s grab coffee and catch up!&nbsp;</p>]]></content:encoded>
+      <itunes:summary>It’s been too long! Let’s grab coffee and catch up! </itunes:summary>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:author>KPCC 89.3</itunes:author>
+      <itunes:image href="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/bfa45218-c486-4ff0-8d0b-ab09010d04da/image.jpg?t=1574093969&amp;size=Large" />
+      <media:content url="https://traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/d18599ff-0c47-4cdd-8dfe-ad730157605f/audio.mp3?utm_source=Podcast&amp;in_playlist=bfa45218-c486-4ff0-8d0b-ab09010d04da" type="audio/mpeg">
+        <media:player url="https://omny.fm/shows/the-loh-down-on-science/communication-is-key/embed" />
+      </media:content>
+      <media:content url="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/bfa45218-c486-4ff0-8d0b-ab09010d04da/image.jpg?t=1574093969&amp;size=Large" type="image/jpeg" />
+      <guid isPermaLink="false">d18599ff-0c47-4cdd-8dfe-ad730157605f</guid>
+      <omny:clipId>d18599ff-0c47-4cdd-8dfe-ad730157605f</omny:clipId>
+      <pubDate>Tue, 24 Aug 2021 09:00:00 +0000</pubDate>
+      <itunes:duration>90</itunes:duration>
+      <enclosure url="https://traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/d18599ff-0c47-4cdd-8dfe-ad730157605f/audio.mp3?utm_source=Podcast&amp;in_playlist=bfa45218-c486-4ff0-8d0b-ab09010d04da" length="1466277" type="audio/mpeg" />
+      <link>https://omny.fm/shows/the-loh-down-on-science/communication-is-key</link>
+    </item>
+    <item>
+      <title>Scuba Lizards</title>
+      <itunes:title>Scuba Lizards</itunes:title>
+      <description>So! How long can YOU hold your breath under water?</description>
+      <content:encoded><![CDATA[<p>So! How long can YOU hold your breath under water?</p>]]></content:encoded>
+      <itunes:summary>So! How long can YOU hold your breath under water?</itunes:summary>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:author>KPCC 89.3</itunes:author>
+      <itunes:image href="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/bfa45218-c486-4ff0-8d0b-ab09010d04da/image.jpg?t=1574093969&amp;size=Large" />
+      <media:content url="https://traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/5d12c1bc-b92b-44ea-ba13-ad730157608f/audio.mp3?utm_source=Podcast&amp;in_playlist=bfa45218-c486-4ff0-8d0b-ab09010d04da" type="audio/mpeg">
+        <media:player url="https://omny.fm/shows/the-loh-down-on-science/scuba-lizards/embed" />
+      </media:content>
+      <media:content url="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/bfa45218-c486-4ff0-8d0b-ab09010d04da/image.jpg?t=1574093969&amp;size=Large" type="image/jpeg" />
+      <guid isPermaLink="false">5d12c1bc-b92b-44ea-ba13-ad730157608f</guid>
+      <omny:clipId>5d12c1bc-b92b-44ea-ba13-ad730157608f</omny:clipId>
+      <pubDate>Mon, 23 Aug 2021 09:00:00 +0000</pubDate>
+      <itunes:duration>90</itunes:duration>
+      <enclosure url="https://traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/5d12c1bc-b92b-44ea-ba13-ad730157608f/audio.mp3?utm_source=Podcast&amp;in_playlist=bfa45218-c486-4ff0-8d0b-ab09010d04da" length="1466270" type="audio/mpeg" />
+      <link>https://omny.fm/shows/the-loh-down-on-science/scuba-lizards</link>
+    </item>
+    <item>
+      <title>Bite-time Story</title>
+      <itunes:title>Bite-time Story</itunes:title>
+      <description>Bugged by pesky mosquitoes? Try adjusting your ALTITUDE!</description>
+      <content:encoded><![CDATA[<p>Bugged by pesky mosquitoes? Try adjusting your ALTITUDE!</p>]]></content:encoded>
+      <itunes:summary>Bugged by pesky mosquitoes? Try adjusting your ALTITUDE!</itunes:summary>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:author>KPCC 89.3</itunes:author>
+      <itunes:image href="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/bfa45218-c486-4ff0-8d0b-ab09010d04da/image.jpg?t=1574093969&amp;size=Large" />
+      <media:content url="https://traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/ed1667a2-ff38-4e5e-9ddd-ad7301576077/audio.mp3?utm_source=Podcast&amp;in_playlist=bfa45218-c486-4ff0-8d0b-ab09010d04da" type="audio/mpeg">
+        <media:player url="https://omny.fm/shows/the-loh-down-on-science/bite-time-story/embed" />
+      </media:content>
+      <media:content url="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/bfa45218-c486-4ff0-8d0b-ab09010d04da/image.jpg?t=1574093969&amp;size=Large" type="image/jpeg" />
+      <guid isPermaLink="false">ed1667a2-ff38-4e5e-9ddd-ad7301576077</guid>
+      <omny:clipId>ed1667a2-ff38-4e5e-9ddd-ad7301576077</omny:clipId>
+      <pubDate>Fri, 20 Aug 2021 09:00:00 +0000</pubDate>
+      <itunes:duration>90</itunes:duration>
+      <enclosure url="https://traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/ed1667a2-ff38-4e5e-9ddd-ad7301576077/audio.mp3?utm_source=Podcast&amp;in_playlist=bfa45218-c486-4ff0-8d0b-ab09010d04da" length="1466272" type="audio/mpeg" />
+      <link>https://omny.fm/shows/the-loh-down-on-science/bite-time-story</link>
+    </item>
+    <item>
+      <title>Fin-tastic Navigation</title>
+      <itunes:title>Fin-tastic Navigation</itunes:title>
+      <description>Sky of blue, sea of green...but which way is home? </description>
+      <content:encoded><![CDATA[<p>Sky of blue, sea of green...but which way is home?&nbsp;</p>]]></content:encoded>
+      <itunes:summary>Sky of blue, sea of green...but which way is home? </itunes:summary>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:author>KPCC 89.3</itunes:author>
+      <itunes:image href="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/bfa45218-c486-4ff0-8d0b-ab09010d04da/image.jpg?t=1574093969&amp;size=Large" />
+      <media:content url="https://traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/7033ffcf-ac70-4f82-8663-ad730157606a/audio.mp3?utm_source=Podcast&amp;in_playlist=bfa45218-c486-4ff0-8d0b-ab09010d04da" type="audio/mpeg">
+        <media:player url="https://omny.fm/shows/the-loh-down-on-science/fin-tastic-navigation/embed" />
+      </media:content>
+      <media:content url="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/bfa45218-c486-4ff0-8d0b-ab09010d04da/image.jpg?t=1574093969&amp;size=Large" type="image/jpeg" />
+      <guid isPermaLink="false">7033ffcf-ac70-4f82-8663-ad730157606a</guid>
+      <omny:clipId>7033ffcf-ac70-4f82-8663-ad730157606a</omny:clipId>
+      <pubDate>Thu, 19 Aug 2021 09:00:00 +0000</pubDate>
+      <itunes:duration>90</itunes:duration>
+      <enclosure url="https://traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/7033ffcf-ac70-4f82-8663-ad730157606a/audio.mp3?utm_source=Podcast&amp;in_playlist=bfa45218-c486-4ff0-8d0b-ab09010d04da" length="1466278" type="audio/mpeg" />
+      <link>https://omny.fm/shows/the-loh-down-on-science/fin-tastic-navigation</link>
+    </item>
+    <item>
+      <title>Ancestors Masterpieces</title>
+      <itunes:title>Ancestors Masterpieces</itunes:title>
+      <description>Inspired by ancient Banksy?</description>
+      <content:encoded><![CDATA[<p>Inspired by ancient Banksy?</p>]]></content:encoded>
+      <itunes:summary>Inspired by ancient Banksy?</itunes:summary>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:author>KPCC 89.3</itunes:author>
+      <itunes:image href="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/bfa45218-c486-4ff0-8d0b-ab09010d04da/image.jpg?t=1574093969&amp;size=Large" />
+      <media:content url="https://traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/e1dc3642-b0ce-4710-ade3-ad7301576076/audio.mp3?utm_source=Podcast&amp;in_playlist=bfa45218-c486-4ff0-8d0b-ab09010d04da" type="audio/mpeg">
+        <media:player url="https://omny.fm/shows/the-loh-down-on-science/ancestors-masterpieces/embed" />
+      </media:content>
+      <media:content url="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/bfa45218-c486-4ff0-8d0b-ab09010d04da/image.jpg?t=1574093969&amp;size=Large" type="image/jpeg" />
+      <guid isPermaLink="false">e1dc3642-b0ce-4710-ade3-ad7301576076</guid>
+      <omny:clipId>e1dc3642-b0ce-4710-ade3-ad7301576076</omny:clipId>
+      <pubDate>Wed, 18 Aug 2021 09:00:00 +0000</pubDate>
+      <itunes:duration>90</itunes:duration>
+      <enclosure url="https://traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/e1dc3642-b0ce-4710-ade3-ad7301576076/audio.mp3?utm_source=Podcast&amp;in_playlist=bfa45218-c486-4ff0-8d0b-ab09010d04da" length="1466279" type="audio/mpeg" />
+      <link>https://omny.fm/shows/the-loh-down-on-science/ancestors-masterpieces</link>
+    </item>
+    <item>
+      <title>Clean Bacteria</title>
+      <itunes:title>Clean Bacteria</itunes:title>
+      <description>Hey! What’s on the buffet - for bacteria?</description>
+      <content:encoded><![CDATA[<p>Hey! What&rsquo;s on the buffet - for bacteria?</p>]]></content:encoded>
+      <itunes:summary>Hey! What’s on the buffet - for bacteria?</itunes:summary>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:author>KPCC 89.3</itunes:author>
+      <itunes:image href="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/bfa45218-c486-4ff0-8d0b-ab09010d04da/image.jpg?t=1574093969&amp;size=Large" />
+      <media:content url="https://traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/539d2409-6672-430d-8bae-ad730157605c/audio.mp3?utm_source=Podcast&amp;in_playlist=bfa45218-c486-4ff0-8d0b-ab09010d04da" type="audio/mpeg">
+        <media:player url="https://omny.fm/shows/the-loh-down-on-science/clean-bacteria/embed" />
+      </media:content>
+      <media:content url="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/bfa45218-c486-4ff0-8d0b-ab09010d04da/image.jpg?t=1574093969&amp;size=Large" type="image/jpeg" />
+      <guid isPermaLink="false">539d2409-6672-430d-8bae-ad730157605c</guid>
+      <omny:clipId>539d2409-6672-430d-8bae-ad730157605c</omny:clipId>
+      <pubDate>Tue, 17 Aug 2021 09:00:00 +0000</pubDate>
+      <itunes:duration>90</itunes:duration>
+      <enclosure url="https://traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/539d2409-6672-430d-8bae-ad730157605c/audio.mp3?utm_source=Podcast&amp;in_playlist=bfa45218-c486-4ff0-8d0b-ab09010d04da" length="1466271" type="audio/mpeg" />
+      <link>https://omny.fm/shows/the-loh-down-on-science/clean-bacteria</link>
+    </item>
+    <item>
+      <title>Best Prime-Mates</title>
+      <itunes:title>Best Prime-Mates</itunes:title>
+      <description>When the going gets tough, the tough. . . lean on our friends?</description>
+      <content:encoded><![CDATA[<p>When the going gets tough, the tough. . . lean on our friends?</p>]]></content:encoded>
+      <itunes:summary>When the going gets tough, the tough. . . lean on our friends?</itunes:summary>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:author>KPCC 89.3</itunes:author>
+      <itunes:image href="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/bfa45218-c486-4ff0-8d0b-ab09010d04da/image.jpg?t=1574093969&amp;size=Large" />
+      <media:content url="https://traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/61fb9316-59f0-446c-94a8-ad7301576056/audio.mp3?utm_source=Podcast&amp;in_playlist=bfa45218-c486-4ff0-8d0b-ab09010d04da" type="audio/mpeg">
+        <media:player url="https://omny.fm/shows/the-loh-down-on-science/best-prime-mates/embed" />
+      </media:content>
+      <media:content url="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/bfa45218-c486-4ff0-8d0b-ab09010d04da/image.jpg?t=1574093969&amp;size=Large" type="image/jpeg" />
+      <guid isPermaLink="false">61fb9316-59f0-446c-94a8-ad7301576056</guid>
+      <omny:clipId>61fb9316-59f0-446c-94a8-ad7301576056</omny:clipId>
+      <pubDate>Mon, 16 Aug 2021 09:00:00 +0000</pubDate>
+      <itunes:duration>90</itunes:duration>
+      <enclosure url="https://traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/61fb9316-59f0-446c-94a8-ad7301576056/audio.mp3?utm_source=Podcast&amp;in_playlist=bfa45218-c486-4ff0-8d0b-ab09010d04da" length="1466273" type="audio/mpeg" />
+      <link>https://omny.fm/shows/the-loh-down-on-science/best-prime-mates</link>
+    </item>
+    <item>
+      <title>Equid-ed</title>
+      <itunes:title>Equid-ed</itunes:title>
+      <description>Animals don’t HORSE AROUND when it comes to water!</description>
+      <content:encoded><![CDATA[<p>Animals don&rsquo;t HORSE AROUND when it comes to water!</p>]]></content:encoded>
+      <itunes:summary>Animals don’t HORSE AROUND when it comes to water!</itunes:summary>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:author>KPCC 89.3</itunes:author>
+      <itunes:image href="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/bfa45218-c486-4ff0-8d0b-ab09010d04da/image.jpg?t=1574093969&amp;size=Large" />
+      <media:content url="https://traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/55aef349-a6ec-4535-9023-ad730157608e/audio.mp3?utm_source=Podcast&amp;in_playlist=bfa45218-c486-4ff0-8d0b-ab09010d04da" type="audio/mpeg">
+        <media:player url="https://omny.fm/shows/the-loh-down-on-science/equid-ed/embed" />
+      </media:content>
+      <media:content url="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/bfa45218-c486-4ff0-8d0b-ab09010d04da/image.jpg?t=1574093969&amp;size=Large" type="image/jpeg" />
+      <guid isPermaLink="false">55aef349-a6ec-4535-9023-ad730157608e</guid>
+      <omny:clipId>55aef349-a6ec-4535-9023-ad730157608e</omny:clipId>
+      <pubDate>Fri, 13 Aug 2021 09:00:00 +0000</pubDate>
+      <itunes:duration>90</itunes:duration>
+      <enclosure url="https://traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/55aef349-a6ec-4535-9023-ad730157608e/audio.mp3?utm_source=Podcast&amp;in_playlist=bfa45218-c486-4ff0-8d0b-ab09010d04da" length="1466265" type="audio/mpeg" />
+      <link>https://omny.fm/shows/the-loh-down-on-science/equid-ed</link>
+    </item>
+    <item>
+      <title>Amazing Sight</title>
+      <itunes:title>Amazing Sight</itunes:title>
+      <description>Amazing Grace, how sweet the...sight?! </description>
+      <content:encoded><![CDATA[<p>Amazing Grace, how sweet the...sight?!&nbsp;</p>]]></content:encoded>
+      <itunes:summary>Amazing Grace, how sweet the...sight?! </itunes:summary>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:author>KPCC 89.3</itunes:author>
+      <itunes:image href="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/bfa45218-c486-4ff0-8d0b-ab09010d04da/image.jpg?t=1574093969&amp;size=Large" />
+      <media:content url="https://traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/253f7033-a63e-43ae-8228-ad7301576056/audio.mp3?utm_source=Podcast&amp;in_playlist=bfa45218-c486-4ff0-8d0b-ab09010d04da" type="audio/mpeg">
+        <media:player url="https://omny.fm/shows/the-loh-down-on-science/amazing-sight/embed" />
+      </media:content>
+      <media:content url="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/bfa45218-c486-4ff0-8d0b-ab09010d04da/image.jpg?t=1574093969&amp;size=Large" type="image/jpeg" />
+      <guid isPermaLink="false">253f7033-a63e-43ae-8228-ad7301576056</guid>
+      <omny:clipId>253f7033-a63e-43ae-8228-ad7301576056</omny:clipId>
+      <pubDate>Thu, 12 Aug 2021 09:00:00 +0000</pubDate>
+      <itunes:duration>90</itunes:duration>
+      <enclosure url="https://traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/253f7033-a63e-43ae-8228-ad7301576056/audio.mp3?utm_source=Podcast&amp;in_playlist=bfa45218-c486-4ff0-8d0b-ab09010d04da" length="1466270" type="audio/mpeg" />
+      <link>https://omny.fm/shows/the-loh-down-on-science/amazing-sight</link>
+    </item>
+    <item>
+      <title>ANT-i Aging</title>
+      <itunes:title>ANT-i Aging</itunes:title>
+      <description>What does a worker ant have to do to get the royal treatment?</description>
+      <content:encoded><![CDATA[<p>What does a worker ant have to do to get the royal treatment?</p>]]></content:encoded>
+      <itunes:summary>What does a worker ant have to do to get the royal treatment?</itunes:summary>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:author>KPCC 89.3</itunes:author>
+      <itunes:image href="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/bfa45218-c486-4ff0-8d0b-ab09010d04da/image.jpg?t=1574093969&amp;size=Large" />
+      <media:content url="https://traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/72cc96ae-18f5-43d2-b4c4-ad7301576076/audio.mp3?utm_source=Podcast&amp;in_playlist=bfa45218-c486-4ff0-8d0b-ab09010d04da" type="audio/mpeg">
+        <media:player url="https://omny.fm/shows/the-loh-down-on-science/ant-i-aging/embed" />
+      </media:content>
+      <media:content url="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/bfa45218-c486-4ff0-8d0b-ab09010d04da/image.jpg?t=1574093969&amp;size=Large" type="image/jpeg" />
+      <guid isPermaLink="false">72cc96ae-18f5-43d2-b4c4-ad7301576076</guid>
+      <omny:clipId>72cc96ae-18f5-43d2-b4c4-ad7301576076</omny:clipId>
+      <pubDate>Wed, 11 Aug 2021 09:00:00 +0000</pubDate>
+      <itunes:duration>90</itunes:duration>
+      <enclosure url="https://traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/72cc96ae-18f5-43d2-b4c4-ad7301576076/audio.mp3?utm_source=Podcast&amp;in_playlist=bfa45218-c486-4ff0-8d0b-ab09010d04da" length="1466268" type="audio/mpeg" />
+      <link>https://omny.fm/shows/the-loh-down-on-science/ant-i-aging</link>
+    </item>
+    <item>
+      <title>Forest Farts</title>
+      <itunes:title>Forest Farts</itunes:title>
+      <description>Peee-yooh! Are you blaming the dog - again?</description>
+      <content:encoded><![CDATA[<p>Peee-yooh! Are you blaming the dog - again?</p>]]></content:encoded>
+      <itunes:summary>Peee-yooh! Are you blaming the dog - again?</itunes:summary>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:author>KPCC 89.3</itunes:author>
+      <itunes:image href="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/bfa45218-c486-4ff0-8d0b-ab09010d04da/image.jpg?t=1574093969&amp;size=Large" />
+      <media:content url="https://traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/9ce12246-f0f6-4fc5-b5d7-ad73015760af/audio.mp3?utm_source=Podcast&amp;in_playlist=bfa45218-c486-4ff0-8d0b-ab09010d04da" type="audio/mpeg">
+        <media:player url="https://omny.fm/shows/the-loh-down-on-science/forest-farts/embed" />
+      </media:content>
+      <media:content url="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/bfa45218-c486-4ff0-8d0b-ab09010d04da/image.jpg?t=1574093969&amp;size=Large" type="image/jpeg" />
+      <guid isPermaLink="false">9ce12246-f0f6-4fc5-b5d7-ad73015760af</guid>
+      <omny:clipId>9ce12246-f0f6-4fc5-b5d7-ad73015760af</omny:clipId>
+      <pubDate>Tue, 10 Aug 2021 09:00:00 +0000</pubDate>
+      <itunes:duration>90</itunes:duration>
+      <enclosure url="https://traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/9ce12246-f0f6-4fc5-b5d7-ad73015760af/audio.mp3?utm_source=Podcast&amp;in_playlist=bfa45218-c486-4ff0-8d0b-ab09010d04da" length="1466269" type="audio/mpeg" />
+      <link>https://omny.fm/shows/the-loh-down-on-science/forest-farts</link>
+    </item>
+    <item>
+      <title>T-Rex Chomps</title>
+      <itunes:title>T-Rex Chomps</itunes:title>
+      <description>Chomp, chomp! How hard can a teen T-Rex bite?</description>
+      <content:encoded><![CDATA[<p>Chomp, chomp! How hard can a teen T-Rex bite?</p>]]></content:encoded>
+      <itunes:summary>Chomp, chomp! How hard can a teen T-Rex bite?</itunes:summary>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:author>KPCC 89.3</itunes:author>
+      <itunes:image href="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/bfa45218-c486-4ff0-8d0b-ab09010d04da/image.jpg?t=1574093969&amp;size=Large" />
+      <media:content url="https://traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/43a04824-d296-4d28-a102-ad7301576073/audio.mp3?utm_source=Podcast&amp;in_playlist=bfa45218-c486-4ff0-8d0b-ab09010d04da" type="audio/mpeg">
+        <media:player url="https://omny.fm/shows/the-loh-down-on-science/t-rex-chomps/embed" />
+      </media:content>
+      <media:content url="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/bfa45218-c486-4ff0-8d0b-ab09010d04da/image.jpg?t=1574093969&amp;size=Large" type="image/jpeg" />
+      <guid isPermaLink="false">43a04824-d296-4d28-a102-ad7301576073</guid>
+      <omny:clipId>43a04824-d296-4d28-a102-ad7301576073</omny:clipId>
+      <pubDate>Mon, 09 Aug 2021 09:00:00 +0000</pubDate>
+      <itunes:duration>90</itunes:duration>
+      <enclosure url="https://traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/43a04824-d296-4d28-a102-ad7301576073/audio.mp3?utm_source=Podcast&amp;in_playlist=bfa45218-c486-4ff0-8d0b-ab09010d04da" length="1466269" type="audio/mpeg" />
+      <link>https://omny.fm/shows/the-loh-down-on-science/t-rex-chomps</link>
+    </item>
+    <item>
+      <title>Less is More</title>
+      <itunes:title>Less is More</itunes:title>
+      <description>What’s the best recipe – add or subtract?</description>
+      <content:encoded><![CDATA[<p>What&rsquo;s the best recipe &ndash; add or subtract?</p>]]></content:encoded>
+      <itunes:summary>What’s the best recipe – add or subtract?</itunes:summary>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:author>KPCC 89.3</itunes:author>
+      <itunes:image href="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/bfa45218-c486-4ff0-8d0b-ab09010d04da/image.jpg?t=1574093969&amp;size=Large" />
+      <media:content url="https://traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/da0fcd6b-a9cc-43c9-833a-ad7301576060/audio.mp3?utm_source=Podcast&amp;in_playlist=bfa45218-c486-4ff0-8d0b-ab09010d04da" type="audio/mpeg">
+        <media:player url="https://omny.fm/shows/the-loh-down-on-science/less-is-more/embed" />
+      </media:content>
+      <media:content url="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/bfa45218-c486-4ff0-8d0b-ab09010d04da/image.jpg?t=1574093969&amp;size=Large" type="image/jpeg" />
+      <guid isPermaLink="false">da0fcd6b-a9cc-43c9-833a-ad7301576060</guid>
+      <omny:clipId>da0fcd6b-a9cc-43c9-833a-ad7301576060</omny:clipId>
+      <pubDate>Fri, 06 Aug 2021 09:00:00 +0000</pubDate>
+      <itunes:duration>90</itunes:duration>
+      <enclosure url="https://traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/da0fcd6b-a9cc-43c9-833a-ad7301576060/audio.mp3?utm_source=Podcast&amp;in_playlist=bfa45218-c486-4ff0-8d0b-ab09010d04da" length="1466269" type="audio/mpeg" />
+      <link>https://omny.fm/shows/the-loh-down-on-science/less-is-more</link>
+    </item>
+    <item>
+      <title>Elephant GPS</title>
+      <itunes:title>Elephant GPS</itunes:title>
+      <description>An elephant never forgets... its G-P-S?</description>
+      <content:encoded><![CDATA[<p>An elephant never forgets... its G-P-S?</p>]]></content:encoded>
+      <itunes:summary>An elephant never forgets... its G-P-S?</itunes:summary>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:author>KPCC 89.3</itunes:author>
+      <itunes:image href="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/bfa45218-c486-4ff0-8d0b-ab09010d04da/image.jpg?t=1574093969&amp;size=Large" />
+      <media:content url="https://traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/0f4877fd-a3da-4511-84ca-ad730157605f/audio.mp3?utm_source=Podcast&amp;in_playlist=bfa45218-c486-4ff0-8d0b-ab09010d04da" type="audio/mpeg">
+        <media:player url="https://omny.fm/shows/the-loh-down-on-science/elephant-gps/embed" />
+      </media:content>
+      <media:content url="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/bfa45218-c486-4ff0-8d0b-ab09010d04da/image.jpg?t=1574093969&amp;size=Large" type="image/jpeg" />
+      <guid isPermaLink="false">0f4877fd-a3da-4511-84ca-ad730157605f</guid>
+      <omny:clipId>0f4877fd-a3da-4511-84ca-ad730157605f</omny:clipId>
+      <pubDate>Thu, 05 Aug 2021 09:00:00 +0000</pubDate>
+      <itunes:duration>90</itunes:duration>
+      <enclosure url="https://traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/0f4877fd-a3da-4511-84ca-ad730157605f/audio.mp3?utm_source=Podcast&amp;in_playlist=bfa45218-c486-4ff0-8d0b-ab09010d04da" length="1466269" type="audio/mpeg" />
+      <link>https://omny.fm/shows/the-loh-down-on-science/elephant-gps</link>
+    </item>
+    <item>
+      <title>Sweet Sweat</title>
+      <itunes:title>Sweet Sweat</itunes:title>
+      <description>Need a boost to get through your workout?</description>
+      <content:encoded><![CDATA[<p>Need a boost to get through your workout?</p>]]></content:encoded>
+      <itunes:summary>Need a boost to get through your workout?</itunes:summary>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:author>KPCC 89.3</itunes:author>
+      <itunes:image href="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/bfa45218-c486-4ff0-8d0b-ab09010d04da/image.jpg?t=1574093969&amp;size=Large" />
+      <media:content url="https://traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/e4936892-3956-4487-be1d-ad730157605f/audio.mp3?utm_source=Podcast&amp;in_playlist=bfa45218-c486-4ff0-8d0b-ab09010d04da" type="audio/mpeg">
+        <media:player url="https://omny.fm/shows/the-loh-down-on-science/sweet-sweat/embed" />
+      </media:content>
+      <media:content url="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/bfa45218-c486-4ff0-8d0b-ab09010d04da/image.jpg?t=1574093969&amp;size=Large" type="image/jpeg" />
+      <guid isPermaLink="false">e4936892-3956-4487-be1d-ad730157605f</guid>
+      <omny:clipId>e4936892-3956-4487-be1d-ad730157605f</omny:clipId>
+      <pubDate>Wed, 04 Aug 2021 09:00:00 +0000</pubDate>
+      <itunes:duration>90</itunes:duration>
+      <enclosure url="https://traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/e4936892-3956-4487-be1d-ad730157605f/audio.mp3?utm_source=Podcast&amp;in_playlist=bfa45218-c486-4ff0-8d0b-ab09010d04da" length="1466268" type="audio/mpeg" />
+      <link>https://omny.fm/shows/the-loh-down-on-science/sweet-sweat</link>
+    </item>
+    <item>
+      <title>Shroomy Magic</title>
+      <itunes:title>Shroomy Magic</itunes:title>
+      <description>What makes magic mushrooms so…magic?</description>
+      <content:encoded><![CDATA[<p>What makes magic mushrooms so&hellip;magic?</p>]]></content:encoded>
+      <itunes:summary>What makes magic mushrooms so…magic?</itunes:summary>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:author>KPCC 89.3</itunes:author>
+      <itunes:image href="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/bfa45218-c486-4ff0-8d0b-ab09010d04da/image.jpg?t=1574093969&amp;size=Large" />
+      <media:content url="https://traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/d55fd77a-2bfa-4029-bf98-ad730157606b/audio.mp3?utm_source=Podcast&amp;in_playlist=bfa45218-c486-4ff0-8d0b-ab09010d04da" type="audio/mpeg">
+        <media:player url="https://omny.fm/shows/the-loh-down-on-science/shroomy-magic/embed" />
+      </media:content>
+      <media:content url="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/bfa45218-c486-4ff0-8d0b-ab09010d04da/image.jpg?t=1574093969&amp;size=Large" type="image/jpeg" />
+      <guid isPermaLink="false">d55fd77a-2bfa-4029-bf98-ad730157606b</guid>
+      <omny:clipId>d55fd77a-2bfa-4029-bf98-ad730157606b</omny:clipId>
+      <pubDate>Tue, 03 Aug 2021 09:00:00 +0000</pubDate>
+      <itunes:duration>90</itunes:duration>
+      <enclosure url="https://traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/d55fd77a-2bfa-4029-bf98-ad730157606b/audio.mp3?utm_source=Podcast&amp;in_playlist=bfa45218-c486-4ff0-8d0b-ab09010d04da" length="1466270" type="audio/mpeg" />
+      <link>https://omny.fm/shows/the-loh-down-on-science/shroomy-magic</link>
+    </item>
+    <item>
+      <title>Doggy Bags</title>
+      <itunes:title>Doggy Bags</itunes:title>
+      <description>Why do dogs WOLF down our leftovers?</description>
+      <content:encoded><![CDATA[<p>Why do dogs WOLF down our leftovers?</p>]]></content:encoded>
+      <itunes:summary>Why do dogs WOLF down our leftovers?</itunes:summary>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:author>KPCC 89.3</itunes:author>
+      <itunes:image href="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/bfa45218-c486-4ff0-8d0b-ab09010d04da/image.jpg?t=1574093969&amp;size=Large" />
+      <media:content url="https://traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/396c00e3-7067-4fe4-9284-ad7301576052/audio.mp3?utm_source=Podcast&amp;in_playlist=bfa45218-c486-4ff0-8d0b-ab09010d04da" type="audio/mpeg">
+        <media:player url="https://omny.fm/shows/the-loh-down-on-science/doggy-bags/embed" />
+      </media:content>
+      <media:content url="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/bfa45218-c486-4ff0-8d0b-ab09010d04da/image.jpg?t=1574093969&amp;size=Large" type="image/jpeg" />
+      <guid isPermaLink="false">396c00e3-7067-4fe4-9284-ad7301576052</guid>
+      <omny:clipId>396c00e3-7067-4fe4-9284-ad7301576052</omny:clipId>
+      <pubDate>Mon, 02 Aug 2021 09:00:00 +0000</pubDate>
+      <itunes:duration>90</itunes:duration>
+      <enclosure url="https://traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/396c00e3-7067-4fe4-9284-ad7301576052/audio.mp3?utm_source=Podcast&amp;in_playlist=bfa45218-c486-4ff0-8d0b-ab09010d04da" length="1466267" type="audio/mpeg" />
+      <link>https://omny.fm/shows/the-loh-down-on-science/doggy-bags</link>
+    </item>
+    <item>
+      <title>Neck Envy</title>
+      <itunes:title>Neck Envy</itunes:title>
+      <description>You wanna talk about HIGH blood pressure! </description>
+      <content:encoded><![CDATA[<p>You wanna talk about HIGH blood pressure!&nbsp;</p>]]></content:encoded>
+      <itunes:summary>You wanna talk about HIGH blood pressure! </itunes:summary>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:author>KPCC 89.3</itunes:author>
+      <itunes:image href="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/bfa45218-c486-4ff0-8d0b-ab09010d04da/image.jpg?t=1574093969&amp;size=Large" />
+      <media:content url="https://traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/3ab574fa-754d-47c6-8dfa-ad52001328fe/audio.mp3?utm_source=Podcast&amp;in_playlist=bfa45218-c486-4ff0-8d0b-ab09010d04da" type="audio/mpeg">
+        <media:player url="https://omny.fm/shows/the-loh-down-on-science/neck-envy/embed" />
+      </media:content>
+      <media:content url="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/bfa45218-c486-4ff0-8d0b-ab09010d04da/image.jpg?t=1574093969&amp;size=Large" type="image/jpeg" />
+      <guid isPermaLink="false">3ab574fa-754d-47c6-8dfa-ad52001328fe</guid>
+      <omny:clipId>3ab574fa-754d-47c6-8dfa-ad52001328fe</omny:clipId>
+      <pubDate>Fri, 30 Jul 2021 09:00:00 +0000</pubDate>
+      <itunes:duration>90</itunes:duration>
+      <enclosure url="https://traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/3ab574fa-754d-47c6-8dfa-ad52001328fe/audio.mp3?utm_source=Podcast&amp;in_playlist=bfa45218-c486-4ff0-8d0b-ab09010d04da" length="1466266" type="audio/mpeg" />
+      <link>https://omny.fm/shows/the-loh-down-on-science/neck-envy</link>
+    </item>
+    <item>
+      <title>Garden Party</title>
+      <itunes:title>Garden Party</itunes:title>
+      <description>Bye bye dinosaurs, hello...flowers?</description>
+      <content:encoded><![CDATA[<p>Bye bye dinosaurs, hello...flowers?</p>]]></content:encoded>
+      <itunes:summary>Bye bye dinosaurs, hello...flowers?</itunes:summary>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:author>KPCC 89.3</itunes:author>
+      <itunes:image href="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/bfa45218-c486-4ff0-8d0b-ab09010d04da/image.jpg?t=1574093969&amp;size=Large" />
+      <media:content url="https://traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/3f187cc0-e533-411d-b0a4-ad5200132908/audio.mp3?utm_source=Podcast&amp;in_playlist=bfa45218-c486-4ff0-8d0b-ab09010d04da" type="audio/mpeg">
+        <media:player url="https://omny.fm/shows/the-loh-down-on-science/garden-party/embed" />
+      </media:content>
+      <media:content url="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/bfa45218-c486-4ff0-8d0b-ab09010d04da/image.jpg?t=1574093969&amp;size=Large" type="image/jpeg" />
+      <guid isPermaLink="false">3f187cc0-e533-411d-b0a4-ad5200132908</guid>
+      <omny:clipId>3f187cc0-e533-411d-b0a4-ad5200132908</omny:clipId>
+      <pubDate>Thu, 29 Jul 2021 09:00:00 +0000</pubDate>
+      <itunes:duration>90</itunes:duration>
+      <enclosure url="https://traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/3f187cc0-e533-411d-b0a4-ad5200132908/audio.mp3?utm_source=Podcast&amp;in_playlist=bfa45218-c486-4ff0-8d0b-ab09010d04da" length="1466269" type="audio/mpeg" />
+      <link>https://omny.fm/shows/the-loh-down-on-science/garden-party</link>
+    </item>
+    <item>
+      <title>Sleepy Children, Happy_Children</title>
+      <itunes:title>Sleepy Children, Happy_Children</itunes:title>
+      <description>Hey kid, falling asleep at your desk! WAKE UP!</description>
+      <content:encoded><![CDATA[<p>Hey kid, falling asleep at your desk! WAKE UP!</p>]]></content:encoded>
+      <itunes:summary>Hey kid, falling asleep at your desk! WAKE UP!</itunes:summary>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:author>KPCC 89.3</itunes:author>
+      <itunes:image href="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/bfa45218-c486-4ff0-8d0b-ab09010d04da/image.jpg?t=1574093969&amp;size=Large" />
+      <media:content url="https://traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/a1ba1903-2b88-40fc-b619-ad520013291b/audio.mp3?utm_source=Podcast&amp;in_playlist=bfa45218-c486-4ff0-8d0b-ab09010d04da" type="audio/mpeg">
+        <media:player url="https://omny.fm/shows/the-loh-down-on-science/sleepy-children-happy-children/embed" />
+      </media:content>
+      <media:content url="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/bfa45218-c486-4ff0-8d0b-ab09010d04da/image.jpg?t=1574093969&amp;size=Large" type="image/jpeg" />
+      <guid isPermaLink="false">a1ba1903-2b88-40fc-b619-ad520013291b</guid>
+      <omny:clipId>a1ba1903-2b88-40fc-b619-ad520013291b</omny:clipId>
+      <pubDate>Wed, 28 Jul 2021 09:00:00 +0000</pubDate>
+      <itunes:duration>90</itunes:duration>
+      <enclosure url="https://traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/a1ba1903-2b88-40fc-b619-ad520013291b/audio.mp3?utm_source=Podcast&amp;in_playlist=bfa45218-c486-4ff0-8d0b-ab09010d04da" length="1466288" type="audio/mpeg" />
+      <link>https://omny.fm/shows/the-loh-down-on-science/sleepy-children-happy-children</link>
+    </item>
+    <item>
+      <title>Irr-elephant</title>
+      <itunes:title>Irr-elephant</itunes:title>
+      <description>Preventing cancer? Elephants may be up to the TUSK.</description>
+      <content:encoded><![CDATA[<p>Preventing cancer? Elephants may be up to the TUSK.</p>]]></content:encoded>
+      <itunes:summary>Preventing cancer? Elephants may be up to the TUSK.</itunes:summary>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:author>KPCC 89.3</itunes:author>
+      <itunes:image href="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/bfa45218-c486-4ff0-8d0b-ab09010d04da/image.jpg?t=1574093969&amp;size=Large" />
+      <media:content url="https://traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/65dba50e-cab8-4361-9345-ad5200132903/audio.mp3?utm_source=Podcast&amp;in_playlist=bfa45218-c486-4ff0-8d0b-ab09010d04da" type="audio/mpeg">
+        <media:player url="https://omny.fm/shows/the-loh-down-on-science/irr-elephant/embed" />
+      </media:content>
+      <media:content url="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/bfa45218-c486-4ff0-8d0b-ab09010d04da/image.jpg?t=1574093969&amp;size=Large" type="image/jpeg" />
+      <guid isPermaLink="false">65dba50e-cab8-4361-9345-ad5200132903</guid>
+      <omny:clipId>65dba50e-cab8-4361-9345-ad5200132903</omny:clipId>
+      <pubDate>Tue, 27 Jul 2021 09:00:00 +0000</pubDate>
+      <itunes:duration>90</itunes:duration>
+      <enclosure url="https://traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/65dba50e-cab8-4361-9345-ad5200132903/audio.mp3?utm_source=Podcast&amp;in_playlist=bfa45218-c486-4ff0-8d0b-ab09010d04da" length="1466269" type="audio/mpeg" />
+      <link>https://omny.fm/shows/the-loh-down-on-science/irr-elephant</link>
+    </item>
+    <item>
+      <title>Course-Correcting</title>
+      <itunes:title>Course-Correcting</itunes:title>
+      <description>Burgers again? You have GUT to be kidding me!</description>
+      <content:encoded><![CDATA[<p>Burgers again? You have GUT to be kidding me!</p>]]></content:encoded>
+      <itunes:summary>Burgers again? You have GUT to be kidding me!</itunes:summary>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:author>KPCC 89.3</itunes:author>
+      <itunes:image href="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/bfa45218-c486-4ff0-8d0b-ab09010d04da/image.jpg?t=1574093969&amp;size=Large" />
+      <media:content url="https://traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/0cc4900e-05e7-4768-b086-ad5200132904/audio.mp3?utm_source=Podcast&amp;in_playlist=bfa45218-c486-4ff0-8d0b-ab09010d04da" type="audio/mpeg">
+        <media:player url="https://omny.fm/shows/the-loh-down-on-science/course-correcting/embed" />
+      </media:content>
+      <media:content url="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/bfa45218-c486-4ff0-8d0b-ab09010d04da/image.jpg?t=1574093969&amp;size=Large" type="image/jpeg" />
+      <guid isPermaLink="false">0cc4900e-05e7-4768-b086-ad5200132904</guid>
+      <omny:clipId>0cc4900e-05e7-4768-b086-ad5200132904</omny:clipId>
+      <pubDate>Mon, 26 Jul 2021 09:00:00 +0000</pubDate>
+      <itunes:duration>90</itunes:duration>
+      <enclosure url="https://traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/0cc4900e-05e7-4768-b086-ad5200132904/audio.mp3?utm_source=Podcast&amp;in_playlist=bfa45218-c486-4ff0-8d0b-ab09010d04da" length="1466274" type="audio/mpeg" />
+      <link>https://omny.fm/shows/the-loh-down-on-science/course-correcting</link>
+    </item>
+    <item>
+      <title>Cocoa for Weight Loss</title>
+      <itunes:title>Cocoa for Weight Loss</itunes:title>
+      <description>Could the secret weapon be…more DESSERT?</description>
+      <content:encoded><![CDATA[<p>Could the secret weapon be&hellip;more DESSERT?</p>]]></content:encoded>
+      <itunes:summary>Could the secret weapon be…more DESSERT?</itunes:summary>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:author>KPCC 89.3</itunes:author>
+      <itunes:image href="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/bfa45218-c486-4ff0-8d0b-ab09010d04da/image.jpg?t=1574093969&amp;size=Large" />
+      <media:content url="https://traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/b85bf17f-872f-4538-b1e4-ad5200132924/audio.mp3?utm_source=Podcast&amp;in_playlist=bfa45218-c486-4ff0-8d0b-ab09010d04da" type="audio/mpeg">
+        <media:player url="https://omny.fm/shows/the-loh-down-on-science/cocoa-for-weight-loss/embed" />
+      </media:content>
+      <media:content url="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/bfa45218-c486-4ff0-8d0b-ab09010d04da/image.jpg?t=1574093969&amp;size=Large" type="image/jpeg" />
+      <guid isPermaLink="false">b85bf17f-872f-4538-b1e4-ad5200132924</guid>
+      <omny:clipId>b85bf17f-872f-4538-b1e4-ad5200132924</omny:clipId>
+      <pubDate>Fri, 23 Jul 2021 09:00:00 +0000</pubDate>
+      <itunes:duration>90</itunes:duration>
+      <enclosure url="https://traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/b85bf17f-872f-4538-b1e4-ad5200132924/audio.mp3?utm_source=Podcast&amp;in_playlist=bfa45218-c486-4ff0-8d0b-ab09010d04da" length="1466278" type="audio/mpeg" />
+      <link>https://omny.fm/shows/the-loh-down-on-science/cocoa-for-weight-loss</link>
+    </item>
+    <item>
+      <title>Help Needed</title>
+      <itunes:title>Help Needed</itunes:title>
+      <description>HELLLP! Somebody nabbed MY grocery cart in the Trader Joe’s parking lot!</description>
+      <content:encoded><![CDATA[<p>HELLLP! Somebody nabbed MY grocery cart in the Trader Joe&rsquo;s parking lot!</p>]]></content:encoded>
+      <itunes:summary>HELLLP! Somebody nabbed MY grocery cart in the Trader Joe’s parking lot!</itunes:summary>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:author>KPCC 89.3</itunes:author>
+      <itunes:image href="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/bfa45218-c486-4ff0-8d0b-ab09010d04da/image.jpg?t=1574093969&amp;size=Large" />
+      <media:content url="https://traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/6534f632-a0e1-4483-ae8c-ad5200132927/audio.mp3?utm_source=Podcast&amp;in_playlist=bfa45218-c486-4ff0-8d0b-ab09010d04da" type="audio/mpeg">
+        <media:player url="https://omny.fm/shows/the-loh-down-on-science/help-needed/embed" />
+      </media:content>
+      <media:content url="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/bfa45218-c486-4ff0-8d0b-ab09010d04da/image.jpg?t=1574093969&amp;size=Large" type="image/jpeg" />
+      <guid isPermaLink="false">6534f632-a0e1-4483-ae8c-ad5200132927</guid>
+      <omny:clipId>6534f632-a0e1-4483-ae8c-ad5200132927</omny:clipId>
+      <pubDate>Thu, 22 Jul 2021 09:00:00 +0000</pubDate>
+      <itunes:duration>90</itunes:duration>
+      <enclosure url="https://traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/6534f632-a0e1-4483-ae8c-ad5200132927/audio.mp3?utm_source=Podcast&amp;in_playlist=bfa45218-c486-4ff0-8d0b-ab09010d04da" length="1466268" type="audio/mpeg" />
+      <link>https://omny.fm/shows/the-loh-down-on-science/help-needed</link>
+    </item>
+    <item>
+      <title>Speedy Sponges</title>
+      <itunes:title>Speedy Sponges</itunes:title>
+      <description>Whoooo lives in a pineapple under the sea?!</description>
+      <content:encoded><![CDATA[<p>Whoooo lives in a pineapple under the sea?!</p>]]></content:encoded>
+      <itunes:summary>Whoooo lives in a pineapple under the sea?!</itunes:summary>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:author>KPCC 89.3</itunes:author>
+      <itunes:image href="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/bfa45218-c486-4ff0-8d0b-ab09010d04da/image.jpg?t=1574093969&amp;size=Large" />
+      <media:content url="https://traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/eb6bbd27-c6dc-4671-9a3d-ad5200132914/audio.mp3?utm_source=Podcast&amp;in_playlist=bfa45218-c486-4ff0-8d0b-ab09010d04da" type="audio/mpeg">
+        <media:player url="https://omny.fm/shows/the-loh-down-on-science/speedy-sponges/embed" />
+      </media:content>
+      <media:content url="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/bfa45218-c486-4ff0-8d0b-ab09010d04da/image.jpg?t=1574093969&amp;size=Large" type="image/jpeg" />
+      <guid isPermaLink="false">eb6bbd27-c6dc-4671-9a3d-ad5200132914</guid>
+      <omny:clipId>eb6bbd27-c6dc-4671-9a3d-ad5200132914</omny:clipId>
+      <pubDate>Wed, 21 Jul 2021 09:00:00 +0000</pubDate>
+      <itunes:duration>90</itunes:duration>
+      <enclosure url="https://traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/eb6bbd27-c6dc-4671-9a3d-ad5200132914/audio.mp3?utm_source=Podcast&amp;in_playlist=bfa45218-c486-4ff0-8d0b-ab09010d04da" length="1466271" type="audio/mpeg" />
+      <link>https://omny.fm/shows/the-loh-down-on-science/speedy-sponges</link>
+    </item>
+    <item>
+      <title>Natural High</title>
+      <itunes:title>Natural High</itunes:title>
+      <description>This finding has generated a BUZZ around the psychological benefits of exercise!</description>
+      <content:encoded><![CDATA[<p>This finding has generated a BUZZ around the psychological benefits of exercise!</p>]]></content:encoded>
+      <itunes:summary>This finding has generated a BUZZ around the psychological benefits of exercise!</itunes:summary>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:author>KPCC 89.3</itunes:author>
+      <itunes:image href="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/bfa45218-c486-4ff0-8d0b-ab09010d04da/image.jpg?t=1574093969&amp;size=Large" />
+      <media:content url="https://traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/4b0e66d9-48fb-4a20-af05-ad5200132917/audio.mp3?utm_source=Podcast&amp;in_playlist=bfa45218-c486-4ff0-8d0b-ab09010d04da" type="audio/mpeg">
+        <media:player url="https://omny.fm/shows/the-loh-down-on-science/natural-high/embed" />
+      </media:content>
+      <media:content url="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/bfa45218-c486-4ff0-8d0b-ab09010d04da/image.jpg?t=1574093969&amp;size=Large" type="image/jpeg" />
+      <guid isPermaLink="false">4b0e66d9-48fb-4a20-af05-ad5200132917</guid>
+      <omny:clipId>4b0e66d9-48fb-4a20-af05-ad5200132917</omny:clipId>
+      <pubDate>Tue, 20 Jul 2021 09:00:00 +0000</pubDate>
+      <itunes:duration>90</itunes:duration>
+      <enclosure url="https://traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/4b0e66d9-48fb-4a20-af05-ad5200132917/audio.mp3?utm_source=Podcast&amp;in_playlist=bfa45218-c486-4ff0-8d0b-ab09010d04da" length="1466269" type="audio/mpeg" />
+      <link>https://omny.fm/shows/the-loh-down-on-science/natural-high</link>
+    </item>
+    <item>
+      <title>F-ANT-astic Queen</title>
+      <itunes:title>F-ANT-astic Queen</itunes:title>
+      <description>Does being a mom make you lose brain cells?</description>
+      <content:encoded><![CDATA[<p>Does being a mom make you lose brain cells?</p>]]></content:encoded>
+      <itunes:summary>Does being a mom make you lose brain cells?</itunes:summary>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:author>KPCC 89.3</itunes:author>
+      <itunes:image href="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/bfa45218-c486-4ff0-8d0b-ab09010d04da/image.jpg?t=1574093969&amp;size=Large" />
+      <media:content url="https://traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/3ca93339-376e-4d54-959f-ad5200132967/audio.mp3?utm_source=Podcast&amp;in_playlist=bfa45218-c486-4ff0-8d0b-ab09010d04da" type="audio/mpeg">
+        <media:player url="https://omny.fm/shows/the-loh-down-on-science/f-ant-astic-queen/embed" />
+      </media:content>
+      <media:content url="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/bfa45218-c486-4ff0-8d0b-ab09010d04da/image.jpg?t=1574093969&amp;size=Large" type="image/jpeg" />
+      <guid isPermaLink="false">3ca93339-376e-4d54-959f-ad5200132967</guid>
+      <omny:clipId>3ca93339-376e-4d54-959f-ad5200132967</omny:clipId>
+      <pubDate>Mon, 19 Jul 2021 09:00:00 +0000</pubDate>
+      <itunes:duration>90</itunes:duration>
+      <enclosure url="https://traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/3ca93339-376e-4d54-959f-ad5200132967/audio.mp3?utm_source=Podcast&amp;in_playlist=bfa45218-c486-4ff0-8d0b-ab09010d04da" length="1466274" type="audio/mpeg" />
+      <link>https://omny.fm/shows/the-loh-down-on-science/f-ant-astic-queen</link>
+    </item>
     <item>
       <title>Bees or Birds?</title>
       <itunes:title>Bees or Birds?</itunes:title>
@@ -1426,606 +2029,6 @@
       <itunes:duration>90</itunes:duration>
       <enclosure url="https://traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/a57e29e3-b70e-4ddb-942e-acf5011ac2f1/audio.mp3?utm_source=Podcast&amp;in_playlist=bfa45218-c486-4ff0-8d0b-ab09010d04da" length="1466272" type="audio/mpeg" />
       <link>https://omny.fm/shows/the-loh-down-on-science/dream-and-learn</link>
-    </item>
-    <item>
-      <title>Killer Kitty</title>
-      <itunes:title>Killer Kitty</itunes:title>
-      <description>How can cat owners cut down on their feline's gory "presents?"</description>
-      <content:encoded><![CDATA[<p>How can cat owners cut down on their feline's gory "presents?"</p>]]></content:encoded>
-      <itunes:summary>How can cat owners cut down on their feline's gory "presents?"</itunes:summary>
-      <itunes:episodeType>full</itunes:episodeType>
-      <itunes:author>KPCC 89.3</itunes:author>
-      <itunes:image href="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/bfa45218-c486-4ff0-8d0b-ab09010d04da/image.jpg?t=1574093969&amp;size=Large" />
-      <media:content url="https://traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/1bd35323-47b2-44a0-8c88-acf5011ac2ea/audio.mp3?utm_source=Podcast&amp;in_playlist=bfa45218-c486-4ff0-8d0b-ab09010d04da" type="audio/mpeg">
-        <media:player url="https://omny.fm/shows/the-loh-down-on-science/killer-kitty/embed" />
-      </media:content>
-      <media:content url="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/bfa45218-c486-4ff0-8d0b-ab09010d04da/image.jpg?t=1574093969&amp;size=Large" type="image/jpeg" />
-      <guid isPermaLink="false">1bd35323-47b2-44a0-8c88-acf5011ac2ea</guid>
-      <omny:clipId>1bd35323-47b2-44a0-8c88-acf5011ac2ea</omny:clipId>
-      <pubDate>Fri, 09 Apr 2021 09:00:00 +0000</pubDate>
-      <itunes:duration>90</itunes:duration>
-      <enclosure url="https://traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/1bd35323-47b2-44a0-8c88-acf5011ac2ea/audio.mp3?utm_source=Podcast&amp;in_playlist=bfa45218-c486-4ff0-8d0b-ab09010d04da" length="1466269" type="audio/mpeg" />
-      <link>https://omny.fm/shows/the-loh-down-on-science/killer-kitty</link>
-    </item>
-    <item>
-      <title>Gut and Paste</title>
-      <itunes:title>Gut and Paste</itunes:title>
-      <description>Stressed out? You have GUT to relax!</description>
-      <content:encoded><![CDATA[<p>Stressed out? You have GUT to relax!</p>]]></content:encoded>
-      <itunes:summary>Stressed out? You have GUT to relax!</itunes:summary>
-      <itunes:episodeType>full</itunes:episodeType>
-      <itunes:author>KPCC 89.3</itunes:author>
-      <itunes:image href="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/bfa45218-c486-4ff0-8d0b-ab09010d04da/image.jpg?t=1574093969&amp;size=Large" />
-      <media:content url="https://traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/765a7449-2c7c-4d58-91aa-acf5011ac2ed/audio.mp3?utm_source=Podcast&amp;in_playlist=bfa45218-c486-4ff0-8d0b-ab09010d04da" type="audio/mpeg">
-        <media:player url="https://omny.fm/shows/the-loh-down-on-science/gut-and-paste/embed" />
-      </media:content>
-      <media:content url="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/bfa45218-c486-4ff0-8d0b-ab09010d04da/image.jpg?t=1574093969&amp;size=Large" type="image/jpeg" />
-      <guid isPermaLink="false">765a7449-2c7c-4d58-91aa-acf5011ac2ed</guid>
-      <omny:clipId>765a7449-2c7c-4d58-91aa-acf5011ac2ed</omny:clipId>
-      <pubDate>Thu, 08 Apr 2021 09:00:00 +0000</pubDate>
-      <itunes:duration>90</itunes:duration>
-      <enclosure url="https://traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/765a7449-2c7c-4d58-91aa-acf5011ac2ed/audio.mp3?utm_source=Podcast&amp;in_playlist=bfa45218-c486-4ff0-8d0b-ab09010d04da" length="1466270" type="audio/mpeg" />
-      <link>https://omny.fm/shows/the-loh-down-on-science/gut-and-paste</link>
-    </item>
-    <item>
-      <title>Nothing but Tooth</title>
-      <itunes:title>Nothing but Tooth</itunes:title>
-      <description>Finally - the tooth about Neanderthals!</description>
-      <content:encoded><![CDATA[<p>Finally - the tooth about Neanderthals!</p>]]></content:encoded>
-      <itunes:summary>Finally - the tooth about Neanderthals!</itunes:summary>
-      <itunes:episodeType>full</itunes:episodeType>
-      <itunes:author>KPCC 89.3</itunes:author>
-      <itunes:image href="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/bfa45218-c486-4ff0-8d0b-ab09010d04da/image.jpg?t=1574093969&amp;size=Large" />
-      <media:content url="https://traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/36c6f212-7786-4519-acc8-acf5011ac2ee/audio.mp3?utm_source=Podcast&amp;in_playlist=bfa45218-c486-4ff0-8d0b-ab09010d04da" type="audio/mpeg">
-        <media:player url="https://omny.fm/shows/the-loh-down-on-science/nothing-but-tooth/embed" />
-      </media:content>
-      <media:content url="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/bfa45218-c486-4ff0-8d0b-ab09010d04da/image.jpg?t=1574093969&amp;size=Large" type="image/jpeg" />
-      <guid isPermaLink="false">36c6f212-7786-4519-acc8-acf5011ac2ee</guid>
-      <omny:clipId>36c6f212-7786-4519-acc8-acf5011ac2ee</omny:clipId>
-      <pubDate>Wed, 07 Apr 2021 09:00:00 +0000</pubDate>
-      <itunes:duration>90</itunes:duration>
-      <enclosure url="https://traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/36c6f212-7786-4519-acc8-acf5011ac2ee/audio.mp3?utm_source=Podcast&amp;in_playlist=bfa45218-c486-4ff0-8d0b-ab09010d04da" length="1466274" type="audio/mpeg" />
-      <link>https://omny.fm/shows/the-loh-down-on-science/nothing-but-tooth</link>
-    </item>
-    <item>
-      <title>Fungus Versus the Volcano</title>
-      <itunes:title>Fungus Versus the Volcano</itunes:title>
-      <description>Need to clean up industrial waste? Call on this fun guy!</description>
-      <content:encoded><![CDATA[<p>Need to clean up industrial waste? Call on this fun guy!</p>]]></content:encoded>
-      <itunes:summary>Need to clean up industrial waste? Call on this fun guy!</itunes:summary>
-      <itunes:episodeType>full</itunes:episodeType>
-      <itunes:author>KPCC 89.3</itunes:author>
-      <itunes:image href="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/bfa45218-c486-4ff0-8d0b-ab09010d04da/image.jpg?t=1574093969&amp;size=Large" />
-      <media:content url="https://traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/9c77b865-43b1-4e5a-bdae-acf5011ac2dd/audio.mp3?utm_source=Podcast&amp;in_playlist=bfa45218-c486-4ff0-8d0b-ab09010d04da" type="audio/mpeg">
-        <media:player url="https://omny.fm/shows/the-loh-down-on-science/fungus-versus-the-volcano/embed" />
-      </media:content>
-      <media:content url="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/bfa45218-c486-4ff0-8d0b-ab09010d04da/image.jpg?t=1574093969&amp;size=Large" type="image/jpeg" />
-      <guid isPermaLink="false">9c77b865-43b1-4e5a-bdae-acf5011ac2dd</guid>
-      <omny:clipId>9c77b865-43b1-4e5a-bdae-acf5011ac2dd</omny:clipId>
-      <pubDate>Tue, 06 Apr 2021 09:00:00 +0000</pubDate>
-      <itunes:duration>90</itunes:duration>
-      <enclosure url="https://traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/9c77b865-43b1-4e5a-bdae-acf5011ac2dd/audio.mp3?utm_source=Podcast&amp;in_playlist=bfa45218-c486-4ff0-8d0b-ab09010d04da" length="1466282" type="audio/mpeg" />
-      <link>https://omny.fm/shows/the-loh-down-on-science/fungus-versus-the-volcano</link>
-    </item>
-    <item>
-      <title>Teen Bops</title>
-      <itunes:title>Teen Bops</itunes:title>
-      <description>What tunes take you back to your teens?</description>
-      <content:encoded><![CDATA[<p>What tunes take you back to your teens?</p>]]></content:encoded>
-      <itunes:summary>What tunes take you back to your teens?</itunes:summary>
-      <itunes:episodeType>full</itunes:episodeType>
-      <itunes:author>KPCC 89.3</itunes:author>
-      <itunes:image href="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/bfa45218-c486-4ff0-8d0b-ab09010d04da/image.jpg?t=1574093969&amp;size=Large" />
-      <media:content url="https://traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/ce928606-712a-44e6-a823-acf5011ac2d9/audio.mp3?utm_source=Podcast&amp;in_playlist=bfa45218-c486-4ff0-8d0b-ab09010d04da" type="audio/mpeg">
-        <media:player url="https://omny.fm/shows/the-loh-down-on-science/teen-bops/embed" />
-      </media:content>
-      <media:content url="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/bfa45218-c486-4ff0-8d0b-ab09010d04da/image.jpg?t=1574093969&amp;size=Large" type="image/jpeg" />
-      <guid isPermaLink="false">ce928606-712a-44e6-a823-acf5011ac2d9</guid>
-      <omny:clipId>ce928606-712a-44e6-a823-acf5011ac2d9</omny:clipId>
-      <pubDate>Mon, 05 Apr 2021 09:00:00 +0000</pubDate>
-      <itunes:duration>90</itunes:duration>
-      <enclosure url="https://traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/ce928606-712a-44e6-a823-acf5011ac2d9/audio.mp3?utm_source=Podcast&amp;in_playlist=bfa45218-c486-4ff0-8d0b-ab09010d04da" length="1466266" type="audio/mpeg" />
-      <link>https://omny.fm/shows/the-loh-down-on-science/teen-bops</link>
-    </item>
-    <item>
-      <title>Egg-stra Large Eggs</title>
-      <itunes:title>Egg-stra Large Eggs</itunes:title>
-      <description>Baby dinosaur or…Jurassic omelette?</description>
-      <content:encoded><![CDATA[<p>Baby dinosaur or&hellip;Jurassic omelette?</p>]]></content:encoded>
-      <itunes:summary>Baby dinosaur or…Jurassic omelette?</itunes:summary>
-      <itunes:episodeType>full</itunes:episodeType>
-      <itunes:author>KPCC 89.3</itunes:author>
-      <itunes:image href="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/bfa45218-c486-4ff0-8d0b-ab09010d04da/image.jpg?t=1574093969&amp;size=Large" />
-      <media:content url="https://traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/62c58a0f-a45b-49ea-a68c-acf5011ac2d9/audio.mp3?utm_source=Podcast&amp;in_playlist=bfa45218-c486-4ff0-8d0b-ab09010d04da" type="audio/mpeg">
-        <media:player url="https://omny.fm/shows/the-loh-down-on-science/egg-stra-large-eggs/embed" />
-      </media:content>
-      <media:content url="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/bfa45218-c486-4ff0-8d0b-ab09010d04da/image.jpg?t=1574093969&amp;size=Large" type="image/jpeg" />
-      <guid isPermaLink="false">62c58a0f-a45b-49ea-a68c-acf5011ac2d9</guid>
-      <omny:clipId>62c58a0f-a45b-49ea-a68c-acf5011ac2d9</omny:clipId>
-      <pubDate>Fri, 02 Apr 2021 09:00:00 +0000</pubDate>
-      <itunes:duration>90</itunes:duration>
-      <enclosure url="https://traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/62c58a0f-a45b-49ea-a68c-acf5011ac2d9/audio.mp3?utm_source=Podcast&amp;in_playlist=bfa45218-c486-4ff0-8d0b-ab09010d04da" length="1466276" type="audio/mpeg" />
-      <link>https://omny.fm/shows/the-loh-down-on-science/egg-stra-large-eggs</link>
-    </item>
-    <item>
-      <title>Fooled Filters</title>
-      <itunes:title>Fooled Filters</itunes:title>
-      <description>Meds play an April Fools joke on your immune system!</description>
-      <content:encoded><![CDATA[<p>Meds play an April Fools joke on your immune system!</p>]]></content:encoded>
-      <itunes:summary>Meds play an April Fools joke on your immune system!</itunes:summary>
-      <itunes:episodeType>full</itunes:episodeType>
-      <itunes:author>KPCC 89.3</itunes:author>
-      <itunes:image href="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/bfa45218-c486-4ff0-8d0b-ab09010d04da/image.jpg?t=1574093969&amp;size=Large" />
-      <media:content url="https://traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/fa77c193-61a8-4b08-9b92-acf5011ac2d6/audio.mp3?utm_source=Podcast&amp;in_playlist=bfa45218-c486-4ff0-8d0b-ab09010d04da" type="audio/mpeg">
-        <media:player url="https://omny.fm/shows/the-loh-down-on-science/fooled-filters/embed" />
-      </media:content>
-      <media:content url="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/bfa45218-c486-4ff0-8d0b-ab09010d04da/image.jpg?t=1574093969&amp;size=Large" type="image/jpeg" />
-      <guid isPermaLink="false">fa77c193-61a8-4b08-9b92-acf5011ac2d6</guid>
-      <omny:clipId>fa77c193-61a8-4b08-9b92-acf5011ac2d6</omny:clipId>
-      <pubDate>Thu, 01 Apr 2021 09:00:00 +0000</pubDate>
-      <itunes:duration>90</itunes:duration>
-      <enclosure url="https://traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/fa77c193-61a8-4b08-9b92-acf5011ac2d6/audio.mp3?utm_source=Podcast&amp;in_playlist=bfa45218-c486-4ff0-8d0b-ab09010d04da" length="1466271" type="audio/mpeg" />
-      <link>https://omny.fm/shows/the-loh-down-on-science/fooled-filters</link>
-    </item>
-    <item>
-      <title>Abbreviation Aggravation</title>
-      <itunes:title>Abbreviation Aggravation</itunes:title>
-      <description>HR, IDK, LDOS….are acronyms helpful or confusing?</description>
-      <content:encoded><![CDATA[<p>HR, IDK, LDOS&hellip;.are acronyms helpful or confusing?</p>]]></content:encoded>
-      <itunes:summary>HR, IDK, LDOS….are acronyms helpful or confusing?</itunes:summary>
-      <itunes:episodeType>full</itunes:episodeType>
-      <itunes:author>KPCC 89.3</itunes:author>
-      <itunes:image href="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/bfa45218-c486-4ff0-8d0b-ab09010d04da/image.jpg?t=1574093969&amp;size=Large" />
-      <media:content url="https://traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/57da6e63-e355-49b3-a89d-acdc0024a538/audio.mp3?utm_source=Podcast&amp;in_playlist=bfa45218-c486-4ff0-8d0b-ab09010d04da" type="audio/mpeg">
-        <media:player url="https://omny.fm/shows/the-loh-down-on-science/abbreviation-aggravation/embed" />
-      </media:content>
-      <media:content url="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/bfa45218-c486-4ff0-8d0b-ab09010d04da/image.jpg?t=1574093969&amp;size=Large" type="image/jpeg" />
-      <guid isPermaLink="false">57da6e63-e355-49b3-a89d-acdc0024a538</guid>
-      <omny:clipId>57da6e63-e355-49b3-a89d-acdc0024a538</omny:clipId>
-      <pubDate>Wed, 31 Mar 2021 09:00:00 +0000</pubDate>
-      <itunes:duration>90</itunes:duration>
-      <enclosure url="https://traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/57da6e63-e355-49b3-a89d-acdc0024a538/audio.mp3?utm_source=Podcast&amp;in_playlist=bfa45218-c486-4ff0-8d0b-ab09010d04da" length="1466281" type="audio/mpeg" />
-      <link>https://omny.fm/shows/the-loh-down-on-science/abbreviation-aggravation</link>
-    </item>
-    <item>
-      <title>Pharma-ATM</title>
-      <itunes:title>Pharma-ATM</itunes:title>
-      <description>Gotta stop at the ATM for some cash - and some penicillin..?!</description>
-      <content:encoded><![CDATA[<p>Gotta stop at the ATM for some cash - and some penicillin..?!</p>]]></content:encoded>
-      <itunes:summary>Gotta stop at the ATM for some cash - and some penicillin..?!</itunes:summary>
-      <itunes:episodeType>full</itunes:episodeType>
-      <itunes:author>KPCC 89.3</itunes:author>
-      <itunes:image href="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/bfa45218-c486-4ff0-8d0b-ab09010d04da/image.jpg?t=1574093969&amp;size=Large" />
-      <media:content url="https://traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/01d99cba-f5db-4216-b73d-acdc0024a537/audio.mp3?utm_source=Podcast&amp;in_playlist=bfa45218-c486-4ff0-8d0b-ab09010d04da" type="audio/mpeg">
-        <media:player url="https://omny.fm/shows/the-loh-down-on-science/pharma-atm/embed" />
-      </media:content>
-      <media:content url="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/bfa45218-c486-4ff0-8d0b-ab09010d04da/image.jpg?t=1574093969&amp;size=Large" type="image/jpeg" />
-      <guid isPermaLink="false">01d99cba-f5db-4216-b73d-acdc0024a537</guid>
-      <omny:clipId>01d99cba-f5db-4216-b73d-acdc0024a537</omny:clipId>
-      <pubDate>Tue, 30 Mar 2021 09:00:00 +0000</pubDate>
-      <itunes:duration>90</itunes:duration>
-      <enclosure url="https://traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/01d99cba-f5db-4216-b73d-acdc0024a537/audio.mp3?utm_source=Podcast&amp;in_playlist=bfa45218-c486-4ff0-8d0b-ab09010d04da" length="1466267" type="audio/mpeg" />
-      <link>https://omny.fm/shows/the-loh-down-on-science/pharma-atm</link>
-    </item>
-    <item>
-      <title>Sweat It Out!</title>
-      <itunes:title>Sweat It Out!</itunes:title>
-      <description>Turning sweat into... electricity?</description>
-      <content:encoded><![CDATA[<p>Turning sweat into... electricity?</p>]]></content:encoded>
-      <itunes:summary>Turning sweat into... electricity?</itunes:summary>
-      <itunes:episodeType>full</itunes:episodeType>
-      <itunes:author>KPCC 89.3</itunes:author>
-      <itunes:image href="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/bfa45218-c486-4ff0-8d0b-ab09010d04da/image.jpg?t=1574093969&amp;size=Large" />
-      <media:content url="https://traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/9a83437d-c055-4ba4-b787-acdc0024a537/audio.mp3?utm_source=Podcast&amp;in_playlist=bfa45218-c486-4ff0-8d0b-ab09010d04da" type="audio/mpeg">
-        <media:player url="https://omny.fm/shows/the-loh-down-on-science/sweat-it-out/embed" />
-      </media:content>
-      <media:content url="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/bfa45218-c486-4ff0-8d0b-ab09010d04da/image.jpg?t=1574093969&amp;size=Large" type="image/jpeg" />
-      <guid isPermaLink="false">9a83437d-c055-4ba4-b787-acdc0024a537</guid>
-      <omny:clipId>9a83437d-c055-4ba4-b787-acdc0024a537</omny:clipId>
-      <pubDate>Mon, 29 Mar 2021 09:00:00 +0000</pubDate>
-      <itunes:duration>90</itunes:duration>
-      <enclosure url="https://traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/9a83437d-c055-4ba4-b787-acdc0024a537/audio.mp3?utm_source=Podcast&amp;in_playlist=bfa45218-c486-4ff0-8d0b-ab09010d04da" length="1466270" type="audio/mpeg" />
-      <link>https://omny.fm/shows/the-loh-down-on-science/sweat-it-out</link>
-    </item>
-    <item>
-      <title>Into the Woods</title>
-      <itunes:title>Into the Woods</itunes:title>
-      <description>Trees are the answer to fighting climate change!</description>
-      <content:encoded><![CDATA[<p>Trees are the answer to fighting climate change!</p>]]></content:encoded>
-      <itunes:summary>Trees are the answer to fighting climate change!</itunes:summary>
-      <itunes:episodeType>full</itunes:episodeType>
-      <itunes:author>KPCC 89.3</itunes:author>
-      <itunes:image href="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/bfa45218-c486-4ff0-8d0b-ab09010d04da/image.jpg?t=1574093969&amp;size=Large" />
-      <media:content url="https://traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/e639ac6a-268c-4e81-b7c5-acdc0024a530/audio.mp3?utm_source=Podcast&amp;in_playlist=bfa45218-c486-4ff0-8d0b-ab09010d04da" type="audio/mpeg">
-        <media:player url="https://omny.fm/shows/the-loh-down-on-science/into-the-woods/embed" />
-      </media:content>
-      <media:content url="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/bfa45218-c486-4ff0-8d0b-ab09010d04da/image.jpg?t=1574093969&amp;size=Large" type="image/jpeg" />
-      <guid isPermaLink="false">e639ac6a-268c-4e81-b7c5-acdc0024a530</guid>
-      <omny:clipId>e639ac6a-268c-4e81-b7c5-acdc0024a530</omny:clipId>
-      <pubDate>Fri, 26 Mar 2021 09:00:00 +0000</pubDate>
-      <itunes:duration>90</itunes:duration>
-      <enclosure url="https://traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/e639ac6a-268c-4e81-b7c5-acdc0024a530/audio.mp3?utm_source=Podcast&amp;in_playlist=bfa45218-c486-4ff0-8d0b-ab09010d04da" length="1466271" type="audio/mpeg" />
-      <link>https://omny.fm/shows/the-loh-down-on-science/into-the-woods</link>
-    </item>
-    <item>
-      <title>Blink of an Eye</title>
-      <itunes:title>Blink of an Eye</itunes:title>
-      <description>I’ll be there in the blink of an eye….literally!</description>
-      <content:encoded><![CDATA[<p>I&rsquo;ll be there in the blink of an eye&hellip;.literally!</p>]]></content:encoded>
-      <itunes:summary>I’ll be there in the blink of an eye….literally!</itunes:summary>
-      <itunes:episodeType>full</itunes:episodeType>
-      <itunes:author>KPCC 89.3</itunes:author>
-      <itunes:image href="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/bfa45218-c486-4ff0-8d0b-ab09010d04da/image.jpg?t=1574093969&amp;size=Large" />
-      <media:content url="https://traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/8de3edf3-10f0-4057-a0b3-acdc0024a541/audio.mp3?utm_source=Podcast&amp;in_playlist=bfa45218-c486-4ff0-8d0b-ab09010d04da" type="audio/mpeg">
-        <media:player url="https://omny.fm/shows/the-loh-down-on-science/blink-of-an-eye/embed" />
-      </media:content>
-      <media:content url="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/bfa45218-c486-4ff0-8d0b-ab09010d04da/image.jpg?t=1574093969&amp;size=Large" type="image/jpeg" />
-      <guid isPermaLink="false">8de3edf3-10f0-4057-a0b3-acdc0024a541</guid>
-      <omny:clipId>8de3edf3-10f0-4057-a0b3-acdc0024a541</omny:clipId>
-      <pubDate>Thu, 25 Mar 2021 09:00:00 +0000</pubDate>
-      <itunes:duration>90</itunes:duration>
-      <enclosure url="https://traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/8de3edf3-10f0-4057-a0b3-acdc0024a541/audio.mp3?utm_source=Podcast&amp;in_playlist=bfa45218-c486-4ff0-8d0b-ab09010d04da" length="1466272" type="audio/mpeg" />
-      <link>https://omny.fm/shows/the-loh-down-on-science/blink-of-an-eye</link>
-    </item>
-    <item>
-      <title>Asteroid Blaster</title>
-      <itunes:title>Asteroid Blaster</itunes:title>
-      <description>Are some asteroids faster than others?</description>
-      <content:encoded><![CDATA[<p>Are some asteroids faster than others?</p>]]></content:encoded>
-      <itunes:summary>Are some asteroids faster than others?</itunes:summary>
-      <itunes:episodeType>full</itunes:episodeType>
-      <itunes:author>KPCC 89.3</itunes:author>
-      <itunes:image href="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/bfa45218-c486-4ff0-8d0b-ab09010d04da/image.jpg?t=1574093969&amp;size=Large" />
-      <media:content url="https://traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/18566eef-9c39-43ed-ab88-acdc0024a539/audio.mp3?utm_source=Podcast&amp;in_playlist=bfa45218-c486-4ff0-8d0b-ab09010d04da" type="audio/mpeg">
-        <media:player url="https://omny.fm/shows/the-loh-down-on-science/asteroid-blaster/embed" />
-      </media:content>
-      <media:content url="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/bfa45218-c486-4ff0-8d0b-ab09010d04da/image.jpg?t=1574093969&amp;size=Large" type="image/jpeg" />
-      <guid isPermaLink="false">18566eef-9c39-43ed-ab88-acdc0024a539</guid>
-      <omny:clipId>18566eef-9c39-43ed-ab88-acdc0024a539</omny:clipId>
-      <pubDate>Wed, 24 Mar 2021 09:00:00 +0000</pubDate>
-      <itunes:duration>90</itunes:duration>
-      <enclosure url="https://traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/18566eef-9c39-43ed-ab88-acdc0024a539/audio.mp3?utm_source=Podcast&amp;in_playlist=bfa45218-c486-4ff0-8d0b-ab09010d04da" length="1466273" type="audio/mpeg" />
-      <link>https://omny.fm/shows/the-loh-down-on-science/asteroid-blaster</link>
-    </item>
-    <item>
-      <title>Cellular Time Travel</title>
-      <itunes:title>Cellular Time Travel</itunes:title>
-      <description>Exposing Benjamin Button’s secret...</description>
-      <content:encoded><![CDATA[<p>Exposing Benjamin Button&rsquo;s secret...</p>]]></content:encoded>
-      <itunes:summary>Exposing Benjamin Button’s secret...</itunes:summary>
-      <itunes:episodeType>full</itunes:episodeType>
-      <itunes:author>KPCC 89.3</itunes:author>
-      <itunes:image href="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/bfa45218-c486-4ff0-8d0b-ab09010d04da/image.jpg?t=1574093969&amp;size=Large" />
-      <media:content url="https://traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/b42a4697-2f0a-46c0-ab5b-acdc0024a534/audio.mp3?utm_source=Podcast&amp;in_playlist=bfa45218-c486-4ff0-8d0b-ab09010d04da" type="audio/mpeg">
-        <media:player url="https://omny.fm/shows/the-loh-down-on-science/cellular-time-travel/embed" />
-      </media:content>
-      <media:content url="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/bfa45218-c486-4ff0-8d0b-ab09010d04da/image.jpg?t=1574093969&amp;size=Large" type="image/jpeg" />
-      <guid isPermaLink="false">b42a4697-2f0a-46c0-ab5b-acdc0024a534</guid>
-      <omny:clipId>b42a4697-2f0a-46c0-ab5b-acdc0024a534</omny:clipId>
-      <pubDate>Tue, 23 Mar 2021 09:00:00 +0000</pubDate>
-      <itunes:duration>90</itunes:duration>
-      <enclosure url="https://traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/b42a4697-2f0a-46c0-ab5b-acdc0024a534/audio.mp3?utm_source=Podcast&amp;in_playlist=bfa45218-c486-4ff0-8d0b-ab09010d04da" length="1466277" type="audio/mpeg" />
-      <link>https://omny.fm/shows/the-loh-down-on-science/cellular-time-travel</link>
-    </item>
-    <item>
-      <title>River Tales</title>
-      <itunes:title>River Tales</itunes:title>
-      <description>What has a mouth but doesn’t speak?</description>
-      <content:encoded><![CDATA[<p>What has a mouth but doesn&rsquo;t speak?</p>]]></content:encoded>
-      <itunes:summary>What has a mouth but doesn’t speak?</itunes:summary>
-      <itunes:episodeType>full</itunes:episodeType>
-      <itunes:author>KPCC 89.3</itunes:author>
-      <itunes:image href="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/bfa45218-c486-4ff0-8d0b-ab09010d04da/image.jpg?t=1574093969&amp;size=Large" />
-      <media:content url="https://traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/90c0539f-9f2f-4646-9461-acdc0024a524/audio.mp3?utm_source=Podcast&amp;in_playlist=bfa45218-c486-4ff0-8d0b-ab09010d04da" type="audio/mpeg">
-        <media:player url="https://omny.fm/shows/the-loh-down-on-science/river-tales/embed" />
-      </media:content>
-      <media:content url="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/bfa45218-c486-4ff0-8d0b-ab09010d04da/image.jpg?t=1574093969&amp;size=Large" type="image/jpeg" />
-      <guid isPermaLink="false">90c0539f-9f2f-4646-9461-acdc0024a524</guid>
-      <omny:clipId>90c0539f-9f2f-4646-9461-acdc0024a524</omny:clipId>
-      <pubDate>Mon, 22 Mar 2021 09:00:00 +0000</pubDate>
-      <itunes:duration>90</itunes:duration>
-      <enclosure url="https://traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/90c0539f-9f2f-4646-9461-acdc0024a524/audio.mp3?utm_source=Podcast&amp;in_playlist=bfa45218-c486-4ff0-8d0b-ab09010d04da" length="1466268" type="audio/mpeg" />
-      <link>https://omny.fm/shows/the-loh-down-on-science/river-tales</link>
-    </item>
-    <item>
-      <title>Plant Magicians</title>
-      <itunes:title>Plant Magicians</itunes:title>
-      <description>Now you see it...now you don’t!</description>
-      <content:encoded><![CDATA[<p>Now you see it...now you don&rsquo;t!</p>]]></content:encoded>
-      <itunes:summary>Now you see it...now you don’t!</itunes:summary>
-      <itunes:episodeType>full</itunes:episodeType>
-      <itunes:author>KPCC 89.3</itunes:author>
-      <itunes:image href="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/bfa45218-c486-4ff0-8d0b-ab09010d04da/image.jpg?t=1574093969&amp;size=Large" />
-      <media:content url="https://traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/5317878a-3433-4dca-a577-acdc0024a538/audio.mp3?utm_source=Podcast&amp;in_playlist=bfa45218-c486-4ff0-8d0b-ab09010d04da" type="audio/mpeg">
-        <media:player url="https://omny.fm/shows/the-loh-down-on-science/plant-magicians/embed" />
-      </media:content>
-      <media:content url="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/bfa45218-c486-4ff0-8d0b-ab09010d04da/image.jpg?t=1574093969&amp;size=Large" type="image/jpeg" />
-      <guid isPermaLink="false">5317878a-3433-4dca-a577-acdc0024a538</guid>
-      <omny:clipId>5317878a-3433-4dca-a577-acdc0024a538</omny:clipId>
-      <pubDate>Fri, 19 Mar 2021 09:00:00 +0000</pubDate>
-      <itunes:duration>90</itunes:duration>
-      <enclosure url="https://traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/5317878a-3433-4dca-a577-acdc0024a538/audio.mp3?utm_source=Podcast&amp;in_playlist=bfa45218-c486-4ff0-8d0b-ab09010d04da" length="1466272" type="audio/mpeg" />
-      <link>https://omny.fm/shows/the-loh-down-on-science/plant-magicians</link>
-    </item>
-    <item>
-      <title>Big Brains</title>
-      <itunes:title>Big Brains</itunes:title>
-      <description>Why doesn’t anyone appreciate my genius?</description>
-      <content:encoded><![CDATA[<p>Why doesn&rsquo;t anyone appreciate my genius?</p>]]></content:encoded>
-      <itunes:summary>Why doesn’t anyone appreciate my genius?</itunes:summary>
-      <itunes:episodeType>full</itunes:episodeType>
-      <itunes:author>KPCC 89.3</itunes:author>
-      <itunes:image href="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/bfa45218-c486-4ff0-8d0b-ab09010d04da/image.jpg?t=1574093969&amp;size=Large" />
-      <media:content url="https://traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/26a036dd-e2c3-44e6-897c-acdc0024a541/audio.mp3?utm_source=Podcast&amp;in_playlist=bfa45218-c486-4ff0-8d0b-ab09010d04da" type="audio/mpeg">
-        <media:player url="https://omny.fm/shows/the-loh-down-on-science/big-brains/embed" />
-      </media:content>
-      <media:content url="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/bfa45218-c486-4ff0-8d0b-ab09010d04da/image.jpg?t=1574093969&amp;size=Large" type="image/jpeg" />
-      <guid isPermaLink="false">26a036dd-e2c3-44e6-897c-acdc0024a541</guid>
-      <omny:clipId>26a036dd-e2c3-44e6-897c-acdc0024a541</omny:clipId>
-      <pubDate>Thu, 18 Mar 2021 09:00:00 +0000</pubDate>
-      <itunes:duration>90</itunes:duration>
-      <enclosure url="https://traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/26a036dd-e2c3-44e6-897c-acdc0024a541/audio.mp3?utm_source=Podcast&amp;in_playlist=bfa45218-c486-4ff0-8d0b-ab09010d04da" length="1466267" type="audio/mpeg" />
-      <link>https://omny.fm/shows/the-loh-down-on-science/big-brains</link>
-    </item>
-    <item>
-      <title>Virtual Exca-Vacation</title>
-      <itunes:title>Virtual Exca-Vacation</itunes:title>
-      <description>Imagine seeing ancient Athens in its prime!</description>
-      <content:encoded><![CDATA[<p>Imagine seeing ancient Athens in its prime!</p>]]></content:encoded>
-      <itunes:summary>Imagine seeing ancient Athens in its prime!</itunes:summary>
-      <itunes:episodeType>full</itunes:episodeType>
-      <itunes:author>KPCC 89.3</itunes:author>
-      <itunes:image href="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/bfa45218-c486-4ff0-8d0b-ab09010d04da/image.jpg?t=1574093969&amp;size=Large" />
-      <media:content url="https://traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/55be3a69-a7d7-4d89-89ba-acdc0024a531/audio.mp3?utm_source=Podcast&amp;in_playlist=bfa45218-c486-4ff0-8d0b-ab09010d04da" type="audio/mpeg">
-        <media:player url="https://omny.fm/shows/the-loh-down-on-science/virtual-exca-vacation/embed" />
-      </media:content>
-      <media:content url="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/bfa45218-c486-4ff0-8d0b-ab09010d04da/image.jpg?t=1574093969&amp;size=Large" type="image/jpeg" />
-      <guid isPermaLink="false">55be3a69-a7d7-4d89-89ba-acdc0024a531</guid>
-      <omny:clipId>55be3a69-a7d7-4d89-89ba-acdc0024a531</omny:clipId>
-      <pubDate>Wed, 17 Mar 2021 09:00:00 +0000</pubDate>
-      <itunes:duration>90</itunes:duration>
-      <enclosure url="https://traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/55be3a69-a7d7-4d89-89ba-acdc0024a531/audio.mp3?utm_source=Podcast&amp;in_playlist=bfa45218-c486-4ff0-8d0b-ab09010d04da" length="1466278" type="audio/mpeg" />
-      <link>https://omny.fm/shows/the-loh-down-on-science/virtual-exca-vacation</link>
-    </item>
-    <item>
-      <title>Space Spiders</title>
-      <itunes:title>Space Spiders</itunes:title>
-      <description>What a tangled web we weave...in space?!</description>
-      <content:encoded><![CDATA[<p>What a tangled web we weave...in space?!</p>]]></content:encoded>
-      <itunes:summary>What a tangled web we weave...in space?!</itunes:summary>
-      <itunes:episodeType>full</itunes:episodeType>
-      <itunes:author>KPCC 89.3</itunes:author>
-      <itunes:image href="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/bfa45218-c486-4ff0-8d0b-ab09010d04da/image.jpg?t=1574093969&amp;size=Large" />
-      <media:content url="https://traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/b5a8eb97-50bb-46d1-b902-acdc0024a538/audio.mp3?utm_source=Podcast&amp;in_playlist=bfa45218-c486-4ff0-8d0b-ab09010d04da" type="audio/mpeg">
-        <media:player url="https://omny.fm/shows/the-loh-down-on-science/space-spiders/embed" />
-      </media:content>
-      <media:content url="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/bfa45218-c486-4ff0-8d0b-ab09010d04da/image.jpg?t=1574093969&amp;size=Large" type="image/jpeg" />
-      <guid isPermaLink="false">b5a8eb97-50bb-46d1-b902-acdc0024a538</guid>
-      <omny:clipId>b5a8eb97-50bb-46d1-b902-acdc0024a538</omny:clipId>
-      <pubDate>Tue, 16 Mar 2021 09:00:00 +0000</pubDate>
-      <itunes:duration>90</itunes:duration>
-      <enclosure url="https://traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/b5a8eb97-50bb-46d1-b902-acdc0024a538/audio.mp3?utm_source=Podcast&amp;in_playlist=bfa45218-c486-4ff0-8d0b-ab09010d04da" length="1466270" type="audio/mpeg" />
-      <link>https://omny.fm/shows/the-loh-down-on-science/space-spiders</link>
-    </item>
-    <item>
-      <title>Coffee or Nap?</title>
-      <itunes:title>Coffee or Nap?</itunes:title>
-      <description>How do you get back in the game, coffee or nap?</description>
-      <content:encoded><![CDATA[<p>How do you get back in the game, coffee or nap?</p>]]></content:encoded>
-      <itunes:summary>How do you get back in the game, coffee or nap?</itunes:summary>
-      <itunes:episodeType>full</itunes:episodeType>
-      <itunes:author>KPCC 89.3</itunes:author>
-      <itunes:image href="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/bfa45218-c486-4ff0-8d0b-ab09010d04da/image.jpg?t=1574093969&amp;size=Large" />
-      <media:content url="https://traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/8eb99d76-1ff8-471a-b7b4-acdc0024a524/audio.mp3?utm_source=Podcast&amp;in_playlist=bfa45218-c486-4ff0-8d0b-ab09010d04da" type="audio/mpeg">
-        <media:player url="https://omny.fm/shows/the-loh-down-on-science/coffee-or-nap/embed" />
-      </media:content>
-      <media:content url="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/bfa45218-c486-4ff0-8d0b-ab09010d04da/image.jpg?t=1574093969&amp;size=Large" type="image/jpeg" />
-      <guid isPermaLink="false">8eb99d76-1ff8-471a-b7b4-acdc0024a524</guid>
-      <omny:clipId>8eb99d76-1ff8-471a-b7b4-acdc0024a524</omny:clipId>
-      <pubDate>Mon, 15 Mar 2021 09:00:00 +0000</pubDate>
-      <itunes:duration>90</itunes:duration>
-      <enclosure url="https://traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/8eb99d76-1ff8-471a-b7b4-acdc0024a524/audio.mp3?utm_source=Podcast&amp;in_playlist=bfa45218-c486-4ff0-8d0b-ab09010d04da" length="1466271" type="audio/mpeg" />
-      <link>https://omny.fm/shows/the-loh-down-on-science/coffee-or-nap</link>
-    </item>
-    <item>
-      <title>Brushing Basics</title>
-      <itunes:title>Brushing Basics</itunes:title>
-      <description>A brush a day keeps the dentist away!</description>
-      <content:encoded><![CDATA[<p>A brush a day keeps the dentist away!</p>]]></content:encoded>
-      <itunes:summary>A brush a day keeps the dentist away!</itunes:summary>
-      <itunes:episodeType>full</itunes:episodeType>
-      <itunes:author>KPCC 89.3</itunes:author>
-      <itunes:image href="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/bfa45218-c486-4ff0-8d0b-ab09010d04da/image.jpg?t=1574093969&amp;size=Large" />
-      <media:content url="https://traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/4987ea70-f270-4a75-b552-acdc0024a522/audio.mp3?utm_source=Podcast&amp;in_playlist=bfa45218-c486-4ff0-8d0b-ab09010d04da" type="audio/mpeg">
-        <media:player url="https://omny.fm/shows/the-loh-down-on-science/brushing-basics/embed" />
-      </media:content>
-      <media:content url="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/bfa45218-c486-4ff0-8d0b-ab09010d04da/image.jpg?t=1574093969&amp;size=Large" type="image/jpeg" />
-      <guid isPermaLink="false">4987ea70-f270-4a75-b552-acdc0024a522</guid>
-      <omny:clipId>4987ea70-f270-4a75-b552-acdc0024a522</omny:clipId>
-      <pubDate>Fri, 12 Mar 2021 10:00:00 +0000</pubDate>
-      <itunes:duration>90</itunes:duration>
-      <enclosure url="https://traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/4987ea70-f270-4a75-b552-acdc0024a522/audio.mp3?utm_source=Podcast&amp;in_playlist=bfa45218-c486-4ff0-8d0b-ab09010d04da" length="1466272" type="audio/mpeg" />
-      <link>https://omny.fm/shows/the-loh-down-on-science/brushing-basics</link>
-    </item>
-    <item>
-      <title>Rivers of Colors</title>
-      <itunes:title>Rivers of Colors</itunes:title>
-      <description>Are rivers really blue?</description>
-      <content:encoded><![CDATA[<p>Are rivers really blue?</p>]]></content:encoded>
-      <itunes:summary>Are rivers really blue?</itunes:summary>
-      <itunes:episodeType>full</itunes:episodeType>
-      <itunes:author>KPCC 89.3</itunes:author>
-      <itunes:image href="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/bfa45218-c486-4ff0-8d0b-ab09010d04da/image.jpg?t=1574093969&amp;size=Large" />
-      <media:content url="https://traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/3f8ec983-9871-4d1c-9f1a-acdc0024a531/audio.mp3?utm_source=Podcast&amp;in_playlist=bfa45218-c486-4ff0-8d0b-ab09010d04da" type="audio/mpeg">
-        <media:player url="https://omny.fm/shows/the-loh-down-on-science/rivers-of-colors/embed" />
-      </media:content>
-      <media:content url="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/bfa45218-c486-4ff0-8d0b-ab09010d04da/image.jpg?t=1574093969&amp;size=Large" type="image/jpeg" />
-      <guid isPermaLink="false">3f8ec983-9871-4d1c-9f1a-acdc0024a531</guid>
-      <omny:clipId>3f8ec983-9871-4d1c-9f1a-acdc0024a531</omny:clipId>
-      <pubDate>Thu, 11 Mar 2021 10:00:00 +0000</pubDate>
-      <itunes:duration>90</itunes:duration>
-      <enclosure url="https://traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/3f8ec983-9871-4d1c-9f1a-acdc0024a531/audio.mp3?utm_source=Podcast&amp;in_playlist=bfa45218-c486-4ff0-8d0b-ab09010d04da" length="1466273" type="audio/mpeg" />
-      <link>https://omny.fm/shows/the-loh-down-on-science/rivers-of-colors</link>
-    </item>
-    <item>
-      <title>Perilous Peanuts</title>
-      <itunes:title>Perilous Peanuts</itunes:title>
-      <description>Is the cure for peanut allergies...MORE peanuts?</description>
-      <content:encoded><![CDATA[<p>Is the cure for peanut allergies...MORE peanuts?</p>]]></content:encoded>
-      <itunes:summary>Is the cure for peanut allergies...MORE peanuts?</itunes:summary>
-      <itunes:episodeType>full</itunes:episodeType>
-      <itunes:author>KPCC 89.3</itunes:author>
-      <itunes:image href="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/bfa45218-c486-4ff0-8d0b-ab09010d04da/image.jpg?t=1574093969&amp;size=Large" />
-      <media:content url="https://traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/822a1214-b94e-4790-ad0f-acdc0024a520/audio.mp3?utm_source=Podcast&amp;in_playlist=bfa45218-c486-4ff0-8d0b-ab09010d04da" type="audio/mpeg">
-        <media:player url="https://omny.fm/shows/the-loh-down-on-science/perilous-peanuts/embed" />
-      </media:content>
-      <media:content url="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/bfa45218-c486-4ff0-8d0b-ab09010d04da/image.jpg?t=1574093969&amp;size=Large" type="image/jpeg" />
-      <guid isPermaLink="false">822a1214-b94e-4790-ad0f-acdc0024a520</guid>
-      <omny:clipId>822a1214-b94e-4790-ad0f-acdc0024a520</omny:clipId>
-      <pubDate>Wed, 10 Mar 2021 10:00:00 +0000</pubDate>
-      <itunes:duration>90</itunes:duration>
-      <enclosure url="https://traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/822a1214-b94e-4790-ad0f-acdc0024a520/audio.mp3?utm_source=Podcast&amp;in_playlist=bfa45218-c486-4ff0-8d0b-ab09010d04da" length="1466273" type="audio/mpeg" />
-      <link>https://omny.fm/shows/the-loh-down-on-science/perilous-peanuts</link>
-    </item>
-    <item>
-      <title>Eight Punches</title>
-      <itunes:title>Eight Punches</itunes:title>
-      <description>Are octopus the new boxing players in the sea ring?</description>
-      <content:encoded><![CDATA[<p>Are octopus the new boxing players in the sea ring?</p>]]></content:encoded>
-      <itunes:summary>Are octopus the new boxing players in the sea ring?</itunes:summary>
-      <itunes:episodeType>full</itunes:episodeType>
-      <itunes:author>KPCC 89.3</itunes:author>
-      <itunes:image href="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/bfa45218-c486-4ff0-8d0b-ab09010d04da/image.jpg?t=1574093969&amp;size=Large" />
-      <media:content url="https://traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/58daeb2b-5b5a-4eab-b8f1-acdc0024a52c/audio.mp3?utm_source=Podcast&amp;in_playlist=bfa45218-c486-4ff0-8d0b-ab09010d04da" type="audio/mpeg">
-        <media:player url="https://omny.fm/shows/the-loh-down-on-science/eight-punches/embed" />
-      </media:content>
-      <media:content url="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/bfa45218-c486-4ff0-8d0b-ab09010d04da/image.jpg?t=1574093969&amp;size=Large" type="image/jpeg" />
-      <guid isPermaLink="false">58daeb2b-5b5a-4eab-b8f1-acdc0024a52c</guid>
-      <omny:clipId>58daeb2b-5b5a-4eab-b8f1-acdc0024a52c</omny:clipId>
-      <pubDate>Tue, 09 Mar 2021 10:00:00 +0000</pubDate>
-      <itunes:duration>90</itunes:duration>
-      <enclosure url="https://traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/58daeb2b-5b5a-4eab-b8f1-acdc0024a52c/audio.mp3?utm_source=Podcast&amp;in_playlist=bfa45218-c486-4ff0-8d0b-ab09010d04da" length="1466270" type="audio/mpeg" />
-      <link>https://omny.fm/shows/the-loh-down-on-science/eight-punches</link>
-    </item>
-    <item>
-      <title>Sleep on That!</title>
-      <itunes:title>Sleep on That!</itunes:title>
-      <description>Does a bad night’s sleep mean an even worse day?</description>
-      <content:encoded><![CDATA[<p>Does a bad night&rsquo;s sleep mean an even worse day?</p>]]></content:encoded>
-      <itunes:summary>Does a bad night’s sleep mean an even worse day?</itunes:summary>
-      <itunes:episodeType>full</itunes:episodeType>
-      <itunes:author>KPCC 89.3</itunes:author>
-      <itunes:image href="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/bfa45218-c486-4ff0-8d0b-ab09010d04da/image.jpg?t=1574093969&amp;size=Large" />
-      <media:content url="https://traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/fa14f800-600d-418a-a2b5-acdc0024a51b/audio.mp3?utm_source=Podcast&amp;in_playlist=bfa45218-c486-4ff0-8d0b-ab09010d04da" type="audio/mpeg">
-        <media:player url="https://omny.fm/shows/the-loh-down-on-science/sleep-on-that/embed" />
-      </media:content>
-      <media:content url="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/bfa45218-c486-4ff0-8d0b-ab09010d04da/image.jpg?t=1574093969&amp;size=Large" type="image/jpeg" />
-      <guid isPermaLink="false">fa14f800-600d-418a-a2b5-acdc0024a51b</guid>
-      <omny:clipId>fa14f800-600d-418a-a2b5-acdc0024a51b</omny:clipId>
-      <pubDate>Mon, 08 Mar 2021 10:00:00 +0000</pubDate>
-      <itunes:duration>90</itunes:duration>
-      <enclosure url="https://traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/fa14f800-600d-418a-a2b5-acdc0024a51b/audio.mp3?utm_source=Podcast&amp;in_playlist=bfa45218-c486-4ff0-8d0b-ab09010d04da" length="1466271" type="audio/mpeg" />
-      <link>https://omny.fm/shows/the-loh-down-on-science/sleep-on-that</link>
-    </item>
-    <item>
-      <title>Down to Earth</title>
-      <itunes:title>Down to Earth</itunes:title>
-      <description>Soil too dry to grow crops? Fear not!</description>
-      <content:encoded><![CDATA[<p>Soil too dry to grow crops? Fear not!</p>]]></content:encoded>
-      <itunes:summary>Soil too dry to grow crops? Fear not!</itunes:summary>
-      <itunes:episodeType>full</itunes:episodeType>
-      <itunes:author>KPCC 89.3</itunes:author>
-      <itunes:image href="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/bfa45218-c486-4ff0-8d0b-ab09010d04da/image.jpg?t=1574093969&amp;size=Large" />
-      <media:content url="https://traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/8616aa57-3f92-4695-b0d7-acdc0024a522/audio.mp3?utm_source=Podcast&amp;in_playlist=bfa45218-c486-4ff0-8d0b-ab09010d04da" type="audio/mpeg">
-        <media:player url="https://omny.fm/shows/the-loh-down-on-science/down-to-earth/embed" />
-      </media:content>
-      <media:content url="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/bfa45218-c486-4ff0-8d0b-ab09010d04da/image.jpg?t=1574093969&amp;size=Large" type="image/jpeg" />
-      <guid isPermaLink="false">8616aa57-3f92-4695-b0d7-acdc0024a522</guid>
-      <omny:clipId>8616aa57-3f92-4695-b0d7-acdc0024a522</omny:clipId>
-      <pubDate>Fri, 05 Mar 2021 10:00:00 +0000</pubDate>
-      <itunes:duration>90</itunes:duration>
-      <enclosure url="https://traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/8616aa57-3f92-4695-b0d7-acdc0024a522/audio.mp3?utm_source=Podcast&amp;in_playlist=bfa45218-c486-4ff0-8d0b-ab09010d04da" length="1466270" type="audio/mpeg" />
-      <link>https://omny.fm/shows/the-loh-down-on-science/down-to-earth</link>
-    </item>
-    <item>
-      <title>Gator Re-TAIL!</title>
-      <itunes:title>Gator Re-TAIL!</itunes:title>
-      <description>Do alligators need retail therapy too?</description>
-      <content:encoded><![CDATA[<p>Do alligators need retail therapy too?</p>]]></content:encoded>
-      <itunes:summary>Do alligators need retail therapy too?</itunes:summary>
-      <itunes:episodeType>full</itunes:episodeType>
-      <itunes:author>KPCC 89.3</itunes:author>
-      <itunes:image href="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/bfa45218-c486-4ff0-8d0b-ab09010d04da/image.jpg?t=1574093969&amp;size=Large" />
-      <media:content url="https://traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/f60e16b2-30ca-4dd0-9841-acdc0024a510/audio.mp3?utm_source=Podcast&amp;in_playlist=bfa45218-c486-4ff0-8d0b-ab09010d04da" type="audio/mpeg">
-        <media:player url="https://omny.fm/shows/the-loh-down-on-science/gator-re-tail/embed" />
-      </media:content>
-      <media:content url="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/bfa45218-c486-4ff0-8d0b-ab09010d04da/image.jpg?t=1574093969&amp;size=Large" type="image/jpeg" />
-      <guid isPermaLink="false">f60e16b2-30ca-4dd0-9841-acdc0024a510</guid>
-      <omny:clipId>f60e16b2-30ca-4dd0-9841-acdc0024a510</omny:clipId>
-      <pubDate>Wed, 03 Mar 2021 10:00:00 +0000</pubDate>
-      <itunes:duration>90</itunes:duration>
-      <enclosure url="https://traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/f60e16b2-30ca-4dd0-9841-acdc0024a510/audio.mp3?utm_source=Podcast&amp;in_playlist=bfa45218-c486-4ff0-8d0b-ab09010d04da" length="1466271" type="audio/mpeg" />
-      <link>https://omny.fm/shows/the-loh-down-on-science/gator-re-tail</link>
-    </item>
-    <item>
-      <title>Sweaty Fingers</title>
-      <itunes:title>Sweaty Fingers</itunes:title>
-      <description>Dropped your phone again? Don’t sweat it!</description>
-      <content:encoded><![CDATA[<p>Dropped your phone again? Don&rsquo;t sweat it!</p>]]></content:encoded>
-      <itunes:summary>Dropped your phone again? Don’t sweat it!</itunes:summary>
-      <itunes:episodeType>full</itunes:episodeType>
-      <itunes:author>KPCC 89.3</itunes:author>
-      <itunes:image href="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/bfa45218-c486-4ff0-8d0b-ab09010d04da/image.jpg?t=1574093969&amp;size=Large" />
-      <media:content url="https://traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/90bcef6a-3617-4335-ba5b-acdc0024a51b/audio.mp3?utm_source=Podcast&amp;in_playlist=bfa45218-c486-4ff0-8d0b-ab09010d04da" type="audio/mpeg">
-        <media:player url="https://omny.fm/shows/the-loh-down-on-science/sweaty-fingers/embed" />
-      </media:content>
-      <media:content url="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/bfa45218-c486-4ff0-8d0b-ab09010d04da/image.jpg?t=1574093969&amp;size=Large" type="image/jpeg" />
-      <guid isPermaLink="false">90bcef6a-3617-4335-ba5b-acdc0024a51b</guid>
-      <omny:clipId>90bcef6a-3617-4335-ba5b-acdc0024a51b</omny:clipId>
-      <pubDate>Tue, 02 Mar 2021 10:00:00 +0000</pubDate>
-      <itunes:duration>90</itunes:duration>
-      <enclosure url="https://traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/90bcef6a-3617-4335-ba5b-acdc0024a51b/audio.mp3?utm_source=Podcast&amp;in_playlist=bfa45218-c486-4ff0-8d0b-ab09010d04da" length="1466271" type="audio/mpeg" />
-      <link>https://omny.fm/shows/the-loh-down-on-science/sweaty-fingers</link>
-    </item>
-    <item>
-      <title>Know by Heart</title>
-      <itunes:title>Know by Heart</itunes:title>
-      <description>Do I know you? My heart says yes!</description>
-      <content:encoded><![CDATA[<p>Do I know you? My heart says yes!</p>]]></content:encoded>
-      <itunes:summary>Do I know you? My heart says yes!</itunes:summary>
-      <itunes:episodeType>full</itunes:episodeType>
-      <itunes:author>KPCC 89.3</itunes:author>
-      <itunes:image href="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/bfa45218-c486-4ff0-8d0b-ab09010d04da/image.jpg?t=1574093969&amp;size=Large" />
-      <media:content url="https://traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/8bb95574-e8f6-4705-af2a-acdc0024a512/audio.mp3?utm_source=Podcast&amp;in_playlist=bfa45218-c486-4ff0-8d0b-ab09010d04da" type="audio/mpeg">
-        <media:player url="https://omny.fm/shows/the-loh-down-on-science/know-by-heart/embed" />
-      </media:content>
-      <media:content url="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/bfa45218-c486-4ff0-8d0b-ab09010d04da/image.jpg?t=1574093969&amp;size=Large" type="image/jpeg" />
-      <guid isPermaLink="false">8bb95574-e8f6-4705-af2a-acdc0024a512</guid>
-      <omny:clipId>8bb95574-e8f6-4705-af2a-acdc0024a512</omny:clipId>
-      <pubDate>Mon, 01 Mar 2021 10:00:00 +0000</pubDate>
-      <itunes:duration>90</itunes:duration>
-      <enclosure url="https://traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/8bb95574-e8f6-4705-af2a-acdc0024a512/audio.mp3?utm_source=Podcast&amp;in_playlist=bfa45218-c486-4ff0-8d0b-ab09010d04da" length="1466270" type="audio/mpeg" />
-      <link>https://omny.fm/shows/the-loh-down-on-science/know-by-heart</link>
-    </item>
-    <item>
-      <title>A Snooze Boost</title>
-      <itunes:title>A Snooze Boost</itunes:title>
-      <description>Having trouble remembering things? Just sleep on it!</description>
-      <content:encoded><![CDATA[<p>Having trouble remembering things? Just sleep on it!</p>]]></content:encoded>
-      <itunes:summary>Having trouble remembering things? Just sleep on it!</itunes:summary>
-      <itunes:episodeType>full</itunes:episodeType>
-      <itunes:author>KPCC 89.3</itunes:author>
-      <itunes:image href="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/bfa45218-c486-4ff0-8d0b-ab09010d04da/image.jpg?t=1574093969&amp;size=Large" />
-      <media:content url="https://traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/b8a3320b-576a-4684-acbf-acbb017b32dd/audio.mp3?utm_source=Podcast&amp;in_playlist=bfa45218-c486-4ff0-8d0b-ab09010d04da" type="audio/mpeg">
-        <media:player url="https://omny.fm/shows/the-loh-down-on-science/a-snooze-boost/embed" />
-      </media:content>
-      <media:content url="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/bfa45218-c486-4ff0-8d0b-ab09010d04da/image.jpg?t=1574093969&amp;size=Large" type="image/jpeg" />
-      <guid isPermaLink="false">b8a3320b-576a-4684-acbf-acbb017b32dd</guid>
-      <omny:clipId>b8a3320b-576a-4684-acbf-acbb017b32dd</omny:clipId>
-      <pubDate>Fri, 26 Feb 2021 10:00:00 +0000</pubDate>
-      <itunes:duration>90</itunes:duration>
-      <enclosure url="https://traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/dbea70f2-addb-4e5f-9e2d-ab09010d04b9/b8a3320b-576a-4684-acbf-acbb017b32dd/audio.mp3?utm_source=Podcast&amp;in_playlist=bfa45218-c486-4ff0-8d0b-ab09010d04da" length="1466271" type="audio/mpeg" />
-      <link>https://omny.fm/shows/the-loh-down-on-science/a-snooze-boost</link>
     </item>
   </channel>
 </rss>

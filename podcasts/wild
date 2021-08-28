@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xmlns:psc="https://podlove.org/simple-chapters/" xmlns:omny="https://omny.fm/rss-extensions" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" xmlns:acast="https://schema.acast.com/1.0/" version="2.0">
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xmlns:psc="https://podlove.org/simple-chapters/" xmlns:omny="https://omny.fm/rss-extensions" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" xmlns:acast="https://schema.acast.com/1.0/" xmlns:podcast="https://podcastindex.org/namespace/1.0" version="2.0">
   <channel>
+    <omny:organizationId>acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43</omny:organizationId>
+    <omny:programId>72d91ed9-4fe6-46a6-8844-ad40015b5e35</omny:programId>
+    <omny:networkId>be39aa5b-8337-4dd2-8875-ab21017b79be</omny:networkId>
     <language>en-US</language>
     <atom:link rel="self" type="application/rss+xml" href="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/72d91ed9-4fe6-46a6-8844-ad40015b5e35/81e5198d-1a73-41d1-9b4f-ad40015d0a7a/podcast.rss" />
     <atom:link rel="first" type="application/rss+xml" href="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/72d91ed9-4fe6-46a6-8844-ad40015b5e35/81e5198d-1a73-41d1-9b4f-ad40015d0a7a/podcast.rss?page=1" />
@@ -27,6 +30,234 @@
       <title>WILD</title>
       <link>https://laist.com/wild</link>
     </image>
+    <item>
+      <title>Episode 10: How Do I Move on? Starring Erick Galindo</title>
+      <itunes:title>Episode 10: How Do I Move on? Starring Erick Galindo</itunes:title>
+      <description>As the vaccines arrive, writer Erick Galindo's entire family gets COVID. Except his favorite person, a dog named Blanca, who teaches Erick a valuable lesson about moving on and letting go on a very special TV-style episode of WILD.
+
+Sponsors include:
+
+FEALS Become a member and get 50% automatically taken off your first order with free shipping. Feals.com/WILD
+
+PIRATE Receive 50% off on your first booking when you sign up at Pirate.com with the promo code WILD.
+
+This program is made possible in part by the Corporation for Public Broadcasting, a private corporation funded by the American people.</description>
+      <content:encoded><![CDATA[<p>As the vaccines arrive, writer Erick Galindo's entire family gets COVID. Except his favorite person, a dog named Blanca, who teaches Erick a valuable lesson about moving on and letting go on a very special TV-style episode of WILD.</p>
+<p>Sponsors include:</p>
+<p>FEALS Become a member and get 50% automatically taken off your first order with free shipping. <a href="http://feals.com/WILD">Feals.com/WILD</a></p>
+<p>PIRATE Receive 50% off on your first booking when you sign up at Pirate.com with the promo code WILD.</p>
+<p>This program is made possible in part by the Corporation for Public Broadcasting, a private corporation funded by the American people.</p>]]></content:encoded>
+      <itunes:summary>As the vaccines arrive, writer Erick Galindo's entire family gets COVID. Except his favorite person, a dog named Blanca, who teaches Erick a valuable lesson about moving on and letting go on a very special TV-style episode of WILD.
+
+Sponsors include:
+
+FEALS Become a member and get 50% automatically taken off your first order with free shipping. Feals.com/WILD
+
+PIRATE Receive 50% off on your first booking when you sign up at Pirate.com with the promo code WILD.
+
+This program is made possible in part by the Corporation for Public Broadcasting, a private corporation funded by the American people.</itunes:summary>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>10</itunes:episode>
+      <itunes:author>LAist Studios</itunes:author>
+      <itunes:image href="https://www.omnycontent.com/d/programs/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/72d91ed9-4fe6-46a6-8844-ad40015b5e35/image.jpg?t=1623261295&amp;size=Large" />
+      <media:content url="https://chtbl.com/track/84GC29/traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/72d91ed9-4fe6-46a6-8844-ad40015b5e35/d23398f9-a533-4f8e-b6c8-ad8200c2839b/audio.mp3?utm_source=Podcast&amp;in_playlist=81e5198d-1a73-41d1-9b4f-ad40015d0a7a" type="audio/mpeg">
+        <media:player url="https://omny.fm/shows/wild/episode-10-how-do-i-move-on-starring-erick-galindo/embed" />
+      </media:content>
+      <media:content url="https://www.omnycontent.com/d/programs/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/72d91ed9-4fe6-46a6-8844-ad40015b5e35/image.jpg?t=1623261295&amp;size=Large" type="image/jpeg" />
+      <guid isPermaLink="false">d23398f9-a533-4f8e-b6c8-ad8200c2839b</guid>
+      <omny:clipId>d23398f9-a533-4f8e-b6c8-ad8200c2839b</omny:clipId>
+      <pubDate>Mon, 16 Aug 2021 09:30:00 +0000</pubDate>
+      <itunes:duration>2401</itunes:duration>
+      <enclosure url="https://chtbl.com/track/84GC29/traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/72d91ed9-4fe6-46a6-8844-ad40015b5e35/d23398f9-a533-4f8e-b6c8-ad8200c2839b/audio.mp3?utm_source=Podcast&amp;in_playlist=81e5198d-1a73-41d1-9b4f-ad40015d0a7a" length="38495615" type="audio/mpeg" />
+      <link>https://laist.com/podcasts/wild</link>
+      <itunes:explicit>yes</itunes:explicit>
+    </item>
+    <item>
+      <title>Episode 9: Is It Safe to Leave? Starring Shan Wallace</title>
+      <itunes:title>Episode 9: Is It Safe to Leave? Starring Shan Wallace</itunes:title>
+      <description>Baltimore-born photographer Shan Wallace talks about why we’re not ready for the world to re-open. And how she found new ways to capture the world through her lens.
+
+Sponsors include:
+
+Talkspace
+
+Match with a licensed therapist when you go to talkspace.com and get $100 off your first month with the promo code WILD.
+
+FEALS
+
+Become a member and get 50% automatically taken off your first order with free shipping. Feals.com/WILD
+
+This program is made possible in part by the Corporation for Public Broadcasting, a private corporation funded by the American people.</description>
+      <content:encoded><![CDATA[<p>Baltimore-born photographer Shan Wallace talks about why we&rsquo;re not ready for the world to re-open. And how she found new ways to capture the world through her lens.</p>
+<p>Sponsors include:</p>
+<p>Talkspace</p>
+<p>Match with a licensed therapist when you go to talkspace.com and get $100 off your first month with the promo code WILD.</p>
+<p>FEALS</p>
+<p>Become a member and get 50% automatically taken off your first order with free shipping. Feals.com/WILD</p>
+<p>This program is made possible in part by the Corporation for Public Broadcasting, a private corporation funded by the American people.</p>]]></content:encoded>
+      <itunes:summary>Baltimore-born photographer Shan Wallace talks about why we’re not ready for the world to re-open. And how she found new ways to capture the world through her lens.
+
+Sponsors include:
+
+Talkspace
+
+Match with a licensed therapist when you go to talkspace.com and get $100 off your first month with the promo code WILD.
+
+FEALS
+
+Become a member and get 50% automatically taken off your first order with free shipping. Feals.com/WILD
+
+This program is made possible in part by the Corporation for Public Broadcasting, a private corporation funded by the American people.</itunes:summary>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>9</itunes:episode>
+      <itunes:author>LAist Studios</itunes:author>
+      <itunes:image href="https://www.omnycontent.com/d/programs/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/72d91ed9-4fe6-46a6-8844-ad40015b5e35/image.jpg?t=1623261295&amp;size=Large" />
+      <media:content url="https://chtbl.com/track/84GC29/traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/72d91ed9-4fe6-46a6-8844-ad40015b5e35/cfde9d61-5d43-4eb8-b09f-ad72000a5c00/audio.mp3?utm_source=Podcast&amp;in_playlist=81e5198d-1a73-41d1-9b4f-ad40015d0a7a" type="audio/mpeg">
+        <media:player url="https://omny.fm/shows/wild/episode-9-is-it-safe-to-leave-starring-shan-wallac/embed" />
+      </media:content>
+      <media:content url="https://www.omnycontent.com/d/programs/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/72d91ed9-4fe6-46a6-8844-ad40015b5e35/image.jpg?t=1623261295&amp;size=Large" type="image/jpeg" />
+      <guid isPermaLink="false">cfde9d61-5d43-4eb8-b09f-ad72000a5c00</guid>
+      <omny:clipId>cfde9d61-5d43-4eb8-b09f-ad72000a5c00</omny:clipId>
+      <pubDate>Mon, 09 Aug 2021 09:30:00 +0000</pubDate>
+      <itunes:duration>1636</itunes:duration>
+      <enclosure url="https://chtbl.com/track/84GC29/traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/72d91ed9-4fe6-46a6-8844-ad40015b5e35/cfde9d61-5d43-4eb8-b09f-ad72000a5c00/audio.mp3?utm_source=Podcast&amp;in_playlist=81e5198d-1a73-41d1-9b4f-ad40015d0a7a" length="26261531" type="audio/mpeg" />
+      <link>https://laist.com/podcasts/wild</link>
+      <itunes:explicit>yes</itunes:explicit>
+    </item>
+    <item>
+      <title>Episode 8: How Do I Cope? Starring: Aida Rodriguez</title>
+      <itunes:title>Episode 8: How Do I Cope? Starring: Aida Rodriguez</itunes:title>
+      <description>Aida Rodriguez began her comedy career while living in a car with her two kids and working a full time job on the side. Now she is one of the funniest standup comics on the planet and she learned how to do that as a way of coping with the feeling of despair, something that’s helped her get through the pandemic. 
+
+Sponsors include:
+
+FEALS
+Become a member and get 50% automatically taken off your first order with free shipping. Feals.com/WILD
+
+Talkspace
+Match with a licensed therapist when you go to talkspace.com and get $100 off your first month with the promo code WILD.
+
+This program is made possible in part by the Corporation for Public Broadcasting, a private corporation funded by the American people.</description>
+      <content:encoded><![CDATA[<p>Aida Rodriguez began her comedy career while living in a car with her two kids and working a full time job on the side. Now she is one of the funniest standup comics on the planet and she learned how to do that as a way of coping with the feeling of despair, something that&rsquo;s helped her get through the pandemic.&nbsp;</p>
+<p>Sponsors include:</p>
+<p>FEALS<br>Become a member and get 50% automatically taken off your first order with free shipping. Feals.com/WILD<br><br>Talkspace<br>Match with a licensed therapist when you go to talkspace.com and get $100 off your first month with the promo code WILD.<br><br>This program is made possible in part by the Corporation for Public Broadcasting, a private corporation funded by the American people.</p>]]></content:encoded>
+      <itunes:summary>Aida Rodriguez began her comedy career while living in a car with her two kids and working a full time job on the side. Now she is one of the funniest standup comics on the planet and she learned how to do that as a way of coping with the feeling of despair, something that’s helped her get through the pandemic. 
+
+Sponsors include:
+
+FEALS
+Become a member and get 50% automatically taken off your first order with free shipping. Feals.com/WILD
+
+Talkspace
+Match with a licensed therapist when you go to talkspace.com and get $100 off your first month with the promo code WILD.
+
+This program is made possible in part by the Corporation for Public Broadcasting, a private corporation funded by the American people.</itunes:summary>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>8</itunes:episode>
+      <itunes:author>LAist Studios</itunes:author>
+      <itunes:image href="https://www.omnycontent.com/d/programs/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/72d91ed9-4fe6-46a6-8844-ad40015b5e35/image.jpg?t=1623261295&amp;size=Large" />
+      <media:content url="https://chtbl.com/track/84GC29/traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/72d91ed9-4fe6-46a6-8844-ad40015b5e35/2f5f5f84-38e7-4fda-8f09-ad6e00f0bfe2/audio.mp3?utm_source=Podcast&amp;in_playlist=81e5198d-1a73-41d1-9b4f-ad40015d0a7a" type="audio/mpeg">
+        <media:player url="https://omny.fm/shows/wild/episode-8-how-do-i-cope-starring-aida-rodriguez/embed" />
+      </media:content>
+      <media:content url="https://www.omnycontent.com/d/programs/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/72d91ed9-4fe6-46a6-8844-ad40015b5e35/image.jpg?t=1623261295&amp;size=Large" type="image/jpeg" />
+      <guid isPermaLink="false">2f5f5f84-38e7-4fda-8f09-ad6e00f0bfe2</guid>
+      <omny:clipId>2f5f5f84-38e7-4fda-8f09-ad6e00f0bfe2</omny:clipId>
+      <pubDate>Mon, 02 Aug 2021 09:30:00 +0000</pubDate>
+      <itunes:duration>2050</itunes:duration>
+      <enclosure url="https://chtbl.com/track/84GC29/traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/72d91ed9-4fe6-46a6-8844-ad40015b5e35/2f5f5f84-38e7-4fda-8f09-ad6e00f0bfe2/audio.mp3?utm_source=Podcast&amp;in_playlist=81e5198d-1a73-41d1-9b4f-ad40015d0a7a" length="32874896" type="audio/mpeg" />
+      <link>https://laist.com/podcasts/wild</link>
+      <itunes:explicit>yes</itunes:explicit>
+    </item>
+    <item>
+      <title>Episode 7: How Do I Love Someone? Starring Megan Tan</title>
+      <itunes:title>Episode 7: How Do I Love Someone? Starring Megan Tan</itunes:title>
+      <description>We made a rom-com! Falling in love during a pandemic unexpectedly distorts time to an exponential degree. In a fiction meets non-fiction romantic comedy, Megan Tan explains. 
+
+The following episode is intended for mature audiences. Listener discretion is advised.
+
+Show sponsors include:
+
+TALKSPACE Match with a licensed therapist when you go to talkspace.com and get $100 off your first month with the promo code WILD.
+
+FEALS Become a member and get 50% automatically taken off your first order with free shipping. Feals.com/WILD
+
+This program is made possible in part by the Corporation for Public Broadcasting, a private corporation funded by the American people.</description>
+      <content:encoded><![CDATA[<p>We made a rom-com! Falling in love during a pandemic unexpectedly distorts time to an exponential degree. In a fiction meets non-fiction romantic comedy, Megan Tan explains.&nbsp;</p>
+<p>The following episode is intended for mature audiences. Listener discretion is advised.</p>
+<p>Show sponsors include:</p>
+<p>TALKSPACE Match with a licensed therapist when you go to talkspace.com and get $100 off your first month with the promo code WILD.</p>
+<p>FEALS Become a member and get 50% automatically taken off your first order with free shipping. Feals.com/WILD</p>
+<p>This program is made possible in part by the Corporation for Public Broadcasting, a private corporation funded by the American people.</p>]]></content:encoded>
+      <itunes:summary>We made a rom-com! Falling in love during a pandemic unexpectedly distorts time to an exponential degree. In a fiction meets non-fiction romantic comedy, Megan Tan explains. 
+
+The following episode is intended for mature audiences. Listener discretion is advised.
+
+Show sponsors include:
+
+TALKSPACE Match with a licensed therapist when you go to talkspace.com and get $100 off your first month with the promo code WILD.
+
+FEALS Become a member and get 50% automatically taken off your first order with free shipping. Feals.com/WILD
+
+This program is made possible in part by the Corporation for Public Broadcasting, a private corporation funded by the American people.</itunes:summary>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>7</itunes:episode>
+      <itunes:author>LAist Studios</itunes:author>
+      <itunes:image href="https://www.omnycontent.com/d/programs/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/72d91ed9-4fe6-46a6-8844-ad40015b5e35/image.jpg?t=1623261295&amp;size=Large" />
+      <media:content url="https://chtbl.com/track/84GC29/traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/72d91ed9-4fe6-46a6-8844-ad40015b5e35/395cf62c-cac0-4d1f-aee0-ad6e00eac716/audio.mp3?utm_source=Podcast&amp;in_playlist=81e5198d-1a73-41d1-9b4f-ad40015d0a7a" type="audio/mpeg">
+        <media:player url="https://omny.fm/shows/wild/episode-7-how-do-i-love-someone-starring-megan-tan/embed" />
+      </media:content>
+      <media:content url="https://www.omnycontent.com/d/programs/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/72d91ed9-4fe6-46a6-8844-ad40015b5e35/image.jpg?t=1623261295&amp;size=Large" type="image/jpeg" />
+      <guid isPermaLink="false">395cf62c-cac0-4d1f-aee0-ad6e00eac716</guid>
+      <omny:clipId>395cf62c-cac0-4d1f-aee0-ad6e00eac716</omny:clipId>
+      <pubDate>Mon, 26 Jul 2021 09:30:00 +0000</pubDate>
+      <itunes:duration>2509</itunes:duration>
+      <enclosure url="https://chtbl.com/track/84GC29/traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/72d91ed9-4fe6-46a6-8844-ad40015b5e35/395cf62c-cac0-4d1f-aee0-ad6e00eac716/audio.mp3?utm_source=Podcast&amp;in_playlist=81e5198d-1a73-41d1-9b4f-ad40015d0a7a" length="40225436" type="audio/mpeg" />
+      <link>https://laist.com/podcasts/wild</link>
+      <itunes:explicit>yes</itunes:explicit>
+    </item>
+    <item>
+      <title>Episode 6: Do I Have Imposter Syndrome? Starring Linda Yvette Chávez</title>
+      <itunes:title>Episode 6: Do I Have Imposter Syndrome? Starring Linda Yvette Chávez</itunes:title>
+      <description>Linda Yvette Chávez co-created a hit Netflix show called Gentefied and is writing a major motion picture, but none of that helped with her imposter syndrome. But when she had to run a show and direct for the first-time in the middle of the pandemic, she found her voice and is now sharing her best practices for dealing with insecurity in the professional world. 
+
+Sponsors include:
+
+FEALS
+Become a member and get 50% automatically taken off your first order with free shipping. Feals.com/WILD
+
+This program is made possible in part by the Corporation for Public Broadcasting, a private corporation funded by the American people.</description>
+      <content:encoded><![CDATA[<p>Linda Yvette Ch&aacute;vez co-created a hit Netflix show called Gentefied and is writing a major motion picture, but none of that helped with her imposter syndrome. But when she had to run a show and direct for the first-time in the middle of the pandemic, she found her voice and is now sharing her best practices for dealing with insecurity in the professional world.&nbsp;</p>
+<p>Sponsors include:</p>
+<p>FEALS<br>Become a member and get 50% automatically taken off your first order with free shipping. Feals.com/WILD<br><br>This program is made possible in part by the Corporation for Public Broadcasting, a private corporation funded by the American people.</p>]]></content:encoded>
+      <itunes:summary>Linda Yvette Chávez co-created a hit Netflix show called Gentefied and is writing a major motion picture, but none of that helped with her imposter syndrome. But when she had to run a show and direct for the first-time in the middle of the pandemic, she found her voice and is now sharing her best practices for dealing with insecurity in the professional world. 
+
+Sponsors include:
+
+FEALS
+Become a member and get 50% automatically taken off your first order with free shipping. Feals.com/WILD
+
+This program is made possible in part by the Corporation for Public Broadcasting, a private corporation funded by the American people.</itunes:summary>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>6</itunes:episode>
+      <itunes:author>LAist Studios</itunes:author>
+      <itunes:image href="https://www.omnycontent.com/d/programs/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/72d91ed9-4fe6-46a6-8844-ad40015b5e35/image.jpg?t=1623261295&amp;size=Large" />
+      <media:content url="https://chtbl.com/track/84GC29/traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/72d91ed9-4fe6-46a6-8844-ad40015b5e35/29a8c2aa-4cd3-4576-a6be-ad6501786626/audio.mp3?utm_source=Podcast&amp;in_playlist=81e5198d-1a73-41d1-9b4f-ad40015d0a7a" type="audio/mpeg">
+        <media:player url="https://omny.fm/shows/wild/episode-6-do-i-have-imposter-syndrome-starring-lin/embed" />
+      </media:content>
+      <media:content url="https://www.omnycontent.com/d/programs/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/72d91ed9-4fe6-46a6-8844-ad40015b5e35/image.jpg?t=1623261295&amp;size=Large" type="image/jpeg" />
+      <guid isPermaLink="false">29a8c2aa-4cd3-4576-a6be-ad6501786626</guid>
+      <omny:clipId>29a8c2aa-4cd3-4576-a6be-ad6501786626</omny:clipId>
+      <pubDate>Mon, 19 Jul 2021 09:30:00 +0000</pubDate>
+      <itunes:duration>1979</itunes:duration>
+      <enclosure url="https://chtbl.com/track/84GC29/traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/72d91ed9-4fe6-46a6-8844-ad40015b5e35/29a8c2aa-4cd3-4576-a6be-ad6501786626/audio.mp3?utm_source=Podcast&amp;in_playlist=81e5198d-1a73-41d1-9b4f-ad40015d0a7a" length="31739738" type="audio/mpeg" />
+      <link>https://laist.com/podcasts/wild</link>
+      <itunes:explicit>yes</itunes:explicit>
+    </item>
     <item>
       <title>Episode 5: What Should I Do for a Living? Starring Jenny Yang</title>
       <itunes:title>Episode 5: What Should I Do for a Living? Starring Jenny Yang</itunes:title>

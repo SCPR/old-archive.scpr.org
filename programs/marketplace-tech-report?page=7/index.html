@@ -28,7 +28,7 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="black" />
 <meta name="format-detection" content="telephone=no" />
 <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
-<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam-cell.nr-data.net","errorBeacon":"bam-cell.nr-data.net","licenseKey":"3a7254ec4f","applicationID":"446356","transactionName":"JV4MRkQMDVRTRUlIRQlWEFNbEE5LXlgR","queueTime":0,"applicationTime":655,"agent":""}</script>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam-cell.nr-data.net","errorBeacon":"bam-cell.nr-data.net","licenseKey":"3a7254ec4f","applicationID":"446356","transactionName":"JV4MRkQMDVRTRUlIRQlWEFNbEE5LXlgR","queueTime":0,"applicationTime":2791,"agent":""}</script>
 <script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"UwcDWFBADAcGV1RU",licenseKey:"3a7254ec4f",applicationID:"446356"};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var i=e[n]={exports:{}};t[n][0].call(i.exports,function(e){var i=t[n][1][e];return r(i||e)},i,i.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var i=0;i<n.length;i++)r(n[i]);return r}({1:[function(t,e,n){function r(t){try{s.console&&console.log(t)}catch(e){}}var i,o=t("ee"),a=t(22),s={};try{i=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(s.console=!0,i.indexOf("dev")!==-1&&(s.dev=!0),i.indexOf("nr_dev")!==-1&&(s.nrDev=!0))}catch(c){}s.nrDev&&o.on("internal-error",function(t){r(t.stack)}),s.dev&&o.on("fn-err",function(t,e,n){r(n.stack)}),s.dev&&(r("NR AGENT IN DEVELOPMENT MODE"),r("flags: "+a(s,function(t,e){return t}).join(", ")))},{}],2:[function(t,e,n){function r(t,e,n,r,s){try{p?p-=1:i(s||new UncaughtException(t,e,n),!0)}catch(f){try{o("ierr",[f,c.now(),!0])}catch(d){}}return"function"==typeof u&&u.apply(this,a(arguments))}function UncaughtException(t,e,n){this.message=t||"Uncaught error with no additional information",this.sourceURL=e,this.line=n}function i(t,e){var n=e?null:c.now();o("err",[t,n])}var o=t("handle"),a=t(23),s=t("ee"),c=t("loader"),f=t("gos"),u=window.onerror,d=!1,l="nr@seenError";if(!c.disabled){var p=0;c.features.err=!0,t(1),window.onerror=r;try{throw new Error}catch(h){"stack"in h&&(t(6),t(5),"addEventListener"in window&&t(3),c.xhrWrappable&&t(7),d=!0)}s.on("fn-start",function(t,e,n){d&&(p+=1)}),s.on("fn-err",function(t,e,n){d&&!n[l]&&(f(n,l,function(){return!0}),this.thrown=!0,i(n))}),s.on("fn-end",function(){d&&!this.thrown&&p>0&&(p-=1)}),s.on("internal-error",function(t){o("ierr",[t,c.now(),!0])})}},{}],3:[function(t,e,n){function r(t){for(var e=t;e&&!e.hasOwnProperty(u);)e=Object.getPrototypeOf(e);e&&i(e)}function i(t){s.inPlace(t,[u,d],"-",o)}function o(t,e){return t[1]}var a=t("ee").get("events"),s=t("wrap-function")(a,!0),c=t("gos"),f=XMLHttpRequest,u="addEventListener",d="removeEventListener";e.exports=a,"getPrototypeOf"in Object?(r(document),r(window),r(f.prototype)):f.prototype.hasOwnProperty(u)&&(i(window),i(f.prototype)),a.on(u+"-start",function(t,e){var n=t[1],r=c(n,"nr@wrapped",function(){function t(){if("function"==typeof n.handleEvent)return n.handleEvent.apply(n,arguments)}var e={object:t,"function":n}[typeof n];return e?s(e,"fn-",null,e.name||"anonymous"):n});this.wrapped=t[1]=r}),a.on(d+"-start",function(t){t[1]=this.wrapped||t[1]})},{}],4:[function(t,e,n){function r(t,e,n){var r=t[e];"function"==typeof r&&(t[e]=function(){var t=o(arguments),e={};i.emit(n+"before-start",[t],e);var a;e[m]&&e[m].dt&&(a=e[m].dt);var s=r.apply(this,t);return i.emit(n+"start",[t,a],s),s.then(function(t){return i.emit(n+"end",[null,t],s),t},function(t){throw i.emit(n+"end",[t],s),t})})}var i=t("ee").get("fetch"),o=t(23),a=t(22);e.exports=i;var s=window,c="fetch-",f=c+"body-",u=["arrayBuffer","blob","json","text","formData"],d=s.Request,l=s.Response,p=s.fetch,h="prototype",m="nr@context";d&&l&&p&&(a(u,function(t,e){r(d[h],e,f),r(l[h],e,f)}),r(s,"fetch",c),i.on(c+"end",function(t,e){var n=this;if(e){var r=e.headers.get("content-length");null!==r&&(n.rxSize=r),i.emit(c+"done",[null,e],n)}else i.emit(c+"done",[t],n)}))},{}],5:[function(t,e,n){var r=t("ee").get("raf"),i=t("wrap-function")(r),o="equestAnimationFrame";e.exports=r,i.inPlace(window,["r"+o,"mozR"+o,"webkitR"+o,"msR"+o],"raf-"),r.on("raf-start",function(t){t[0]=i(t[0],"fn-")})},{}],6:[function(t,e,n){function r(t,e,n){t[0]=a(t[0],"fn-",null,n)}function i(t,e,n){this.method=n,this.timerDuration=isNaN(t[1])?0:+t[1],t[0]=a(t[0],"fn-",this,n)}var o=t("ee").get("timer"),a=t("wrap-function")(o),s="setTimeout",c="setInterval",f="clearTimeout",u="-start",d="-";e.exports=o,a.inPlace(window,[s,"setImmediate"],s+d),a.inPlace(window,[c],c+d),a.inPlace(window,[f,"clearImmediate"],f+d),o.on(c+u,r),o.on(s+u,i)},{}],7:[function(t,e,n){function r(t,e){d.inPlace(e,["onreadystatechange"],"fn-",s)}function i(){var t=this,e=u.context(t);t.readyState>3&&!e.resolved&&(e.resolved=!0,u.emit("xhr-resolved",[],t)),d.inPlace(t,w,"fn-",s)}function o(t){x.push(t),h&&(b?b.then(a):v?v(a):(E=-E,R.data=E))}function a(){for(var t=0;t<x.length;t++)r([],x[t]);x.length&&(x=[])}function s(t,e){return e}function c(t,e){for(var n in t)e[n]=t[n];return e}t(3);var f=t("ee"),u=f.get("xhr"),d=t("wrap-function")(u),l=NREUM.o,p=l.XHR,h=l.MO,m=l.PR,v=l.SI,g="readystatechange",w=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"],x=[];e.exports=u;var y=window.XMLHttpRequest=function(t){var e=new p(t);try{u.emit("new-xhr",[e],e),e.addEventListener(g,i,!1)}catch(n){try{u.emit("internal-error",[n])}catch(r){}}return e};if(c(p,y),y.prototype=p.prototype,d.inPlace(y.prototype,["open","send"],"-xhr-",s),u.on("send-xhr-start",function(t,e){r(t,e),o(e)}),u.on("open-xhr-start",r),h){var b=m&&m.resolve();if(!v&&!m){var E=1,R=document.createTextNode(E);new h(a).observe(R,{characterData:!0})}}else f.on("fn-end",function(t){t[0]&&t[0].type===g||a()})},{}],8:[function(t,e,n){function r(t){if(!s(t))return null;var e=window.NREUM;if(!e.loader_config)return null;var n=(e.loader_config.accountID||"").toString()||null,r=(e.loader_config.agentID||"").toString()||null,f=(e.loader_config.trustKey||"").toString()||null;if(!n||!r)return null;var h=p.generateSpanId(),m=p.generateTraceId(),v=Date.now(),g={spanId:h,traceId:m,timestamp:v};return(t.sameOrigin||c(t)&&l())&&(g.traceContextParentHeader=i(h,m),g.traceContextStateHeader=o(h,v,n,r,f)),(t.sameOrigin&&!u()||!t.sameOrigin&&c(t)&&d())&&(g.newrelicHeader=a(h,m,v,n,r,f)),g}function i(t,e){return"00-"+e+"-"+t+"-01"}function o(t,e,n,r,i){var o=0,a="",s=1,c="",f="";return i+"@nr="+o+"-"+s+"-"+n+"-"+r+"-"+t+"-"+a+"-"+c+"-"+f+"-"+e}function a(t,e,n,r,i,o){var a="btoa"in window&&"function"==typeof window.btoa;if(!a)return null;var s={v:[0,1],d:{ty:"Browser",ac:r,ap:i,id:t,tr:e,ti:n}};return o&&r!==o&&(s.d.tk=o),btoa(JSON.stringify(s))}function s(t){return f()&&c(t)}function c(t){var e=!1,n={};if("init"in NREUM&&"distributed_tracing"in NREUM.init&&(n=NREUM.init.distributed_tracing),t.sameOrigin)e=!0;else if(n.allowed_origins instanceof Array)for(var r=0;r<n.allowed_origins.length;r++){var i=h(n.allowed_origins[r]);if(t.hostname===i.hostname&&t.protocol===i.protocol&&t.port===i.port){e=!0;break}}return e}function f(){return"init"in NREUM&&"distributed_tracing"in NREUM.init&&!!NREUM.init.distributed_tracing.enabled}function u(){return"init"in NREUM&&"distributed_tracing"in NREUM.init&&!!NREUM.init.distributed_tracing.exclude_newrelic_header}function d(){return"init"in NREUM&&"distributed_tracing"in NREUM.init&&NREUM.init.distributed_tracing.cors_use_newrelic_header!==!1}function l(){return"init"in NREUM&&"distributed_tracing"in NREUM.init&&!!NREUM.init.distributed_tracing.cors_use_tracecontext_headers}var p=t(19),h=t(10);e.exports={generateTracePayload:r,shouldGenerateTrace:s}},{}],9:[function(t,e,n){function r(t){var e=this.params,n=this.metrics;if(!this.ended){this.ended=!0;for(var r=0;r<l;r++)t.removeEventListener(d[r],this.listener,!1);e.aborted||(n.duration=a.now()-this.startTime,this.loadCaptureCalled||4!==t.readyState?null==e.status&&(e.status=0):o(this,t),n.cbTime=this.cbTime,u.emit("xhr-done",[t],t),s("xhr",[e,n,this.startTime]))}}function i(t,e){var n=c(e),r=t.params;r.host=n.hostname+":"+n.port,r.pathname=n.pathname,t.parsedOrigin=n,t.sameOrigin=n.sameOrigin}function o(t,e){t.params.status=e.status;var n=v(e,t.lastSize);if(n&&(t.metrics.rxSize=n),t.sameOrigin){var r=e.getResponseHeader("X-NewRelic-App-Data");r&&(t.params.cat=r.split(", ").pop())}t.loadCaptureCalled=!0}var a=t("loader");if(a.xhrWrappable&&!a.disabled){var s=t("handle"),c=t(10),f=t(8).generateTracePayload,u=t("ee"),d=["load","error","abort","timeout"],l=d.length,p=t("id"),h=t(15),m=t(14),v=t(11),g=NREUM.o.REQ,w=window.XMLHttpRequest;a.features.xhr=!0,t(7),t(4),u.on("new-xhr",function(t){var e=this;e.totalCbs=0,e.called=0,e.cbTime=0,e.end=r,e.ended=!1,e.xhrGuids={},e.lastSize=null,e.loadCaptureCalled=!1,e.params=this.params||{},e.metrics=this.metrics||{},t.addEventListener("load",function(n){o(e,t)},!1),h&&(h>34||h<10)||window.opera||t.addEventListener("progress",function(t){e.lastSize=t.loaded},!1)}),u.on("open-xhr-start",function(t){this.params={method:t[0]},i(this,t[1]),this.metrics={}}),u.on("open-xhr-end",function(t,e){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&e.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid);var n=f(this.parsedOrigin);if(n){var r=!1;n.newrelicHeader&&(e.setRequestHeader("newrelic",n.newrelicHeader),r=!0),n.traceContextParentHeader&&(e.setRequestHeader("traceparent",n.traceContextParentHeader),n.traceContextStateHeader&&e.setRequestHeader("tracestate",n.traceContextStateHeader),r=!0),r&&(this.dt=n)}}),u.on("send-xhr-start",function(t,e){var n=this.metrics,r=t[0],i=this;if(n&&r){var o=m(r);o&&(n.txSize=o)}this.startTime=a.now(),this.listener=function(t){try{"abort"!==t.type||i.loadCaptureCalled||(i.params.aborted=!0),("load"!==t.type||i.called===i.totalCbs&&(i.onloadCalled||"function"!=typeof e.onload))&&i.end(e)}catch(n){try{u.emit("internal-error",[n])}catch(r){}}};for(var s=0;s<l;s++)e.addEventListener(d[s],this.listener,!1)}),u.on("xhr-cb-time",function(t,e,n){this.cbTime+=t,e?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof n.onload||this.end(n)}),u.on("xhr-load-added",function(t,e){var n=""+p(t)+!!e;this.xhrGuids&&!this.xhrGuids[n]&&(this.xhrGuids[n]=!0,this.totalCbs+=1)}),u.on("xhr-load-removed",function(t,e){var n=""+p(t)+!!e;this.xhrGuids&&this.xhrGuids[n]&&(delete this.xhrGuids[n],this.totalCbs-=1)}),u.on("addEventListener-end",function(t,e){e instanceof w&&"load"===t[0]&&u.emit("xhr-load-added",[t[1],t[2]],e)}),u.on("removeEventListener-end",function(t,e){e instanceof w&&"load"===t[0]&&u.emit("xhr-load-removed",[t[1],t[2]],e)}),u.on("fn-start",function(t,e,n){e instanceof w&&("onload"===n&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=a.now()))}),u.on("fn-end",function(t,e){this.xhrCbStart&&u.emit("xhr-cb-time",[a.now()-this.xhrCbStart,this.onload,e],e)}),u.on("fetch-before-start",function(t){function e(t,e){var n=!1;return e.newrelicHeader&&(t.set("newrelic",e.newrelicHeader),n=!0),e.traceContextParentHeader&&(t.set("traceparent",e.traceContextParentHeader),e.traceContextStateHeader&&t.set("tracestate",e.traceContextStateHeader),n=!0),n}var n,r=t[1]||{};"string"==typeof t[0]?n=t[0]:t[0]&&t[0].url?n=t[0].url:window.URL&&t[0]&&t[0]instanceof URL&&(n=t[0].href),n&&(this.parsedOrigin=c(n),this.sameOrigin=this.parsedOrigin.sameOrigin);var i=f(this.parsedOrigin);if(i&&(i.newrelicHeader||i.traceContextParentHeader))if("string"==typeof t[0]||window.URL&&t[0]&&t[0]instanceof URL){var o={};for(var a in r)o[a]=r[a];o.headers=new Headers(r.headers||{}),e(o.headers,i)&&(this.dt=i),t.length>1?t[1]=o:t.push(o)}else t[0]&&t[0].headers&&e(t[0].headers,i)&&(this.dt=i)}),u.on("fetch-start",function(t,e){this.params={},this.metrics={},this.startTime=a.now(),t.length>=1&&(this.target=t[0]),t.length>=2&&(this.opts=t[1]);var n,r=this.opts||{},o=this.target;"string"==typeof o?n=o:"object"==typeof o&&o instanceof g?n=o.url:window.URL&&"object"==typeof o&&o instanceof URL&&(n=o.href),i(this,n);var s=(""+(o&&o instanceof g&&o.method||r.method||"GET")).toUpperCase();this.params.method=s,this.txSize=m(r.body)||0}),u.on("fetch-done",function(t,e){this.params||(this.params={}),this.params.status=e?e.status:0;var n;"string"==typeof this.rxSize&&this.rxSize.length>0&&(n=+this.rxSize);var r={txSize:this.txSize,rxSize:n,duration:a.now()-this.startTime};s("xhr",[this.params,r,this.startTime])})}},{}],10:[function(t,e,n){var r={};e.exports=function(t){if(t in r)return r[t];var e=document.createElement("a"),n=window.location,i={};e.href=t,i.port=e.port;var o=e.href.split("://");!i.port&&o[1]&&(i.port=o[1].split("/")[0].split("@").pop().split(":")[1]),i.port&&"0"!==i.port||(i.port="https"===o[0]?"443":"80"),i.hostname=e.hostname||n.hostname,i.pathname=e.pathname,i.protocol=o[0],"/"!==i.pathname.charAt(0)&&(i.pathname="/"+i.pathname);var a=!e.protocol||":"===e.protocol||e.protocol===n.protocol,s=e.hostname===document.domain&&e.port===n.port;return i.sameOrigin=a&&(!e.hostname||s),"/"===i.pathname&&(r[t]=i),i}},{}],11:[function(t,e,n){function r(t,e){var n=t.responseType;return"json"===n&&null!==e?e:"arraybuffer"===n||"blob"===n||"json"===n?i(t.response):"text"===n||""===n||void 0===n?i(t.responseText):void 0}var i=t(14);e.exports=r},{}],12:[function(t,e,n){function r(){}function i(t,e,n){return function(){return o(t,[f.now()].concat(s(arguments)),e?null:this,n),e?void 0:this}}var o=t("handle"),a=t(22),s=t(23),c=t("ee").get("tracer"),f=t("loader"),u=NREUM;"undefined"==typeof window.newrelic&&(newrelic=u);var d=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",p=l+"ixn-";a(d,function(t,e){u[e]=i(l+e,!0,"api")}),u.addPageAction=i(l+"addPageAction",!0),u.setCurrentRouteName=i(l+"routeName",!0),e.exports=newrelic,u.interaction=function(){return(new r).get()};var h=r.prototype={createTracer:function(t,e){var n={},r=this,i="function"==typeof e;return o(p+"tracer",[f.now(),t,n],r),function(){if(c.emit((i?"":"no-")+"fn-start",[f.now(),r,i],n),i)try{return e.apply(this,arguments)}catch(t){throw c.emit("fn-err",[arguments,this,t],n),t}finally{c.emit("fn-end",[f.now()],n)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,e){h[e]=i(p+e)}),newrelic.noticeError=function(t,e){"string"==typeof t&&(t=new Error(t)),o("err",[t,f.now(),!1,e])}},{}],13:[function(t,e,n){function r(t){if(NREUM.init){for(var e=NREUM.init,n=t.split("."),r=0;r<n.length-1;r++)if(e=e[n[r]],"object"!=typeof e)return;return e=e[n[n.length-1]]}}e.exports={getConfiguration:r}},{}],14:[function(t,e,n){e.exports=function(t){if("string"==typeof t&&t.length)return t.length;if("object"==typeof t){if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if(!("undefined"!=typeof FormData&&t instanceof FormData))try{return JSON.stringify(t).length}catch(e){return}}}},{}],15:[function(t,e,n){var r=0,i=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);i&&(r=+i[1]),e.exports=r},{}],16:[function(t,e,n){function r(){return s.exists&&performance.now?Math.round(performance.now()):(o=Math.max((new Date).getTime(),o))-a}function i(){return o}var o=(new Date).getTime(),a=o,s=t(24);e.exports=r,e.exports.offset=a,e.exports.getLastTimestamp=i},{}],17:[function(t,e,n){function r(t){return!(!t||!t.protocol||"file:"===t.protocol)}e.exports=r},{}],18:[function(t,e,n){function r(t,e){var n=t.getEntries();n.forEach(function(t){"first-paint"===t.name?d("timing",["fp",Math.floor(t.startTime)]):"first-contentful-paint"===t.name&&d("timing",["fcp",Math.floor(t.startTime)])})}function i(t,e){var n=t.getEntries();n.length>0&&d("lcp",[n[n.length-1]])}function o(t){t.getEntries().forEach(function(t){t.hadRecentInput||d("cls",[t])})}function a(t){if(t instanceof h&&!v){var e=Math.round(t.timeStamp),n={type:t.type};e<=l.now()?n.fid=l.now()-e:e>l.offset&&e<=Date.now()?(e-=l.offset,n.fid=l.now()-e):e=l.now(),v=!0,d("timing",["fi",e,n])}}function s(t){"hidden"===t&&d("pageHide",[l.now()])}if(!("init"in NREUM&&"page_view_timing"in NREUM.init&&"enabled"in NREUM.init.page_view_timing&&NREUM.init.page_view_timing.enabled===!1)){var c,f,u,d=t("handle"),l=t("loader"),p=t(21),h=NREUM.o.EV;if("PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver){c=new PerformanceObserver(r);try{c.observe({entryTypes:["paint"]})}catch(m){}f=new PerformanceObserver(i);try{f.observe({entryTypes:["largest-contentful-paint"]})}catch(m){}u=new PerformanceObserver(o);try{u.observe({type:"layout-shift",buffered:!0})}catch(m){}}if("addEventListener"in document){var v=!1,g=["click","keydown","mousedown","pointerdown","touchstart"];g.forEach(function(t){document.addEventListener(t,a,!1)})}p(s)}},{}],19:[function(t,e,n){function r(){function t(){return e?15&e[n++]:16*Math.random()|0}var e=null,n=0,r=window.crypto||window.msCrypto;r&&r.getRandomValues&&(e=r.getRandomValues(new Uint8Array(31)));for(var i,o="xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx",a="",s=0;s<o.length;s++)i=o[s],"x"===i?a+=t().toString(16):"y"===i?(i=3&t()|8,a+=i.toString(16)):a+=i;return a}function i(){return a(16)}function o(){return a(32)}function a(t){function e(){return n?15&n[r++]:16*Math.random()|0}var n=null,r=0,i=window.crypto||window.msCrypto;i&&i.getRandomValues&&Uint8Array&&(n=i.getRandomValues(new Uint8Array(31)));for(var o=[],a=0;a<t;a++)o.push(e().toString(16));return o.join("")}e.exports={generateUuid:r,generateSpanId:i,generateTraceId:o}},{}],20:[function(t,e,n){function r(t,e){if(!i)return!1;if(t!==i)return!1;if(!e)return!0;if(!o)return!1;for(var n=o.split("."),r=e.split("."),a=0;a<r.length;a++)if(r[a]!==n[a])return!1;return!0}var i=null,o=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var s=navigator.userAgent,c=s.match(a);c&&s.indexOf("Chrome")===-1&&s.indexOf("Chromium")===-1&&(i="Safari",o=c[1])}e.exports={agent:i,version:o,match:r}},{}],21:[function(t,e,n){function r(t){function e(){t(a&&document[a]?document[a]:document[i]?"hidden":"visible")}"addEventListener"in document&&o&&document.addEventListener(o,e,!1)}e.exports=r;var i,o,a;"undefined"!=typeof document.hidden?(i="hidden",o="visibilitychange",a="visibilityState"):"undefined"!=typeof document.msHidden?(i="msHidden",o="msvisibilitychange"):"undefined"!=typeof document.webkitHidden&&(i="webkitHidden",o="webkitvisibilitychange",a="webkitVisibilityState")},{}],22:[function(t,e,n){function r(t,e){var n=[],r="",o=0;for(r in t)i.call(t,r)&&(n[o]=e(r,t[r]),o+=1);return n}var i=Object.prototype.hasOwnProperty;e.exports=r},{}],23:[function(t,e,n){function r(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,i=n-e||0,o=Array(i<0?0:i);++r<i;)o[r]=t[e+r];return o}e.exports=r},{}],24:[function(t,e,n){e.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(t,e,n){function r(){}function i(t){function e(t){return t&&t instanceof r?t:t?f(t,c,a):a()}function n(n,r,i,o,a){if(a!==!1&&(a=!0),!p.aborted||o){t&&a&&t(n,r,i);for(var s=e(i),c=m(n),f=c.length,u=0;u<f;u++)c[u].apply(s,r);var l=d[x[n]];return l&&l.push([y,n,r,s]),s}}function o(t,e){w[t]=m(t).concat(e)}function h(t,e){var n=w[t];if(n)for(var r=0;r<n.length;r++)n[r]===e&&n.splice(r,1)}function m(t){return w[t]||[]}function v(t){return l[t]=l[t]||i(n)}function g(t,e){p.aborted||u(t,function(t,n){e=e||"feature",x[n]=e,e in d||(d[e]=[])})}var w={},x={},y={on:o,addEventListener:o,removeEventListener:h,emit:n,get:v,listeners:m,context:e,buffer:g,abort:s,aborted:!1};return y}function o(t){return f(t,c,a)}function a(){return new r}function s(){(d.api||d.feature)&&(p.aborted=!0,d=p.backlog={})}var c="nr@context",f=t("gos"),u=t(22),d={},l={},p=e.exports=i();e.exports.getOrSetContext=o,p.backlog=d},{}],gos:[function(t,e,n){function r(t,e,n){if(i.call(t,e))return t[e];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:r,writable:!0,enumerable:!1}),r}catch(o){}return t[e]=r,r}var i=Object.prototype.hasOwnProperty;e.exports=r},{}],handle:[function(t,e,n){function r(t,e,n,r){i.buffer([t],r),i.emit(t,e,n)}var i=t("ee").get("handle");e.exports=r,r.ee=i},{}],id:[function(t,e,n){function r(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:a(t,o,function(){return i++})}var i=1,o="nr@id",a=t("gos");e.exports=r},{}],loader:[function(t,e,n){function r(){if(!M++){var t=O.info=NREUM.info,e=m.getElementsByTagName("script")[0];if(setTimeout(f.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&e))return f.abort();c(E,function(e,n){t[e]||(t[e]=n)});var n=a();s("mark",["onload",n+O.offset],null,"api"),s("timing",["load",n]);var r=m.createElement("script");0===t.agent.indexOf("http://")||0===t.agent.indexOf("https://")?r.src=t.agent:r.src=p+"://"+t.agent,e.parentNode.insertBefore(r,e)}}function i(){"complete"===m.readyState&&o()}function o(){s("mark",["domContent",a()+O.offset],null,"api")}var a=t(16),s=t("handle"),c=t(22),f=t("ee"),u=t(20),d=t(17),l=t(13),p=l.getConfiguration("ssl")===!1?"http":"https",h=window,m=h.document,v="addEventListener",g="attachEvent",w=h.XMLHttpRequest,x=w&&w.prototype,y=!d(h.location);NREUM.o={ST:setTimeout,SI:h.setImmediate,CT:clearTimeout,XHR:w,REQ:h.Request,EV:h.Event,PR:h.Promise,MO:h.MutationObserver};var b=""+location,E={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1210.min.js"},R=w&&x&&x[v]&&!/CriOS/.test(navigator.userAgent),O=e.exports={offset:a.getLastTimestamp(),now:a,origin:b,features:{},xhrWrappable:R,userAgent:u,disabled:y};if(!y){t(12),t(18),m[v]?(m[v]("DOMContentLoaded",o,!1),h[v]("load",r,!1)):(m[g]("onreadystatechange",i),h[g]("onload",r)),s("mark",["firstbyte",a.getLastTimestamp()],null,"api");var M=0}},{}],"wrap-function":[function(t,e,n){function r(t,e){function n(e,n,r,c,f){function nrWrapper(){var o,a,u,l;try{a=this,o=d(arguments),u="function"==typeof r?r(o,a):r||{}}catch(p){i([p,"",[o,a,c],u],t)}s(n+"start",[o,a,c],u,f);try{return l=e.apply(a,o)}catch(h){throw s(n+"err",[o,a,h],u,f),h}finally{s(n+"end",[o,a,l],u,f)}}return a(e)?e:(n||(n=""),nrWrapper[l]=e,o(e,nrWrapper,t),nrWrapper)}function r(t,e,r,i,o){r||(r="");var s,c,f,u="-"===r.charAt(0);for(f=0;f<e.length;f++)c=e[f],s=t[c],a(s)||(t[c]=n(s,u?c+r:r,i,c,o))}function s(n,r,o,a){if(!h||e){var s=h;h=!0;try{t.emit(n,r,o,e,a)}catch(c){i([c,n,r,o],t)}h=s}}return t||(t=u),n.inPlace=r,n.flag=l,n}function i(t,e){e||(e=u);try{e.emit("internal-error",t)}catch(n){}}function o(t,e,n){if(Object.defineProperty&&Object.keys)try{var r=Object.keys(t);return r.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(o){i([o],n)}for(var a in t)p.call(t,a)&&(e[a]=t[a]);return e}function a(t){return!(t&&t instanceof Function&&t.apply&&!t[l])}function s(t,e){var n=e(t);return n[l]=t,o(t,n,u),n}function c(t,e,n){var r=t[e];t[e]=s(r,n)}function f(){for(var t=arguments.length,e=new Array(t),n=0;n<t;++n)e[n]=arguments[n];return e}var u=t("ee"),d=t(23),l="nr@original",p=Object.prototype.hasOwnProperty,h=!1;e.exports=r,e.exports.wrapFunction=s,e.exports.wrapInPlace=c,e.exports.argsToArray=f},{}]},{},["loader",2,9]);</script>
 <meta property="fb:app_id" content="129848480405753" />
 <meta property="fb:pages" content="21819923015,329876903846185,459190287458280,106721516050,172994359388346" />
@@ -49,12 +49,12 @@
   <meta name="twitter:image" content="https://www.scpr.org/assets/meta/twitter-06a56b46a4d2800a4dfd099229d5fec4.jpg">
 
 <meta name="csrf-param" content="authenticity_token" />
-<meta name="csrf-token" content="Tfa0lpKsbt+S7Sd0ETgecR8+uMBK7YCIstMm6eu855dKzhn6IET6VVepgGp/r+UGc2ydIIuH8VQFUagUtvNXng==" />
+<meta name="csrf-token" content="882jOG+SdV2ibF9N0a3Q6lAeCQYAlcKm5JVk3Cf5ci4MRhrdKgzuy9GbALDGWoLjEZkA5MtRtJaFX1VBrcbPUQ==" />
 
 <link rel="alternate" type="application/rss+xml" title="RSS" href="https://scpr.org/feeds/all_news" />
 
 
-<link rel="shortcut icon" type="image/x-icon" href="../favicon.ico.html" />
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
 
 <script>
   window.fbAsyncInit = function() {
@@ -98,7 +98,7 @@
    }
  </script>
 
-    <link rel="stylesheet" media="screen" href="../assets/application-7f7821ce515de5e972962c5c644583f6.css.html" />
+    <link rel="stylesheet" media="screen" href="/assets/application-7f7821ce515de5e972962c5c644583f6.css" />
     
     <!-- Start: GPT Async -->
 <script type='text/javascript'>
@@ -164,7 +164,7 @@
 <!-- chartbeat timing for load start -->
 <script type="text/javascript">var _sf_startpt=(new Date()).getTime()</script>
 
-    <script src="../assets/application-5438c131fea4e82cd9b15c59115cba6e.js.html"></script>
+    <script src="/assets/application-5438c131fea4e82cd9b15c59115cba6e.js"></script>
     <script>
       // Function for lazy loading slideshow images
       function imgLoaded(img) {
@@ -192,7 +192,7 @@
 <nav class="o-mast o-mast--mobile">
   <div class="o-mast__nav-background"></div>
   <div class="o-mast__logo">
-    <a href="https://archive.kpcc.org/" class="o-mast__logo-link" class="track-event" data-ga-category="Menu" data-ga-action="Clickthrough" data-ga-label="Home">
+    <a href="/" class="o-mast__logo-link" class="track-event" data-ga-category="Menu" data-ga-action="Clickthrough" data-ga-label="Home">
       <svg>
         <use class="" xlink:href="/static/images/scpr-sprite.svg#logo_kpcc-black"/>
       </svg>
@@ -214,14 +214,14 @@
 
     <li class="o-mast__item o-mast__item--mobile-row">
       <span class="o-mast__caption--mobile" href="/news" class="track-event" data-ga-category="Menu" data-ga-action="Clickthrough" data-ga-label="News">Member-supported news for Southern California</span>
-      <a class="o-mast__nav-link o-mast__nav-link--listen-live" href="https://archive.kpcc.org/listen_live" class="track-event" data-ga-category="Menu" data-ga-action="Clickthrough" data-ga-label="Listen Live">Listen Live</a>
+      <a class="o-mast__nav-link o-mast__nav-link--listen-live" href="/listen_live" class="track-event" data-ga-category="Menu" data-ga-action="Clickthrough" data-ga-label="Listen Live">Listen Live</a>
     </li>
 
     <li class="o-mast__item">
-      <a class="o-mast__nav-link o-mast__nav-link--with-submenu o-mast__item--news" href="https://archive.kpcc.org/news" class="track-event" data-ga-category="Menu" data-ga-action="Clickthrough" data-ga-label="News">
+      <a class="o-mast__nav-link o-mast__nav-link--with-submenu o-mast__item--news" href="/news" class="track-event" data-ga-category="Menu" data-ga-action="Clickthrough" data-ga-label="News">
         News
       </a>
-      <a class="o-mast__nav-link o-mast__nav-link--with-submenu" href="https://archive.kpcc.org/programs" class="track-event" data-ga-category="Menu" data-ga-action="Clickthrough" data-ga-label="Programs">
+      <a class="o-mast__nav-link o-mast__nav-link--with-submenu" href="/programs" class="track-event" data-ga-category="Menu" data-ga-action="Clickthrough" data-ga-label="Programs">
         Programs
         <svg class="b-icon b-icon--size-sm b-icon--left">
           <use class="b-icon--line" xlink:href="/static/images/scpr-sprite.svg#icon_line-right-arrow"/>
@@ -232,10 +232,10 @@
           <h6 class="o-mast__section-heading">Featured Programs</h6>
           <ul class="o-mast__section-list">
               <li>
-                <a href="https://archive.kpcc.org/programs/airtalk">AirTalk</a>
+                <a href="/programs/airtalk">AirTalk</a>
               </li>
               <li>
-                <a href="https://archive.kpcc.org/programs/filmweek">FilmWeek</a>
+                <a href="/programs/filmweek">FilmWeek</a>
               </li>
           </ul>
         </div>
@@ -243,21 +243,21 @@
           <h6 class="o-mast__section-heading">All Programs</h6>
           <ul class="o-mast__section-list">
             <li>
-              <a href="https://archive.kpcc.org/programs">Programs A-Z</a>
+              <a href="/programs">Programs A-Z</a>
             </li>
             <li>
-              <a href="https://archive.kpcc.org/schedule">Program Schedule</a>
+              <a href="/schedule">Program Schedule</a>
             </li>
             <li>
-              <a href="https://archive.kpcc.org/podcasts">Podcasts</a>
+              <a href="/podcasts">Podcasts</a>
             </li>
             <li>
-              <a href="https://archive.kpcc.org/archive/2021/07/19/?section=programs">Archive</a>
+              <a href="/archive/2021/08/26/?section=programs">Archive</a>
             </li>
           </ul>
         </div>
       </div>
-      <a class="o-mast__nav-link o-mast__nav-link--with-submenu" href="https://archive.kpcc.org/events/kpcc-in-person" class="track-event" data-ga-category="Menu" data-ga-action="Clickthrough" data-ga-label="Events">
+      <a class="o-mast__nav-link o-mast__nav-link--with-submenu" href="/events/kpcc-in-person" class="track-event" data-ga-category="Menu" data-ga-action="Clickthrough" data-ga-label="Events">
         Events
         <svg class="b-icon b-icon--size-sm b-icon--left">
           <use class="b-icon--line" xlink:href="/static/images/scpr-sprite.svg#icon_line-right-arrow"/>
@@ -268,13 +268,13 @@
           <h6 class="o-mast__section-heading">KPCC In Person</h6>
           <ul class="o-mast__section-list">
             <li>
-              <a href="https://archive.kpcc.org/events/kpcc-in-person/list">KPCC In Person</a>
+              <a href="/events/kpcc-in-person/list">KPCC In Person</a>
             </li>
             <li>
-              <a href="https://archive.kpcc.org/events/kpcc-in-person/upcoming">Upcoming Events</a>
+              <a href="/events/kpcc-in-person/upcoming">Upcoming Events</a>
             </li>
             <li>
-              <a href="https://archive.kpcc.org/events/kpcc-in-person/archive">Past Events</a>
+              <a href="/events/kpcc-in-person/archive">Past Events</a>
             </li>
           </ul>
         </div>
@@ -290,7 +290,7 @@
     </li>
 
     <li class="o-mast__item">
-      <a class="o-mast__nav-link o-mast__nav-link--with-submenu" href="https://archive.kpcc.org/support" class="track-event" data-ga-category="Menu" data-ga-action="Clickthrough" data-ga-label="Support Us">
+      <a class="o-mast__nav-link o-mast__nav-link--with-submenu" href="/support" class="track-event" data-ga-category="Menu" data-ga-action="Clickthrough" data-ga-label="Support Us">
         Support Us
         <svg class="b-icon b-icon--size-sm b-icon--left">
           <use class="b-icon--line" xlink:href="/static/images/scpr-sprite.svg#icon_line-right-arrow"/>
@@ -315,19 +315,19 @@
         <div class="o-mast__section">
           <ul class="o-mast__section-list o-mast__section-list--no-heading text-columns--sm-2">
             <li>
-              <a href="https://archive.kpcc.org/about/faq/#membership">About sustaining membership</a>
+              <a href="/about/faq/#membership">About sustaining membership</a>
             </li>
             <li>
               <a href="https://support.kpcc.org/ccupdate&_ga=1.206361616.2096948162.1473892732">Update your credit card</a>
             </li>
             <li>
-              <a href="https://archive.kpcc.org/about/faq/#membership">Member benefits</a>
+              <a href="/about/faq/#membership">Member benefits</a>
             </li>
           </ul>
           <h6 class="o-mast__section-heading" style="margin-top: 2em;">Ways to Support</h6>
           <ul class="o-mast__section-list text-columns--sm-2">
             <li>
-              <a href="https://archive.kpcc.org/gala">
+              <a href="/gala">
                 Annual Gala
               </a>
             </li>
@@ -336,7 +336,7 @@
       </div>
       </div>
       </div>
-      <a class="o-mast__nav-link o-mast__nav-link--with-submenu" href="https://archive.kpcc.org/about" class="track-event" data-ga-category="Menu" data-ga-action="Clickthrough" data-ga-label="About Us">
+      <a class="o-mast__nav-link o-mast__nav-link--with-submenu" href="/about" class="track-event" data-ga-category="Menu" data-ga-action="Clickthrough" data-ga-label="About Us">
         About Us
         <svg class="b-icon b-icon--size-sm b-icon--left">
           <use class="b-icon--line" xlink:href="/static/images/scpr-sprite.svg#icon_line-right-arrow"/>
@@ -359,19 +359,19 @@
               </a>
             </li>
             <li>
-              <a href="https://archive.kpcc.org/contact">Contact us</a>
+              <a href="/contact">Contact us</a>
             </li>
             <li>
-              <a href="https://archive.kpcc.org/network">Become a source</a>
+              <a href="/network">Become a source</a>
             </li>
             <li>
-              <a href="https://archive.kpcc.org/contact/#form">Share a news tip</a>
+              <a href="/contact/#form">Share a news tip</a>
             </li>
           </ul>
           <h6 class="o-mast__section-heading">Learn more about us</h6>
           <ul class="o-mast__section-list">
             <li>
-              <a href="https://archive.kpcc.org/about">About KPCC</a>
+              <a href="/about">About KPCC</a>
             </li>
           </ul>
         </div>
@@ -379,19 +379,19 @@
           <h6 class="o-mast__section-heading">People</h6>
           <ul class="o-mast__section-list">
             <li>
-              <a href="https://archive.kpcc.org/about/people/staff">Staff Directory</a>
+              <a href="/about/people/staff">Staff Directory</a>
             </li>
             <li>
-              <a href="https://archive.kpcc.org/about/people/leadership">Executive leadership</a>
+              <a href="/about/people/leadership">Executive leadership</a>
             </li>
             <li>
-              <a href="https://archive.kpcc.org/about/people/board">Board of Trustees</a>
+              <a href="/about/people/board">Board of Trustees</a>
             </li>
             <li>
-              <a href="https://archive.kpcc.org/about/people/council">Regional Advisory Council</a>
+              <a href="/about/people/council">Regional Advisory Council</a>
             </li>
             <li>
-              <a href="https://archive.kpcc.org/jobs">Careers</a>
+              <a href="/jobs">Careers</a>
             </li>
           </ul>
         </div>
@@ -425,7 +425,7 @@
 
   <div class="o-mast__action o-mast__search">
 
-    <form method="get" action="https://archive.kpcc.org/search/">
+    <form method="get" action="/search/">
       <input type="text" placeholder="Enter your search here" name="q" id="q" />
       <label for="o-mast__search-toggler-checkbox" class="o-mast__search-link" href="#">
         <svg class="b-icon b-icon--search-open">
@@ -480,8 +480,8 @@
   </div>
 </div>
         <section class="o-prologue o-prologue--standard-program">
-    <a class="o-prologue__logo" href="marketplace-tech-report.html">
-        <object data='../assets/show-logos/marketplace-tech-report-3bc8e59bbfd10e64cd6bc00e9b9e47d1.svg.html' type="image/svg+xml"></object>
+    <a class="o-prologue__logo" href="/programs/marketplace-tech-report">
+        <object data='/assets/show-logos/marketplace-tech-report-3bc8e59bbfd10e64cd6bc00e9b9e47d1.svg' type="image/svg+xml"></object>
     </a>
     <span class="o-prologue__description">
       <div class="o-prologue__teaser">
@@ -534,77 +534,77 @@
   <label class="o-popular-stories-side-bar__label" for="o-popular-stories-side-bar__input-discussed">DISCUSSED</label>
   <div id="o-popular-stories-side-bar__tab-viewed" class="o-popular-stories-side-bar__tab">
     <div class="o-popular-stories-side-bar__item">
-      <a class="track-event" data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="Popular Now Quadrant" href="https://archive.kpcc.org/news/2021/07/20/98530/tokyo-olympics-ceo-doesn-t-dismiss-the-idea-that-g/">
+      <a class="track-event" data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="Popular Now Quadrant" href="/news/2021/08/27/99007/greenhouse-gas-levels-are-the-highest-ever-seen-an/">
       <figure class="o-popular-stories-side-bar__figure o-figure">
-        <img class="o-popular-stories-side-bar__item-image o-figure__img" src="../assets/meta/facebook-73514b02830df167eb8bfbe15710b5cb.jpg.html" style="background-image: url(../assets/meta/facebook-73514b02830df167eb8bfbe15710b5cb.jpg.html)" />
+        <img class="o-popular-stories-side-bar__item-image o-figure__img" src="https://a.scpr.org/i/281c84db9a64d3e9cba7721d02ebce5e/234802-small.jpg" style="background-image: url(https://a.scpr.org/i/281c84db9a64d3e9cba7721d02ebce5e/234802-small.jpg)" />
       </figure>
       <span class="o-popular-stories-side-bar__item-caption">
-        Tokyo Olympics CEO Doesn't Dismiss The Idea That Games Could Still Be Called Off
+        Greenhouse Gas Levels Are The Highest Ever Seen — And That's Going Back 800,000 Years
       </span>
 </a>    </div>
     <div class="o-popular-stories-side-bar__item">
-      <a class="track-event" data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="Popular Now Quadrant" href="https://archive.kpcc.org/news/2021/07/20/98529/the-white-house-blamed-china-for-hacking-microsoft/">
+      <a class="track-event" data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="Popular Now Quadrant" href="/news/2021/08/27/99006/afghanistan-death-toll-climbs-as-pentagon-clarifie/">
       <figure class="o-popular-stories-side-bar__figure o-figure">
-        <img class="o-popular-stories-side-bar__item-image o-figure__img" src="../assets/meta/facebook-73514b02830df167eb8bfbe15710b5cb.jpg.html" style="background-image: url(../assets/meta/facebook-73514b02830df167eb8bfbe15710b5cb.jpg.html)" />
+        <img class="o-popular-stories-side-bar__item-image o-figure__img" src="https://a.scpr.org/i/170de8f0dad360203c913118c631fdfc/234801-small.jpg" style="background-image: url(https://a.scpr.org/i/170de8f0dad360203c913118c631fdfc/234801-small.jpg)" />
       </figure>
       <span class="o-popular-stories-side-bar__item-caption">
-        The White House Blamed China For Hacking Microsoft. China Is Pointing Fingers Back
+        Afghanistan Death Toll Climbs As Pentagon Clarifies 1 Bomber Was Involved In Attack
       </span>
 </a>    </div>
     <div class="o-popular-stories-side-bar__item">
-      <a class="track-event" data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="Popular Now Quadrant" href="https://archive.kpcc.org/news/2021/07/20/98528/new-york-reaches-a-1-1-billion-opioid-deal-with-th/">
+      <a class="track-event" data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="Popular Now Quadrant" href="/news/2021/08/27/99005/reports-of-cheating-at-colleges-soar-during-the-pa/">
       <figure class="o-popular-stories-side-bar__figure o-figure">
-        <img class="o-popular-stories-side-bar__item-image o-figure__img" src="https://a.scpr.org/i/d870bff93c83f65f5aea9db0d0f9e8b7/234308-small.jpg" style="background-image: url(https://a.scpr.org/i/d870bff93c83f65f5aea9db0d0f9e8b7/234308-small.jpg)" />
+        <img class="o-popular-stories-side-bar__item-image o-figure__img" src="https://a.scpr.org/i/3c0f8272c4a11a95ab453af9c8fe607b/234800-small.jpg" style="background-image: url(https://a.scpr.org/i/3c0f8272c4a11a95ab453af9c8fe607b/234800-small.jpg)" />
       </figure>
       <span class="o-popular-stories-side-bar__item-caption">
-        New York Reaches A $1.1 Billion Opioid Deal With The Nation's Big Drug Wholesalers
+        Reports Of Cheating At Colleges Soar During The Pandemic
       </span>
 </a>    </div>
     <div class="o-popular-stories-side-bar__item">
-      <a class="track-event" data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="Popular Now Quadrant" href="https://archive.kpcc.org/news/2021/07/20/98527/deaf-blind-athlete-quits-team-usa-after-she-s-told/">
+      <a class="track-event" data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="Popular Now Quadrant" href="/news/2021/08/27/99004/same-hospital-and-insurer-but-the-bill-for-his-sec/">
       <figure class="o-popular-stories-side-bar__figure o-figure">
-        <img class="o-popular-stories-side-bar__item-image o-figure__img" src="https://a.scpr.org/i/8b678acc69125b514b776443a77b45b8/234307-small.jpg" style="background-image: url(https://a.scpr.org/i/8b678acc69125b514b776443a77b45b8/234307-small.jpg)" />
+        <img class="o-popular-stories-side-bar__item-image o-figure__img" src="https://a.scpr.org/i/4d6db4eb8edff02e97f7f32b2ecddbcf/234799-small.jpg" style="background-image: url(https://a.scpr.org/i/4d6db4eb8edff02e97f7f32b2ecddbcf/234799-small.jpg)" />
       </figure>
       <span class="o-popular-stories-side-bar__item-caption">
-        Deaf-Blind Athlete Quits Team USA After She's Told She Can't Bring A Care Assistant 
+        Same Hospital And Insurer, But The Bill For His Second Jaw Procedure Was $24,000 More
       </span>
 </a>    </div>
   </div>
   <div id="o-popular-stories-side-bar__tab-discussed" class="o-popular-stories-side-bar__tab">
       <div class="o-popular-stories-side-bar__item">
-        <a class="track-event" data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="Popular Now Quadrant" href="https://archive.kpcc.org/news/2021/07/20/98527/deaf-blind-athlete-quits-team-usa-after-she-s-told/">
+        <a class="track-event" data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="Popular Now Quadrant" href="/news/2021/08/27/99004/same-hospital-and-insurer-but-the-bill-for-his-sec/">
         <figure class="o-popular-stories-side-bar__figure o-figure">
-          <img class="o-popular-stories-side-bar__item-image o-figure__img" src="https://a.scpr.org/i/8b678acc69125b514b776443a77b45b8/234307-small.jpg" style="background-image: url(https://a.scpr.org/i/8b678acc69125b514b776443a77b45b8/234307-small.jpg)" />
+          <img class="o-popular-stories-side-bar__item-image o-figure__img" src="https://a.scpr.org/i/4d6db4eb8edff02e97f7f32b2ecddbcf/234799-small.jpg" style="background-image: url(https://a.scpr.org/i/4d6db4eb8edff02e97f7f32b2ecddbcf/234799-small.jpg)" />
         </figure>
         <span class="o-popular-stories-side-bar__item-caption">
-          Deaf-Blind Athlete Quits Team USA After She's Told She Can't Bring A Care Assistant 
+          Same Hospital And Insurer, But The Bill For His Second Jaw Procedure Was $24,000 More
         </span>
 </a>      </div>
       <div class="o-popular-stories-side-bar__item">
-        <a class="track-event" data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="Popular Now Quadrant" href="https://archive.kpcc.org/news/2021/07/20/98528/new-york-reaches-a-1-1-billion-opioid-deal-with-th/">
+        <a class="track-event" data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="Popular Now Quadrant" href="/news/2021/08/27/99005/reports-of-cheating-at-colleges-soar-during-the-pa/">
         <figure class="o-popular-stories-side-bar__figure o-figure">
-          <img class="o-popular-stories-side-bar__item-image o-figure__img" src="https://a.scpr.org/i/d870bff93c83f65f5aea9db0d0f9e8b7/234308-small.jpg" style="background-image: url(https://a.scpr.org/i/d870bff93c83f65f5aea9db0d0f9e8b7/234308-small.jpg)" />
+          <img class="o-popular-stories-side-bar__item-image o-figure__img" src="https://a.scpr.org/i/3c0f8272c4a11a95ab453af9c8fe607b/234800-small.jpg" style="background-image: url(https://a.scpr.org/i/3c0f8272c4a11a95ab453af9c8fe607b/234800-small.jpg)" />
         </figure>
         <span class="o-popular-stories-side-bar__item-caption">
-          New York Reaches A $1.1 Billion Opioid Deal With The Nation's Big Drug Wholesalers
+          Reports Of Cheating At Colleges Soar During The Pandemic
         </span>
 </a>      </div>
       <div class="o-popular-stories-side-bar__item">
-        <a class="track-event" data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="Popular Now Quadrant" href="https://archive.kpcc.org/news/2021/07/20/98529/the-white-house-blamed-china-for-hacking-microsoft/">
+        <a class="track-event" data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="Popular Now Quadrant" href="/news/2021/08/27/99006/afghanistan-death-toll-climbs-as-pentagon-clarifie/">
         <figure class="o-popular-stories-side-bar__figure o-figure">
-          <img class="o-popular-stories-side-bar__item-image o-figure__img" src="../assets/meta/facebook-73514b02830df167eb8bfbe15710b5cb.jpg.html" style="background-image: url(../assets/meta/facebook-73514b02830df167eb8bfbe15710b5cb.jpg.html)" />
+          <img class="o-popular-stories-side-bar__item-image o-figure__img" src="https://a.scpr.org/i/170de8f0dad360203c913118c631fdfc/234801-small.jpg" style="background-image: url(https://a.scpr.org/i/170de8f0dad360203c913118c631fdfc/234801-small.jpg)" />
         </figure>
         <span class="o-popular-stories-side-bar__item-caption">
-          The White House Blamed China For Hacking Microsoft. China Is Pointing Fingers Back
+          Afghanistan Death Toll Climbs As Pentagon Clarifies 1 Bomber Was Involved In Attack
         </span>
 </a>      </div>
       <div class="o-popular-stories-side-bar__item">
-        <a class="track-event" data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="Popular Now Quadrant" href="https://archive.kpcc.org/news/2021/07/20/98530/tokyo-olympics-ceo-doesn-t-dismiss-the-idea-that-g/">
+        <a class="track-event" data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="Popular Now Quadrant" href="/news/2021/08/27/99007/greenhouse-gas-levels-are-the-highest-ever-seen-an/">
         <figure class="o-popular-stories-side-bar__figure o-figure">
-          <img class="o-popular-stories-side-bar__item-image o-figure__img" src="../assets/meta/facebook-73514b02830df167eb8bfbe15710b5cb.jpg.html" style="background-image: url(../assets/meta/facebook-73514b02830df167eb8bfbe15710b5cb.jpg.html)" />
+          <img class="o-popular-stories-side-bar__item-image o-figure__img" src="https://a.scpr.org/i/281c84db9a64d3e9cba7721d02ebce5e/234802-small.jpg" style="background-image: url(https://a.scpr.org/i/281c84db9a64d3e9cba7721d02ebce5e/234802-small.jpg)" />
         </figure>
         <span class="o-popular-stories-side-bar__item-caption">
-          Tokyo Olympics CEO Doesn't Dismiss The Idea That Games Could Still Be Called Off
+          Greenhouse Gas Levels Are The Highest Ever Seen — And That's Going Back 800,000 Years
         </span>
 </a>      </div>
   </div>
@@ -613,7 +613,7 @@
 <aside id="" class="o-archive o-archive--small" style="order: 6;">
   <h6 class="o-archive__heading b-heading--h6 b-heading--uppercase u-text-color--gray b-heading--medium">Find a specific episode from Marketplace Tech's archive</h6>
 
-  <form accept-charset="UTF-8" action="https://archive.kpcc.org/programs/marketplace-tech-report/archive" method="post">
+  <form accept-charset="UTF-8" action="/programs/marketplace-tech-report/archive" method="post">
 
     <input name="utf8" type="hidden" value="&#x2713;" />
     <input name="authenticity_token" type="hidden" value="Hv3qnrajp8wwM5yr16aOZvA+r1JCrnBLq+lRXQVHrc0=" />
@@ -625,8 +625,8 @@
         <option value="4">April</option>
         <option value="5">May</option>
         <option value="6">June</option>
-        <option value="7" selected="selected">July</option>
-        <option value="8">August</option>
+        <option value="7">July</option>
+        <option value="8" selected="selected">August</option>
         <option value="9">September</option>
         <option value="10">October</option>
         <option value="11">November</option>
@@ -653,14 +653,14 @@
         <option value="17">17</option>
         <option value="18">18</option>
         <option value="19">19</option>
-        <option value="20" selected="selected">20</option>
+        <option value="20">20</option>
         <option value="21">21</option>
         <option value="22">22</option>
         <option value="23">23</option>
         <option value="24">24</option>
         <option value="25">25</option>
         <option value="26">26</option>
-        <option value="27">27</option>
+        <option value="27" selected="selected">27</option>
         <option value="28">28</option>
         <option value="29">29</option>
         <option value="30">30</option>
@@ -716,15 +716,15 @@
   <h6 class="o-featured-episode__list-heading b-heading--h6 b-heading--uppercase u-text-color--gray">Recent episodes</h6>
     <div class="o-featured-episode__segment">
       <div class="o-featured-episode__segment-description">
-        <h3 class="o-featured-episode__segment-title"><a href="https://archive.kpcc.org/programs/marketplace-tech-report/2021/05/28/89215/">Companies keep overpromising about AI</a></h3>
-        <time class="o-story-list__item-timestamp">Fri May 28</time>
-        <div class="o-featured-episode__segment-teaser"><p>The insurance company Lemonade is all about automation. To file claims, customers upload a selfie video and Lemonade&#8217;s chatbot, AI Jim, will handle some claims automatically. On Twitter this week, Lemonade got in trouble suggesting that AI handles fraud detection and uses nonverbal cues to assess some claims. Researchers said that capability doesn&#8217;t exist and could be discriminatory. Lemonade quickly downplayed how much AI it uses and said it&#8217;s not based on physical features. &#8220;Marketplace Tech&#8221; host Molly Wood speaks with Ryan Calo, a professor of law at the University of Washington who studies emerging tech and policy.</p>
+        <h3 class="o-featured-episode__segment-title"><a href="/programs/marketplace-tech-report/2021/07/08/90155/">Ever watch something on YouTube and wished you hadn’t? You’re not alone.</a></h3>
+        <time class="o-story-list__item-timestamp">Thu July 08</time>
+        <div class="o-featured-episode__segment-teaser"><p>Most of what people watch on YouTube is recommended by YouTube&#8217;s algorithm. Finish one video on how to save a dying houseplant, and it might suggest more. But that system can also send users down rabbit holes that radicalize and misinform. For almost a year, the Mozilla Foundation has been tracking the viewing habits of more than 37,000 volunteers who installed a browser extension letting them identify videos they called &#8220;regrettable.&#8221; Mozilla found YouTube&#8217;s algorithm recommended 70% of those problematic videos. Marketplace&#8217;s Kimberly Adams speaks to Brandi Geurkink, senior manager of advocacy at Mozilla, who led the research effort.</p>
 </div>
           <div class="c-audio-widget">
-            <a href="https://play.podtrac.com/APM-MarketplaceTechReport/play.publicradio.org/wp-feed/o/marketplace/tech_report/2021/05/28/tech_20210528_pod_128.mp3?context=marketplace-tech-report" class="c-play__button" title="Companies keep overpromising about AI" data-duration="731" data-ga-category="Article" data-ga-action="Play" data-ga-label="Player">
+            <a href="https://play.podtrac.com/APM-MarketplaceTechReport/play.publicradio.org/wp-feed/o/marketplace/tech_report/2021/07/08/tech_20210708_pod_128.mp3?context=marketplace-tech-report" class="c-play__button" title="Ever watch something on YouTube and wished you hadn’t? You’re not alone." data-duration="430" data-ga-category="Article" data-ga-action="Play" data-ga-label="Player">
               <span class="o-featured-episode__segment-audio">
-                <img class="o-featured-episode__segment-icon" src="../assets/o-audio-bar/Miniplayer-Play@2x-9eb026b3cb47b37babd5eb9f620efedf.png.html" alt="Miniplayer play@2x" />
-                12 MIN 11 SEC
+                <img class="o-featured-episode__segment-icon" src="/assets/o-audio-bar/Miniplayer-Play@2x-9eb026b3cb47b37babd5eb9f620efedf.png" alt="Miniplayer play@2x" />
+                7 MIN 10 SEC
               </span>
             </a>
           </div>
@@ -732,16 +732,17 @@
     </div>
     <div class="o-featured-episode__segment">
       <div class="o-featured-episode__segment-description">
-        <h3 class="o-featured-episode__segment-title"><a href="https://archive.kpcc.org/programs/marketplace-tech-report/2021/05/27/89190/">Amazon’s business dominance is a many-tentacled thing</a></h3>
-        <time class="o-story-list__item-timestamp">Thu May 27</time>
-        <div class="o-featured-episode__segment-teaser"><p>It&#8217;s a big news week for Amazon. First, it got sued by the District of Columbia on antitrust grounds. The lawsuit accuses the company of preventing sellers on its marketplace from offering better prices elsewhere. Then, in another part of its business, Amazon announced that it was acquiring one of the world&#8217;s oldest film studios, MGM, which was founded in 1924. So even as big as Amazon is, it just keeps getting bigger, but not in one single market. &#8220;Marketplace Tech&#8221; host Molly Wood speaks with Rebecca Allensworth, a law professor at Vanderbilt University. She said that makes antitrust enforcement tricky and that it reminds her of another old company: Standard Oil.</p>
-<p>Your support makes our journalism possible — become a Marketplace Investor by Thursday to help us reach our fundraising goal: <a href="https://support.marketplace.org/tech-sn" target="_blank" rel="noopener">marketplace.org/givetech</a></p>
+        <h3 class="o-featured-episode__segment-title"><a href="/programs/marketplace-tech-report/2021/07/07/90128/">There will be no return of the JEDI contract</a></h3>
+        <time class="o-story-list__item-timestamp">Wed July 07</time>
+        <div class="o-featured-episode__segment-teaser"><p><!-- wp:paragraph --></p>
+<p>If you land a contract with the Department of Defense, that&#8217;s usually big money. Unless, of course, the government changes its mind. That’s what happened to Microsoft this week when the Pentagon canceled the Joint Enterprise Defense Infrastructure, or JEDI, cloud computing contract. The government controversially awarded that $10 billion contract to Microsoft in late 2019; Amazon immediately sued, saying former President Donald Trump exerted undue influence over the decision, which led to a long legal battle. Marketplace&#8217;s Kimberly Adams speaks with &#8220;Marketplace Tech&#8221; host Molly Wood about why the old contract no longer met the Pentagon&#8217;s needs.</p>
+<p><!-- /wp:paragraph --></p>
 </div>
           <div class="c-audio-widget">
-            <a href="https://play.podtrac.com/APM-MarketplaceTechReport/play.publicradio.org/wp-feed/o/marketplace/tech_report/2021/05/27/tech_20210527_pod_128.mp3?context=marketplace-tech-report" class="c-play__button" title="Amazon’s business dominance is a many-tentacled thing" data-duration="524" data-ga-category="Article" data-ga-action="Play" data-ga-label="Player">
+            <a href="https://play.podtrac.com/APM-MarketplaceTechReport/play.publicradio.org/wp-feed/o/marketplace/tech_report/2021/07/07/tech_20210707_pod_128.mp3?context=marketplace-tech-report" class="c-play__button" title="There will be no return of the JEDI contract" data-duration="478" data-ga-category="Article" data-ga-action="Play" data-ga-label="Player">
               <span class="o-featured-episode__segment-audio">
-                <img class="o-featured-episode__segment-icon" src="../assets/o-audio-bar/Miniplayer-Play@2x-9eb026b3cb47b37babd5eb9f620efedf.png.html" alt="Miniplayer play@2x" />
-                8 MIN 44 SEC
+                <img class="o-featured-episode__segment-icon" src="/assets/o-audio-bar/Miniplayer-Play@2x-9eb026b3cb47b37babd5eb9f620efedf.png" alt="Miniplayer play@2x" />
+                7 MIN 58 SEC
               </span>
             </a>
           </div>
@@ -749,16 +750,17 @@
     </div>
     <div class="o-featured-episode__segment">
       <div class="o-featured-episode__segment-description">
-        <h3 class="o-featured-episode__segment-title"><a href="https://archive.kpcc.org/programs/marketplace-tech-report/2021/05/26/89168/">The Apple-Epic antitrust case was a spectator sport</a></h3>
-        <time class="o-story-list__item-timestamp">Wed May 26</time>
-        <div class="o-featured-episode__segment-teaser"><p>Legal arguments between Apple and Epic Games wound down this week in federal court. Some have called it the Super Bowl of antitrust cases. No flashy halftime show, though, but the trial did have mighty opponents, wild fans and a whole lot of cash. Epic, the maker of the video game Fortnite, argues Apple’s whole operating system is a monopoly and complains about the 30% cut of app sales it takes. But Apple says its tight controls ensure the security of apps in its store. A decision isn&#8217;t expected anytime soon. Marketplace&#8217;s Meghan McCarty Carino asked Adi Robertson, a senior reporter with the Verge, what we can take away from the case.</p>
-<p>Your support makes our journalism possible — become a Marketplace Investor by Thursday to help us reach our fundraising goal: <a href="https://support.marketplace.org/tech-sn">marketplace.org/givetech</a></p>
+        <h3 class="o-featured-episode__segment-title"><a href="/programs/marketplace-tech-report/2021/07/06/90107/">Big social media firms commit to protecting women online, but what’s actually going to change?</a></h3>
+        <time class="o-story-list__item-timestamp">Tue July 06</time>
+        <div class="o-featured-episode__segment-teaser"><p><!-- wp:paragraph --></p>
+<p>More than a third of women report personal experiences with online violence. This month, Facebook, Twitter, TikTok and Google all signed on to new commitments to address online abuse and women’s safety on the web. The companies say they will test out new tools, including one that would give users the chance to put the brakes on a video that unexpectedly goes viral. Facebook, Twitter and Google didn’t make specific pledges about when they would be testing the new tools, but TikTok said its tests will start as early as this year.</p>
+<p><!-- /wp:paragraph --></p>
 </div>
           <div class="c-audio-widget">
-            <a href="https://play.podtrac.com/APM-MarketplaceTechReport/play.publicradio.org/wp-feed/o/marketplace/tech_report/2021/05/26/tech_20210526_pod_128.mp3?context=marketplace-tech-report" class="c-play__button" title="The Apple-Epic antitrust case was a spectator sport" data-duration="472" data-ga-category="Article" data-ga-action="Play" data-ga-label="Player">
+            <a href="https://play.podtrac.com/APM-MarketplaceTechReport/play.publicradio.org/wp-feed/o/marketplace/tech_report/2021/07/06/tech_20210706_pod_128.mp3?context=marketplace-tech-report" class="c-play__button" title="Big social media firms commit to protecting women online, but what’s actually going to change?" data-duration="429" data-ga-category="Article" data-ga-action="Play" data-ga-label="Player">
               <span class="o-featured-episode__segment-audio">
-                <img class="o-featured-episode__segment-icon" src="../assets/o-audio-bar/Miniplayer-Play@2x-9eb026b3cb47b37babd5eb9f620efedf.png.html" alt="Miniplayer play@2x" />
-                7 MIN 52 SEC
+                <img class="o-featured-episode__segment-icon" src="/assets/o-audio-bar/Miniplayer-Play@2x-9eb026b3cb47b37babd5eb9f620efedf.png" alt="Miniplayer play@2x" />
+                7 MIN 09 SEC
               </span>
             </a>
           </div>
@@ -766,16 +768,16 @@
     </div>
     <div class="o-featured-episode__segment">
       <div class="o-featured-episode__segment-description">
-        <h3 class="o-featured-episode__segment-title"><a href="https://archive.kpcc.org/programs/marketplace-tech-report/2021/05/25/89144/">Changing venture capital from within, a deal at a time</a></h3>
-        <time class="o-story-list__item-timestamp">Tue May 25</time>
-        <div class="o-featured-episode__segment-teaser"><p>The tech industry, like most of America, is grappling with its lack of diversity and its systemic inequality. At the top of that pyramid is venture capital. In the VC industry, it&#8217;s hard to break through as either a startup founder or an investor. Last summer, Act One Ventures general partner Alejandro Guerrero created a diversity rider for venture capital firms to use in their investment deals. It says a startup and the primary investor in a startup will make every attempt to include a member of an underrepresented group as a co-investor. Guerrero said now more than 50 VC firms have adopted the language, as well as a big law firm that made it standard in all its term sheets — basically the bullet points of an investment deal. He told &#8220;Marketplace Tech&#8221; host Molly Wood that the point of the rider is to pause the deal-making process and think about who isn&#8217;t in the room.</p>
-<p>Cheers to making it through this year! Donate today and get our new Mason Jar Mug and stock market-inspired drink recipes: <a href="https://support.marketplace.org/tech-sn">marketplace.org/givetech</a></p>
+        <h3 class="o-featured-episode__segment-title"><a href="/programs/marketplace-tech-report/2021/07/05/90082/">There’s a new boss at the FCC … let’s … talk about the internet, shall we?</a></h3>
+        <time class="o-story-list__item-timestamp">Mon July 05</time>
+        <div class="o-featured-episode__segment-teaser"><p><strong>This episode originally aired May 5, 2021.</strong></p>
+<p>Throughout the pandemic, we’ve been focused on how the internet is everything. When it comes to federal policy governing the internet, the Federal Communications Commission is everything. Among other roles and responsibilities, the FCC maps out broadband access nationally and its maps are used to determine which areas receive billions of dollars in federal subsidies to help build out more infrastructure. But the data used to create those maps is flawed at best. Last year, Congress passed a law requiring the agency to correct that. Host Molly Wood speaks with the new acting chairwoman of the FCC, Jessica Rosenworcel, about expanding access — starting with those maps.</p>
 </div>
           <div class="c-audio-widget">
-            <a href="https://play.podtrac.com/APM-MarketplaceTechReport/play.publicradio.org/wp-feed/o/marketplace/tech_report/2021/05/25/tech_20210525_pod_128.mp3?context=marketplace-tech-report" class="c-play__button" title="Changing venture capital from within, a deal at a time" data-duration="460" data-ga-category="Article" data-ga-action="Play" data-ga-label="Player">
+            <a href="https://play.podtrac.com/APM-MarketplaceTechReport/play.publicradio.org/wp-feed/o/marketplace/tech_report/2021/07/05/tech_20210705_pod_128.mp3?context=marketplace-tech-report" class="c-play__button" title="There’s a new boss at the FCC … let’s … talk about the internet, shall we?" data-duration="276" data-ga-category="Article" data-ga-action="Play" data-ga-label="Player">
               <span class="o-featured-episode__segment-audio">
-                <img class="o-featured-episode__segment-icon" src="../assets/o-audio-bar/Miniplayer-Play@2x-9eb026b3cb47b37babd5eb9f620efedf.png.html" alt="Miniplayer play@2x" />
-                7 MIN 40 SEC
+                <img class="o-featured-episode__segment-icon" src="/assets/o-audio-bar/Miniplayer-Play@2x-9eb026b3cb47b37babd5eb9f620efedf.png" alt="Miniplayer play@2x" />
+                4 MIN 36 SEC
               </span>
             </a>
           </div>
@@ -783,16 +785,15 @@
     </div>
     <div class="o-featured-episode__segment">
       <div class="o-featured-episode__segment-description">
-        <h3 class="o-featured-episode__segment-title"><a href="https://archive.kpcc.org/programs/marketplace-tech-report/2021/05/24/89118/">The tech industry promised to diversify last year. Has it delivered?</a></h3>
-        <time class="o-story-list__item-timestamp">Mon May 24</time>
-        <div class="o-featured-episode__segment-teaser"><p>This week marks one year since a Minneapolis police officer murdered George Floyd. The year has seen national, even global, protests, demanding justice for Floyd, Breonna Taylor and other Black victims of police killings as well as a racial reckoning in society and business. Many tech companies came out in support of the Black Lives Matter movement and made promises to make their companies more diverse and equitable in a notoriously nondiverse industry. One year later, is it possible to measure their progress? &#8220;Marketplace Tech&#8221; host Molly Wood speaks with Megan Rose Dickey, a senior reporter at Protocol who covers labor and diversity in tech.</p>
-<p>Cheers to making it through this year! Donate today and get our new Mason Jar Mug and stock market-inspired drink recipes: <a href="https://support.marketplace.org/tech-sn" target="_blank" rel="noopener">marketplace.org/givetech</a></p>
+        <h3 class="o-featured-episode__segment-title"><a href="/programs/marketplace-tech-report/2021/07/02/90027/">How a debate over consumer privacy may influence the push to regulate Big Tech</a></h3>
+        <time class="o-story-list__item-timestamp">Fri July 02</time>
+        <div class="o-featured-episode__segment-teaser"><p>It&#8217;s been a big week for the Federal Trade Commission. A court on Monday threw out the agency&#8217;s antitrust complaint against Facebook and told it to come back with a stronger argument. On Thursday, Lina Khan chaired her first meeting as the new head of the Federal Trade Commission and started making changes right out of the gate, expanding the agency&#8217;s antitrust powers. Khan is famous for her antitrust arguments against Amazon, but she&#8217;s also written on the role privacy concerns could play in attempting to regulate big tech firms like Facebook. Marketplace’s Kimberly Aadms speaks with Issie Lapowsky, a senior reporter for Protocol, who dug into this part of Khan&#8217;s background, especially a 2019 article she co-authored on the idea of &#8220;information fiduciaries.&#8221;</p>
 </div>
           <div class="c-audio-widget">
-            <a href="https://play.podtrac.com/APM-MarketplaceTechReport/play.publicradio.org/wp-feed/o/marketplace/tech_report/2021/05/24/tech_20210524_pod_128.mp3?context=marketplace-tech-report" class="c-play__button" title="The tech industry promised to diversify last year. Has it delivered?" data-duration="631" data-ga-category="Article" data-ga-action="Play" data-ga-label="Player">
+            <a href="https://play.podtrac.com/APM-MarketplaceTechReport/play.publicradio.org/wp-feed/o/marketplace/tech_report/2021/07/02/tech_20210702_pod_128.mp3?context=marketplace-tech-report" class="c-play__button" title="How a debate over consumer privacy may influence the push to regulate Big Tech" data-duration="522" data-ga-category="Article" data-ga-action="Play" data-ga-label="Player">
               <span class="o-featured-episode__segment-audio">
-                <img class="o-featured-episode__segment-icon" src="../assets/o-audio-bar/Miniplayer-Play@2x-9eb026b3cb47b37babd5eb9f620efedf.png.html" alt="Miniplayer play@2x" />
-                10 MIN 31 SEC
+                <img class="o-featured-episode__segment-icon" src="/assets/o-audio-bar/Miniplayer-Play@2x-9eb026b3cb47b37babd5eb9f620efedf.png" alt="Miniplayer play@2x" />
+                8 MIN 42 SEC
               </span>
             </a>
           </div>
@@ -800,16 +801,15 @@
     </div>
     <div class="o-featured-episode__segment">
       <div class="o-featured-episode__segment-description">
-        <h3 class="o-featured-episode__segment-title"><a href="https://archive.kpcc.org/programs/marketplace-tech-report/2021/05/21/89057/">Self-driving cars might never be able to drive themselves</a></h3>
-        <time class="o-story-list__item-timestamp">Fri May 21</time>
-        <div class="o-featured-episode__segment-teaser"><p><span style="font-weight: 400">The California </span><span style="font-weight: 400">Department of Motor Vehicles</span><span style="font-weight: 400"> said this week it&#8217;s reviewing whether Tesla is telling people that its cars are self-driving when, legally speaking, they&#8217;re not. This follows fatal crashes that may have involved its Autopilot feature. Tesla advertises a “Full Self-Driving upgrade option.” </span><span style="font-weight: 400">One man has been busted in Teslas more than once</span><span style="font-weight: 400"> for reckless driving. He hangs out in the backseat and steers with his feet. </span><span style="font-weight: 400">Meanwhile, no cars are fully self-driving yet. &#8220;Marketplace Tech&#8221; host Molly Wood speaks with Missy Cummings, the director of the Humans and Autonomy Laboratory at Duke University. She says the so-called deep learning that cars need to see the road around them doesn&#8217;t actually learn.</span></p>
-<p style="font-weight: 400">Cheers to making it through this year! Donate today and get our new Mason Jar Mug and stock market-inspired drink recipes: <a href="https://support.marketplace.org/tech-sn" data-saferedirecturl="https://www.google.com/url?q=https://support.marketplace.org/tech-sn&amp;source=gmail&amp;ust=1621675663492000&amp;usg=AFQjCNHA-8rRJOYiz8BceIlyWzmv7AxsOA">marketplace.org/givetech</a></p>
+        <h3 class="o-featured-episode__segment-title"><a href="/programs/marketplace-tech-report/2021/07/01/89999/">Not even the government knows the full extent of how government is using facial recognition</a></h3>
+        <time class="o-story-list__item-timestamp">Thu July 01</time>
+        <div class="o-featured-episode__segment-teaser"><p>A new report from the Government Accountability Office says at least 20 federal agencies are using facial recognition technology, and not just the obvious acronyms like the FBI, TSA and ICE. Agencies like the U.S. Fish and Wildlife Service and NASA are using the tech, too. More than half of the agencies using facial recognition don’t know what systems their employees are using or how often they use them. Marketplace&#8217;s Kimberly Adams interviews Gretta Goodwin, director of the GAO&#8217;s homeland security and justice team, about the agency&#8217;s findings.</p>
 </div>
           <div class="c-audio-widget">
-            <a href="https://play.podtrac.com/APM-MarketplaceMorningReport/play.publicradio.org/wp-feed/o/marketplace/morning_report/2021/05/20/mmr_20210520_MMR_Podcast_3_64.mp3?context=marketplace-tech-report" class="c-play__button" title="Self-driving cars might never be able to drive themselves" data-duration="493" data-ga-category="Article" data-ga-action="Play" data-ga-label="Player">
+            <a href="https://play.podtrac.com/APM-MarketplaceTechReport/play.publicradio.org/wp-feed/o/marketplace/tech_report/2021/07/01/tech_20210701_pod_128.mp3?context=marketplace-tech-report" class="c-play__button" title="Not even the government knows the full extent of how government is using facial recognition" data-duration="546" data-ga-category="Article" data-ga-action="Play" data-ga-label="Player">
               <span class="o-featured-episode__segment-audio">
-                <img class="o-featured-episode__segment-icon" src="../assets/o-audio-bar/Miniplayer-Play@2x-9eb026b3cb47b37babd5eb9f620efedf.png.html" alt="Miniplayer play@2x" />
-                8 MIN 13 SEC
+                <img class="o-featured-episode__segment-icon" src="/assets/o-audio-bar/Miniplayer-Play@2x-9eb026b3cb47b37babd5eb9f620efedf.png" alt="Miniplayer play@2x" />
+                9 MIN 06 SEC
               </span>
             </a>
           </div>
@@ -819,21 +819,21 @@
 
   <nav class="pagination">
     <span class="first">
-  <a href="marketplace-tech-report.html">&laquo; First</a>
+  <a href="/programs/marketplace-tech-report">&laquo; First</a>
 </span>
 
     <span class="prev">
-  <a rel="prev" href="marketplace-tech-report%3Fpage=6.html">&lsaquo; Prev</a>
+  <a rel="prev" href="/programs/marketplace-tech-report?page=6">&lsaquo; Prev</a>
 </span>
 
         <span class="page gap">&hellip;</span>
 
         <span class="page">
-  <a href="marketplace-tech-report%3Fpage=5.html">5</a>
+  <a href="/programs/marketplace-tech-report?page=5">5</a>
 </span>
 
         <span class="page">
-  <a rel="prev" href="marketplace-tech-report%3Fpage=6.html">6</a>
+  <a rel="prev" href="/programs/marketplace-tech-report?page=6">6</a>
 </span>
 
         <span class="page current">
@@ -841,39 +841,39 @@
 </span>
 
         <span class="page">
-  <a rel="next" href="marketplace-tech-report%3Fpage=8.html">8</a>
+  <a rel="next" href="/programs/marketplace-tech-report?page=8">8</a>
 </span>
 
         <span class="page">
-  <a href="marketplace-tech-report%3Fpage=9.html">9</a>
+  <a href="/programs/marketplace-tech-report?page=9">9</a>
 </span>
 
         <span class="page gap">&hellip;</span>
 
     <span class="next">
-  <a rel="next" href="marketplace-tech-report%3Fpage=8.html">Next &rsaquo;</a>
+  <a rel="next" href="/programs/marketplace-tech-report?page=8">Next &rsaquo;</a>
 </span>
 
     <span class="last">
-  <a href="https://archive.kpcc.org/programs/marketplace-tech-report?page=298">Last &raquo;</a>
+  <a href="/programs/marketplace-tech-report?page=303">Last &raquo;</a>
 </span>
 
   </nav>
 
 <section class="o-featured-programs "  style="order: 11">
   <h2 class="o-featured-programs__heading">Enjoy Marketplace Tech? Try KPCC’s other programs.</h2>
-  <a class="o-featured-programs__all-programs-link" href="https://archive.kpcc.org/programs"><span class="b-link--callout">See all of our programs</span></a>
+  <a class="o-featured-programs__all-programs-link" href="/programs"><span class="b-link--callout">See all of our programs</span></a>
     <div class="o-featured-programs__program">
 
-      <a href="https://archive.kpcc.org/programs/airtalk/">
+      <a href="/programs/airtalk/">
         <figure class="o-featured-programs__program-figure o-figure o-figure--widescreen">
-          <img class="o-figure__img" src="../assets/programs/airtalk-4412b6c8664a6b9b729a358b4bd76379.jpg.html" style="background-image: url(../assets/programs/airtalk-4412b6c8664a6b9b729a358b4bd76379.jpg.html);">
+          <img class="o-figure__img" src="/assets/programs/airtalk-4412b6c8664a6b9b729a358b4bd76379.jpg" style="background-image: url(/assets/programs/airtalk-4412b6c8664a6b9b729a358b4bd76379.jpg);">
         </figure>
       </a>
 
       <div class="o-featured-programs__program-description">
-        <h1 class="o-featured-programs__program-title"><a href="https://archive.kpcc.org/programs/airtalk/">AirTalk</a></h1>
-        <h2 class="o-featured-programs__program-host"><a href="https://archive.kpcc.org/programs/airtalk/">With Larry Mantle</a></h2>
+        <h1 class="o-featured-programs__program-title"><a href="/programs/airtalk/">AirTalk</a></h1>
+        <h2 class="o-featured-programs__program-host"><a href="/programs/airtalk/">With Larry Mantle</a></h2>
         <h3 class="o-featured-programs__program-airtime">Weekdays 10 am - 12 pm</h3>
         <p class="o-featured-programs__program-teaser">Lively and in-depth discussions of city news, politics, science, entertainment, the arts, and more.</p>
       </div>
@@ -882,7 +882,7 @@
           <div class="o-featured-programs__program-footer-date">
             Latest <time datetime="2021-07-06 09:45:00 -0700">Jul.6</time>
           </div>
-          <a href="https://archive.kpcc.org/programs/airtalk/2021/07/06/21864/">
+          <a href="/programs/airtalk/2021/07/06/21864/">
             <div class="o-featured-programs__program-headline">
               COVID-19 AMA: National Vaccination Campaign, Variants And Vaccinating Animals 
             </div>
@@ -891,15 +891,15 @@
     </div>
     <div class="o-featured-programs__program">
 
-      <a href="https://archive.kpcc.org/programs/filmweek/">
+      <a href="/programs/filmweek/">
         <figure class="o-featured-programs__program-figure o-figure o-figure--widescreen">
-          <img class="o-figure__img" src="../assets/programs/filmweek-7f098addfc273da97d493045e8635352.jpg.html" style="background-image: url(../assets/programs/filmweek-7f098addfc273da97d493045e8635352.jpg.html);">
+          <img class="o-figure__img" src="/assets/programs/filmweek-7f098addfc273da97d493045e8635352.jpg" style="background-image: url(/assets/programs/filmweek-7f098addfc273da97d493045e8635352.jpg);">
         </figure>
       </a>
 
       <div class="o-featured-programs__program-description">
-        <h1 class="o-featured-programs__program-title"><a href="https://archive.kpcc.org/programs/filmweek/">FilmWeek</a></h1>
-        <h2 class="o-featured-programs__program-host"><a href="https://archive.kpcc.org/programs/filmweek/">With Larry Mantle</a></h2>
+        <h1 class="o-featured-programs__program-title"><a href="/programs/filmweek/">FilmWeek</a></h1>
+        <h2 class="o-featured-programs__program-host"><a href="/programs/filmweek/">With Larry Mantle</a></h2>
         <h3 class="o-featured-programs__program-airtime">Friday 11 am - noon</h3>
         <p class="o-featured-programs__program-teaser">Reviews of the week's new movies, interviews with filmmakers, and discussion.</p>
       </div>
@@ -908,7 +908,7 @@
           <div class="o-featured-programs__program-footer-date">
             Latest <time datetime="2021-07-02 09:26:00 -0700">Jul.2</time>
           </div>
-          <a href="https://archive.kpcc.org/programs/filmweek/2021/07/02/21861/">
+          <a href="/programs/filmweek/2021/07/02/21861/">
             <div class="o-featured-programs__program-headline">
               FilmWeek: ‘The Boss Baby: Family Business,’ ‘Long Story Short,’ ‘No Sudden Movement,’ And More 
             </div>
@@ -918,51 +918,51 @@
 
 </section>
 
-<section class="o-popular-stories o-popular-stories--horiz" style="order: 1001">
+<section class="o-popular-stories l-column--boundless o-popular-stories--horiz" style="order: 1001">
   <h4 class="o-popular-stories__heading b-heading b-heading--h4 b-heading--uppercase u-text-color--gray-warm b-heading--medium">What's popular now on KPCC</h4>
     <div class="o-popular-stories__story track-event">
       <figure class="o-popular-stories__figure o-figure o-figure--four-by-three">
-        <a data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="Popular Now Quadrant" href="https://archive.kpcc.org/news/2021/07/20/98531/americans-will-soon-be-able-to-go-to-their-2nd-mos/">
-        <img class="o-figure__img" src="https://a.scpr.org/i/e327d5c28487feda42a0a1680f8c8fd6/234311-full.jpg" style="background-image: url(https://a.scpr.org/i/e327d5c28487feda42a0a1680f8c8fd6/234311-full.jpg)" />
+        <a data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="Popular Now Quadrant" href="/news/2021/08/27/99007/greenhouse-gas-levels-are-the-highest-ever-seen-an/">
+        <img class="o-figure__img" src="https://a.scpr.org/i/281c84db9a64d3e9cba7721d02ebce5e/234802-full.jpg" style="background-image: url(https://a.scpr.org/i/281c84db9a64d3e9cba7721d02ebce5e/234802-full.jpg)" />
 </a>        <figcaption class="o-popular-stories__caption">
-          <a data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="Popular Now Quadrant" href="https://archive.kpcc.org/news/2021/07/20/98531/americans-will-soon-be-able-to-go-to-their-2nd-mos/">
-          Americans Will Soon Be Able To Go To Their 2nd Most Popular Travel Destination
+          <a data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="Popular Now Quadrant" href="/news/2021/08/27/99007/greenhouse-gas-levels-are-the-highest-ever-seen-an/">
+          Greenhouse Gas Levels Are The Highest Ever Seen — And That's Going Back 800,000 Years
 </a>        </figcaption>
       </figure>
     </div>
     <div class="o-popular-stories__story track-event">
       <figure class="o-popular-stories__figure o-figure o-figure--four-by-three">
-        <a data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="Popular Now Quadrant" href="https://archive.kpcc.org/news/2021/07/20/98530/tokyo-olympics-ceo-doesn-t-dismiss-the-idea-that-g/">
-        <img class="o-figure__img" src="../assets/meta/facebook-73514b02830df167eb8bfbe15710b5cb.jpg.html" style="background-image: url(../assets/meta/facebook-73514b02830df167eb8bfbe15710b5cb.jpg.html)" />
+        <a data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="Popular Now Quadrant" href="/news/2021/08/27/99006/afghanistan-death-toll-climbs-as-pentagon-clarifie/">
+        <img class="o-figure__img" src="https://a.scpr.org/i/170de8f0dad360203c913118c631fdfc/234801-full.jpg" style="background-image: url(https://a.scpr.org/i/170de8f0dad360203c913118c631fdfc/234801-full.jpg)" />
 </a>        <figcaption class="o-popular-stories__caption">
-          <a data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="Popular Now Quadrant" href="https://archive.kpcc.org/news/2021/07/20/98530/tokyo-olympics-ceo-doesn-t-dismiss-the-idea-that-g/">
-          Tokyo Olympics CEO Doesn't Dismiss The Idea That Games Could Still Be Called Off
+          <a data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="Popular Now Quadrant" href="/news/2021/08/27/99006/afghanistan-death-toll-climbs-as-pentagon-clarifie/">
+          Afghanistan Death Toll Climbs As Pentagon Clarifies 1 Bomber Was Involved In Attack
 </a>        </figcaption>
       </figure>
     </div>
     <div class="o-popular-stories__story track-event">
       <figure class="o-popular-stories__figure o-figure o-figure--four-by-three">
-        <a data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="Popular Now Quadrant" href="https://archive.kpcc.org/news/2021/07/20/98529/the-white-house-blamed-china-for-hacking-microsoft/">
-        <img class="o-figure__img" src="../assets/meta/facebook-73514b02830df167eb8bfbe15710b5cb.jpg.html" style="background-image: url(../assets/meta/facebook-73514b02830df167eb8bfbe15710b5cb.jpg.html)" />
+        <a data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="Popular Now Quadrant" href="/news/2021/08/27/99005/reports-of-cheating-at-colleges-soar-during-the-pa/">
+        <img class="o-figure__img" src="https://a.scpr.org/i/3c0f8272c4a11a95ab453af9c8fe607b/234800-full.jpg" style="background-image: url(https://a.scpr.org/i/3c0f8272c4a11a95ab453af9c8fe607b/234800-full.jpg)" />
 </a>        <figcaption class="o-popular-stories__caption">
-          <a data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="Popular Now Quadrant" href="https://archive.kpcc.org/news/2021/07/20/98529/the-white-house-blamed-china-for-hacking-microsoft/">
-          The White House Blamed China For Hacking Microsoft. China Is Pointing Fingers Back
+          <a data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="Popular Now Quadrant" href="/news/2021/08/27/99005/reports-of-cheating-at-colleges-soar-during-the-pa/">
+          Reports Of Cheating At Colleges Soar During The Pandemic
 </a>        </figcaption>
       </figure>
     </div>
     <div class="o-popular-stories__story track-event">
       <figure class="o-popular-stories__figure o-figure o-figure--four-by-three">
-        <a data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="Popular Now Quadrant" href="https://archive.kpcc.org/news/2021/07/20/98528/new-york-reaches-a-1-1-billion-opioid-deal-with-th/">
-        <img class="o-figure__img" src="https://a.scpr.org/i/d870bff93c83f65f5aea9db0d0f9e8b7/234308-full.jpg" style="background-image: url(https://a.scpr.org/i/d870bff93c83f65f5aea9db0d0f9e8b7/234308-full.jpg)" />
+        <a data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="Popular Now Quadrant" href="/news/2021/08/27/99004/same-hospital-and-insurer-but-the-bill-for-his-sec/">
+        <img class="o-figure__img" src="https://a.scpr.org/i/4d6db4eb8edff02e97f7f32b2ecddbcf/234799-full.jpg" style="background-image: url(https://a.scpr.org/i/4d6db4eb8edff02e97f7f32b2ecddbcf/234799-full.jpg)" />
 </a>        <figcaption class="o-popular-stories__caption">
-          <a data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="Popular Now Quadrant" href="https://archive.kpcc.org/news/2021/07/20/98528/new-york-reaches-a-1-1-billion-opioid-deal-with-th/">
-          New York Reaches A $1.1 Billion Opioid Deal With The Nation's Big Drug Wholesalers
+          <a data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="Popular Now Quadrant" href="/news/2021/08/27/99004/same-hospital-and-insurer-but-the-bill-for-his-sec/">
+          Same Hospital And Insurer, But The Bill For His Second Jaw Procedure Was $24,000 More
 </a>        </figcaption>
       </figure>
     </div>
 </section>
 <aside class="o-epilogue " style="order: 1001">
-  <img class="o-epilogue__graphic" src="../assets/graphic_epilogue-donate-da43de6f4b535f18d15ac128cd10b27d.svg.html">
+  <img class="o-epilogue__graphic" src="/assets/graphic_epilogue-donate-da43de6f4b535f18d15ac128cd10b27d.svg">
   <div class="o-epilogue__text">
     <h1 class="o-epilogue__heading"><a href="https://support.kpcc.org/default?ms=subfooter">KPCC's  coverage is a Southern California resource provided by member-supported public radio. We can't do it without you.</a></h1>
     <a class="o-epilogue-callout b-link b-link--callout" href="https://support.kpcc.org/default?ms=subfooter">Your contributions power KPCC.  Give today.</a>
@@ -976,7 +976,7 @@
       <div class="o-footer">
   <div class="l-section--margin-sm l-row l-row--lg l-between l-bottom">
     <div class="o-footer__logo-container l-col l-center@media-desktop">
-      <a href="https://archive.kpcc.org/">
+      <a href="/">
         <svg class="o-footer__logo icon--left">
           <use class="" xlink:href="/static/images/scpr-sprite.svg#logo_kpcc-white"/>
         </svg>
@@ -996,37 +996,37 @@
   <nav class="o-footer__nav footer__nav--expanded u-text-align--center">
     <div class="l-section--margin-sm">
       <ul class="c-list--horiz c-list--divider b-text b-text--bold">
-        <li><a class="b-link b-link--white-dark-bg" href="https://archive.kpcc.org/local">Local</a></li>
-        <li><a class="b-link b-link--white-dark-bg" href="https://archive.kpcc.org/world">US &amp; World</a></li>
-        <li><a class="b-link b-link--white-dark-bg" href="https://archive.kpcc.org/arts">Arts &amp; Entertainment</a></li>
-        <li><a class="b-link b-link--white-dark-bg" href="https://archive.kpcc.org/crime">Crime &amp; Justice</a></li>
+        <li><a class="b-link b-link--white-dark-bg" href="/local">Local</a></li>
+        <li><a class="b-link b-link--white-dark-bg" href="/world">US &amp; World</a></li>
+        <li><a class="b-link b-link--white-dark-bg" href="/arts">Arts &amp; Entertainment</a></li>
+        <li><a class="b-link b-link--white-dark-bg" href="/crime">Crime &amp; Justice</a></li>
       </ul>
     </div>
     <div class="l-section--margin-sm">
       <ul class="c-list--horiz b-text">
-        <li><a class="b-link b-link--white-dark-bg" href="https://archive.kpcc.org/programs/take-two">Take Two</a></li>
-        <li><a class="b-link b-link--white-dark-bg" href="https://archive.kpcc.org/programs/airtalk">AirTalk</a></li>
-        <li><a class="b-link b-link--white-dark-bg" href="https://archive.kpcc.org/programs/offramp">Off-Ramp</a></li>
-        <li><a class="b-link b-link--white-dark-bg" href="https://archive.kpcc.org/programs/the-frame">The Frame</a></li>
-        <li><a class="b-link b-link--white-dark-bg" href="https://archive.kpcc.org/schedule">Program Schedule</a></li>
-        <li><a class="b-link b-link--white-dark-bg" href="https://archive.kpcc.org/programs">Programs A-Z</a></li>
-        <li><a class="b-link b-link--white-dark-bg" href="https://archive.kpcc.org/events/kpcc-in-person">KPCC In Person</a></li>
-        <li><a class="b-link b-link--white-dark-bg" href="https://archive.kpcc.org/about">About KPCC</a></li>
-        <li><a class="b-link b-link--white-dark-bg" href="https://archive.kpcc.org/contact/#form">Contact Us</a></li>
-        <li><a class="b-link b-link--white-dark-bg" href="https://archive.kpcc.org/about/people/staff">Staff Directory</a></li>
-        <li><a class="b-link b-link--white-dark-bg" href="https://archive.kpcc.org/jobs">Careers</a></li>
-        <li><a class="link link--white-dark-bg" href="https://archive.kpcc.org/support/car_donation">Donate Your Vehicle</a></li>
+        <li><a class="b-link b-link--white-dark-bg" href="/programs/take-two">Take Two</a></li>
+        <li><a class="b-link b-link--white-dark-bg" href="/programs/airtalk">AirTalk</a></li>
+        <li><a class="b-link b-link--white-dark-bg" href="/programs/offramp">Off-Ramp</a></li>
+        <li><a class="b-link b-link--white-dark-bg" href="/programs/the-frame">The Frame</a></li>
+        <li><a class="b-link b-link--white-dark-bg" href="/schedule">Program Schedule</a></li>
+        <li><a class="b-link b-link--white-dark-bg" href="/programs">Programs A-Z</a></li>
+        <li><a class="b-link b-link--white-dark-bg" href="/events/kpcc-in-person">KPCC In Person</a></li>
+        <li><a class="b-link b-link--white-dark-bg" href="/about">About KPCC</a></li>
+        <li><a class="b-link b-link--white-dark-bg" href="/contact/#form">Contact Us</a></li>
+        <li><a class="b-link b-link--white-dark-bg" href="/about/people/staff">Staff Directory</a></li>
+        <li><a class="b-link b-link--white-dark-bg" href="/jobs">Careers</a></li>
+        <li><a class="link link--white-dark-bg" href="/support/car_donation">Donate Your Vehicle</a></li>
       </ul>
     </div>
   </nav>
   <nav class="o-footer__nav footer__nav--compact u-text-align--center">
     <div class="l-section--margin-sm">
       <ul class="c-list--horiz c-list--divider b-text b-text--bold">
-        <li><a class="b-link b-link--white-dark-bg" href="https://archive.kpcc.org/news">News</a></li>
-        <li><a class="b-link b-link--white-dark-bg" href="https://archive.kpcc.org/programs">Programs</a></li>
-        <li><a class="b-link b-link--white-dark-bg" href="https://archive.kpcc.org/events/kpcc-in-person">Events</a></li>
-        <li><a class="b-link b-link--white-dark-bg" href="https://archive.kpcc.org/support">Support</a></li>
-        <li><a class="b-link b-link--white-dark-bg" href="https://archive.kpcc.org/about">About</a></li>
+        <li><a class="b-link b-link--white-dark-bg" href="/news">News</a></li>
+        <li><a class="b-link b-link--white-dark-bg" href="/programs">Programs</a></li>
+        <li><a class="b-link b-link--white-dark-bg" href="/events/kpcc-in-person">Events</a></li>
+        <li><a class="b-link b-link--white-dark-bg" href="/support">Support</a></li>
+        <li><a class="b-link b-link--white-dark-bg" href="/about">About</a></li>
       </ul>
     </div>
   </nav>
@@ -1071,10 +1071,10 @@
     </div>
     <nav class="l-col l-end l-center@media-wide">
       <ul class="c-list--horiz b-text b-text--small u-text-color--gray">
-        <li><a class="b-link b-link--gray-dark-bg" href="https://archive.kpcc.org/terms/">Terms &amp; Conditions</a></li>
-        <li><a class="b-link b-link--gray-dark-bg" href="https://archive.kpcc.org/privacy/">Privacy</a></li>
-        <li><a class="b-link b-link--gray-dark-bg" href="https://archive.kpcc.org/web_site_feedback/">Feedback</a></li>
-        <li><a class="b-link b-link--gray-dark-bg" href="https://archive.kpcc.org/about/public/">EEO Public Reports</a></li>
+        <li><a class="b-link b-link--gray-dark-bg" href="/terms/">Terms &amp; Conditions</a></li>
+        <li><a class="b-link b-link--gray-dark-bg" href="/privacy/">Privacy</a></li>
+        <li><a class="b-link b-link--gray-dark-bg" href="/web_site_feedback/">Feedback</a></li>
+        <li><a class="b-link b-link--gray-dark-bg" href="/about/public/">EEO Public Reports</a></li>
         <li>&copy; 2021 Southern California Public Radio</li>
       </ul>
     </nav>
@@ -1122,7 +1122,7 @@
         </div>
       </div>
       <div class="o-audio-bar__buttons">
-          <a class="o-audio-bar__download" href="marketplace-tech-report%3Fpage=7.html#" download>
+          <a class="o-audio-bar__download" href="#" download>
             <svg class="b-icon o-audio-bar__download-icon" data-ga-category="Article" data-ga-action="Volume" data-ga-label="Player">
               <use class="" xlink:href="/static/images/scpr-sprite.svg#icon_line-download"/>
               Download
@@ -1255,7 +1255,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                         };
 </script>
   <noscript>
-    <img src="https://pixel.quantserve.com/pixel/p-_ZNT1e57PQPC3.gif?labels=_fp.event.Default" style="display: none;" border="0" height="1" width="1" alt="Quantcast"/>
+    <img src="//pixel.quantserve.com/pixel/p-_ZNT1e57PQPC3.gif?labels=_fp.event.Default" style="display: none;" border="0" height="1" width="1" alt="Quantcast"/>
   </noscript>
 <!-- End Quantcast Tag -->
 
@@ -1284,6 +1284,6 @@ $(function() {
 </html>
 
 
-    <script src="../assets/better_homepage/style-guide-595f2dc3b18234ed913ffd5b40175ebc.js" async="async"></script>
+    <script src="/assets/better_homepage/style-guide-595f2dc3b18234ed913ffd5b40175ebc.js" async="async"></script>
   </body>
 </html>

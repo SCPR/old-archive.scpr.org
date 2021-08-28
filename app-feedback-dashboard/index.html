@@ -4,11 +4,11 @@
 <head>
     <title>Microsoft Power BI</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge;" />
-    <base href="">
+    <base href="/">
     <meta charset="utf-8">
     <meta name="description" content="">
     <meta name="format-detection" content="telephone=no" />
-    <link rel="shortcut icon" href="https://app.powerbi.com/images/PowerBI_Favicon.ico" />
+    <link rel="shortcut icon" href="/images/PowerBI_Favicon.ico" />
 
     <script>
         var viewLoadingStarted = Date.now();
@@ -100,7 +100,7 @@
         function resolveCluster() {
             try {
                 var activityId = telemetrySessionId;
-                var requestId = '455ee190-5328-41d1-95e0-475648535e6a';
+                var requestId = '79cc028e-85b9-4be8-b92d-d3669cc8e1c5';
 
                 var xhr = new XMLHttpRequest();
                 xhr.onreadystatechange = function() {
@@ -138,7 +138,7 @@
         function getModelsAndExploration() {
             try {
                 var activityId = telemetrySessionId;
-                var requestId = '04e17205-07d2-4f4e-9b17-e4df0733cbd0';
+                var requestId = '83df7531-7e93-466d-b0ca-5845c4ab2459';
 
                 if(!resolvedClusterUri) {
                     return;
@@ -194,7 +194,7 @@
                 conceptualSchemaResponse = loadingState;
 
                 var activityId = telemetrySessionId;
-                var requestId = 'd15482c7-7218-49c1-aed8-bca1016b357a';
+                var requestId = '56c46796-3d92-480c-b659-6162cadfcf20';
 
                 var resolvedAPIMCluster = getAPIMUrl(resolvedClusterUri);
                 url = resolvedAPIMCluster + "/public/reports/" + resourceKey + "/conceptualschema";
@@ -249,7 +249,7 @@
                 reportThumbnailFrontLoadStartTime = Date.now();
 
                 var activityId = telemetrySessionId;
-                var requestId = 'bbc6919e-d2f5-48ac-9c8d-4099c55004fc';
+                var requestId = 'c642feb4-aa80-4724-838b-0fac165e138b';
 
                 var resolvedAPIMCluster = getAPIMUrl(resolvedClusterUri);
                 url = resolvedAPIMCluster + "/public/reports/" + resourceKey + "/thumbnail";
@@ -416,9 +416,9 @@
         };
 
         powerbi.telemetrySamplingRules = 'embed';
-        powerbi.build = '13.0.16442.42';
-        powerbi.buildDetails = '13.0.16442.42';
-        powerbi.clientVersion = '2107.2.06866-train';
+        powerbi.build = '13.0.16650.58';
+        powerbi.buildDetails = '13.0.16650.58';
+        powerbi.clientVersion = '2108.3.07325-train';
         powerbi.customVisualsUrl = 'https://visuals.azureedge.net/;https://visuals2.azureedge.net/;https://extendcustomvisual.blob.core.windows.net/';
         powerbi.cvUrl = 'https://pbivisuals.powerbi.com';
         powerbi.visualCDNBlobContainerUrl = 'prod';
@@ -429,7 +429,7 @@
         var clusterUri =  'https://api.powerbi.com';
         var cdnUrl = 'https://content.powerapps.com/resource/powerbiwfe';
         var previousTenantId = '';
-        var telemetrySessionId =  '2f57d038-77e6-4f3a-90bc-36bc03829ce9';
+        var telemetrySessionId =  '41b2cb26-2a5f-4d6b-ac32-7354c3dc0029';
         var sessionSource = "Embed";
         var allowTelemetry = true;
         var appInsightsV2InstrKey = '00406067-1af3-44c5-a2c1-4a57dd50194c';
@@ -458,7 +458,7 @@
         }
     </script>
 
-    <link rel="stylesheet" href="https://content.powerapps.com/resource/powerbiwfe/styles/reportembed.bundle.min.1e704a633d6361d3a2d6.css" onerror=cdnFallback(event) />
+    <link rel="stylesheet" href="https://content.powerapps.com/resource/powerbiwfe/styles/reportembed.bundle.min.3cd012c6f005e8e6b106.css" onerror=cdnFallback(event) />
 
 </head>
 <body>
@@ -488,14 +488,14 @@
 
         powerbi.common.localizedStrings = '';
     </script>
-<script type="text/javascript">this.parseTimeMarkers = this.parseTimeMarkers || {};this.parseTimeMarkers['hash-manifest.js'] = { nominalStart: Date.now(), start: Date.now()};</script><script type="text/javascript" src="https://app.powerbi.com/13.0.16442.42/scripts/hash-manifest.js" onerror=cdnFallback(event) ></script>
-<script type="text/javascript">this.parseTimeMarkers['hash-manifest.js'].end = Date.now();</script><script type="text/javascript">this.parseTimeMarkers = this.parseTimeMarkers || {};this.parseTimeMarkers['reportembed.externals.bundle.min.js'] = { nominalStart: Date.now(), start: Date.now()};</script><script type="text/javascript" src="https://content.powerapps.com/resource/powerbiwfe/scripts/reportembed.externals.bundle.min.0cfd66ecac1fa1e7486d.js" onerror=cdnFallback(event) ></script>
-<script type="text/javascript">this.parseTimeMarkers['reportembed.externals.bundle.min.js'].end = Date.now();</script><script type="text/javascript">this.parseTimeMarkers = this.parseTimeMarkers || {};this.parseTimeMarkers['powerbiportal.dependencies.bundle.min.js'] = { nominalStart: Date.now(), start: Date.now()};</script><script type="text/javascript" src="https://content.powerapps.com/resource/powerbiwfe/scripts/powerbiportal.dependencies.bundle.min.d9691a6dc8409ee13348.js" onerror=cdnFallback(event) ></script>
-<script type="text/javascript">this.parseTimeMarkers['powerbiportal.dependencies.bundle.min.js'].end = Date.now();</script><script type="text/javascript">this.parseTimeMarkers = this.parseTimeMarkers || {};this.parseTimeMarkers['reportembed.common.bundle.min.js'] = { nominalStart: Date.now(), start: Date.now()};</script><script type="text/javascript" src="https://content.powerapps.com/resource/powerbiwfe/scripts/reportembed.common.bundle.min.3ea3e0481b7493e03dd7.js" onerror=cdnFallback(event) ></script>
-<script type="text/javascript">this.parseTimeMarkers['reportembed.common.bundle.min.js'].end = Date.now();</script><script type="text/javascript">this.parseTimeMarkers = this.parseTimeMarkers || {};this.parseTimeMarkers['explore.min.js'] = { nominalStart: Date.now(), start: Date.now()};</script><script type="text/javascript" src="https://content.powerapps.com/resource/powerbiwfe/scripts/explore.min.a1bcd76b0625b938245d.js" onerror=cdnFallback(event) ></script>
-<script type="text/javascript">this.parseTimeMarkers['explore.min.js'].end = Date.now();</script><script type="text/javascript">this.parseTimeMarkers = this.parseTimeMarkers || {};this.parseTimeMarkers['exploreui.min.js'] = { nominalStart: Date.now(), start: Date.now()};</script><script type="text/javascript" src="https://app.powerbi.com/13.0.16442.42/scripts/exploreui.min.js" onerror=cdnFallback(event) ></script>
-<script type="text/javascript">this.parseTimeMarkers['exploreui.min.js'].end = Date.now();</script><script type="text/javascript">this.parseTimeMarkers = this.parseTimeMarkers || {};this.parseTimeMarkers['reportembed.bundle.min.js'] = { nominalStart: Date.now(), start: Date.now()};</script><script type="text/javascript" src="https://content.powerapps.com/resource/powerbiwfe/scripts/reportembed.bundle.min.2aeedf09e3a27934b03d.js" onerror=cdnFallback(event) ></script>
-<script type="text/javascript">this.parseTimeMarkers['reportembed.bundle.min.js'].end = Date.now();</script><script type="text/javascript">this.parseTimeMarkers = this.parseTimeMarkers || {};this.parseTimeMarkers['reportEmbed.min.js'] = { nominalStart: Date.now(), start: Date.now()};</script><script type="text/javascript" src="https://content.powerapps.com/resource/powerbiwfe/scripts/reportEmbed.min.7d47abe50ac64ff1f8c2.js" onerror=cdnFallback(event) ></script>
+<script type="text/javascript">this.parseTimeMarkers = this.parseTimeMarkers || {};this.parseTimeMarkers['hash-manifest.js'] = { nominalStart: Date.now(), start: Date.now()};</script><script type="text/javascript" src="13.0.16650.58/scripts/hash-manifest.js" onerror=cdnFallback(event) ></script>
+<script type="text/javascript">this.parseTimeMarkers['hash-manifest.js'].end = Date.now();</script><script type="text/javascript">this.parseTimeMarkers = this.parseTimeMarkers || {};this.parseTimeMarkers['reportembed.externals.bundle.min.js'] = { nominalStart: Date.now(), start: Date.now()};</script><script type="text/javascript" src="https://content.powerapps.com/resource/powerbiwfe/scripts/reportembed.externals.bundle.min.aebd1d63f01f83cd7b01.js" onerror=cdnFallback(event) ></script>
+<script type="text/javascript">this.parseTimeMarkers['reportembed.externals.bundle.min.js'].end = Date.now();</script><script type="text/javascript">this.parseTimeMarkers = this.parseTimeMarkers || {};this.parseTimeMarkers['powerbiportal.dependencies.bundle.min.js'] = { nominalStart: Date.now(), start: Date.now()};</script><script type="text/javascript" src="https://content.powerapps.com/resource/powerbiwfe/scripts/powerbiportal.dependencies.bundle.min.7805b4a7a3da3340e828.js" onerror=cdnFallback(event) ></script>
+<script type="text/javascript">this.parseTimeMarkers['powerbiportal.dependencies.bundle.min.js'].end = Date.now();</script><script type="text/javascript">this.parseTimeMarkers = this.parseTimeMarkers || {};this.parseTimeMarkers['reportembed.common.bundle.min.js'] = { nominalStart: Date.now(), start: Date.now()};</script><script type="text/javascript" src="https://content.powerapps.com/resource/powerbiwfe/scripts/reportembed.common.bundle.min.ff12da6cc22188f7c853.js" onerror=cdnFallback(event) ></script>
+<script type="text/javascript">this.parseTimeMarkers['reportembed.common.bundle.min.js'].end = Date.now();</script><script type="text/javascript">this.parseTimeMarkers = this.parseTimeMarkers || {};this.parseTimeMarkers['explore.min.js'] = { nominalStart: Date.now(), start: Date.now()};</script><script type="text/javascript" src="https://content.powerapps.com/resource/powerbiwfe/scripts/explore.min.418bdb20487bd3d1f15e.js" onerror=cdnFallback(event) ></script>
+<script type="text/javascript">this.parseTimeMarkers['explore.min.js'].end = Date.now();</script><script type="text/javascript">this.parseTimeMarkers = this.parseTimeMarkers || {};this.parseTimeMarkers['exploreui.min.js'] = { nominalStart: Date.now(), start: Date.now()};</script><script type="text/javascript" src="13.0.16650.58/scripts/exploreui.min.js" onerror=cdnFallback(event) ></script>
+<script type="text/javascript">this.parseTimeMarkers['exploreui.min.js'].end = Date.now();</script><script type="text/javascript">this.parseTimeMarkers = this.parseTimeMarkers || {};this.parseTimeMarkers['reportembed.bundle.min.js'] = { nominalStart: Date.now(), start: Date.now()};</script><script type="text/javascript" src="https://content.powerapps.com/resource/powerbiwfe/scripts/reportembed.bundle.min.353a3af03b50bc56c347.js" onerror=cdnFallback(event) ></script>
+<script type="text/javascript">this.parseTimeMarkers['reportembed.bundle.min.js'].end = Date.now();</script><script type="text/javascript">this.parseTimeMarkers = this.parseTimeMarkers || {};this.parseTimeMarkers['reportEmbed.min.js'] = { nominalStart: Date.now(), start: Date.now()};</script><script type="text/javascript" src="https://content.powerapps.com/resource/powerbiwfe/scripts/reportEmbed.min.d27dc22720a6cf565d8d.js" onerror=cdnFallback(event) ></script>
 <script type="text/javascript">this.parseTimeMarkers['reportEmbed.min.js'].end = Date.now();</script>
 </body>
 </html>

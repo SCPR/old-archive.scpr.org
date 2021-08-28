@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xmlns:psc="https://podlove.org/simple-chapters/" xmlns:omny="https://omny.fm/rss-extensions" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" xmlns:acast="https://schema.acast.com/1.0/" version="2.0">
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xmlns:psc="https://podlove.org/simple-chapters/" xmlns:omny="https://omny.fm/rss-extensions" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" xmlns:acast="https://schema.acast.com/1.0/" xmlns:podcast="https://podcastindex.org/namespace/1.0" version="2.0">
   <channel>
+    <omny:organizationId>acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43</omny:organizationId>
+    <omny:programId>b8eef1ff-8d0d-43d5-b470-ab81016f9909</omny:programId>
+    <omny:networkId>b487d8dd-df6e-4c01-b78e-ab100184df07</omny:networkId>
     <language>en-US</language>
     <atom:link rel="self" type="application/rss+xml" href="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/b8eef1ff-8d0d-43d5-b470-ab81016f9909/afcdd804-9a3c-46c9-9771-ab81016f9917/podcast.rss" />
     <atom:link rel="next" type="application/rss+xml" href="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/b8eef1ff-8d0d-43d5-b470-ab81016f9909/afcdd804-9a3c-46c9-9771-ab81016f9917/podcast.rss?page=2" />
@@ -27,6 +30,149 @@
       <title>FilmWeek</title>
       <link>https://www.scpr.org/programs/filmweek</link>
     </image>
+    <item>
+      <title>FilmWeek Episode Friday August 20, 2021</title>
+      <itunes:title>FilmWeek Episode Friday August 20, 2021</itunes:title>
+      <description>Larry Mantle and KPCC film critics Amy Nicholson, Andy Klein and Charles Solomon review this weekend’s new movie releases on streaming and on demand platforms.
+FilmWeek: 'Reminiscence,' 'The Protege,' 'Flag Day' And More (1:06) 
+Sean And Dylan Penn On Starring As Father And Daughter In ‘Flag Day’ (41:38)</description>
+      <content:encoded><![CDATA[<p>Larry Mantle and KPCC film critics Amy Nicholson, Andy Klein and Charles Solomon review this weekend&rsquo;s new movie releases on streaming and on demand platforms.</p>
+<ul>
+<li>FilmWeek: 'Reminiscence,' 'The Protege,' 'Flag Day' And More (1:06)&nbsp;</li>
+<li>Sean And Dylan Penn On Starring As Father And Daughter In &lsquo;Flag Day&rsquo; (41:38)</li>
+</ul>]]></content:encoded>
+      <itunes:summary>Larry Mantle and KPCC film critics Amy Nicholson, Andy Klein and Charles Solomon review this weekend’s new movie releases on streaming and on demand platforms.
+FilmWeek: 'Reminiscence,' 'The Protege,' 'Flag Day' And More (1:06) 
+Sean And Dylan Penn On Starring As Father And Daughter In ‘Flag Day’ (41:38)</itunes:summary>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:image href="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/b8eef1ff-8d0d-43d5-b470-ab81016f9909/afcdd804-9a3c-46c9-9771-ab81016f9917/image.jpg?t=1584483505&amp;size=Large" />
+      <media:content url="https://chtbl.com/track/84GC29/dts.podtrac.com/redirect.mp3/traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/b8eef1ff-8d0d-43d5-b470-ab81016f9909/5254de1e-73e8-4985-a659-ad8a01216d73/audio.mp3?utm_source=Podcast&amp;in_playlist=afcdd804-9a3c-46c9-9771-ab81016f9917" type="audio/mpeg">
+        <media:player url="https://omny.fm/shows/filmweek/filmweek-episode-friday-august-20-2021/embed" />
+      </media:content>
+      <media:content url="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/b8eef1ff-8d0d-43d5-b470-ab81016f9909/afcdd804-9a3c-46c9-9771-ab81016f9917/image.jpg?t=1584483505&amp;size=Large" type="image/jpeg" />
+      <guid isPermaLink="false">5254de1e-73e8-4985-a659-ad8a01216d73</guid>
+      <omny:clipId>5254de1e-73e8-4985-a659-ad8a01216d73</omny:clipId>
+      <pubDate>Fri, 20 Aug 2021 17:54:45 +0000</pubDate>
+      <itunes:duration>3031</itunes:duration>
+      <enclosure url="https://chtbl.com/track/84GC29/dts.podtrac.com/redirect.mp3/traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/b8eef1ff-8d0d-43d5-b470-ab81016f9909/5254de1e-73e8-4985-a659-ad8a01216d73/audio.mp3?utm_source=Podcast&amp;in_playlist=afcdd804-9a3c-46c9-9771-ab81016f9917" length="48518520" type="audio/mpeg" />
+      <link>https://omny.fm/shows/filmweek/filmweek-episode-friday-august-20-2021</link>
+    </item>
+    <item>
+      <title>FilmWeek Episode Friday August 13, 2021</title>
+      <itunes:title>FilmWeek Episode Friday August 13, 2021</itunes:title>
+      <description>KPCC film critics Christy Lemire, Claudia Puig and Peter Rainer review this weekend’s new movie releases. Also on the show, our animation critic Charles Solomon talks about the conclusion of the Evangelion series; John Horn talks to the director of CODA; and more.
+FilmWeek: ‘CODA,’ ‘The Lost Leonardo,’ ‘Respect’ And More (1:05)
+Why The Long-Awaited ‘Evangelion’ Finale Is A Big Moment For Fans, Plus Does The Ending Meet Expectations? (32:09)
+‘CODA’ Director On Challenging Her Own Gaze And How Some Of The Most Important Scenes Came Together (37:12)</description>
+      <content:encoded><![CDATA[<p>KPCC film critics Christy Lemire, Claudia Puig and Peter Rainer review this weekend&rsquo;s new movie releases. Also on the show, our animation critic Charles Solomon talks about the conclusion of the Evangelion series; John Horn talks to the director of CODA; and more.</p>
+<ul>
+<li>FilmWeek: &lsquo;CODA,&rsquo; &lsquo;The Lost Leonardo,&rsquo; &lsquo;Respect&rsquo; And More (1:05)</li>
+<li>Why The Long-Awaited &lsquo;Evangelion&rsquo; Finale Is A Big Moment For Fans, Plus Does The Ending Meet Expectations? (32:09)</li>
+<li>&lsquo;CODA&rsquo; Director On Challenging Her Own Gaze And How Some Of The Most Important Scenes Came Together (37:12)</li>
+</ul>]]></content:encoded>
+      <itunes:summary>KPCC film critics Christy Lemire, Claudia Puig and Peter Rainer review this weekend’s new movie releases. Also on the show, our animation critic Charles Solomon talks about the conclusion of the Evangelion series; John Horn talks to the director of CODA; and more.
+FilmWeek: ‘CODA,’ ‘The Lost Leonardo,’ ‘Respect’ And More (1:05)
+Why The Long-Awaited ‘Evangelion’ Finale Is A Big Moment For Fans, Plus Does The Ending Meet Expectations? (32:09)
+‘CODA’ Director On Challenging Her Own Gaze And How Some Of The Most Important Scenes Came Together (37:12)</itunes:summary>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:image href="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/b8eef1ff-8d0d-43d5-b470-ab81016f9909/afcdd804-9a3c-46c9-9771-ab81016f9917/image.jpg?t=1584483505&amp;size=Large" />
+      <media:content url="https://chtbl.com/track/84GC29/dts.podtrac.com/redirect.mp3/traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/b8eef1ff-8d0d-43d5-b470-ab81016f9909/f8ae1161-0858-447b-8ed4-ad8301278c9d/audio.mp3?utm_source=Podcast&amp;in_playlist=afcdd804-9a3c-46c9-9771-ab81016f9917" type="audio/mpeg">
+        <media:player url="https://omny.fm/shows/filmweek/filmweek-episode-friday-august-13-2021/embed" />
+      </media:content>
+      <media:content url="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/b8eef1ff-8d0d-43d5-b470-ab81016f9909/afcdd804-9a3c-46c9-9771-ab81016f9917/image.jpg?t=1584483505&amp;size=Large" type="image/jpeg" />
+      <guid isPermaLink="false">f8ae1161-0858-447b-8ed4-ad8301278c9d</guid>
+      <omny:clipId>f8ae1161-0858-447b-8ed4-ad8301278c9d</omny:clipId>
+      <pubDate>Fri, 13 Aug 2021 18:00:01 +0000</pubDate>
+      <itunes:duration>3039</itunes:duration>
+      <enclosure url="https://chtbl.com/track/84GC29/dts.podtrac.com/redirect.mp3/traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/b8eef1ff-8d0d-43d5-b470-ab81016f9909/f8ae1161-0858-447b-8ed4-ad8301278c9d/audio.mp3?utm_source=Podcast&amp;in_playlist=afcdd804-9a3c-46c9-9771-ab81016f9917" length="48639728" type="audio/mpeg" />
+      <link>https://omny.fm/shows/filmweek/filmweek-episode-friday-august-13-2021</link>
+    </item>
+    <item>
+      <title>FilmWeek Episode Friday August 6, 2021</title>
+      <itunes:title>FilmWeek Episode Friday August 6, 2021</itunes:title>
+      <description>Guest host John Horn and KPCC film critics Tim Cogshell, Wade Major and Charles Solomon review this weekend’s new movie releases.
+FilmWeek: ‘The Suicide Squad,’ ‘Whirlybird,’ ‘Ailey’ And More (1:08)
+The Couple That Revolutionized Breaking News In LA Hid A Dark Secret For Years. ‘Whirlybird’ Brings It All To The Surface (31:28)</description>
+      <content:encoded><![CDATA[<p>Guest host John Horn and KPCC film critics Tim Cogshell, Wade Major and Charles Solomon review this weekend&rsquo;s new movie releases.</p>
+<ul>
+<li>FilmWeek: &lsquo;The Suicide Squad,&rsquo; &lsquo;Whirlybird,&rsquo; &lsquo;Ailey&rsquo; And More (1:08)</li>
+<li>The Couple That Revolutionized Breaking News In LA Hid A Dark Secret For Years. &lsquo;Whirlybird&rsquo; Brings It All To The Surface (31:28)</li>
+</ul>]]></content:encoded>
+      <itunes:summary>Guest host John Horn and KPCC film critics Tim Cogshell, Wade Major and Charles Solomon review this weekend’s new movie releases.
+FilmWeek: ‘The Suicide Squad,’ ‘Whirlybird,’ ‘Ailey’ And More (1:08)
+The Couple That Revolutionized Breaking News In LA Hid A Dark Secret For Years. ‘Whirlybird’ Brings It All To The Surface (31:28)</itunes:summary>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:image href="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/b8eef1ff-8d0d-43d5-b470-ab81016f9909/afcdd804-9a3c-46c9-9771-ab81016f9917/image.jpg?t=1584483505&amp;size=Large" />
+      <media:content url="https://chtbl.com/track/84GC29/dts.podtrac.com/redirect.mp3/traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/b8eef1ff-8d0d-43d5-b470-ab81016f9909/0f4627ec-a436-4f92-9064-ad7c0120383e/audio.mp3?utm_source=Podcast&amp;in_playlist=afcdd804-9a3c-46c9-9771-ab81016f9917" type="audio/mpeg">
+        <media:player url="https://omny.fm/shows/filmweek/filmweek-episode-friday-august-6-2021/embed" />
+      </media:content>
+      <media:content url="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/b8eef1ff-8d0d-43d5-b470-ab81016f9909/afcdd804-9a3c-46c9-9771-ab81016f9917/image.jpg?t=1584483505&amp;size=Large" type="image/jpeg" />
+      <guid isPermaLink="false">0f4627ec-a436-4f92-9064-ad7c0120383e</guid>
+      <omny:clipId>0f4627ec-a436-4f92-9064-ad7c0120383e</omny:clipId>
+      <pubDate>Fri, 06 Aug 2021 17:33:20 +0000</pubDate>
+      <itunes:duration>3036</itunes:duration>
+      <enclosure url="https://chtbl.com/track/84GC29/dts.podtrac.com/redirect.mp3/traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/b8eef1ff-8d0d-43d5-b470-ab81016f9909/0f4627ec-a436-4f92-9064-ad7c0120383e/audio.mp3?utm_source=Podcast&amp;in_playlist=afcdd804-9a3c-46c9-9771-ab81016f9917" length="48597095" type="audio/mpeg" />
+      <link>https://omny.fm/shows/filmweek/filmweek-episode-friday-august-6-2021</link>
+    </item>
+    <item>
+      <title>FilmWeek Episode Friday July 30, 2021</title>
+      <itunes:title>FilmWeek Episode Friday July 30, 2021</itunes:title>
+      <description>Larry Mantle and KPCC film critics Christy Lemire and Andy Klein review this weekend’s new movie releases.
+FilmWeek: ‘Jungle Cruise,’ ‘Stillwater,’ ‘The Green Knight’ And More (1:08)
+Director Tom McCarthy On Moral Ambiguity And Reassessing The Cinematic American Hero In ‘Stillwater’ (31:41)</description>
+      <content:encoded><![CDATA[<p>Larry Mantle and KPCC film critics Christy Lemire and Andy Klein review this weekend&rsquo;s new movie releases.</p>
+<ul>
+<li>FilmWeek: &lsquo;Jungle Cruise,&rsquo; &lsquo;Stillwater,&rsquo; &lsquo;The Green Knight&rsquo; And More (1:08)</li>
+<li>Director Tom McCarthy On Moral Ambiguity And Reassessing The Cinematic American Hero In &lsquo;Stillwater&rsquo; (31:41)</li>
+</ul>]]></content:encoded>
+      <itunes:summary>Larry Mantle and KPCC film critics Christy Lemire and Andy Klein review this weekend’s new movie releases.
+FilmWeek: ‘Jungle Cruise,’ ‘Stillwater,’ ‘The Green Knight’ And More (1:08)
+Director Tom McCarthy On Moral Ambiguity And Reassessing The Cinematic American Hero In ‘Stillwater’ (31:41)</itunes:summary>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:image href="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/b8eef1ff-8d0d-43d5-b470-ab81016f9909/afcdd804-9a3c-46c9-9771-ab81016f9917/image.jpg?t=1584483505&amp;size=Large" />
+      <media:content url="https://chtbl.com/track/84GC29/dts.podtrac.com/redirect.mp3/traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/b8eef1ff-8d0d-43d5-b470-ab81016f9909/ab3f5269-ab5b-422b-969a-ad75011aba9a/audio.mp3?utm_source=Podcast&amp;in_playlist=afcdd804-9a3c-46c9-9771-ab81016f9917" type="audio/mpeg">
+        <media:player url="https://omny.fm/shows/filmweek/filmweek-episode-friday-july-30-2021/embed" />
+      </media:content>
+      <media:content url="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/b8eef1ff-8d0d-43d5-b470-ab81016f9909/afcdd804-9a3c-46c9-9771-ab81016f9917/image.jpg?t=1584483505&amp;size=Large" type="image/jpeg" />
+      <guid isPermaLink="false">ab3f5269-ab5b-422b-969a-ad75011aba9a</guid>
+      <omny:clipId>ab3f5269-ab5b-422b-969a-ad75011aba9a</omny:clipId>
+      <pubDate>Fri, 30 Jul 2021 17:13:49 +0000</pubDate>
+      <itunes:duration>3037</itunes:duration>
+      <enclosure url="https://chtbl.com/track/84GC29/dts.podtrac.com/redirect.mp3/traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/b8eef1ff-8d0d-43d5-b470-ab81016f9909/ab3f5269-ab5b-422b-969a-ad75011aba9a/audio.mp3?utm_source=Podcast&amp;in_playlist=afcdd804-9a3c-46c9-9771-ab81016f9917" length="48623425" type="audio/mpeg" />
+      <link>https://omny.fm/shows/filmweek/filmweek-episode-friday-july-30-2021</link>
+    </item>
+    <item>
+      <title>FilmWeek Episode Friday July 23, 2021</title>
+      <itunes:title>FilmWeek Episode Friday July 23, 2021</itunes:title>
+      <description>Larry Mantle and KPCC film critics Christy Lemire and Andy Klein review this weekend’s new movie releases.
+FilmWeek: ‘Old,’ ‘Snake Eyes,’ ‘Jolt’ And More (1:02)
+‘Ailey’ Director Jamila Wignot On The Lasting Legacy Of Dancer, Choreographer And Activist Alvin Ailey (31:28)</description>
+      <content:encoded><![CDATA[<p>Larry Mantle and KPCC film critics Christy Lemire and Andy Klein review this weekend&rsquo;s new movie releases.</p>
+<ul>
+<li>FilmWeek: &lsquo;Old,&rsquo; &lsquo;Snake Eyes,&rsquo; &lsquo;Jolt&rsquo; And More (1:02)</li>
+<li>&lsquo;Ailey&rsquo; Director Jamila Wignot On The Lasting Legacy Of Dancer, Choreographer And Activist Alvin Ailey (31:28)</li>
+</ul>]]></content:encoded>
+      <itunes:summary>Larry Mantle and KPCC film critics Christy Lemire and Andy Klein review this weekend’s new movie releases.
+FilmWeek: ‘Old,’ ‘Snake Eyes,’ ‘Jolt’ And More (1:02)
+‘Ailey’ Director Jamila Wignot On The Lasting Legacy Of Dancer, Choreographer And Activist Alvin Ailey (31:28)</itunes:summary>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
+      <itunes:image href="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/b8eef1ff-8d0d-43d5-b470-ab81016f9909/afcdd804-9a3c-46c9-9771-ab81016f9917/image.jpg?t=1584483505&amp;size=Large" />
+      <media:content url="https://chtbl.com/track/84GC29/dts.podtrac.com/redirect.mp3/traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/b8eef1ff-8d0d-43d5-b470-ab81016f9909/41391049-a1b7-432d-873c-ad6e011a33a3/audio.mp3?utm_source=Podcast&amp;in_playlist=afcdd804-9a3c-46c9-9771-ab81016f9917" type="audio/mpeg">
+        <media:player url="https://omny.fm/shows/filmweek/filmweek-episode-friday-july-23-2021/embed" />
+      </media:content>
+      <media:content url="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/b8eef1ff-8d0d-43d5-b470-ab81016f9909/afcdd804-9a3c-46c9-9771-ab81016f9917/image.jpg?t=1584483505&amp;size=Large" type="image/jpeg" />
+      <guid isPermaLink="false">41391049-a1b7-432d-873c-ad6e011a33a3</guid>
+      <omny:clipId>41391049-a1b7-432d-873c-ad6e011a33a3</omny:clipId>
+      <pubDate>Fri, 23 Jul 2021 17:11:07 +0000</pubDate>
+      <itunes:duration>3037</itunes:duration>
+      <enclosure url="https://chtbl.com/track/84GC29/dts.podtrac.com/redirect.mp3/traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/b8eef1ff-8d0d-43d5-b470-ab81016f9909/41391049-a1b7-432d-873c-ad6e011a33a3/audio.mp3?utm_source=Podcast&amp;in_playlist=afcdd804-9a3c-46c9-9771-ab81016f9917" length="48610051" type="audio/mpeg" />
+      <link>https://omny.fm/shows/filmweek/filmweek-episode-friday-july-23-2021</link>
+    </item>
     <item>
       <title>FilmWeek Episode Friday July 16, 2021</title>
       <itunes:title>FilmWeek Episode Friday July 16, 2021</itunes:title>
@@ -3789,6 +3935,9 @@ Robin Wright, director and star of the new film “Land”</itunes:summary>
       <itunes:duration>3042</itunes:duration>
       <enclosure url="https://chtbl.com/track/84GC29/dts.podtrac.com/redirect.mp3/traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/b8eef1ff-8d0d-43d5-b470-ab81016f9909/6c795c25-fe1f-4d53-8966-ac0200fa0fa0/audio.mp3?utm_source=Podcast&amp;in_playlist=afcdd804-9a3c-46c9-9771-ab81016f9917" length="48700075" type="audio/mpeg" />
       <link>https://omny.fm/shows/filmweek/filmweek-animal-crackers-we-are-the-radical-monarc</link>
+      <podcast:transcript url="https://omny.fm/api/orgs/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/clips/6c795c25-fe1f-4d53-8966-ac0200fa0fa0/transcript?format=SubRip&amp;speakers=true&amp;t=1595966293" type="application/srt" language="en-US" />
+      <podcast:transcript url="https://omny.fm/api/orgs/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/clips/6c795c25-fe1f-4d53-8966-ac0200fa0fa0/transcript?format=WebVTT&amp;speakers=true&amp;t=1595966293" type="text/vtt" language="en-US" />
+      <podcast:transcript url="https://omny.fm/api/orgs/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/clips/6c795c25-fe1f-4d53-8966-ac0200fa0fa0/transcript?format=TextWithTimestamps&amp;speakers=true&amp;t=1595966293" type="text/plain" language="en-US" />
     </item>
     <item>
       <title>FilmWeek: ‘The Painted Bird,’ ‘Dirt Music,’ ‘Flannery’ And More</title>
@@ -4079,106 +4228,6 @@ Stream We Are Freestyle Love Supreme beginning July 17, only on Hulu</itunes:sum
       <itunes:duration>2376</itunes:duration>
       <enclosure url="https://chtbl.com/track/84GC29/dts.podtrac.com/redirect.mp3/traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/b8eef1ff-8d0d-43d5-b470-ab81016f9909/0d89c434-9ac1-492a-91d5-abb501538dc9/audio.mp3?utm_source=Podcast&amp;in_playlist=afcdd804-9a3c-46c9-9771-ab81016f9917" length="38032812" type="audio/mpeg" />
       <link>https://omny.fm/shows/filmweek/filmweek-becoming-rewind-spaceship-earth-and-more</link>
-    </item>
-    <item>
-      <title>FilmWeek: ‘Bull,’ ‘A Secret Love,’ ‘Deerskin’ And More</title>
-      <itunes:title>FilmWeek: ‘Bull,’ ‘A Secret Love,’ ‘Deerskin’ And More</itunes:title>
-      <description>Larry Mantle and KPCC film critics Lael Loewenstein and Tim Cogshell review this weekend’s new movie releases on streaming and on demand platforms.</description>
-      <content:encoded><![CDATA[<p>Larry Mantle and KPCC film critics Lael Loewenstein and Tim Cogshell review this weekend&rsquo;s new movie releases on streaming and on demand platforms.</p>]]></content:encoded>
-      <itunes:summary>Larry Mantle and KPCC film critics Lael Loewenstein and Tim Cogshell review this weekend’s new movie releases on streaming and on demand platforms.</itunes:summary>
-      <itunes:episodeType>full</itunes:episodeType>
-      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
-      <itunes:image href="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/b8eef1ff-8d0d-43d5-b470-ab81016f9909/afcdd804-9a3c-46c9-9771-ab81016f9917/image.jpg?t=1584483505&amp;size=Large" />
-      <media:content url="https://chtbl.com/track/84GC29/dts.podtrac.com/redirect.mp3/traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/b8eef1ff-8d0d-43d5-b470-ab81016f9909/848b2f55-7353-40aa-997e-abae012d7782/audio.mp3?utm_source=Podcast&amp;in_playlist=afcdd804-9a3c-46c9-9771-ab81016f9917" type="audio/mpeg">
-        <media:player url="https://omny.fm/shows/filmweek/filmweek-bull-a-secret-love-deerskin-and-more/embed" />
-      </media:content>
-      <media:content url="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/b8eef1ff-8d0d-43d5-b470-ab81016f9909/afcdd804-9a3c-46c9-9771-ab81016f9917/image.jpg?t=1584483505&amp;size=Large" type="image/jpeg" />
-      <guid isPermaLink="false">848b2f55-7353-40aa-997e-abae012d7782</guid>
-      <omny:clipId>848b2f55-7353-40aa-997e-abae012d7782</omny:clipId>
-      <pubDate>Fri, 01 May 2020 18:33:00 +0000</pubDate>
-      <itunes:duration>3033</itunes:duration>
-      <enclosure url="https://chtbl.com/track/84GC29/dts.podtrac.com/redirect.mp3/traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/b8eef1ff-8d0d-43d5-b470-ab81016f9909/848b2f55-7353-40aa-997e-abae012d7782/audio.mp3?utm_source=Podcast&amp;in_playlist=afcdd804-9a3c-46c9-9771-ab81016f9917" length="48550328" type="audio/mpeg" />
-      <link>https://omny.fm/shows/filmweek/filmweek-bull-a-secret-love-deerskin-and-more</link>
-    </item>
-    <item>
-      <title>FilmWeek: ‘Extraction,’ ‘Bad Education, ‘Circus of Books’ and more</title>
-      <itunes:title>FilmWeek: ‘Extraction,’ ‘Bad Education, ‘Circus of Books’ and more</itunes:title>
-      <description>Larry Mantle and KPCC film critics Christy Lemire, Angie Han and Wade Major review this weekend’s new movie releases on streaming and VOD platforms.</description>
-      <content:encoded><![CDATA[Larry Mantle and KPCC film critics Christy Lemire, Angie Han and Wade Major review this weekend’s new movie releases on streaming and VOD platforms.]]></content:encoded>
-      <itunes:summary>Larry Mantle and KPCC film critics Christy Lemire, Angie Han and Wade Major review this weekend’s new movie releases on streaming and VOD platforms.</itunes:summary>
-      <itunes:episodeType>full</itunes:episodeType>
-      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
-      <itunes:image href="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/b8eef1ff-8d0d-43d5-b470-ab81016f9909/afcdd804-9a3c-46c9-9771-ab81016f9917/image.jpg?t=1584483505&amp;size=Large" />
-      <media:content url="https://chtbl.com/track/84GC29/dts.podtrac.com/redirect.mp3/traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/b8eef1ff-8d0d-43d5-b470-ab81016f9909/dc30f960-db84-4de2-9738-aba7010b2f10/audio.mp3?utm_source=Podcast&amp;in_playlist=afcdd804-9a3c-46c9-9771-ab81016f9917" type="audio/mpeg">
-        <media:player url="https://omny.fm/shows/filmweek/filmweek-extraction-bad-education-circus-of-books/embed" />
-      </media:content>
-      <media:content url="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/b8eef1ff-8d0d-43d5-b470-ab81016f9909/afcdd804-9a3c-46c9-9771-ab81016f9917/image.jpg?t=1584483505&amp;size=Large" type="image/jpeg" />
-      <guid isPermaLink="false">dc30f960-db84-4de2-9738-aba7010b2f10</guid>
-      <omny:clipId>dc30f960-db84-4de2-9738-aba7010b2f10</omny:clipId>
-      <pubDate>Fri, 24 Apr 2020 16:11:00 +0000</pubDate>
-      <itunes:duration>3046</itunes:duration>
-      <enclosure url="https://chtbl.com/track/84GC29/dts.podtrac.com/redirect.mp3/traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/b8eef1ff-8d0d-43d5-b470-ab81016f9909/dc30f960-db84-4de2-9738-aba7010b2f10/audio.mp3?utm_source=Podcast&amp;in_playlist=afcdd804-9a3c-46c9-9771-ab81016f9917" length="48759825" type="audio/mpeg" />
-      <link>https://omny.fm/shows/filmweek/filmweek-extraction-bad-education-circus-of-books</link>
-    </item>
-    <item>
-      <title>FilmWeek: ‘Trolls World Tour,’ ‘A White, White Day,’ The Quarry’ and more</title>
-      <itunes:title>FilmWeek: ‘Trolls World Tour,’ ‘A White, White Day,’ The Quarry’ and more</itunes:title>
-      <description>Larry Mantle and KPCC film critics Lael Loewenstein, Amy Nicholson and Charles Solomon review this weekend’s new movie releases and share some of their recommendations for movies and TV shows to discover, rediscover and binge-watch while you’re at home.</description>
-      <content:encoded><![CDATA[Larry Mantle and KPCC film critics Lael Loewenstein, Amy Nicholson and Charles Solomon review this weekend’s new movie releases and share some of their recommendations for movies and TV shows to discover, rediscover and binge-watch while you’re at home.]]></content:encoded>
-      <itunes:summary>Larry Mantle and KPCC film critics Lael Loewenstein, Amy Nicholson and Charles Solomon review this weekend’s new movie releases and share some of their recommendations for movies and TV shows to discover, rediscover and binge-watch while you’re at home.</itunes:summary>
-      <itunes:episodeType>full</itunes:episodeType>
-      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
-      <itunes:image href="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/b8eef1ff-8d0d-43d5-b470-ab81016f9909/afcdd804-9a3c-46c9-9771-ab81016f9917/image.jpg?t=1584483505&amp;size=Large" />
-      <media:content url="https://chtbl.com/track/84GC29/dts.podtrac.com/redirect.mp3/traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/b8eef1ff-8d0d-43d5-b470-ab81016f9909/09dbdbf6-476a-47f5-b13d-aba00108964c/audio.mp3?utm_source=Podcast&amp;in_playlist=afcdd804-9a3c-46c9-9771-ab81016f9917" type="audio/mpeg">
-        <media:player url="https://omny.fm/shows/filmweek/filmweek-trolls-world-tour-a-white-white-day-the-q/embed" />
-      </media:content>
-      <media:content url="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/b8eef1ff-8d0d-43d5-b470-ab81016f9909/afcdd804-9a3c-46c9-9771-ab81016f9917/image.jpg?t=1584483505&amp;size=Large" type="image/jpeg" />
-      <guid isPermaLink="false">09dbdbf6-476a-47f5-b13d-aba00108964c</guid>
-      <omny:clipId>09dbdbf6-476a-47f5-b13d-aba00108964c</omny:clipId>
-      <pubDate>Fri, 17 Apr 2020 16:01:00 +0000</pubDate>
-      <itunes:duration>3050</itunes:duration>
-      <enclosure url="https://chtbl.com/track/84GC29/dts.podtrac.com/redirect.mp3/traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/b8eef1ff-8d0d-43d5-b470-ab81016f9909/09dbdbf6-476a-47f5-b13d-aba00108964c/audio.mp3?utm_source=Podcast&amp;in_playlist=afcdd804-9a3c-46c9-9771-ab81016f9917" length="48818346" type="audio/mpeg" />
-      <link>https://omny.fm/shows/filmweek/filmweek-trolls-world-tour-a-white-white-day-the-q</link>
-    </item>
-    <item>
-      <title>FilmWeek: ‘Tigertail,’ ‘School Life,’ ‘Love Wedding Repeat’ and more</title>
-      <itunes:title>FilmWeek: ‘Tigertail,’ ‘School Life,’ ‘Love Wedding Repeat’ and more</itunes:title>
-      <description>Larry Mantle and KPCC film critics Claudia Puig, Tim Cogshell and Charles Solomon review this weekend’s new movie releases and share their recommendations for what to binge-watch while you’re stuck at home during COVID-19.</description>
-      <content:encoded><![CDATA[Larry Mantle and KPCC film critics Claudia Puig, Tim Cogshell and Charles Solomon review this weekend’s new movie releases and share their recommendations for what to binge-watch while you’re stuck at home during COVID-19.]]></content:encoded>
-      <itunes:summary>Larry Mantle and KPCC film critics Claudia Puig, Tim Cogshell and Charles Solomon review this weekend’s new movie releases and share their recommendations for what to binge-watch while you’re stuck at home during COVID-19.</itunes:summary>
-      <itunes:episodeType>full</itunes:episodeType>
-      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
-      <itunes:image href="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/b8eef1ff-8d0d-43d5-b470-ab81016f9909/afcdd804-9a3c-46c9-9771-ab81016f9917/image.jpg?t=1584483505&amp;size=Large" />
-      <media:content url="https://chtbl.com/track/84GC29/dts.podtrac.com/redirect.mp3/traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/b8eef1ff-8d0d-43d5-b470-ab81016f9909/791976dd-f2ca-475b-a6e0-ab99010a56c8/audio.mp3?utm_source=Podcast&amp;in_playlist=afcdd804-9a3c-46c9-9771-ab81016f9917" type="audio/mpeg">
-        <media:player url="https://omny.fm/shows/filmweek/filmweek-tigertail-school-life-love-wedding-repeat/embed" />
-      </media:content>
-      <media:content url="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/b8eef1ff-8d0d-43d5-b470-ab81016f9909/afcdd804-9a3c-46c9-9771-ab81016f9917/image.jpg?t=1584483505&amp;size=Large" type="image/jpeg" />
-      <guid isPermaLink="false">791976dd-f2ca-475b-a6e0-ab99010a56c8</guid>
-      <omny:clipId>791976dd-f2ca-475b-a6e0-ab99010a56c8</omny:clipId>
-      <pubDate>Fri, 10 Apr 2020 16:09:00 +0000</pubDate>
-      <itunes:duration>3046</itunes:duration>
-      <enclosure url="https://chtbl.com/track/84GC29/dts.podtrac.com/redirect.mp3/traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/b8eef1ff-8d0d-43d5-b470-ab81016f9909/791976dd-f2ca-475b-a6e0-ab99010a56c8/audio.mp3?utm_source=Podcast&amp;in_playlist=afcdd804-9a3c-46c9-9771-ab81016f9917" length="48753560" type="audio/mpeg" />
-      <link>https://omny.fm/shows/filmweek/filmweek-tigertail-school-life-love-wedding-repeat</link>
-    </item>
-    <item>
-      <title>FilmWeek: ‘Never Rarely Sometimes Always,’ ‘Bacurau,’ ‘Slay The Dragon’ and more</title>
-      <itunes:title>FilmWeek: ‘Never Rarely Sometimes Always,’ ‘Bacurau,’ ‘Slay The Dragon’ and more</itunes:title>
-      <description>Larry Mantle and KPCC film critics Lael Loewenstein, Peter Rainer and Christy Lemire review this weekend’s new movie releases and share their picks for the best movies and TV shows to binge, rewatch or see for the first time while you’re staying at home.</description>
-      <content:encoded><![CDATA[Larry Mantle and KPCC film critics Lael Loewenstein, Peter Rainer and Christy Lemire review this weekend’s new movie releases and share their picks for the best movies and TV shows to binge, rewatch or see for the first time while you’re staying at home.]]></content:encoded>
-      <itunes:summary>Larry Mantle and KPCC film critics Lael Loewenstein, Peter Rainer and Christy Lemire review this weekend’s new movie releases and share their picks for the best movies and TV shows to binge, rewatch or see for the first time while you’re staying at home.</itunes:summary>
-      <itunes:episodeType>full</itunes:episodeType>
-      <itunes:author>KPCC 89.3 | Southern California Public Radio</itunes:author>
-      <itunes:image href="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/b8eef1ff-8d0d-43d5-b470-ab81016f9909/afcdd804-9a3c-46c9-9771-ab81016f9917/image.jpg?t=1584483505&amp;size=Large" />
-      <media:content url="https://chtbl.com/track/84GC29/dts.podtrac.com/redirect.mp3/traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/b8eef1ff-8d0d-43d5-b470-ab81016f9909/5e37b7a3-e594-4754-bea2-ab9201081271/audio.mp3?utm_source=Podcast&amp;in_playlist=afcdd804-9a3c-46c9-9771-ab81016f9917" type="audio/mpeg">
-        <media:player url="https://omny.fm/shows/filmweek/filmweek-never-rarely-sometimes-always-bacurau-sla/embed" />
-      </media:content>
-      <media:content url="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/b8eef1ff-8d0d-43d5-b470-ab81016f9909/afcdd804-9a3c-46c9-9771-ab81016f9917/image.jpg?t=1584483505&amp;size=Large" type="image/jpeg" />
-      <guid isPermaLink="false">5e37b7a3-e594-4754-bea2-ab9201081271</guid>
-      <omny:clipId>5e37b7a3-e594-4754-bea2-ab9201081271</omny:clipId>
-      <pubDate>Fri, 03 Apr 2020 16:00:00 +0000</pubDate>
-      <itunes:duration>3045</itunes:duration>
-      <enclosure url="https://chtbl.com/track/84GC29/dts.podtrac.com/redirect.mp3/traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/b8eef1ff-8d0d-43d5-b470-ab81016f9909/5e37b7a3-e594-4754-bea2-ab9201081271/audio.mp3?utm_source=Podcast&amp;in_playlist=afcdd804-9a3c-46c9-9771-ab81016f9917" length="48744795" type="audio/mpeg" />
-      <link>https://omny.fm/shows/filmweek/filmweek-never-rarely-sometimes-always-bacurau-sla</link>
     </item>
   </channel>
 </rss>

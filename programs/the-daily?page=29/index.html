@@ -28,7 +28,7 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="black" />
 <meta name="format-detection" content="telephone=no" />
 <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
-<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam-cell.nr-data.net","errorBeacon":"bam-cell.nr-data.net","licenseKey":"3a7254ec4f","applicationID":"446356","transactionName":"JV4MRkQMDVRTRUlIRQlWEFNbEE5LXlgR","queueTime":0,"applicationTime":673,"agent":""}</script>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam-cell.nr-data.net","errorBeacon":"bam-cell.nr-data.net","licenseKey":"3a7254ec4f","applicationID":"446356","transactionName":"JV4MRkQMDVRTRUlIRQlWEFNbEE5LXlgR","queueTime":0,"applicationTime":2692,"agent":""}</script>
 <script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"UwcDWFBADAcGV1RU",licenseKey:"3a7254ec4f",applicationID:"446356"};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var i=e[n]={exports:{}};t[n][0].call(i.exports,function(e){var i=t[n][1][e];return r(i||e)},i,i.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var i=0;i<n.length;i++)r(n[i]);return r}({1:[function(t,e,n){function r(t){try{s.console&&console.log(t)}catch(e){}}var i,o=t("ee"),a=t(22),s={};try{i=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(s.console=!0,i.indexOf("dev")!==-1&&(s.dev=!0),i.indexOf("nr_dev")!==-1&&(s.nrDev=!0))}catch(c){}s.nrDev&&o.on("internal-error",function(t){r(t.stack)}),s.dev&&o.on("fn-err",function(t,e,n){r(n.stack)}),s.dev&&(r("NR AGENT IN DEVELOPMENT MODE"),r("flags: "+a(s,function(t,e){return t}).join(", ")))},{}],2:[function(t,e,n){function r(t,e,n,r,s){try{p?p-=1:i(s||new UncaughtException(t,e,n),!0)}catch(f){try{o("ierr",[f,c.now(),!0])}catch(d){}}return"function"==typeof u&&u.apply(this,a(arguments))}function UncaughtException(t,e,n){this.message=t||"Uncaught error with no additional information",this.sourceURL=e,this.line=n}function i(t,e){var n=e?null:c.now();o("err",[t,n])}var o=t("handle"),a=t(23),s=t("ee"),c=t("loader"),f=t("gos"),u=window.onerror,d=!1,l="nr@seenError";if(!c.disabled){var p=0;c.features.err=!0,t(1),window.onerror=r;try{throw new Error}catch(h){"stack"in h&&(t(6),t(5),"addEventListener"in window&&t(3),c.xhrWrappable&&t(7),d=!0)}s.on("fn-start",function(t,e,n){d&&(p+=1)}),s.on("fn-err",function(t,e,n){d&&!n[l]&&(f(n,l,function(){return!0}),this.thrown=!0,i(n))}),s.on("fn-end",function(){d&&!this.thrown&&p>0&&(p-=1)}),s.on("internal-error",function(t){o("ierr",[t,c.now(),!0])})}},{}],3:[function(t,e,n){function r(t){for(var e=t;e&&!e.hasOwnProperty(u);)e=Object.getPrototypeOf(e);e&&i(e)}function i(t){s.inPlace(t,[u,d],"-",o)}function o(t,e){return t[1]}var a=t("ee").get("events"),s=t("wrap-function")(a,!0),c=t("gos"),f=XMLHttpRequest,u="addEventListener",d="removeEventListener";e.exports=a,"getPrototypeOf"in Object?(r(document),r(window),r(f.prototype)):f.prototype.hasOwnProperty(u)&&(i(window),i(f.prototype)),a.on(u+"-start",function(t,e){var n=t[1],r=c(n,"nr@wrapped",function(){function t(){if("function"==typeof n.handleEvent)return n.handleEvent.apply(n,arguments)}var e={object:t,"function":n}[typeof n];return e?s(e,"fn-",null,e.name||"anonymous"):n});this.wrapped=t[1]=r}),a.on(d+"-start",function(t){t[1]=this.wrapped||t[1]})},{}],4:[function(t,e,n){function r(t,e,n){var r=t[e];"function"==typeof r&&(t[e]=function(){var t=o(arguments),e={};i.emit(n+"before-start",[t],e);var a;e[m]&&e[m].dt&&(a=e[m].dt);var s=r.apply(this,t);return i.emit(n+"start",[t,a],s),s.then(function(t){return i.emit(n+"end",[null,t],s),t},function(t){throw i.emit(n+"end",[t],s),t})})}var i=t("ee").get("fetch"),o=t(23),a=t(22);e.exports=i;var s=window,c="fetch-",f=c+"body-",u=["arrayBuffer","blob","json","text","formData"],d=s.Request,l=s.Response,p=s.fetch,h="prototype",m="nr@context";d&&l&&p&&(a(u,function(t,e){r(d[h],e,f),r(l[h],e,f)}),r(s,"fetch",c),i.on(c+"end",function(t,e){var n=this;if(e){var r=e.headers.get("content-length");null!==r&&(n.rxSize=r),i.emit(c+"done",[null,e],n)}else i.emit(c+"done",[t],n)}))},{}],5:[function(t,e,n){var r=t("ee").get("raf"),i=t("wrap-function")(r),o="equestAnimationFrame";e.exports=r,i.inPlace(window,["r"+o,"mozR"+o,"webkitR"+o,"msR"+o],"raf-"),r.on("raf-start",function(t){t[0]=i(t[0],"fn-")})},{}],6:[function(t,e,n){function r(t,e,n){t[0]=a(t[0],"fn-",null,n)}function i(t,e,n){this.method=n,this.timerDuration=isNaN(t[1])?0:+t[1],t[0]=a(t[0],"fn-",this,n)}var o=t("ee").get("timer"),a=t("wrap-function")(o),s="setTimeout",c="setInterval",f="clearTimeout",u="-start",d="-";e.exports=o,a.inPlace(window,[s,"setImmediate"],s+d),a.inPlace(window,[c],c+d),a.inPlace(window,[f,"clearImmediate"],f+d),o.on(c+u,r),o.on(s+u,i)},{}],7:[function(t,e,n){function r(t,e){d.inPlace(e,["onreadystatechange"],"fn-",s)}function i(){var t=this,e=u.context(t);t.readyState>3&&!e.resolved&&(e.resolved=!0,u.emit("xhr-resolved",[],t)),d.inPlace(t,w,"fn-",s)}function o(t){x.push(t),h&&(b?b.then(a):v?v(a):(E=-E,R.data=E))}function a(){for(var t=0;t<x.length;t++)r([],x[t]);x.length&&(x=[])}function s(t,e){return e}function c(t,e){for(var n in t)e[n]=t[n];return e}t(3);var f=t("ee"),u=f.get("xhr"),d=t("wrap-function")(u),l=NREUM.o,p=l.XHR,h=l.MO,m=l.PR,v=l.SI,g="readystatechange",w=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"],x=[];e.exports=u;var y=window.XMLHttpRequest=function(t){var e=new p(t);try{u.emit("new-xhr",[e],e),e.addEventListener(g,i,!1)}catch(n){try{u.emit("internal-error",[n])}catch(r){}}return e};if(c(p,y),y.prototype=p.prototype,d.inPlace(y.prototype,["open","send"],"-xhr-",s),u.on("send-xhr-start",function(t,e){r(t,e),o(e)}),u.on("open-xhr-start",r),h){var b=m&&m.resolve();if(!v&&!m){var E=1,R=document.createTextNode(E);new h(a).observe(R,{characterData:!0})}}else f.on("fn-end",function(t){t[0]&&t[0].type===g||a()})},{}],8:[function(t,e,n){function r(t){if(!s(t))return null;var e=window.NREUM;if(!e.loader_config)return null;var n=(e.loader_config.accountID||"").toString()||null,r=(e.loader_config.agentID||"").toString()||null,f=(e.loader_config.trustKey||"").toString()||null;if(!n||!r)return null;var h=p.generateSpanId(),m=p.generateTraceId(),v=Date.now(),g={spanId:h,traceId:m,timestamp:v};return(t.sameOrigin||c(t)&&l())&&(g.traceContextParentHeader=i(h,m),g.traceContextStateHeader=o(h,v,n,r,f)),(t.sameOrigin&&!u()||!t.sameOrigin&&c(t)&&d())&&(g.newrelicHeader=a(h,m,v,n,r,f)),g}function i(t,e){return"00-"+e+"-"+t+"-01"}function o(t,e,n,r,i){var o=0,a="",s=1,c="",f="";return i+"@nr="+o+"-"+s+"-"+n+"-"+r+"-"+t+"-"+a+"-"+c+"-"+f+"-"+e}function a(t,e,n,r,i,o){var a="btoa"in window&&"function"==typeof window.btoa;if(!a)return null;var s={v:[0,1],d:{ty:"Browser",ac:r,ap:i,id:t,tr:e,ti:n}};return o&&r!==o&&(s.d.tk=o),btoa(JSON.stringify(s))}function s(t){return f()&&c(t)}function c(t){var e=!1,n={};if("init"in NREUM&&"distributed_tracing"in NREUM.init&&(n=NREUM.init.distributed_tracing),t.sameOrigin)e=!0;else if(n.allowed_origins instanceof Array)for(var r=0;r<n.allowed_origins.length;r++){var i=h(n.allowed_origins[r]);if(t.hostname===i.hostname&&t.protocol===i.protocol&&t.port===i.port){e=!0;break}}return e}function f(){return"init"in NREUM&&"distributed_tracing"in NREUM.init&&!!NREUM.init.distributed_tracing.enabled}function u(){return"init"in NREUM&&"distributed_tracing"in NREUM.init&&!!NREUM.init.distributed_tracing.exclude_newrelic_header}function d(){return"init"in NREUM&&"distributed_tracing"in NREUM.init&&NREUM.init.distributed_tracing.cors_use_newrelic_header!==!1}function l(){return"init"in NREUM&&"distributed_tracing"in NREUM.init&&!!NREUM.init.distributed_tracing.cors_use_tracecontext_headers}var p=t(19),h=t(10);e.exports={generateTracePayload:r,shouldGenerateTrace:s}},{}],9:[function(t,e,n){function r(t){var e=this.params,n=this.metrics;if(!this.ended){this.ended=!0;for(var r=0;r<l;r++)t.removeEventListener(d[r],this.listener,!1);e.aborted||(n.duration=a.now()-this.startTime,this.loadCaptureCalled||4!==t.readyState?null==e.status&&(e.status=0):o(this,t),n.cbTime=this.cbTime,u.emit("xhr-done",[t],t),s("xhr",[e,n,this.startTime]))}}function i(t,e){var n=c(e),r=t.params;r.host=n.hostname+":"+n.port,r.pathname=n.pathname,t.parsedOrigin=n,t.sameOrigin=n.sameOrigin}function o(t,e){t.params.status=e.status;var n=v(e,t.lastSize);if(n&&(t.metrics.rxSize=n),t.sameOrigin){var r=e.getResponseHeader("X-NewRelic-App-Data");r&&(t.params.cat=r.split(", ").pop())}t.loadCaptureCalled=!0}var a=t("loader");if(a.xhrWrappable&&!a.disabled){var s=t("handle"),c=t(10),f=t(8).generateTracePayload,u=t("ee"),d=["load","error","abort","timeout"],l=d.length,p=t("id"),h=t(15),m=t(14),v=t(11),g=NREUM.o.REQ,w=window.XMLHttpRequest;a.features.xhr=!0,t(7),t(4),u.on("new-xhr",function(t){var e=this;e.totalCbs=0,e.called=0,e.cbTime=0,e.end=r,e.ended=!1,e.xhrGuids={},e.lastSize=null,e.loadCaptureCalled=!1,e.params=this.params||{},e.metrics=this.metrics||{},t.addEventListener("load",function(n){o(e,t)},!1),h&&(h>34||h<10)||window.opera||t.addEventListener("progress",function(t){e.lastSize=t.loaded},!1)}),u.on("open-xhr-start",function(t){this.params={method:t[0]},i(this,t[1]),this.metrics={}}),u.on("open-xhr-end",function(t,e){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&e.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid);var n=f(this.parsedOrigin);if(n){var r=!1;n.newrelicHeader&&(e.setRequestHeader("newrelic",n.newrelicHeader),r=!0),n.traceContextParentHeader&&(e.setRequestHeader("traceparent",n.traceContextParentHeader),n.traceContextStateHeader&&e.setRequestHeader("tracestate",n.traceContextStateHeader),r=!0),r&&(this.dt=n)}}),u.on("send-xhr-start",function(t,e){var n=this.metrics,r=t[0],i=this;if(n&&r){var o=m(r);o&&(n.txSize=o)}this.startTime=a.now(),this.listener=function(t){try{"abort"!==t.type||i.loadCaptureCalled||(i.params.aborted=!0),("load"!==t.type||i.called===i.totalCbs&&(i.onloadCalled||"function"!=typeof e.onload))&&i.end(e)}catch(n){try{u.emit("internal-error",[n])}catch(r){}}};for(var s=0;s<l;s++)e.addEventListener(d[s],this.listener,!1)}),u.on("xhr-cb-time",function(t,e,n){this.cbTime+=t,e?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof n.onload||this.end(n)}),u.on("xhr-load-added",function(t,e){var n=""+p(t)+!!e;this.xhrGuids&&!this.xhrGuids[n]&&(this.xhrGuids[n]=!0,this.totalCbs+=1)}),u.on("xhr-load-removed",function(t,e){var n=""+p(t)+!!e;this.xhrGuids&&this.xhrGuids[n]&&(delete this.xhrGuids[n],this.totalCbs-=1)}),u.on("addEventListener-end",function(t,e){e instanceof w&&"load"===t[0]&&u.emit("xhr-load-added",[t[1],t[2]],e)}),u.on("removeEventListener-end",function(t,e){e instanceof w&&"load"===t[0]&&u.emit("xhr-load-removed",[t[1],t[2]],e)}),u.on("fn-start",function(t,e,n){e instanceof w&&("onload"===n&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=a.now()))}),u.on("fn-end",function(t,e){this.xhrCbStart&&u.emit("xhr-cb-time",[a.now()-this.xhrCbStart,this.onload,e],e)}),u.on("fetch-before-start",function(t){function e(t,e){var n=!1;return e.newrelicHeader&&(t.set("newrelic",e.newrelicHeader),n=!0),e.traceContextParentHeader&&(t.set("traceparent",e.traceContextParentHeader),e.traceContextStateHeader&&t.set("tracestate",e.traceContextStateHeader),n=!0),n}var n,r=t[1]||{};"string"==typeof t[0]?n=t[0]:t[0]&&t[0].url?n=t[0].url:window.URL&&t[0]&&t[0]instanceof URL&&(n=t[0].href),n&&(this.parsedOrigin=c(n),this.sameOrigin=this.parsedOrigin.sameOrigin);var i=f(this.parsedOrigin);if(i&&(i.newrelicHeader||i.traceContextParentHeader))if("string"==typeof t[0]||window.URL&&t[0]&&t[0]instanceof URL){var o={};for(var a in r)o[a]=r[a];o.headers=new Headers(r.headers||{}),e(o.headers,i)&&(this.dt=i),t.length>1?t[1]=o:t.push(o)}else t[0]&&t[0].headers&&e(t[0].headers,i)&&(this.dt=i)}),u.on("fetch-start",function(t,e){this.params={},this.metrics={},this.startTime=a.now(),t.length>=1&&(this.target=t[0]),t.length>=2&&(this.opts=t[1]);var n,r=this.opts||{},o=this.target;"string"==typeof o?n=o:"object"==typeof o&&o instanceof g?n=o.url:window.URL&&"object"==typeof o&&o instanceof URL&&(n=o.href),i(this,n);var s=(""+(o&&o instanceof g&&o.method||r.method||"GET")).toUpperCase();this.params.method=s,this.txSize=m(r.body)||0}),u.on("fetch-done",function(t,e){this.params||(this.params={}),this.params.status=e?e.status:0;var n;"string"==typeof this.rxSize&&this.rxSize.length>0&&(n=+this.rxSize);var r={txSize:this.txSize,rxSize:n,duration:a.now()-this.startTime};s("xhr",[this.params,r,this.startTime])})}},{}],10:[function(t,e,n){var r={};e.exports=function(t){if(t in r)return r[t];var e=document.createElement("a"),n=window.location,i={};e.href=t,i.port=e.port;var o=e.href.split("://");!i.port&&o[1]&&(i.port=o[1].split("/")[0].split("@").pop().split(":")[1]),i.port&&"0"!==i.port||(i.port="https"===o[0]?"443":"80"),i.hostname=e.hostname||n.hostname,i.pathname=e.pathname,i.protocol=o[0],"/"!==i.pathname.charAt(0)&&(i.pathname="/"+i.pathname);var a=!e.protocol||":"===e.protocol||e.protocol===n.protocol,s=e.hostname===document.domain&&e.port===n.port;return i.sameOrigin=a&&(!e.hostname||s),"/"===i.pathname&&(r[t]=i),i}},{}],11:[function(t,e,n){function r(t,e){var n=t.responseType;return"json"===n&&null!==e?e:"arraybuffer"===n||"blob"===n||"json"===n?i(t.response):"text"===n||""===n||void 0===n?i(t.responseText):void 0}var i=t(14);e.exports=r},{}],12:[function(t,e,n){function r(){}function i(t,e,n){return function(){return o(t,[f.now()].concat(s(arguments)),e?null:this,n),e?void 0:this}}var o=t("handle"),a=t(22),s=t(23),c=t("ee").get("tracer"),f=t("loader"),u=NREUM;"undefined"==typeof window.newrelic&&(newrelic=u);var d=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",p=l+"ixn-";a(d,function(t,e){u[e]=i(l+e,!0,"api")}),u.addPageAction=i(l+"addPageAction",!0),u.setCurrentRouteName=i(l+"routeName",!0),e.exports=newrelic,u.interaction=function(){return(new r).get()};var h=r.prototype={createTracer:function(t,e){var n={},r=this,i="function"==typeof e;return o(p+"tracer",[f.now(),t,n],r),function(){if(c.emit((i?"":"no-")+"fn-start",[f.now(),r,i],n),i)try{return e.apply(this,arguments)}catch(t){throw c.emit("fn-err",[arguments,this,t],n),t}finally{c.emit("fn-end",[f.now()],n)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,e){h[e]=i(p+e)}),newrelic.noticeError=function(t,e){"string"==typeof t&&(t=new Error(t)),o("err",[t,f.now(),!1,e])}},{}],13:[function(t,e,n){function r(t){if(NREUM.init){for(var e=NREUM.init,n=t.split("."),r=0;r<n.length-1;r++)if(e=e[n[r]],"object"!=typeof e)return;return e=e[n[n.length-1]]}}e.exports={getConfiguration:r}},{}],14:[function(t,e,n){e.exports=function(t){if("string"==typeof t&&t.length)return t.length;if("object"==typeof t){if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if(!("undefined"!=typeof FormData&&t instanceof FormData))try{return JSON.stringify(t).length}catch(e){return}}}},{}],15:[function(t,e,n){var r=0,i=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);i&&(r=+i[1]),e.exports=r},{}],16:[function(t,e,n){function r(){return s.exists&&performance.now?Math.round(performance.now()):(o=Math.max((new Date).getTime(),o))-a}function i(){return o}var o=(new Date).getTime(),a=o,s=t(24);e.exports=r,e.exports.offset=a,e.exports.getLastTimestamp=i},{}],17:[function(t,e,n){function r(t){return!(!t||!t.protocol||"file:"===t.protocol)}e.exports=r},{}],18:[function(t,e,n){function r(t,e){var n=t.getEntries();n.forEach(function(t){"first-paint"===t.name?d("timing",["fp",Math.floor(t.startTime)]):"first-contentful-paint"===t.name&&d("timing",["fcp",Math.floor(t.startTime)])})}function i(t,e){var n=t.getEntries();n.length>0&&d("lcp",[n[n.length-1]])}function o(t){t.getEntries().forEach(function(t){t.hadRecentInput||d("cls",[t])})}function a(t){if(t instanceof h&&!v){var e=Math.round(t.timeStamp),n={type:t.type};e<=l.now()?n.fid=l.now()-e:e>l.offset&&e<=Date.now()?(e-=l.offset,n.fid=l.now()-e):e=l.now(),v=!0,d("timing",["fi",e,n])}}function s(t){"hidden"===t&&d("pageHide",[l.now()])}if(!("init"in NREUM&&"page_view_timing"in NREUM.init&&"enabled"in NREUM.init.page_view_timing&&NREUM.init.page_view_timing.enabled===!1)){var c,f,u,d=t("handle"),l=t("loader"),p=t(21),h=NREUM.o.EV;if("PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver){c=new PerformanceObserver(r);try{c.observe({entryTypes:["paint"]})}catch(m){}f=new PerformanceObserver(i);try{f.observe({entryTypes:["largest-contentful-paint"]})}catch(m){}u=new PerformanceObserver(o);try{u.observe({type:"layout-shift",buffered:!0})}catch(m){}}if("addEventListener"in document){var v=!1,g=["click","keydown","mousedown","pointerdown","touchstart"];g.forEach(function(t){document.addEventListener(t,a,!1)})}p(s)}},{}],19:[function(t,e,n){function r(){function t(){return e?15&e[n++]:16*Math.random()|0}var e=null,n=0,r=window.crypto||window.msCrypto;r&&r.getRandomValues&&(e=r.getRandomValues(new Uint8Array(31)));for(var i,o="xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx",a="",s=0;s<o.length;s++)i=o[s],"x"===i?a+=t().toString(16):"y"===i?(i=3&t()|8,a+=i.toString(16)):a+=i;return a}function i(){return a(16)}function o(){return a(32)}function a(t){function e(){return n?15&n[r++]:16*Math.random()|0}var n=null,r=0,i=window.crypto||window.msCrypto;i&&i.getRandomValues&&Uint8Array&&(n=i.getRandomValues(new Uint8Array(31)));for(var o=[],a=0;a<t;a++)o.push(e().toString(16));return o.join("")}e.exports={generateUuid:r,generateSpanId:i,generateTraceId:o}},{}],20:[function(t,e,n){function r(t,e){if(!i)return!1;if(t!==i)return!1;if(!e)return!0;if(!o)return!1;for(var n=o.split("."),r=e.split("."),a=0;a<r.length;a++)if(r[a]!==n[a])return!1;return!0}var i=null,o=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var s=navigator.userAgent,c=s.match(a);c&&s.indexOf("Chrome")===-1&&s.indexOf("Chromium")===-1&&(i="Safari",o=c[1])}e.exports={agent:i,version:o,match:r}},{}],21:[function(t,e,n){function r(t){function e(){t(a&&document[a]?document[a]:document[i]?"hidden":"visible")}"addEventListener"in document&&o&&document.addEventListener(o,e,!1)}e.exports=r;var i,o,a;"undefined"!=typeof document.hidden?(i="hidden",o="visibilitychange",a="visibilityState"):"undefined"!=typeof document.msHidden?(i="msHidden",o="msvisibilitychange"):"undefined"!=typeof document.webkitHidden&&(i="webkitHidden",o="webkitvisibilitychange",a="webkitVisibilityState")},{}],22:[function(t,e,n){function r(t,e){var n=[],r="",o=0;for(r in t)i.call(t,r)&&(n[o]=e(r,t[r]),o+=1);return n}var i=Object.prototype.hasOwnProperty;e.exports=r},{}],23:[function(t,e,n){function r(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,i=n-e||0,o=Array(i<0?0:i);++r<i;)o[r]=t[e+r];return o}e.exports=r},{}],24:[function(t,e,n){e.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(t,e,n){function r(){}function i(t){function e(t){return t&&t instanceof r?t:t?f(t,c,a):a()}function n(n,r,i,o,a){if(a!==!1&&(a=!0),!p.aborted||o){t&&a&&t(n,r,i);for(var s=e(i),c=m(n),f=c.length,u=0;u<f;u++)c[u].apply(s,r);var l=d[x[n]];return l&&l.push([y,n,r,s]),s}}function o(t,e){w[t]=m(t).concat(e)}function h(t,e){var n=w[t];if(n)for(var r=0;r<n.length;r++)n[r]===e&&n.splice(r,1)}function m(t){return w[t]||[]}function v(t){return l[t]=l[t]||i(n)}function g(t,e){p.aborted||u(t,function(t,n){e=e||"feature",x[n]=e,e in d||(d[e]=[])})}var w={},x={},y={on:o,addEventListener:o,removeEventListener:h,emit:n,get:v,listeners:m,context:e,buffer:g,abort:s,aborted:!1};return y}function o(t){return f(t,c,a)}function a(){return new r}function s(){(d.api||d.feature)&&(p.aborted=!0,d=p.backlog={})}var c="nr@context",f=t("gos"),u=t(22),d={},l={},p=e.exports=i();e.exports.getOrSetContext=o,p.backlog=d},{}],gos:[function(t,e,n){function r(t,e,n){if(i.call(t,e))return t[e];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:r,writable:!0,enumerable:!1}),r}catch(o){}return t[e]=r,r}var i=Object.prototype.hasOwnProperty;e.exports=r},{}],handle:[function(t,e,n){function r(t,e,n,r){i.buffer([t],r),i.emit(t,e,n)}var i=t("ee").get("handle");e.exports=r,r.ee=i},{}],id:[function(t,e,n){function r(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:a(t,o,function(){return i++})}var i=1,o="nr@id",a=t("gos");e.exports=r},{}],loader:[function(t,e,n){function r(){if(!M++){var t=O.info=NREUM.info,e=m.getElementsByTagName("script")[0];if(setTimeout(f.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&e))return f.abort();c(E,function(e,n){t[e]||(t[e]=n)});var n=a();s("mark",["onload",n+O.offset],null,"api"),s("timing",["load",n]);var r=m.createElement("script");0===t.agent.indexOf("http://")||0===t.agent.indexOf("https://")?r.src=t.agent:r.src=p+"://"+t.agent,e.parentNode.insertBefore(r,e)}}function i(){"complete"===m.readyState&&o()}function o(){s("mark",["domContent",a()+O.offset],null,"api")}var a=t(16),s=t("handle"),c=t(22),f=t("ee"),u=t(20),d=t(17),l=t(13),p=l.getConfiguration("ssl")===!1?"http":"https",h=window,m=h.document,v="addEventListener",g="attachEvent",w=h.XMLHttpRequest,x=w&&w.prototype,y=!d(h.location);NREUM.o={ST:setTimeout,SI:h.setImmediate,CT:clearTimeout,XHR:w,REQ:h.Request,EV:h.Event,PR:h.Promise,MO:h.MutationObserver};var b=""+location,E={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1210.min.js"},R=w&&x&&x[v]&&!/CriOS/.test(navigator.userAgent),O=e.exports={offset:a.getLastTimestamp(),now:a,origin:b,features:{},xhrWrappable:R,userAgent:u,disabled:y};if(!y){t(12),t(18),m[v]?(m[v]("DOMContentLoaded",o,!1),h[v]("load",r,!1)):(m[g]("onreadystatechange",i),h[g]("onload",r)),s("mark",["firstbyte",a.getLastTimestamp()],null,"api");var M=0}},{}],"wrap-function":[function(t,e,n){function r(t,e){function n(e,n,r,c,f){function nrWrapper(){var o,a,u,l;try{a=this,o=d(arguments),u="function"==typeof r?r(o,a):r||{}}catch(p){i([p,"",[o,a,c],u],t)}s(n+"start",[o,a,c],u,f);try{return l=e.apply(a,o)}catch(h){throw s(n+"err",[o,a,h],u,f),h}finally{s(n+"end",[o,a,l],u,f)}}return a(e)?e:(n||(n=""),nrWrapper[l]=e,o(e,nrWrapper,t),nrWrapper)}function r(t,e,r,i,o){r||(r="");var s,c,f,u="-"===r.charAt(0);for(f=0;f<e.length;f++)c=e[f],s=t[c],a(s)||(t[c]=n(s,u?c+r:r,i,c,o))}function s(n,r,o,a){if(!h||e){var s=h;h=!0;try{t.emit(n,r,o,e,a)}catch(c){i([c,n,r,o],t)}h=s}}return t||(t=u),n.inPlace=r,n.flag=l,n}function i(t,e){e||(e=u);try{e.emit("internal-error",t)}catch(n){}}function o(t,e,n){if(Object.defineProperty&&Object.keys)try{var r=Object.keys(t);return r.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(o){i([o],n)}for(var a in t)p.call(t,a)&&(e[a]=t[a]);return e}function a(t){return!(t&&t instanceof Function&&t.apply&&!t[l])}function s(t,e){var n=e(t);return n[l]=t,o(t,n,u),n}function c(t,e,n){var r=t[e];t[e]=s(r,n)}function f(){for(var t=arguments.length,e=new Array(t),n=0;n<t;++n)e[n]=arguments[n];return e}var u=t("ee"),d=t(23),l="nr@original",p=Object.prototype.hasOwnProperty,h=!1;e.exports=r,e.exports.wrapFunction=s,e.exports.wrapInPlace=c,e.exports.argsToArray=f},{}]},{},["loader",2,9]);</script>
 <meta property="fb:app_id" content="129848480405753" />
 <meta property="fb:pages" content="21819923015,329876903846185,459190287458280,106721516050,172994359388346" />
@@ -49,12 +49,12 @@
   <meta name="twitter:image" content="https://www.scpr.org/assets/meta/twitter-06a56b46a4d2800a4dfd099229d5fec4.jpg">
 
 <meta name="csrf-param" content="authenticity_token" />
-<meta name="csrf-token" content="i4eP8lwJRqscGrZ41Me62o6fPn+W2SDQthUgk8ke3NxnVsuC3VdxyQpaacgwOmMQdwaB3hHewvLik4H4gP2x9Q==" />
+<meta name="csrf-token" content="LsMgkC0uSeXm61Ag0CidnOOdduTJUchCx0MpoBY2hJPRSJl1aLDSc5UcD93H38+Vohp/BgKVvnKmiRg9nAk57A==" />
 
 <link rel="alternate" type="application/rss+xml" title="RSS" href="https://scpr.org/feeds/all_news" />
 
 
-<link rel="shortcut icon" type="image/x-icon" href="../favicon.ico.html" />
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
 
 <script>
   window.fbAsyncInit = function() {
@@ -98,7 +98,7 @@
    }
  </script>
 
-    <link rel="stylesheet" media="screen" href="../assets/application-7f7821ce515de5e972962c5c644583f6.css.html" />
+    <link rel="stylesheet" media="screen" href="/assets/application-7f7821ce515de5e972962c5c644583f6.css" />
     
     <!-- Start: GPT Async -->
 <script type='text/javascript'>
@@ -164,7 +164,7 @@
 <!-- chartbeat timing for load start -->
 <script type="text/javascript">var _sf_startpt=(new Date()).getTime()</script>
 
-    <script src="../assets/application-5438c131fea4e82cd9b15c59115cba6e.js.html"></script>
+    <script src="/assets/application-5438c131fea4e82cd9b15c59115cba6e.js"></script>
     <script>
       // Function for lazy loading slideshow images
       function imgLoaded(img) {
@@ -252,7 +252,7 @@
               <a href="/podcasts">Podcasts</a>
             </li>
             <li>
-              <a href="/archive/2021/07/19/?section=programs">Archive</a>
+              <a href="/archive/2021/08/26/?section=programs">Archive</a>
             </li>
           </ul>
         </div>
@@ -425,7 +425,7 @@
 
   <div class="o-mast__action o-mast__search">
 
-    <form method="get" action="https://archive.kpcc.org/search/">
+    <form method="get" action="/search/">
       <input type="text" placeholder="Enter your search here" name="q" id="q" />
       <label for="o-mast__search-toggler-checkbox" class="o-mast__search-link" href="#">
         <svg class="b-icon b-icon--search-open">
@@ -480,8 +480,8 @@
   </div>
 </div>
         <section class="o-prologue o-prologue--standard-program">
-    <a class="o-prologue__logo" href="the-daily.html">
-        <object data='../assets/show-logos/the-daily-6a3cfa22a455ae765653cc371a9732b1.svg' type="image/svg+xml"></object>
+    <a class="o-prologue__logo" href="/programs/the-daily">
+        <object data='/assets/show-logos/the-daily-6a3cfa22a455ae765653cc371a9732b1.svg' type="image/svg+xml"></object>
     </a>
     <span class="o-prologue__description">
       <div class="o-prologue__teaser">
@@ -518,7 +518,7 @@
         </script>
       </div>
     </div>
-      <a class="c-ad__attribution" href="/support/underwriting/">Become a KPCC Sponsor</a>
+      <a class="c-ad__attribution" href="http://www.scpr.org/support/underwriting/">Become a KPCC Sponsor</a>
   </div>
 </aside>
 <section class="o-popular-stories-side-bar "  style="order: 6">
@@ -529,77 +529,77 @@
   <label class="o-popular-stories-side-bar__label" for="o-popular-stories-side-bar__input-discussed">DISCUSSED</label>
   <div id="o-popular-stories-side-bar__tab-viewed" class="o-popular-stories-side-bar__tab">
     <div class="o-popular-stories-side-bar__item">
-      <a class="track-event" data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="Popular Now Quadrant" href="/news/2021/07/20/98530/tokyo-olympics-ceo-doesn-t-dismiss-the-idea-that-g/">
+      <a class="track-event" data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="Popular Now Quadrant" href="/news/2021/08/27/99009/peloton-says-it-s-been-subpoenaed-by-doj-and-dhs-o/">
       <figure class="o-popular-stories-side-bar__figure o-figure">
-        <img class="o-popular-stories-side-bar__item-image o-figure__img" src="../assets/meta/facebook-73514b02830df167eb8bfbe15710b5cb.jpg.html" style="background-image: url(../assets/meta/facebook-73514b02830df167eb8bfbe15710b5cb.jpg.html)" />
+        <img class="o-popular-stories-side-bar__item-image o-figure__img" src="https://a.scpr.org/i/d116dd563eb2b33c35b08772770cc978/234804-small.jpg" style="background-image: url(https://a.scpr.org/i/d116dd563eb2b33c35b08772770cc978/234804-small.jpg)" />
       </figure>
       <span class="o-popular-stories-side-bar__item-caption">
-        Tokyo Olympics CEO Doesn't Dismiss The Idea That Games Could Still Be Called Off
+        Peloton Says It's Been Subpoenaed By DOJ And DHS Over Its Product Injury Reporting
       </span>
 </a>    </div>
     <div class="o-popular-stories-side-bar__item">
-      <a class="track-event" data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="Popular Now Quadrant" href="/news/2021/07/20/98529/the-white-house-blamed-china-for-hacking-microsoft/">
+      <a class="track-event" data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="Popular Now Quadrant" href="/news/2021/08/27/99008/the-u-s-has-set-up-a-mass-vaccination-site-for-afg/">
       <figure class="o-popular-stories-side-bar__figure o-figure">
-        <img class="o-popular-stories-side-bar__item-image o-figure__img" src="../assets/meta/facebook-73514b02830df167eb8bfbe15710b5cb.jpg.html" style="background-image: url(../assets/meta/facebook-73514b02830df167eb8bfbe15710b5cb.jpg.html)" />
+        <img class="o-popular-stories-side-bar__item-image o-figure__img" src="https://a.scpr.org/i/3eb3e541688e115debdec435d4172dd6/234803-small.jpg" style="background-image: url(https://a.scpr.org/i/3eb3e541688e115debdec435d4172dd6/234803-small.jpg)" />
       </figure>
       <span class="o-popular-stories-side-bar__item-caption">
-        The White House Blamed China For Hacking Microsoft. China Is Pointing Fingers Back
+        The U.S. Has Set Up A Mass Vaccination Site For Afghans Arriving In Virginia
       </span>
 </a>    </div>
     <div class="o-popular-stories-side-bar__item">
-      <a class="track-event" data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="Popular Now Quadrant" href="/news/2021/07/20/98528/new-york-reaches-a-1-1-billion-opioid-deal-with-th/">
+      <a class="track-event" data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="Popular Now Quadrant" href="/news/2021/08/27/99007/greenhouse-gas-levels-are-the-highest-ever-seen-an/">
       <figure class="o-popular-stories-side-bar__figure o-figure">
-        <img class="o-popular-stories-side-bar__item-image o-figure__img" src="https://a.scpr.org/i/d870bff93c83f65f5aea9db0d0f9e8b7/234308-small.jpg" style="background-image: url(https://a.scpr.org/i/d870bff93c83f65f5aea9db0d0f9e8b7/234308-small.jpg)" />
+        <img class="o-popular-stories-side-bar__item-image o-figure__img" src="https://a.scpr.org/i/281c84db9a64d3e9cba7721d02ebce5e/234802-small.jpg" style="background-image: url(https://a.scpr.org/i/281c84db9a64d3e9cba7721d02ebce5e/234802-small.jpg)" />
       </figure>
       <span class="o-popular-stories-side-bar__item-caption">
-        New York Reaches A $1.1 Billion Opioid Deal With The Nation's Big Drug Wholesalers
+        Greenhouse Gas Levels Are The Highest Ever Seen — And That's Going Back 800,000 Years
       </span>
 </a>    </div>
     <div class="o-popular-stories-side-bar__item">
-      <a class="track-event" data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="Popular Now Quadrant" href="/news/2021/07/20/98527/deaf-blind-athlete-quits-team-usa-after-she-s-told/">
+      <a class="track-event" data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="Popular Now Quadrant" href="/news/2021/08/27/99006/afghanistan-death-toll-climbs-as-pentagon-clarifie/">
       <figure class="o-popular-stories-side-bar__figure o-figure">
-        <img class="o-popular-stories-side-bar__item-image o-figure__img" src="https://a.scpr.org/i/8b678acc69125b514b776443a77b45b8/234307-small.jpg" style="background-image: url(https://a.scpr.org/i/8b678acc69125b514b776443a77b45b8/234307-small.jpg)" />
+        <img class="o-popular-stories-side-bar__item-image o-figure__img" src="https://a.scpr.org/i/170de8f0dad360203c913118c631fdfc/234801-small.jpg" style="background-image: url(https://a.scpr.org/i/170de8f0dad360203c913118c631fdfc/234801-small.jpg)" />
       </figure>
       <span class="o-popular-stories-side-bar__item-caption">
-        Deaf-Blind Athlete Quits Team USA After She's Told She Can't Bring A Care Assistant 
+        Afghanistan Death Toll Climbs As Pentagon Clarifies 1 Bomber Was Involved In Attack
       </span>
 </a>    </div>
   </div>
   <div id="o-popular-stories-side-bar__tab-discussed" class="o-popular-stories-side-bar__tab">
       <div class="o-popular-stories-side-bar__item">
-        <a class="track-event" data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="Popular Now Quadrant" href="/news/2021/07/20/98527/deaf-blind-athlete-quits-team-usa-after-she-s-told/">
+        <a class="track-event" data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="Popular Now Quadrant" href="/news/2021/08/27/99006/afghanistan-death-toll-climbs-as-pentagon-clarifie/">
         <figure class="o-popular-stories-side-bar__figure o-figure">
-          <img class="o-popular-stories-side-bar__item-image o-figure__img" src="https://a.scpr.org/i/8b678acc69125b514b776443a77b45b8/234307-small.jpg" style="background-image: url(https://a.scpr.org/i/8b678acc69125b514b776443a77b45b8/234307-small.jpg)" />
+          <img class="o-popular-stories-side-bar__item-image o-figure__img" src="https://a.scpr.org/i/170de8f0dad360203c913118c631fdfc/234801-small.jpg" style="background-image: url(https://a.scpr.org/i/170de8f0dad360203c913118c631fdfc/234801-small.jpg)" />
         </figure>
         <span class="o-popular-stories-side-bar__item-caption">
-          Deaf-Blind Athlete Quits Team USA After She's Told She Can't Bring A Care Assistant 
+          Afghanistan Death Toll Climbs As Pentagon Clarifies 1 Bomber Was Involved In Attack
         </span>
 </a>      </div>
       <div class="o-popular-stories-side-bar__item">
-        <a class="track-event" data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="Popular Now Quadrant" href="/news/2021/07/20/98528/new-york-reaches-a-1-1-billion-opioid-deal-with-th/">
+        <a class="track-event" data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="Popular Now Quadrant" href="/news/2021/08/27/99007/greenhouse-gas-levels-are-the-highest-ever-seen-an/">
         <figure class="o-popular-stories-side-bar__figure o-figure">
-          <img class="o-popular-stories-side-bar__item-image o-figure__img" src="https://a.scpr.org/i/d870bff93c83f65f5aea9db0d0f9e8b7/234308-small.jpg" style="background-image: url(https://a.scpr.org/i/d870bff93c83f65f5aea9db0d0f9e8b7/234308-small.jpg)" />
+          <img class="o-popular-stories-side-bar__item-image o-figure__img" src="https://a.scpr.org/i/281c84db9a64d3e9cba7721d02ebce5e/234802-small.jpg" style="background-image: url(https://a.scpr.org/i/281c84db9a64d3e9cba7721d02ebce5e/234802-small.jpg)" />
         </figure>
         <span class="o-popular-stories-side-bar__item-caption">
-          New York Reaches A $1.1 Billion Opioid Deal With The Nation's Big Drug Wholesalers
+          Greenhouse Gas Levels Are The Highest Ever Seen — And That's Going Back 800,000 Years
         </span>
 </a>      </div>
       <div class="o-popular-stories-side-bar__item">
-        <a class="track-event" data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="Popular Now Quadrant" href="/news/2021/07/20/98529/the-white-house-blamed-china-for-hacking-microsoft/">
+        <a class="track-event" data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="Popular Now Quadrant" href="/news/2021/08/27/99008/the-u-s-has-set-up-a-mass-vaccination-site-for-afg/">
         <figure class="o-popular-stories-side-bar__figure o-figure">
-          <img class="o-popular-stories-side-bar__item-image o-figure__img" src="../assets/meta/facebook-73514b02830df167eb8bfbe15710b5cb.jpg.html" style="background-image: url(../assets/meta/facebook-73514b02830df167eb8bfbe15710b5cb.jpg.html)" />
+          <img class="o-popular-stories-side-bar__item-image o-figure__img" src="https://a.scpr.org/i/3eb3e541688e115debdec435d4172dd6/234803-small.jpg" style="background-image: url(https://a.scpr.org/i/3eb3e541688e115debdec435d4172dd6/234803-small.jpg)" />
         </figure>
         <span class="o-popular-stories-side-bar__item-caption">
-          The White House Blamed China For Hacking Microsoft. China Is Pointing Fingers Back
+          The U.S. Has Set Up A Mass Vaccination Site For Afghans Arriving In Virginia
         </span>
 </a>      </div>
       <div class="o-popular-stories-side-bar__item">
-        <a class="track-event" data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="Popular Now Quadrant" href="/news/2021/07/20/98530/tokyo-olympics-ceo-doesn-t-dismiss-the-idea-that-g/">
+        <a class="track-event" data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="Popular Now Quadrant" href="/news/2021/08/27/99009/peloton-says-it-s-been-subpoenaed-by-doj-and-dhs-o/">
         <figure class="o-popular-stories-side-bar__figure o-figure">
-          <img class="o-popular-stories-side-bar__item-image o-figure__img" src="../assets/meta/facebook-73514b02830df167eb8bfbe15710b5cb.jpg.html" style="background-image: url(../assets/meta/facebook-73514b02830df167eb8bfbe15710b5cb.jpg.html)" />
+          <img class="o-popular-stories-side-bar__item-image o-figure__img" src="https://a.scpr.org/i/d116dd563eb2b33c35b08772770cc978/234804-small.jpg" style="background-image: url(https://a.scpr.org/i/d116dd563eb2b33c35b08772770cc978/234804-small.jpg)" />
         </figure>
         <span class="o-popular-stories-side-bar__item-caption">
-          Tokyo Olympics CEO Doesn't Dismiss The Idea That Games Could Still Be Called Off
+          Peloton Says It's Been Subpoenaed By DOJ And DHS Over Its Product Injury Reporting
         </span>
 </a>      </div>
   </div>
@@ -608,7 +608,7 @@
 <aside id="" class="o-archive o-archive--small" style="order: 6;">
   <h6 class="o-archive__heading b-heading--h6 b-heading--uppercase u-text-color--gray b-heading--medium">Find a specific episode from The Daily's archive</h6>
 
-  <form accept-charset="UTF-8" action="https://archive.kpcc.org/programs/the-daily/archive" method="post">
+  <form accept-charset="UTF-8" action="/programs/the-daily/archive" method="post">
 
     <input name="utf8" type="hidden" value="&#x2713;" />
     <input name="authenticity_token" type="hidden" value="Hv3qnrajp8wwM5yr16aOZvA+r1JCrnBLq+lRXQVHrc0=" />
@@ -620,8 +620,8 @@
         <option value="4">April</option>
         <option value="5">May</option>
         <option value="6">June</option>
-        <option value="7" selected="selected">July</option>
-        <option value="8">August</option>
+        <option value="7">July</option>
+        <option value="8" selected="selected">August</option>
         <option value="9">September</option>
         <option value="10">October</option>
         <option value="11">November</option>
@@ -648,7 +648,7 @@
         <option value="17">17</option>
         <option value="18">18</option>
         <option value="19">19</option>
-        <option value="20" selected="selected">20</option>
+        <option value="20">20</option>
         <option value="21">21</option>
         <option value="22">22</option>
         <option value="23">23</option>
@@ -656,7 +656,7 @@
         <option value="25">25</option>
         <option value="26">26</option>
         <option value="27">27</option>
-        <option value="28">28</option>
+        <option value="28" selected="selected">28</option>
         <option value="29">29</option>
         <option value="30">30</option>
         <option value="31">31</option>
@@ -698,22 +698,22 @@
         </script>
       </div>
     </div>
-      <a class="c-ad__attribution" href="/support/underwriting/">Become a KPCC Sponsor</a>
+      <a class="c-ad__attribution" href="http://www.scpr.org/support/underwriting/">Become a KPCC Sponsor</a>
   </div>
 </aside>
 <div id="" class="o-featured-episode__center o-standard-program__episode-list" style="order: 3">
   <h6 class="o-featured-episode__list-heading b-heading--h6 b-heading--uppercase u-text-color--gray">Recent episodes</h6>
     <div class="o-featured-episode__segment">
       <div class="o-featured-episode__segment-description">
-        <h3 class="o-featured-episode__segment-title"><a href="/programs/the-daily/2021/01/13/84822/">Is More Violence Coming?</a></h3>
-        <time class="o-story-list__item-timestamp">Wed January 13</time>
-        <div class="o-featured-episode__segment-teaser"><p>After the attack on the Capitol, social media platforms sprang into action, deleting the accounts of agitators.</p><p>Without a central place to congregate, groups have splintered off into other, darker corners of the internet. That could complicate the efforts of law enforcement to track their plans.</p><p>We ask whether the crackdown on social media has reduced the risk of violence — or just made it harder to prevent.</p><p>Guest: <a href="https://www.nytimes.com/by/sheera-frenkel">Sheera Frenkel</a>, a cybersecurity reporter for The New York Times. </p><p>For an exclusive look at how the biggest stories on our show come together, <a href="https://www.nytimes.com/newsletters/the-daily?module=inline">subscribe to our newsletter</a>. You can read the latest edition <a href="https://www.nytimes.com/column/the-daily-newsletter">here</a>.</p><p>Background reading: </p><ul><li>In the days since rioters stormed Capitol Hill, fringe groups like armed militias, QAnon conspiracy theorists and far-right supporters of President Trump have vowed to continue their fight in<a href="https://www.nytimes.com/2021/01/11/technology/fringe-groups-splinter-online-after-facebook-and-twitter-bans.html"> hundreds of conversations on a range of internet platforms</a>.</li><li>Amazon, Apple and Google have cut off Parler,<a href="https://www.nytimes.com/2021/01/09/technology/apple-google-parler.html?searchResultPosition=26"> all but killing the service</a> just as many conservatives were seeking alternatives to Facebook and Twitter.</li></ul><p>For more information on today’s episode, visit <a href="http://nytimes.com/thedaily?smid=pc-thedaily">nytimes.com/thedaily </a></p>
+        <h3 class="o-featured-episode__segment-title"><a href="/programs/the-daily/2021/02/21/85723/">The Sunday Read: ‘The Man Who Turned Credit Card Points Into an Empire’</a></h3>
+        <time class="o-story-list__item-timestamp">Sun February 21</time>
+        <div class="o-featured-episode__segment-teaser"><p>In recent years, travel — cheap travel, specifically — has boomed. Like all booms it has its winners (including influencers and home-sharing platforms like Airbnb) and its losers (namely locals and the environment). Somewhere in that mix is The Points Guy, Brian Kelly, who runs a blog that helps visitors navigate the sprawling, knotty and complex world of travel and credit card rewards.</p><p>Today on The Sunday Read, a look at the life and business of Mr. Kelly, a man who goes on vacation for a living.</p><p><i>This story was written by <strong>Jamie Lauren Keiles</strong> and recorded by Audm. To hear more audio stories from publishers like The New York Times, </i><a href="https://www.audm.com/?utm_source=nytmag&utm_medium=embed&utm_campaign=points_of_no_return" target="_blank"><i>download Audm for iPhone or Android.</i></a></p>
 </div>
           <div class="c-audio-widget">
-            <a href="https://dts.podtrac.com/redirect.mp3/chtbl.com/track/8DB4DB/pdst.fm/e/nyt.simplecastaudio.com/03d8b493-87fc-4bd1-931f-8a8e9b945d8a/episodes/413dceb3-c5b2-4e75-9deb-af45166fa052/audio/128/default.mp3?aid=rss_feed&awCollectionId=03d8b493-87fc-4bd1-931f-8a8e9b945d8a&awEpisodeId=413dceb3-c5b2-4e75-9deb-af45166fa052&feed=54nAGcIl&context=the-daily" class="c-play__button" title="Is More Violence Coming?" data-duration="1667" data-ga-category="Article" data-ga-action="Play" data-ga-label="Player">
+            <a href="https://dts.podtrac.com/redirect.mp3/chtbl.com/track/8DB4DB/pdst.fm/e/nyt.simplecastaudio.com/03d8b493-87fc-4bd1-931f-8a8e9b945d8a/episodes/6469a9ab-ada9-4636-87c8-d0f217580c16/audio/128/default.mp3?aid=rss_feed&awCollectionId=03d8b493-87fc-4bd1-931f-8a8e9b945d8a&awEpisodeId=6469a9ab-ada9-4636-87c8-d0f217580c16&feed=54nAGcIl&context=the-daily" class="c-play__button" title="The Sunday Read: ‘The Man Who Turned Credit Card Points Into an Empire’" data-duration="3212" data-ga-category="Article" data-ga-action="Play" data-ga-label="Player">
               <span class="o-featured-episode__segment-audio">
-                <img class="o-featured-episode__segment-icon" src="../assets/o-audio-bar/Miniplayer-Play@2x-9eb026b3cb47b37babd5eb9f620efedf.png.html" alt="Miniplayer play@2x" />
-                27 MIN 47 SEC
+                <img class="o-featured-episode__segment-icon" src="/assets/o-audio-bar/Miniplayer-Play@2x-9eb026b3cb47b37babd5eb9f620efedf.png" alt="Miniplayer play@2x" />
+                53 MIN 32 SEC
               </span>
             </a>
           </div>
@@ -721,15 +721,15 @@
     </div>
     <div class="o-featured-episode__segment">
       <div class="o-featured-episode__segment-description">
-        <h3 class="o-featured-episode__segment-title"><a href="/programs/the-daily/2021/01/12/84794/">A Swift Impeachment Plan</a></h3>
-        <time class="o-story-list__item-timestamp">Tue January 12</time>
-        <div class="o-featured-episode__segment-teaser"><p>At the heart of the move to impeach President Trump is a relatively simple accusation: that he incited a violent insurrection against the government of the United States.</p><p>We look at the efforts to punish the president for the attack on the Capitol and explain what the impeachment process might look like.</p><p>Guest: <a href="https://www.nytimes.com/by/nicholas-fandos?smid=pc-thedaily">Nicholas Fandos</a>, a national reporter for The New York Times.</p><p>For an exclusive look at how the biggest stories on our show come together, <a href="https://www.nytimes.com/newsletters/the-daily?module=inline">subscribe to our newsletter</a>. You can read the latest edition <a href="https://www.nytimes.com/column/the-daily-newsletter">here</a>.</p><p>Background reading: </p><ul><li>Speaker Nancy Pelosi said the House would formally call on Vice President Mike Pence to invoke the 25th Amendment to strip President Trump of power and<a href="https://www.nytimes.com/2021/01/10/us/politics/trump-impeachment.html"> move to impeach the president if Mr. Pence refused</a>.</li><li>Here’s a closer look at what the president said at a rally of his supporters, which is a<a href="https://www.nytimes.com/2021/01/10/us/trump-speech-riot.html"> focus of the impeachment case</a>.</li></ul><p>For more information on today’s episode, visit <a href="http://nytimes.com/thedaily?smid=pc-thedaily">nytimes.com/thedaily </a></p>
+        <h3 class="o-featured-episode__segment-title"><a href="/programs/the-daily/2021/02/19/85680/">Kids and Covid</a></h3>
+        <time class="o-story-list__item-timestamp">Fri February 19</time>
+        <div class="o-featured-episode__segment-teaser"><p>The end of summer 2021 has been earmarked as the time by which most American adults will be vaccinated. But still remaining is the often-overlooked question of vaccinations for children, who make up around a quarter of the U.S. population.</p><p>Without the immunization of children, herd immunity cannot be reached.</p><p>Today, we ask when America’s children will be vaccinated.</p><p>Guest: <a href="https://www.nytimes.com/by/apoorva-mandavilli?smid=pc-thedaily">Apoorva Mandavilli</a>, a science and global health reporter for The New York Times. </p><p>For an exclusive look at how the biggest stories on our show come together, <a href="https://www.nytimes.com/newsletters/the-daily?module=inline">subscribe to our newsletter</a>. You can read the latest edition <a href="https://www.nytimes.com/column/the-daily-newsletter">here</a>.</p><p>Background reading: </p><ul><li>Pfizer and Moderna have begun testing their vaccines on children 12 and older. The vaccine for kids is coming,<a href="https://www.nytimes.com/2021/02/12/health/covid-vaccines-children.html?action=click&module=RelatedLinks&pgtype=Article?smid=pc-thedaily"> but not for many months</a>.</li><li>New research has cast doubt on the idea that<a href="https://www.nytimes.com/2021/02/10/health/coronavirus-colds-immunity.html?action=click&module=RelatedLinks&pgtype=Article?smid=pc-thedaily"> prior infections with garden-variety coronaviruses</a> might shield some people, particularly children, from the pandemic.</li></ul><p>For more information on today’s episode, visit <a href="http://nytimes.com/thedaily?smid=pc-thedaily">nytimes.com/thedaily.</a> Transcripts of each episode will be made available by the next workday. </p>
 </div>
           <div class="c-audio-widget">
-            <a href="https://dts.podtrac.com/redirect.mp3/chtbl.com/track/8DB4DB/pdst.fm/e/nyt.simplecastaudio.com/03d8b493-87fc-4bd1-931f-8a8e9b945d8a/episodes/72bc8e59-d331-4e8f-a17b-b8cc3ea0474d/audio/128/default.mp3?aid=rss_feed&awCollectionId=03d8b493-87fc-4bd1-931f-8a8e9b945d8a&awEpisodeId=72bc8e59-d331-4e8f-a17b-b8cc3ea0474d&feed=54nAGcIl&context=the-daily" class="c-play__button" title="A Swift Impeachment Plan" data-duration="1714" data-ga-category="Article" data-ga-action="Play" data-ga-label="Player">
+            <a href="https://dts.podtrac.com/redirect.mp3/chtbl.com/track/8DB4DB/pdst.fm/e/nyt.simplecastaudio.com/03d8b493-87fc-4bd1-931f-8a8e9b945d8a/episodes/c1c7a3a1-3ea3-48ee-bc6e-01de0ce47b3a/audio/128/default.mp3?aid=rss_feed&awCollectionId=03d8b493-87fc-4bd1-931f-8a8e9b945d8a&awEpisodeId=c1c7a3a1-3ea3-48ee-bc6e-01de0ce47b3a&feed=54nAGcIl&context=the-daily" class="c-play__button" title="Kids and Covid" data-duration="1626" data-ga-category="Article" data-ga-action="Play" data-ga-label="Player">
               <span class="o-featured-episode__segment-audio">
-                <img class="o-featured-episode__segment-icon" src="../assets/o-audio-bar/Miniplayer-Play@2x-9eb026b3cb47b37babd5eb9f620efedf.png.html" alt="Miniplayer play@2x" />
-                28 MIN 34 SEC
+                <img class="o-featured-episode__segment-icon" src="/assets/o-audio-bar/Miniplayer-Play@2x-9eb026b3cb47b37babd5eb9f620efedf.png" alt="Miniplayer play@2x" />
+                27 MIN 06 SEC
               </span>
             </a>
           </div>
@@ -737,15 +737,15 @@
     </div>
     <div class="o-featured-episode__segment">
       <div class="o-featured-episode__segment-description">
-        <h3 class="o-featured-episode__segment-title"><a href="/programs/the-daily/2021/01/11/84771/">A Pandemic Update: The Variant and the Vaccine Rollout</a></h3>
-        <time class="o-story-list__item-timestamp">Mon January 11</time>
-        <div class="o-featured-episode__segment-teaser"><p>As 2020 drew to a close, a concerning development in the pandemic came out of Britain — a new variant of the coronavirus had been discovered that is significantly more transmissible. It has since been discovered in a number of countries, including the United States.</p><p>The emergence of the new variant has added a new level of urgency to the rollout of vaccines in the U.S., a process that has been slow so far.</p><p>Today, an exploration of two key issues in the fight against the pandemic.</p><p>Guests: <a href="https://www.nytimes.com/by/carl-zimmer">Carl Zimmer</a>, a science writer and author of the “Matter” column for The New York Times; <a href="https://www.nytimes.com/by/abby-goodnough">Abby Goodnough</a>, a national health care correspondent for The Times. </p><p>For an exclusive look at how the biggest stories on our show come together, <a href="https://www.nytimes.com/newsletters/the-daily?module=inline">subscribe to our newsletter</a>. You can read the latest edition <a href="https://www.nytimes.com/column/the-daily-newsletter">here</a>.</p><p>Background reading: </p><ul><li>The new variant of the coronavirus, discovered in December, appears to be more contagious than, and genetically distinct from, more established variants.<a href="https://www.nytimes.com/2020/12/31/health/coronavirus-variant-transmission.html"> Here is what we know about it</a>.</li><li>The first case of the variant in the U.S. was<a href="https://www.nytimes.com/2020/12/29/health/uk-coronavirus-variant-colorado.html"> found in Colorado</a> in December. Pfizer has said that <a href="https://www.nytimes.com/2021/01/08/health/pfizer-covid-vaccine-variant-mutation.html">its vaccine works</a> against the key mutation.</li><li>The distribution of the vaccine in the U.S.<a href="https://www.nytimes.com/2020/12/31/health/vaccine-distribution-delays.html?searchResultPosition=4"> is taking longer than expected</a> — holiday staffing and saving doses for nursing homes are contributing to delays. </li></ul><p>For more information on today’s episode, visit <a href="http://nytimes.com/thedaily?smid=pc-thedaily">nytimes.com/thedaily </a></p>
+        <h3 class="o-featured-episode__segment-title"><a href="/programs/the-daily/2021/02/18/85652/">A Battle for the Soul of Rwanda</a></h3>
+        <time class="o-story-list__item-timestamp">Thu February 18</time>
+        <div class="o-featured-episode__segment-teaser"><p>The story of how Paul Rusesabagina saved the lives of his hotel guests during the Rwandan genocide was immortalized in the 2004 film “Hotel Rwanda.” Leveraging his celebrity, Mr. Rusesabagina openly criticized the Rwandan government, and is now imprisoned on terrorism charges.</p><p>Today, we look at Mr. Rusesabagina’s story tells us about the past, present and future of Rwanda.</p><p>Guest: <a href="https://www.nytimes.com/by/declan-walsh?searchResultPosition=0?smid=pc-thedaily">Declan Walsh</a>, chief Africa correspondent for The New York Times; and <a href="https://www.nytimes.com/by/abdi-latif-dahir?smid=pc-thedaily">Abdi Latif Dahir</a>, East Africa correspondent for The Times.</p><p>For an exclusive look at how the biggest stories on our show come together, <a href="https://www.nytimes.com/newsletters/the-daily?module=inline">subscribe to our newsletter</a>. You can read the latest edition <a href="https://www.nytimes.com/column/the-daily-newsletter">here</a>.</p><p>Background reading: </p><ul><li>Paul Rusesabagina was mysteriously taken back to Rwanda late last year and arrested.<a href="https://www.nytimes.com/2021/02/16/world/africa/rwanda-paul-rusesabagina-trial.html?smid=pc-thedaily"> His supporters say he has no chance of getting a fair hearing.</a></li><li>In a jailhouse interview with Abdi Latif Dahir, Mr. Rusesabagina said<a href="https://www.nytimes.com/2020/09/17/world/africa/paul-rusesabagina-rwanda-interview.html?smid=pc-thedaily"> he was duped into an arrest</a>. He believed he was being flown to Burundi to talk to church groups.</li></ul>
 </div>
           <div class="c-audio-widget">
-            <a href="https://dts.podtrac.com/redirect.mp3/chtbl.com/track/8DB4DB/pdst.fm/e/nyt.simplecastaudio.com/03d8b493-87fc-4bd1-931f-8a8e9b945d8a/episodes/a1946768-f3d1-446c-a568-2b706ac87dad/audio/128/default.mp3?aid=rss_feed&awCollectionId=03d8b493-87fc-4bd1-931f-8a8e9b945d8a&awEpisodeId=a1946768-f3d1-446c-a568-2b706ac87dad&feed=54nAGcIl&context=the-daily" class="c-play__button" title="A Pandemic Update: The Variant and the Vaccine Rollout" data-duration="2047" data-ga-category="Article" data-ga-action="Play" data-ga-label="Player">
+            <a href="https://dts.podtrac.com/redirect.mp3/chtbl.com/track/8DB4DB/pdst.fm/e/nyt.simplecastaudio.com/03d8b493-87fc-4bd1-931f-8a8e9b945d8a/episodes/46287642-cba9-43f3-b0be-0c1797947029/audio/128/default.mp3?aid=rss_feed&awCollectionId=03d8b493-87fc-4bd1-931f-8a8e9b945d8a&awEpisodeId=46287642-cba9-43f3-b0be-0c1797947029&feed=54nAGcIl&context=the-daily" class="c-play__button" title="A Battle for the Soul of Rwanda" data-duration="2513" data-ga-category="Article" data-ga-action="Play" data-ga-label="Player">
               <span class="o-featured-episode__segment-audio">
-                <img class="o-featured-episode__segment-icon" src="../assets/o-audio-bar/Miniplayer-Play@2x-9eb026b3cb47b37babd5eb9f620efedf.png.html" alt="Miniplayer play@2x" />
-                34 MIN 07 SEC
+                <img class="o-featured-episode__segment-icon" src="/assets/o-audio-bar/Miniplayer-Play@2x-9eb026b3cb47b37babd5eb9f620efedf.png" alt="Miniplayer play@2x" />
+                41 MIN 53 SEC
               </span>
             </a>
           </div>
@@ -753,15 +753,15 @@
     </div>
     <div class="o-featured-episode__segment">
       <div class="o-featured-episode__segment-description">
-        <h3 class="o-featured-episode__segment-title"><a href="/programs/the-daily/2021/01/10/84760/">The Sunday Read: 'A Mother and Daughter at the End'</a></h3>
-        <time class="o-story-list__item-timestamp">Sun January 10</time>
-        <div class="o-featured-episode__segment-teaser"><p>Without many predators or any prey, rhinos flourished for millions of years. Humans put an end to that, as we hunted them down and destroyed their habitat.</p><p>No rhino, however, is doing worse than the northern white. Just two, Najin and Fatu, both females, remain.</p><p>In his narrated story, Sam Anderson, a staff writer at The Times Magazine, visits the pair at the Ol Pejeta conservancy in Kenya, speaks to the men who devote their days to caring for them and explores what we will lose when Najin and Fatu die.</p><p><i>This story was written by <strong>Sam Anderson</strong> and recorded by Audm. To hear more audio stories from publishers like The New York Times, </i><a href="https://www.audm.com/?utm_source=nytmag&utm_medium=embed&utm_campaign=mother_daughter_end" target="_blank"><i>download Audm for iPhone or Android</i></a><i>.</i></p>
+        <h3 class="o-featured-episode__segment-title"><a href="/programs/the-daily/2021/02/17/85625/">The Blackout in Texas</a></h3>
+        <time class="o-story-list__item-timestamp">Wed February 17</time>
+        <div class="o-featured-episode__segment-teaser"><p>An intense winter storm has plunged Texas into darkness. The state’s electricity grid has failed in the face of the worst cold weather there in decades.</p><p>The Texas blackouts could be a glimpse into America’s future as a result of climate change. Today, we explore the reasons behind the power failures.</p><p>Guest: <a href="https://www.nytimes.com/by/clifford-krauss?smid=pc-thedaily">Clifford Krauss</a>, a national energy business correspondent based in Houston for The New York Times; and <a href="https://www.nytimes.com/by/brad-plumer?smid=pc-thedaily">Brad Plumer</a>, a climate reporter for The Times. </p><p>For an exclusive look at how the biggest stories on our show come together, <a href="https://www.nytimes.com/newsletters/the-daily?module=inline">subscribe to our newsletter</a>. You can read the latest edition <a href="https://www.nytimes.com/column/the-daily-newsletter">here</a>.</p><p>Background reading: </p><ul><li>Systems are designed to handle spikes in demand, but the wild and unpredictable weather linked to global warming will very likely<a href="https://www.nytimes.com/2021/02/16/climate/texas-power-grid-failures.html?smid=pc-thedaily"> push grids beyond their limits</a>.</li><li>As a winter storm forced the Texas power grid to the brink of collapse, millions of people were submerged into darkness, bitter cold and a sense of indignation over being stuck in<a href="https://www.nytimes.com/2021/02/16/us/texas-winter-storm-power-outages.html?smid=pc-thedaily"> uncomfortable and even dangerous</a> conditions.</li></ul><p>For more information on today’s episode, visit <a href="http://nytimes.com/thedaily?smid=pc-thedaily">nytimes.com/thedaily.</a> Transcripts of each episode will be made available by the next workday. </p>
 </div>
           <div class="c-audio-widget">
-            <a href="https://dts.podtrac.com/redirect.mp3/chtbl.com/track/8DB4DB/pdst.fm/e/nyt.simplecastaudio.com/03d8b493-87fc-4bd1-931f-8a8e9b945d8a/episodes/5e28e6e5-10ec-4b7a-8f78-f9cf702e442f/audio/128/default.mp3?aid=rss_feed&awCollectionId=03d8b493-87fc-4bd1-931f-8a8e9b945d8a&awEpisodeId=5e28e6e5-10ec-4b7a-8f78-f9cf702e442f&feed=54nAGcIl&context=the-daily" class="c-play__button" title="The Sunday Read: 'A Mother and Daughter at the End'" data-duration="3334" data-ga-category="Article" data-ga-action="Play" data-ga-label="Player">
+            <a href="https://dts.podtrac.com/redirect.mp3/chtbl.com/track/8DB4DB/pdst.fm/e/nyt.simplecastaudio.com/03d8b493-87fc-4bd1-931f-8a8e9b945d8a/episodes/a4231e42-b741-4f44-b6d5-432bb25e80e0/audio/128/default.mp3?aid=rss_feed&awCollectionId=03d8b493-87fc-4bd1-931f-8a8e9b945d8a&awEpisodeId=a4231e42-b741-4f44-b6d5-432bb25e80e0&feed=54nAGcIl&context=the-daily" class="c-play__button" title="The Blackout in Texas" data-duration="1723" data-ga-category="Article" data-ga-action="Play" data-ga-label="Player">
               <span class="o-featured-episode__segment-audio">
-                <img class="o-featured-episode__segment-icon" src="../assets/o-audio-bar/Miniplayer-Play@2x-9eb026b3cb47b37babd5eb9f620efedf.png.html" alt="Miniplayer play@2x" />
-                55 MIN 34 SEC
+                <img class="o-featured-episode__segment-icon" src="/assets/o-audio-bar/Miniplayer-Play@2x-9eb026b3cb47b37babd5eb9f620efedf.png" alt="Miniplayer play@2x" />
+                28 MIN 43 SEC
               </span>
             </a>
           </div>
@@ -769,16 +769,15 @@
     </div>
     <div class="o-featured-episode__segment">
       <div class="o-featured-episode__segment-description">
-        <h3 class="o-featured-episode__segment-title"><a href="/programs/the-daily/2021/01/08/84715/">How They Stormed Congress</a></h3>
-        <time class="o-story-list__item-timestamp">Fri January 08</time>
-        <div class="o-featured-episode__segment-teaser">
-        <p><em>This episode contains strong language.&nbsp;</em></p><p>The pro-Trump mob that stormed the Capitol on Wednesday made their plans in plain sight. They organized on social media platforms and spoke openly of their intentions to occupy the Capitol.</p><p>But leaders in Washington opted for a modest law enforcement presence. In the aftermath, those security preparations are attracting intense scrutiny.</p><p>Today, we explore how the events of Jan. 6 could have happened.</p><p><br></p><p>Guest: <a href="https://www.nytimes.com/by/sheera-frenkel?smid=pc-thedaily" rel="noopener noreferrer" target="_blank"><strong>Sheera Frenkel</strong></a>, who covers cybersecurity for The New York Times; <a href="https://www.nytimes.com/by/zolan-kanno-youngs?smid=pc-thedaily" rel="noopener noreferrer" target="_blank"><strong>Zolan Kanno-Youngs</strong></a>, a homeland security correspondent for The Times.&nbsp;</p><p><br></p><p>For an exclusive look at how the biggest stories on our show come together, <a href="https://www.nytimes.com/newsletters/the-daily?module=inline" rel="noopener noreferrer" target="_blank">subscribe to our newsletter</a>. You can read the latest edition <a href="https://www.nytimes.com/column/the-daily-newsletter" rel="noopener noreferrer" target="_blank">here</a>.</p><p><br></p><p>Background reading:&nbsp;</p><ul><li>Inside Trump supporters’ online echo chambers,<a href="https://www.nytimes.com/2021/01/06/us/politics/capitol-mob-trump-supporters.html?searchResultPosition=2" rel="noopener noreferrer" target="_blank"> the chaos of Jan. 6 could be seen coming</a>.</li><li><a href="https://www.nytimes.com/2021/01/07/us/Capitol-cops-police.html" rel="noopener noreferrer" target="_blank">Failures by the police</a> have spurred resignations and complaints of double standards.</li><li>During the storming of the Capitol,<a href="https://www.nytimes.com/2021/01/06/us/politics/protesters-storm-capitol-hill-building.html?searchResultPosition=2" rel="noopener noreferrer" target="_blank"> social media sites were used by the mob</a> to share information, including directions on which streets to take to avoid the police and which tools to bring to help pry open doors.</li></ul><p><br></p><p>For more information on today’s episode, visit <a href="http://nytimes.com/thedaily?smid=pc-thedaily" rel="noopener noreferrer" target="_blank">nytimes.com/thedaily&nbsp;</a></p>
-      </div>
+        <h3 class="o-featured-episode__segment-title"><a href="/programs/the-daily/2021/02/16/85599/">An Impeachment Manager on Trump’s Acquittal</a></h3>
+        <time class="o-story-list__item-timestamp">Tue February 16</time>
+        <div class="o-featured-episode__segment-teaser"><p>There was a sense of fatalism going into former President Donald Trump’s second impeachment trial. Many felt that it would almost certainly end in acquittal.</p><p>Not the Democratic impeachment managers. “You cannot go into a battle thinking you’re going to lose,” said Stacey Plaskett, the congressional representative from the U.S. Virgin Islands who was one of the managers.</p><p>Today, we sit down with Ms. Plaskett for a conversation with Ms. Plaskett about the impeachment and acquittal and what happens next.</p><p>Guest: Delegate Stacey Plaskett of the U.S. Virgin Islands, an impeachment manager in the second trial.</p><p>For an exclusive look at how the biggest stories on our show come together, <a href="https://www.nytimes.com/newsletters/the-daily?module=inline">subscribe to our newsletter</a>. You can read the latest edition <a href="https://www.nytimes.com/column/the-daily-newsletter">here</a>.</p><p>Background reading: </p><ul><li><a href="https://www.nytimes.com/2021/01/13/us/politics/stacey-plaskett-impeachment-manager.html?smid=pc-thedaily">Who is Stacey Plaskett?</a> She could not vote to impeach President Donald Trump, but she made a case against him in his Senate trial.</li><li>As one of the few Black lawmakers to play a role in the impeachment proceedings, Ms. Plaskett plans to<a href="https://www.nytimes.com/2021/02/15/us/politics/joe-neguse-stacey-plaskett-impeachment.html?smid=pc-thedaily"> turn her newfound prominence</a> into gains for her constituents.</li></ul><p>For more information on today’s episode, visit <a href="http://nytimes.com/thedaily?smid=pc-thedaily">nytimes.com/thedaily.</a> Transcripts of each episode will be made available by the next workday.</p>
+</div>
           <div class="c-audio-widget">
-            <a href="https://dts.podtrac.com/redirect.mp3/chtbl.com/track/8DB4DB/rss.art19.com/episodes/19068dbf-74bc-4ec1-a9d7-527cd287180a.mp3?context=the-daily" class="c-play__button" title="How They Stormed Congress" data-duration="1948" data-ga-category="Article" data-ga-action="Play" data-ga-label="Player">
+            <a href="https://dts.podtrac.com/redirect.mp3/chtbl.com/track/8DB4DB/pdst.fm/e/nyt.simplecastaudio.com/03d8b493-87fc-4bd1-931f-8a8e9b945d8a/episodes/00f1ef21-aa5f-41dd-800a-13699e9a1abf/audio/128/default.mp3?aid=rss_feed&awCollectionId=03d8b493-87fc-4bd1-931f-8a8e9b945d8a&awEpisodeId=00f1ef21-aa5f-41dd-800a-13699e9a1abf&feed=54nAGcIl&context=the-daily" class="c-play__button" title="An Impeachment Manager on Trump’s Acquittal" data-duration="2315" data-ga-category="Article" data-ga-action="Play" data-ga-label="Player">
               <span class="o-featured-episode__segment-audio">
-                <img class="o-featured-episode__segment-icon" src="../assets/o-audio-bar/Miniplayer-Play@2x-9eb026b3cb47b37babd5eb9f620efedf.png.html" alt="Miniplayer play@2x" />
-                32 MIN 28 SEC
+                <img class="o-featured-episode__segment-icon" src="/assets/o-audio-bar/Miniplayer-Play@2x-9eb026b3cb47b37babd5eb9f620efedf.png" alt="Miniplayer play@2x" />
+                38 MIN 35 SEC
               </span>
             </a>
           </div>
@@ -786,16 +785,15 @@
     </div>
     <div class="o-featured-episode__segment">
       <div class="o-featured-episode__segment-description">
-        <h3 class="o-featured-episode__segment-title"><a href="/programs/the-daily/2021/01/07/84688/">An Assault on the Capitol</a></h3>
-        <time class="o-story-list__item-timestamp">Thu January 07</time>
-        <div class="o-featured-episode__segment-teaser">
-        <p><em>This episode contains strong language.</em></p><p>It was always going to be a tense day in Washington. In the baseless campaign to challenge Joe Biden’s victory, Wednesday had been framed by President Trump and his allies as the moment for a final stand.</p><p>But what unfolded was disturbing and previously unthinkable: A mob, urged on by the president, advanced on the Capitol building as Congress was certifying the election results and eventually breached its walls.</p><p>Today, the story of what happened from Times journalists who were inside the Capitol.</p><p><br></p><p>Guests: <a href="https://www.nytimes.com/by/nicholas-fandos?smid=pc-thedaily" rel="noopener noreferrer" target="_blank"><strong>Nicholas Fandos</strong></a>, a national reporter for The New York Times; <a href="https://www.nytimes.com/by/jonathan-martin?searchResultPosition=0?smid=pc-thedaily" rel="noopener noreferrer" target="_blank"><strong>Jonathan Martin</strong></a>, a national political correspondent for The Times; and <a href="https://www.nytimes.com/by/emily-cochrane?smid=pc-thedaily" rel="noopener noreferrer" target="_blank"><strong>Emily Cochrane</strong></a>, a congressional reporter for The Times.&nbsp;</p><p><br></p><p>For an exclusive look at how the biggest stories on our show come together, <a href="https://www.nytimes.com/newsletters/the-daily?module=inline" rel="noopener noreferrer" target="_blank">subscribe to our newsletter</a>. You can read the latest edition <a href="https://www.nytimes.com/column/the-daily-newsletter" rel="noopener noreferrer" target="_blank">here</a>.</p><p><br></p><p>Background reading:&nbsp;</p><ul><li>Journalists from The Times witnessed the violence and mayhem.<a href="https://www.nytimes.com/2021/01/06/us/politics/photos-capitol-building-protesters.html?searchResultPosition=9?smid=pc-thedaily" rel="noopener noreferrer" target="_blank"> Here’s how it unfolded</a>.</li><li>One of the most disturbing aspects of Wednesday’s events was that<a href="https://www.nytimes.com/2021/01/06/us/politics/capitol-mob-trump-supporters.html?searchResultPosition=15?smid=pc-thedaily" rel="noopener noreferrer" target="_blank"> they could be seen coming</a>. The president himself had all but circled the date.</li><li>Here is<a href="https://www.nytimes.com/interactive/2021/01/06/us/trump-mob-capitol-building.html?searchResultPosition=3?smid=pc-thedaily" rel="noopener noreferrer" target="_blank"> an explanation of how the pro-Trump mob</a> managed to storm the Capitol&nbsp;</li></ul><p><br></p><p>For more information on today’s episode, visit <a href="http://nytimes.com/thedaily?smid=pc-thedaily" rel="noopener noreferrer" target="_blank">nytimes.com/thedaily&nbsp;</a></p>
-      </div>
+        <h3 class="o-featured-episode__segment-title"><a href="/programs/the-daily/2021/02/14/85564/">The Sunday Read: 'Who's Making All Those Scam Calls?'</a></h3>
+        <time class="o-story-list__item-timestamp">Sun February 14</time>
+        <div class="o-featured-episode__segment-teaser"><p>The app Truecaller estimates that as many as 56 million Americans have fallen foul to scam calls, losing nearly $20 billion.</p><p>Enter L., an anonymous vigilante, referred to here by his middle initial, who seeks to expose and disrupt these scams, posting his work to a YouTube channel under the name “Jim Browning.”</p><p>On today’s Sunday Read, Yudhijit Bhattacharjee follows L.’s work and travels to India to understand the people and the forces behind these scams.</p><p><i>This story was written by <strong>Yudhijit Bhattacharje</strong></i><strong>e</strong><i> and recorded by Audm. To hear more audio stories from publishers like The New York Times, </i><a href="https://www.audm.com/?utm_source=nytmag&utm_medium=embed&utm_campaign=tracing_the_call_bhattacharjee" target="_blank"><i>download Audm for iPhone or Android.</i></a></p><p> </p>
+</div>
           <div class="c-audio-widget">
-            <a href="https://dts.podtrac.com/redirect.mp3/chtbl.com/track/8DB4DB/rss.art19.com/episodes/96075be9-69da-4b14-905c-a6982020f52c.mp3?context=the-daily" class="c-play__button" title="An Assault on the Capitol" data-duration="2495" data-ga-category="Article" data-ga-action="Play" data-ga-label="Player">
+            <a href="https://dts.podtrac.com/redirect.mp3/chtbl.com/track/8DB4DB/pdst.fm/e/nyt.simplecastaudio.com/03d8b493-87fc-4bd1-931f-8a8e9b945d8a/episodes/4f1ab0ac-863d-4e70-adb1-e3b2bc5bb5e1/audio/128/default.mp3?aid=rss_feed&awCollectionId=03d8b493-87fc-4bd1-931f-8a8e9b945d8a&awEpisodeId=4f1ab0ac-863d-4e70-adb1-e3b2bc5bb5e1&feed=54nAGcIl&context=the-daily" class="c-play__button" title="The Sunday Read: 'Who's Making All Those Scam Calls?'" data-duration="2406" data-ga-category="Article" data-ga-action="Play" data-ga-label="Player">
               <span class="o-featured-episode__segment-audio">
-                <img class="o-featured-episode__segment-icon" src="../assets/o-audio-bar/Miniplayer-Play@2x-9eb026b3cb47b37babd5eb9f620efedf.png.html" alt="Miniplayer play@2x" />
-                41 MIN 35 SEC
+                <img class="o-featured-episode__segment-icon" src="/assets/o-audio-bar/Miniplayer-Play@2x-9eb026b3cb47b37babd5eb9f620efedf.png" alt="Miniplayer play@2x" />
+                40 MIN 06 SEC
               </span>
             </a>
           </div>
@@ -805,21 +803,21 @@
 
   <nav class="pagination">
     <span class="first">
-  <a href="the-daily.html">&laquo; First</a>
+  <a href="/programs/the-daily">&laquo; First</a>
 </span>
 
     <span class="prev">
-  <a rel="prev" href="the-daily%3Fpage=28.html">&lsaquo; Prev</a>
+  <a rel="prev" href="/programs/the-daily?page=28">&lsaquo; Prev</a>
 </span>
 
         <span class="page gap">&hellip;</span>
 
         <span class="page">
-  <a href="the-daily%3Fpage=27.html">27</a>
+  <a href="/programs/the-daily?page=27">27</a>
 </span>
 
         <span class="page">
-  <a rel="prev" href="the-daily%3Fpage=28.html">28</a>
+  <a rel="prev" href="/programs/the-daily?page=28">28</a>
 </span>
 
         <span class="page current">
@@ -827,21 +825,21 @@
 </span>
 
         <span class="page">
-  <a rel="next" href="the-daily%3Fpage=30.html">30</a>
+  <a rel="next" href="/programs/the-daily?page=30">30</a>
 </span>
 
         <span class="page">
-  <a href="the-daily%3Fpage=31.html">31</a>
+  <a href="/programs/the-daily?page=31">31</a>
 </span>
 
         <span class="page gap">&hellip;</span>
 
     <span class="next">
-  <a rel="next" href="the-daily%3Fpage=30.html">Next &rsaquo;</a>
+  <a rel="next" href="/programs/the-daily?page=30">Next &rsaquo;</a>
 </span>
 
     <span class="last">
-  <a href="/programs/the-daily?page=178">Last &raquo;</a>
+  <a href="/programs/the-daily?page=184">Last &raquo;</a>
 </span>
 
   </nav>
@@ -853,7 +851,7 @@
 
       <a href="/programs/airtalk/">
         <figure class="o-featured-programs__program-figure o-figure o-figure--widescreen">
-          <img class="o-figure__img" src="../assets/programs/airtalk-4412b6c8664a6b9b729a358b4bd76379.jpg.html" style="background-image: url(../assets/programs/airtalk-4412b6c8664a6b9b729a358b4bd76379.jpg.html);">
+          <img class="o-figure__img" src="/assets/programs/airtalk-4412b6c8664a6b9b729a358b4bd76379.jpg" style="background-image: url(/assets/programs/airtalk-4412b6c8664a6b9b729a358b4bd76379.jpg);">
         </figure>
       </a>
 
@@ -879,7 +877,7 @@
 
       <a href="/programs/filmweek/">
         <figure class="o-featured-programs__program-figure o-figure o-figure--widescreen">
-          <img class="o-figure__img" src="../assets/programs/filmweek-7f098addfc273da97d493045e8635352.jpg.html" style="background-image: url(../assets/programs/filmweek-7f098addfc273da97d493045e8635352.jpg.html);">
+          <img class="o-figure__img" src="/assets/programs/filmweek-7f098addfc273da97d493045e8635352.jpg" style="background-image: url(/assets/programs/filmweek-7f098addfc273da97d493045e8635352.jpg);">
         </figure>
       </a>
 
@@ -904,51 +902,51 @@
 
 </section>
 
-<section class="o-popular-stories o-popular-stories--horiz" style="order: 1001">
+<section class="o-popular-stories l-column--boundless o-popular-stories--horiz" style="order: 1001">
   <h4 class="o-popular-stories__heading b-heading b-heading--h4 b-heading--uppercase u-text-color--gray-warm b-heading--medium">What's popular now on KPCC</h4>
     <div class="o-popular-stories__story track-event">
       <figure class="o-popular-stories__figure o-figure o-figure--four-by-three">
-        <a data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="Popular Now Quadrant" href="/news/2021/07/20/98530/tokyo-olympics-ceo-doesn-t-dismiss-the-idea-that-g/">
-        <img class="o-figure__img" src="../assets/meta/facebook-73514b02830df167eb8bfbe15710b5cb.jpg.html" style="background-image: url(../assets/meta/facebook-73514b02830df167eb8bfbe15710b5cb.jpg.html)" />
+        <a data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="Popular Now Quadrant" href="/news/2021/08/27/99010/a-u-s-intelligence-report-fails-to-pinpoint-covid/">
+        <img class="o-figure__img" src="https://a.scpr.org/i/59d668f71ceddb95fd85b2c74ff3dbe0/234805-full.jpg" style="background-image: url(https://a.scpr.org/i/59d668f71ceddb95fd85b2c74ff3dbe0/234805-full.jpg)" />
 </a>        <figcaption class="o-popular-stories__caption">
-          <a data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="Popular Now Quadrant" href="/news/2021/07/20/98530/tokyo-olympics-ceo-doesn-t-dismiss-the-idea-that-g/">
-          Tokyo Olympics CEO Doesn't Dismiss The Idea That Games Could Still Be Called Off
+          <a data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="Popular Now Quadrant" href="/news/2021/08/27/99010/a-u-s-intelligence-report-fails-to-pinpoint-covid/">
+          A U.S. Intelligence Report Fails To Pinpoint COVID's Origins 
 </a>        </figcaption>
       </figure>
     </div>
     <div class="o-popular-stories__story track-event">
       <figure class="o-popular-stories__figure o-figure o-figure--four-by-three">
-        <a data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="Popular Now Quadrant" href="/news/2021/07/20/98529/the-white-house-blamed-china-for-hacking-microsoft/">
-        <img class="o-figure__img" src="../assets/meta/facebook-73514b02830df167eb8bfbe15710b5cb.jpg.html" style="background-image: url(../assets/meta/facebook-73514b02830df167eb8bfbe15710b5cb.jpg.html)" />
+        <a data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="Popular Now Quadrant" href="/news/2021/08/27/99009/peloton-says-it-s-been-subpoenaed-by-doj-and-dhs-o/">
+        <img class="o-figure__img" src="https://a.scpr.org/i/d116dd563eb2b33c35b08772770cc978/234804-full.jpg" style="background-image: url(https://a.scpr.org/i/d116dd563eb2b33c35b08772770cc978/234804-full.jpg)" />
 </a>        <figcaption class="o-popular-stories__caption">
-          <a data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="Popular Now Quadrant" href="/news/2021/07/20/98529/the-white-house-blamed-china-for-hacking-microsoft/">
-          The White House Blamed China For Hacking Microsoft. China Is Pointing Fingers Back
+          <a data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="Popular Now Quadrant" href="/news/2021/08/27/99009/peloton-says-it-s-been-subpoenaed-by-doj-and-dhs-o/">
+          Peloton Says It's Been Subpoenaed By DOJ And DHS Over Its Product Injury Reporting
 </a>        </figcaption>
       </figure>
     </div>
     <div class="o-popular-stories__story track-event">
       <figure class="o-popular-stories__figure o-figure o-figure--four-by-three">
-        <a data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="Popular Now Quadrant" href="/news/2021/07/20/98528/new-york-reaches-a-1-1-billion-opioid-deal-with-th/">
-        <img class="o-figure__img" src="https://a.scpr.org/i/d870bff93c83f65f5aea9db0d0f9e8b7/234308-full.jpg" style="background-image: url(https://a.scpr.org/i/d870bff93c83f65f5aea9db0d0f9e8b7/234308-full.jpg)" />
+        <a data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="Popular Now Quadrant" href="/news/2021/08/27/99008/the-u-s-has-set-up-a-mass-vaccination-site-for-afg/">
+        <img class="o-figure__img" src="https://a.scpr.org/i/3eb3e541688e115debdec435d4172dd6/234803-full.jpg" style="background-image: url(https://a.scpr.org/i/3eb3e541688e115debdec435d4172dd6/234803-full.jpg)" />
 </a>        <figcaption class="o-popular-stories__caption">
-          <a data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="Popular Now Quadrant" href="/news/2021/07/20/98528/new-york-reaches-a-1-1-billion-opioid-deal-with-th/">
-          New York Reaches A $1.1 Billion Opioid Deal With The Nation's Big Drug Wholesalers
+          <a data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="Popular Now Quadrant" href="/news/2021/08/27/99008/the-u-s-has-set-up-a-mass-vaccination-site-for-afg/">
+          The U.S. Has Set Up A Mass Vaccination Site For Afghans Arriving In Virginia
 </a>        </figcaption>
       </figure>
     </div>
     <div class="o-popular-stories__story track-event">
       <figure class="o-popular-stories__figure o-figure o-figure--four-by-three">
-        <a data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="Popular Now Quadrant" href="/news/2021/07/20/98527/deaf-blind-athlete-quits-team-usa-after-she-s-told/">
-        <img class="o-figure__img" src="https://a.scpr.org/i/8b678acc69125b514b776443a77b45b8/234307-full.jpg" style="background-image: url(https://a.scpr.org/i/8b678acc69125b514b776443a77b45b8/234307-full.jpg)" />
+        <a data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="Popular Now Quadrant" href="/news/2021/08/27/99007/greenhouse-gas-levels-are-the-highest-ever-seen-an/">
+        <img class="o-figure__img" src="https://a.scpr.org/i/281c84db9a64d3e9cba7721d02ebce5e/234802-full.jpg" style="background-image: url(https://a.scpr.org/i/281c84db9a64d3e9cba7721d02ebce5e/234802-full.jpg)" />
 </a>        <figcaption class="o-popular-stories__caption">
-          <a data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="Popular Now Quadrant" href="/news/2021/07/20/98527/deaf-blind-athlete-quits-team-usa-after-she-s-told/">
-          Deaf-Blind Athlete Quits Team USA After She's Told She Can't Bring A Care Assistant 
+          <a data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="Popular Now Quadrant" href="/news/2021/08/27/99007/greenhouse-gas-levels-are-the-highest-ever-seen-an/">
+          Greenhouse Gas Levels Are The Highest Ever Seen — And That's Going Back 800,000 Years
 </a>        </figcaption>
       </figure>
     </div>
 </section>
 <aside class="o-epilogue " style="order: 1001">
-  <img class="o-epilogue__graphic" src="../assets/graphic_epilogue-donate-da43de6f4b535f18d15ac128cd10b27d.svg.html">
+  <img class="o-epilogue__graphic" src="/assets/graphic_epilogue-donate-da43de6f4b535f18d15ac128cd10b27d.svg">
   <div class="o-epilogue__text">
     <h1 class="o-epilogue__heading"><a href="https://support.kpcc.org/default?ms=subfooter">KPCC's  coverage is a Southern California resource provided by member-supported public radio. We can't do it without you.</a></h1>
     <a class="o-epilogue-callout b-link b-link--callout" href="https://support.kpcc.org/default?ms=subfooter">Your contributions power KPCC.  Give today.</a>
@@ -990,10 +988,10 @@
     </div>
     <div class="l-section--margin-sm">
       <ul class="c-list--horiz b-text">
-        <li><a class="b-link b-link--white-dark-bg" href="take-two.1.html">Take Two</a></li>
+        <li><a class="b-link b-link--white-dark-bg" href="/programs/take-two">Take Two</a></li>
         <li><a class="b-link b-link--white-dark-bg" href="/programs/airtalk">AirTalk</a></li>
         <li><a class="b-link b-link--white-dark-bg" href="/programs/offramp">Off-Ramp</a></li>
-        <li><a class="b-link b-link--white-dark-bg" href="the-frame.1.html">The Frame</a></li>
+        <li><a class="b-link b-link--white-dark-bg" href="/programs/the-frame">The Frame</a></li>
         <li><a class="b-link b-link--white-dark-bg" href="/schedule">Program Schedule</a></li>
         <li><a class="b-link b-link--white-dark-bg" href="/programs">Programs A-Z</a></li>
         <li><a class="b-link b-link--white-dark-bg" href="/events/kpcc-in-person">KPCC In Person</a></li>
@@ -1108,7 +1106,7 @@
         </div>
       </div>
       <div class="o-audio-bar__buttons">
-          <a class="o-audio-bar__download" href="the-daily%3Fpage=29.html#" download>
+          <a class="o-audio-bar__download" href="#" download>
             <svg class="b-icon o-audio-bar__download-icon" data-ga-category="Article" data-ga-action="Volume" data-ga-label="Player">
               <use class="" xlink:href="/static/images/scpr-sprite.svg#icon_line-download"/>
               Download
@@ -1241,7 +1239,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                         };
 </script>
   <noscript>
-    <img src="https://pixel.quantserve.com/pixel/p-_ZNT1e57PQPC3.gif?labels=_fp.event.Default" style="display: none;" border="0" height="1" width="1" alt="Quantcast"/>
+    <img src="//pixel.quantserve.com/pixel/p-_ZNT1e57PQPC3.gif?labels=_fp.event.Default" style="display: none;" border="0" height="1" width="1" alt="Quantcast"/>
   </noscript>
 <!-- End Quantcast Tag -->
 
@@ -1270,6 +1268,6 @@ $(function() {
 </html>
 
 
-    <script src="../assets/better_homepage/style-guide-595f2dc3b18234ed913ffd5b40175ebc.js" async="async"></script>
+    <script src="/assets/better_homepage/style-guide-595f2dc3b18234ed913ffd5b40175ebc.js" async="async"></script>
   </body>
 </html>

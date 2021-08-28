@@ -28,7 +28,7 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="black" />
 <meta name="format-detection" content="telephone=no" />
 <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
-<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam-cell.nr-data.net","errorBeacon":"bam-cell.nr-data.net","licenseKey":"3a7254ec4f","applicationID":"446356","transactionName":"JV4MRkQMDVRTRUlIRQlWEFNbEE5LXlgR","queueTime":0,"applicationTime":800,"agent":""}</script>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam-cell.nr-data.net","errorBeacon":"bam-cell.nr-data.net","licenseKey":"3a7254ec4f","applicationID":"446356","transactionName":"JV4MRkQMDVRTRUlIRQlWEFNbEE5LXlgR","queueTime":0,"applicationTime":2979,"agent":""}</script>
 <script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"UwcDWFBADAcGV1RU",licenseKey:"3a7254ec4f",applicationID:"446356"};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var i=e[n]={exports:{}};t[n][0].call(i.exports,function(e){var i=t[n][1][e];return r(i||e)},i,i.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var i=0;i<n.length;i++)r(n[i]);return r}({1:[function(t,e,n){function r(t){try{s.console&&console.log(t)}catch(e){}}var i,o=t("ee"),a=t(22),s={};try{i=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(s.console=!0,i.indexOf("dev")!==-1&&(s.dev=!0),i.indexOf("nr_dev")!==-1&&(s.nrDev=!0))}catch(c){}s.nrDev&&o.on("internal-error",function(t){r(t.stack)}),s.dev&&o.on("fn-err",function(t,e,n){r(n.stack)}),s.dev&&(r("NR AGENT IN DEVELOPMENT MODE"),r("flags: "+a(s,function(t,e){return t}).join(", ")))},{}],2:[function(t,e,n){function r(t,e,n,r,s){try{p?p-=1:i(s||new UncaughtException(t,e,n),!0)}catch(f){try{o("ierr",[f,c.now(),!0])}catch(d){}}return"function"==typeof u&&u.apply(this,a(arguments))}function UncaughtException(t,e,n){this.message=t||"Uncaught error with no additional information",this.sourceURL=e,this.line=n}function i(t,e){var n=e?null:c.now();o("err",[t,n])}var o=t("handle"),a=t(23),s=t("ee"),c=t("loader"),f=t("gos"),u=window.onerror,d=!1,l="nr@seenError";if(!c.disabled){var p=0;c.features.err=!0,t(1),window.onerror=r;try{throw new Error}catch(h){"stack"in h&&(t(6),t(5),"addEventListener"in window&&t(3),c.xhrWrappable&&t(7),d=!0)}s.on("fn-start",function(t,e,n){d&&(p+=1)}),s.on("fn-err",function(t,e,n){d&&!n[l]&&(f(n,l,function(){return!0}),this.thrown=!0,i(n))}),s.on("fn-end",function(){d&&!this.thrown&&p>0&&(p-=1)}),s.on("internal-error",function(t){o("ierr",[t,c.now(),!0])})}},{}],3:[function(t,e,n){function r(t){for(var e=t;e&&!e.hasOwnProperty(u);)e=Object.getPrototypeOf(e);e&&i(e)}function i(t){s.inPlace(t,[u,d],"-",o)}function o(t,e){return t[1]}var a=t("ee").get("events"),s=t("wrap-function")(a,!0),c=t("gos"),f=XMLHttpRequest,u="addEventListener",d="removeEventListener";e.exports=a,"getPrototypeOf"in Object?(r(document),r(window),r(f.prototype)):f.prototype.hasOwnProperty(u)&&(i(window),i(f.prototype)),a.on(u+"-start",function(t,e){var n=t[1],r=c(n,"nr@wrapped",function(){function t(){if("function"==typeof n.handleEvent)return n.handleEvent.apply(n,arguments)}var e={object:t,"function":n}[typeof n];return e?s(e,"fn-",null,e.name||"anonymous"):n});this.wrapped=t[1]=r}),a.on(d+"-start",function(t){t[1]=this.wrapped||t[1]})},{}],4:[function(t,e,n){function r(t,e,n){var r=t[e];"function"==typeof r&&(t[e]=function(){var t=o(arguments),e={};i.emit(n+"before-start",[t],e);var a;e[m]&&e[m].dt&&(a=e[m].dt);var s=r.apply(this,t);return i.emit(n+"start",[t,a],s),s.then(function(t){return i.emit(n+"end",[null,t],s),t},function(t){throw i.emit(n+"end",[t],s),t})})}var i=t("ee").get("fetch"),o=t(23),a=t(22);e.exports=i;var s=window,c="fetch-",f=c+"body-",u=["arrayBuffer","blob","json","text","formData"],d=s.Request,l=s.Response,p=s.fetch,h="prototype",m="nr@context";d&&l&&p&&(a(u,function(t,e){r(d[h],e,f),r(l[h],e,f)}),r(s,"fetch",c),i.on(c+"end",function(t,e){var n=this;if(e){var r=e.headers.get("content-length");null!==r&&(n.rxSize=r),i.emit(c+"done",[null,e],n)}else i.emit(c+"done",[t],n)}))},{}],5:[function(t,e,n){var r=t("ee").get("raf"),i=t("wrap-function")(r),o="equestAnimationFrame";e.exports=r,i.inPlace(window,["r"+o,"mozR"+o,"webkitR"+o,"msR"+o],"raf-"),r.on("raf-start",function(t){t[0]=i(t[0],"fn-")})},{}],6:[function(t,e,n){function r(t,e,n){t[0]=a(t[0],"fn-",null,n)}function i(t,e,n){this.method=n,this.timerDuration=isNaN(t[1])?0:+t[1],t[0]=a(t[0],"fn-",this,n)}var o=t("ee").get("timer"),a=t("wrap-function")(o),s="setTimeout",c="setInterval",f="clearTimeout",u="-start",d="-";e.exports=o,a.inPlace(window,[s,"setImmediate"],s+d),a.inPlace(window,[c],c+d),a.inPlace(window,[f,"clearImmediate"],f+d),o.on(c+u,r),o.on(s+u,i)},{}],7:[function(t,e,n){function r(t,e){d.inPlace(e,["onreadystatechange"],"fn-",s)}function i(){var t=this,e=u.context(t);t.readyState>3&&!e.resolved&&(e.resolved=!0,u.emit("xhr-resolved",[],t)),d.inPlace(t,w,"fn-",s)}function o(t){x.push(t),h&&(b?b.then(a):v?v(a):(E=-E,R.data=E))}function a(){for(var t=0;t<x.length;t++)r([],x[t]);x.length&&(x=[])}function s(t,e){return e}function c(t,e){for(var n in t)e[n]=t[n];return e}t(3);var f=t("ee"),u=f.get("xhr"),d=t("wrap-function")(u),l=NREUM.o,p=l.XHR,h=l.MO,m=l.PR,v=l.SI,g="readystatechange",w=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"],x=[];e.exports=u;var y=window.XMLHttpRequest=function(t){var e=new p(t);try{u.emit("new-xhr",[e],e),e.addEventListener(g,i,!1)}catch(n){try{u.emit("internal-error",[n])}catch(r){}}return e};if(c(p,y),y.prototype=p.prototype,d.inPlace(y.prototype,["open","send"],"-xhr-",s),u.on("send-xhr-start",function(t,e){r(t,e),o(e)}),u.on("open-xhr-start",r),h){var b=m&&m.resolve();if(!v&&!m){var E=1,R=document.createTextNode(E);new h(a).observe(R,{characterData:!0})}}else f.on("fn-end",function(t){t[0]&&t[0].type===g||a()})},{}],8:[function(t,e,n){function r(t){if(!s(t))return null;var e=window.NREUM;if(!e.loader_config)return null;var n=(e.loader_config.accountID||"").toString()||null,r=(e.loader_config.agentID||"").toString()||null,f=(e.loader_config.trustKey||"").toString()||null;if(!n||!r)return null;var h=p.generateSpanId(),m=p.generateTraceId(),v=Date.now(),g={spanId:h,traceId:m,timestamp:v};return(t.sameOrigin||c(t)&&l())&&(g.traceContextParentHeader=i(h,m),g.traceContextStateHeader=o(h,v,n,r,f)),(t.sameOrigin&&!u()||!t.sameOrigin&&c(t)&&d())&&(g.newrelicHeader=a(h,m,v,n,r,f)),g}function i(t,e){return"00-"+e+"-"+t+"-01"}function o(t,e,n,r,i){var o=0,a="",s=1,c="",f="";return i+"@nr="+o+"-"+s+"-"+n+"-"+r+"-"+t+"-"+a+"-"+c+"-"+f+"-"+e}function a(t,e,n,r,i,o){var a="btoa"in window&&"function"==typeof window.btoa;if(!a)return null;var s={v:[0,1],d:{ty:"Browser",ac:r,ap:i,id:t,tr:e,ti:n}};return o&&r!==o&&(s.d.tk=o),btoa(JSON.stringify(s))}function s(t){return f()&&c(t)}function c(t){var e=!1,n={};if("init"in NREUM&&"distributed_tracing"in NREUM.init&&(n=NREUM.init.distributed_tracing),t.sameOrigin)e=!0;else if(n.allowed_origins instanceof Array)for(var r=0;r<n.allowed_origins.length;r++){var i=h(n.allowed_origins[r]);if(t.hostname===i.hostname&&t.protocol===i.protocol&&t.port===i.port){e=!0;break}}return e}function f(){return"init"in NREUM&&"distributed_tracing"in NREUM.init&&!!NREUM.init.distributed_tracing.enabled}function u(){return"init"in NREUM&&"distributed_tracing"in NREUM.init&&!!NREUM.init.distributed_tracing.exclude_newrelic_header}function d(){return"init"in NREUM&&"distributed_tracing"in NREUM.init&&NREUM.init.distributed_tracing.cors_use_newrelic_header!==!1}function l(){return"init"in NREUM&&"distributed_tracing"in NREUM.init&&!!NREUM.init.distributed_tracing.cors_use_tracecontext_headers}var p=t(19),h=t(10);e.exports={generateTracePayload:r,shouldGenerateTrace:s}},{}],9:[function(t,e,n){function r(t){var e=this.params,n=this.metrics;if(!this.ended){this.ended=!0;for(var r=0;r<l;r++)t.removeEventListener(d[r],this.listener,!1);e.aborted||(n.duration=a.now()-this.startTime,this.loadCaptureCalled||4!==t.readyState?null==e.status&&(e.status=0):o(this,t),n.cbTime=this.cbTime,u.emit("xhr-done",[t],t),s("xhr",[e,n,this.startTime]))}}function i(t,e){var n=c(e),r=t.params;r.host=n.hostname+":"+n.port,r.pathname=n.pathname,t.parsedOrigin=n,t.sameOrigin=n.sameOrigin}function o(t,e){t.params.status=e.status;var n=v(e,t.lastSize);if(n&&(t.metrics.rxSize=n),t.sameOrigin){var r=e.getResponseHeader("X-NewRelic-App-Data");r&&(t.params.cat=r.split(", ").pop())}t.loadCaptureCalled=!0}var a=t("loader");if(a.xhrWrappable&&!a.disabled){var s=t("handle"),c=t(10),f=t(8).generateTracePayload,u=t("ee"),d=["load","error","abort","timeout"],l=d.length,p=t("id"),h=t(15),m=t(14),v=t(11),g=NREUM.o.REQ,w=window.XMLHttpRequest;a.features.xhr=!0,t(7),t(4),u.on("new-xhr",function(t){var e=this;e.totalCbs=0,e.called=0,e.cbTime=0,e.end=r,e.ended=!1,e.xhrGuids={},e.lastSize=null,e.loadCaptureCalled=!1,e.params=this.params||{},e.metrics=this.metrics||{},t.addEventListener("load",function(n){o(e,t)},!1),h&&(h>34||h<10)||window.opera||t.addEventListener("progress",function(t){e.lastSize=t.loaded},!1)}),u.on("open-xhr-start",function(t){this.params={method:t[0]},i(this,t[1]),this.metrics={}}),u.on("open-xhr-end",function(t,e){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&e.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid);var n=f(this.parsedOrigin);if(n){var r=!1;n.newrelicHeader&&(e.setRequestHeader("newrelic",n.newrelicHeader),r=!0),n.traceContextParentHeader&&(e.setRequestHeader("traceparent",n.traceContextParentHeader),n.traceContextStateHeader&&e.setRequestHeader("tracestate",n.traceContextStateHeader),r=!0),r&&(this.dt=n)}}),u.on("send-xhr-start",function(t,e){var n=this.metrics,r=t[0],i=this;if(n&&r){var o=m(r);o&&(n.txSize=o)}this.startTime=a.now(),this.listener=function(t){try{"abort"!==t.type||i.loadCaptureCalled||(i.params.aborted=!0),("load"!==t.type||i.called===i.totalCbs&&(i.onloadCalled||"function"!=typeof e.onload))&&i.end(e)}catch(n){try{u.emit("internal-error",[n])}catch(r){}}};for(var s=0;s<l;s++)e.addEventListener(d[s],this.listener,!1)}),u.on("xhr-cb-time",function(t,e,n){this.cbTime+=t,e?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof n.onload||this.end(n)}),u.on("xhr-load-added",function(t,e){var n=""+p(t)+!!e;this.xhrGuids&&!this.xhrGuids[n]&&(this.xhrGuids[n]=!0,this.totalCbs+=1)}),u.on("xhr-load-removed",function(t,e){var n=""+p(t)+!!e;this.xhrGuids&&this.xhrGuids[n]&&(delete this.xhrGuids[n],this.totalCbs-=1)}),u.on("addEventListener-end",function(t,e){e instanceof w&&"load"===t[0]&&u.emit("xhr-load-added",[t[1],t[2]],e)}),u.on("removeEventListener-end",function(t,e){e instanceof w&&"load"===t[0]&&u.emit("xhr-load-removed",[t[1],t[2]],e)}),u.on("fn-start",function(t,e,n){e instanceof w&&("onload"===n&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=a.now()))}),u.on("fn-end",function(t,e){this.xhrCbStart&&u.emit("xhr-cb-time",[a.now()-this.xhrCbStart,this.onload,e],e)}),u.on("fetch-before-start",function(t){function e(t,e){var n=!1;return e.newrelicHeader&&(t.set("newrelic",e.newrelicHeader),n=!0),e.traceContextParentHeader&&(t.set("traceparent",e.traceContextParentHeader),e.traceContextStateHeader&&t.set("tracestate",e.traceContextStateHeader),n=!0),n}var n,r=t[1]||{};"string"==typeof t[0]?n=t[0]:t[0]&&t[0].url?n=t[0].url:window.URL&&t[0]&&t[0]instanceof URL&&(n=t[0].href),n&&(this.parsedOrigin=c(n),this.sameOrigin=this.parsedOrigin.sameOrigin);var i=f(this.parsedOrigin);if(i&&(i.newrelicHeader||i.traceContextParentHeader))if("string"==typeof t[0]||window.URL&&t[0]&&t[0]instanceof URL){var o={};for(var a in r)o[a]=r[a];o.headers=new Headers(r.headers||{}),e(o.headers,i)&&(this.dt=i),t.length>1?t[1]=o:t.push(o)}else t[0]&&t[0].headers&&e(t[0].headers,i)&&(this.dt=i)}),u.on("fetch-start",function(t,e){this.params={},this.metrics={},this.startTime=a.now(),t.length>=1&&(this.target=t[0]),t.length>=2&&(this.opts=t[1]);var n,r=this.opts||{},o=this.target;"string"==typeof o?n=o:"object"==typeof o&&o instanceof g?n=o.url:window.URL&&"object"==typeof o&&o instanceof URL&&(n=o.href),i(this,n);var s=(""+(o&&o instanceof g&&o.method||r.method||"GET")).toUpperCase();this.params.method=s,this.txSize=m(r.body)||0}),u.on("fetch-done",function(t,e){this.params||(this.params={}),this.params.status=e?e.status:0;var n;"string"==typeof this.rxSize&&this.rxSize.length>0&&(n=+this.rxSize);var r={txSize:this.txSize,rxSize:n,duration:a.now()-this.startTime};s("xhr",[this.params,r,this.startTime])})}},{}],10:[function(t,e,n){var r={};e.exports=function(t){if(t in r)return r[t];var e=document.createElement("a"),n=window.location,i={};e.href=t,i.port=e.port;var o=e.href.split("://");!i.port&&o[1]&&(i.port=o[1].split("/")[0].split("@").pop().split(":")[1]),i.port&&"0"!==i.port||(i.port="https"===o[0]?"443":"80"),i.hostname=e.hostname||n.hostname,i.pathname=e.pathname,i.protocol=o[0],"/"!==i.pathname.charAt(0)&&(i.pathname="/"+i.pathname);var a=!e.protocol||":"===e.protocol||e.protocol===n.protocol,s=e.hostname===document.domain&&e.port===n.port;return i.sameOrigin=a&&(!e.hostname||s),"/"===i.pathname&&(r[t]=i),i}},{}],11:[function(t,e,n){function r(t,e){var n=t.responseType;return"json"===n&&null!==e?e:"arraybuffer"===n||"blob"===n||"json"===n?i(t.response):"text"===n||""===n||void 0===n?i(t.responseText):void 0}var i=t(14);e.exports=r},{}],12:[function(t,e,n){function r(){}function i(t,e,n){return function(){return o(t,[f.now()].concat(s(arguments)),e?null:this,n),e?void 0:this}}var o=t("handle"),a=t(22),s=t(23),c=t("ee").get("tracer"),f=t("loader"),u=NREUM;"undefined"==typeof window.newrelic&&(newrelic=u);var d=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",p=l+"ixn-";a(d,function(t,e){u[e]=i(l+e,!0,"api")}),u.addPageAction=i(l+"addPageAction",!0),u.setCurrentRouteName=i(l+"routeName",!0),e.exports=newrelic,u.interaction=function(){return(new r).get()};var h=r.prototype={createTracer:function(t,e){var n={},r=this,i="function"==typeof e;return o(p+"tracer",[f.now(),t,n],r),function(){if(c.emit((i?"":"no-")+"fn-start",[f.now(),r,i],n),i)try{return e.apply(this,arguments)}catch(t){throw c.emit("fn-err",[arguments,this,t],n),t}finally{c.emit("fn-end",[f.now()],n)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,e){h[e]=i(p+e)}),newrelic.noticeError=function(t,e){"string"==typeof t&&(t=new Error(t)),o("err",[t,f.now(),!1,e])}},{}],13:[function(t,e,n){function r(t){if(NREUM.init){for(var e=NREUM.init,n=t.split("."),r=0;r<n.length-1;r++)if(e=e[n[r]],"object"!=typeof e)return;return e=e[n[n.length-1]]}}e.exports={getConfiguration:r}},{}],14:[function(t,e,n){e.exports=function(t){if("string"==typeof t&&t.length)return t.length;if("object"==typeof t){if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if(!("undefined"!=typeof FormData&&t instanceof FormData))try{return JSON.stringify(t).length}catch(e){return}}}},{}],15:[function(t,e,n){var r=0,i=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);i&&(r=+i[1]),e.exports=r},{}],16:[function(t,e,n){function r(){return s.exists&&performance.now?Math.round(performance.now()):(o=Math.max((new Date).getTime(),o))-a}function i(){return o}var o=(new Date).getTime(),a=o,s=t(24);e.exports=r,e.exports.offset=a,e.exports.getLastTimestamp=i},{}],17:[function(t,e,n){function r(t){return!(!t||!t.protocol||"file:"===t.protocol)}e.exports=r},{}],18:[function(t,e,n){function r(t,e){var n=t.getEntries();n.forEach(function(t){"first-paint"===t.name?d("timing",["fp",Math.floor(t.startTime)]):"first-contentful-paint"===t.name&&d("timing",["fcp",Math.floor(t.startTime)])})}function i(t,e){var n=t.getEntries();n.length>0&&d("lcp",[n[n.length-1]])}function o(t){t.getEntries().forEach(function(t){t.hadRecentInput||d("cls",[t])})}function a(t){if(t instanceof h&&!v){var e=Math.round(t.timeStamp),n={type:t.type};e<=l.now()?n.fid=l.now()-e:e>l.offset&&e<=Date.now()?(e-=l.offset,n.fid=l.now()-e):e=l.now(),v=!0,d("timing",["fi",e,n])}}function s(t){"hidden"===t&&d("pageHide",[l.now()])}if(!("init"in NREUM&&"page_view_timing"in NREUM.init&&"enabled"in NREUM.init.page_view_timing&&NREUM.init.page_view_timing.enabled===!1)){var c,f,u,d=t("handle"),l=t("loader"),p=t(21),h=NREUM.o.EV;if("PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver){c=new PerformanceObserver(r);try{c.observe({entryTypes:["paint"]})}catch(m){}f=new PerformanceObserver(i);try{f.observe({entryTypes:["largest-contentful-paint"]})}catch(m){}u=new PerformanceObserver(o);try{u.observe({type:"layout-shift",buffered:!0})}catch(m){}}if("addEventListener"in document){var v=!1,g=["click","keydown","mousedown","pointerdown","touchstart"];g.forEach(function(t){document.addEventListener(t,a,!1)})}p(s)}},{}],19:[function(t,e,n){function r(){function t(){return e?15&e[n++]:16*Math.random()|0}var e=null,n=0,r=window.crypto||window.msCrypto;r&&r.getRandomValues&&(e=r.getRandomValues(new Uint8Array(31)));for(var i,o="xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx",a="",s=0;s<o.length;s++)i=o[s],"x"===i?a+=t().toString(16):"y"===i?(i=3&t()|8,a+=i.toString(16)):a+=i;return a}function i(){return a(16)}function o(){return a(32)}function a(t){function e(){return n?15&n[r++]:16*Math.random()|0}var n=null,r=0,i=window.crypto||window.msCrypto;i&&i.getRandomValues&&Uint8Array&&(n=i.getRandomValues(new Uint8Array(31)));for(var o=[],a=0;a<t;a++)o.push(e().toString(16));return o.join("")}e.exports={generateUuid:r,generateSpanId:i,generateTraceId:o}},{}],20:[function(t,e,n){function r(t,e){if(!i)return!1;if(t!==i)return!1;if(!e)return!0;if(!o)return!1;for(var n=o.split("."),r=e.split("."),a=0;a<r.length;a++)if(r[a]!==n[a])return!1;return!0}var i=null,o=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var s=navigator.userAgent,c=s.match(a);c&&s.indexOf("Chrome")===-1&&s.indexOf("Chromium")===-1&&(i="Safari",o=c[1])}e.exports={agent:i,version:o,match:r}},{}],21:[function(t,e,n){function r(t){function e(){t(a&&document[a]?document[a]:document[i]?"hidden":"visible")}"addEventListener"in document&&o&&document.addEventListener(o,e,!1)}e.exports=r;var i,o,a;"undefined"!=typeof document.hidden?(i="hidden",o="visibilitychange",a="visibilityState"):"undefined"!=typeof document.msHidden?(i="msHidden",o="msvisibilitychange"):"undefined"!=typeof document.webkitHidden&&(i="webkitHidden",o="webkitvisibilitychange",a="webkitVisibilityState")},{}],22:[function(t,e,n){function r(t,e){var n=[],r="",o=0;for(r in t)i.call(t,r)&&(n[o]=e(r,t[r]),o+=1);return n}var i=Object.prototype.hasOwnProperty;e.exports=r},{}],23:[function(t,e,n){function r(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,i=n-e||0,o=Array(i<0?0:i);++r<i;)o[r]=t[e+r];return o}e.exports=r},{}],24:[function(t,e,n){e.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(t,e,n){function r(){}function i(t){function e(t){return t&&t instanceof r?t:t?f(t,c,a):a()}function n(n,r,i,o,a){if(a!==!1&&(a=!0),!p.aborted||o){t&&a&&t(n,r,i);for(var s=e(i),c=m(n),f=c.length,u=0;u<f;u++)c[u].apply(s,r);var l=d[x[n]];return l&&l.push([y,n,r,s]),s}}function o(t,e){w[t]=m(t).concat(e)}function h(t,e){var n=w[t];if(n)for(var r=0;r<n.length;r++)n[r]===e&&n.splice(r,1)}function m(t){return w[t]||[]}function v(t){return l[t]=l[t]||i(n)}function g(t,e){p.aborted||u(t,function(t,n){e=e||"feature",x[n]=e,e in d||(d[e]=[])})}var w={},x={},y={on:o,addEventListener:o,removeEventListener:h,emit:n,get:v,listeners:m,context:e,buffer:g,abort:s,aborted:!1};return y}function o(t){return f(t,c,a)}function a(){return new r}function s(){(d.api||d.feature)&&(p.aborted=!0,d=p.backlog={})}var c="nr@context",f=t("gos"),u=t(22),d={},l={},p=e.exports=i();e.exports.getOrSetContext=o,p.backlog=d},{}],gos:[function(t,e,n){function r(t,e,n){if(i.call(t,e))return t[e];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:r,writable:!0,enumerable:!1}),r}catch(o){}return t[e]=r,r}var i=Object.prototype.hasOwnProperty;e.exports=r},{}],handle:[function(t,e,n){function r(t,e,n,r){i.buffer([t],r),i.emit(t,e,n)}var i=t("ee").get("handle");e.exports=r,r.ee=i},{}],id:[function(t,e,n){function r(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:a(t,o,function(){return i++})}var i=1,o="nr@id",a=t("gos");e.exports=r},{}],loader:[function(t,e,n){function r(){if(!M++){var t=O.info=NREUM.info,e=m.getElementsByTagName("script")[0];if(setTimeout(f.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&e))return f.abort();c(E,function(e,n){t[e]||(t[e]=n)});var n=a();s("mark",["onload",n+O.offset],null,"api"),s("timing",["load",n]);var r=m.createElement("script");0===t.agent.indexOf("http://")||0===t.agent.indexOf("https://")?r.src=t.agent:r.src=p+"://"+t.agent,e.parentNode.insertBefore(r,e)}}function i(){"complete"===m.readyState&&o()}function o(){s("mark",["domContent",a()+O.offset],null,"api")}var a=t(16),s=t("handle"),c=t(22),f=t("ee"),u=t(20),d=t(17),l=t(13),p=l.getConfiguration("ssl")===!1?"http":"https",h=window,m=h.document,v="addEventListener",g="attachEvent",w=h.XMLHttpRequest,x=w&&w.prototype,y=!d(h.location);NREUM.o={ST:setTimeout,SI:h.setImmediate,CT:clearTimeout,XHR:w,REQ:h.Request,EV:h.Event,PR:h.Promise,MO:h.MutationObserver};var b=""+location,E={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1210.min.js"},R=w&&x&&x[v]&&!/CriOS/.test(navigator.userAgent),O=e.exports={offset:a.getLastTimestamp(),now:a,origin:b,features:{},xhrWrappable:R,userAgent:u,disabled:y};if(!y){t(12),t(18),m[v]?(m[v]("DOMContentLoaded",o,!1),h[v]("load",r,!1)):(m[g]("onreadystatechange",i),h[g]("onload",r)),s("mark",["firstbyte",a.getLastTimestamp()],null,"api");var M=0}},{}],"wrap-function":[function(t,e,n){function r(t,e){function n(e,n,r,c,f){function nrWrapper(){var o,a,u,l;try{a=this,o=d(arguments),u="function"==typeof r?r(o,a):r||{}}catch(p){i([p,"",[o,a,c],u],t)}s(n+"start",[o,a,c],u,f);try{return l=e.apply(a,o)}catch(h){throw s(n+"err",[o,a,h],u,f),h}finally{s(n+"end",[o,a,l],u,f)}}return a(e)?e:(n||(n=""),nrWrapper[l]=e,o(e,nrWrapper,t),nrWrapper)}function r(t,e,r,i,o){r||(r="");var s,c,f,u="-"===r.charAt(0);for(f=0;f<e.length;f++)c=e[f],s=t[c],a(s)||(t[c]=n(s,u?c+r:r,i,c,o))}function s(n,r,o,a){if(!h||e){var s=h;h=!0;try{t.emit(n,r,o,e,a)}catch(c){i([c,n,r,o],t)}h=s}}return t||(t=u),n.inPlace=r,n.flag=l,n}function i(t,e){e||(e=u);try{e.emit("internal-error",t)}catch(n){}}function o(t,e,n){if(Object.defineProperty&&Object.keys)try{var r=Object.keys(t);return r.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(o){i([o],n)}for(var a in t)p.call(t,a)&&(e[a]=t[a]);return e}function a(t){return!(t&&t instanceof Function&&t.apply&&!t[l])}function s(t,e){var n=e(t);return n[l]=t,o(t,n,u),n}function c(t,e,n){var r=t[e];t[e]=s(r,n)}function f(){for(var t=arguments.length,e=new Array(t),n=0;n<t;++n)e[n]=arguments[n];return e}var u=t("ee"),d=t(23),l="nr@original",p=Object.prototype.hasOwnProperty,h=!1;e.exports=r,e.exports.wrapFunction=s,e.exports.wrapInPlace=c,e.exports.argsToArray=f},{}]},{},["loader",2,9]);</script>
 <meta property="fb:app_id" content="129848480405753" />
 <meta property="fb:pages" content="21819923015,329876903846185,459190287458280,106721516050,172994359388346" />
@@ -49,12 +49,12 @@
   <meta name="twitter:image" content="https://www.scpr.org/assets/meta/twitter-06a56b46a4d2800a4dfd099229d5fec4.jpg">
 
 <meta name="csrf-param" content="authenticity_token" />
-<meta name="csrf-token" content="GhtjlaVNDwwIjQouDCu07bASrXt9YE9YzKzVWN29Ymr2yiflJBM4bh7N1Z7o1m0nSYsS2vpnrXqYKnQzlF4PQw==" />
+<meta name="csrf-token" content="BuPNlV5UMyuizB6vIqIJqWEUux816ta2YUldyPHaRhn5aHRwG8qovdE7QVI1VVugIJOy/f4uoIYAg2xVe+X7Zg==" />
 
 <link rel="alternate" type="application/rss+xml" title="RSS" href="https://scpr.org/feeds/all_news" />
 
 
-<link rel="shortcut icon" type="image/x-icon" href="../favicon.ico.html" />
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
 
 <script>
   window.fbAsyncInit = function() {
@@ -98,7 +98,7 @@
    }
  </script>
 
-    <link rel="stylesheet" media="screen" href="../assets/application-7f7821ce515de5e972962c5c644583f6.css.html" />
+    <link rel="stylesheet" media="screen" href="/assets/application-7f7821ce515de5e972962c5c644583f6.css" />
     
     <!-- Start: GPT Async -->
 <script type='text/javascript'>
@@ -164,7 +164,7 @@
 <!-- chartbeat timing for load start -->
 <script type="text/javascript">var _sf_startpt=(new Date()).getTime()</script>
 
-    <script src="../assets/application-5438c131fea4e82cd9b15c59115cba6e.js.html"></script>
+    <script src="/assets/application-5438c131fea4e82cd9b15c59115cba6e.js"></script>
     <script>
       // Function for lazy loading slideshow images
       function imgLoaded(img) {
@@ -252,7 +252,7 @@
               <a href="/podcasts">Podcasts</a>
             </li>
             <li>
-              <a href="/archive/2021/07/19/?section=programs">Archive</a>
+              <a href="/archive/2021/08/26/?section=programs">Archive</a>
             </li>
           </ul>
         </div>
@@ -425,7 +425,7 @@
 
   <div class="o-mast__action o-mast__search">
 
-    <form method="get" action="https://archive.kpcc.org/search/">
+    <form method="get" action="/search/">
       <input type="text" placeholder="Enter your search here" name="q" id="q" />
       <label for="o-mast__search-toggler-checkbox" class="o-mast__search-link" href="#">
         <svg class="b-icon b-icon--search-open">
@@ -480,8 +480,8 @@
   </div>
 </div>
         <section class="o-prologue o-prologue--standard-program">
-    <a class="o-prologue__logo" href="the-daily.html">
-        <object data='../assets/show-logos/the-daily-6a3cfa22a455ae765653cc371a9732b1.svg' type="image/svg+xml"></object>
+    <a class="o-prologue__logo" href="/programs/the-daily">
+        <object data='/assets/show-logos/the-daily-6a3cfa22a455ae765653cc371a9732b1.svg' type="image/svg+xml"></object>
     </a>
     <span class="o-prologue__description">
       <div class="o-prologue__teaser">
@@ -518,7 +518,7 @@
         </script>
       </div>
     </div>
-      <a class="c-ad__attribution" href="/support/underwriting/">Become a KPCC Sponsor</a>
+      <a class="c-ad__attribution" href="http://www.scpr.org/support/underwriting/">Become a KPCC Sponsor</a>
   </div>
 </aside>
 <section class="o-popular-stories-side-bar "  style="order: 6">
@@ -529,77 +529,77 @@
   <label class="o-popular-stories-side-bar__label" for="o-popular-stories-side-bar__input-discussed">DISCUSSED</label>
   <div id="o-popular-stories-side-bar__tab-viewed" class="o-popular-stories-side-bar__tab">
     <div class="o-popular-stories-side-bar__item">
-      <a class="track-event" data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="Popular Now Quadrant" href="/news/2021/07/20/98530/tokyo-olympics-ceo-doesn-t-dismiss-the-idea-that-g/">
+      <a class="track-event" data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="Popular Now Quadrant" href="/news/2021/08/27/99009/peloton-says-it-s-been-subpoenaed-by-doj-and-dhs-o/">
       <figure class="o-popular-stories-side-bar__figure o-figure">
-        <img class="o-popular-stories-side-bar__item-image o-figure__img" src="../assets/meta/facebook-73514b02830df167eb8bfbe15710b5cb.jpg.html" style="background-image: url(../assets/meta/facebook-73514b02830df167eb8bfbe15710b5cb.jpg.html)" />
+        <img class="o-popular-stories-side-bar__item-image o-figure__img" src="https://a.scpr.org/i/d116dd563eb2b33c35b08772770cc978/234804-small.jpg" style="background-image: url(https://a.scpr.org/i/d116dd563eb2b33c35b08772770cc978/234804-small.jpg)" />
       </figure>
       <span class="o-popular-stories-side-bar__item-caption">
-        Tokyo Olympics CEO Doesn't Dismiss The Idea That Games Could Still Be Called Off
+        Peloton Says It's Been Subpoenaed By DOJ And DHS Over Its Product Injury Reporting
       </span>
 </a>    </div>
     <div class="o-popular-stories-side-bar__item">
-      <a class="track-event" data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="Popular Now Quadrant" href="/news/2021/07/20/98529/the-white-house-blamed-china-for-hacking-microsoft/">
+      <a class="track-event" data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="Popular Now Quadrant" href="/news/2021/08/27/99008/the-u-s-has-set-up-a-mass-vaccination-site-for-afg/">
       <figure class="o-popular-stories-side-bar__figure o-figure">
-        <img class="o-popular-stories-side-bar__item-image o-figure__img" src="../assets/meta/facebook-73514b02830df167eb8bfbe15710b5cb.jpg.html" style="background-image: url(../assets/meta/facebook-73514b02830df167eb8bfbe15710b5cb.jpg.html)" />
+        <img class="o-popular-stories-side-bar__item-image o-figure__img" src="https://a.scpr.org/i/3eb3e541688e115debdec435d4172dd6/234803-small.jpg" style="background-image: url(https://a.scpr.org/i/3eb3e541688e115debdec435d4172dd6/234803-small.jpg)" />
       </figure>
       <span class="o-popular-stories-side-bar__item-caption">
-        The White House Blamed China For Hacking Microsoft. China Is Pointing Fingers Back
+        The U.S. Has Set Up A Mass Vaccination Site For Afghans Arriving In Virginia
       </span>
 </a>    </div>
     <div class="o-popular-stories-side-bar__item">
-      <a class="track-event" data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="Popular Now Quadrant" href="/news/2021/07/20/98528/new-york-reaches-a-1-1-billion-opioid-deal-with-th/">
+      <a class="track-event" data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="Popular Now Quadrant" href="/news/2021/08/27/99007/greenhouse-gas-levels-are-the-highest-ever-seen-an/">
       <figure class="o-popular-stories-side-bar__figure o-figure">
-        <img class="o-popular-stories-side-bar__item-image o-figure__img" src="https://a.scpr.org/i/d870bff93c83f65f5aea9db0d0f9e8b7/234308-small.jpg" style="background-image: url(https://a.scpr.org/i/d870bff93c83f65f5aea9db0d0f9e8b7/234308-small.jpg)" />
+        <img class="o-popular-stories-side-bar__item-image o-figure__img" src="https://a.scpr.org/i/281c84db9a64d3e9cba7721d02ebce5e/234802-small.jpg" style="background-image: url(https://a.scpr.org/i/281c84db9a64d3e9cba7721d02ebce5e/234802-small.jpg)" />
       </figure>
       <span class="o-popular-stories-side-bar__item-caption">
-        New York Reaches A $1.1 Billion Opioid Deal With The Nation's Big Drug Wholesalers
+        Greenhouse Gas Levels Are The Highest Ever Seen — And That's Going Back 800,000 Years
       </span>
 </a>    </div>
     <div class="o-popular-stories-side-bar__item">
-      <a class="track-event" data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="Popular Now Quadrant" href="/news/2021/07/20/98527/deaf-blind-athlete-quits-team-usa-after-she-s-told/">
+      <a class="track-event" data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="Popular Now Quadrant" href="/news/2021/08/27/99006/afghanistan-death-toll-climbs-as-pentagon-clarifie/">
       <figure class="o-popular-stories-side-bar__figure o-figure">
-        <img class="o-popular-stories-side-bar__item-image o-figure__img" src="https://a.scpr.org/i/8b678acc69125b514b776443a77b45b8/234307-small.jpg" style="background-image: url(https://a.scpr.org/i/8b678acc69125b514b776443a77b45b8/234307-small.jpg)" />
+        <img class="o-popular-stories-side-bar__item-image o-figure__img" src="https://a.scpr.org/i/170de8f0dad360203c913118c631fdfc/234801-small.jpg" style="background-image: url(https://a.scpr.org/i/170de8f0dad360203c913118c631fdfc/234801-small.jpg)" />
       </figure>
       <span class="o-popular-stories-side-bar__item-caption">
-        Deaf-Blind Athlete Quits Team USA After She's Told She Can't Bring A Care Assistant 
+        Afghanistan Death Toll Climbs As Pentagon Clarifies 1 Bomber Was Involved In Attack
       </span>
 </a>    </div>
   </div>
   <div id="o-popular-stories-side-bar__tab-discussed" class="o-popular-stories-side-bar__tab">
       <div class="o-popular-stories-side-bar__item">
-        <a class="track-event" data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="Popular Now Quadrant" href="/news/2021/07/20/98527/deaf-blind-athlete-quits-team-usa-after-she-s-told/">
+        <a class="track-event" data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="Popular Now Quadrant" href="/news/2021/08/27/99006/afghanistan-death-toll-climbs-as-pentagon-clarifie/">
         <figure class="o-popular-stories-side-bar__figure o-figure">
-          <img class="o-popular-stories-side-bar__item-image o-figure__img" src="https://a.scpr.org/i/8b678acc69125b514b776443a77b45b8/234307-small.jpg" style="background-image: url(https://a.scpr.org/i/8b678acc69125b514b776443a77b45b8/234307-small.jpg)" />
+          <img class="o-popular-stories-side-bar__item-image o-figure__img" src="https://a.scpr.org/i/170de8f0dad360203c913118c631fdfc/234801-small.jpg" style="background-image: url(https://a.scpr.org/i/170de8f0dad360203c913118c631fdfc/234801-small.jpg)" />
         </figure>
         <span class="o-popular-stories-side-bar__item-caption">
-          Deaf-Blind Athlete Quits Team USA After She's Told She Can't Bring A Care Assistant 
+          Afghanistan Death Toll Climbs As Pentagon Clarifies 1 Bomber Was Involved In Attack
         </span>
 </a>      </div>
       <div class="o-popular-stories-side-bar__item">
-        <a class="track-event" data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="Popular Now Quadrant" href="/news/2021/07/20/98528/new-york-reaches-a-1-1-billion-opioid-deal-with-th/">
+        <a class="track-event" data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="Popular Now Quadrant" href="/news/2021/08/27/99007/greenhouse-gas-levels-are-the-highest-ever-seen-an/">
         <figure class="o-popular-stories-side-bar__figure o-figure">
-          <img class="o-popular-stories-side-bar__item-image o-figure__img" src="https://a.scpr.org/i/d870bff93c83f65f5aea9db0d0f9e8b7/234308-small.jpg" style="background-image: url(https://a.scpr.org/i/d870bff93c83f65f5aea9db0d0f9e8b7/234308-small.jpg)" />
+          <img class="o-popular-stories-side-bar__item-image o-figure__img" src="https://a.scpr.org/i/281c84db9a64d3e9cba7721d02ebce5e/234802-small.jpg" style="background-image: url(https://a.scpr.org/i/281c84db9a64d3e9cba7721d02ebce5e/234802-small.jpg)" />
         </figure>
         <span class="o-popular-stories-side-bar__item-caption">
-          New York Reaches A $1.1 Billion Opioid Deal With The Nation's Big Drug Wholesalers
+          Greenhouse Gas Levels Are The Highest Ever Seen — And That's Going Back 800,000 Years
         </span>
 </a>      </div>
       <div class="o-popular-stories-side-bar__item">
-        <a class="track-event" data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="Popular Now Quadrant" href="/news/2021/07/20/98529/the-white-house-blamed-china-for-hacking-microsoft/">
+        <a class="track-event" data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="Popular Now Quadrant" href="/news/2021/08/27/99008/the-u-s-has-set-up-a-mass-vaccination-site-for-afg/">
         <figure class="o-popular-stories-side-bar__figure o-figure">
-          <img class="o-popular-stories-side-bar__item-image o-figure__img" src="../assets/meta/facebook-73514b02830df167eb8bfbe15710b5cb.jpg.html" style="background-image: url(../assets/meta/facebook-73514b02830df167eb8bfbe15710b5cb.jpg.html)" />
+          <img class="o-popular-stories-side-bar__item-image o-figure__img" src="https://a.scpr.org/i/3eb3e541688e115debdec435d4172dd6/234803-small.jpg" style="background-image: url(https://a.scpr.org/i/3eb3e541688e115debdec435d4172dd6/234803-small.jpg)" />
         </figure>
         <span class="o-popular-stories-side-bar__item-caption">
-          The White House Blamed China For Hacking Microsoft. China Is Pointing Fingers Back
+          The U.S. Has Set Up A Mass Vaccination Site For Afghans Arriving In Virginia
         </span>
 </a>      </div>
       <div class="o-popular-stories-side-bar__item">
-        <a class="track-event" data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="Popular Now Quadrant" href="/news/2021/07/20/98530/tokyo-olympics-ceo-doesn-t-dismiss-the-idea-that-g/">
+        <a class="track-event" data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="Popular Now Quadrant" href="/news/2021/08/27/99009/peloton-says-it-s-been-subpoenaed-by-doj-and-dhs-o/">
         <figure class="o-popular-stories-side-bar__figure o-figure">
-          <img class="o-popular-stories-side-bar__item-image o-figure__img" src="../assets/meta/facebook-73514b02830df167eb8bfbe15710b5cb.jpg.html" style="background-image: url(../assets/meta/facebook-73514b02830df167eb8bfbe15710b5cb.jpg.html)" />
+          <img class="o-popular-stories-side-bar__item-image o-figure__img" src="https://a.scpr.org/i/d116dd563eb2b33c35b08772770cc978/234804-small.jpg" style="background-image: url(https://a.scpr.org/i/d116dd563eb2b33c35b08772770cc978/234804-small.jpg)" />
         </figure>
         <span class="o-popular-stories-side-bar__item-caption">
-          Tokyo Olympics CEO Doesn't Dismiss The Idea That Games Could Still Be Called Off
+          Peloton Says It's Been Subpoenaed By DOJ And DHS Over Its Product Injury Reporting
         </span>
 </a>      </div>
   </div>
@@ -608,7 +608,7 @@
 <aside id="" class="o-archive o-archive--small" style="order: 6;">
   <h6 class="o-archive__heading b-heading--h6 b-heading--uppercase u-text-color--gray b-heading--medium">Find a specific episode from The Daily's archive</h6>
 
-  <form accept-charset="UTF-8" action="https://archive.kpcc.org/programs/the-daily/archive" method="post">
+  <form accept-charset="UTF-8" action="/programs/the-daily/archive" method="post">
 
     <input name="utf8" type="hidden" value="&#x2713;" />
     <input name="authenticity_token" type="hidden" value="Hv3qnrajp8wwM5yr16aOZvA+r1JCrnBLq+lRXQVHrc0=" />
@@ -620,8 +620,8 @@
         <option value="4">April</option>
         <option value="5">May</option>
         <option value="6">June</option>
-        <option value="7" selected="selected">July</option>
-        <option value="8">August</option>
+        <option value="7">July</option>
+        <option value="8" selected="selected">August</option>
         <option value="9">September</option>
         <option value="10">October</option>
         <option value="11">November</option>
@@ -648,7 +648,7 @@
         <option value="17">17</option>
         <option value="18">18</option>
         <option value="19">19</option>
-        <option value="20" selected="selected">20</option>
+        <option value="20">20</option>
         <option value="21">21</option>
         <option value="22">22</option>
         <option value="23">23</option>
@@ -656,7 +656,7 @@
         <option value="25">25</option>
         <option value="26">26</option>
         <option value="27">27</option>
-        <option value="28">28</option>
+        <option value="28" selected="selected">28</option>
         <option value="29">29</option>
         <option value="30">30</option>
         <option value="31">31</option>
@@ -698,23 +698,23 @@
         </script>
       </div>
     </div>
-      <a class="c-ad__attribution" href="/support/underwriting/">Become a KPCC Sponsor</a>
+      <a class="c-ad__attribution" href="http://www.scpr.org/support/underwriting/">Become a KPCC Sponsor</a>
   </div>
 </aside>
 <div id="" class="o-featured-episode__center o-standard-program__episode-list" style="order: 3">
   <h6 class="o-featured-episode__list-heading b-heading--h6 b-heading--uppercase u-text-color--gray">Recent episodes</h6>
     <div class="o-featured-episode__segment">
       <div class="o-featured-episode__segment-description">
-        <h3 class="o-featured-episode__segment-title"><a href="/programs/the-daily/2019/04/18/69974/">The Abortion Wars, Part 2: The Illinois Option</a></h3>
-        <time class="o-story-list__item-timestamp">Thu April 18</time>
+        <h3 class="o-featured-episode__segment-title"><a href="/programs/the-daily/2019/06/07/71203/">A New Way to Solve a Murder, Part 2: The Future of Genetic Privacy</a></h3>
+        <time class="o-story-list__item-timestamp">Fri June 07</time>
         <div class="o-featured-episode__segment-teaser">
-        <p>Four states have passed laws this year that effectively ban abortion after six weeks of pregnancy, and others, including Missouri, are expected to follow suit. Some Missourians are crossing the state line to Illinois, where abortion access is protected. We spent a day at a clinic in Illinois with three women who were getting abortions. Guests: Sabrina Tavernise, a national correspondent for The New York Times, and Lynsea Garrison, a producer for “The Daily.” For more information on today’s episode, visit <a href="https://www.nytimes.com/thedaily" target="_blank">nytimes.com/thedaily</a>.</p><p>This episode includes disturbing language.</p><p>Background coverage:</p><ul><li>Bans on abortion in the very early weeks of pregnancy — after a fetal heartbeat is detected — used to be rare. But in the past three months,<a href="https://www.nytimes.com/2019/04/18/us/ohio-abortion-heartbeat-bill.html?smid=pc-thedaily" target="_blank"> four states have passed so-called heartbeat bills</a>, and 11 others are considering them. </li><li>In 1973, the Supreme Court ruled — with little controversy — that women had a constitutional right to abortion. How did the decision give way to today’s deep political divide?<a href="https://www.nytimes.com/2018/07/23/podcasts/the-daily/roe-wade-abortion-norma-mccorvey.html?smid=pc-thedaily" target="_blank"> Listen to a series from “The Daily” on Roe v. Wade</a>.</li></ul>
+        <p>The police identified a suspect in a double murder after combing through DNA profiles on a website designed to connect family members. We look at what his trial will tell us about the future of genetic genealogy in solving crimes. Guests: Heather Murphy, a New York Times reporter, spoke with CeCe Moore, a genetic genealogist, and Curtis Rogers, a creator of the genealogy website GEDMatch. For more information on today’s episode, visit <a href="https://www.nytimes.com/thedaily" target="_blank">nytimes.com/thedaily</a>. </p><p>Background reading: </p><ul><li>The <a href="https://www.nytimes.com/2018/05/18/science/ancestry-site-arrest-washington.html?smid=pc-thedaily" target="_blank">case of William Earl Talbott II</a>, who is accused of killing a Canadian couple in Washington State 32 years ago,<a href="https://www.nytimes.com/2019/04/25/us/golden-state-killer-dna.html?smid=pc-thedaily" target="_blank"> could result in legal precedents</a> involving the use of genetic genealogy techniques by law enforcement.</li></ul>
       </div>
           <div class="c-audio-widget">
-            <a href="https://dts.podtrac.com/redirect.mp3/rss.art19.com/episodes/9807b177-e2c9-4590-a7e0-061a4fedb1d1.mp3?context=the-daily" class="c-play__button" title="The Abortion Wars, Part 2: The Illinois Option" data-duration="1830" data-ga-category="Article" data-ga-action="Play" data-ga-label="Player">
+            <a href="https://dts.podtrac.com/redirect.mp3/rss.art19.com/episodes/74b8cb3f-99cf-437c-983f-894d7f6a3073.mp3?context=the-daily" class="c-play__button" title="A New Way to Solve a Murder, Part 2: The Future of Genetic Privacy" data-duration="1777" data-ga-category="Article" data-ga-action="Play" data-ga-label="Player">
               <span class="o-featured-episode__segment-audio">
-                <img class="o-featured-episode__segment-icon" src="../assets/o-audio-bar/Miniplayer-Play@2x-9eb026b3cb47b37babd5eb9f620efedf.png.html" alt="Miniplayer play@2x" />
-                30 MIN 30 SEC
+                <img class="o-featured-episode__segment-icon" src="/assets/o-audio-bar/Miniplayer-Play@2x-9eb026b3cb47b37babd5eb9f620efedf.png" alt="Miniplayer play@2x" />
+                29 MIN 37 SEC
               </span>
             </a>
           </div>
@@ -722,16 +722,16 @@
     </div>
     <div class="o-featured-episode__segment">
       <div class="o-featured-episode__segment-description">
-        <h3 class="o-featured-episode__segment-title"><a href="/programs/the-daily/2019/04/17/69951/">The Abortion Wars, Part 1: The Last Clinic in Missouri</a></h3>
-        <time class="o-story-list__item-timestamp">Wed April 17</time>
+        <h3 class="o-featured-episode__segment-title"><a href="/programs/the-daily/2019/06/06/71175/">A New Way to Solve a Murder, Part 1: The Genetic Detectives</a></h3>
+        <time class="o-story-list__item-timestamp">Thu June 06</time>
         <div class="o-featured-episode__segment-teaser">
-        <p>When Justice Brett Kavanaugh’s ascendance to the Supreme Court threw the future of abortion rights into question, states scrambled to enact new laws. Two neighboring states in the Midwest are moving in opposite directions: Missouri is taking action to end abortion access, while Illinois is trying to preserve it. In a two-part series, we explore what those changes look like on the ground.</p><p>Guests: Sabrina Tavernise, a national correspondent for The New York Times, and Lynsea Garrison, a producer for “The Daily.” For more information on today’s episode, visit <a href="https://www.nytimes.com/thedaily" target="_blank">nytimes.com/thedaily</a>.</p><p>Background coverage:</p><ul><li>Anti-abortion activists are pursuing what they see as<a href="https://www.nytimes.com/2019/02/08/us/anti-abortion-activists-roe-v-wade.html?smid=pc-thedaily" target="_blank"> their best chance in years to restrict abortion access</a> with a Supreme Court they believe to be in their favor.</li><li><a href="https://www.nytimes.com/2018/07/23/podcasts/the-daily/roe-wade-abortion-norma-mccorvey.html?smid=pc-thedaily" target="_blank">Listen to “Roe v. Wade,” a series from “The Daily”</a> about how abortion became one of the most divisive political issues in the United States.</li></ul>
+        <p>A year after police used a genetic database to help identify a suspect in the Golden State Killer case, the same technique has been used to arrest dozens of people. Now, for the first time, one of those cases is headed to trial. In Part 1 of a two-part series, we look at the tool that is transforming law enforcement and testing the limits of privacy. Guests: Heather Murphy, a New York Times reporter, spoke with Curtis Rogers, a creator of the genealogy website GEDmatch; Peter Headley, a detective with the San Bernardino County Sheriff’s Department; and Barbara Rae-Venter, a genetic genealogist. For more information on today’s episode, visit <a href="https://www.nytimes.com/thedaily" target="_blank">nytimes.com/thedaily</a>. </p><p>Background reading: </p><ul><li>Using a technique that relies on DNA submitted to online genealogy sites, investigators have solved dozens of violent crimes. But<a href="https://www.nytimes.com/2019/04/25/us/golden-state-killer-dna.html?smid=pc-thedaily" target="_blank"> some question the ethics and legality of the technique</a>.</li><li>GEDmatch, a free site that began as a side project,<a href="https://www.nytimes.com/2018/10/15/science/gedmatch-genealogy-cold-cases.html?smid=pc-thedaily" target="_blank"> has upended how investigators across the country are approaching cold cases</a>.</li><li>Read about how genetic sleuthing through GEDmatch<a href="https://www.nytimes.com/interactive/2018/10/15/science/gedmatch-genetic-sleuthing.html?smid=pc-thedaily" target="_blank"> helped a woman who had been kidnapped as a child recover her identity</a>.</li></ul>
       </div>
           <div class="c-audio-widget">
-            <a href="https://dts.podtrac.com/redirect.mp3/rss.art19.com/episodes/bd83eadc-6081-4089-b701-109ace7dd57e.mp3?context=the-daily" class="c-play__button" title="The Abortion Wars, Part 1: The Last Clinic in Missouri" data-duration="1816" data-ga-category="Article" data-ga-action="Play" data-ga-label="Player">
+            <a href="https://dts.podtrac.com/redirect.mp3/rss.art19.com/episodes/4b42a136-84b3-4f7d-8285-dc2507ef3ba2.mp3?context=the-daily" class="c-play__button" title="A New Way to Solve a Murder, Part 1: The Genetic Detectives" data-duration="1625" data-ga-category="Article" data-ga-action="Play" data-ga-label="Player">
               <span class="o-featured-episode__segment-audio">
-                <img class="o-featured-episode__segment-icon" src="../assets/o-audio-bar/Miniplayer-Play@2x-9eb026b3cb47b37babd5eb9f620efedf.png.html" alt="Miniplayer play@2x" />
-                30 MIN 16 SEC
+                <img class="o-featured-episode__segment-icon" src="/assets/o-audio-bar/Miniplayer-Play@2x-9eb026b3cb47b37babd5eb9f620efedf.png" alt="Miniplayer play@2x" />
+                27 MIN 05 SEC
               </span>
             </a>
           </div>
@@ -739,16 +739,16 @@
     </div>
     <div class="o-featured-episode__segment">
       <div class="o-featured-episode__segment-description">
-        <h3 class="o-featured-episode__segment-title"><a href="/programs/the-daily/2019/04/16/69923/">The Rise and Fall of Carlos Ghosn</a></h3>
-        <time class="o-story-list__item-timestamp">Tue April 16</time>
+        <h3 class="o-featured-episode__segment-title"><a href="/programs/the-daily/2019/06/05/71150/">This Drug Could End H.I.V. Why Hasn’t It?</a></h3>
+        <time class="o-story-list__item-timestamp">Wed June 05</time>
         <div class="o-featured-episode__segment-teaser">
-        <p>Carlos Ghosn, the former head of Nissan, was the rare foreign executive to reach rock-star status in Japan by breaking the rules of its culture. Now, he’s accused of financial wrongdoing at the company he helped save. Guest: Motoko Rich, the Tokyo bureau chief for The New York Times. For more information on today’s episode, visit <a href="https://www.nytimes.com/thedaily" target="_blank">nytimes.com/thedaily</a>.</p><p>Background reading:</p><ul><li>Mr. Ghosn has been<a href="https://www.nytimes.com/2019/04/04/business/carlos-ghosn-carole-wife-japan-nissan-arrest.html" target="_blank"> arrested on charges of financial misconduct</a> at Nissan. He<a href="https://www.nytimes.com/2019/04/09/business/carlos-ghosn-nissan-video.html" target="_blank"> said in a video statement that the accusations were part of a plot</a> by company executives to engineer his downfall.</li><li>Mr. Ghosn wasn’t expected to succeed in Japan, a nation known for its distrust of outsiders.<a href="https://www.nytimes.com/2018/12/30/business/carlos-ghosn-nissan.html" target="_blank"> But he also wasn’t expected to fail like this</a>.</li></ul>
+        <p>Dr. Robert Grant developed a treatment — a daily pill known as pre-exposure prophylaxis, or PrEP — that could stop the AIDS crisis. We look at why that hasn’t happened. Guests: Dr. Grant, who has been working on H.I.V. treatment and prevention for over 30 years, and Donald G. McNeil Jr., a science and health reporter for The New York Times. For more information on today’s episode, visit <a href="https://www.nytimes.com/thedaily" target="_blank">nytimes.com/thedaily</a>. </p><p>Background reading: </p><ul><li>Gilead Sciences, the maker of Truvada, the only drug approved to prevent H.I.V. infection, will donate enough of the drug to supply 200,000 patients, but<a href="https://www.nytimes.com/2019/05/09/health/gilead-truvada-hiv-aids.html?smid=pc-thedaily" target="_blank"> critics questioned the company’s motives</a>.</li><li>The<a href="https://www.nytimes.com/2019/03/12/health/trump-hiv-aids-costs.html?smid=pc-thedaily" target="_blank"> high cost of drugs remains a major obstacle</a> to ending the AIDS epidemic.</li><li>Here’s<a href="https://www.cdc.gov/hiv/risk/prep/index.html" target="_blank"> more information about PrEP</a> from the Centers for Disease Control and Prevention website.</li></ul>
       </div>
           <div class="c-audio-widget">
-            <a href="https://dts.podtrac.com/redirect.mp3/rss.art19.com/episodes/9acae7fc-c221-4d1b-a760-333bace3c73b.mp3?context=the-daily" class="c-play__button" title="The Rise and Fall of Carlos Ghosn" data-duration="1658" data-ga-category="Article" data-ga-action="Play" data-ga-label="Player">
+            <a href="https://dts.podtrac.com/redirect.mp3/rss.art19.com/episodes/10cdebc7-7d17-4b40-973f-0ebe1dc8c796.mp3?context=the-daily" class="c-play__button" title="This Drug Could End H.I.V. Why Hasn’t It?" data-duration="1719" data-ga-category="Article" data-ga-action="Play" data-ga-label="Player">
               <span class="o-featured-episode__segment-audio">
-                <img class="o-featured-episode__segment-icon" src="../assets/o-audio-bar/Miniplayer-Play@2x-9eb026b3cb47b37babd5eb9f620efedf.png.html" alt="Miniplayer play@2x" />
-                27 MIN 38 SEC
+                <img class="o-featured-episode__segment-icon" src="/assets/o-audio-bar/Miniplayer-Play@2x-9eb026b3cb47b37babd5eb9f620efedf.png" alt="Miniplayer play@2x" />
+                28 MIN 39 SEC
               </span>
             </a>
           </div>
@@ -756,16 +756,16 @@
     </div>
     <div class="o-featured-episode__segment">
       <div class="o-featured-episode__segment-description">
-        <h3 class="o-featured-episode__segment-title"><a href="/programs/the-daily/2019/04/15/69900/">The Moral Complexities of Working With Julian Assange</a></h3>
-        <time class="o-story-list__item-timestamp">Mon April 15</time>
+        <h3 class="o-featured-episode__segment-title"><a href="/programs/the-daily/2019/06/04/71126/">How a Secret U.S. Cyberweapon Backfired</a></h3>
+        <time class="o-story-list__item-timestamp">Tue June 04</time>
         <div class="o-featured-episode__segment-teaser">
-        <p>Many have considered Julian Assange, the founder of WikiLeaks, to be a hero of the free speech movement and a partner to journalists. He also came to be seen as a threat to national security. Then, he helped Russia interfere in a United States election. And now, he has been arrested. Our colleague tells us about the moral complexities of working with Mr. Assange. Guest: Scott Shane, who covers national security for The New York Times, has been following Mr. Assange’s decade-long saga. For more information on today’s episode, visit <a href="https://www.nytimes.com/thedaily" target="_blank">nytimes.com/thedaily</a>.</p>
+        <p>A criminal group has held computer systems for the city of Baltimore hostage for nearly a month — paralyzing everything from email to the real estate market to the payment of water bills. But what residents don’t know is that a major component of the malware used to shut down the system was developed nearby by a federal government agency. Guest: Scott Shane, who covers national security and the U.S. intelligence community for The New York Times. For more information on today’s episode, visit <a href="https://www.nytimes.com/thedaily" target="_blank">nytimes.com/thedaily</a>. </p><p>Background reading:</p><ul><li>People involved in the investigation say the N.S.A. tool, EternalBlue, was found in Baltimore’s network by four contractors hired to restore computer services.<a href="https://www.nytimes.com/2019/05/31/us/nsa-baltimore-ransomware.html?smid=pc-thedaily" target="_blank"> The N.S.A. says that’s not the case</a>. </li><li>Cybercriminals have been<a href="https://www.nytimes.com/2019/05/25/us/nsa-hacking-tool-baltimore.html?smid=pc-thedaily" target="_blank"> targeting other vulnerable American towns and cities</a>, from Pennsylvania to Texas, in ways that could disrupt local governments for months. </li></ul>
       </div>
           <div class="c-audio-widget">
-            <a href="https://dts.podtrac.com/redirect.mp3/rss.art19.com/episodes/11b2167f-e06a-4a18-ad61-bcca90a41020.mp3?context=the-daily" class="c-play__button" title="The Moral Complexities of Working With Julian Assange" data-duration="1829" data-ga-category="Article" data-ga-action="Play" data-ga-label="Player">
+            <a href="https://dts.podtrac.com/redirect.mp3/rss.art19.com/episodes/023daafc-2f10-43e3-ac16-38a72e5f40f7.mp3?context=the-daily" class="c-play__button" title="How a Secret U.S. Cyberweapon Backfired" data-duration="1526" data-ga-category="Article" data-ga-action="Play" data-ga-label="Player">
               <span class="o-featured-episode__segment-audio">
-                <img class="o-featured-episode__segment-icon" src="../assets/o-audio-bar/Miniplayer-Play@2x-9eb026b3cb47b37babd5eb9f620efedf.png.html" alt="Miniplayer play@2x" />
-                30 MIN 29 SEC
+                <img class="o-featured-episode__segment-icon" src="/assets/o-audio-bar/Miniplayer-Play@2x-9eb026b3cb47b37babd5eb9f620efedf.png" alt="Miniplayer play@2x" />
+                25 MIN 26 SEC
               </span>
             </a>
           </div>
@@ -773,16 +773,16 @@
     </div>
     <div class="o-featured-episode__segment">
       <div class="o-featured-episode__segment-description">
-        <h3 class="o-featured-episode__segment-title"><a href="/programs/the-daily/2019/04/12/69845/">Israel’s Election, Through the Eyes of a Young Palestinian</a></h3>
-        <time class="o-story-list__item-timestamp">Fri April 12</time>
+        <h3 class="o-featured-episode__segment-title"><a href="/programs/the-daily/2019/06/03/71101/">The Legacy of Rachel Held Evans</a></h3>
+        <time class="o-story-list__item-timestamp">Mon June 03</time>
         <div class="o-featured-episode__segment-teaser">
-        <p>Prime Minister Benjamin Netanyahu of Israel has promised to assert sovereignty over dozens of Jewish settlements on the West Bank. For Palestinians there, that could mean the end of a decades-long struggle for a state of their own. We hear the perspective of one young man living on the West Bank. Guest: Fadi Quran, who grew up in a Palestinian community near an Israeli settlement. For more information on today’s episode, visit <a href="https://www.nytimes.com/thedaily" target="_blank">nytimes.com/thedaily</a>.</p>
+        <p>In a brief but prolific career, a young writer asked whether evangelical Christianity could change. In doing so, she changed it. Guests: Elizabeth Dias, who covers religion for The Times, in conversation with Natalie Kitroeff. &nbsp;For more information on today’s episode, visit <a href="https://www.nytimes.com/thedaily" target="_blank">nytimes.com/thedaily</a>. </p><p>Background reading: </p><ul><li>Read the Times obituary for <a href="https://www.nytimes.com/2019/05/04/us/rachel-held-evans.html?smid=pc-thedaily" target="_blank">Rachel Held Evans</a>, the best-selling author who challenged conservative Christianity and gave voice to a generation of wandering evangelicals wrestling with their faith.</li></ul>
       </div>
           <div class="c-audio-widget">
-            <a href="https://dts.podtrac.com/redirect.mp3/rss.art19.com/episodes/7947daef-b0a6-48ea-b6da-a7b42d23ee94.mp3?context=the-daily" class="c-play__button" title="Israel’s Election, Through the Eyes of a Young Palestinian" data-duration="1716" data-ga-category="Article" data-ga-action="Play" data-ga-label="Player">
+            <a href="https://dts.podtrac.com/redirect.mp3/rss.art19.com/episodes/18cf5e21-b942-46e2-89ea-b5bb80e1e9d6.mp3?context=the-daily" class="c-play__button" title="The Legacy of Rachel Held Evans" data-duration="1645" data-ga-category="Article" data-ga-action="Play" data-ga-label="Player">
               <span class="o-featured-episode__segment-audio">
-                <img class="o-featured-episode__segment-icon" src="../assets/o-audio-bar/Miniplayer-Play@2x-9eb026b3cb47b37babd5eb9f620efedf.png.html" alt="Miniplayer play@2x" />
-                28 MIN 36 SEC
+                <img class="o-featured-episode__segment-icon" src="/assets/o-audio-bar/Miniplayer-Play@2x-9eb026b3cb47b37babd5eb9f620efedf.png" alt="Miniplayer play@2x" />
+                27 MIN 25 SEC
               </span>
             </a>
           </div>
@@ -790,16 +790,16 @@
     </div>
     <div class="o-featured-episode__segment">
       <div class="o-featured-episode__segment-description">
-        <h3 class="o-featured-episode__segment-title"><a href="/programs/the-daily/2019/04/11/69817/">Netanyahu Won. The Two-State Solution Lost.</a></h3>
-        <time class="o-story-list__item-timestamp">Thu April 11</time>
+        <h3 class="o-featured-episode__segment-title"><a href="/programs/the-daily/2019/05/31/71046/">Death, Profit and Disclosure at a Children’s Hospital</a></h3>
+        <time class="o-story-list__item-timestamp">Fri May 31</time>
         <div class="o-featured-episode__segment-teaser">
-        <p>President Trump has promised to broker the deal of the century between Israelis and Palestinians. His partnership with Israel’s prime minister, Benjamin Netanyahu, may have made such a peace deal all but impossible. Guest: Mark Landler, who covers the White House for The New York Times. For more information on today’s episode, visit <a href="https://www.nytimes.com/thedaily" target="_blank">nytimes.com/thedaily</a>.</p>
+        <p>A Times investigation found that doctors at UNC Children’s Hospital suspected that children with complex heart conditions had been dying at higher-than-expected rates, and even children with low-risk conditions seemed to do poorly. Secret recordings shared with our colleague reveal what was happening inside the hospital. Guest: Ellen Gabler, an investigative reporter for The New York Times. For more information on today’s episode, visit <a href="https://www.nytimes.com/thedaily" target="_blank">nytimes.com/thedaily</a>. </p><p>Background reading:</p><ul><li>Limited information released by UNC shows that the hospital’s cardiac surgery mortality rate from July 2013 through June 2017 was <a href="https://www.nytimes.com/interactive/2019/05/30/us/children-heart-surgery-cardiac.html?smid=pc-thedaily" target="_blank">higher than those of most of the 82 hospitals that publicly report similar information</a>.</li><li>Listen to<a href="https://www.nytimes.com/2019/05/30/us/children-heart-surgery-takeaways.html?smid=pc-thedaily" target="_blank"> the audio recordings that provide an unfiltered look</a> behind closed doors at the hospital. </li></ul>
       </div>
           <div class="c-audio-widget">
-            <a href="https://dts.podtrac.com/redirect.mp3/rss.art19.com/episodes/c0e61ac9-9b99-4c49-984d-4f7dd184af6b.mp3?context=the-daily" class="c-play__button" title="Netanyahu Won. The Two-State Solution Lost." data-duration="1749" data-ga-category="Article" data-ga-action="Play" data-ga-label="Player">
+            <a href="https://dts.podtrac.com/redirect.mp3/rss.art19.com/episodes/607be1a7-1116-4598-a30a-7e981f0e07a2.mp3?context=the-daily" class="c-play__button" title="Death, Profit and Disclosure at a Children’s Hospital" data-duration="2200" data-ga-category="Article" data-ga-action="Play" data-ga-label="Player">
               <span class="o-featured-episode__segment-audio">
-                <img class="o-featured-episode__segment-icon" src="../assets/o-audio-bar/Miniplayer-Play@2x-9eb026b3cb47b37babd5eb9f620efedf.png.html" alt="Miniplayer play@2x" />
-                29 MIN 09 SEC
+                <img class="o-featured-episode__segment-icon" src="/assets/o-audio-bar/Miniplayer-Play@2x-9eb026b3cb47b37babd5eb9f620efedf.png" alt="Miniplayer play@2x" />
+                36 MIN 40 SEC
               </span>
             </a>
           </div>
@@ -809,21 +809,21 @@
 
   <nav class="pagination">
     <span class="first">
-  <a href="the-daily.html">&laquo; First</a>
+  <a href="/programs/the-daily">&laquo; First</a>
 </span>
 
     <span class="prev">
-  <a rel="prev" href="the-daily%3Fpage=127.html">&lsaquo; Prev</a>
+  <a rel="prev" href="/programs/the-daily?page=127">&lsaquo; Prev</a>
 </span>
 
         <span class="page gap">&hellip;</span>
 
         <span class="page">
-  <a href="the-daily%3Fpage=126.html">126</a>
+  <a href="/programs/the-daily?page=126">126</a>
 </span>
 
         <span class="page">
-  <a rel="prev" href="the-daily%3Fpage=127.html">127</a>
+  <a rel="prev" href="/programs/the-daily?page=127">127</a>
 </span>
 
         <span class="page current">
@@ -831,21 +831,21 @@
 </span>
 
         <span class="page">
-  <a rel="next" href="the-daily%3Fpage=129.html">129</a>
+  <a rel="next" href="/programs/the-daily?page=129">129</a>
 </span>
 
         <span class="page">
-  <a href="the-daily%3Fpage=130.html">130</a>
+  <a href="/programs/the-daily?page=130">130</a>
 </span>
 
         <span class="page gap">&hellip;</span>
 
     <span class="next">
-  <a rel="next" href="the-daily%3Fpage=129.html">Next &rsaquo;</a>
+  <a rel="next" href="/programs/the-daily?page=129">Next &rsaquo;</a>
 </span>
 
     <span class="last">
-  <a href="/programs/the-daily?page=178">Last &raquo;</a>
+  <a href="/programs/the-daily?page=184">Last &raquo;</a>
 </span>
 
   </nav>
@@ -857,7 +857,7 @@
 
       <a href="/programs/airtalk/">
         <figure class="o-featured-programs__program-figure o-figure o-figure--widescreen">
-          <img class="o-figure__img" src="../assets/programs/airtalk-4412b6c8664a6b9b729a358b4bd76379.jpg.html" style="background-image: url(../assets/programs/airtalk-4412b6c8664a6b9b729a358b4bd76379.jpg.html);">
+          <img class="o-figure__img" src="/assets/programs/airtalk-4412b6c8664a6b9b729a358b4bd76379.jpg" style="background-image: url(/assets/programs/airtalk-4412b6c8664a6b9b729a358b4bd76379.jpg);">
         </figure>
       </a>
 
@@ -883,7 +883,7 @@
 
       <a href="/programs/filmweek/">
         <figure class="o-featured-programs__program-figure o-figure o-figure--widescreen">
-          <img class="o-figure__img" src="../assets/programs/filmweek-7f098addfc273da97d493045e8635352.jpg.html" style="background-image: url(../assets/programs/filmweek-7f098addfc273da97d493045e8635352.jpg.html);">
+          <img class="o-figure__img" src="/assets/programs/filmweek-7f098addfc273da97d493045e8635352.jpg" style="background-image: url(/assets/programs/filmweek-7f098addfc273da97d493045e8635352.jpg);">
         </figure>
       </a>
 
@@ -908,51 +908,51 @@
 
 </section>
 
-<section class="o-popular-stories l-column--boundless o-popular-stories--horiz" style="order: 1001">
+<section class="o-popular-stories l-column--boundless o-popular-stories--horiz" style="order: 1002">
   <h4 class="o-popular-stories__heading b-heading b-heading--h4 b-heading--uppercase u-text-color--gray-warm b-heading--medium">What's popular now on KPCC</h4>
     <div class="o-popular-stories__story track-event">
       <figure class="o-popular-stories__figure o-figure o-figure--four-by-three">
-        <a data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="Popular Now Quadrant" href="/news/2021/07/20/98531/americans-will-soon-be-able-to-go-to-their-2nd-mos/">
-        <img class="o-figure__img" src="https://a.scpr.org/i/e327d5c28487feda42a0a1680f8c8fd6/234311-full.jpg" style="background-image: url(https://a.scpr.org/i/e327d5c28487feda42a0a1680f8c8fd6/234311-full.jpg)" />
+        <a data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="Popular Now Quadrant" href="/news/2021/08/27/99010/a-u-s-intelligence-report-fails-to-pinpoint-covid/">
+        <img class="o-figure__img" src="https://a.scpr.org/i/59d668f71ceddb95fd85b2c74ff3dbe0/234805-full.jpg" style="background-image: url(https://a.scpr.org/i/59d668f71ceddb95fd85b2c74ff3dbe0/234805-full.jpg)" />
 </a>        <figcaption class="o-popular-stories__caption">
-          <a data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="Popular Now Quadrant" href="/news/2021/07/20/98531/americans-will-soon-be-able-to-go-to-their-2nd-mos/">
-          Americans Will Soon Be Able To Go To Their 2nd Most Popular Travel Destination
+          <a data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="Popular Now Quadrant" href="/news/2021/08/27/99010/a-u-s-intelligence-report-fails-to-pinpoint-covid/">
+          A U.S. Intelligence Report Fails To Pinpoint COVID's Origins 
 </a>        </figcaption>
       </figure>
     </div>
     <div class="o-popular-stories__story track-event">
       <figure class="o-popular-stories__figure o-figure o-figure--four-by-three">
-        <a data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="Popular Now Quadrant" href="/news/2021/07/20/98530/tokyo-olympics-ceo-doesn-t-dismiss-the-idea-that-g/">
-        <img class="o-figure__img" src="../assets/meta/facebook-73514b02830df167eb8bfbe15710b5cb.jpg.html" style="background-image: url(../assets/meta/facebook-73514b02830df167eb8bfbe15710b5cb.jpg.html)" />
+        <a data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="Popular Now Quadrant" href="/news/2021/08/27/99009/peloton-says-it-s-been-subpoenaed-by-doj-and-dhs-o/">
+        <img class="o-figure__img" src="https://a.scpr.org/i/d116dd563eb2b33c35b08772770cc978/234804-full.jpg" style="background-image: url(https://a.scpr.org/i/d116dd563eb2b33c35b08772770cc978/234804-full.jpg)" />
 </a>        <figcaption class="o-popular-stories__caption">
-          <a data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="Popular Now Quadrant" href="/news/2021/07/20/98530/tokyo-olympics-ceo-doesn-t-dismiss-the-idea-that-g/">
-          Tokyo Olympics CEO Doesn't Dismiss The Idea That Games Could Still Be Called Off
+          <a data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="Popular Now Quadrant" href="/news/2021/08/27/99009/peloton-says-it-s-been-subpoenaed-by-doj-and-dhs-o/">
+          Peloton Says It's Been Subpoenaed By DOJ And DHS Over Its Product Injury Reporting
 </a>        </figcaption>
       </figure>
     </div>
     <div class="o-popular-stories__story track-event">
       <figure class="o-popular-stories__figure o-figure o-figure--four-by-three">
-        <a data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="Popular Now Quadrant" href="/news/2021/07/20/98529/the-white-house-blamed-china-for-hacking-microsoft/">
-        <img class="o-figure__img" src="../assets/meta/facebook-73514b02830df167eb8bfbe15710b5cb.jpg.html" style="background-image: url(../assets/meta/facebook-73514b02830df167eb8bfbe15710b5cb.jpg.html)" />
+        <a data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="Popular Now Quadrant" href="/news/2021/08/27/99008/the-u-s-has-set-up-a-mass-vaccination-site-for-afg/">
+        <img class="o-figure__img" src="https://a.scpr.org/i/3eb3e541688e115debdec435d4172dd6/234803-full.jpg" style="background-image: url(https://a.scpr.org/i/3eb3e541688e115debdec435d4172dd6/234803-full.jpg)" />
 </a>        <figcaption class="o-popular-stories__caption">
-          <a data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="Popular Now Quadrant" href="/news/2021/07/20/98529/the-white-house-blamed-china-for-hacking-microsoft/">
-          The White House Blamed China For Hacking Microsoft. China Is Pointing Fingers Back
+          <a data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="Popular Now Quadrant" href="/news/2021/08/27/99008/the-u-s-has-set-up-a-mass-vaccination-site-for-afg/">
+          The U.S. Has Set Up A Mass Vaccination Site For Afghans Arriving In Virginia
 </a>        </figcaption>
       </figure>
     </div>
     <div class="o-popular-stories__story track-event">
       <figure class="o-popular-stories__figure o-figure o-figure--four-by-three">
-        <a data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="Popular Now Quadrant" href="/news/2021/07/20/98528/new-york-reaches-a-1-1-billion-opioid-deal-with-th/">
-        <img class="o-figure__img" src="https://a.scpr.org/i/d870bff93c83f65f5aea9db0d0f9e8b7/234308-full.jpg" style="background-image: url(https://a.scpr.org/i/d870bff93c83f65f5aea9db0d0f9e8b7/234308-full.jpg)" />
+        <a data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="Popular Now Quadrant" href="/news/2021/08/27/99007/greenhouse-gas-levels-are-the-highest-ever-seen-an/">
+        <img class="o-figure__img" src="https://a.scpr.org/i/281c84db9a64d3e9cba7721d02ebce5e/234802-full.jpg" style="background-image: url(https://a.scpr.org/i/281c84db9a64d3e9cba7721d02ebce5e/234802-full.jpg)" />
 </a>        <figcaption class="o-popular-stories__caption">
-          <a data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="Popular Now Quadrant" href="/news/2021/07/20/98528/new-york-reaches-a-1-1-billion-opioid-deal-with-th/">
-          New York Reaches A $1.1 Billion Opioid Deal With The Nation's Big Drug Wholesalers
+          <a data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="Popular Now Quadrant" href="/news/2021/08/27/99007/greenhouse-gas-levels-are-the-highest-ever-seen-an/">
+          Greenhouse Gas Levels Are The Highest Ever Seen — And That's Going Back 800,000 Years
 </a>        </figcaption>
       </figure>
     </div>
 </section>
 <aside class="o-epilogue " style="order: 1001">
-  <img class="o-epilogue__graphic" src="../assets/graphic_epilogue-donate-da43de6f4b535f18d15ac128cd10b27d.svg.html">
+  <img class="o-epilogue__graphic" src="/assets/graphic_epilogue-donate-da43de6f4b535f18d15ac128cd10b27d.svg">
   <div class="o-epilogue__text">
     <h1 class="o-epilogue__heading"><a href="https://support.kpcc.org/default?ms=subfooter">KPCC's  coverage is a Southern California resource provided by member-supported public radio. We can't do it without you.</a></h1>
     <a class="o-epilogue-callout b-link b-link--callout" href="https://support.kpcc.org/default?ms=subfooter">Your contributions power KPCC.  Give today.</a>
@@ -994,10 +994,10 @@
     </div>
     <div class="l-section--margin-sm">
       <ul class="c-list--horiz b-text">
-        <li><a class="b-link b-link--white-dark-bg" href="take-two.1.html">Take Two</a></li>
+        <li><a class="b-link b-link--white-dark-bg" href="/programs/take-two">Take Two</a></li>
         <li><a class="b-link b-link--white-dark-bg" href="/programs/airtalk">AirTalk</a></li>
         <li><a class="b-link b-link--white-dark-bg" href="/programs/offramp">Off-Ramp</a></li>
-        <li><a class="b-link b-link--white-dark-bg" href="the-frame.1.html">The Frame</a></li>
+        <li><a class="b-link b-link--white-dark-bg" href="/programs/the-frame">The Frame</a></li>
         <li><a class="b-link b-link--white-dark-bg" href="/schedule">Program Schedule</a></li>
         <li><a class="b-link b-link--white-dark-bg" href="/programs">Programs A-Z</a></li>
         <li><a class="b-link b-link--white-dark-bg" href="/events/kpcc-in-person">KPCC In Person</a></li>
@@ -1112,7 +1112,7 @@
         </div>
       </div>
       <div class="o-audio-bar__buttons">
-          <a class="o-audio-bar__download" href="the-daily%3Fpage=128.html#" download>
+          <a class="o-audio-bar__download" href="#" download>
             <svg class="b-icon o-audio-bar__download-icon" data-ga-category="Article" data-ga-action="Volume" data-ga-label="Player">
               <use class="" xlink:href="/static/images/scpr-sprite.svg#icon_line-download"/>
               Download
@@ -1245,7 +1245,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                         };
 </script>
   <noscript>
-    <img src="https://pixel.quantserve.com/pixel/p-_ZNT1e57PQPC3.gif?labels=_fp.event.Default" style="display: none;" border="0" height="1" width="1" alt="Quantcast"/>
+    <img src="//pixel.quantserve.com/pixel/p-_ZNT1e57PQPC3.gif?labels=_fp.event.Default" style="display: none;" border="0" height="1" width="1" alt="Quantcast"/>
   </noscript>
 <!-- End Quantcast Tag -->
 
@@ -1274,6 +1274,6 @@ $(function() {
 </html>
 
 
-    <script src="../assets/better_homepage/style-guide-595f2dc3b18234ed913ffd5b40175ebc.js" async="async"></script>
+    <script src="/assets/better_homepage/style-guide-595f2dc3b18234ed913ffd5b40175ebc.js" async="async"></script>
   </body>
 </html>

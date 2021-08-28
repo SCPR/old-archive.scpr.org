@@ -28,7 +28,7 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="black" />
 <meta name="format-detection" content="telephone=no" />
 <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
-<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam-cell.nr-data.net","errorBeacon":"bam-cell.nr-data.net","licenseKey":"3a7254ec4f","applicationID":"446356","transactionName":"JV4MRkQMDVRTRUlWUhFCTUFCDBNB","queueTime":0,"applicationTime":4838,"agent":""}</script>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam-cell.nr-data.net","errorBeacon":"bam-cell.nr-data.net","licenseKey":"3a7254ec4f","applicationID":"446356","transactionName":"JV4MRkQMDVRTRUlWUhFCTUFCDBNB","queueTime":0,"applicationTime":9992,"agent":""}</script>
 <script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"UwcDWFBADAcGV1RU",licenseKey:"3a7254ec4f",applicationID:"446356"};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var i=e[n]={exports:{}};t[n][0].call(i.exports,function(e){var i=t[n][1][e];return r(i||e)},i,i.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var i=0;i<n.length;i++)r(n[i]);return r}({1:[function(t,e,n){function r(t){try{s.console&&console.log(t)}catch(e){}}var i,o=t("ee"),a=t(22),s={};try{i=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(s.console=!0,i.indexOf("dev")!==-1&&(s.dev=!0),i.indexOf("nr_dev")!==-1&&(s.nrDev=!0))}catch(c){}s.nrDev&&o.on("internal-error",function(t){r(t.stack)}),s.dev&&o.on("fn-err",function(t,e,n){r(n.stack)}),s.dev&&(r("NR AGENT IN DEVELOPMENT MODE"),r("flags: "+a(s,function(t,e){return t}).join(", ")))},{}],2:[function(t,e,n){function r(t,e,n,r,s){try{p?p-=1:i(s||new UncaughtException(t,e,n),!0)}catch(f){try{o("ierr",[f,c.now(),!0])}catch(d){}}return"function"==typeof u&&u.apply(this,a(arguments))}function UncaughtException(t,e,n){this.message=t||"Uncaught error with no additional information",this.sourceURL=e,this.line=n}function i(t,e){var n=e?null:c.now();o("err",[t,n])}var o=t("handle"),a=t(23),s=t("ee"),c=t("loader"),f=t("gos"),u=window.onerror,d=!1,l="nr@seenError";if(!c.disabled){var p=0;c.features.err=!0,t(1),window.onerror=r;try{throw new Error}catch(h){"stack"in h&&(t(6),t(5),"addEventListener"in window&&t(3),c.xhrWrappable&&t(7),d=!0)}s.on("fn-start",function(t,e,n){d&&(p+=1)}),s.on("fn-err",function(t,e,n){d&&!n[l]&&(f(n,l,function(){return!0}),this.thrown=!0,i(n))}),s.on("fn-end",function(){d&&!this.thrown&&p>0&&(p-=1)}),s.on("internal-error",function(t){o("ierr",[t,c.now(),!0])})}},{}],3:[function(t,e,n){function r(t){for(var e=t;e&&!e.hasOwnProperty(u);)e=Object.getPrototypeOf(e);e&&i(e)}function i(t){s.inPlace(t,[u,d],"-",o)}function o(t,e){return t[1]}var a=t("ee").get("events"),s=t("wrap-function")(a,!0),c=t("gos"),f=XMLHttpRequest,u="addEventListener",d="removeEventListener";e.exports=a,"getPrototypeOf"in Object?(r(document),r(window),r(f.prototype)):f.prototype.hasOwnProperty(u)&&(i(window),i(f.prototype)),a.on(u+"-start",function(t,e){var n=t[1],r=c(n,"nr@wrapped",function(){function t(){if("function"==typeof n.handleEvent)return n.handleEvent.apply(n,arguments)}var e={object:t,"function":n}[typeof n];return e?s(e,"fn-",null,e.name||"anonymous"):n});this.wrapped=t[1]=r}),a.on(d+"-start",function(t){t[1]=this.wrapped||t[1]})},{}],4:[function(t,e,n){function r(t,e,n){var r=t[e];"function"==typeof r&&(t[e]=function(){var t=o(arguments),e={};i.emit(n+"before-start",[t],e);var a;e[m]&&e[m].dt&&(a=e[m].dt);var s=r.apply(this,t);return i.emit(n+"start",[t,a],s),s.then(function(t){return i.emit(n+"end",[null,t],s),t},function(t){throw i.emit(n+"end",[t],s),t})})}var i=t("ee").get("fetch"),o=t(23),a=t(22);e.exports=i;var s=window,c="fetch-",f=c+"body-",u=["arrayBuffer","blob","json","text","formData"],d=s.Request,l=s.Response,p=s.fetch,h="prototype",m="nr@context";d&&l&&p&&(a(u,function(t,e){r(d[h],e,f),r(l[h],e,f)}),r(s,"fetch",c),i.on(c+"end",function(t,e){var n=this;if(e){var r=e.headers.get("content-length");null!==r&&(n.rxSize=r),i.emit(c+"done",[null,e],n)}else i.emit(c+"done",[t],n)}))},{}],5:[function(t,e,n){var r=t("ee").get("raf"),i=t("wrap-function")(r),o="equestAnimationFrame";e.exports=r,i.inPlace(window,["r"+o,"mozR"+o,"webkitR"+o,"msR"+o],"raf-"),r.on("raf-start",function(t){t[0]=i(t[0],"fn-")})},{}],6:[function(t,e,n){function r(t,e,n){t[0]=a(t[0],"fn-",null,n)}function i(t,e,n){this.method=n,this.timerDuration=isNaN(t[1])?0:+t[1],t[0]=a(t[0],"fn-",this,n)}var o=t("ee").get("timer"),a=t("wrap-function")(o),s="setTimeout",c="setInterval",f="clearTimeout",u="-start",d="-";e.exports=o,a.inPlace(window,[s,"setImmediate"],s+d),a.inPlace(window,[c],c+d),a.inPlace(window,[f,"clearImmediate"],f+d),o.on(c+u,r),o.on(s+u,i)},{}],7:[function(t,e,n){function r(t,e){d.inPlace(e,["onreadystatechange"],"fn-",s)}function i(){var t=this,e=u.context(t);t.readyState>3&&!e.resolved&&(e.resolved=!0,u.emit("xhr-resolved",[],t)),d.inPlace(t,w,"fn-",s)}function o(t){x.push(t),h&&(b?b.then(a):v?v(a):(E=-E,R.data=E))}function a(){for(var t=0;t<x.length;t++)r([],x[t]);x.length&&(x=[])}function s(t,e){return e}function c(t,e){for(var n in t)e[n]=t[n];return e}t(3);var f=t("ee"),u=f.get("xhr"),d=t("wrap-function")(u),l=NREUM.o,p=l.XHR,h=l.MO,m=l.PR,v=l.SI,g="readystatechange",w=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"],x=[];e.exports=u;var y=window.XMLHttpRequest=function(t){var e=new p(t);try{u.emit("new-xhr",[e],e),e.addEventListener(g,i,!1)}catch(n){try{u.emit("internal-error",[n])}catch(r){}}return e};if(c(p,y),y.prototype=p.prototype,d.inPlace(y.prototype,["open","send"],"-xhr-",s),u.on("send-xhr-start",function(t,e){r(t,e),o(e)}),u.on("open-xhr-start",r),h){var b=m&&m.resolve();if(!v&&!m){var E=1,R=document.createTextNode(E);new h(a).observe(R,{characterData:!0})}}else f.on("fn-end",function(t){t[0]&&t[0].type===g||a()})},{}],8:[function(t,e,n){function r(t){if(!s(t))return null;var e=window.NREUM;if(!e.loader_config)return null;var n=(e.loader_config.accountID||"").toString()||null,r=(e.loader_config.agentID||"").toString()||null,f=(e.loader_config.trustKey||"").toString()||null;if(!n||!r)return null;var h=p.generateSpanId(),m=p.generateTraceId(),v=Date.now(),g={spanId:h,traceId:m,timestamp:v};return(t.sameOrigin||c(t)&&l())&&(g.traceContextParentHeader=i(h,m),g.traceContextStateHeader=o(h,v,n,r,f)),(t.sameOrigin&&!u()||!t.sameOrigin&&c(t)&&d())&&(g.newrelicHeader=a(h,m,v,n,r,f)),g}function i(t,e){return"00-"+e+"-"+t+"-01"}function o(t,e,n,r,i){var o=0,a="",s=1,c="",f="";return i+"@nr="+o+"-"+s+"-"+n+"-"+r+"-"+t+"-"+a+"-"+c+"-"+f+"-"+e}function a(t,e,n,r,i,o){var a="btoa"in window&&"function"==typeof window.btoa;if(!a)return null;var s={v:[0,1],d:{ty:"Browser",ac:r,ap:i,id:t,tr:e,ti:n}};return o&&r!==o&&(s.d.tk=o),btoa(JSON.stringify(s))}function s(t){return f()&&c(t)}function c(t){var e=!1,n={};if("init"in NREUM&&"distributed_tracing"in NREUM.init&&(n=NREUM.init.distributed_tracing),t.sameOrigin)e=!0;else if(n.allowed_origins instanceof Array)for(var r=0;r<n.allowed_origins.length;r++){var i=h(n.allowed_origins[r]);if(t.hostname===i.hostname&&t.protocol===i.protocol&&t.port===i.port){e=!0;break}}return e}function f(){return"init"in NREUM&&"distributed_tracing"in NREUM.init&&!!NREUM.init.distributed_tracing.enabled}function u(){return"init"in NREUM&&"distributed_tracing"in NREUM.init&&!!NREUM.init.distributed_tracing.exclude_newrelic_header}function d(){return"init"in NREUM&&"distributed_tracing"in NREUM.init&&NREUM.init.distributed_tracing.cors_use_newrelic_header!==!1}function l(){return"init"in NREUM&&"distributed_tracing"in NREUM.init&&!!NREUM.init.distributed_tracing.cors_use_tracecontext_headers}var p=t(19),h=t(10);e.exports={generateTracePayload:r,shouldGenerateTrace:s}},{}],9:[function(t,e,n){function r(t){var e=this.params,n=this.metrics;if(!this.ended){this.ended=!0;for(var r=0;r<l;r++)t.removeEventListener(d[r],this.listener,!1);e.aborted||(n.duration=a.now()-this.startTime,this.loadCaptureCalled||4!==t.readyState?null==e.status&&(e.status=0):o(this,t),n.cbTime=this.cbTime,u.emit("xhr-done",[t],t),s("xhr",[e,n,this.startTime]))}}function i(t,e){var n=c(e),r=t.params;r.host=n.hostname+":"+n.port,r.pathname=n.pathname,t.parsedOrigin=n,t.sameOrigin=n.sameOrigin}function o(t,e){t.params.status=e.status;var n=v(e,t.lastSize);if(n&&(t.metrics.rxSize=n),t.sameOrigin){var r=e.getResponseHeader("X-NewRelic-App-Data");r&&(t.params.cat=r.split(", ").pop())}t.loadCaptureCalled=!0}var a=t("loader");if(a.xhrWrappable&&!a.disabled){var s=t("handle"),c=t(10),f=t(8).generateTracePayload,u=t("ee"),d=["load","error","abort","timeout"],l=d.length,p=t("id"),h=t(15),m=t(14),v=t(11),g=NREUM.o.REQ,w=window.XMLHttpRequest;a.features.xhr=!0,t(7),t(4),u.on("new-xhr",function(t){var e=this;e.totalCbs=0,e.called=0,e.cbTime=0,e.end=r,e.ended=!1,e.xhrGuids={},e.lastSize=null,e.loadCaptureCalled=!1,e.params=this.params||{},e.metrics=this.metrics||{},t.addEventListener("load",function(n){o(e,t)},!1),h&&(h>34||h<10)||window.opera||t.addEventListener("progress",function(t){e.lastSize=t.loaded},!1)}),u.on("open-xhr-start",function(t){this.params={method:t[0]},i(this,t[1]),this.metrics={}}),u.on("open-xhr-end",function(t,e){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&e.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid);var n=f(this.parsedOrigin);if(n){var r=!1;n.newrelicHeader&&(e.setRequestHeader("newrelic",n.newrelicHeader),r=!0),n.traceContextParentHeader&&(e.setRequestHeader("traceparent",n.traceContextParentHeader),n.traceContextStateHeader&&e.setRequestHeader("tracestate",n.traceContextStateHeader),r=!0),r&&(this.dt=n)}}),u.on("send-xhr-start",function(t,e){var n=this.metrics,r=t[0],i=this;if(n&&r){var o=m(r);o&&(n.txSize=o)}this.startTime=a.now(),this.listener=function(t){try{"abort"!==t.type||i.loadCaptureCalled||(i.params.aborted=!0),("load"!==t.type||i.called===i.totalCbs&&(i.onloadCalled||"function"!=typeof e.onload))&&i.end(e)}catch(n){try{u.emit("internal-error",[n])}catch(r){}}};for(var s=0;s<l;s++)e.addEventListener(d[s],this.listener,!1)}),u.on("xhr-cb-time",function(t,e,n){this.cbTime+=t,e?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof n.onload||this.end(n)}),u.on("xhr-load-added",function(t,e){var n=""+p(t)+!!e;this.xhrGuids&&!this.xhrGuids[n]&&(this.xhrGuids[n]=!0,this.totalCbs+=1)}),u.on("xhr-load-removed",function(t,e){var n=""+p(t)+!!e;this.xhrGuids&&this.xhrGuids[n]&&(delete this.xhrGuids[n],this.totalCbs-=1)}),u.on("addEventListener-end",function(t,e){e instanceof w&&"load"===t[0]&&u.emit("xhr-load-added",[t[1],t[2]],e)}),u.on("removeEventListener-end",function(t,e){e instanceof w&&"load"===t[0]&&u.emit("xhr-load-removed",[t[1],t[2]],e)}),u.on("fn-start",function(t,e,n){e instanceof w&&("onload"===n&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=a.now()))}),u.on("fn-end",function(t,e){this.xhrCbStart&&u.emit("xhr-cb-time",[a.now()-this.xhrCbStart,this.onload,e],e)}),u.on("fetch-before-start",function(t){function e(t,e){var n=!1;return e.newrelicHeader&&(t.set("newrelic",e.newrelicHeader),n=!0),e.traceContextParentHeader&&(t.set("traceparent",e.traceContextParentHeader),e.traceContextStateHeader&&t.set("tracestate",e.traceContextStateHeader),n=!0),n}var n,r=t[1]||{};"string"==typeof t[0]?n=t[0]:t[0]&&t[0].url?n=t[0].url:window.URL&&t[0]&&t[0]instanceof URL&&(n=t[0].href),n&&(this.parsedOrigin=c(n),this.sameOrigin=this.parsedOrigin.sameOrigin);var i=f(this.parsedOrigin);if(i&&(i.newrelicHeader||i.traceContextParentHeader))if("string"==typeof t[0]||window.URL&&t[0]&&t[0]instanceof URL){var o={};for(var a in r)o[a]=r[a];o.headers=new Headers(r.headers||{}),e(o.headers,i)&&(this.dt=i),t.length>1?t[1]=o:t.push(o)}else t[0]&&t[0].headers&&e(t[0].headers,i)&&(this.dt=i)}),u.on("fetch-start",function(t,e){this.params={},this.metrics={},this.startTime=a.now(),t.length>=1&&(this.target=t[0]),t.length>=2&&(this.opts=t[1]);var n,r=this.opts||{},o=this.target;"string"==typeof o?n=o:"object"==typeof o&&o instanceof g?n=o.url:window.URL&&"object"==typeof o&&o instanceof URL&&(n=o.href),i(this,n);var s=(""+(o&&o instanceof g&&o.method||r.method||"GET")).toUpperCase();this.params.method=s,this.txSize=m(r.body)||0}),u.on("fetch-done",function(t,e){this.params||(this.params={}),this.params.status=e?e.status:0;var n;"string"==typeof this.rxSize&&this.rxSize.length>0&&(n=+this.rxSize);var r={txSize:this.txSize,rxSize:n,duration:a.now()-this.startTime};s("xhr",[this.params,r,this.startTime])})}},{}],10:[function(t,e,n){var r={};e.exports=function(t){if(t in r)return r[t];var e=document.createElement("a"),n=window.location,i={};e.href=t,i.port=e.port;var o=e.href.split("://");!i.port&&o[1]&&(i.port=o[1].split("/")[0].split("@").pop().split(":")[1]),i.port&&"0"!==i.port||(i.port="https"===o[0]?"443":"80"),i.hostname=e.hostname||n.hostname,i.pathname=e.pathname,i.protocol=o[0],"/"!==i.pathname.charAt(0)&&(i.pathname="/"+i.pathname);var a=!e.protocol||":"===e.protocol||e.protocol===n.protocol,s=e.hostname===document.domain&&e.port===n.port;return i.sameOrigin=a&&(!e.hostname||s),"/"===i.pathname&&(r[t]=i),i}},{}],11:[function(t,e,n){function r(t,e){var n=t.responseType;return"json"===n&&null!==e?e:"arraybuffer"===n||"blob"===n||"json"===n?i(t.response):"text"===n||""===n||void 0===n?i(t.responseText):void 0}var i=t(14);e.exports=r},{}],12:[function(t,e,n){function r(){}function i(t,e,n){return function(){return o(t,[f.now()].concat(s(arguments)),e?null:this,n),e?void 0:this}}var o=t("handle"),a=t(22),s=t(23),c=t("ee").get("tracer"),f=t("loader"),u=NREUM;"undefined"==typeof window.newrelic&&(newrelic=u);var d=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",p=l+"ixn-";a(d,function(t,e){u[e]=i(l+e,!0,"api")}),u.addPageAction=i(l+"addPageAction",!0),u.setCurrentRouteName=i(l+"routeName",!0),e.exports=newrelic,u.interaction=function(){return(new r).get()};var h=r.prototype={createTracer:function(t,e){var n={},r=this,i="function"==typeof e;return o(p+"tracer",[f.now(),t,n],r),function(){if(c.emit((i?"":"no-")+"fn-start",[f.now(),r,i],n),i)try{return e.apply(this,arguments)}catch(t){throw c.emit("fn-err",[arguments,this,t],n),t}finally{c.emit("fn-end",[f.now()],n)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,e){h[e]=i(p+e)}),newrelic.noticeError=function(t,e){"string"==typeof t&&(t=new Error(t)),o("err",[t,f.now(),!1,e])}},{}],13:[function(t,e,n){function r(t){if(NREUM.init){for(var e=NREUM.init,n=t.split("."),r=0;r<n.length-1;r++)if(e=e[n[r]],"object"!=typeof e)return;return e=e[n[n.length-1]]}}e.exports={getConfiguration:r}},{}],14:[function(t,e,n){e.exports=function(t){if("string"==typeof t&&t.length)return t.length;if("object"==typeof t){if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if(!("undefined"!=typeof FormData&&t instanceof FormData))try{return JSON.stringify(t).length}catch(e){return}}}},{}],15:[function(t,e,n){var r=0,i=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);i&&(r=+i[1]),e.exports=r},{}],16:[function(t,e,n){function r(){return s.exists&&performance.now?Math.round(performance.now()):(o=Math.max((new Date).getTime(),o))-a}function i(){return o}var o=(new Date).getTime(),a=o,s=t(24);e.exports=r,e.exports.offset=a,e.exports.getLastTimestamp=i},{}],17:[function(t,e,n){function r(t){return!(!t||!t.protocol||"file:"===t.protocol)}e.exports=r},{}],18:[function(t,e,n){function r(t,e){var n=t.getEntries();n.forEach(function(t){"first-paint"===t.name?d("timing",["fp",Math.floor(t.startTime)]):"first-contentful-paint"===t.name&&d("timing",["fcp",Math.floor(t.startTime)])})}function i(t,e){var n=t.getEntries();n.length>0&&d("lcp",[n[n.length-1]])}function o(t){t.getEntries().forEach(function(t){t.hadRecentInput||d("cls",[t])})}function a(t){if(t instanceof h&&!v){var e=Math.round(t.timeStamp),n={type:t.type};e<=l.now()?n.fid=l.now()-e:e>l.offset&&e<=Date.now()?(e-=l.offset,n.fid=l.now()-e):e=l.now(),v=!0,d("timing",["fi",e,n])}}function s(t){"hidden"===t&&d("pageHide",[l.now()])}if(!("init"in NREUM&&"page_view_timing"in NREUM.init&&"enabled"in NREUM.init.page_view_timing&&NREUM.init.page_view_timing.enabled===!1)){var c,f,u,d=t("handle"),l=t("loader"),p=t(21),h=NREUM.o.EV;if("PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver){c=new PerformanceObserver(r);try{c.observe({entryTypes:["paint"]})}catch(m){}f=new PerformanceObserver(i);try{f.observe({entryTypes:["largest-contentful-paint"]})}catch(m){}u=new PerformanceObserver(o);try{u.observe({type:"layout-shift",buffered:!0})}catch(m){}}if("addEventListener"in document){var v=!1,g=["click","keydown","mousedown","pointerdown","touchstart"];g.forEach(function(t){document.addEventListener(t,a,!1)})}p(s)}},{}],19:[function(t,e,n){function r(){function t(){return e?15&e[n++]:16*Math.random()|0}var e=null,n=0,r=window.crypto||window.msCrypto;r&&r.getRandomValues&&(e=r.getRandomValues(new Uint8Array(31)));for(var i,o="xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx",a="",s=0;s<o.length;s++)i=o[s],"x"===i?a+=t().toString(16):"y"===i?(i=3&t()|8,a+=i.toString(16)):a+=i;return a}function i(){return a(16)}function o(){return a(32)}function a(t){function e(){return n?15&n[r++]:16*Math.random()|0}var n=null,r=0,i=window.crypto||window.msCrypto;i&&i.getRandomValues&&Uint8Array&&(n=i.getRandomValues(new Uint8Array(31)));for(var o=[],a=0;a<t;a++)o.push(e().toString(16));return o.join("")}e.exports={generateUuid:r,generateSpanId:i,generateTraceId:o}},{}],20:[function(t,e,n){function r(t,e){if(!i)return!1;if(t!==i)return!1;if(!e)return!0;if(!o)return!1;for(var n=o.split("."),r=e.split("."),a=0;a<r.length;a++)if(r[a]!==n[a])return!1;return!0}var i=null,o=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var s=navigator.userAgent,c=s.match(a);c&&s.indexOf("Chrome")===-1&&s.indexOf("Chromium")===-1&&(i="Safari",o=c[1])}e.exports={agent:i,version:o,match:r}},{}],21:[function(t,e,n){function r(t){function e(){t(a&&document[a]?document[a]:document[i]?"hidden":"visible")}"addEventListener"in document&&o&&document.addEventListener(o,e,!1)}e.exports=r;var i,o,a;"undefined"!=typeof document.hidden?(i="hidden",o="visibilitychange",a="visibilityState"):"undefined"!=typeof document.msHidden?(i="msHidden",o="msvisibilitychange"):"undefined"!=typeof document.webkitHidden&&(i="webkitHidden",o="webkitvisibilitychange",a="webkitVisibilityState")},{}],22:[function(t,e,n){function r(t,e){var n=[],r="",o=0;for(r in t)i.call(t,r)&&(n[o]=e(r,t[r]),o+=1);return n}var i=Object.prototype.hasOwnProperty;e.exports=r},{}],23:[function(t,e,n){function r(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,i=n-e||0,o=Array(i<0?0:i);++r<i;)o[r]=t[e+r];return o}e.exports=r},{}],24:[function(t,e,n){e.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(t,e,n){function r(){}function i(t){function e(t){return t&&t instanceof r?t:t?f(t,c,a):a()}function n(n,r,i,o,a){if(a!==!1&&(a=!0),!p.aborted||o){t&&a&&t(n,r,i);for(var s=e(i),c=m(n),f=c.length,u=0;u<f;u++)c[u].apply(s,r);var l=d[x[n]];return l&&l.push([y,n,r,s]),s}}function o(t,e){w[t]=m(t).concat(e)}function h(t,e){var n=w[t];if(n)for(var r=0;r<n.length;r++)n[r]===e&&n.splice(r,1)}function m(t){return w[t]||[]}function v(t){return l[t]=l[t]||i(n)}function g(t,e){p.aborted||u(t,function(t,n){e=e||"feature",x[n]=e,e in d||(d[e]=[])})}var w={},x={},y={on:o,addEventListener:o,removeEventListener:h,emit:n,get:v,listeners:m,context:e,buffer:g,abort:s,aborted:!1};return y}function o(t){return f(t,c,a)}function a(){return new r}function s(){(d.api||d.feature)&&(p.aborted=!0,d=p.backlog={})}var c="nr@context",f=t("gos"),u=t(22),d={},l={},p=e.exports=i();e.exports.getOrSetContext=o,p.backlog=d},{}],gos:[function(t,e,n){function r(t,e,n){if(i.call(t,e))return t[e];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:r,writable:!0,enumerable:!1}),r}catch(o){}return t[e]=r,r}var i=Object.prototype.hasOwnProperty;e.exports=r},{}],handle:[function(t,e,n){function r(t,e,n,r){i.buffer([t],r),i.emit(t,e,n)}var i=t("ee").get("handle");e.exports=r,r.ee=i},{}],id:[function(t,e,n){function r(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:a(t,o,function(){return i++})}var i=1,o="nr@id",a=t("gos");e.exports=r},{}],loader:[function(t,e,n){function r(){if(!M++){var t=O.info=NREUM.info,e=m.getElementsByTagName("script")[0];if(setTimeout(f.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&e))return f.abort();c(E,function(e,n){t[e]||(t[e]=n)});var n=a();s("mark",["onload",n+O.offset],null,"api"),s("timing",["load",n]);var r=m.createElement("script");0===t.agent.indexOf("http://")||0===t.agent.indexOf("https://")?r.src=t.agent:r.src=p+"://"+t.agent,e.parentNode.insertBefore(r,e)}}function i(){"complete"===m.readyState&&o()}function o(){s("mark",["domContent",a()+O.offset],null,"api")}var a=t(16),s=t("handle"),c=t(22),f=t("ee"),u=t(20),d=t(17),l=t(13),p=l.getConfiguration("ssl")===!1?"http":"https",h=window,m=h.document,v="addEventListener",g="attachEvent",w=h.XMLHttpRequest,x=w&&w.prototype,y=!d(h.location);NREUM.o={ST:setTimeout,SI:h.setImmediate,CT:clearTimeout,XHR:w,REQ:h.Request,EV:h.Event,PR:h.Promise,MO:h.MutationObserver};var b=""+location,E={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1210.min.js"},R=w&&x&&x[v]&&!/CriOS/.test(navigator.userAgent),O=e.exports={offset:a.getLastTimestamp(),now:a,origin:b,features:{},xhrWrappable:R,userAgent:u,disabled:y};if(!y){t(12),t(18),m[v]?(m[v]("DOMContentLoaded",o,!1),h[v]("load",r,!1)):(m[g]("onreadystatechange",i),h[g]("onload",r)),s("mark",["firstbyte",a.getLastTimestamp()],null,"api");var M=0}},{}],"wrap-function":[function(t,e,n){function r(t,e){function n(e,n,r,c,f){function nrWrapper(){var o,a,u,l;try{a=this,o=d(arguments),u="function"==typeof r?r(o,a):r||{}}catch(p){i([p,"",[o,a,c],u],t)}s(n+"start",[o,a,c],u,f);try{return l=e.apply(a,o)}catch(h){throw s(n+"err",[o,a,h],u,f),h}finally{s(n+"end",[o,a,l],u,f)}}return a(e)?e:(n||(n=""),nrWrapper[l]=e,o(e,nrWrapper,t),nrWrapper)}function r(t,e,r,i,o){r||(r="");var s,c,f,u="-"===r.charAt(0);for(f=0;f<e.length;f++)c=e[f],s=t[c],a(s)||(t[c]=n(s,u?c+r:r,i,c,o))}function s(n,r,o,a){if(!h||e){var s=h;h=!0;try{t.emit(n,r,o,e,a)}catch(c){i([c,n,r,o],t)}h=s}}return t||(t=u),n.inPlace=r,n.flag=l,n}function i(t,e){e||(e=u);try{e.emit("internal-error",t)}catch(n){}}function o(t,e,n){if(Object.defineProperty&&Object.keys)try{var r=Object.keys(t);return r.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(o){i([o],n)}for(var a in t)p.call(t,a)&&(e[a]=t[a]);return e}function a(t){return!(t&&t instanceof Function&&t.apply&&!t[l])}function s(t,e){var n=e(t);return n[l]=t,o(t,n,u),n}function c(t,e,n){var r=t[e];t[e]=s(r,n)}function f(){for(var t=arguments.length,e=new Array(t),n=0;n<t;++n)e[n]=arguments[n];return e}var u=t("ee"),d=t(23),l="nr@original",p=Object.prototype.hasOwnProperty,h=!1;e.exports=r,e.exports.wrapFunction=s,e.exports.wrapInPlace=c,e.exports.argsToArray=f},{}]},{},["loader",2,9]);</script>
 <meta property="fb:app_id" content="129848480405753" />
 <meta property="fb:pages" content="21819923015,329876903846185,459190287458280,106721516050,172994359388346" />
@@ -90,11 +90,12 @@
 
 
 <meta name="csrf-param" content="authenticity_token" />
-<meta name="csrf-token" content="fI0YpYFHH53uFKywz4UMPD0bapcyJd78m9iHtALEliSE5l7+6BIuBF/n6YX6D93f2z8XAvZhQcjjRA8QRWTmJw==" />
+<meta name="csrf-token" content="OAVAG3+Nyu3dQHrnzuwHIHF+1Iv3vhR+/Dq1E/IRMKl8RsfUACBtTLGa5v72G4JZbHWEFwXFEzUjEgb5YbDxFA==" />
 
 <link rel="alternate" type="application/rss+xml" title="RSS" href="https://scpr.org/feeds/all_news" />
+<link rel="amphtml" href="https://www.scpr.org/news/2018/05/07/82768/2018-election-californias-next-governor.amp" />
 
-<link rel="shortcut icon" type="image/x-icon" href="../../../../../favicon.ico.html" />
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
 
 <script>
   window.fbAsyncInit = function() {
@@ -138,7 +139,7 @@
    }
  </script>
 
-    <link rel="stylesheet" media="screen" href="../../../../../assets/application-7f7821ce515de5e972962c5c644583f6.css.html" />
+    <link rel="stylesheet" media="screen" href="/assets/application-7f7821ce515de5e972962c5c644583f6.css" />
     
     <!-- Start: GPT Async -->
 <script type='text/javascript'>
@@ -210,7 +211,7 @@
 <!-- chartbeat timing for load start -->
 <script type="text/javascript">var _sf_startpt=(new Date()).getTime()</script>
 
-    <script src="../../../../../assets/application-5438c131fea4e82cd9b15c59115cba6e.js"></script>
+    <script src="/assets/application-5438c131fea4e82cd9b15c59115cba6e.js"></script>
     <script>
       // Function for lazy loading slideshow images
       function imgLoaded(img) {
@@ -298,7 +299,7 @@
               <a href="/podcasts">Podcasts</a>
             </li>
             <li>
-              <a href="/archive/2021/07/15/?section=programs">Archive</a>
+              <a href="/archive/2021/08/26/?section=programs">Archive</a>
             </li>
           </ul>
         </div>
@@ -471,7 +472,7 @@
 
   <div class="o-mast__action o-mast__search">
 
-    <form method="get" action="https://archive.kpcc.org/search/">
+    <form method="get" action="/search/">
       <input type="text" placeholder="Enter your search here" name="q" id="q" />
       <label for="o-mast__search-toggler-checkbox" class="o-mast__search-link" href="#">
         <svg class="b-icon b-icon--search-open">
@@ -544,14 +545,14 @@
       </a>
     </li>
     <li class="facebook">
-      <a href="2018-election-californias-next-governor.html#" class="social_fb b-popup__link track-event facebook" data-ga-category="Article" data-ga-action="Share" data-ga-label="Facebook" data-url="https://www.scpr.org/news/2018/05/07/82768/2018-election-californias-next-governor/">
+      <a href="#" class="social_fb b-popup__link track-event facebook" data-ga-category="Article" data-ga-action="Share" data-ga-label="Facebook" data-url="https://www.scpr.org/news/2018/05/07/82768/2018-election-californias-next-governor/">
         <svg class="b-icon">
           <use class="b-icon--color-gray-light" xlink:href="/static/images/scpr-sprite.svg#icon_line-facebook-inverted"/>
         </svg>
       </a>
     </li>
     <li class="twitter">
-      <a href="2018-election-californias-next-governor.html#" class="social_twit b-popup__link track-event twitter" data-ga-category="Article" data-ga-action="Share" data-ga-label="Twitter" data-url="https://www.scpr.org/news/2018/05/07/82768/2018-election-californias-next-governor/" data-text="Your%20guide%20to%20the%202018%20California%20governor%27s%20race">
+      <a href="#" class="social_twit b-popup__link track-event twitter" data-ga-category="Article" data-ga-action="Share" data-ga-label="Twitter" data-url="https://www.scpr.org/news/2018/05/07/82768/2018-election-californias-next-governor/" data-text="Your%20guide%20to%20the%202018%20California%20governor%27s%20race">
         <svg class="b-icon">
           <use class="b-icon--color-gray-light" xlink:href="/static/images/scpr-sprite.svg#icon_line-twitter"/>
         </svg>
@@ -583,7 +584,7 @@
         </script>
       </div>
     </div>
-      <a class="c-ad__attribution" href="/support/underwriting/">Become a KPCC Sponsor</a>
+      <a class="c-ad__attribution" href="http://www.scpr.org/support/underwriting/">Become a KPCC Sponsor</a>
   </div>
 </aside><hr class="b-rule l-column--right" style="order: 12;" />
 
@@ -595,35 +596,35 @@
   <ul class="o-content-cluster c-list c-list--horiz">
     <li class="o-content-cluster__content">
       <div class="o-content-cluster__thumb o-figure o-figure--four-by-three">
-        <img class="o-figure__img" src="../../../../../assets/meta/facebook-73514b02830df167eb8bfbe15710b5cb.jpg" style="background-image: url(../../../../../assets/meta/facebook-73514b02830df167eb8bfbe15710b5cb.jpg);">
+        <img class="o-figure__img" src="https://a.scpr.org/i/bf28e7bf966ab0668014ce04541695e2/234797-lsquare.jpg" style="background-image: url(https://a.scpr.org/i/bf28e7bf966ab0668014ce04541695e2/234797-lsquare.jpg);">
       </div>
       <div class="o-content-cluster__content-description">
         <h4 class="b-heading--book">
-          <a data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="More Sidebar Category" href="/news/2021/07/15/98483/biden-says-the-u-s-would-offer-aid-to-cuba-if-he-h/">Biden Says The U.S. Would Offer Aid To Cuba If He Had Assurances About The Regime</a>
+          <a data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="More Sidebar Category" href="https://www.scpr.org/news/2021/08/27/99003/there-s-a-march-on-washington-for-voting-rights-he/">There's A March On Washington For Voting Rights. Here's What Is Holding Up Action</a>
         </h4>
-        <div class="o-content-cluster__datetime b-heading--medium">July 15, 2021</div>
+        <div class="o-content-cluster__datetime b-heading--medium">August 27, 2021</div>
       </div>
     </li>
     <li class="o-content-cluster__content">
       <div class="o-content-cluster__thumb o-figure o-figure--four-by-three">
-        <img class="o-figure__img" src="../../../../../assets/meta/facebook-73514b02830df167eb8bfbe15710b5cb.jpg" style="background-image: url(../../../../../assets/meta/facebook-73514b02830df167eb8bfbe15710b5cb.jpg);">
+        <img class="o-figure__img" src="https://a.scpr.org/i/51c6501ea49cdd7aac598558c0bf5713/234794-lsquare.jpg" style="background-image: url(https://a.scpr.org/i/51c6501ea49cdd7aac598558c0bf5713/234794-lsquare.jpg);">
       </div>
       <div class="o-content-cluster__content-description">
         <h4 class="b-heading--book">
-          <a data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="More Sidebar Category" href="/news/2021/07/15/98478/families-are-receiving-a-child-tax-credit-janet-ye/">Families Are Receiving A Child Tax Credit. Janet Yellen Says It Should Be Permanent</a>
+          <a data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="More Sidebar Category" href="https://www.scpr.org/news/2021/08/27/99001/after-a-bitter-fight-the-texas-house-passes-a-rest/">After A Bitter Fight, The Texas House Passes A Restrictive Voting Bill</a>
         </h4>
-        <div class="o-content-cluster__datetime b-heading--medium">July 15, 2021</div>
+        <div class="o-content-cluster__datetime b-heading--medium">August 27, 2021</div>
       </div>
     </li>
     <li class="o-content-cluster__content">
       <div class="o-content-cluster__thumb o-figure o-figure--four-by-three">
-        <img class="o-figure__img" src="https://a.scpr.org/i/8276e2c83339fe4012b3c79d03d00b02/234241-lsquare.jpg" style="background-image: url(https://a.scpr.org/i/8276e2c83339fe4012b3c79d03d00b02/234241-lsquare.jpg);">
+        <img class="o-figure__img" src="https://a.scpr.org/i/557445a5558646d7021b71fa52198755/234790-lsquare.jpg" style="background-image: url(https://a.scpr.org/i/557445a5558646d7021b71fa52198755/234790-lsquare.jpg);">
       </div>
       <div class="o-content-cluster__content-description">
         <h4 class="b-heading--book">
-          <a data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="More Sidebar Category" href="/news/2021/07/14/98463/democrats-budget-deal-would-invest-in-the-child-ta/">Democrats' Budget Deal Would Invest In The Child Tax Credit, Health Care And Climate</a>
+          <a data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="More Sidebar Category" href="https://www.scpr.org/news/2021/08/26/98997/biden-pledges-to-strike-back-after-attack-kills-12/">Biden Pledges To Strike Back After Attack Kills 12 U.S. Service Members In Kabul</a>
         </h4>
-        <div class="o-content-cluster__datetime b-heading--medium">July 14, 2021</div>
+        <div class="o-content-cluster__datetime b-heading--medium">August 26, 2021</div>
       </div>
     </li>
 </ul>
@@ -633,39 +634,39 @@
   <h6 class="o-content-cluster__heading b-heading b-heading--h6 b-heading--uppercase u-text-color--gray b-heading--medium">
     POPULAR NOW ON KPCC
   </h6>
-  <a class="o-category-cluster__category-link b-heading link link--callout b-heading--uppercase" href="2018-election-californias-next-governor.html#"></a>
+  <a class="o-category-cluster__category-link b-heading link link--callout b-heading--uppercase" href="#"></a>
   <ul class="o-content-cluster c-list c-list--horiz">
     <li class="o-content-cluster__content">
       <div class="o-content-cluster__thumb o-figure o-figure--four-by-three">
-        <img class="o-figure__img" src="https://a.scpr.org/i/531b8ebca9e52a6c65e39b107718ce83/234268-lsquare.jpg" style="background-image: url(https://a.scpr.org/i/531b8ebca9e52a6c65e39b107718ce83/234268-lsquare.jpg);">
+        <img class="o-figure__img" src="https://a.scpr.org/i/281c84db9a64d3e9cba7721d02ebce5e/234802-lsquare.jpg" style="background-image: url(https://a.scpr.org/i/281c84db9a64d3e9cba7721d02ebce5e/234802-lsquare.jpg);">
       </div>
       <div class="o-content-cluster__content-description">
         <h4 class="b-heading--book">
-          <a data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="Popular Now Sidebar" href="/news/2021/07/16/98490/oof-y-all-dictionary-com-just-added-over-300-new-w/">Oof, Y'all, Dictionary.com Just Added Over 300 New Words And Definitions</a>
+          <a data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="Popular Now Sidebar" href="https://www.scpr.org/news/2021/08/27/99007/greenhouse-gas-levels-are-the-highest-ever-seen-an/">Greenhouse Gas Levels Are The Highest Ever Seen — And That's Going Back 800,000 Years</a>
         </h4>
-        <div class="o-content-cluster__datetime b-heading--medium">July 16, 2021</div>
+        <div class="o-content-cluster__datetime b-heading--medium">August 27, 2021</div>
       </div>
     </li>
     <li class="o-content-cluster__content">
       <div class="o-content-cluster__thumb o-figure o-figure--four-by-three">
-        <img class="o-figure__img" src="https://a.scpr.org/i/3421f863d48fb8168990575ddb947b54/234267-lsquare.jpg" style="background-image: url(https://a.scpr.org/i/3421f863d48fb8168990575ddb947b54/234267-lsquare.jpg);">
+        <img class="o-figure__img" src="https://a.scpr.org/i/170de8f0dad360203c913118c631fdfc/234801-lsquare.jpg" style="background-image: url(https://a.scpr.org/i/170de8f0dad360203c913118c631fdfc/234801-lsquare.jpg);">
       </div>
       <div class="o-content-cluster__content-description">
         <h4 class="b-heading--book">
-          <a data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="Popular Now Sidebar" href="/news/2021/07/16/98489/alcohol-use-linked-to-over-740-000-cancer-cases-la/">Alcohol Use Linked To Over 740,000 Cancer Cases Last Year, New Study Says</a>
+          <a data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="Popular Now Sidebar" href="https://www.scpr.org/news/2021/08/27/99006/afghanistan-death-toll-climbs-as-pentagon-clarifie/">Afghanistan Death Toll Climbs As Pentagon Clarifies 1 Bomber Was Involved In Attack</a>
         </h4>
-        <div class="o-content-cluster__datetime b-heading--medium">July 16, 2021</div>
+        <div class="o-content-cluster__datetime b-heading--medium">August 27, 2021</div>
       </div>
     </li>
     <li class="o-content-cluster__content">
       <div class="o-content-cluster__thumb o-figure o-figure--four-by-three">
-        <img class="o-figure__img" src="https://a.scpr.org/i/95c39106f327853e1c16a5e0c18d13f6/234266-lsquare.jpg" style="background-image: url(https://a.scpr.org/i/95c39106f327853e1c16a5e0c18d13f6/234266-lsquare.jpg);">
+        <img class="o-figure__img" src="https://a.scpr.org/i/3c0f8272c4a11a95ab453af9c8fe607b/234800-lsquare.jpg" style="background-image: url(https://a.scpr.org/i/3c0f8272c4a11a95ab453af9c8fe607b/234800-lsquare.jpg);">
       </div>
       <div class="o-content-cluster__content-description">
         <h4 class="b-heading--book">
-          <a data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="Popular Now Sidebar" href="/news/2021/07/16/98488/why-crash-weight-loss-programs-don-t-work-clues-fr/">Why Crash Weight Loss Programs Don't Work: Clues From Hunter-Gatherer Societies</a>
+          <a data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="Popular Now Sidebar" href="https://www.scpr.org/news/2021/08/27/99005/reports-of-cheating-at-colleges-soar-during-the-pa/">Reports Of Cheating At Colleges Soar During The Pandemic</a>
         </h4>
-        <div class="o-content-cluster__datetime b-heading--medium">July 16, 2021</div>
+        <div class="o-content-cluster__datetime b-heading--medium">August 27, 2021</div>
       </div>
     </li>
 </ul>
@@ -680,7 +681,7 @@
         </script>
       </div>
     </div>
-      <a class="c-ad__attribution" href="/support/underwriting/">Become a KPCC Sponsor</a>
+      <a class="c-ad__attribution" href="http://www.scpr.org/support/underwriting/">Become a KPCC Sponsor</a>
   </div>
 </aside>
 
@@ -731,14 +732,14 @@
       </a>
     </li>
     <li class="facebook">
-      <a href="2018-election-californias-next-governor.html#" class="social_fb b-popup__link track-event facebook" data-ga-category="Article" data-ga-action="Share" data-ga-label="Facebook" data-url="https://www.scpr.org/news/2018/05/07/82768/2018-election-californias-next-governor/">
+      <a href="#" class="social_fb b-popup__link track-event facebook" data-ga-category="Article" data-ga-action="Share" data-ga-label="Facebook" data-url="https://www.scpr.org/news/2018/05/07/82768/2018-election-californias-next-governor/">
         <svg class="b-icon">
           <use class="b-icon--color-gray-light" xlink:href="/static/images/scpr-sprite.svg#icon_line-facebook-inverted"/>
         </svg>
       </a>
     </li>
     <li class="twitter">
-      <a href="2018-election-californias-next-governor.html#" class="social_twit b-popup__link track-event twitter" data-ga-category="Article" data-ga-action="Share" data-ga-label="Twitter" data-url="https://www.scpr.org/news/2018/05/07/82768/2018-election-californias-next-governor/" data-text="Your%20guide%20to%20the%202018%20California%20governor%27s%20race">
+      <a href="#" class="social_twit b-popup__link track-event twitter" data-ga-category="Article" data-ga-action="Share" data-ga-label="Twitter" data-url="https://www.scpr.org/news/2018/05/07/82768/2018-election-californias-next-governor/" data-text="Your%20guide%20to%20the%202018%20California%20governor%27s%20race">
         <svg class="b-icon">
           <use class="b-icon--color-gray-light" xlink:href="/static/images/scpr-sprite.svg#icon_line-twitter"/>
         </svg>
@@ -757,7 +758,7 @@
 
 <p style="order:3;">Selecting the person for California’s top job is now in your hands.</p>
 
-<p style="order:4;">The next governor’s to-do list is not for the faint of heart. He or she will need to keep the budget in check, prepare California for environmental disasters (see: our year-long wildfire season and overdue <a href="/news/2017/05/22/71680/lucy-jones-s-doomsday-earthquake-scenarios-will-te/">great earthquake</a>) and manage a deep housing affordability crisis that’s led to <a href="https://www.scpr.org/news/2017/12/06/78591/homeless-population-rises-driven-by-west-coast-aff/">rising rates of homelessness</a>. Supporting early childhood development — an issue that's been <a href="https://www.scpr.org/news/2018/05/30/83362/why-tiny-brains-are-getting-massive-attention-in-t/">gaining more attention</a> among the candidates — will be part of the job. There’s also the matter of navigating the Golden State’s complicated relationship with the Trump administration.</p>
+<p style="order:4;">The next governor’s to-do list is not for the faint of heart. He or she will need to keep the budget in check, prepare California for environmental disasters (see: our year-long wildfire season and overdue <a href="https://www.scpr.org/news/2017/05/22/71680/lucy-jones-s-doomsday-earthquake-scenarios-will-te/">great earthquake</a>) and manage a deep housing affordability crisis that’s led to <a href="https://www.scpr.org/news/2017/12/06/78591/homeless-population-rises-driven-by-west-coast-aff/">rising rates of homelessness</a>. Supporting early childhood development — an issue that's been <a href="https://www.scpr.org/news/2018/05/30/83362/why-tiny-brains-are-getting-massive-attention-in-t/">gaining more attention</a> among the candidates — will be part of the job. There’s also the matter of navigating the Golden State’s complicated relationship with the Trump administration.</p>
 
 <p style="order:5;">As Gov. Jerry Brown so cheerfully bid his successor in his final State of the State address: “What’s out there is darkness, uncertainty, decline and recession. So good luck, baby.”</p>
 
@@ -765,7 +766,7 @@
 
 <p style="order:7;"><em>Below are the gubernatorial candidates and where they stand on key issues. These are the six highest-polling candidates in the race, in alphabetical order, by last name. There are 27 candidates in total — you can read more about the others <a href="http://votersedge.kpcc.org/ca/en/ballot/election/69-4a3dd0/address/null/zip/90035/contests/contest/16570?date=2018-06-05">here</a>. Unless a candidate gets more than 50 percent of the vote, the top two candidates will advance to the Nov. 6 general election, regardless of party affiliation.</em></p>
 
-<p style="order:8;"><a href="2018-election-californias-next-governor.html#allen">Travis Allen</a> | <a href="2018-election-californias-next-governor.html#chiang">John Chiang</a> | <a href="2018-election-californias-next-governor.html#cox">John Cox</a> | <a href="2018-election-californias-next-governor.html#eastin">Delaine Eastin</a> | <a href="2018-election-californias-next-governor.html#newsom">Gavin Newsom</a> | <a href="2018-election-californias-next-governor.html#villaraigosa">Antonio Villaraigosa</a></p>
+<p style="order:8;"><a href="#allen">Travis Allen</a> | <a href="#chiang">John Chiang</a> | <a href="#cox">John Cox</a> | <a href="#eastin">Delaine Eastin</a> | <a href="#newsom">Gavin Newsom</a> | <a href="#villaraigosa">Antonio Villaraigosa</a></p>
 <a name="allen" style="order:9;"></a><figure class="o-figure o-figure--full " style="order:10;">
   <img class="o-figure__img" src="https://a.scpr.org/i/4d3845a95d71991fa5765213bc4ac963/206003-full.jpg" alt="California gubernatorial candidate, Republican Assemblyman Travis Allen, discusses the state's housing problems at a conference on Thursday, March 8, 2018, in Sacramento, California." title="Governor California Housing" role="img" aria-label="Governor California Housing" data-assethost="" data-ah-videoid="" style="background-image:url(https://a.scpr.org/i/4d3845a95d71991fa5765213bc4ac963/206003-full.jpg);">
     <figcaption class="o-figure__caption">
@@ -781,17 +782,17 @@
 
 <p style="order:13;"><strong>Residence</strong>: Huntington Beach</p>
 
-<p style="order:14;"><strong>The basics:</strong><strong> </strong>He calls himself the “only true conservative” among the candidates, although he’s one of a handful of Republicans in the governor’s race. He’s represented Huntington Beach in the California Assembly since 2012. Before that, he worked at an investment firm and founded a financial planning business in 2001. Allen backed Trump in the 2016 election. Things he does not like: Gov. Brown’s cap-and-trade program, California’s bullet train project, the 12-cent per gallon <a href="/news/2017/11/21/78015/if-new-state-gas-tax-hike-is-repealed-what-would-h/">gas tax increase</a> — which he’s vowed to get repealed.</p>
+<p style="order:14;"><strong>The basics:</strong><strong> </strong>He calls himself the “only true conservative” among the candidates, although he’s one of a handful of Republicans in the governor’s race. He’s represented Huntington Beach in the California Assembly since 2012. Before that, he worked at an investment firm and founded a financial planning business in 2001. Allen backed Trump in the 2016 election. Things he does not like: Gov. Brown’s cap-and-trade program, California’s bullet train project, the 12-cent per gallon <a href="https://www.scpr.org/news/2017/11/21/78015/if-new-state-gas-tax-hike-is-repealed-what-would-h/">gas tax increase</a> — which he’s vowed to get repealed.</p>
 
-<p style="order:15;"><strong>On housing: </strong>California needs more housing, Allen says, and his plan is to get it by knocking down taxes and regulations on developers. But he says he’d focus on building more <a href="https://www.youtube.com/watch?v=0bUSVi25y68&amp;feature=youtu.be">single-family homes</a>, rather than adding density to urban centers. He also wants to reform the decades-old <a href="/programs/take-two/2017/08/29/58868/or-did-ceqa-cause-the-housing-crisis/">California Environmental Quality Act</a> (CEQA), which requires builders to detail the environmental impact of proposed projects, saying it’s been weaponized to extract labor concessions from large developers.</p>
+<p style="order:15;"><strong>On housing: </strong>California needs more housing, Allen says, and his plan is to get it by knocking down taxes and regulations on developers. But he says he’d focus on building more <a href="https://www.youtube.com/watch?v=0bUSVi25y68&amp;feature=youtu.be">single-family homes</a>, rather than adding density to urban centers. He also wants to reform the decades-old <a href="https://www.scpr.org/programs/take-two/2017/08/29/58868/or-did-ceqa-cause-the-housing-crisis/">California Environmental Quality Act</a> (CEQA), which requires builders to detail the environmental impact of proposed projects, saying it’s been weaponized to extract labor concessions from large developers.</p>
 
 <p style="order:16;"><strong>On homelessness: </strong>He says California has to bring back state-run mental institutions to help homeless people with mental illnesses. He’s also vowed to “get tough” on what he calls “petty criminals that are <a href="https://www.youtube.com/watch?v=AdepV5jBiy8&amp;feature=youtu.be&amp;t=24m44s">choosing to litter</a>, loiter, camp in our public places.”</p>
 
-<p style="order:17;"><strong>On health care: </strong>He’s against a single-payer health care system, and against Obamacare, too. Allen says single-payer health care would raise taxes even further and drain the state’s coffers within months. If elected, he says he’ll “ensure that California is <a href="/events/2018/01/13/2522/gubernatorial-town-hall--a-local-perspective/">never a single-payer state</a>,” and that he’d open up California’s insurance market to out-of-state insurance companies.</p>
+<p style="order:17;"><strong>On health care: </strong>He’s against a single-payer health care system, and against Obamacare, too. Allen says single-payer health care would raise taxes even further and drain the state’s coffers within months. If elected, he says he’ll “ensure that California is <a href="https://www.scpr.org/events/2018/01/13/2522/gubernatorial-town-hall--a-local-perspective/">never a single-payer state</a>,” and that he’d open up California’s insurance market to out-of-state insurance companies.</p>
 
 <p style="order:18;"><strong>On immigration: </strong>Allen is not a fan of California’s so-called sanctuary state law, SB 54. He’s called it an “<a href="http://www.capradio.org/news/insight/2018/02/01/insight-020118a/">illegal concept</a>” that violates federal law, and if elected, he pledges to put forward an initiative in a special election to take it off the books. He even advocated for the Justice Department to <a href="http://www.capradio.org/news/insight/2018/02/01/insight-020118a/">arrest Gov. Brown</a> over it.</p>
 
-<p style="order:19;"><a href="2018-election-californias-next-governor.html#top">Back to top</a> | <a href="http://votersedge.kpcc.org/ca/en/ballot/election/69-4a3dd0/address/null/zip/90035/contests/contest/16570/candidate/137791?date=2018-06-05">See more</a> </p>
+<p style="order:19;"><a href="#top">Back to top</a> | <a href="http://votersedge.kpcc.org/ca/en/ballot/election/69-4a3dd0/address/null/zip/90035/contests/contest/16570/candidate/137791?date=2018-06-05">See more</a> </p>
 <a name="chiang" style="order:20;"></a><figure class="o-figure o-figure--full " style="order:21;">
   <img class="o-figure__img" src="https://a.scpr.org/i/d481152a1242488007cc95056d434f58/205811-full.jpg" alt="California Democratic gubernatorial candidate, California State Treasurer John Chiang, looks on during a campaign event near the Golden Gate Bridge on June 7, 2017 in San Francisco, California." title="California Governor Candidate John Chiang Campaigns in San Francisco" role="img" aria-label="California Governor Candidate John Chiang Campaigns in San Francisco" data-assethost="" data-ah-videoid="" style="background-image:url(https://a.scpr.org/i/d481152a1242488007cc95056d434f58/205811-full.jpg);">
     <figcaption class="o-figure__caption">
@@ -817,7 +818,7 @@
 
 <p style="order:29;"><strong>On immigration: </strong>California, as the world’s sixth-largest economy, <a href="https://www.youtube.com/watch?v=AdepV5jBiy8&amp;feature=youtu.be&amp;t=24m44s">needs more immigrants</a>, he says. Chiang supported the state’s sanctuary law, SB 54, and says he would defend California against threats from the Trump administration to strip away federal funding. He also wants to protect immigrants under the DACA program, which allows young, unauthorized immigrants to work and live in the U.S. legally.</p>
 
-<p style="order:30;"><a href="2018-election-californias-next-governor.html#top">Back to top</a> | <a href="http://votersedge.kpcc.org/ca/en/ballot/election/69-4a3dd0/address/null/zip/90035/contests/contest/16570/candidate/137782?date=2018-06-05">See more</a></p>
+<p style="order:30;"><a href="#top">Back to top</a> | <a href="http://votersedge.kpcc.org/ca/en/ballot/election/69-4a3dd0/address/null/zip/90035/contests/contest/16570/candidate/137782?date=2018-06-05">See more</a></p>
 <a name="cox" style="order:31;"></a><figure class="o-figure o-figure--full " style="order:32;">
   <img class="o-figure__img" src="https://a.scpr.org/i/a40355f73779387d3d896341f67725a2/156725-full.jpg" alt="John Cox, 2018 California gubernatorial candidate." title="John Cox, 2018 California gubernatorial candidate." role="img" aria-label="John Cox, 2018 California gubernatorial candidate." data-assethost="" data-ah-videoid="" style="background-image:url(https://a.scpr.org/i/a40355f73779387d3d896341f67725a2/156725-full.jpg);">
     <figcaption class="o-figure__caption">
@@ -835,7 +836,7 @@
 
 <p style="order:36;"><strong>The basics: </strong>He’s a venture capitalist from Rancho Santa Fe who’s made unsuccessful runs for U.S. president and for Barack Obama’s Senate seat in Illinois. His main refrain: Get the special interests out of government. He’s a fan of free markets, fewer regulations and lower taxes. He made a big push to dramatically alter the way state lawmakers are elected, by creating as many as 12,000 “neighborhood councils” with their own representatives. They would in turn select a district representative at the state level. The proposal failed to make this year’s November ballot.</p>
 
-<p style="order:37;"><strong>On health care:</strong> For Cox, it’s all about the free market. Cox says competition produces better results. He says a universal health care system would add a burden to the taxpayers, would affect the quality of care, and would attract an influx of newcomers seeking free health services. “[If] you want to make health care more expensive and rationed, turn it all over to the government,” he said at a <a href="/events/2018/01/13/2522/gubernatorial-town-hall--a-local-perspective/">gubernatorial town hall</a> in January.</p>
+<p style="order:37;"><strong>On health care:</strong> For Cox, it’s all about the free market. Cox says competition produces better results. He says a universal health care system would add a burden to the taxpayers, would affect the quality of care, and would attract an influx of newcomers seeking free health services. “[If] you want to make health care more expensive and rationed, turn it all over to the government,” he said at a <a href="https://www.scpr.org/events/2018/01/13/2522/gubernatorial-town-hall--a-local-perspective/">gubernatorial town hall</a> in January.</p>
 
 <p style="order:38;"><strong>On housing: </strong>We need to get rid of burdensome regulations on home builders, Cox says. He wants to do away with the California Environmental Quality Act (CEQA), which requires developers to get projects assessed for their environmental impact. “It’s all a honeypot for trial lawyers to sue,” he said at a <a href="https://www.youtube.com/watch?v=8wA7fIPlFWg&amp;feature=youtu.be">San Diego forum</a> in March. He says he’d replace CEQA with reforms that will streamline the process of approving construction, and, if elected, he’d work to build 350,000 homes a year.</p>
 
@@ -843,7 +844,7 @@
 
 <p style="order:40;"><strong>On immigration</strong>: No more sanctuary cities, Cox says. “We cannot have people who are here illegally committing crimes and being defended by taxpayer laws,” he said at a January forum. Cox supports Trump’s plan to build a border wall, but also says immigrants eligible for DACA <a href="https://www.youtube.com/watch?v=RcWa-X0RxwA&amp;feature=youtu.be&amp;t=11m41s">should be protected</a>.</p>
 
-<p style="order:41;"><a href="2018-election-californias-next-governor.html#top">Back to top</a> | <a href="http://kpcc.org/vote">See more</a><a href="http://votersedge.kpcc.org/ca/en/ballot/election/69-4a3dd0/address/null/zip/90035/contests/contest/16570/candidate/137792?date=2018-06-05"> </a></p>
+<p style="order:41;"><a href="#top">Back to top</a> | <a href="http://kpcc.org/vote">See more</a><a href="http://votersedge.kpcc.org/ca/en/ballot/election/69-4a3dd0/address/null/zip/90035/contests/contest/16570/candidate/137792?date=2018-06-05"> </a></p>
 <a name="eastin" style="order:42;"></a><figure class="o-figure o-figure--full " style="order:43;">
   <img class="o-figure__img" src="https://a.scpr.org/i/15607b3082ebf4c6c03cfad6f2e9f186/205809-full.jpg" alt="Democratic gubernatorial candidate Delaine Eastin speaks at the 2018 California Democrats State Convention Saturday, Feb. 24, 2018, in San Diego." title="California Democrats" role="img" aria-label="California Democrats" data-assethost="" data-ah-videoid="" style="background-image:url(https://a.scpr.org/i/15607b3082ebf4c6c03cfad6f2e9f186/205809-full.jpg);">
     <figcaption class="o-figure__caption">
@@ -863,13 +864,13 @@
 
 <p style="order:48;"><strong>On housing: </strong>Eastin wants more housing — specifically, a million new housing units in the next four years, particularly near transit hubs. Though she said the legislation <a href="https://www.youtube.com/watch?v=0bUSVi25y68&amp;feature=youtu.be">needed work</a>, she backed SB 827, a bill that (died in committee but) would have allowed taller, denser development near public transit, regardless of city regulations. She’s also in favor of rent control and wants to repeal the Costa-Hawkins Rental Housing Act which limits rent control for buildings built after 1995, and the Ellis Act, which allows property holders to evict tenants under rent control if the owners are getting out of the apartment business.</p>
 
-<p style="order:49;"><strong>On homelessness: </strong>Eastin says California ought to consider approaches to homelessness that other cities and countries have tried, like tiny houses or emergency vouchers for motels.  She also supports calling for a state of emergency on homelessness — something Gov. Brown has been <a href="/programs/take-two/2017/09/14/59143/you-can-declare-a-homelessness-emergency-but-gover/">reluctant to do</a>.</p>
+<p style="order:49;"><strong>On homelessness: </strong>Eastin says California ought to consider approaches to homelessness that other cities and countries have tried, like tiny houses or emergency vouchers for motels.  She also supports calling for a state of emergency on homelessness — something Gov. Brown has been <a href="https://www.scpr.org/programs/take-two/2017/09/14/59143/you-can-declare-a-homelessness-emergency-but-gover/">reluctant to do</a>.</p>
 
-<p style="order:50;"><strong>On health care: </strong>She’s pro-single payer health care. She threw her support behind SB 562, the proposal for a Canadian-style single-payer health system that passed in the state Senate last year before <a href="/news/2017/06/23/73196/single-payer-california-health-care-bill-put-on-ic/">it was shelved</a> in the Assembly. She’s also said she would look at different revenue sources to fund a universal health care system — including a sales tax hike, gross receipts tax on some businesses and using some funds from her proposed public <a href="https://www.delaineforgovernor.com/her_vision#healthcare">Bank of California</a>.</p>
+<p style="order:50;"><strong>On health care: </strong>She’s pro-single payer health care. She threw her support behind SB 562, the proposal for a Canadian-style single-payer health system that passed in the state Senate last year before <a href="https://www.scpr.org/news/2017/06/23/73196/single-payer-california-health-care-bill-put-on-ic/">it was shelved</a> in the Assembly. She’s also said she would look at different revenue sources to fund a universal health care system — including a sales tax hike, gross receipts tax on some businesses and using some funds from her proposed public <a href="https://www.delaineforgovernor.com/her_vision#healthcare">Bank of California</a>.</p>
 
-<p style="order:51;"><strong>On immigration: </strong>She’s for protecting DACA, California’s sanctuary state law and limits on state and local law enforcement cooperation with federal immigration authorities. “I don’t think that this lavish scheme promoted by the president to wrench all these people out of their homes and their families is something California should go along with,” she <a href="/programs/airtalk/2017/05/08/56626/delaine-eastin-on-her-campaign-for-california-gove/">told KPCC’s AirTalk</a>.</p>
+<p style="order:51;"><strong>On immigration: </strong>She’s for protecting DACA, California’s sanctuary state law and limits on state and local law enforcement cooperation with federal immigration authorities. “I don’t think that this lavish scheme promoted by the president to wrench all these people out of their homes and their families is something California should go along with,” she <a href="https://www.scpr.org/programs/airtalk/2017/05/08/56626/delaine-eastin-on-her-campaign-for-california-gove/">told KPCC’s AirTalk</a>.</p>
 
-<p style="order:52;"><a href="2018-election-californias-next-governor.html#top">Back to top</a> | <a href="http://kpcc.org/vote">See more</a></p>
+<p style="order:52;"><a href="#top">Back to top</a> | <a href="http://kpcc.org/vote">See more</a></p>
 <a name="newsom" style="order:53;"></a><figure class="o-figure o-figure--full " style="order:54;">
   <img class="o-figure__img" src="https://a.scpr.org/i/93da7e8e6e82be34fca29f85e650c84c/113053-full.jpg" alt="California Lt. Governor Gavin Newsom is interviewed during The New York Times Global Forum with Thomas L. Friedman at the Metreon on June 20, 2013 in San Francisco, California." title="The New York Times Global Forum With Thomas L. Friedman - Inside" role="img" aria-label="The New York Times Global Forum With Thomas L. Friedman - Inside" data-assethost="" data-ah-videoid="" style="background-image:url(https://a.scpr.org/i/93da7e8e6e82be34fca29f85e650c84c/113053-full.jpg);">
     <figcaption class="o-figure__caption">
@@ -891,11 +892,11 @@
 
 <p style="order:60;"><strong>On homelessness: </strong>Housing is also a cornerstone of his plan to confront homelessness: “We need to recognize this fundamental fact: Shelters solve sleep. Housing solves homelessness,” he said at a gubernatorial town hall in January. On top of that, he’s called for a statewide interagency council to fight homelessness, overseen by a secretary of homelessness, as well as more aggressive advocacy of the federal Supplemental Security Income to help vulnerable groups.</p>
 
-<p style="order:61;"><strong>On health care: </strong>Newsom has championed a <a href="/programs/take-two/2017/03/15/55635/is-lt-gov-gavin-newsom-s-universal-healthcare-pitc/">universal health care program</a>, akin to the Healthy San Francisco plan he helped roll out in the city when he was mayor. In an interview with KPCC in January, he called it a “bridge to the ideal,” referring to his support for a single-payer health care system for California. Newsom acknowledges legal hurdles the state would face to create Canadian-style single-payer health care proposed in the SB 562 bill, which stalled in the Assembly. Still, he told KPCC he wants to use SB 562 as the “corpus of the plan” to achieve single-payer in California.</p>
+<p style="order:61;"><strong>On health care: </strong>Newsom has championed a <a href="https://www.scpr.org/programs/take-two/2017/03/15/55635/is-lt-gov-gavin-newsom-s-universal-healthcare-pitc/">universal health care program</a>, akin to the Healthy San Francisco plan he helped roll out in the city when he was mayor. In an interview with KPCC in January, he called it a “bridge to the ideal,” referring to his support for a single-payer health care system for California. Newsom acknowledges legal hurdles the state would face to create Canadian-style single-payer health care proposed in the SB 562 bill, which stalled in the Assembly. Still, he told KPCC he wants to use SB 562 as the “corpus of the plan” to achieve single-payer in California.</p>
 
-<p style="order:62;"><strong>On immigration: </strong>Yes to California’s “sanctuary” status and yes to comprehensive immigration reform. He supports SB 54, California’s <a href="/news/2017/09/16/75684/lawmakers-vote-to-make-california-a-sanctuary-stat/">sanctuary state law</a> that limits when state and local law enforcement can cooperate with federal authorities to enforce immigration laws. He also says he will resist any efforts from the Trump administration to roll back DACA protections or strip away federal funding from cities.</p>
+<p style="order:62;"><strong>On immigration: </strong>Yes to California’s “sanctuary” status and yes to comprehensive immigration reform. He supports SB 54, California’s <a href="https://www.scpr.org/news/2017/09/16/75684/lawmakers-vote-to-make-california-a-sanctuary-stat/">sanctuary state law</a> that limits when state and local law enforcement can cooperate with federal authorities to enforce immigration laws. He also says he will resist any efforts from the Trump administration to roll back DACA protections or strip away federal funding from cities.</p>
 
-<p style="order:63;"><a href="2018-election-californias-next-governor.html#top">Back to top</a> | <a href="http://kpcc.org/vote">See more</a></p>
+<p style="order:63;"><a href="#top">Back to top</a> | <a href="http://kpcc.org/vote">See more</a></p>
 <a name="villaraigosa" style="order:64;"></a><figure class="o-figure o-figure--full " style="order:65;">
   <img class="o-figure__img" src="https://a.scpr.org/i/31fae16fddf4f3a58254acb97f946114/205813-full.jpg" alt="Democratic gubernatorial candidate Antonio Villaraigosa speaks at the 2018 California Democrats State Convention Saturday, Feb. 24, 2018, in San Diego." title="APTOPIX California Democrats" role="img" aria-label="APTOPIX California Democrats" data-assethost="" data-ah-videoid="" style="background-image:url(https://a.scpr.org/i/31fae16fddf4f3a58254acb97f946114/205813-full.jpg);">
     <figcaption class="o-figure__caption">
@@ -913,19 +914,19 @@
 
 <p style="order:69;"><strong>The basics:</strong> He made his mark as the mayor of Los Angeles from 2005 to 2013, serving as the city’s first Latino mayor since 1872. Before that, he was speaker of the state Assembly and a union organizer. As mayor, he headed the city through the financial crisis and championed Measure R, a $35 billion transit package that helped fund L.A.’s transit system. After terming out as mayor, he served as an advisor to companies like Herbalife and Cadiz.</p>
 
-<p style="order:70;"><strong>On housing: </strong>Villaraigosa wants California to have 3.5 million new homes by the year 2025. One funding proposal: create regional trust funds to share the cost to build housing. Another big priority is bringing back redevelopment agencies, which <a href="/news/2011/02/02/23655/how-redevelopment-agencies-work-and-why-gov-brown-/">used to allow</a> city governments to collect a share of property taxes and use them for redevelopment projects. Villaraigosa <a href="https://antonioforcalifornia.com/housing/">acknowledged</a> that the old system had “problems and some abuses,” but wants a reformed version that would provide more checks on how the money is spent.</p>
+<p style="order:70;"><strong>On housing: </strong>Villaraigosa wants California to have 3.5 million new homes by the year 2025. One funding proposal: create regional trust funds to share the cost to build housing. Another big priority is bringing back redevelopment agencies, which <a href="https://www.scpr.org/news/2011/02/02/23655/how-redevelopment-agencies-work-and-why-gov-brown-/">used to allow</a> city governments to collect a share of property taxes and use them for redevelopment projects. Villaraigosa <a href="https://antonioforcalifornia.com/housing/">acknowledged</a> that the old system had “problems and some abuses,” but wants a reformed version that would provide more checks on how the money is spent.</p>
 
 <p style="order:71;"><strong>On homelessness: </strong>He says the state ought to <a href="https://www.youtube.com/watch?v=AdepV5jBiy8&amp;feature=youtu.be&amp;t=26m1s">match local funds</a> to tackle homelessness. “What the state has to do is say [to counties], we’re going to partner with you,” he said in January. “If you’re putting money up to address permanent supportive housing, services for the homeless, houses for the homeless, then we’ve got to match that money.”</p>
 
-<p style="order:72;"><strong>On health care:</strong> He supports the idea of a single-payer health care system in California — but doesn’t think it should happen just yet. He’s said on multiple occasions that anyone trying to convince California to adopt single-payer now is “<a href="/events/2018/01/13/2522/gubernatorial-town-hall--a-local-perspective/">selling you snake oil</a>.” It’s not a realistic proposal if California can’t get the federal waivers from the Trump administration, he <a href="https://www.scpr.org/programs/airtalk/2017/05/31/57071/former-l-a-mayor-antonio-villaraigosa-on-the-2018/">told KPCC’s AirTalk</a> last year. “Let’s focus first on backfilling, on making sure we’re keeping people whole from [proposed health care budget] cuts. Then let’s put a group of stakeholders together and look at how we can transition to a health care system that is smarter and better and could include single-payer.”</p>
+<p style="order:72;"><strong>On health care:</strong> He supports the idea of a single-payer health care system in California — but doesn’t think it should happen just yet. He’s said on multiple occasions that anyone trying to convince California to adopt single-payer now is “<a href="https://www.scpr.org/events/2018/01/13/2522/gubernatorial-town-hall--a-local-perspective/">selling you snake oil</a>.” It’s not a realistic proposal if California can’t get the federal waivers from the Trump administration, he <a href="https://www.scpr.org/programs/airtalk/2017/05/31/57071/former-l-a-mayor-antonio-villaraigosa-on-the-2018/">told KPCC’s AirTalk</a> last year. “Let’s focus first on backfilling, on making sure we’re keeping people whole from [proposed health care budget] cuts. Then let’s put a group of stakeholders together and look at how we can transition to a health care system that is smarter and better and could include single-payer.”</p>
 
-<p style="order:73;"><strong>On immigration: </strong>Villaraigosa says immigrants are critical for California’s economy, and has decried President Trump’s approach to immigration as one that breaks up families. He’s against Trump’s border wall proposal, saying California should find more ways to <a href="/news/2018/01/25/80154/gubenatorial-candidates-appeal-to-latino-voters-sp/">partner with Mexico</a> on trade and other mutually beneficial economic programs.</p>
+<p style="order:73;"><strong>On immigration: </strong>Villaraigosa says immigrants are critical for California’s economy, and has decried President Trump’s approach to immigration as one that breaks up families. He’s against Trump’s border wall proposal, saying California should find more ways to <a href="https://www.scpr.org/news/2018/01/25/80154/gubenatorial-candidates-appeal-to-latino-voters-sp/">partner with Mexico</a> on trade and other mutually beneficial economic programs.</p>
 
-<p style="order:74;"><a href="2018-election-californias-next-governor.html#top">Back to top</a> | <a href="http://kpcc.org/vote">See more</a><a href="http://votersedge.kpcc.org/ca/en/ballot/election/69-4a3dd0/address/null/zip/90035/contests/contest/16570/candidate/137790?date=2018-06-05"> </a></p>
+<p style="order:74;"><a href="#top">Back to top</a> | <a href="http://kpcc.org/vote">See more</a><a href="http://votersedge.kpcc.org/ca/en/ballot/election/69-4a3dd0/address/null/zip/90035/contests/contest/16570/candidate/137790?date=2018-06-05"> </a></p>
 
 <p style="order:75;">These aren’t the only candidates for governor. Here are the <a href="http://votersedge.kpcc.org/ca/en/ballot/election/69-4a3dd0/address/null/zip/90035/contests/contest/16570?date=2018-06-05">other people vying for the job</a>.</p>
 
-<p style="order:76;"><em>Ready for Election Day? Get up to speed on what you need to know with <a href="/voter-game-plan">KPCC’s Voter Game Plan</a>. Read up on the candidates and ballot measures, find out about registration deadlines and ask us your questions.</em></p>
+<p style="order:76;"><em>Ready for Election Day? Get up to speed on what you need to know with <a href="https://www.scpr.org/voter-game-plan">KPCC’s Voter Game Plan</a>. Read up on the candidates and ballot measures, find out about registration deadlines and ask us your questions.</em></p>
 
 <p style="order:77;"><em>This post has been updated.</em></p>
 
@@ -964,7 +965,7 @@
         <a href="/programs/take-two/2018/05/31/63121/2018-election-let-a-judge-help-you-judge-the-la-su/">2018 Election: Let a judge help you judge the LA Superior Court candidates</a>
       </li>
       <li class="b-heading--medium">
-        <a href="../../30/83362/why-tiny-brains-are-getting-massive-attention-in-t.html">Why tiny brains are getting massive attention in the California governor's race</a>
+        <a href="/news/2018/05/30/83362/why-tiny-brains-are-getting-massive-attention-in-t/">Why tiny brains are getting massive attention in the California governor's race</a>
       </li>
       <li class="b-heading--medium">
         <a href="/programs/airtalk/2018/05/29/63088/2018-election-your-guide-to-the-candidates-for-cal/">Meet the candidates running for California attorney general</a>
@@ -973,16 +974,16 @@
         <a href="/programs/airtalk/2018/05/25/63086/your-guide-to-the-2018-la-county-sheriff-s-race/">Your guide to the 2018 race for LA County sheriff</a>
       </li>
       <li class="b-heading--medium">
-        <a href="../../18/83288/trump-endorses-john-cox-in-california-governor-s-r.html">Trump endorses John Cox in California governor's race</a>
+        <a href="/news/2018/05/18/83288/trump-endorses-john-cox-in-california-governor-s-r/">Trump endorses John Cox in California governor's race</a>
       </li>
       <li class="b-heading--medium">
         <a href="/programs/airtalk/2018/05/11/62963/as-ca-revenue-grows-governor-brown-releases-update/">As CA revenue grows, Governor Brown releases updated budget </a>
       </li>
       <li class="b-heading--medium">
-        <a href="../../09/82954/in-final-california-governor-debate-newsom-a-targe.html">In final California governor debate, Newsom a target</a>
+        <a href="/news/2018/05/09/82954/in-final-california-governor-debate-newsom-a-targe/">In final California governor debate, Newsom a target</a>
       </li>
       <li class="b-heading--medium">
-        <a href="../82816/2018-election-your-guide-to-socal-s-key-congressio.html">2018 Election: Your guide to SoCal’s key congressional races</a>
+        <a href="/news/2018/05/07/82816/2018-election-your-guide-to-socal-s-key-congressio/">2018 Election: Your guide to SoCal’s key congressional races</a>
       </li>
       <li class="b-heading--medium">
         <a href="/programs/airtalk/2018/05/02/62827/you-can-thank-us-later-an-overview-on-california-s/">You can thank us later: An overview on California’s 2018 primary election</a>
@@ -1006,14 +1007,14 @@
       </a>
     </li>
     <li class="facebook">
-      <a href="2018-election-californias-next-governor.html#" class="social_fb b-popup__link track-event facebook" data-ga-category="Article" data-ga-action="Share" data-ga-label="Facebook" data-url="https://www.scpr.org/news/2018/05/07/82768/2018-election-californias-next-governor/">
+      <a href="#" class="social_fb b-popup__link track-event facebook" data-ga-category="Article" data-ga-action="Share" data-ga-label="Facebook" data-url="https://www.scpr.org/news/2018/05/07/82768/2018-election-californias-next-governor/">
         <svg class="b-icon">
           <use class="b-icon--color-gray-light" xlink:href="/static/images/scpr-sprite.svg#icon_line-facebook-inverted"/>
         </svg>
       </a>
     </li>
     <li class="twitter">
-      <a href="2018-election-californias-next-governor.html#" class="social_twit b-popup__link track-event twitter" data-ga-category="Article" data-ga-action="Share" data-ga-label="Twitter" data-url="https://www.scpr.org/news/2018/05/07/82768/2018-election-californias-next-governor/" data-text="Your%20guide%20to%20the%202018%20California%20governor%27s%20race">
+      <a href="#" class="social_twit b-popup__link track-event twitter" data-ga-category="Article" data-ga-action="Share" data-ga-label="Twitter" data-url="https://www.scpr.org/news/2018/05/07/82768/2018-election-californias-next-governor/" data-text="Your%20guide%20to%20the%202018%20California%20governor%27s%20race">
         <svg class="b-icon">
           <use class="b-icon--color-gray-light" xlink:href="/static/images/scpr-sprite.svg#icon_line-twitter"/>
         </svg>
@@ -1048,7 +1049,7 @@
 
 
 <aside class="o-epilogue l-column--boundless" style="order: 1001">
-  <img class="o-epilogue__graphic" src="../../../../../assets/graphic_epilogue-donate-da43de6f4b535f18d15ac128cd10b27d.svg.html">
+  <img class="o-epilogue__graphic" src="/assets/graphic_epilogue-donate-da43de6f4b535f18d15ac128cd10b27d.svg">
   <div class="o-epilogue__text">
     <h1 class="o-epilogue__heading"><a href="https://support.kpcc.org/default?ms=subfooter">KPCC's Politics coverage is a Southern California resource provided by member-supported public radio. We can't do it without you.</a></h1>
     <a class="o-epilogue-callout b-link b-link--callout" href="https://support.kpcc.org/default?ms=subfooter">Your contributions power KPCC.  Give today.</a>
@@ -1208,7 +1209,7 @@
         </div>
       </div>
       <div class="o-audio-bar__buttons">
-          <a class="o-audio-bar__download" href="2018-election-californias-next-governor.html#" download>
+          <a class="o-audio-bar__download" href="#" download>
             <svg class="b-icon o-audio-bar__download-icon" data-ga-category="Article" data-ga-action="Volume" data-ga-label="Player">
               <use class="" xlink:href="/static/images/scpr-sprite.svg#icon_line-download"/>
               Download
@@ -1341,7 +1342,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                         };
 </script>
   <noscript>
-    <img src="https://pixel.quantserve.com/pixel/p-_ZNT1e57PQPC3.gif?labels=_fp.event.Default" style="display: none;" border="0" height="1" width="1" alt="Quantcast"/>
+    <img src="//pixel.quantserve.com/pixel/p-_ZNT1e57PQPC3.gif?labels=_fp.event.Default" style="display: none;" border="0" height="1" width="1" alt="Quantcast"/>
   </noscript>
 <!-- End Quantcast Tag -->
 
@@ -1370,6 +1371,6 @@ $(function() {
 </html>
 
 
-    <script src="../../../../../assets/better_homepage/style-guide-595f2dc3b18234ed913ffd5b40175ebc.js" async="async"></script>
+    <script src="/assets/better_homepage/style-guide-595f2dc3b18234ed913ffd5b40175ebc.js" async="async"></script>
   </body>
 </html>

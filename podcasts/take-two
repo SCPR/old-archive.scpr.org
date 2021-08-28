@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xmlns:psc="https://podlove.org/simple-chapters/" xmlns:omny="https://omny.fm/rss-extensions" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" xmlns:acast="https://schema.acast.com/1.0/" version="2.0">
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xmlns:psc="https://podlove.org/simple-chapters/" xmlns:omny="https://omny.fm/rss-extensions" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" xmlns:acast="https://schema.acast.com/1.0/" xmlns:podcast="https://podcastindex.org/namespace/1.0" version="2.0">
   <channel>
+    <omny:organizationId>acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43</omny:organizationId>
+    <omny:programId>646718b1-a982-4e0b-9aa6-ab220123bbe9</omny:programId>
+    <omny:networkId>b487d8dd-df6e-4c01-b78e-ab100184df07</omny:networkId>
     <language>en-US</language>
     <atom:link rel="self" type="application/rss+xml" href="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/646718b1-a982-4e0b-9aa6-ab220123bbe9/979e9538-16cf-45aa-8e57-ab220123bbed/podcast.rss" />
     <atom:link rel="next" type="application/rss+xml" href="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/646718b1-a982-4e0b-9aa6-ab220123bbe9/979e9538-16cf-45aa-8e57-ab220123bbed/podcast.rss?page=2" />

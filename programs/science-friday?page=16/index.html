@@ -28,7 +28,7 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="black" />
 <meta name="format-detection" content="telephone=no" />
 <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
-<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam-cell.nr-data.net","errorBeacon":"bam-cell.nr-data.net","licenseKey":"3a7254ec4f","applicationID":"446356","transactionName":"JV4MRkQMDVRTRUlIRQlWEFNbEE5LXlgR","queueTime":0,"applicationTime":771,"agent":""}</script>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam-cell.nr-data.net","errorBeacon":"bam-cell.nr-data.net","licenseKey":"3a7254ec4f","applicationID":"446356","transactionName":"JV4MRkQMDVRTRUlIRQlWEFNbEE5LXlgR","queueTime":0,"applicationTime":2793,"agent":""}</script>
 <script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"UwcDWFBADAcGV1RU",licenseKey:"3a7254ec4f",applicationID:"446356"};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var i=e[n]={exports:{}};t[n][0].call(i.exports,function(e){var i=t[n][1][e];return r(i||e)},i,i.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var i=0;i<n.length;i++)r(n[i]);return r}({1:[function(t,e,n){function r(t){try{s.console&&console.log(t)}catch(e){}}var i,o=t("ee"),a=t(22),s={};try{i=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(s.console=!0,i.indexOf("dev")!==-1&&(s.dev=!0),i.indexOf("nr_dev")!==-1&&(s.nrDev=!0))}catch(c){}s.nrDev&&o.on("internal-error",function(t){r(t.stack)}),s.dev&&o.on("fn-err",function(t,e,n){r(n.stack)}),s.dev&&(r("NR AGENT IN DEVELOPMENT MODE"),r("flags: "+a(s,function(t,e){return t}).join(", ")))},{}],2:[function(t,e,n){function r(t,e,n,r,s){try{p?p-=1:i(s||new UncaughtException(t,e,n),!0)}catch(f){try{o("ierr",[f,c.now(),!0])}catch(d){}}return"function"==typeof u&&u.apply(this,a(arguments))}function UncaughtException(t,e,n){this.message=t||"Uncaught error with no additional information",this.sourceURL=e,this.line=n}function i(t,e){var n=e?null:c.now();o("err",[t,n])}var o=t("handle"),a=t(23),s=t("ee"),c=t("loader"),f=t("gos"),u=window.onerror,d=!1,l="nr@seenError";if(!c.disabled){var p=0;c.features.err=!0,t(1),window.onerror=r;try{throw new Error}catch(h){"stack"in h&&(t(6),t(5),"addEventListener"in window&&t(3),c.xhrWrappable&&t(7),d=!0)}s.on("fn-start",function(t,e,n){d&&(p+=1)}),s.on("fn-err",function(t,e,n){d&&!n[l]&&(f(n,l,function(){return!0}),this.thrown=!0,i(n))}),s.on("fn-end",function(){d&&!this.thrown&&p>0&&(p-=1)}),s.on("internal-error",function(t){o("ierr",[t,c.now(),!0])})}},{}],3:[function(t,e,n){function r(t){for(var e=t;e&&!e.hasOwnProperty(u);)e=Object.getPrototypeOf(e);e&&i(e)}function i(t){s.inPlace(t,[u,d],"-",o)}function o(t,e){return t[1]}var a=t("ee").get("events"),s=t("wrap-function")(a,!0),c=t("gos"),f=XMLHttpRequest,u="addEventListener",d="removeEventListener";e.exports=a,"getPrototypeOf"in Object?(r(document),r(window),r(f.prototype)):f.prototype.hasOwnProperty(u)&&(i(window),i(f.prototype)),a.on(u+"-start",function(t,e){var n=t[1],r=c(n,"nr@wrapped",function(){function t(){if("function"==typeof n.handleEvent)return n.handleEvent.apply(n,arguments)}var e={object:t,"function":n}[typeof n];return e?s(e,"fn-",null,e.name||"anonymous"):n});this.wrapped=t[1]=r}),a.on(d+"-start",function(t){t[1]=this.wrapped||t[1]})},{}],4:[function(t,e,n){function r(t,e,n){var r=t[e];"function"==typeof r&&(t[e]=function(){var t=o(arguments),e={};i.emit(n+"before-start",[t],e);var a;e[m]&&e[m].dt&&(a=e[m].dt);var s=r.apply(this,t);return i.emit(n+"start",[t,a],s),s.then(function(t){return i.emit(n+"end",[null,t],s),t},function(t){throw i.emit(n+"end",[t],s),t})})}var i=t("ee").get("fetch"),o=t(23),a=t(22);e.exports=i;var s=window,c="fetch-",f=c+"body-",u=["arrayBuffer","blob","json","text","formData"],d=s.Request,l=s.Response,p=s.fetch,h="prototype",m="nr@context";d&&l&&p&&(a(u,function(t,e){r(d[h],e,f),r(l[h],e,f)}),r(s,"fetch",c),i.on(c+"end",function(t,e){var n=this;if(e){var r=e.headers.get("content-length");null!==r&&(n.rxSize=r),i.emit(c+"done",[null,e],n)}else i.emit(c+"done",[t],n)}))},{}],5:[function(t,e,n){var r=t("ee").get("raf"),i=t("wrap-function")(r),o="equestAnimationFrame";e.exports=r,i.inPlace(window,["r"+o,"mozR"+o,"webkitR"+o,"msR"+o],"raf-"),r.on("raf-start",function(t){t[0]=i(t[0],"fn-")})},{}],6:[function(t,e,n){function r(t,e,n){t[0]=a(t[0],"fn-",null,n)}function i(t,e,n){this.method=n,this.timerDuration=isNaN(t[1])?0:+t[1],t[0]=a(t[0],"fn-",this,n)}var o=t("ee").get("timer"),a=t("wrap-function")(o),s="setTimeout",c="setInterval",f="clearTimeout",u="-start",d="-";e.exports=o,a.inPlace(window,[s,"setImmediate"],s+d),a.inPlace(window,[c],c+d),a.inPlace(window,[f,"clearImmediate"],f+d),o.on(c+u,r),o.on(s+u,i)},{}],7:[function(t,e,n){function r(t,e){d.inPlace(e,["onreadystatechange"],"fn-",s)}function i(){var t=this,e=u.context(t);t.readyState>3&&!e.resolved&&(e.resolved=!0,u.emit("xhr-resolved",[],t)),d.inPlace(t,w,"fn-",s)}function o(t){x.push(t),h&&(b?b.then(a):v?v(a):(E=-E,R.data=E))}function a(){for(var t=0;t<x.length;t++)r([],x[t]);x.length&&(x=[])}function s(t,e){return e}function c(t,e){for(var n in t)e[n]=t[n];return e}t(3);var f=t("ee"),u=f.get("xhr"),d=t("wrap-function")(u),l=NREUM.o,p=l.XHR,h=l.MO,m=l.PR,v=l.SI,g="readystatechange",w=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"],x=[];e.exports=u;var y=window.XMLHttpRequest=function(t){var e=new p(t);try{u.emit("new-xhr",[e],e),e.addEventListener(g,i,!1)}catch(n){try{u.emit("internal-error",[n])}catch(r){}}return e};if(c(p,y),y.prototype=p.prototype,d.inPlace(y.prototype,["open","send"],"-xhr-",s),u.on("send-xhr-start",function(t,e){r(t,e),o(e)}),u.on("open-xhr-start",r),h){var b=m&&m.resolve();if(!v&&!m){var E=1,R=document.createTextNode(E);new h(a).observe(R,{characterData:!0})}}else f.on("fn-end",function(t){t[0]&&t[0].type===g||a()})},{}],8:[function(t,e,n){function r(t){if(!s(t))return null;var e=window.NREUM;if(!e.loader_config)return null;var n=(e.loader_config.accountID||"").toString()||null,r=(e.loader_config.agentID||"").toString()||null,f=(e.loader_config.trustKey||"").toString()||null;if(!n||!r)return null;var h=p.generateSpanId(),m=p.generateTraceId(),v=Date.now(),g={spanId:h,traceId:m,timestamp:v};return(t.sameOrigin||c(t)&&l())&&(g.traceContextParentHeader=i(h,m),g.traceContextStateHeader=o(h,v,n,r,f)),(t.sameOrigin&&!u()||!t.sameOrigin&&c(t)&&d())&&(g.newrelicHeader=a(h,m,v,n,r,f)),g}function i(t,e){return"00-"+e+"-"+t+"-01"}function o(t,e,n,r,i){var o=0,a="",s=1,c="",f="";return i+"@nr="+o+"-"+s+"-"+n+"-"+r+"-"+t+"-"+a+"-"+c+"-"+f+"-"+e}function a(t,e,n,r,i,o){var a="btoa"in window&&"function"==typeof window.btoa;if(!a)return null;var s={v:[0,1],d:{ty:"Browser",ac:r,ap:i,id:t,tr:e,ti:n}};return o&&r!==o&&(s.d.tk=o),btoa(JSON.stringify(s))}function s(t){return f()&&c(t)}function c(t){var e=!1,n={};if("init"in NREUM&&"distributed_tracing"in NREUM.init&&(n=NREUM.init.distributed_tracing),t.sameOrigin)e=!0;else if(n.allowed_origins instanceof Array)for(var r=0;r<n.allowed_origins.length;r++){var i=h(n.allowed_origins[r]);if(t.hostname===i.hostname&&t.protocol===i.protocol&&t.port===i.port){e=!0;break}}return e}function f(){return"init"in NREUM&&"distributed_tracing"in NREUM.init&&!!NREUM.init.distributed_tracing.enabled}function u(){return"init"in NREUM&&"distributed_tracing"in NREUM.init&&!!NREUM.init.distributed_tracing.exclude_newrelic_header}function d(){return"init"in NREUM&&"distributed_tracing"in NREUM.init&&NREUM.init.distributed_tracing.cors_use_newrelic_header!==!1}function l(){return"init"in NREUM&&"distributed_tracing"in NREUM.init&&!!NREUM.init.distributed_tracing.cors_use_tracecontext_headers}var p=t(19),h=t(10);e.exports={generateTracePayload:r,shouldGenerateTrace:s}},{}],9:[function(t,e,n){function r(t){var e=this.params,n=this.metrics;if(!this.ended){this.ended=!0;for(var r=0;r<l;r++)t.removeEventListener(d[r],this.listener,!1);e.aborted||(n.duration=a.now()-this.startTime,this.loadCaptureCalled||4!==t.readyState?null==e.status&&(e.status=0):o(this,t),n.cbTime=this.cbTime,u.emit("xhr-done",[t],t),s("xhr",[e,n,this.startTime]))}}function i(t,e){var n=c(e),r=t.params;r.host=n.hostname+":"+n.port,r.pathname=n.pathname,t.parsedOrigin=n,t.sameOrigin=n.sameOrigin}function o(t,e){t.params.status=e.status;var n=v(e,t.lastSize);if(n&&(t.metrics.rxSize=n),t.sameOrigin){var r=e.getResponseHeader("X-NewRelic-App-Data");r&&(t.params.cat=r.split(", ").pop())}t.loadCaptureCalled=!0}var a=t("loader");if(a.xhrWrappable&&!a.disabled){var s=t("handle"),c=t(10),f=t(8).generateTracePayload,u=t("ee"),d=["load","error","abort","timeout"],l=d.length,p=t("id"),h=t(15),m=t(14),v=t(11),g=NREUM.o.REQ,w=window.XMLHttpRequest;a.features.xhr=!0,t(7),t(4),u.on("new-xhr",function(t){var e=this;e.totalCbs=0,e.called=0,e.cbTime=0,e.end=r,e.ended=!1,e.xhrGuids={},e.lastSize=null,e.loadCaptureCalled=!1,e.params=this.params||{},e.metrics=this.metrics||{},t.addEventListener("load",function(n){o(e,t)},!1),h&&(h>34||h<10)||window.opera||t.addEventListener("progress",function(t){e.lastSize=t.loaded},!1)}),u.on("open-xhr-start",function(t){this.params={method:t[0]},i(this,t[1]),this.metrics={}}),u.on("open-xhr-end",function(t,e){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&e.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid);var n=f(this.parsedOrigin);if(n){var r=!1;n.newrelicHeader&&(e.setRequestHeader("newrelic",n.newrelicHeader),r=!0),n.traceContextParentHeader&&(e.setRequestHeader("traceparent",n.traceContextParentHeader),n.traceContextStateHeader&&e.setRequestHeader("tracestate",n.traceContextStateHeader),r=!0),r&&(this.dt=n)}}),u.on("send-xhr-start",function(t,e){var n=this.metrics,r=t[0],i=this;if(n&&r){var o=m(r);o&&(n.txSize=o)}this.startTime=a.now(),this.listener=function(t){try{"abort"!==t.type||i.loadCaptureCalled||(i.params.aborted=!0),("load"!==t.type||i.called===i.totalCbs&&(i.onloadCalled||"function"!=typeof e.onload))&&i.end(e)}catch(n){try{u.emit("internal-error",[n])}catch(r){}}};for(var s=0;s<l;s++)e.addEventListener(d[s],this.listener,!1)}),u.on("xhr-cb-time",function(t,e,n){this.cbTime+=t,e?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof n.onload||this.end(n)}),u.on("xhr-load-added",function(t,e){var n=""+p(t)+!!e;this.xhrGuids&&!this.xhrGuids[n]&&(this.xhrGuids[n]=!0,this.totalCbs+=1)}),u.on("xhr-load-removed",function(t,e){var n=""+p(t)+!!e;this.xhrGuids&&this.xhrGuids[n]&&(delete this.xhrGuids[n],this.totalCbs-=1)}),u.on("addEventListener-end",function(t,e){e instanceof w&&"load"===t[0]&&u.emit("xhr-load-added",[t[1],t[2]],e)}),u.on("removeEventListener-end",function(t,e){e instanceof w&&"load"===t[0]&&u.emit("xhr-load-removed",[t[1],t[2]],e)}),u.on("fn-start",function(t,e,n){e instanceof w&&("onload"===n&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=a.now()))}),u.on("fn-end",function(t,e){this.xhrCbStart&&u.emit("xhr-cb-time",[a.now()-this.xhrCbStart,this.onload,e],e)}),u.on("fetch-before-start",function(t){function e(t,e){var n=!1;return e.newrelicHeader&&(t.set("newrelic",e.newrelicHeader),n=!0),e.traceContextParentHeader&&(t.set("traceparent",e.traceContextParentHeader),e.traceContextStateHeader&&t.set("tracestate",e.traceContextStateHeader),n=!0),n}var n,r=t[1]||{};"string"==typeof t[0]?n=t[0]:t[0]&&t[0].url?n=t[0].url:window.URL&&t[0]&&t[0]instanceof URL&&(n=t[0].href),n&&(this.parsedOrigin=c(n),this.sameOrigin=this.parsedOrigin.sameOrigin);var i=f(this.parsedOrigin);if(i&&(i.newrelicHeader||i.traceContextParentHeader))if("string"==typeof t[0]||window.URL&&t[0]&&t[0]instanceof URL){var o={};for(var a in r)o[a]=r[a];o.headers=new Headers(r.headers||{}),e(o.headers,i)&&(this.dt=i),t.length>1?t[1]=o:t.push(o)}else t[0]&&t[0].headers&&e(t[0].headers,i)&&(this.dt=i)}),u.on("fetch-start",function(t,e){this.params={},this.metrics={},this.startTime=a.now(),t.length>=1&&(this.target=t[0]),t.length>=2&&(this.opts=t[1]);var n,r=this.opts||{},o=this.target;"string"==typeof o?n=o:"object"==typeof o&&o instanceof g?n=o.url:window.URL&&"object"==typeof o&&o instanceof URL&&(n=o.href),i(this,n);var s=(""+(o&&o instanceof g&&o.method||r.method||"GET")).toUpperCase();this.params.method=s,this.txSize=m(r.body)||0}),u.on("fetch-done",function(t,e){this.params||(this.params={}),this.params.status=e?e.status:0;var n;"string"==typeof this.rxSize&&this.rxSize.length>0&&(n=+this.rxSize);var r={txSize:this.txSize,rxSize:n,duration:a.now()-this.startTime};s("xhr",[this.params,r,this.startTime])})}},{}],10:[function(t,e,n){var r={};e.exports=function(t){if(t in r)return r[t];var e=document.createElement("a"),n=window.location,i={};e.href=t,i.port=e.port;var o=e.href.split("://");!i.port&&o[1]&&(i.port=o[1].split("/")[0].split("@").pop().split(":")[1]),i.port&&"0"!==i.port||(i.port="https"===o[0]?"443":"80"),i.hostname=e.hostname||n.hostname,i.pathname=e.pathname,i.protocol=o[0],"/"!==i.pathname.charAt(0)&&(i.pathname="/"+i.pathname);var a=!e.protocol||":"===e.protocol||e.protocol===n.protocol,s=e.hostname===document.domain&&e.port===n.port;return i.sameOrigin=a&&(!e.hostname||s),"/"===i.pathname&&(r[t]=i),i}},{}],11:[function(t,e,n){function r(t,e){var n=t.responseType;return"json"===n&&null!==e?e:"arraybuffer"===n||"blob"===n||"json"===n?i(t.response):"text"===n||""===n||void 0===n?i(t.responseText):void 0}var i=t(14);e.exports=r},{}],12:[function(t,e,n){function r(){}function i(t,e,n){return function(){return o(t,[f.now()].concat(s(arguments)),e?null:this,n),e?void 0:this}}var o=t("handle"),a=t(22),s=t(23),c=t("ee").get("tracer"),f=t("loader"),u=NREUM;"undefined"==typeof window.newrelic&&(newrelic=u);var d=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",p=l+"ixn-";a(d,function(t,e){u[e]=i(l+e,!0,"api")}),u.addPageAction=i(l+"addPageAction",!0),u.setCurrentRouteName=i(l+"routeName",!0),e.exports=newrelic,u.interaction=function(){return(new r).get()};var h=r.prototype={createTracer:function(t,e){var n={},r=this,i="function"==typeof e;return o(p+"tracer",[f.now(),t,n],r),function(){if(c.emit((i?"":"no-")+"fn-start",[f.now(),r,i],n),i)try{return e.apply(this,arguments)}catch(t){throw c.emit("fn-err",[arguments,this,t],n),t}finally{c.emit("fn-end",[f.now()],n)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,e){h[e]=i(p+e)}),newrelic.noticeError=function(t,e){"string"==typeof t&&(t=new Error(t)),o("err",[t,f.now(),!1,e])}},{}],13:[function(t,e,n){function r(t){if(NREUM.init){for(var e=NREUM.init,n=t.split("."),r=0;r<n.length-1;r++)if(e=e[n[r]],"object"!=typeof e)return;return e=e[n[n.length-1]]}}e.exports={getConfiguration:r}},{}],14:[function(t,e,n){e.exports=function(t){if("string"==typeof t&&t.length)return t.length;if("object"==typeof t){if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if(!("undefined"!=typeof FormData&&t instanceof FormData))try{return JSON.stringify(t).length}catch(e){return}}}},{}],15:[function(t,e,n){var r=0,i=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);i&&(r=+i[1]),e.exports=r},{}],16:[function(t,e,n){function r(){return s.exists&&performance.now?Math.round(performance.now()):(o=Math.max((new Date).getTime(),o))-a}function i(){return o}var o=(new Date).getTime(),a=o,s=t(24);e.exports=r,e.exports.offset=a,e.exports.getLastTimestamp=i},{}],17:[function(t,e,n){function r(t){return!(!t||!t.protocol||"file:"===t.protocol)}e.exports=r},{}],18:[function(t,e,n){function r(t,e){var n=t.getEntries();n.forEach(function(t){"first-paint"===t.name?d("timing",["fp",Math.floor(t.startTime)]):"first-contentful-paint"===t.name&&d("timing",["fcp",Math.floor(t.startTime)])})}function i(t,e){var n=t.getEntries();n.length>0&&d("lcp",[n[n.length-1]])}function o(t){t.getEntries().forEach(function(t){t.hadRecentInput||d("cls",[t])})}function a(t){if(t instanceof h&&!v){var e=Math.round(t.timeStamp),n={type:t.type};e<=l.now()?n.fid=l.now()-e:e>l.offset&&e<=Date.now()?(e-=l.offset,n.fid=l.now()-e):e=l.now(),v=!0,d("timing",["fi",e,n])}}function s(t){"hidden"===t&&d("pageHide",[l.now()])}if(!("init"in NREUM&&"page_view_timing"in NREUM.init&&"enabled"in NREUM.init.page_view_timing&&NREUM.init.page_view_timing.enabled===!1)){var c,f,u,d=t("handle"),l=t("loader"),p=t(21),h=NREUM.o.EV;if("PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver){c=new PerformanceObserver(r);try{c.observe({entryTypes:["paint"]})}catch(m){}f=new PerformanceObserver(i);try{f.observe({entryTypes:["largest-contentful-paint"]})}catch(m){}u=new PerformanceObserver(o);try{u.observe({type:"layout-shift",buffered:!0})}catch(m){}}if("addEventListener"in document){var v=!1,g=["click","keydown","mousedown","pointerdown","touchstart"];g.forEach(function(t){document.addEventListener(t,a,!1)})}p(s)}},{}],19:[function(t,e,n){function r(){function t(){return e?15&e[n++]:16*Math.random()|0}var e=null,n=0,r=window.crypto||window.msCrypto;r&&r.getRandomValues&&(e=r.getRandomValues(new Uint8Array(31)));for(var i,o="xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx",a="",s=0;s<o.length;s++)i=o[s],"x"===i?a+=t().toString(16):"y"===i?(i=3&t()|8,a+=i.toString(16)):a+=i;return a}function i(){return a(16)}function o(){return a(32)}function a(t){function e(){return n?15&n[r++]:16*Math.random()|0}var n=null,r=0,i=window.crypto||window.msCrypto;i&&i.getRandomValues&&Uint8Array&&(n=i.getRandomValues(new Uint8Array(31)));for(var o=[],a=0;a<t;a++)o.push(e().toString(16));return o.join("")}e.exports={generateUuid:r,generateSpanId:i,generateTraceId:o}},{}],20:[function(t,e,n){function r(t,e){if(!i)return!1;if(t!==i)return!1;if(!e)return!0;if(!o)return!1;for(var n=o.split("."),r=e.split("."),a=0;a<r.length;a++)if(r[a]!==n[a])return!1;return!0}var i=null,o=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var s=navigator.userAgent,c=s.match(a);c&&s.indexOf("Chrome")===-1&&s.indexOf("Chromium")===-1&&(i="Safari",o=c[1])}e.exports={agent:i,version:o,match:r}},{}],21:[function(t,e,n){function r(t){function e(){t(a&&document[a]?document[a]:document[i]?"hidden":"visible")}"addEventListener"in document&&o&&document.addEventListener(o,e,!1)}e.exports=r;var i,o,a;"undefined"!=typeof document.hidden?(i="hidden",o="visibilitychange",a="visibilityState"):"undefined"!=typeof document.msHidden?(i="msHidden",o="msvisibilitychange"):"undefined"!=typeof document.webkitHidden&&(i="webkitHidden",o="webkitvisibilitychange",a="webkitVisibilityState")},{}],22:[function(t,e,n){function r(t,e){var n=[],r="",o=0;for(r in t)i.call(t,r)&&(n[o]=e(r,t[r]),o+=1);return n}var i=Object.prototype.hasOwnProperty;e.exports=r},{}],23:[function(t,e,n){function r(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,i=n-e||0,o=Array(i<0?0:i);++r<i;)o[r]=t[e+r];return o}e.exports=r},{}],24:[function(t,e,n){e.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(t,e,n){function r(){}function i(t){function e(t){return t&&t instanceof r?t:t?f(t,c,a):a()}function n(n,r,i,o,a){if(a!==!1&&(a=!0),!p.aborted||o){t&&a&&t(n,r,i);for(var s=e(i),c=m(n),f=c.length,u=0;u<f;u++)c[u].apply(s,r);var l=d[x[n]];return l&&l.push([y,n,r,s]),s}}function o(t,e){w[t]=m(t).concat(e)}function h(t,e){var n=w[t];if(n)for(var r=0;r<n.length;r++)n[r]===e&&n.splice(r,1)}function m(t){return w[t]||[]}function v(t){return l[t]=l[t]||i(n)}function g(t,e){p.aborted||u(t,function(t,n){e=e||"feature",x[n]=e,e in d||(d[e]=[])})}var w={},x={},y={on:o,addEventListener:o,removeEventListener:h,emit:n,get:v,listeners:m,context:e,buffer:g,abort:s,aborted:!1};return y}function o(t){return f(t,c,a)}function a(){return new r}function s(){(d.api||d.feature)&&(p.aborted=!0,d=p.backlog={})}var c="nr@context",f=t("gos"),u=t(22),d={},l={},p=e.exports=i();e.exports.getOrSetContext=o,p.backlog=d},{}],gos:[function(t,e,n){function r(t,e,n){if(i.call(t,e))return t[e];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:r,writable:!0,enumerable:!1}),r}catch(o){}return t[e]=r,r}var i=Object.prototype.hasOwnProperty;e.exports=r},{}],handle:[function(t,e,n){function r(t,e,n,r){i.buffer([t],r),i.emit(t,e,n)}var i=t("ee").get("handle");e.exports=r,r.ee=i},{}],id:[function(t,e,n){function r(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:a(t,o,function(){return i++})}var i=1,o="nr@id",a=t("gos");e.exports=r},{}],loader:[function(t,e,n){function r(){if(!M++){var t=O.info=NREUM.info,e=m.getElementsByTagName("script")[0];if(setTimeout(f.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&e))return f.abort();c(E,function(e,n){t[e]||(t[e]=n)});var n=a();s("mark",["onload",n+O.offset],null,"api"),s("timing",["load",n]);var r=m.createElement("script");0===t.agent.indexOf("http://")||0===t.agent.indexOf("https://")?r.src=t.agent:r.src=p+"://"+t.agent,e.parentNode.insertBefore(r,e)}}function i(){"complete"===m.readyState&&o()}function o(){s("mark",["domContent",a()+O.offset],null,"api")}var a=t(16),s=t("handle"),c=t(22),f=t("ee"),u=t(20),d=t(17),l=t(13),p=l.getConfiguration("ssl")===!1?"http":"https",h=window,m=h.document,v="addEventListener",g="attachEvent",w=h.XMLHttpRequest,x=w&&w.prototype,y=!d(h.location);NREUM.o={ST:setTimeout,SI:h.setImmediate,CT:clearTimeout,XHR:w,REQ:h.Request,EV:h.Event,PR:h.Promise,MO:h.MutationObserver};var b=""+location,E={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1210.min.js"},R=w&&x&&x[v]&&!/CriOS/.test(navigator.userAgent),O=e.exports={offset:a.getLastTimestamp(),now:a,origin:b,features:{},xhrWrappable:R,userAgent:u,disabled:y};if(!y){t(12),t(18),m[v]?(m[v]("DOMContentLoaded",o,!1),h[v]("load",r,!1)):(m[g]("onreadystatechange",i),h[g]("onload",r)),s("mark",["firstbyte",a.getLastTimestamp()],null,"api");var M=0}},{}],"wrap-function":[function(t,e,n){function r(t,e){function n(e,n,r,c,f){function nrWrapper(){var o,a,u,l;try{a=this,o=d(arguments),u="function"==typeof r?r(o,a):r||{}}catch(p){i([p,"",[o,a,c],u],t)}s(n+"start",[o,a,c],u,f);try{return l=e.apply(a,o)}catch(h){throw s(n+"err",[o,a,h],u,f),h}finally{s(n+"end",[o,a,l],u,f)}}return a(e)?e:(n||(n=""),nrWrapper[l]=e,o(e,nrWrapper,t),nrWrapper)}function r(t,e,r,i,o){r||(r="");var s,c,f,u="-"===r.charAt(0);for(f=0;f<e.length;f++)c=e[f],s=t[c],a(s)||(t[c]=n(s,u?c+r:r,i,c,o))}function s(n,r,o,a){if(!h||e){var s=h;h=!0;try{t.emit(n,r,o,e,a)}catch(c){i([c,n,r,o],t)}h=s}}return t||(t=u),n.inPlace=r,n.flag=l,n}function i(t,e){e||(e=u);try{e.emit("internal-error",t)}catch(n){}}function o(t,e,n){if(Object.defineProperty&&Object.keys)try{var r=Object.keys(t);return r.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(o){i([o],n)}for(var a in t)p.call(t,a)&&(e[a]=t[a]);return e}function a(t){return!(t&&t instanceof Function&&t.apply&&!t[l])}function s(t,e){var n=e(t);return n[l]=t,o(t,n,u),n}function c(t,e,n){var r=t[e];t[e]=s(r,n)}function f(){for(var t=arguments.length,e=new Array(t),n=0;n<t;++n)e[n]=arguments[n];return e}var u=t("ee"),d=t(23),l="nr@original",p=Object.prototype.hasOwnProperty,h=!1;e.exports=r,e.exports.wrapFunction=s,e.exports.wrapInPlace=c,e.exports.argsToArray=f},{}]},{},["loader",2,9]);</script>
 <meta property="fb:app_id" content="129848480405753" />
 <meta property="fb:pages" content="21819923015,329876903846185,459190287458280,106721516050,172994359388346" />
@@ -49,12 +49,12 @@
   <meta name="twitter:image" content="https://www.scpr.org/assets/meta/twitter-06a56b46a4d2800a4dfd099229d5fec4.jpg">
 
 <meta name="csrf-param" content="authenticity_token" />
-<meta name="csrf-token" content="p2XLU7jk6n432sLITuVN3kop3mNRPALN6V0y91oRqnfq1Cr3ahpTEzqb3emiiYJLWJPTEM5A/mH5EOfHFN4uAQ==" />
+<meta name="csrf-token" content="j2ebtbGDIgATg4RSQy1zKbGAwN8R0E18bx9boqgX8mNw7CJQ9B25lmB0269U2iEg8AfJPdoUO0wO1Wo/IihPHA==" />
 
 <link rel="alternate" type="application/rss+xml" title="RSS" href="https://scpr.org/feeds/all_news" />
 
 
-<link rel="shortcut icon" type="image/x-icon" href="../favicon.ico.html" />
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
 
 <script>
   window.fbAsyncInit = function() {
@@ -98,7 +98,7 @@
    }
  </script>
 
-    <link rel="stylesheet" media="screen" href="../assets/application-7f7821ce515de5e972962c5c644583f6.css.html" />
+    <link rel="stylesheet" media="screen" href="/assets/application-7f7821ce515de5e972962c5c644583f6.css" />
     
     <!-- Start: GPT Async -->
 <script type='text/javascript'>
@@ -164,7 +164,7 @@
 <!-- chartbeat timing for load start -->
 <script type="text/javascript">var _sf_startpt=(new Date()).getTime()</script>
 
-    <script src="../assets/application-5438c131fea4e82cd9b15c59115cba6e.js.html"></script>
+    <script src="/assets/application-5438c131fea4e82cd9b15c59115cba6e.js"></script>
     <script>
       // Function for lazy loading slideshow images
       function imgLoaded(img) {
@@ -252,7 +252,7 @@
               <a href="/podcasts">Podcasts</a>
             </li>
             <li>
-              <a href="/archive/2021/07/19/?section=programs">Archive</a>
+              <a href="/archive/2021/08/26/?section=programs">Archive</a>
             </li>
           </ul>
         </div>
@@ -425,7 +425,7 @@
 
   <div class="o-mast__action o-mast__search">
 
-    <form method="get" action="https://archive.kpcc.org/search/">
+    <form method="get" action="/search/">
       <input type="text" placeholder="Enter your search here" name="q" id="q" />
       <label for="o-mast__search-toggler-checkbox" class="o-mast__search-link" href="#">
         <svg class="b-icon b-icon--search-open">
@@ -480,7 +480,7 @@
   </div>
 </div>
         <section class="o-prologue o-prologue--standard-program">
-    <a class="o-prologue__logo" href="science-friday.html">
+    <a class="o-prologue__logo" href="/programs/science-friday">
         <h1>Science Friday</h1>
     </a>
     <span class="o-prologue__description">
@@ -518,10 +518,10 @@
         </script>
       </div>
     </div>
-      <a class="c-ad__attribution" href="/support/underwriting/">Become a KPCC Sponsor</a>
+      <a class="c-ad__attribution" href="http://www.scpr.org/support/underwriting/">Become a KPCC Sponsor</a>
   </div>
 </aside>
-<section class="o-popular-stories-side-bar "  style="order: 6">
+<section class="o-popular-stories-side-bar "  style="order: 7">
   <h6 class="o-popular-stories__heading b-heading b-heading--h6 b-heading--uppercase u-text-color--gray b-heading--medium">Popular now on KPCC</h6>
   <input checked type="radio" name="tab" id="o-popular-stories-side-bar__input-viewed" class="o-popular-stories-side-bar__input" />
   <label class="o-popular-stories-side-bar__label" for="o-popular-stories-side-bar__input-viewed">VIEWED</label>
@@ -529,77 +529,77 @@
   <label class="o-popular-stories-side-bar__label" for="o-popular-stories-side-bar__input-discussed">DISCUSSED</label>
   <div id="o-popular-stories-side-bar__tab-viewed" class="o-popular-stories-side-bar__tab">
     <div class="o-popular-stories-side-bar__item">
-      <a class="track-event" data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="Popular Now Quadrant" href="/news/2021/07/20/98530/tokyo-olympics-ceo-doesn-t-dismiss-the-idea-that-g/">
+      <a class="track-event" data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="Popular Now Quadrant" href="/news/2021/08/27/99009/peloton-says-it-s-been-subpoenaed-by-doj-and-dhs-o/">
       <figure class="o-popular-stories-side-bar__figure o-figure">
-        <img class="o-popular-stories-side-bar__item-image o-figure__img" src="../assets/meta/facebook-73514b02830df167eb8bfbe15710b5cb.jpg.html" style="background-image: url(../assets/meta/facebook-73514b02830df167eb8bfbe15710b5cb.jpg.html)" />
+        <img class="o-popular-stories-side-bar__item-image o-figure__img" src="https://a.scpr.org/i/d116dd563eb2b33c35b08772770cc978/234804-small.jpg" style="background-image: url(https://a.scpr.org/i/d116dd563eb2b33c35b08772770cc978/234804-small.jpg)" />
       </figure>
       <span class="o-popular-stories-side-bar__item-caption">
-        Tokyo Olympics CEO Doesn't Dismiss The Idea That Games Could Still Be Called Off
+        Peloton Says It's Been Subpoenaed By DOJ And DHS Over Its Product Injury Reporting
       </span>
 </a>    </div>
     <div class="o-popular-stories-side-bar__item">
-      <a class="track-event" data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="Popular Now Quadrant" href="/news/2021/07/20/98529/the-white-house-blamed-china-for-hacking-microsoft/">
+      <a class="track-event" data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="Popular Now Quadrant" href="/news/2021/08/27/99008/the-u-s-has-set-up-a-mass-vaccination-site-for-afg/">
       <figure class="o-popular-stories-side-bar__figure o-figure">
-        <img class="o-popular-stories-side-bar__item-image o-figure__img" src="../assets/meta/facebook-73514b02830df167eb8bfbe15710b5cb.jpg.html" style="background-image: url(../assets/meta/facebook-73514b02830df167eb8bfbe15710b5cb.jpg.html)" />
+        <img class="o-popular-stories-side-bar__item-image o-figure__img" src="https://a.scpr.org/i/3eb3e541688e115debdec435d4172dd6/234803-small.jpg" style="background-image: url(https://a.scpr.org/i/3eb3e541688e115debdec435d4172dd6/234803-small.jpg)" />
       </figure>
       <span class="o-popular-stories-side-bar__item-caption">
-        The White House Blamed China For Hacking Microsoft. China Is Pointing Fingers Back
+        The U.S. Has Set Up A Mass Vaccination Site For Afghans Arriving In Virginia
       </span>
 </a>    </div>
     <div class="o-popular-stories-side-bar__item">
-      <a class="track-event" data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="Popular Now Quadrant" href="/news/2021/07/20/98528/new-york-reaches-a-1-1-billion-opioid-deal-with-th/">
+      <a class="track-event" data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="Popular Now Quadrant" href="/news/2021/08/27/99007/greenhouse-gas-levels-are-the-highest-ever-seen-an/">
       <figure class="o-popular-stories-side-bar__figure o-figure">
-        <img class="o-popular-stories-side-bar__item-image o-figure__img" src="https://a.scpr.org/i/d870bff93c83f65f5aea9db0d0f9e8b7/234308-small.jpg" style="background-image: url(https://a.scpr.org/i/d870bff93c83f65f5aea9db0d0f9e8b7/234308-small.jpg)" />
+        <img class="o-popular-stories-side-bar__item-image o-figure__img" src="https://a.scpr.org/i/281c84db9a64d3e9cba7721d02ebce5e/234802-small.jpg" style="background-image: url(https://a.scpr.org/i/281c84db9a64d3e9cba7721d02ebce5e/234802-small.jpg)" />
       </figure>
       <span class="o-popular-stories-side-bar__item-caption">
-        New York Reaches A $1.1 Billion Opioid Deal With The Nation's Big Drug Wholesalers
+        Greenhouse Gas Levels Are The Highest Ever Seen — And That's Going Back 800,000 Years
       </span>
 </a>    </div>
     <div class="o-popular-stories-side-bar__item">
-      <a class="track-event" data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="Popular Now Quadrant" href="/news/2021/07/20/98527/deaf-blind-athlete-quits-team-usa-after-she-s-told/">
+      <a class="track-event" data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="Popular Now Quadrant" href="/news/2021/08/27/99006/afghanistan-death-toll-climbs-as-pentagon-clarifie/">
       <figure class="o-popular-stories-side-bar__figure o-figure">
-        <img class="o-popular-stories-side-bar__item-image o-figure__img" src="https://a.scpr.org/i/8b678acc69125b514b776443a77b45b8/234307-small.jpg" style="background-image: url(https://a.scpr.org/i/8b678acc69125b514b776443a77b45b8/234307-small.jpg)" />
+        <img class="o-popular-stories-side-bar__item-image o-figure__img" src="https://a.scpr.org/i/170de8f0dad360203c913118c631fdfc/234801-small.jpg" style="background-image: url(https://a.scpr.org/i/170de8f0dad360203c913118c631fdfc/234801-small.jpg)" />
       </figure>
       <span class="o-popular-stories-side-bar__item-caption">
-        Deaf-Blind Athlete Quits Team USA After She's Told She Can't Bring A Care Assistant 
+        Afghanistan Death Toll Climbs As Pentagon Clarifies 1 Bomber Was Involved In Attack
       </span>
 </a>    </div>
   </div>
   <div id="o-popular-stories-side-bar__tab-discussed" class="o-popular-stories-side-bar__tab">
       <div class="o-popular-stories-side-bar__item">
-        <a class="track-event" data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="Popular Now Quadrant" href="/news/2021/07/20/98527/deaf-blind-athlete-quits-team-usa-after-she-s-told/">
+        <a class="track-event" data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="Popular Now Quadrant" href="/news/2021/08/27/99006/afghanistan-death-toll-climbs-as-pentagon-clarifie/">
         <figure class="o-popular-stories-side-bar__figure o-figure">
-          <img class="o-popular-stories-side-bar__item-image o-figure__img" src="https://a.scpr.org/i/8b678acc69125b514b776443a77b45b8/234307-small.jpg" style="background-image: url(https://a.scpr.org/i/8b678acc69125b514b776443a77b45b8/234307-small.jpg)" />
+          <img class="o-popular-stories-side-bar__item-image o-figure__img" src="https://a.scpr.org/i/170de8f0dad360203c913118c631fdfc/234801-small.jpg" style="background-image: url(https://a.scpr.org/i/170de8f0dad360203c913118c631fdfc/234801-small.jpg)" />
         </figure>
         <span class="o-popular-stories-side-bar__item-caption">
-          Deaf-Blind Athlete Quits Team USA After She's Told She Can't Bring A Care Assistant 
+          Afghanistan Death Toll Climbs As Pentagon Clarifies 1 Bomber Was Involved In Attack
         </span>
 </a>      </div>
       <div class="o-popular-stories-side-bar__item">
-        <a class="track-event" data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="Popular Now Quadrant" href="/news/2021/07/20/98528/new-york-reaches-a-1-1-billion-opioid-deal-with-th/">
+        <a class="track-event" data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="Popular Now Quadrant" href="/news/2021/08/27/99007/greenhouse-gas-levels-are-the-highest-ever-seen-an/">
         <figure class="o-popular-stories-side-bar__figure o-figure">
-          <img class="o-popular-stories-side-bar__item-image o-figure__img" src="https://a.scpr.org/i/d870bff93c83f65f5aea9db0d0f9e8b7/234308-small.jpg" style="background-image: url(https://a.scpr.org/i/d870bff93c83f65f5aea9db0d0f9e8b7/234308-small.jpg)" />
+          <img class="o-popular-stories-side-bar__item-image o-figure__img" src="https://a.scpr.org/i/281c84db9a64d3e9cba7721d02ebce5e/234802-small.jpg" style="background-image: url(https://a.scpr.org/i/281c84db9a64d3e9cba7721d02ebce5e/234802-small.jpg)" />
         </figure>
         <span class="o-popular-stories-side-bar__item-caption">
-          New York Reaches A $1.1 Billion Opioid Deal With The Nation's Big Drug Wholesalers
+          Greenhouse Gas Levels Are The Highest Ever Seen — And That's Going Back 800,000 Years
         </span>
 </a>      </div>
       <div class="o-popular-stories-side-bar__item">
-        <a class="track-event" data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="Popular Now Quadrant" href="/news/2021/07/20/98529/the-white-house-blamed-china-for-hacking-microsoft/">
+        <a class="track-event" data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="Popular Now Quadrant" href="/news/2021/08/27/99008/the-u-s-has-set-up-a-mass-vaccination-site-for-afg/">
         <figure class="o-popular-stories-side-bar__figure o-figure">
-          <img class="o-popular-stories-side-bar__item-image o-figure__img" src="../assets/meta/facebook-73514b02830df167eb8bfbe15710b5cb.jpg.html" style="background-image: url(../assets/meta/facebook-73514b02830df167eb8bfbe15710b5cb.jpg.html)" />
+          <img class="o-popular-stories-side-bar__item-image o-figure__img" src="https://a.scpr.org/i/3eb3e541688e115debdec435d4172dd6/234803-small.jpg" style="background-image: url(https://a.scpr.org/i/3eb3e541688e115debdec435d4172dd6/234803-small.jpg)" />
         </figure>
         <span class="o-popular-stories-side-bar__item-caption">
-          The White House Blamed China For Hacking Microsoft. China Is Pointing Fingers Back
+          The U.S. Has Set Up A Mass Vaccination Site For Afghans Arriving In Virginia
         </span>
 </a>      </div>
       <div class="o-popular-stories-side-bar__item">
-        <a class="track-event" data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="Popular Now Quadrant" href="/news/2021/07/20/98530/tokyo-olympics-ceo-doesn-t-dismiss-the-idea-that-g/">
+        <a class="track-event" data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="Popular Now Quadrant" href="/news/2021/08/27/99009/peloton-says-it-s-been-subpoenaed-by-doj-and-dhs-o/">
         <figure class="o-popular-stories-side-bar__figure o-figure">
-          <img class="o-popular-stories-side-bar__item-image o-figure__img" src="../assets/meta/facebook-73514b02830df167eb8bfbe15710b5cb.jpg.html" style="background-image: url(../assets/meta/facebook-73514b02830df167eb8bfbe15710b5cb.jpg.html)" />
+          <img class="o-popular-stories-side-bar__item-image o-figure__img" src="https://a.scpr.org/i/d116dd563eb2b33c35b08772770cc978/234804-small.jpg" style="background-image: url(https://a.scpr.org/i/d116dd563eb2b33c35b08772770cc978/234804-small.jpg)" />
         </figure>
         <span class="o-popular-stories-side-bar__item-caption">
-          Tokyo Olympics CEO Doesn't Dismiss The Idea That Games Could Still Be Called Off
+          Peloton Says It's Been Subpoenaed By DOJ And DHS Over Its Product Injury Reporting
         </span>
 </a>      </div>
   </div>
@@ -608,7 +608,7 @@
 <aside id="" class="o-archive o-archive--small" style="order: 6;">
   <h6 class="o-archive__heading b-heading--h6 b-heading--uppercase u-text-color--gray b-heading--medium">Find a specific episode from Science Friday's archive</h6>
 
-  <form accept-charset="UTF-8" action="https://archive.kpcc.org/programs/science-friday/archive" method="post">
+  <form accept-charset="UTF-8" action="/programs/science-friday/archive" method="post">
 
     <input name="utf8" type="hidden" value="&#x2713;" />
     <input name="authenticity_token" type="hidden" value="Hv3qnrajp8wwM5yr16aOZvA+r1JCrnBLq+lRXQVHrc0=" />
@@ -620,8 +620,8 @@
         <option value="4">April</option>
         <option value="5">May</option>
         <option value="6">June</option>
-        <option value="7" selected="selected">July</option>
-        <option value="8">August</option>
+        <option value="7">July</option>
+        <option value="8" selected="selected">August</option>
         <option value="9">September</option>
         <option value="10">October</option>
         <option value="11">November</option>
@@ -648,7 +648,7 @@
         <option value="17">17</option>
         <option value="18">18</option>
         <option value="19">19</option>
-        <option value="20" selected="selected">20</option>
+        <option value="20">20</option>
         <option value="21">21</option>
         <option value="22">22</option>
         <option value="23">23</option>
@@ -656,7 +656,7 @@
         <option value="25">25</option>
         <option value="26">26</option>
         <option value="27">27</option>
-        <option value="28">28</option>
+        <option value="28" selected="selected">28</option>
         <option value="29">29</option>
         <option value="30">30</option>
         <option value="31">31</option>
@@ -698,36 +698,34 @@
         </script>
       </div>
     </div>
-      <a class="c-ad__attribution" href="/support/underwriting/">Become a KPCC Sponsor</a>
+      <a class="c-ad__attribution" href="http://www.scpr.org/support/underwriting/">Become a KPCC Sponsor</a>
   </div>
 </aside>
 <div id="" class="o-featured-episode__center o-standard-program__episode-list" style="order: 3">
   <h6 class="o-featured-episode__list-heading b-heading--h6 b-heading--uppercase u-text-color--gray">Recent episodes</h6>
     <div class="o-featured-episode__segment">
       <div class="o-featured-episode__segment-description">
-        <h3 class="o-featured-episode__segment-title"><a href="/programs/science-friday/2020/09/11/82057/"> Medium Black Holes, World of Wonders, Warsaw Typhus. Sept 11, 2020, Part 2
+        <h3 class="o-featured-episode__segment-title"><a href="/programs/science-friday/2020/10/23/82995/">Teaching in a Pandemic, Inheriting Stress, Book Club. Oct 23, 2020, Part 2
 </a></h3>
-        <time class="o-story-list__item-timestamp">Fri September 11</time>
-        <div class="o-featured-episode__segment-teaser"><h2 class="entry-title">Why A Medium-Sized Black Hole Is Surprising Physicists</h2>
-<p><a href="https://www.sciencefriday.com/segments/medium-black-hole/" target="_blank">If you’re looking for a black hole</a>, they normally come in two sizes. There’s the basic model, in which a large, dying star collapses in on itself, and the gravity of its core pulls in other matter. Then there are the supermassive black holes, millions of times the mass of our sun, that tend to be found at the center of a galaxy.</p>
-<p><span>But recently<span> </span></span><a href="https://iopscience.iop.org/article/10.3847/2041-8213/aba493"><span>researchers<span> </span></span></a><a href="https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.125.101102" target="_blank" rel="noopener"><span>reported</span></a><span><span> </span>that they had evidence for two colliding black holes that created a surprising offspring. Their collision formed a middle-weight black hole, around 142 times the mass of our sun. </span></p>
-<p><span>Daniel Holz, a member of the LIGO team that spotted the collision, and a professor of astronomy and astrophysics at the University of Chicago, joins Ira to talk about what the observation means for theories of <a href="https://www.sciencefriday.com/segments/medium-black-hole/" target="_blank">how black holes form and grow</a>.</span></p>
-<h2 class="entry-title">Against Impossible Odds, The Warsaw Ghetto Stopped A Typhus Outbreak</h2>
-<p><span>This year marks the 80th anniversary of the establishment of the Warsaw Ghetto in November of 1940. The Nazis purposefully tried to starve to death almost half a million Jews, who were kept with little food and water in a space about the size of Central Park. </span></p>
-<p><span>Theoretical mathematician Lewi Stone of Tel Aviv University has been studying a concurrent public health crisis that happened in the Warsaw Ghetto: a Typhus outbreak. The infectious disease is spread by lice, and can be deadly. </span></p>
-<p><span></span><span>Typhus ran rampant in the Warsaw Ghetto for the better part of 1941. But when the winter rolled around, the expected second wave never came. Researchers have <a href="https://www.sciencefriday.com/segments/warsaw-ghetto-typhus/" target="_blank">found evidence</a> that public health measures enacted under these impossible circumstances—think public education and social distancing—actually worked.</span></p>
-<p><span>Stone talks to<span> </span></span><span>SciFri<span> </span></span><span>producer Kathleen Davis about this research, and potential <a href="https://www.sciencefriday.com/segments/warsaw-ghetto-typhus/" target="_blank">takeaways for 2020’s public health crisis</a>.</span> </p>
-<h2 class="entry-title">It’s Still A Wild, Wonderful World</h2>
-<p><span>The table of contents for poet Aimee Nezhukumatathil’s <a href="https://www.sciencefriday.com/segments/world-of-wonders/" target="_blank">new book of essays</a> reads like a list of evolution’s most fantastic products. The comb jelly, which pulses with rainbow bioluminescence. The smiling-faced axolotl, which can regrow lost limbs and is a star of biology research labs, but is considered critically endangered in the wild. The human-sized corpse flower, which blooms for a mere 24 hours, smelling of dead flesh.</span></p>
-<p><span>It’s also a deeply personal book: Nezhukumatathil says the screaming pink of dragonfruit signals “summertime, pop music, sunglasses balanced on the top of my head, weather too warm for socks.” A firefly’s spark might send her back to her grandmother’s backyard, or “to splashing in an ice-cold creek bed, with our jeans rolled up to our knees, until we shudder and gasp, our toes fully wrinkled.” Even the horizontal eye of an octopus becomes a “door that judges us,” as the oceans become increasingly difficult to inhabit, thanks to humans’ ravages.</span></p>
-<p><span>Science Friday’s Christie Taylor talks to Nezhukumatathil about her experiences in natural wonder, and why in a world of changing climate, rising seas, and burning forests, she finds it important to share her <a href="https://www.sciencefriday.com/segments/world-of-wonders/" target="_blank">joy in learning about the creatures we share the planet with</a>. </span></p>
+        <time class="o-story-list__item-timestamp">Fri October 23</time>
+        <div class="o-featured-episode__segment-teaser"><h2 class="entry-title">Even In A Pandemic, Science Class Is In Session</h2>
+<p><span>This academic year, school campuses across the United States look very different. Instead of crowded hallways and bustling classrooms, students are spaced six feet apart, sometimes behind plastic barriers, while others are at home on camera in a video call. Since some states do not weigh in on school operations, communities witnessed<span> </span></span><span>a myriad of learning approaches</span><span>, such as fully virtual, fully in-person, or a mixture of both. All are subject to change as COVID-19 rates fluctuate throughout regions. For instance, on October 1,<span> </span></span><span>all New York City public schools reopened</span><span><span> </span>and shifted 500,000 students to in-person class. Meanwhile, on Wednesday, October 21, Boston Public Schools announced that it<span> </span></span><span>suspended all in-person learning</span><span><span> </span>as numbers of COVID-19 cases rose in the region.</span></p>
+<p><span>Teachers, students, parents, caregivers, and staff have all felt the stress and uncertainty during the COVID-19 pandemic. The situation is academically, mentally, and emotionally overwhelming. While the pandemic has presented many challenges in learning, STEAM educators are adapting. They are coming up with creative solutions to continue to meet the needs of all students, like holding outdoor biology classes, dissecting flowers at home, and even delivering materials and devices to students who need them. </span> </p>
+<p><span>STEAM educators Rabiah Harris, Josa Rivas, and Rick Erickson join Ira for a roundtable discussion on <a href="https://www.sciencefriday.com/segments/science-class-pandemic/" target="_blank">how the pandemic has impacted school this academic year</a>. </span></p>
+<h2 class="entry-title">Can Trauma Today Affect Future Children?</h2>
+<p>We typically think of a traumatic event as a sudden thing—something that has a beginning and an end. Stress and trauma can of course have lasting psychological effects—and, in some cases, physical effects such as elevated blood pressure or premature aging. But now researchers are considering whether stress to an organism can be somehow transmitted to that animal’s future offspring, via epigenetic changes that modify how genetic code is expressed in the young.</p>
+<p>Bianca Jones Marlin is a neuroscientist studying such changes. In one study, she found that if researchers trained mice to associate the smell of almonds with an electric shock, the offspring of the mice tended to be afraid of an almond smell—even if they were raised separately, by foster parents that had no experience with the odor.</p>
+<p>Jones Marlin joins Ira to talk about her research, and <a href="https://www.sciencefriday.com/segments/breakthrough-trauma-children/" target="_blank">her experience as a young researcher starting her own lab in the neurosciences</a>.</p>
+<h2 class="entry-title">Making Peace With The End Of Your Species</h2>
+<p><span>Welcome to week four of the Science Friday Book Club’s reading of ‘</span><em><span>New Suns</span></em><span>’! Our last short story assignment is ‘The Shadow We Cast Through Time’ by Indian writer Indrapramit Das. On a far-off planet, a human colony has been cut off from the rest of space: but they’ve also encountered other life, a fungus-like organism that infects and distorts human bodies into horned “demon”-like creatures. And as one human woman, Surya, approaches her death at their hands willingly, she makes a discovery that speaks of a new future for both species.</span></p>
+<p><span>Author<span> </span></span><a href="http://indradas.com/" target="_blank" rel="noopener"><span>Indrapramit Das</span></a><span><span> </span>joins SciFri producer Christie Taylor and<span> </span></span><a href="https://publish.lib.umd.edu/?journal=scifi" target="_blank" rel="noopener"><em><span>Journal of Science Fiction</span></em></a><span><span> </span>managing editor<span> </span></span><a href="https://aishamatthews.com/" target="_blank" rel="noopener"><span>Aisha Matthews</span></a><span><span> </span>to talk about creating new worlds, and <a href="https://www.sciencefriday.com/segments/book-club-shadow-we-cast/" target="_blank">the “modern mythology” of writing science fiction and fantasy</a>.</span></p>
 </div>
           <div class="c-audio-widget">
-            <a href="https://www.podtrac.com/pts/redirect.mp3/audio.wnyc.org/science-friday/science-friday091120b.mp3?context=science-friday" class="c-play__button" title=" Medium Black Holes, World of Wonders, Warsaw Typhus. Sept 11, 2020, Part 2
-" data-duration="2974" data-ga-category="Article" data-ga-action="Play" data-ga-label="Player">
+            <a href="https://www.podtrac.com/pts/redirect.mp3/audio.wnyc.org/science-friday/science-friday102320b.mp3?context=science-friday" class="c-play__button" title="Teaching in a Pandemic, Inheriting Stress, Book Club. Oct 23, 2020, Part 2
+" data-duration="2966" data-ga-category="Article" data-ga-action="Play" data-ga-label="Player">
               <span class="o-featured-episode__segment-audio">
-                <img class="o-featured-episode__segment-icon" src="../assets/o-audio-bar/Miniplayer-Play@2x-9eb026b3cb47b37babd5eb9f620efedf.png.html" alt="Miniplayer play@2x" />
-                49 MIN 34 SEC
+                <img class="o-featured-episode__segment-icon" src="/assets/o-audio-bar/Miniplayer-Play@2x-9eb026b3cb47b37babd5eb9f620efedf.png" alt="Miniplayer play@2x" />
+                49 MIN 26 SEC
               </span>
             </a>
           </div>
@@ -735,25 +733,26 @@
     </div>
     <div class="o-featured-episode__segment">
       <div class="o-featured-episode__segment-description">
-        <h3 class="o-featured-episode__segment-title"><a href="/programs/science-friday/2020/09/11/82051/">The Wonders of Moss, Clean. Sept 11, 2020, Part 1
+        <h3 class="o-featured-episode__segment-title"><a href="/programs/science-friday/2020/10/16/82830/">U.S. COVID Spikes, Blockchain Chicken Farm, Book Club: Chicanafuturism. Oct 16, 2020, Part 2
 </a></h3>
-        <time class="o-story-list__item-timestamp">Fri September 11</time>
-        <div class="o-featured-episode__segment-teaser"><h2 class="entry-title">These Moss Are Living Their Best Life—Under Rocks</h2>
-<p><span><a href="https://www.sciencefriday.com/segments/moss/" target="_blank">Desert mosses live a much different life</a> than their cousins in lush, water-rich forests. In fact, they spend most of their time dormant: dried out, waiting for the rare rainfall to bring them to life so they can grow and reproduce. Once exposed to water, though, these same mosses can re-animate quickly—within minutes they’re back to photosynthesizing.</span></p>
-<p><span>And in<span> </span></span><a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0235928" target="_blank" rel="noopener"><span>research published in<span> </span></span><em><span>PLoS One</span></em></a><span><span> </span>this summer, scientists working in the Mojave Desert discovered another bryophyta trick. They found<span> </span></span><a href="https://www.nytimes.com/2020/07/29/science/moss-quartz-biology-syntrichia.html" target="_blank" rel="noopener"><span>some moss species were using rocks</span></a><span><span> </span>as sun shades, preventing them from drying out as quickly. But not just any rock will do—with the help of semi-translucent quartz, moss are still able to receive small amounts of sunlight, thriving in small shady oases for weeks past the most recent rainfall. </span></p>
-<p><span>Science Friday</span><span><span> </span>producer Christie Taylor talks to Jenna Ekwealor, a co-author on the research and PhD candidate at the University of California-Berkeley. </span></p>
-<h2 class="entry-title">An Argument For The Benefits Of Not Bathing </h2>
-<p><span>If the idea of not showering every day makes you feel icky, how about not showering for<span> </span></span><em><span>years</span></em><span>? Writer James Hamblin says he stopped showering<span> </span></span><span>five years ago</span><span><span> </span>and never looked back. He says his skin has never been better, thanks to his healthy, well-functioning skin microbiome. </span><span>Hamblin joins Ira to talk about his new book <em><span>Clean: The New Science of Skin, </span></em>breaking the rules when it comes to cleanliness, and <a href="https://www.sciencefriday.com/segments/benefits-no-bathing/" target="_blank">discovering the benefits of skipping that shower</a>. </span></p>
-<h2 class="entry-title">COVID-19 Vaccine Developers Promise Not To Rush Testing</h2>
-<p><span>Pharmaceutical companies are racing to find a vaccine for COVID-19. And there is a huge financial incentive to be the first to produce the first vaccine. But as President Donald Trump promises a vaccine “very soon,” nine of the biggest pharma companies signed a letter that pledged not to put profit—or politics—over sound science. </span></p>
-<p><span>Science writer Maggie Koerth <a href="https://www.sciencefriday.com/segments/coronavirus-vaccine-not-rush-testing/" target="_blank">talks about that letter</a>, as well as bad news for a vaccine clinical trial, which paused this week after an unexplained illness in a participant.</span></p>
+        <time class="o-story-list__item-timestamp">Fri October 16</time>
+        <div class="o-featured-episode__segment-teaser"><h2 class="entry-title">Across The Country, A Spike In Coronavirus Cases</h2>
+<p class="entry-title"><span>Over 217,000 people have died of COVID-19 in the U.S., and <a href="https://www.sciencefriday.com/segments/wisconsin-wyoming-coronavirus/" target="_blank">many states are seeing an upswing in case numbers as we head into fall</a>. </span></p>
+<p>In rural Wyoming, there have been over 8,100 cases, with 57 deaths to date. More populated Wisconsin has seen over 167,000 cases—and recently crossed the grim threshold of 1,500 deaths due to the disease. Both states have reported more hospitalizations, with Wisconsin this week opening a field hospital to help deal with the increased demand for medical care and pressure on hospitals.</p>
+<p>In this State of Science segment, Ira talks with Bob Beck, news director at Wyoming Public Radio, and Will Cushman, associate editor for WisContext, about how their communities are responding to the pandemic.</p>
+<h2 class="entry-title">Blockchain And Big Tech In China’s Countryside</h2>
+<p><span>Many of us are familiar with blockchain: the decentralized, anonymous ledger system. In the U.S., blockchain is usually talked about in terms of Bitcoin and other cryptocurrencies. But in China, chicken farmers are using blockchain to monitor food safety. </span></p>
+<p><span>There are hundreds of million people living in the Chinese countryside. Chinese tech companies are investing in all sorts of projects in the country’s rural areas—from villages built around e-commerce to internet gaming sites getting into the pork industry. In<span> </span></span><a href="https://www.sciencefriday.com/segments/blockchain-china-countryside/" target="_blank" rel="noopener"><em><span>Blockchain Chicken Farm: And Other Stories of Tech in China’s Countryside</span></em></a><span>, author Xiaowei Wang traveled through China to investigate how this technology is shaping the people and countryside. </span> </p>
+<h2 class="entry-title">Science Friday Book Club: Conjuring An Alternate History Of Colonization</h2>
+<p><span>It’s week three of the<span> </span></span><span>SciFri</span><span><span> </span>Book Club’s exploration of<span> </span></span><em><span>New Suns: Original Speculative Fiction by People of Color.</span></em><span><span> </span>This week’s story is ‘Burn the Ships,’ by author Alberto Yáñez. It’s set in a world that<span> </span></span><em><span>could</span></em><span><span> </span>be the Cort</span><span>é</span><span>s-conquered Aztec Empire of 1520—but in this fictional version, the Spanish conquerors have modern guns, radios, railroads, and even scientific developments like vaccines. And as the Indigenous people are contained and slaughtered in camps, they <a href="https://www.sciencefriday.com/segments/book-club-colonization/" target="_blank">use powerful magic to animate their dead against the invaders</a>.</span></p>
+<p><span>SciFri producer Christie Taylor,<em> Journal of Science Fiction</em> managing editor Aisha Matthews and University of California Santa Cruz professor Catherine S. Ramirez talk about how a story about the past can still be science fiction, and introduce Chicanafuturism—a literary cousin of the Afrofuturism we discussed in<span> </span></span><a class="no-ajaxy" href="https://www.sciencefriday.com/segments/book-club-afrofuturism/" target="_blank" rel="noopener"><span>last week’s conversation</span></a><span><span> </span>about Andrea Hairston’s story ‘Dumb House.’</span></p>
 </div>
           <div class="c-audio-widget">
-            <a href="https://www.podtrac.com/pts/redirect.mp3/audio.wnyc.org/science-friday/science-friday091120a.mp3?context=science-friday" class="c-play__button" title="The Wonders of Moss, Clean. Sept 11, 2020, Part 1
-" data-duration="2969" data-ga-category="Article" data-ga-action="Play" data-ga-label="Player">
+            <a href="https://www.podtrac.com/pts/redirect.mp3/audio.wnyc.org/science-friday/science-friday101620b.mp3?context=science-friday" class="c-play__button" title="U.S. COVID Spikes, Blockchain Chicken Farm, Book Club: Chicanafuturism. Oct 16, 2020, Part 2
+" data-duration="2926" data-ga-category="Article" data-ga-action="Play" data-ga-label="Player">
               <span class="o-featured-episode__segment-audio">
-                <img class="o-featured-episode__segment-icon" src="../assets/o-audio-bar/Miniplayer-Play@2x-9eb026b3cb47b37babd5eb9f620efedf.png.html" alt="Miniplayer play@2x" />
-                49 MIN 29 SEC
+                <img class="o-featured-episode__segment-icon" src="/assets/o-audio-bar/Miniplayer-Play@2x-9eb026b3cb47b37babd5eb9f620efedf.png" alt="Miniplayer play@2x" />
+                48 MIN 46 SEC
               </span>
             </a>
           </div>
@@ -761,52 +760,24 @@
     </div>
     <div class="o-featured-episode__segment">
       <div class="o-featured-episode__segment-description">
-        <h3 class="o-featured-episode__segment-title"><a href="/programs/science-friday/2020/09/04/81916/">Fact Check Your Feed, Climate And Fungi, Cells Solve A Maze. September 4, 2020, Part 2
+        <h3 class="o-featured-episode__segment-title"><a href="/programs/science-friday/2020/10/16/82821/">The Black Hole At The Center Of The Galaxy, Shipwreck Microbes. Oct 16, 2020, Part 1
 </a></h3>
-        <time class="o-story-list__item-timestamp">Fri September 04</time>
-        <div class="o-featured-episode__segment-teaser"><h2 class="entry-title">Can Fungus Survive Climate Change?</h2>
-<p><span>One of the most extensive global networks for sharing information and moving around essential nutrients is hidden from us—but it’s right below our feet. </span></p>
-<p><span>Networks of fungi often connect trees and plants to one another. But scientists are just starting to untangle what these fungal connections look like, and how important they are. Mycologist Christopher Fernandez explains how these fungal systems might be affected by climate change—and <a href="https://www.sciencefriday.com/segments/climate-change-fungi/" target="_blank">what that means for the entire forest ecosystem</a>.</span></p>
-<h2 class="entry-title">A Cellular Race Through A Maze</h2>
-<p><span>Cells are the basic building blocks of life. Our bodies are made up of trillions and trillions of them, and they all serve a specific purpose. But these tiny workers don’t always stay in the same place. Many move around the body—whether they’re creating a developing embryo, helping the immune system, or, distressingly, spreading cancer. </span> </p>
-<p><span>A team of scientists in the UK r<a href="https://science.sciencemag.org/content/369/6507/eaay9792" target="_blank" rel="noopener">ecently set up an experiment</a><span> </span>to learn more about how cells move. They put dirt-dwelling amoebas and mouse cancer cells at the start of a maze, to see how well each would migrate. </span></p>
-<p><span>While amoebas proved speedier than their cancerous counterparts, Luke Tweedy, a postdoctoral researcher at the Beatson Institute for Cancer Research in Glasgow, Scotland, says the cancer cells were surprisingly mobile. </span></p>
-<p><span>Tweedy joins Ira to talk about <a href="https://www.sciencefriday.com/segments/cell-mazes/" target="_blank">what his team learned about cancer cell movement</a>, and explains why recreating a famous English hedge maze proved to be a little too difficult for his cellular subjects. </span></p>
-<h2 class="entry-title">Fact Check Your Feed: Are Kids Really COVID-19 ‘Super Spreaders’?</h2>
-<p><span>Late last month, as parents and teachers were gearing up for an unusual and stressful start to the school year, conflicting media reports of coronavirus transmission among children started populating our news feeds. One<span> </span></span><a href="https://www.kare11.com/article/news/children-covid-high-rate-spread-super-spreaders/89-8acdeeee-ff03-4dea-a477-dba61ebd0c95" target="_blank" rel="noopener"><span>headline</span></a><span><span> </span>proclaimed, “New study suggests children may be COVID-19 ‘super spreaders,’” while other articles cited researchers saying the<span> </span></span><a href="https://pediatrics.aappublications.org/content/146/2/e2020004879" target="_blank" rel="noopener"><span>opposite</span></a><span>. But the disagreement didn’t stop there. Some outlets<span> </span></span><a href="https://www.latimes.com/california/story/2020-08-28/few-preschoolers-catch-coronavirus-data"><span>reported</span></a><span><span> </span>that very few preschoolers are catching the coronavirus, while others<span> </span></span><a href="https://khn.org/morning-breakout/study-little-kids-carry-a-large-load-of-coronavirus/" target="_blank" rel="noopener"><span>cited a study</span></a><span><span> </span>that suggests children younger than 5 may harbor up to 100 times as much of the virus as adults.</span></p>
-<p><span>Angela Rasmussen, associate professor in the Columbia University Mailman School of Public Health, joins Ira to talk about the data behind these stories in a round of<span> </span><a class="no-ajaxy" href="https://www.sciencefriday.com/series/factcheck/https://www.sciencefriday.com/segments/fact-check-super-spreaders/" target="_blank" rel="noopener">Fact Check Your Feed</a>. She also explains new testing guidelines issued by the CDC, and a misleading report on the coronavirus death rate. </span></p>
-
-</div>
-          <div class="c-audio-widget">
-            <a href="https://www.podtrac.com/pts/redirect.mp3/audio.wnyc.org/science-friday/science-friday090420b.mp3?context=science-friday" class="c-play__button" title="Fact Check Your Feed, Climate And Fungi, Cells Solve A Maze. September 4, 2020, Part 2
-" data-duration="2900" data-ga-category="Article" data-ga-action="Play" data-ga-label="Player">
-              <span class="o-featured-episode__segment-audio">
-                <img class="o-featured-episode__segment-icon" src="../assets/o-audio-bar/Miniplayer-Play@2x-9eb026b3cb47b37babd5eb9f620efedf.png.html" alt="Miniplayer play@2x" />
-                48 MIN 20 SEC
-              </span>
-            </a>
-          </div>
-      </div>
-    </div>
-    <div class="o-featured-episode__segment">
-      <div class="o-featured-episode__segment-description">
-        <h3 class="o-featured-episode__segment-title"><a href="/programs/science-friday/2020/09/04/81899/">Urban Forests And Climate Change, HIV Treatment Progress. September 4, 2020, Part 1
-</a></h3>
-        <time class="o-story-list__item-timestamp">Fri September 04</time>
-        <div class="o-featured-episode__segment-teaser"><p>New York City’s skyline is dominated by tall skyscrapers—but there’s a surprising amount of forest in the city known as a concrete jungle. Tree canopy actually covers about 20% of the city. In fact, woodlands are one of the few natural resources the city has.</p>
-<p>Reporter Clarisa Diaz, in collaboration with John Upton from <em>Climate Central</em>, shares how the city’s green spaces, both large and small, <a href="https://www.sciencefriday.com/segments/creating-urban-forest/" target="_blank">are needed to create an urban forest ecosystem in the face of climate change</a>. Plus, forester David Nowak talks about the science behind planting an urban forest, and how to determine the value of a tree.</p>
+        <time class="o-story-list__item-timestamp">Fri October 16</time>
+        <div class="o-featured-episode__segment-teaser"><p>The 2020 Nobel Prize winners have been announced, and among them is UCLA astronomer Andrea Ghez, who split the prize with Roger Penrose and Reinhard Genzel. Ghez, also the fourth woman to ever win the Physics prize, won for her 1998 work that resolved a decades-old debate among astronomers: <a href="https://www.sciencefriday.com/segments/center-of-milky-way/" target="_blank">What lurks at the difficult-to-observe heart of the Milky Way?</a></p>
+<p>After innovating new ways to peer through the obscuring gas and dust, Ghez and her team observed the orbits of stars around the galaxy’s seemingly empty center—and found they fit a pattern explained so far only by <a href="https://www.sciencefriday.com/segments/center-of-milky-way/" target="_blank">a supermassive black hole of at least four million times the mass of our Sun</a>. In the decades since, she and her team have investigated the gravitational forces of the galactic center, and how well they match Einstein’s theory of relativity. (So far, her team has concluded, Einstein seems mostly right, but his theories may not fully explain what’s going on.)</p>
+<p>Ira talks to Ghez about how our understanding of the center of the galaxy has evolved, plus the questions that still puzzle her.</p>
 <hr>
-<p>Plus, while all eyes are currently on the COVID-19 pandemic, the coronavirus isn’t the only disease circulating the world. Lockdowns have hindered access to medical care, and supply chains for both tests and medications have been disrupted. With countries allocating limited public health resources to battle COVID-19, longstanding public health threats like tuberculosis, malaria, and HIV/AIDS may be at risk of resurging.</p>
-<p>However, there is also hopeful news for communities facing HIV/AIDS. Last week, a study published in the journal Nature examined 64 unusual people who seem to be able to naturally keep HIV at bay. Researchers investigated what makes these so-called ‘elite controllers’ able to manage their infections. They now think powerful T cells—a type of white blood cell which helps regulate the immune system—may hold a clue to these cases.</p>
-<p>Furthermore, earlier in the summer, a trial of a long-lasting injectable drug to prevent HIV infection was found to be at least as protective as the existing “pre-exposure prophylaxis,” or PrEP drug, which must be taken daily.</p>
-<p>Health and science reporters Apoorva Mandavilli of the <em>New York Times</em> and Jon Cohen of <em>Science</em> join Ira to discuss recent HIV/AIDS developments, and to reflect on 40 years of AIDS research. </p>
+<p>Plus, off the coast of North Carolina is a large lagoon called the Pamlico Sound, which supports a diverse ecological landscape. It’s also home to the Pappy’s Lane Shipwreck, a World War II vessel that’s partially submerged in the Sound. This wreck has become an artificial reef, and the life that surrounds it, big and small, is ripe for research.</p>
+<p>Just as humans have their own microbiomes, which are different for everyone, <a href="https://www.sciencefriday.com/segments/shipwreck-microbiome/" target="_blank">shipwrecks have microbiomes, too</a>. Scientists study them to better understand what’s living on these sunken ships, and how to preserve them for future generations.</p>
+<p>While the vessel is not a natural part of the Sound, its role as an artificial reef makes it an important part of the ecosystem. By better understanding its microbes, <a href="https://www.sciencefriday.com/segments/shipwreck-microbiome/" target="_blank">scientists hope to help preserve this non-renewable cultural artifact</a>.</p>
+<p>Joining Ira to talk about the marvelous microbes on the Pappy’s Lane Shipwreck is Erin Field, assistant professor of biology at East Carolina University in Greenville, North Carolina. </p>
 </div>
           <div class="c-audio-widget">
-            <a href="https://www.podtrac.com/pts/redirect.mp3/audio.wnyc.org/science-friday/science-friday090420a.mp3?context=science-friday" class="c-play__button" title="Urban Forests And Climate Change, HIV Treatment Progress. September 4, 2020, Part 1
-" data-duration="2867" data-ga-category="Article" data-ga-action="Play" data-ga-label="Player">
+            <a href="https://www.podtrac.com/pts/redirect.mp3/audio.wnyc.org/science-friday/science-friday101620a.mp3?context=science-friday" class="c-play__button" title="The Black Hole At The Center Of The Galaxy, Shipwreck Microbes. Oct 16, 2020, Part 1
+" data-duration="2981" data-ga-category="Article" data-ga-action="Play" data-ga-label="Player">
               <span class="o-featured-episode__segment-audio">
-                <img class="o-featured-episode__segment-icon" src="../assets/o-audio-bar/Miniplayer-Play@2x-9eb026b3cb47b37babd5eb9f620efedf.png.html" alt="Miniplayer play@2x" />
-                47 MIN 47 SEC
+                <img class="o-featured-episode__segment-icon" src="/assets/o-audio-bar/Miniplayer-Play@2x-9eb026b3cb47b37babd5eb9f620efedf.png" alt="Miniplayer play@2x" />
+                49 MIN 41 SEC
               </span>
             </a>
           </div>
@@ -814,30 +785,33 @@
     </div>
     <div class="o-featured-episode__segment">
       <div class="o-featured-episode__segment-description">
-        <h3 class="o-featured-episode__segment-title"><a href="/programs/science-friday/2020/08/28/81752/">Milky Way Gas, COVID Ventilation, Immunotherapy And The Microbiome. August 28, 2020, Part 2
+        <h3 class="o-featured-episode__segment-title"><a href="/programs/science-friday/2020/10/09/82672/">Science News, Nobel Roundup, Book Club. Oct 9, 2020, Part 1
 </a></h3>
-        <time class="o-story-list__item-timestamp">Fri August 28</time>
-        <div class="o-featured-episode__segment-teaser"><p>Recently, a group of scientists studying the Milky Way through the world’s largest ground-based radio telescope identified something they had never seen—<a href="https://www.sciencefriday.com/segments/milky-way-gas/" target="_blank">a cold, dense gas that had been ejected at high speed from the galaxy’s center</a>.</p>
-<p>The mystery of this gas—what caused it, how it could move so fast, and where it will end up—prompted research by Enrico Di Teodoro, a scientist in the department of astrophysics at Johns Hopkins University. He joined Science Friday producer Katie Feather to talk about the new discovery, as well as answer some fundamental questions about what is happening at the center of our galaxy.</p>
-<hr>
-<p>Plus, this year, back-to-school season comes with some major challenges to keeping students and teachers safe. Recently, New York City Mayor Bill DeBlasio announced a plan to give K-12 classes the option to move outdoors; the idea is that an open space, with a fresh breeze, lessens the chance of spreading the coronavirus.</p>
-<p>We’ve been brain-storming, too: <a href="https://www.sciencefriday.com/segments/air-vents-coronavirus/" target="_blank">What if you could bring the benefits of the outdoors inside, by creating better ventilation in the classrooms, akin to outside winds? What would it take to re-design or modify a typical classroom—not to mention your office building or home?</a></p>
-<p>Most modern buildings ventilate space with 80% recycled indoor air, and 20% of fresh outdoor air, to save on energy costs. But Shelly Miller, professor of mechanical engineering at University of Colorado, Boulder says, “In a pandemic, we don’t care about energy efficiency.” Miller explains that to lower the risk of infection, ideally indoor spaces would be ventilated with 100% outdoor air—but most building HVAC systems aren’t strong enough to handle that.</p>
-<p>Miller joins Jose-Luis Jimenez, professor in the department of chemistry and biochemistry at University of Colorado, Boulder to discuss what we know about the coronavirus, and our indoor air space and how we could build safer, healthier indoor spaces for the future.</p>
-<hr>
-<p>And cancer immunotherapy, especially a type known as checkpoint inhibitors, has given new hope to many people with cancer. The treatment takes the brakes off the body’s own immune system, allowing it to attack tumor cells. But some people respond to the therapy, while others don’t—and it’s not entirely clear why.</p>
-<p>In recent years, researchers have been looking into the microbiome—the collection of microorganisms that live in and on your body—for clues. Studies have found that there’s a microbial difference between people who respond to immunotherapy, and those who don’t. Research recently published in the academic journal Science, suggests scientists may have finally unraveled how one of those bacteria has an effect.</p>
-<p>The researchers discovered that <em>Bifidobacterium pseudolongum</em>, a species of bacteria found in elevated levels in the tumors of mice who responded well to immunotherapy, produces a small molecule called inosine—and that under the right conditions, <a href="https://www.sciencefriday.com/segments/bacteria-immunotherapy/" target="_blank">inosine can help to turn on the immune T cells needed to attack a cancerous tumor</a>.</p>
-<p>Kathy McCoy, one of the authors of the study, and the director of the IMC Germ-Free Program at the University of Calgary, joins Ira to talk about the study, and the challenges of raising mice without any microbiome at all.</p>
+        <time class="o-story-list__item-timestamp">Fri October 09</time>
+        <div class="o-featured-episode__segment-teaser"><h2><span>What Is The Status Of President Trump’s COVID-19 Case?</span></h2>
+<p><span>Late last week, President Trump announced that he had tested positive for COVID-19 and was admitted to Walter Reed National Military Medical Center. </span></p>
+<p><span>This Tuesday, he left the hospital and returned to the White House. And <a href="https://www.sciencefriday.com/segments/trump-covid-19-status/" target="_blank">many questions still remain</a>. Reporter Umair Irfan discusses the status of President Trump’s health, the experimental treatments he received and who else in the White House and in Congress may have been infected. </span></p>
+<h2 class="entry-title">Talking About Black Holes And CRISPR With 2020 Nobel Prize Winners</h2>
+<p>This week, a few researchers around the world received that legendary early-morning wake up call from Sweden, <a href="https://www.sciencefriday.com/segments/2020-nobel-prize-winners/" target="_blank">bearing word of the 2020 Nobel Prizes</a>. This week, the prize in Medicine or Physiology went jointly to Harvey J. Alter, Michael Houghton, and Charles M. Rice “for the discovery of the Hepatitis C virus.”</p>
+<p>In Chemistry, Emmanuelle Charpentier of the Max Planck Institute and Jennifer Doudna of the University of California at Berkeley won the prize for their work on the technique known as CRISPR. In 2017, Doudna described the technique on Science Friday.</p>
+<p>In Physics, the award was split among different types of black hole research. One half went to mathematician Richard Penrose, “for the discovery that black hole formation is a robust prediction of the general theory of relativity.” He described his work with physicist Stephen Hawking in a 2015 Science Friday interview.</p>
+<p>The other half of the physics prize was split between Reinhard Genzel and Andrea Ghez for the discovery of one such supermassive black hole—”a supermassive compact object at the centre of our galaxy.”</p>
+<h2 class="entry-title">Doomscrolling? Here’s Non-COVID Science News You Might Have Missed</h2>
 <p> </p>
+<p>Among all the COVID-19 news of the past week, other stories have gotten less attention than they deserve—including a discussion of climate issues at the presidential debate a week ago. The 12 minutes the candidates spent on climate change and the policy surrounding it marks the first substantive discussion of climate at a presidential debate in years.</p>
+<p>Science journalist Annalee Newitz joins Ira to <a href="https://www.sciencefriday.com/segments/non-covid-science-news/" target="_blank">unpack the climate discussion, and other science news</a>—including a gruesome ancient punishment, and research into the savviness of crows.</p>
 <p> </p>
+<h2 class="entry-title">The Science Friday Book Club: Technology, Magic, And Afrofuturism </h2>
+<p><span>The <a href="https://www.sciencefriday.com/segments/book-club-afrofuturism/" target="_blank">Science Friday Book Club continues this week</a>, this time reading another short story from the speculative fiction collection<span> </span></span><em><a href="https://www.powells.com/book/new-suns-9781781085783" target="_blank" rel="noopener"><span>New Suns</span></a></em><span>. African-American author<span> </span></span><span>Andrea Hairston</span><span>’s story ‘Dumb House,’ is about a woman named Cinnamon who finds herself pestered by a pair of traveling salesmen, who hope to persuade her to upgrade her house into something smarter.</span></p>
+<p><span>This week, we talk about ‘Dumb House,’ plus its place in<span> </span></span><span>Afrofuturism</span><span>—culture and storytelling that<span> </span>imagines futures<span> </span>with African-descended people and culture at the forefront. </span></p>
+<p>SciFri producer Christie Taylor, <em>Journal of Science Fiction</em> managing editor Aisha Matthews, and speculative fiction author K. Tempest Bradford discuss trust and community in ‘Dumb House,’ the relationship between technology and magic, and other elements that contribute to the story’s Afrofuturist theme.</p>
 </div>
           <div class="c-audio-widget">
-            <a href="https://www.podtrac.com/pts/redirect.mp3/audio.wnyc.org/science-friday/science-friday082820b.mp3?context=science-friday" class="c-play__button" title="Milky Way Gas, COVID Ventilation, Immunotherapy And The Microbiome. August 28, 2020, Part 2
-" data-duration="2893" data-ga-category="Article" data-ga-action="Play" data-ga-label="Player">
+            <a href="https://www.podtrac.com/pts/redirect.mp3/audio.wnyc.org/science-friday/science-friday100920a.mp3?context=science-friday" class="c-play__button" title="Science News, Nobel Roundup, Book Club. Oct 9, 2020, Part 1
+" data-duration="2993" data-ga-category="Article" data-ga-action="Play" data-ga-label="Player">
               <span class="o-featured-episode__segment-audio">
-                <img class="o-featured-episode__segment-icon" src="../assets/o-audio-bar/Miniplayer-Play@2x-9eb026b3cb47b37babd5eb9f620efedf.png.html" alt="Miniplayer play@2x" />
-                48 MIN 13 SEC
+                <img class="o-featured-episode__segment-icon" src="/assets/o-audio-bar/Miniplayer-Play@2x-9eb026b3cb47b37babd5eb9f620efedf.png" alt="Miniplayer play@2x" />
+                49 MIN 53 SEC
               </span>
             </a>
           </div>
@@ -845,27 +819,55 @@
     </div>
     <div class="o-featured-episode__segment">
       <div class="o-featured-episode__segment-description">
-        <h3 class="o-featured-episode__segment-title"><a href="/programs/science-friday/2020/08/28/81744/">Coronavirus Immunity, Ask A Cephalopod Scientist. August 28, 2020, Part 1
+        <h3 class="o-featured-episode__segment-title"><a href="/programs/science-friday/2020/10/09/82682/">Solar System Smackdown: Mars v. Venus, Mussel Mystery. Oct 9, 2020, Part 2
 </a></h3>
-        <time class="o-story-list__item-timestamp">Fri August 28</time>
-        <div class="o-featured-episode__segment-teaser"><p>How well you fare in fighting a new pathogen like SARS-CoV2 depends in large part on how your immune system responds to—and kills—the virus. The immune system’s job is to protect you from invasions, both right after you’re infected as well as when you encounter similar viruses in the future.</p>
-<p>As the pandemic marches on, we still don’t know exactly how our immune systems tackle this virus. The people who get the sickest seem to have an exaggerated, but ineffective immune response that turns on their own bodies. Others have lasting symptoms, sometimes for months. Immune responses even seem to vary based on your sex.</p>
-<p>Increasingly, <a href="https://www.sciencefriday.com/segments/coronavirus-immune-system/" target="_blank">research suggests that COVID-19 is a disease like many others</a>, at least in some important ways. Your body remembers the virus, and may therefore fight it more effectively the next time you encounter it—which has big implications for eventually developing an effective vaccine.</p>
-<p>Immunobiologist Deepta Bhattacharya and New York Times science journalist Katherine J. Wu talk to Ira about the complicated and varied response of the immune system to SARS-CoV2—and why current research suggests we can be optimistic about gaining long-lasting immunity from future COVID-19 vaccines.</p>
-<hr>
-<p>Plus, cephalopods—mollusks like octopus, squid, and cuttlefish—seem to universally excite people. Many marine enthusiasts have a favorite, from the color-changing octopus to the multi chambered nautilus.</p>
-<p>But these smart, colorful undersea creatures also raise a lot of questions. How do they move? How do they change shape and color? How intelligent are they? How do researchers study these animals?</p>
-<p><a href="https://www.sciencefriday.com/segments/ask-a-cephalopod-scientist/" target="_blank">Squid biologist Sarah McAnulty answers listeners’ questions, and catches us up on the latest cephalopod news</a>. </p>
-<hr>
-<p>And Hurricane Laura made landfall Wednesday night in Louisiana after strengthening from a Category 1 to a Category 4 storm in less than a day. As residents try to find shelter in pandemic-safe ways, meteorologists are warning of an “unsurvivable” storm surge reaching as far as 30 miles inland.</p>
-<p>National Geographic editor Nsikan Akpan describes <a href="https://www.sciencefriday.com/segments/news-roundup-nsikan-akpan/" target="_blank">the factors that have caused the storm to so quickly gain strength</a>. Plus, why recent changes to the Centers for Disease Control and Prevention recommendations on who should get a coronavirus test and when people should quarantine are alarming epidemiologists and other experts—and other news from the week. </p>
+        <time class="o-story-list__item-timestamp">Fri October 09</time>
+        <div class="o-featured-episode__segment-teaser"><h2 class="entry-title">Solar System Smackdown: Mars Vs. Venus</h2>
+<p>One of the fiercest hunts in the solar system is the scientific search for signs of extraterrestrial life—whether that’s in a methane ocean on Titan, under the icy crusts of Europa or Enceladus, in newly discovered subsurface salty lakes of Mars or, in the case of hypothetical long-dead fossils, in the rocks of ancient Martian river deltas.</p>
+<p>But just as the next Mars rover—equipped with life-sensing instruments of all kinds—is barreling toward the Red Planet for a February landing, comes news from another planet. A research team writing in Nature in September say they’ve found high concentrations of phosphine in the atmosphere of Venus. That much phosphine is not known to exist without help from bacteria—and researchers dating all the way back to Carl Sagan have suggested that the thick, acidic clouds of Venus would be a plausible place to harbor microscopic, extreme-loving life.</p>
+<p>Is this a good reason to send more missions to Venus? Or is Mars still the best candidate for investment of finite resources? Science Friday producers Katie Feather and Christie Taylor host this completely made-up argument about <a href="https://www.sciencefriday.com/segments/mars-versus-venus/" target="_blank">which planet is the best bet for finding life</a>, with help from genetics and astrobiology researcher Jaime Cordova, and planetary scientist Briony Horgan.</p>
+<h2 class="entry-title">A Breakthrough In A Mollusk Mystery</h2>
+<p><span><a href="https://www.sciencefriday.com/segments/mussel-mystery/" target="_blank">Freshwater mussels in the United States are having a bad time</a>. It’s estimated that 70 percent of freshwater mussel species in North America are extinct or imperiled—a shocking number. </span></p>
+<p><span>There’s a good chance you haven’t heard about this. Mussels aren’t the most engaging creatures, and they don’t pull at the heartstrings like easy anthropomorphised mammals. These mussels also aren’t the ones that wind up on a restaurant’s seafood platter. But mussels play an extremely important role in aquatic ecosystems, so scientists are doing their best to figure out what’s going on with their drastically declining populations. </span></p>
+<p><span>Scientists recently discovered 17 viruses present in mussels in the Clinch River, a waterway in Tennessee and Virginia, where about 80,000 mussels have died since 2016. This is a huge breakthrough in a mystery that has plagued researchers for years—though it may just be one piece of evidence for a multi-dimensional decline.</span></p>
+<p><span>Joining Ira to talk about mussels in trouble are Jordan Richard, a fish and wildlife biologist for the U.S. Fish and Wildlife Service in Madison, Wisconsin, and Eric Leis, a parasitologist and fish biologist at the La Crosse Fish Health Center in La Crosse, Wisconsin.</span></p>
 </div>
           <div class="c-audio-widget">
-            <a href="https://www.podtrac.com/pts/redirect.mp3/audio.wnyc.org/science-friday/science-friday082820a.mp3?context=science-friday" class="c-play__button" title="Coronavirus Immunity, Ask A Cephalopod Scientist. August 28, 2020, Part 1
-" data-duration="2952" data-ga-category="Article" data-ga-action="Play" data-ga-label="Player">
+            <a href="https://www.podtrac.com/pts/redirect.mp3/audio.wnyc.org/science-friday/science-friday100920b.mp3?context=science-friday" class="c-play__button" title="Solar System Smackdown: Mars v. Venus, Mussel Mystery. Oct 9, 2020, Part 2
+" data-duration="2996" data-ga-category="Article" data-ga-action="Play" data-ga-label="Player">
               <span class="o-featured-episode__segment-audio">
-                <img class="o-featured-episode__segment-icon" src="../assets/o-audio-bar/Miniplayer-Play@2x-9eb026b3cb47b37babd5eb9f620efedf.png.html" alt="Miniplayer play@2x" />
-                49 MIN 12 SEC
+                <img class="o-featured-episode__segment-icon" src="/assets/o-audio-bar/Miniplayer-Play@2x-9eb026b3cb47b37babd5eb9f620efedf.png" alt="Miniplayer play@2x" />
+                49 MIN 56 SEC
+              </span>
+            </a>
+          </div>
+      </div>
+    </div>
+    <div class="o-featured-episode__segment">
+      <div class="o-featured-episode__segment-description">
+        <h3 class="o-featured-episode__segment-title"><a href="/programs/science-friday/2020/10/02/82527/"> Antarctic Ice, Itching, Ancient Birds. Oct. 2, 2020, Part 2
+</a></h3>
+        <time class="o-story-list__item-timestamp">Fri October 02</time>
+        <div class="o-featured-episode__segment-teaser"><h2 class="entry-title">New Study Shows No Second Chance For Antarctic Ice Shelves</h2>
+<p><span>From the heat waves and wildfires in the western U.S. to the active hurricane season in the Gulf, the climate crisis is intensifying. Sea ice is melting in the Arctic, and the ice sheets covering Antarctica are shrinking. </span></p>
+<p><span>Now, researchers have<span> </span></span><a href="https://www.nature.com/articles/s41586-020-2727-5" target="_blank" rel="noopener"><span>released the results of a study</span></a><span><span> </span>using satellite data, radar readings, and a massive computer simulation looking at the effects of gravity on ice in Antarctica. Their projections aren’t hopeful. Once Antarctic glaciers melt, the scientists found, they don’t re-freeze the same way, even if temperatures drop again. </span></p>
+<p><span>That spells bad news for sea level rise. Even if the world manages to hold to the 2 degrees Celsius rise targeted in the Paris climate agreements, the study predicts enough ice will likely to melt to cause roughly five meters of sea level rise—leading to flooding in cities from New York to Shanghai to London to Calcutta. </span></p>
+<p><span>Anders Levermann, a professor of the dynamics of the climate system at the Potsdam Institute for Climate Impact Research in Germany joins Ira to talk about the team’s ice melt predictions, and the need for fundamental changes in society to forestall even <a href="https://www.sciencefriday.com/segments/antarctic-ice-shelves/" target="_blank">more catastrophic climate results</a>.</span></p>
+<h2 class="entry-title">Ask An Expert: Why Do We Itch?</h2>
+<p><span>The pandemic has us feeling a lot of things: anxious, stressed, tired. But what about itchy? </span></p>
+<p><span>Have you ever had a hard time not scratching or rubbing your face in public? Or had an unreachable itch beneath a mask? This week on<span> </span></span><span>Science Friday,</span><span><span> </span>we ask an expert: why do we itch? And is there any relief to be found in understanding the neuroscience behind why we scratch? </span></p>
+<p><span><a href="https://www.sciencefriday.com/segments/itch-neuroscience/" target="_blank">Ira asks these questions and more</a> to Diana Bautista, professor of molecular and cellular biology at the University of California Berkeley. They were joined by a live Zoom audience, who were also itching to ask their own questions.</span></p>
+<h2 class="entry-title">Digging For Answers To Avians’ Ancestors</h2>
+<p><span>One of the biggest questions in paleontology is figuring out how dinosaurs transitioned into the modern birds we see today—and all of the intermediate steps involved in that process. </span></p>
+<p><span>China is becoming one of the latest hotspots for unearthing fossils of these prehistoric birds and bird-like dinosaurs. Paleontologist Jiangmai O’Connor is featured in our second season of ‘<a href="https://www.sciencefriday.com/segments/avian-fossils/" target="_blank">Breakthrough: Portraits of Women in Science</a>,’ a video series profiling scientists and how their lives and work intersect. Here, she discusses her work in China, where she’s spent ten years trying to uncover clues about the diversity of ancient birds by examining their bones and preserved soft tissues, like lungs and ovaries. </span></p>
+<p> </p>
+</div>
+          <div class="c-audio-widget">
+            <a href="https://www.podtrac.com/pts/redirect.mp3/audio.wnyc.org/science-friday/science-friday100220b.mp3?context=science-friday" class="c-play__button" title=" Antarctic Ice, Itching, Ancient Birds. Oct. 2, 2020, Part 2
+" data-duration="3082" data-ga-category="Article" data-ga-action="Play" data-ga-label="Player">
+              <span class="o-featured-episode__segment-audio">
+                <img class="o-featured-episode__segment-icon" src="/assets/o-audio-bar/Miniplayer-Play@2x-9eb026b3cb47b37babd5eb9f620efedf.png" alt="Miniplayer play@2x" />
+                51 MIN 22 SEC
               </span>
             </a>
           </div>
@@ -875,21 +877,21 @@
 
   <nav class="pagination">
     <span class="first">
-  <a href="science-friday.html">&laquo; First</a>
+  <a href="/programs/science-friday">&laquo; First</a>
 </span>
 
     <span class="prev">
-  <a rel="prev" href="science-friday%3Fpage=15.html">&lsaquo; Prev</a>
+  <a rel="prev" href="/programs/science-friday?page=15">&lsaquo; Prev</a>
 </span>
 
         <span class="page gap">&hellip;</span>
 
         <span class="page">
-  <a href="science-friday%3Fpage=14.html">14</a>
+  <a href="/programs/science-friday?page=14">14</a>
 </span>
 
         <span class="page">
-  <a rel="prev" href="science-friday%3Fpage=15.html">15</a>
+  <a rel="prev" href="/programs/science-friday?page=15">15</a>
 </span>
 
         <span class="page current">
@@ -897,21 +899,21 @@
 </span>
 
         <span class="page">
-  <a rel="next" href="science-friday%3Fpage=17.html">17</a>
+  <a rel="next" href="/programs/science-friday?page=17">17</a>
 </span>
 
         <span class="page">
-  <a href="science-friday%3Fpage=18.html">18</a>
+  <a href="/programs/science-friday?page=18">18</a>
 </span>
 
         <span class="page gap">&hellip;</span>
 
     <span class="next">
-  <a rel="next" href="science-friday%3Fpage=17.html">Next &rsaquo;</a>
+  <a rel="next" href="/programs/science-friday?page=17">Next &rsaquo;</a>
 </span>
 
     <span class="last">
-  <a href="/programs/science-friday?page=149">Last &raquo;</a>
+  <a href="/programs/science-friday?page=151">Last &raquo;</a>
 </span>
 
   </nav>
@@ -923,7 +925,7 @@
 
       <a href="/programs/airtalk/">
         <figure class="o-featured-programs__program-figure o-figure o-figure--widescreen">
-          <img class="o-figure__img" src="../assets/programs/airtalk-4412b6c8664a6b9b729a358b4bd76379.jpg.html" style="background-image: url(../assets/programs/airtalk-4412b6c8664a6b9b729a358b4bd76379.jpg.html);">
+          <img class="o-figure__img" src="/assets/programs/airtalk-4412b6c8664a6b9b729a358b4bd76379.jpg" style="background-image: url(/assets/programs/airtalk-4412b6c8664a6b9b729a358b4bd76379.jpg);">
         </figure>
       </a>
 
@@ -949,7 +951,7 @@
 
       <a href="/programs/filmweek/">
         <figure class="o-featured-programs__program-figure o-figure o-figure--widescreen">
-          <img class="o-figure__img" src="../assets/programs/filmweek-7f098addfc273da97d493045e8635352.jpg.html" style="background-image: url(../assets/programs/filmweek-7f098addfc273da97d493045e8635352.jpg.html);">
+          <img class="o-figure__img" src="/assets/programs/filmweek-7f098addfc273da97d493045e8635352.jpg" style="background-image: url(/assets/programs/filmweek-7f098addfc273da97d493045e8635352.jpg);">
         </figure>
       </a>
 
@@ -978,47 +980,47 @@
   <h4 class="o-popular-stories__heading b-heading b-heading--h4 b-heading--uppercase u-text-color--gray-warm b-heading--medium">What's popular now on KPCC</h4>
     <div class="o-popular-stories__story track-event">
       <figure class="o-popular-stories__figure o-figure o-figure--four-by-three">
-        <a data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="Popular Now Quadrant" href="/news/2021/07/20/98532/toyota-and-other-big-olympics-sponsors-are-downpla/">
-        <img class="o-figure__img" src="https://a.scpr.org/i/f151c7fab7f131556361318ce6f4f6f6/234312-full.jpg" style="background-image: url(https://a.scpr.org/i/f151c7fab7f131556361318ce6f4f6f6/234312-full.jpg)" />
+        <a data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="Popular Now Quadrant" href="/news/2021/08/27/99009/peloton-says-it-s-been-subpoenaed-by-doj-and-dhs-o/">
+        <img class="o-figure__img" src="https://a.scpr.org/i/d116dd563eb2b33c35b08772770cc978/234804-full.jpg" style="background-image: url(https://a.scpr.org/i/d116dd563eb2b33c35b08772770cc978/234804-full.jpg)" />
 </a>        <figcaption class="o-popular-stories__caption">
-          <a data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="Popular Now Quadrant" href="/news/2021/07/20/98532/toyota-and-other-big-olympics-sponsors-are-downpla/">
-          Toyota And Other Big Olympics Sponsors Are Downplaying Their Ties To The Games 
+          <a data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="Popular Now Quadrant" href="/news/2021/08/27/99009/peloton-says-it-s-been-subpoenaed-by-doj-and-dhs-o/">
+          Peloton Says It's Been Subpoenaed By DOJ And DHS Over Its Product Injury Reporting
 </a>        </figcaption>
       </figure>
     </div>
     <div class="o-popular-stories__story track-event">
       <figure class="o-popular-stories__figure o-figure o-figure--four-by-three">
-        <a data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="Popular Now Quadrant" href="/news/2021/07/20/98531/americans-will-soon-be-able-to-go-to-their-2nd-mos/">
-        <img class="o-figure__img" src="https://a.scpr.org/i/e327d5c28487feda42a0a1680f8c8fd6/234311-full.jpg" style="background-image: url(https://a.scpr.org/i/e327d5c28487feda42a0a1680f8c8fd6/234311-full.jpg)" />
+        <a data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="Popular Now Quadrant" href="/news/2021/08/27/99008/the-u-s-has-set-up-a-mass-vaccination-site-for-afg/">
+        <img class="o-figure__img" src="https://a.scpr.org/i/3eb3e541688e115debdec435d4172dd6/234803-full.jpg" style="background-image: url(https://a.scpr.org/i/3eb3e541688e115debdec435d4172dd6/234803-full.jpg)" />
 </a>        <figcaption class="o-popular-stories__caption">
-          <a data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="Popular Now Quadrant" href="/news/2021/07/20/98531/americans-will-soon-be-able-to-go-to-their-2nd-mos/">
-          Americans Will Soon Be Able To Go To Their 2nd Most Popular Travel Destination
+          <a data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="Popular Now Quadrant" href="/news/2021/08/27/99008/the-u-s-has-set-up-a-mass-vaccination-site-for-afg/">
+          The U.S. Has Set Up A Mass Vaccination Site For Afghans Arriving In Virginia
 </a>        </figcaption>
       </figure>
     </div>
     <div class="o-popular-stories__story track-event">
       <figure class="o-popular-stories__figure o-figure o-figure--four-by-three">
-        <a data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="Popular Now Quadrant" href="/news/2021/07/20/98530/tokyo-olympics-ceo-doesn-t-dismiss-the-idea-that-g/">
-        <img class="o-figure__img" src="../assets/meta/facebook-73514b02830df167eb8bfbe15710b5cb.jpg.html" style="background-image: url(../assets/meta/facebook-73514b02830df167eb8bfbe15710b5cb.jpg.html)" />
+        <a data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="Popular Now Quadrant" href="/news/2021/08/27/99007/greenhouse-gas-levels-are-the-highest-ever-seen-an/">
+        <img class="o-figure__img" src="https://a.scpr.org/i/281c84db9a64d3e9cba7721d02ebce5e/234802-full.jpg" style="background-image: url(https://a.scpr.org/i/281c84db9a64d3e9cba7721d02ebce5e/234802-full.jpg)" />
 </a>        <figcaption class="o-popular-stories__caption">
-          <a data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="Popular Now Quadrant" href="/news/2021/07/20/98530/tokyo-olympics-ceo-doesn-t-dismiss-the-idea-that-g/">
-          Tokyo Olympics CEO Doesn't Dismiss The Idea That Games Could Still Be Called Off
+          <a data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="Popular Now Quadrant" href="/news/2021/08/27/99007/greenhouse-gas-levels-are-the-highest-ever-seen-an/">
+          Greenhouse Gas Levels Are The Highest Ever Seen — And That's Going Back 800,000 Years
 </a>        </figcaption>
       </figure>
     </div>
     <div class="o-popular-stories__story track-event">
       <figure class="o-popular-stories__figure o-figure o-figure--four-by-three">
-        <a data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="Popular Now Quadrant" href="/news/2021/07/20/98529/the-white-house-blamed-china-for-hacking-microsoft/">
-        <img class="o-figure__img" src="../assets/meta/facebook-73514b02830df167eb8bfbe15710b5cb.jpg.html" style="background-image: url(../assets/meta/facebook-73514b02830df167eb8bfbe15710b5cb.jpg.html)" />
+        <a data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="Popular Now Quadrant" href="/news/2021/08/27/99006/afghanistan-death-toll-climbs-as-pentagon-clarifie/">
+        <img class="o-figure__img" src="https://a.scpr.org/i/170de8f0dad360203c913118c631fdfc/234801-full.jpg" style="background-image: url(https://a.scpr.org/i/170de8f0dad360203c913118c631fdfc/234801-full.jpg)" />
 </a>        <figcaption class="o-popular-stories__caption">
-          <a data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="Popular Now Quadrant" href="/news/2021/07/20/98529/the-white-house-blamed-china-for-hacking-microsoft/">
-          The White House Blamed China For Hacking Microsoft. China Is Pointing Fingers Back
+          <a data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="Popular Now Quadrant" href="/news/2021/08/27/99006/afghanistan-death-toll-climbs-as-pentagon-clarifie/">
+          Afghanistan Death Toll Climbs As Pentagon Clarifies 1 Bomber Was Involved In Attack
 </a>        </figcaption>
       </figure>
     </div>
 </section>
 <aside class="o-epilogue " style="order: 1001">
-  <img class="o-epilogue__graphic" src="../assets/graphic_epilogue-donate-da43de6f4b535f18d15ac128cd10b27d.svg.html">
+  <img class="o-epilogue__graphic" src="/assets/graphic_epilogue-donate-da43de6f4b535f18d15ac128cd10b27d.svg">
   <div class="o-epilogue__text">
     <h1 class="o-epilogue__heading"><a href="https://support.kpcc.org/default?ms=subfooter">KPCC's  coverage is a Southern California resource provided by member-supported public radio. We can't do it without you.</a></h1>
     <a class="o-epilogue-callout b-link b-link--callout" href="https://support.kpcc.org/default?ms=subfooter">Your contributions power KPCC.  Give today.</a>
@@ -1062,7 +1064,7 @@
       <ul class="c-list--horiz b-text">
         <li><a class="b-link b-link--white-dark-bg" href="/programs/take-two">Take Two</a></li>
         <li><a class="b-link b-link--white-dark-bg" href="/programs/airtalk">AirTalk</a></li>
-        <li><a class="b-link b-link--white-dark-bg" href="offramp.1.html">Off-Ramp</a></li>
+        <li><a class="b-link b-link--white-dark-bg" href="/programs/offramp">Off-Ramp</a></li>
         <li><a class="b-link b-link--white-dark-bg" href="/programs/the-frame">The Frame</a></li>
         <li><a class="b-link b-link--white-dark-bg" href="/schedule">Program Schedule</a></li>
         <li><a class="b-link b-link--white-dark-bg" href="/programs">Programs A-Z</a></li>
@@ -1178,7 +1180,7 @@
         </div>
       </div>
       <div class="o-audio-bar__buttons">
-          <a class="o-audio-bar__download" href="science-friday%3Fpage=16.html#" download>
+          <a class="o-audio-bar__download" href="#" download>
             <svg class="b-icon o-audio-bar__download-icon" data-ga-category="Article" data-ga-action="Volume" data-ga-label="Player">
               <use class="" xlink:href="/static/images/scpr-sprite.svg#icon_line-download"/>
               Download
@@ -1311,7 +1313,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                         };
 </script>
   <noscript>
-    <img src="https://pixel.quantserve.com/pixel/p-_ZNT1e57PQPC3.gif?labels=_fp.event.Default" style="display: none;" border="0" height="1" width="1" alt="Quantcast"/>
+    <img src="//pixel.quantserve.com/pixel/p-_ZNT1e57PQPC3.gif?labels=_fp.event.Default" style="display: none;" border="0" height="1" width="1" alt="Quantcast"/>
   </noscript>
 <!-- End Quantcast Tag -->
 
@@ -1340,6 +1342,6 @@ $(function() {
 </html>
 
 
-    <script src="../assets/better_homepage/style-guide-595f2dc3b18234ed913ffd5b40175ebc.js" async="async"></script>
+    <script src="/assets/better_homepage/style-guide-595f2dc3b18234ed913ffd5b40175ebc.js" async="async"></script>
   </body>
 </html>

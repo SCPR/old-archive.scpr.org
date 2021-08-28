@@ -28,7 +28,7 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="black" />
 <meta name="format-detection" content="telephone=no" />
 <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
-<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam-cell.nr-data.net","errorBeacon":"bam-cell.nr-data.net","licenseKey":"3a7254ec4f","applicationID":"446356","transactionName":"JV4MRkQMDVRTRUlIRQlWEFNbEE5LXlgR","queueTime":0,"applicationTime":807,"agent":""}</script>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam-cell.nr-data.net","errorBeacon":"bam-cell.nr-data.net","licenseKey":"3a7254ec4f","applicationID":"446356","transactionName":"JV4MRkQMDVRTRUlIRQlWEFNbEE5LXlgR","queueTime":0,"applicationTime":3068,"agent":""}</script>
 <script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"UwcDWFBADAcGV1RU",licenseKey:"3a7254ec4f",applicationID:"446356"};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var i=e[n]={exports:{}};t[n][0].call(i.exports,function(e){var i=t[n][1][e];return r(i||e)},i,i.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var i=0;i<n.length;i++)r(n[i]);return r}({1:[function(t,e,n){function r(t){try{s.console&&console.log(t)}catch(e){}}var i,o=t("ee"),a=t(22),s={};try{i=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(s.console=!0,i.indexOf("dev")!==-1&&(s.dev=!0),i.indexOf("nr_dev")!==-1&&(s.nrDev=!0))}catch(c){}s.nrDev&&o.on("internal-error",function(t){r(t.stack)}),s.dev&&o.on("fn-err",function(t,e,n){r(n.stack)}),s.dev&&(r("NR AGENT IN DEVELOPMENT MODE"),r("flags: "+a(s,function(t,e){return t}).join(", ")))},{}],2:[function(t,e,n){function r(t,e,n,r,s){try{p?p-=1:i(s||new UncaughtException(t,e,n),!0)}catch(f){try{o("ierr",[f,c.now(),!0])}catch(d){}}return"function"==typeof u&&u.apply(this,a(arguments))}function UncaughtException(t,e,n){this.message=t||"Uncaught error with no additional information",this.sourceURL=e,this.line=n}function i(t,e){var n=e?null:c.now();o("err",[t,n])}var o=t("handle"),a=t(23),s=t("ee"),c=t("loader"),f=t("gos"),u=window.onerror,d=!1,l="nr@seenError";if(!c.disabled){var p=0;c.features.err=!0,t(1),window.onerror=r;try{throw new Error}catch(h){"stack"in h&&(t(6),t(5),"addEventListener"in window&&t(3),c.xhrWrappable&&t(7),d=!0)}s.on("fn-start",function(t,e,n){d&&(p+=1)}),s.on("fn-err",function(t,e,n){d&&!n[l]&&(f(n,l,function(){return!0}),this.thrown=!0,i(n))}),s.on("fn-end",function(){d&&!this.thrown&&p>0&&(p-=1)}),s.on("internal-error",function(t){o("ierr",[t,c.now(),!0])})}},{}],3:[function(t,e,n){function r(t){for(var e=t;e&&!e.hasOwnProperty(u);)e=Object.getPrototypeOf(e);e&&i(e)}function i(t){s.inPlace(t,[u,d],"-",o)}function o(t,e){return t[1]}var a=t("ee").get("events"),s=t("wrap-function")(a,!0),c=t("gos"),f=XMLHttpRequest,u="addEventListener",d="removeEventListener";e.exports=a,"getPrototypeOf"in Object?(r(document),r(window),r(f.prototype)):f.prototype.hasOwnProperty(u)&&(i(window),i(f.prototype)),a.on(u+"-start",function(t,e){var n=t[1],r=c(n,"nr@wrapped",function(){function t(){if("function"==typeof n.handleEvent)return n.handleEvent.apply(n,arguments)}var e={object:t,"function":n}[typeof n];return e?s(e,"fn-",null,e.name||"anonymous"):n});this.wrapped=t[1]=r}),a.on(d+"-start",function(t){t[1]=this.wrapped||t[1]})},{}],4:[function(t,e,n){function r(t,e,n){var r=t[e];"function"==typeof r&&(t[e]=function(){var t=o(arguments),e={};i.emit(n+"before-start",[t],e);var a;e[m]&&e[m].dt&&(a=e[m].dt);var s=r.apply(this,t);return i.emit(n+"start",[t,a],s),s.then(function(t){return i.emit(n+"end",[null,t],s),t},function(t){throw i.emit(n+"end",[t],s),t})})}var i=t("ee").get("fetch"),o=t(23),a=t(22);e.exports=i;var s=window,c="fetch-",f=c+"body-",u=["arrayBuffer","blob","json","text","formData"],d=s.Request,l=s.Response,p=s.fetch,h="prototype",m="nr@context";d&&l&&p&&(a(u,function(t,e){r(d[h],e,f),r(l[h],e,f)}),r(s,"fetch",c),i.on(c+"end",function(t,e){var n=this;if(e){var r=e.headers.get("content-length");null!==r&&(n.rxSize=r),i.emit(c+"done",[null,e],n)}else i.emit(c+"done",[t],n)}))},{}],5:[function(t,e,n){var r=t("ee").get("raf"),i=t("wrap-function")(r),o="equestAnimationFrame";e.exports=r,i.inPlace(window,["r"+o,"mozR"+o,"webkitR"+o,"msR"+o],"raf-"),r.on("raf-start",function(t){t[0]=i(t[0],"fn-")})},{}],6:[function(t,e,n){function r(t,e,n){t[0]=a(t[0],"fn-",null,n)}function i(t,e,n){this.method=n,this.timerDuration=isNaN(t[1])?0:+t[1],t[0]=a(t[0],"fn-",this,n)}var o=t("ee").get("timer"),a=t("wrap-function")(o),s="setTimeout",c="setInterval",f="clearTimeout",u="-start",d="-";e.exports=o,a.inPlace(window,[s,"setImmediate"],s+d),a.inPlace(window,[c],c+d),a.inPlace(window,[f,"clearImmediate"],f+d),o.on(c+u,r),o.on(s+u,i)},{}],7:[function(t,e,n){function r(t,e){d.inPlace(e,["onreadystatechange"],"fn-",s)}function i(){var t=this,e=u.context(t);t.readyState>3&&!e.resolved&&(e.resolved=!0,u.emit("xhr-resolved",[],t)),d.inPlace(t,w,"fn-",s)}function o(t){x.push(t),h&&(b?b.then(a):v?v(a):(E=-E,R.data=E))}function a(){for(var t=0;t<x.length;t++)r([],x[t]);x.length&&(x=[])}function s(t,e){return e}function c(t,e){for(var n in t)e[n]=t[n];return e}t(3);var f=t("ee"),u=f.get("xhr"),d=t("wrap-function")(u),l=NREUM.o,p=l.XHR,h=l.MO,m=l.PR,v=l.SI,g="readystatechange",w=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"],x=[];e.exports=u;var y=window.XMLHttpRequest=function(t){var e=new p(t);try{u.emit("new-xhr",[e],e),e.addEventListener(g,i,!1)}catch(n){try{u.emit("internal-error",[n])}catch(r){}}return e};if(c(p,y),y.prototype=p.prototype,d.inPlace(y.prototype,["open","send"],"-xhr-",s),u.on("send-xhr-start",function(t,e){r(t,e),o(e)}),u.on("open-xhr-start",r),h){var b=m&&m.resolve();if(!v&&!m){var E=1,R=document.createTextNode(E);new h(a).observe(R,{characterData:!0})}}else f.on("fn-end",function(t){t[0]&&t[0].type===g||a()})},{}],8:[function(t,e,n){function r(t){if(!s(t))return null;var e=window.NREUM;if(!e.loader_config)return null;var n=(e.loader_config.accountID||"").toString()||null,r=(e.loader_config.agentID||"").toString()||null,f=(e.loader_config.trustKey||"").toString()||null;if(!n||!r)return null;var h=p.generateSpanId(),m=p.generateTraceId(),v=Date.now(),g={spanId:h,traceId:m,timestamp:v};return(t.sameOrigin||c(t)&&l())&&(g.traceContextParentHeader=i(h,m),g.traceContextStateHeader=o(h,v,n,r,f)),(t.sameOrigin&&!u()||!t.sameOrigin&&c(t)&&d())&&(g.newrelicHeader=a(h,m,v,n,r,f)),g}function i(t,e){return"00-"+e+"-"+t+"-01"}function o(t,e,n,r,i){var o=0,a="",s=1,c="",f="";return i+"@nr="+o+"-"+s+"-"+n+"-"+r+"-"+t+"-"+a+"-"+c+"-"+f+"-"+e}function a(t,e,n,r,i,o){var a="btoa"in window&&"function"==typeof window.btoa;if(!a)return null;var s={v:[0,1],d:{ty:"Browser",ac:r,ap:i,id:t,tr:e,ti:n}};return o&&r!==o&&(s.d.tk=o),btoa(JSON.stringify(s))}function s(t){return f()&&c(t)}function c(t){var e=!1,n={};if("init"in NREUM&&"distributed_tracing"in NREUM.init&&(n=NREUM.init.distributed_tracing),t.sameOrigin)e=!0;else if(n.allowed_origins instanceof Array)for(var r=0;r<n.allowed_origins.length;r++){var i=h(n.allowed_origins[r]);if(t.hostname===i.hostname&&t.protocol===i.protocol&&t.port===i.port){e=!0;break}}return e}function f(){return"init"in NREUM&&"distributed_tracing"in NREUM.init&&!!NREUM.init.distributed_tracing.enabled}function u(){return"init"in NREUM&&"distributed_tracing"in NREUM.init&&!!NREUM.init.distributed_tracing.exclude_newrelic_header}function d(){return"init"in NREUM&&"distributed_tracing"in NREUM.init&&NREUM.init.distributed_tracing.cors_use_newrelic_header!==!1}function l(){return"init"in NREUM&&"distributed_tracing"in NREUM.init&&!!NREUM.init.distributed_tracing.cors_use_tracecontext_headers}var p=t(19),h=t(10);e.exports={generateTracePayload:r,shouldGenerateTrace:s}},{}],9:[function(t,e,n){function r(t){var e=this.params,n=this.metrics;if(!this.ended){this.ended=!0;for(var r=0;r<l;r++)t.removeEventListener(d[r],this.listener,!1);e.aborted||(n.duration=a.now()-this.startTime,this.loadCaptureCalled||4!==t.readyState?null==e.status&&(e.status=0):o(this,t),n.cbTime=this.cbTime,u.emit("xhr-done",[t],t),s("xhr",[e,n,this.startTime]))}}function i(t,e){var n=c(e),r=t.params;r.host=n.hostname+":"+n.port,r.pathname=n.pathname,t.parsedOrigin=n,t.sameOrigin=n.sameOrigin}function o(t,e){t.params.status=e.status;var n=v(e,t.lastSize);if(n&&(t.metrics.rxSize=n),t.sameOrigin){var r=e.getResponseHeader("X-NewRelic-App-Data");r&&(t.params.cat=r.split(", ").pop())}t.loadCaptureCalled=!0}var a=t("loader");if(a.xhrWrappable&&!a.disabled){var s=t("handle"),c=t(10),f=t(8).generateTracePayload,u=t("ee"),d=["load","error","abort","timeout"],l=d.length,p=t("id"),h=t(15),m=t(14),v=t(11),g=NREUM.o.REQ,w=window.XMLHttpRequest;a.features.xhr=!0,t(7),t(4),u.on("new-xhr",function(t){var e=this;e.totalCbs=0,e.called=0,e.cbTime=0,e.end=r,e.ended=!1,e.xhrGuids={},e.lastSize=null,e.loadCaptureCalled=!1,e.params=this.params||{},e.metrics=this.metrics||{},t.addEventListener("load",function(n){o(e,t)},!1),h&&(h>34||h<10)||window.opera||t.addEventListener("progress",function(t){e.lastSize=t.loaded},!1)}),u.on("open-xhr-start",function(t){this.params={method:t[0]},i(this,t[1]),this.metrics={}}),u.on("open-xhr-end",function(t,e){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&e.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid);var n=f(this.parsedOrigin);if(n){var r=!1;n.newrelicHeader&&(e.setRequestHeader("newrelic",n.newrelicHeader),r=!0),n.traceContextParentHeader&&(e.setRequestHeader("traceparent",n.traceContextParentHeader),n.traceContextStateHeader&&e.setRequestHeader("tracestate",n.traceContextStateHeader),r=!0),r&&(this.dt=n)}}),u.on("send-xhr-start",function(t,e){var n=this.metrics,r=t[0],i=this;if(n&&r){var o=m(r);o&&(n.txSize=o)}this.startTime=a.now(),this.listener=function(t){try{"abort"!==t.type||i.loadCaptureCalled||(i.params.aborted=!0),("load"!==t.type||i.called===i.totalCbs&&(i.onloadCalled||"function"!=typeof e.onload))&&i.end(e)}catch(n){try{u.emit("internal-error",[n])}catch(r){}}};for(var s=0;s<l;s++)e.addEventListener(d[s],this.listener,!1)}),u.on("xhr-cb-time",function(t,e,n){this.cbTime+=t,e?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof n.onload||this.end(n)}),u.on("xhr-load-added",function(t,e){var n=""+p(t)+!!e;this.xhrGuids&&!this.xhrGuids[n]&&(this.xhrGuids[n]=!0,this.totalCbs+=1)}),u.on("xhr-load-removed",function(t,e){var n=""+p(t)+!!e;this.xhrGuids&&this.xhrGuids[n]&&(delete this.xhrGuids[n],this.totalCbs-=1)}),u.on("addEventListener-end",function(t,e){e instanceof w&&"load"===t[0]&&u.emit("xhr-load-added",[t[1],t[2]],e)}),u.on("removeEventListener-end",function(t,e){e instanceof w&&"load"===t[0]&&u.emit("xhr-load-removed",[t[1],t[2]],e)}),u.on("fn-start",function(t,e,n){e instanceof w&&("onload"===n&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=a.now()))}),u.on("fn-end",function(t,e){this.xhrCbStart&&u.emit("xhr-cb-time",[a.now()-this.xhrCbStart,this.onload,e],e)}),u.on("fetch-before-start",function(t){function e(t,e){var n=!1;return e.newrelicHeader&&(t.set("newrelic",e.newrelicHeader),n=!0),e.traceContextParentHeader&&(t.set("traceparent",e.traceContextParentHeader),e.traceContextStateHeader&&t.set("tracestate",e.traceContextStateHeader),n=!0),n}var n,r=t[1]||{};"string"==typeof t[0]?n=t[0]:t[0]&&t[0].url?n=t[0].url:window.URL&&t[0]&&t[0]instanceof URL&&(n=t[0].href),n&&(this.parsedOrigin=c(n),this.sameOrigin=this.parsedOrigin.sameOrigin);var i=f(this.parsedOrigin);if(i&&(i.newrelicHeader||i.traceContextParentHeader))if("string"==typeof t[0]||window.URL&&t[0]&&t[0]instanceof URL){var o={};for(var a in r)o[a]=r[a];o.headers=new Headers(r.headers||{}),e(o.headers,i)&&(this.dt=i),t.length>1?t[1]=o:t.push(o)}else t[0]&&t[0].headers&&e(t[0].headers,i)&&(this.dt=i)}),u.on("fetch-start",function(t,e){this.params={},this.metrics={},this.startTime=a.now(),t.length>=1&&(this.target=t[0]),t.length>=2&&(this.opts=t[1]);var n,r=this.opts||{},o=this.target;"string"==typeof o?n=o:"object"==typeof o&&o instanceof g?n=o.url:window.URL&&"object"==typeof o&&o instanceof URL&&(n=o.href),i(this,n);var s=(""+(o&&o instanceof g&&o.method||r.method||"GET")).toUpperCase();this.params.method=s,this.txSize=m(r.body)||0}),u.on("fetch-done",function(t,e){this.params||(this.params={}),this.params.status=e?e.status:0;var n;"string"==typeof this.rxSize&&this.rxSize.length>0&&(n=+this.rxSize);var r={txSize:this.txSize,rxSize:n,duration:a.now()-this.startTime};s("xhr",[this.params,r,this.startTime])})}},{}],10:[function(t,e,n){var r={};e.exports=function(t){if(t in r)return r[t];var e=document.createElement("a"),n=window.location,i={};e.href=t,i.port=e.port;var o=e.href.split("://");!i.port&&o[1]&&(i.port=o[1].split("/")[0].split("@").pop().split(":")[1]),i.port&&"0"!==i.port||(i.port="https"===o[0]?"443":"80"),i.hostname=e.hostname||n.hostname,i.pathname=e.pathname,i.protocol=o[0],"/"!==i.pathname.charAt(0)&&(i.pathname="/"+i.pathname);var a=!e.protocol||":"===e.protocol||e.protocol===n.protocol,s=e.hostname===document.domain&&e.port===n.port;return i.sameOrigin=a&&(!e.hostname||s),"/"===i.pathname&&(r[t]=i),i}},{}],11:[function(t,e,n){function r(t,e){var n=t.responseType;return"json"===n&&null!==e?e:"arraybuffer"===n||"blob"===n||"json"===n?i(t.response):"text"===n||""===n||void 0===n?i(t.responseText):void 0}var i=t(14);e.exports=r},{}],12:[function(t,e,n){function r(){}function i(t,e,n){return function(){return o(t,[f.now()].concat(s(arguments)),e?null:this,n),e?void 0:this}}var o=t("handle"),a=t(22),s=t(23),c=t("ee").get("tracer"),f=t("loader"),u=NREUM;"undefined"==typeof window.newrelic&&(newrelic=u);var d=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",p=l+"ixn-";a(d,function(t,e){u[e]=i(l+e,!0,"api")}),u.addPageAction=i(l+"addPageAction",!0),u.setCurrentRouteName=i(l+"routeName",!0),e.exports=newrelic,u.interaction=function(){return(new r).get()};var h=r.prototype={createTracer:function(t,e){var n={},r=this,i="function"==typeof e;return o(p+"tracer",[f.now(),t,n],r),function(){if(c.emit((i?"":"no-")+"fn-start",[f.now(),r,i],n),i)try{return e.apply(this,arguments)}catch(t){throw c.emit("fn-err",[arguments,this,t],n),t}finally{c.emit("fn-end",[f.now()],n)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,e){h[e]=i(p+e)}),newrelic.noticeError=function(t,e){"string"==typeof t&&(t=new Error(t)),o("err",[t,f.now(),!1,e])}},{}],13:[function(t,e,n){function r(t){if(NREUM.init){for(var e=NREUM.init,n=t.split("."),r=0;r<n.length-1;r++)if(e=e[n[r]],"object"!=typeof e)return;return e=e[n[n.length-1]]}}e.exports={getConfiguration:r}},{}],14:[function(t,e,n){e.exports=function(t){if("string"==typeof t&&t.length)return t.length;if("object"==typeof t){if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if(!("undefined"!=typeof FormData&&t instanceof FormData))try{return JSON.stringify(t).length}catch(e){return}}}},{}],15:[function(t,e,n){var r=0,i=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);i&&(r=+i[1]),e.exports=r},{}],16:[function(t,e,n){function r(){return s.exists&&performance.now?Math.round(performance.now()):(o=Math.max((new Date).getTime(),o))-a}function i(){return o}var o=(new Date).getTime(),a=o,s=t(24);e.exports=r,e.exports.offset=a,e.exports.getLastTimestamp=i},{}],17:[function(t,e,n){function r(t){return!(!t||!t.protocol||"file:"===t.protocol)}e.exports=r},{}],18:[function(t,e,n){function r(t,e){var n=t.getEntries();n.forEach(function(t){"first-paint"===t.name?d("timing",["fp",Math.floor(t.startTime)]):"first-contentful-paint"===t.name&&d("timing",["fcp",Math.floor(t.startTime)])})}function i(t,e){var n=t.getEntries();n.length>0&&d("lcp",[n[n.length-1]])}function o(t){t.getEntries().forEach(function(t){t.hadRecentInput||d("cls",[t])})}function a(t){if(t instanceof h&&!v){var e=Math.round(t.timeStamp),n={type:t.type};e<=l.now()?n.fid=l.now()-e:e>l.offset&&e<=Date.now()?(e-=l.offset,n.fid=l.now()-e):e=l.now(),v=!0,d("timing",["fi",e,n])}}function s(t){"hidden"===t&&d("pageHide",[l.now()])}if(!("init"in NREUM&&"page_view_timing"in NREUM.init&&"enabled"in NREUM.init.page_view_timing&&NREUM.init.page_view_timing.enabled===!1)){var c,f,u,d=t("handle"),l=t("loader"),p=t(21),h=NREUM.o.EV;if("PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver){c=new PerformanceObserver(r);try{c.observe({entryTypes:["paint"]})}catch(m){}f=new PerformanceObserver(i);try{f.observe({entryTypes:["largest-contentful-paint"]})}catch(m){}u=new PerformanceObserver(o);try{u.observe({type:"layout-shift",buffered:!0})}catch(m){}}if("addEventListener"in document){var v=!1,g=["click","keydown","mousedown","pointerdown","touchstart"];g.forEach(function(t){document.addEventListener(t,a,!1)})}p(s)}},{}],19:[function(t,e,n){function r(){function t(){return e?15&e[n++]:16*Math.random()|0}var e=null,n=0,r=window.crypto||window.msCrypto;r&&r.getRandomValues&&(e=r.getRandomValues(new Uint8Array(31)));for(var i,o="xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx",a="",s=0;s<o.length;s++)i=o[s],"x"===i?a+=t().toString(16):"y"===i?(i=3&t()|8,a+=i.toString(16)):a+=i;return a}function i(){return a(16)}function o(){return a(32)}function a(t){function e(){return n?15&n[r++]:16*Math.random()|0}var n=null,r=0,i=window.crypto||window.msCrypto;i&&i.getRandomValues&&Uint8Array&&(n=i.getRandomValues(new Uint8Array(31)));for(var o=[],a=0;a<t;a++)o.push(e().toString(16));return o.join("")}e.exports={generateUuid:r,generateSpanId:i,generateTraceId:o}},{}],20:[function(t,e,n){function r(t,e){if(!i)return!1;if(t!==i)return!1;if(!e)return!0;if(!o)return!1;for(var n=o.split("."),r=e.split("."),a=0;a<r.length;a++)if(r[a]!==n[a])return!1;return!0}var i=null,o=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var s=navigator.userAgent,c=s.match(a);c&&s.indexOf("Chrome")===-1&&s.indexOf("Chromium")===-1&&(i="Safari",o=c[1])}e.exports={agent:i,version:o,match:r}},{}],21:[function(t,e,n){function r(t){function e(){t(a&&document[a]?document[a]:document[i]?"hidden":"visible")}"addEventListener"in document&&o&&document.addEventListener(o,e,!1)}e.exports=r;var i,o,a;"undefined"!=typeof document.hidden?(i="hidden",o="visibilitychange",a="visibilityState"):"undefined"!=typeof document.msHidden?(i="msHidden",o="msvisibilitychange"):"undefined"!=typeof document.webkitHidden&&(i="webkitHidden",o="webkitvisibilitychange",a="webkitVisibilityState")},{}],22:[function(t,e,n){function r(t,e){var n=[],r="",o=0;for(r in t)i.call(t,r)&&(n[o]=e(r,t[r]),o+=1);return n}var i=Object.prototype.hasOwnProperty;e.exports=r},{}],23:[function(t,e,n){function r(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,i=n-e||0,o=Array(i<0?0:i);++r<i;)o[r]=t[e+r];return o}e.exports=r},{}],24:[function(t,e,n){e.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(t,e,n){function r(){}function i(t){function e(t){return t&&t instanceof r?t:t?f(t,c,a):a()}function n(n,r,i,o,a){if(a!==!1&&(a=!0),!p.aborted||o){t&&a&&t(n,r,i);for(var s=e(i),c=m(n),f=c.length,u=0;u<f;u++)c[u].apply(s,r);var l=d[x[n]];return l&&l.push([y,n,r,s]),s}}function o(t,e){w[t]=m(t).concat(e)}function h(t,e){var n=w[t];if(n)for(var r=0;r<n.length;r++)n[r]===e&&n.splice(r,1)}function m(t){return w[t]||[]}function v(t){return l[t]=l[t]||i(n)}function g(t,e){p.aborted||u(t,function(t,n){e=e||"feature",x[n]=e,e in d||(d[e]=[])})}var w={},x={},y={on:o,addEventListener:o,removeEventListener:h,emit:n,get:v,listeners:m,context:e,buffer:g,abort:s,aborted:!1};return y}function o(t){return f(t,c,a)}function a(){return new r}function s(){(d.api||d.feature)&&(p.aborted=!0,d=p.backlog={})}var c="nr@context",f=t("gos"),u=t(22),d={},l={},p=e.exports=i();e.exports.getOrSetContext=o,p.backlog=d},{}],gos:[function(t,e,n){function r(t,e,n){if(i.call(t,e))return t[e];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:r,writable:!0,enumerable:!1}),r}catch(o){}return t[e]=r,r}var i=Object.prototype.hasOwnProperty;e.exports=r},{}],handle:[function(t,e,n){function r(t,e,n,r){i.buffer([t],r),i.emit(t,e,n)}var i=t("ee").get("handle");e.exports=r,r.ee=i},{}],id:[function(t,e,n){function r(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:a(t,o,function(){return i++})}var i=1,o="nr@id",a=t("gos");e.exports=r},{}],loader:[function(t,e,n){function r(){if(!M++){var t=O.info=NREUM.info,e=m.getElementsByTagName("script")[0];if(setTimeout(f.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&e))return f.abort();c(E,function(e,n){t[e]||(t[e]=n)});var n=a();s("mark",["onload",n+O.offset],null,"api"),s("timing",["load",n]);var r=m.createElement("script");0===t.agent.indexOf("http://")||0===t.agent.indexOf("https://")?r.src=t.agent:r.src=p+"://"+t.agent,e.parentNode.insertBefore(r,e)}}function i(){"complete"===m.readyState&&o()}function o(){s("mark",["domContent",a()+O.offset],null,"api")}var a=t(16),s=t("handle"),c=t(22),f=t("ee"),u=t(20),d=t(17),l=t(13),p=l.getConfiguration("ssl")===!1?"http":"https",h=window,m=h.document,v="addEventListener",g="attachEvent",w=h.XMLHttpRequest,x=w&&w.prototype,y=!d(h.location);NREUM.o={ST:setTimeout,SI:h.setImmediate,CT:clearTimeout,XHR:w,REQ:h.Request,EV:h.Event,PR:h.Promise,MO:h.MutationObserver};var b=""+location,E={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1210.min.js"},R=w&&x&&x[v]&&!/CriOS/.test(navigator.userAgent),O=e.exports={offset:a.getLastTimestamp(),now:a,origin:b,features:{},xhrWrappable:R,userAgent:u,disabled:y};if(!y){t(12),t(18),m[v]?(m[v]("DOMContentLoaded",o,!1),h[v]("load",r,!1)):(m[g]("onreadystatechange",i),h[g]("onload",r)),s("mark",["firstbyte",a.getLastTimestamp()],null,"api");var M=0}},{}],"wrap-function":[function(t,e,n){function r(t,e){function n(e,n,r,c,f){function nrWrapper(){var o,a,u,l;try{a=this,o=d(arguments),u="function"==typeof r?r(o,a):r||{}}catch(p){i([p,"",[o,a,c],u],t)}s(n+"start",[o,a,c],u,f);try{return l=e.apply(a,o)}catch(h){throw s(n+"err",[o,a,h],u,f),h}finally{s(n+"end",[o,a,l],u,f)}}return a(e)?e:(n||(n=""),nrWrapper[l]=e,o(e,nrWrapper,t),nrWrapper)}function r(t,e,r,i,o){r||(r="");var s,c,f,u="-"===r.charAt(0);for(f=0;f<e.length;f++)c=e[f],s=t[c],a(s)||(t[c]=n(s,u?c+r:r,i,c,o))}function s(n,r,o,a){if(!h||e){var s=h;h=!0;try{t.emit(n,r,o,e,a)}catch(c){i([c,n,r,o],t)}h=s}}return t||(t=u),n.inPlace=r,n.flag=l,n}function i(t,e){e||(e=u);try{e.emit("internal-error",t)}catch(n){}}function o(t,e,n){if(Object.defineProperty&&Object.keys)try{var r=Object.keys(t);return r.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(o){i([o],n)}for(var a in t)p.call(t,a)&&(e[a]=t[a]);return e}function a(t){return!(t&&t instanceof Function&&t.apply&&!t[l])}function s(t,e){var n=e(t);return n[l]=t,o(t,n,u),n}function c(t,e,n){var r=t[e];t[e]=s(r,n)}function f(){for(var t=arguments.length,e=new Array(t),n=0;n<t;++n)e[n]=arguments[n];return e}var u=t("ee"),d=t(23),l="nr@original",p=Object.prototype.hasOwnProperty,h=!1;e.exports=r,e.exports.wrapFunction=s,e.exports.wrapInPlace=c,e.exports.argsToArray=f},{}]},{},["loader",2,9]);</script>
 <meta property="fb:app_id" content="129848480405753" />
 <meta property="fb:pages" content="21819923015,329876903846185,459190287458280,106721516050,172994359388346" />
@@ -49,12 +49,12 @@
   <meta name="twitter:image" content="https://www.scpr.org/assets/meta/twitter-06a56b46a4d2800a4dfd099229d5fec4.jpg">
 
 <meta name="csrf-param" content="authenticity_token" />
-<meta name="csrf-token" content="+EBIhLqPzBqBhFIlmCbkt9Un4Au5bXTEfRzhivg5KK3/eOXoCGdYkETA9Tv2sR/AuXXF63gHBRjKnm93pXaYpA==" />
+<meta name="csrf-token" content="Mnfh4xv0WEYMursx/riPeNJ1/+5AmbD+g94oCkndy1DN/FgGXmrD0H9N5MzpT91xk/L2DItdxs7iFBmXw+J2Lw==" />
 
 <link rel="alternate" type="application/rss+xml" title="RSS" href="https://scpr.org/feeds/all_news" />
 
 
-<link rel="shortcut icon" type="image/x-icon" href="../favicon.ico.html" />
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
 
 <script>
   window.fbAsyncInit = function() {
@@ -98,7 +98,7 @@
    }
  </script>
 
-    <link rel="stylesheet" media="screen" href="../assets/application-7f7821ce515de5e972962c5c644583f6.css.html" />
+    <link rel="stylesheet" media="screen" href="/assets/application-7f7821ce515de5e972962c5c644583f6.css" />
     
     <!-- Start: GPT Async -->
 <script type='text/javascript'>
@@ -164,7 +164,7 @@
 <!-- chartbeat timing for load start -->
 <script type="text/javascript">var _sf_startpt=(new Date()).getTime()</script>
 
-    <script src="../assets/application-5438c131fea4e82cd9b15c59115cba6e.js.html"></script>
+    <script src="/assets/application-5438c131fea4e82cd9b15c59115cba6e.js"></script>
     <script>
       // Function for lazy loading slideshow images
       function imgLoaded(img) {
@@ -252,7 +252,7 @@
               <a href="/podcasts">Podcasts</a>
             </li>
             <li>
-              <a href="/archive/2021/07/19/?section=programs">Archive</a>
+              <a href="/archive/2021/08/26/?section=programs">Archive</a>
             </li>
           </ul>
         </div>
@@ -425,7 +425,7 @@
 
   <div class="o-mast__action o-mast__search">
 
-    <form method="get" action="https://archive.kpcc.org/search/">
+    <form method="get" action="/search/">
       <input type="text" placeholder="Enter your search here" name="q" id="q" />
       <label for="o-mast__search-toggler-checkbox" class="o-mast__search-link" href="#">
         <svg class="b-icon b-icon--search-open">
@@ -480,7 +480,7 @@
   </div>
 </div>
         <section class="o-prologue o-prologue--standard-program">
-    <a class="o-prologue__logo" href="latino-usa.html">
+    <a class="o-prologue__logo" href="/programs/latino-usa">
         <h1>Latino USA</h1>
     </a>
     <span class="o-prologue__description">
@@ -523,10 +523,10 @@
         </script>
       </div>
     </div>
-      <a class="c-ad__attribution" href="/support/underwriting/">Become a KPCC Sponsor</a>
+      <a class="c-ad__attribution" href="http://www.scpr.org/support/underwriting/">Become a KPCC Sponsor</a>
   </div>
 </aside>
-<section class="o-popular-stories-side-bar "  style="order: 5">
+<section class="o-popular-stories-side-bar "  style="order: 6">
   <h6 class="o-popular-stories__heading b-heading b-heading--h6 b-heading--uppercase u-text-color--gray b-heading--medium">Popular now on KPCC</h6>
   <input checked type="radio" name="tab" id="o-popular-stories-side-bar__input-viewed" class="o-popular-stories-side-bar__input" />
   <label class="o-popular-stories-side-bar__label" for="o-popular-stories-side-bar__input-viewed">VIEWED</label>
@@ -534,77 +534,77 @@
   <label class="o-popular-stories-side-bar__label" for="o-popular-stories-side-bar__input-discussed">DISCUSSED</label>
   <div id="o-popular-stories-side-bar__tab-viewed" class="o-popular-stories-side-bar__tab">
     <div class="o-popular-stories-side-bar__item">
-      <a class="track-event" data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="Popular Now Quadrant" href="/news/2021/07/20/98530/tokyo-olympics-ceo-doesn-t-dismiss-the-idea-that-g/">
+      <a class="track-event" data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="Popular Now Quadrant" href="/news/2021/08/27/99007/greenhouse-gas-levels-are-the-highest-ever-seen-an/">
       <figure class="o-popular-stories-side-bar__figure o-figure">
-        <img class="o-popular-stories-side-bar__item-image o-figure__img" src="../assets/meta/facebook-73514b02830df167eb8bfbe15710b5cb.jpg.html" style="background-image: url(../assets/meta/facebook-73514b02830df167eb8bfbe15710b5cb.jpg.html)" />
+        <img class="o-popular-stories-side-bar__item-image o-figure__img" src="https://a.scpr.org/i/281c84db9a64d3e9cba7721d02ebce5e/234802-small.jpg" style="background-image: url(https://a.scpr.org/i/281c84db9a64d3e9cba7721d02ebce5e/234802-small.jpg)" />
       </figure>
       <span class="o-popular-stories-side-bar__item-caption">
-        Tokyo Olympics CEO Doesn't Dismiss The Idea That Games Could Still Be Called Off
+        Greenhouse Gas Levels Are The Highest Ever Seen — And That's Going Back 800,000 Years
       </span>
 </a>    </div>
     <div class="o-popular-stories-side-bar__item">
-      <a class="track-event" data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="Popular Now Quadrant" href="/news/2021/07/20/98529/the-white-house-blamed-china-for-hacking-microsoft/">
+      <a class="track-event" data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="Popular Now Quadrant" href="/news/2021/08/27/99006/afghanistan-death-toll-climbs-as-pentagon-clarifie/">
       <figure class="o-popular-stories-side-bar__figure o-figure">
-        <img class="o-popular-stories-side-bar__item-image o-figure__img" src="../assets/meta/facebook-73514b02830df167eb8bfbe15710b5cb.jpg.html" style="background-image: url(../assets/meta/facebook-73514b02830df167eb8bfbe15710b5cb.jpg.html)" />
+        <img class="o-popular-stories-side-bar__item-image o-figure__img" src="https://a.scpr.org/i/170de8f0dad360203c913118c631fdfc/234801-small.jpg" style="background-image: url(https://a.scpr.org/i/170de8f0dad360203c913118c631fdfc/234801-small.jpg)" />
       </figure>
       <span class="o-popular-stories-side-bar__item-caption">
-        The White House Blamed China For Hacking Microsoft. China Is Pointing Fingers Back
+        Afghanistan Death Toll Climbs As Pentagon Clarifies 1 Bomber Was Involved In Attack
       </span>
 </a>    </div>
     <div class="o-popular-stories-side-bar__item">
-      <a class="track-event" data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="Popular Now Quadrant" href="/news/2021/07/20/98528/new-york-reaches-a-1-1-billion-opioid-deal-with-th/">
+      <a class="track-event" data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="Popular Now Quadrant" href="/news/2021/08/27/99005/reports-of-cheating-at-colleges-soar-during-the-pa/">
       <figure class="o-popular-stories-side-bar__figure o-figure">
-        <img class="o-popular-stories-side-bar__item-image o-figure__img" src="https://a.scpr.org/i/d870bff93c83f65f5aea9db0d0f9e8b7/234308-small.jpg" style="background-image: url(https://a.scpr.org/i/d870bff93c83f65f5aea9db0d0f9e8b7/234308-small.jpg)" />
+        <img class="o-popular-stories-side-bar__item-image o-figure__img" src="https://a.scpr.org/i/3c0f8272c4a11a95ab453af9c8fe607b/234800-small.jpg" style="background-image: url(https://a.scpr.org/i/3c0f8272c4a11a95ab453af9c8fe607b/234800-small.jpg)" />
       </figure>
       <span class="o-popular-stories-side-bar__item-caption">
-        New York Reaches A $1.1 Billion Opioid Deal With The Nation's Big Drug Wholesalers
+        Reports Of Cheating At Colleges Soar During The Pandemic
       </span>
 </a>    </div>
     <div class="o-popular-stories-side-bar__item">
-      <a class="track-event" data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="Popular Now Quadrant" href="/news/2021/07/20/98527/deaf-blind-athlete-quits-team-usa-after-she-s-told/">
+      <a class="track-event" data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="Popular Now Quadrant" href="/news/2021/08/27/99004/same-hospital-and-insurer-but-the-bill-for-his-sec/">
       <figure class="o-popular-stories-side-bar__figure o-figure">
-        <img class="o-popular-stories-side-bar__item-image o-figure__img" src="https://a.scpr.org/i/8b678acc69125b514b776443a77b45b8/234307-small.jpg" style="background-image: url(https://a.scpr.org/i/8b678acc69125b514b776443a77b45b8/234307-small.jpg)" />
+        <img class="o-popular-stories-side-bar__item-image o-figure__img" src="https://a.scpr.org/i/4d6db4eb8edff02e97f7f32b2ecddbcf/234799-small.jpg" style="background-image: url(https://a.scpr.org/i/4d6db4eb8edff02e97f7f32b2ecddbcf/234799-small.jpg)" />
       </figure>
       <span class="o-popular-stories-side-bar__item-caption">
-        Deaf-Blind Athlete Quits Team USA After She's Told She Can't Bring A Care Assistant 
+        Same Hospital And Insurer, But The Bill For His Second Jaw Procedure Was $24,000 More
       </span>
 </a>    </div>
   </div>
   <div id="o-popular-stories-side-bar__tab-discussed" class="o-popular-stories-side-bar__tab">
       <div class="o-popular-stories-side-bar__item">
-        <a class="track-event" data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="Popular Now Quadrant" href="/news/2021/07/20/98527/deaf-blind-athlete-quits-team-usa-after-she-s-told/">
+        <a class="track-event" data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="Popular Now Quadrant" href="/news/2021/08/27/99004/same-hospital-and-insurer-but-the-bill-for-his-sec/">
         <figure class="o-popular-stories-side-bar__figure o-figure">
-          <img class="o-popular-stories-side-bar__item-image o-figure__img" src="https://a.scpr.org/i/8b678acc69125b514b776443a77b45b8/234307-small.jpg" style="background-image: url(https://a.scpr.org/i/8b678acc69125b514b776443a77b45b8/234307-small.jpg)" />
+          <img class="o-popular-stories-side-bar__item-image o-figure__img" src="https://a.scpr.org/i/4d6db4eb8edff02e97f7f32b2ecddbcf/234799-small.jpg" style="background-image: url(https://a.scpr.org/i/4d6db4eb8edff02e97f7f32b2ecddbcf/234799-small.jpg)" />
         </figure>
         <span class="o-popular-stories-side-bar__item-caption">
-          Deaf-Blind Athlete Quits Team USA After She's Told She Can't Bring A Care Assistant 
+          Same Hospital And Insurer, But The Bill For His Second Jaw Procedure Was $24,000 More
         </span>
 </a>      </div>
       <div class="o-popular-stories-side-bar__item">
-        <a class="track-event" data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="Popular Now Quadrant" href="/news/2021/07/20/98528/new-york-reaches-a-1-1-billion-opioid-deal-with-th/">
+        <a class="track-event" data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="Popular Now Quadrant" href="/news/2021/08/27/99005/reports-of-cheating-at-colleges-soar-during-the-pa/">
         <figure class="o-popular-stories-side-bar__figure o-figure">
-          <img class="o-popular-stories-side-bar__item-image o-figure__img" src="https://a.scpr.org/i/d870bff93c83f65f5aea9db0d0f9e8b7/234308-small.jpg" style="background-image: url(https://a.scpr.org/i/d870bff93c83f65f5aea9db0d0f9e8b7/234308-small.jpg)" />
+          <img class="o-popular-stories-side-bar__item-image o-figure__img" src="https://a.scpr.org/i/3c0f8272c4a11a95ab453af9c8fe607b/234800-small.jpg" style="background-image: url(https://a.scpr.org/i/3c0f8272c4a11a95ab453af9c8fe607b/234800-small.jpg)" />
         </figure>
         <span class="o-popular-stories-side-bar__item-caption">
-          New York Reaches A $1.1 Billion Opioid Deal With The Nation's Big Drug Wholesalers
+          Reports Of Cheating At Colleges Soar During The Pandemic
         </span>
 </a>      </div>
       <div class="o-popular-stories-side-bar__item">
-        <a class="track-event" data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="Popular Now Quadrant" href="/news/2021/07/20/98529/the-white-house-blamed-china-for-hacking-microsoft/">
+        <a class="track-event" data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="Popular Now Quadrant" href="/news/2021/08/27/99006/afghanistan-death-toll-climbs-as-pentagon-clarifie/">
         <figure class="o-popular-stories-side-bar__figure o-figure">
-          <img class="o-popular-stories-side-bar__item-image o-figure__img" src="../assets/meta/facebook-73514b02830df167eb8bfbe15710b5cb.jpg.html" style="background-image: url(../assets/meta/facebook-73514b02830df167eb8bfbe15710b5cb.jpg.html)" />
+          <img class="o-popular-stories-side-bar__item-image o-figure__img" src="https://a.scpr.org/i/170de8f0dad360203c913118c631fdfc/234801-small.jpg" style="background-image: url(https://a.scpr.org/i/170de8f0dad360203c913118c631fdfc/234801-small.jpg)" />
         </figure>
         <span class="o-popular-stories-side-bar__item-caption">
-          The White House Blamed China For Hacking Microsoft. China Is Pointing Fingers Back
+          Afghanistan Death Toll Climbs As Pentagon Clarifies 1 Bomber Was Involved In Attack
         </span>
 </a>      </div>
       <div class="o-popular-stories-side-bar__item">
-        <a class="track-event" data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="Popular Now Quadrant" href="/news/2021/07/20/98530/tokyo-olympics-ceo-doesn-t-dismiss-the-idea-that-g/">
+        <a class="track-event" data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="Popular Now Quadrant" href="/news/2021/08/27/99007/greenhouse-gas-levels-are-the-highest-ever-seen-an/">
         <figure class="o-popular-stories-side-bar__figure o-figure">
-          <img class="o-popular-stories-side-bar__item-image o-figure__img" src="../assets/meta/facebook-73514b02830df167eb8bfbe15710b5cb.jpg.html" style="background-image: url(../assets/meta/facebook-73514b02830df167eb8bfbe15710b5cb.jpg.html)" />
+          <img class="o-popular-stories-side-bar__item-image o-figure__img" src="https://a.scpr.org/i/281c84db9a64d3e9cba7721d02ebce5e/234802-small.jpg" style="background-image: url(https://a.scpr.org/i/281c84db9a64d3e9cba7721d02ebce5e/234802-small.jpg)" />
         </figure>
         <span class="o-popular-stories-side-bar__item-caption">
-          Tokyo Olympics CEO Doesn't Dismiss The Idea That Games Could Still Be Called Off
+          Greenhouse Gas Levels Are The Highest Ever Seen — And That's Going Back 800,000 Years
         </span>
 </a>      </div>
   </div>
@@ -613,7 +613,7 @@
 <aside id="" class="o-archive o-archive--small" style="order: 6;">
   <h6 class="o-archive__heading b-heading--h6 b-heading--uppercase u-text-color--gray b-heading--medium">Find a specific episode from Latino USA's archive</h6>
 
-  <form accept-charset="UTF-8" action="https://archive.kpcc.org/programs/latino-usa/archive" method="post">
+  <form accept-charset="UTF-8" action="/programs/latino-usa/archive" method="post">
 
     <input name="utf8" type="hidden" value="&#x2713;" />
     <input name="authenticity_token" type="hidden" value="Hv3qnrajp8wwM5yr16aOZvA+r1JCrnBLq+lRXQVHrc0=" />
@@ -625,8 +625,8 @@
         <option value="4">April</option>
         <option value="5">May</option>
         <option value="6">June</option>
-        <option value="7" selected="selected">July</option>
-        <option value="8">August</option>
+        <option value="7">July</option>
+        <option value="8" selected="selected">August</option>
         <option value="9">September</option>
         <option value="10">October</option>
         <option value="11">November</option>
@@ -653,14 +653,14 @@
         <option value="17">17</option>
         <option value="18">18</option>
         <option value="19">19</option>
-        <option value="20" selected="selected">20</option>
+        <option value="20">20</option>
         <option value="21">21</option>
         <option value="22">22</option>
         <option value="23">23</option>
         <option value="24">24</option>
         <option value="25">25</option>
         <option value="26">26</option>
-        <option value="27">27</option>
+        <option value="27" selected="selected">27</option>
         <option value="28">28</option>
         <option value="29">29</option>
         <option value="30">30</option>
@@ -709,20 +709,20 @@
         </script>
       </div>
     </div>
-      <a class="c-ad__attribution" href="/support/underwriting/">Become a KPCC Sponsor</a>
+      <a class="c-ad__attribution" href="http://www.scpr.org/support/underwriting/">Become a KPCC Sponsor</a>
   </div>
 </aside>
 <div id="" class="o-featured-episode__center o-standard-program__episode-list" style="order: 3">
   <h6 class="o-featured-episode__list-heading b-heading--h6 b-heading--uppercase u-text-color--gray">Recent episodes</h6>
     <div class="o-featured-episode__segment">
       <div class="o-featured-episode__segment-description">
-        <h3 class="o-featured-episode__segment-title"><a href="/programs/latino-usa/2014/04/04/3455/">#1414 - Fiction Edition</a></h3>
-        <time class="o-story-list__item-timestamp">Fri April 04</time>
-        <div class="o-featured-episode__segment-teaser"><p><span style="font-size: 14.0pt; font-family: Arial; mso-fareast-font-family: 'Times New Roman'; mso-bidi-font-family: Arial; color: black; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA; mso-no-proof: yes;">First week of April, first ever fiction edition at Latino USA! We dream big this week with a story about our motherland, Latinia. And speaking of new nations, we tune in to newscast about a new country for LGBTQ people. We take a shot at our first ever <em style="mso-bidi-font-style: normal;">radionovela </em>(no-VEH-lah) &#8211; or Latin American-style radio soap opera. We dream immigration reform passed, and celebrate April as &#8220;White History&#8221; month by reporting on the exotic non-Hispanic white peoples of the USA. On a more serious note, we discuss the #CancelColbert controversy and the limits of satire. Plus, an illustrated poem walks us through the feeling of the &#8216;male gaze&#8217;. </span></p></div>
+        <h3 class="o-featured-episode__segment-title"><a href="/programs/latino-usa/2014/06/27/4688/">#1426 - Pretending</a></h3>
+        <time class="o-story-list__item-timestamp">Fri June 27</time>
+        <div class="o-featured-episode__segment-teaser"><p></p><p class="MsoNormal" style="text-align: left; word-break: normal;" align="left"><strong style="mso-bidi-font-weight: normal;"><span style="font-size: 12.0pt; font-family: Arial; mso-fareast-font-family: 'Times New Roman'; mso-bidi-font-family: Arial; color: black;">PODCAST DESCRIPTION: Pretending</span></strong></p><p>&#160;</p><p class="MsoNormal" style="text-align: left; word-break: normal;" align="left"><span style="font-size: 12.0pt; font-family: Arial; mso-fareast-font-family: 'Times New Roman'; mso-bidi-font-family: Arial; color: black;">From inaction on immigration legislation, to diversity in fantasy and science fiction, Latino USA brings you stories about pretending. We hear about the mysterious origins of the Navajo taco, New York&#8217;s &#8220;notarios&#8221; who operate immigration scams, a political candidate who changed his name to Cesar Chavez, and hidden bodies in Texas. Songwriter Gina Chavez examines identity, and we hear a couple of stories about bluffing to avoid danger.</span></p><p>&#160;</p></div>
           <div class="c-audio-widget">
-            <a href="http://podcastdownload.npr.org/anon.npr-podcasts/podcast/510016/299070270/npr_299070270.mp3?context=latino-usa" class="c-play__button" title="#1414 - Fiction Edition" data-duration="3240" data-ga-category="Article" data-ga-action="Play" data-ga-label="Player">
+            <a href="http://podcastdownload.npr.org/anon.npr-podcasts/podcast/510016/326174415/npr_326174415.mp3?context=latino-usa" class="c-play__button" title="#1426 - Pretending" data-duration="3240" data-ga-category="Article" data-ga-action="Play" data-ga-label="Player">
               <span class="o-featured-episode__segment-audio">
-                <img class="o-featured-episode__segment-icon" src="../assets/o-audio-bar/Miniplayer-Play@2x-9eb026b3cb47b37babd5eb9f620efedf.png.html" alt="Miniplayer play@2x" />
+                <img class="o-featured-episode__segment-icon" src="/assets/o-audio-bar/Miniplayer-Play@2x-9eb026b3cb47b37babd5eb9f620efedf.png" alt="Miniplayer play@2x" />
                 54 MIN 00 SEC
               </span>
             </a>
@@ -731,13 +731,13 @@
     </div>
     <div class="o-featured-episode__segment">
       <div class="o-featured-episode__segment-description">
-        <h3 class="o-featured-episode__segment-title"><a href="/programs/latino-usa/2014/03/28/3362/">#1413 - New Beginnings</a></h3>
-        <time class="o-story-list__item-timestamp">Fri March 28</time>
-        <div class="o-featured-episode__segment-teaser">ENTER TEASER</div>
+        <h3 class="o-featured-episode__segment-title"><a href="/programs/latino-usa/2014/06/23/4622/">#1425 - Kids</a></h3>
+        <time class="o-story-list__item-timestamp">Mon June 23</time>
+        <div class="o-featured-episode__segment-teaser"><p class="MsoNormal" style="text-align: left; word-break: normal;" align="left"><span style="font-size: 12.0pt; font-family: Arial; mso-fareast-font-family: 'Times New Roman'; mso-bidi-font-family: Arial; color: black;">Today: the lighter and darker sides of childhood. Host Maria Hinojosa speaks to K, who works with detained children who came to the United States without an adult. We examine Latino studies, or lack thereof. We examine the uneven impact of dress code policies. We hear a children&#8217;s book read by author Yuyi Morales and about the life of NYC librarian Pura Belpre. Teachers in California write a book in the indigenous Mexican language of Mixteco. And from the mouths of babes comes this week&#8217;s <em style="mso-bidi-font-style: normal;">sabidur&#237;a.</em></span></p><p>&#160;</p></div>
           <div class="c-audio-widget">
-            <a href="http://podcastdownload.npr.org/anon.npr-podcasts/podcast/510016/295769860/npr_295769860.mp3?context=latino-usa" class="c-play__button" title="#1413 - New Beginnings" data-duration="3240" data-ga-category="Article" data-ga-action="Play" data-ga-label="Player">
+            <a href="http://podcastdownload.npr.org/anon.npr-podcasts/podcast/510016/324890757/npr_324890757.mp3?context=latino-usa" class="c-play__button" title="#1425 - Kids" data-duration="3240" data-ga-category="Article" data-ga-action="Play" data-ga-label="Player">
               <span class="o-featured-episode__segment-audio">
-                <img class="o-featured-episode__segment-icon" src="../assets/o-audio-bar/Miniplayer-Play@2x-9eb026b3cb47b37babd5eb9f620efedf.png.html" alt="Miniplayer play@2x" />
+                <img class="o-featured-episode__segment-icon" src="/assets/o-audio-bar/Miniplayer-Play@2x-9eb026b3cb47b37babd5eb9f620efedf.png" alt="Miniplayer play@2x" />
                 54 MIN 00 SEC
               </span>
             </a>
@@ -746,13 +746,13 @@
     </div>
     <div class="o-featured-episode__segment">
       <div class="o-featured-episode__segment-description">
-        <h3 class="o-featured-episode__segment-title"><a href="/programs/latino-usa/2014/03/21/3270/">#1412 - Hurt</a></h3>
-        <time class="o-story-list__item-timestamp">Fri March 21</time>
-        <div class="o-featured-episode__segment-teaser"><p></p><p class="MsoNormal" style="text-align: left; word-break: normal;" align="left"><span style="font-size: 14.0pt; font-family: Arial; mso-fareast-font-family: 'Times New Roman'; mso-bidi-font-family: 'Times New Roman';">This week on Latino USA: what it means to be hurt. Jose Antonio Vargas tells Maria Hinojosa about the pain he&#8217;s suffered for taking a stand for the undocumented. We hear stories of loneliness at &#8220;bailarina bars&#8221; in Queens, NYC. We learn how Latin@s deal with eating disorders. We hear about the U-visa program, which helps victims of domestic violence. Spanish Harlem heals after a gas explosion displaces dozens. Latina moms discuss breastfeeding. We pay a visit to Laredo, Texas to check in with jalape&#241;o eating champs. And some words of wisdom about healing through art therapy.</span></p><p>&#160;</p></div>
+        <h3 class="o-featured-episode__segment-title"><a href="/programs/latino-usa/2014/06/13/4480/">#1424 - Move It</a></h3>
+        <time class="o-story-list__item-timestamp">Fri June 13</time>
+        <div class="o-featured-episode__segment-teaser"><p>&#160;</p><p class="MsoNormal" style="text-align: left; word-break: normal;" align="left"><span style="font-size: 12.0pt; font-family: Arial; mso-fareast-font-family: 'Times New Roman'; mso-bidi-font-family: Arial; color: black;">This week, Latino USA is on the move with guest host Raquel Cepeda. We hear stories of La Bestia, the train which takes Central American migrants through Mexico to the US. We hear about a Salvadoran woman&#8217;s story, from a gay migrant, and about those trying to take alternate modes of transport. And we hear about one man who massages the feet of migrants as they journey north. Then: some background on the World Cup, traveling while brown, and doing Zumba for community. And finally, the World War II internment story you might have missed.</span></p><p>&#160;</p></div>
           <div class="c-audio-widget">
-            <a href="http://podcastdownload.npr.org/anon.npr-podcasts/podcast/510016/292437740/npr_292437740.mp3?context=latino-usa" class="c-play__button" title="#1412 - Hurt" data-duration="3240" data-ga-category="Article" data-ga-action="Play" data-ga-label="Player">
+            <a href="http://podcastdownload.npr.org/anon.npr-podcasts/podcast/510016/321689728/npr_321689728.mp3?context=latino-usa" class="c-play__button" title="#1424 - Move It" data-duration="3240" data-ga-category="Article" data-ga-action="Play" data-ga-label="Player">
               <span class="o-featured-episode__segment-audio">
-                <img class="o-featured-episode__segment-icon" src="../assets/o-audio-bar/Miniplayer-Play@2x-9eb026b3cb47b37babd5eb9f620efedf.png.html" alt="Miniplayer play@2x" />
+                <img class="o-featured-episode__segment-icon" src="/assets/o-audio-bar/Miniplayer-Play@2x-9eb026b3cb47b37babd5eb9f620efedf.png" alt="Miniplayer play@2x" />
                 54 MIN 00 SEC
               </span>
             </a>
@@ -761,13 +761,13 @@
     </div>
     <div class="o-featured-episode__segment">
       <div class="o-featured-episode__segment-description">
-        <h3 class="o-featured-episode__segment-title"><a href="/programs/latino-usa/2014/03/14/3172/">#1411 - Live From SXSW</a></h3>
-        <time class="o-story-list__item-timestamp">Fri March 14</time>
-        <div class="o-featured-episode__segment-teaser"><p></p><p class="MsoNormal" style="text-align: left; word-break: normal;" align="left"><span style="font-size: 14.0pt; font-family: Arial; mso-fareast-font-family: 'Times New Roman'; color: black;">This week on Latino USA we are back where it all began &#8211; Austin, Texas. We bring you a show recorded live at KUT&#8217;s Studio 1A where two Tejana sisters tell one crazy true story in two languages. We find out why being Latino can actually be an asset when it comes to a career in technology. We meet a DJ whose multicultural background makes him fearless about crossing genres. An old friend joins us to talk about the history of Latino USA and the role of Austin in it. And one of Austin&#8217;s most creative characters drops in to teach us about sound. </span></p><p>&#160;</p></div>
+        <h3 class="o-featured-episode__segment-title"><a href="/programs/latino-usa/2014/06/06/4381/">#1423 - Heartland</a></h3>
+        <time class="o-story-list__item-timestamp">Fri June 06</time>
+        <div class="o-featured-episode__segment-teaser"><p></p><p class="MsoNormal" style="text-align: left; word-break: normal;" align="left"><span style="font-size: 12.0pt; font-family: Arial; mso-fareast-font-family: 'Times New Roman'; mso-bidi-font-family: Arial; color: black;">This week: Nebraska. A state heavily impacted by a growing Latino population. We start with a two-part special report on Fremont, where a one of a kind anti-immigration housing ordinance is causing strife among neighbors. We look at the role of immigrant workers on the Nebraska economy, and debut our By the Numbers segment with award-winning journalist Guy Garcia. We meet teens legally allowed to be in the US but blocked from driving by the state, and meet two great heartland characters: an Irish immigrant teaching English to new Latino arrivals and a Nebraska-born Chicano organizer. </span></p><p>&#160;</p></div>
           <div class="c-audio-widget">
-            <a href="http://podcastdownload.npr.org/anon.npr-podcasts/podcast/510016/290236160/npr_290236160.mp3?context=latino-usa" class="c-play__button" title="#1411 - Live From SXSW" data-duration="3240" data-ga-category="Article" data-ga-action="Play" data-ga-label="Player">
+            <a href="http://podcastdownload.npr.org/anon.npr-podcasts/podcast/510016/319506772/npr_319506772.mp3?context=latino-usa" class="c-play__button" title="#1423 - Heartland" data-duration="3240" data-ga-category="Article" data-ga-action="Play" data-ga-label="Player">
               <span class="o-featured-episode__segment-audio">
-                <img class="o-featured-episode__segment-icon" src="../assets/o-audio-bar/Miniplayer-Play@2x-9eb026b3cb47b37babd5eb9f620efedf.png.html" alt="Miniplayer play@2x" />
+                <img class="o-featured-episode__segment-icon" src="/assets/o-audio-bar/Miniplayer-Play@2x-9eb026b3cb47b37babd5eb9f620efedf.png" alt="Miniplayer play@2x" />
                 54 MIN 00 SEC
               </span>
             </a>
@@ -776,13 +776,13 @@
     </div>
     <div class="o-featured-episode__segment">
       <div class="o-featured-episode__segment-description">
-        <h3 class="o-featured-episode__segment-title"><a href="/programs/latino-usa/2014/03/07/3079/">#1410 - Larger Than Life</a></h3>
-        <time class="o-story-list__item-timestamp">Fri March 07</time>
-        <div class="o-featured-episode__segment-teaser"><p><!-- [if gte mso 9]><xml> <o:DocumentProperties>  <o:Revision>0</o:Revision>  <o:TotalTime>0</o:TotalTime>  <o:Pages>1</o:Pages>  <o:Words>65</o:Words>  <o:Characters>376</o:Characters>  <o:Company>Futuruo Media Group</o:Company>  <o:Lines>3</o:Lines>  <o:Paragraphs>1</o:Paragraphs>  <o:CharactersWithSpaces>440</o:CharactersWithSpaces>  <o:Version>14.0</o:Version> </o:DocumentProperties> <o:OfficeDocumentSettings>  <o:AllowPNG/> </o:OfficeDocumentSettings></xml><![endif]--> <!-- [if gte mso 9]><xml> <w:WordDocument>  <w:View>Normal</w:View>  <w:Zoom>0</w:Zoom>  <w:TrackMoves/>  <w:TrackFormatting/>  <w:PunctuationKerning/>  <w:ValidateAgainstSchemas/>  <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>  <w:IgnoreMixedContent>false</w:IgnoreMixedContent>  <w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>  <w:DoNotPromoteQF/>  <w:LidThemeOther>EN-US</w:LidThemeOther>  <w:LidThemeAsian>JA</w:LidThemeAsian>  <w:LidThemeComplexScript>X-NONE</w:LidThemeComplexScript>  <w:Compatibility>   <w:BreakWrappedTables/>   <w:SnapToGridInCell/>   <w:WrapTextWithPunct/>   <w:UseAsianBreakRules/>   <w:DontGrowAutofit/>   <w:SplitPgBreakAndParaMark/>   <w:EnableOpenTypeKerning/>   <w:DontFlipMirrorIndents/>   <w:OverrideTableStyleHps/>  </w:Compatibility>  <m:mathPr>   <m:mathFont m:val="Cambria Math"/>   <m:brkBin m:val="before"/>   <m:brkBinSub m:val="&#45;-"/>   <m:smallFrac m:val="off"/>   <m:dispDef/>   <m:lMargin m:val="0"/>   <m:rMargin m:val="0"/>   <m:defJc m:val="centerGroup"/>   <m:wrapIndent m:val="1440"/>   <m:intLim m:val="subSup"/>   <m:naryLim m:val="undOvr"/>  </m:mathPr></w:WordDocument></xml><![endif]--><!-- [if gte mso 9]><xml> <w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="true"  DefSemiHidden="true" DefQFormat="false" DefPriority="99"  LatentStyleCount="276">  <w:LsdException Locked="false" Priority="0" SemiHidden="false"   UnhideWhenUsed="false" QFormat="true" Name="Normal"/>  <w:LsdException Locked="false" Priority="9" SemiHidden="false"   UnhideWhenUsed="false" QFormat="true" Name="heading 1"/>  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 2"/>  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 3"/>  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 4"/>  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 5"/>  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 6"/>  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 7"/>  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 8"/>  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 9"/>  <w:LsdException Locked="false" Priority="39" Name="toc 1"/>  <w:LsdException Locked="false" Priority="39" Name="toc 2"/>  <w:LsdException Locked="false" Priority="39" Name="toc 3"/>  <w:LsdException Locked="false" Priority="39" Name="toc 4"/>  <w:LsdException Locked="false" Priority="39" Name="toc 5"/>  <w:LsdException Locked="false" Priority="39" Name="toc 6"/>  <w:LsdException Locked="false" Priority="39" Name="toc 7"/>  <w:LsdException Locked="false" Priority="39" Name="toc 8"/>  <w:LsdException Locked="false" Priority="39" Name="toc 9"/>  <w:LsdException Locked="false" Priority="35" QFormat="true" Name="caption"/>  <w:LsdException Locked="false" Priority="10" SemiHidden="false"   UnhideWhenUsed="false" QFormat="true" Name="Title"/>  <w:LsdException Locked="false" Priority="0" Name="Default Paragraph Font"/>  <w:LsdException Locked="false" Priority="11" SemiHidden="false"   UnhideWhenUsed="false" QFormat="true" Name="Subtitle"/>  <w:LsdException Locked="false" Priority="22" SemiHidden="false"   UnhideWhenUsed="false" QFormat="true" Name="Strong"/>  <w:LsdException Locked="false" Priority="20" SemiHidden="false"   UnhideWhenUsed="false" QFormat="true" Name="Emphasis"/>  <w:LsdException Locked="false" Priority="59" SemiHidden="false"   UnhideWhenUsed="false" Name="Table Grid"/>  <w:LsdException Locked="false" UnhideWhenUsed="false" Name="Placeholder Text"/>  <w:LsdException Locked="false" Priority="1" SemiHidden="false"   UnhideWhenUsed="false" QFormat="true" Name="No Spacing"/>  <w:LsdException Locked="false" Priority="60" SemiHidden="false"   UnhideWhenUsed="false" Name="Light Shading"/>  <w:LsdException Locked="false" Priority="61" SemiHidden="false"   UnhideWhenUsed="false" Name="Light List"/>  <w:LsdException Locked="false" Priority="62" SemiHidden="false"   UnhideWhenUsed="false" Name="Light Grid"/>  <w:LsdException Locked="false" Priority="63" SemiHidden="false"   UnhideWhenUsed="false" Name="Medium Shading 1"/>  <w:LsdException Locked="false" Priority="64" SemiHidden="false"   UnhideWhenUsed="false" Name="Medium Shading 2"/>  <w:LsdException Locked="false" Priority="65" SemiHidden="false"   UnhideWhenUsed="false" Name="Medium List 1"/>  <w:LsdException Locked="false" Priority="66" SemiHidden="false"   UnhideWhenUsed="false" Name="Medium List 2"/>  <w:LsdException Locked="false" Priority="67" SemiHidden="false"   UnhideWhenUsed="false" Name="Medium Grid 1"/>  <w:LsdException Locked="false" Priority="68" SemiHidden="false"   UnhideWhenUsed="false" Name="Medium Grid 2"/>  <w:LsdException Locked="false" Priority="69" SemiHidden="false"   UnhideWhenUsed="false" Name="Medium Grid 3"/>  <w:LsdException Locked="false" Priority="70" SemiHidden="false"   UnhideWhenUsed="false" Name="Dark List"/>  <w:LsdException Locked="false" Priority="71" SemiHidden="false"   UnhideWhenUsed="false" Name="Colorful Shading"/>  <w:LsdException Locked="false" Priority="72" SemiHidden="false"   UnhideWhenUsed="false" Name="Colorful List"/>  <w:LsdException Locked="false" Priority="73" SemiHidden="false"   UnhideWhenUsed="false" Name="Colorful Grid"/>  <w:LsdException Locked="false" Priority="60" SemiHidden="false"   UnhideWhenUsed="false" Name="Light Shading Accent 1"/>  <w:LsdException Locked="false" Priority="61" SemiHidden="false"   UnhideWhenUsed="false" Name="Light List Accent 1"/>  <w:LsdException Locked="false" Priority="62" SemiHidden="false"   UnhideWhenUsed="false" Name="Light Grid Accent 1"/>  <w:LsdException Locked="false" Priority="63" SemiHidden="false"   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 1"/>  <w:LsdException Locked="false" Priority="64" SemiHidden="false"   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 1"/>  <w:LsdException Locked="false" Priority="65" SemiHidden="false"   UnhideWhenUsed="false" Name="Medium List 1 Accent 1"/>  <w:LsdException Locked="false" UnhideWhenUsed="false" Name="Revision"/>  <w:LsdException Locked="false" Priority="34" SemiHidden="false"   UnhideWhenUsed="false" QFormat="true" Name="List Paragraph"/>  <w:LsdException Locked="false" Priority="29" SemiHidden="false"   UnhideWhenUsed="false" QFormat="true" Name="Quote"/>  <w:LsdException Locked="false" Priority="30" SemiHidden="false"   UnhideWhenUsed="false" QFormat="true" Name="Intense Quote"/>  <w:LsdException Locked="false" Priority="66" SemiHidden="false"   UnhideWhenUsed="false" Name="Medium List 2 Accent 1"/>  <w:LsdException Locked="false" Priority="67" SemiHidden="false"   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 1"/>  <w:LsdException Locked="false" Priority="68" SemiHidden="false"   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 1"/>  <w:LsdException Locked="false" Priority="69" SemiHidden="false"   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 1"/>  <w:LsdException Locked="false" Priority="70" SemiHidden="false"   UnhideWhenUsed="false" Name="Dark List Accent 1"/>  <w:LsdException Locked="false" Priority="71" SemiHidden="false"   UnhideWhenUsed="false" Name="Colorful Shading Accent 1"/>  <w:LsdException Locked="false" Priority="72" SemiHidden="false"   UnhideWhenUsed="false" Name="Colorful List Accent 1"/>  <w:LsdException Locked="false" Priority="73" SemiHidden="false"   UnhideWhenUsed="false" Name="Colorful Grid Accent 1"/>  <w:LsdException Locked="false" Priority="60" SemiHidden="false"   UnhideWhenUsed="false" Name="Light Shading Accent 2"/>  <w:LsdException Locked="false" Priority="61" SemiHidden="false"   UnhideWhenUsed="false" Name="Light List Accent 2"/>  <w:LsdException Locked="false" Priority="62" SemiHidden="false"   UnhideWhenUsed="false" Name="Light Grid Accent 2"/>  <w:LsdException Locked="false" Priority="63" SemiHidden="false"   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 2"/>  <w:LsdException Locked="false" Priority="64" SemiHidden="false"   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 2"/>  <w:LsdException Locked="false" Priority="65" SemiHidden="false"   UnhideWhenUsed="false" Name="Medium List 1 Accent 2"/>  <w:LsdException Locked="false" Priority="66" SemiHidden="false"   UnhideWhenUsed="false" Name="Medium List 2 Accent 2"/>  <w:LsdException Locked="false" Priority="67" SemiHidden="false"   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 2"/>  <w:LsdException Locked="false" Priority="68" SemiHidden="false"   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 2"/>  <w:LsdException Locked="false" Priority="69" SemiHidden="false"   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 2"/>  <w:LsdException Locked="false" Priority="70" SemiHidden="false"   UnhideWhenUsed="false" Name="Dark List Accent 2"/>  <w:LsdException Locked="false" Priority="71" SemiHidden="false"   UnhideWhenUsed="false" Name="Colorful Shading Accent 2"/>  <w:LsdException Locked="false" Priority="72" SemiHidden="false"   UnhideWhenUsed="false" Name="Colorful List Accent 2"/>  <w:LsdException Locked="false" Priority="73" SemiHidden="false"   UnhideWhenUsed="false" Name="Colorful Grid Accent 2"/>  <w:LsdException Locked="false" Priority="60" SemiHidden="false"   UnhideWhenUsed="false" Name="Light Shading Accent 3"/>  <w:LsdException Locked="false" Priority="61" SemiHidden="false"   UnhideWhenUsed="false" Name="Light List Accent 3"/>  <w:LsdException Locked="false" Priority="62" SemiHidden="false"   UnhideWhenUsed="false" Name="Light Grid Accent 3"/>  <w:LsdException Locked="false" Priority="63" SemiHidden="false"   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 3"/>  <w:LsdException Locked="false" Priority="64" SemiHidden="false"   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 3"/>  <w:LsdException Locked="false" Priority="65" SemiHidden="false"   UnhideWhenUsed="false" Name="Medium List 1 Accent 3"/>  <w:LsdException Locked="false" Priority="66" SemiHidden="false"   UnhideWhenUsed="false" Name="Medium List 2 Accent 3"/>  <w:LsdException Locked="false" Priority="67" SemiHidden="false"   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 3"/>  <w:LsdException Locked="false" Priority="68" SemiHidden="false"   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 3"/>  <w:LsdException Locked="false" Priority="69" SemiHidden="false"   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 3"/>  <w:LsdException Locked="false" Priority="70" SemiHidden="false"   UnhideWhenUsed="false" Name="Dark List Accent 3"/>  <w:LsdException Locked="false" Priority="71" SemiHidden="false"   UnhideWhenUsed="false" Name="Colorful Shading Accent 3"/>  <w:LsdException Locked="false" Priority="72" SemiHidden="false"   UnhideWhenUsed="false" Name="Colorful List Accent 3"/>  <w:LsdException Locked="false" Priority="73" SemiHidden="false"   UnhideWhenUsed="false" Name="Colorful Grid Accent 3"/>  <w:LsdException Locked="false" Priority="60" SemiHidden="false"   UnhideWhenUsed="false" Name="Light Shading Accent 4"/>  <w:LsdException Locked="false" Priority="61" SemiHidden="false"   UnhideWhenUsed="false" Name="Light List Accent 4"/>  <w:LsdException Locked="false" Priority="62" SemiHidden="false"   UnhideWhenUsed="false" Name="Light Grid Accent 4"/>  <w:LsdException Locked="false" Priority="63" SemiHidden="false"   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 4"/>  <w:LsdException Locked="false" Priority="64" SemiHidden="false"   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 4"/>  <w:LsdException Locked="false" Priority="65" SemiHidden="false"   UnhideWhenUsed="false" Name="Medium List 1 Accent 4"/>  <w:LsdException Locked="false" Priority="66" SemiHidden="false"   UnhideWhenUsed="false" Name="Medium List 2 Accent 4"/>  <w:LsdException Locked="false" Priority="67" SemiHidden="false"   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 4"/>  <w:LsdException Locked="false" Priority="68" SemiHidden="false"   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 4"/>  <w:LsdException Locked="false" Priority="69" SemiHidden="false"   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 4"/>  <w:LsdException Locked="false" Priority="70" SemiHidden="false"   UnhideWhenUsed="false" Name="Dark List Accent 4"/>  <w:LsdException Locked="false" Priority="71" SemiHidden="false"   UnhideWhenUsed="false" Name="Colorful Shading Accent 4"/>  <w:LsdException Locked="false" Priority="72" SemiHidden="false"   UnhideWhenUsed="false" Name="Colorful List Accent 4"/>  <w:LsdException Locked="false" Priority="73" SemiHidden="false"   UnhideWhenUsed="false" Name="Colorful Grid Accent 4"/>  <w:LsdException Locked="false" Priority="60" SemiHidden="false"   UnhideWhenUsed="false" Name="Light Shading Accent 5"/>  <w:LsdException Locked="false" Priority="61" SemiHidden="false"   UnhideWhenUsed="false" Name="Light List Accent 5"/>  <w:LsdException Locked="false" Priority="62" SemiHidden="false"   UnhideWhenUsed="false" Name="Light Grid Accent 5"/>  <w:LsdException Locked="false" Priority="63" SemiHidden="false"   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 5"/>  <w:LsdException Locked="false" Priority="64" SemiHidden="false"   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 5"/>  <w:LsdException Locked="false" Priority="65" SemiHidden="false"   UnhideWhenUsed="false" Name="Medium List 1 Accent 5"/>  <w:LsdException Locked="false" Priority="66" SemiHidden="false"   UnhideWhenUsed="false" Name="Medium List 2 Accent 5"/>  <w:LsdException Locked="false" Priority="67" SemiHidden="false"   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 5"/>  <w:LsdException Locked="false" Priority="68" SemiHidden="false"   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 5"/>  <w:LsdException Locked="false" Priority="69" SemiHidden="false"   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 5"/>  <w:LsdException Locked="false" Priority="70" SemiHidden="false"   UnhideWhenUsed="false" Name="Dark List Accent 5"/>  <w:LsdException Locked="false" Priority="71" SemiHidden="false"   UnhideWhenUsed="false" Name="Colorful Shading Accent 5"/>  <w:LsdException Locked="false" Priority="72" SemiHidden="false"   UnhideWhenUsed="false" Name="Colorful List Accent 5"/>  <w:LsdException Locked="false" Priority="73" SemiHidden="false"   UnhideWhenUsed="false" Name="Colorful Grid Accent 5"/>  <w:LsdException Locked="false" Priority="60" SemiHidden="false"   UnhideWhenUsed="false" Name="Light Shading Accent 6"/>  <w:LsdException Locked="false" Priority="61" SemiHidden="false"   UnhideWhenUsed="false" Name="Light List Accent 6"/>  <w:LsdException Locked="false" Priority="62" SemiHidden="false"   UnhideWhenUsed="false" Name="Light Grid Accent 6"/>  <w:LsdException Locked="false" Priority="63" SemiHidden="false"   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 6"/>  <w:LsdException Locked="false" Priority="64" SemiHidden="false"   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 6"/>  <w:LsdException Locked="false" Priority="65" SemiHidden="false"   UnhideWhenUsed="false" Name="Medium List 1 Accent 6"/>  <w:LsdException Locked="false" Priority="66" SemiHidden="false"   UnhideWhenUsed="false" Name="Medium List 2 Accent 6"/>  <w:LsdException Locked="false" Priority="67" SemiHidden="false"   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 6"/>  <w:LsdException Locked="false" Priority="68" SemiHidden="false"   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 6"/>  <w:LsdException Locked="false" Priority="69" SemiHidden="false"   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 6"/>  <w:LsdException Locked="false" Priority="70" SemiHidden="false"   UnhideWhenUsed="false" Name="Dark List Accent 6"/>  <w:LsdException Locked="false" Priority="71" SemiHidden="false"   UnhideWhenUsed="false" Name="Colorful Shading Accent 6"/>  <w:LsdException Locked="false" Priority="72" SemiHidden="false"   UnhideWhenUsed="false" Name="Colorful List Accent 6"/>  <w:LsdException Locked="false" Priority="73" SemiHidden="false"   UnhideWhenUsed="false" Name="Colorful Grid Accent 6"/>  <w:LsdException Locked="false" Priority="19" SemiHidden="false"   UnhideWhenUsed="false" QFormat="true" Name="Subtle Emphasis"/>  <w:LsdException Locked="false" Priority="21" SemiHidden="false"   UnhideWhenUsed="false" QFormat="true" Name="Intense Emphasis"/>  <w:LsdException Locked="false" Priority="31" SemiHidden="false"   UnhideWhenUsed="false" QFormat="true" Name="Subtle Reference"/>  <w:LsdException Locked="false" Priority="32" SemiHidden="false"   UnhideWhenUsed="false" QFormat="true" Name="Intense Reference"/>  <w:LsdException Locked="false" Priority="33" SemiHidden="false"   UnhideWhenUsed="false" QFormat="true" Name="Book Title"/>  <w:LsdException Locked="false" Priority="37" Name="Bibliography"/>  <w:LsdException Locked="false" Priority="39" QFormat="true" Name="TOC Heading"/> </w:LatentStyles></xml><![endif]--> <!-- [if gte mso 10]><style> /* Style Definitions */table.MsoNormalTable{mso-style-name:"Table Normal";mso-tstyle-rowband-size:0;mso-tstyle-colband-size:0;mso-style-noshow:yes;mso-style-priority:99;mso-style-parent:"";mso-padding-alt:0in 5.4pt 0in 5.4pt;mso-para-margin:0in;mso-para-margin-bottom:.0001pt;mso-pagination:widow-orphan;font-size:10.0pt;font-family:"Times New Roman";}</style><![endif]--> <!--StartFragment--><span style="font-size: 14pt; font-family: Arial;">This week, Latino USA is larger than life! We start with a special two-part interview with actress Rita Moreno. Also, the life of one farmworker, now 83, who fought for her rights alongside labor leader C&#233;sar Ch&#225;vez. We look at the legacy of Hugo Ch&#225;vez, who died a year ago, and catch up on Venezuela&#8217;s&#160; current protests. The band La Santa Cecilia stands up for an undocumented bandmate. And we hear some sabidur&#237;a from &#8220;The Voice of God.&#8221;</span></p></div>
+        <h3 class="o-featured-episode__segment-title"><a href="/programs/latino-usa/2014/05/30/4277/">#1422 - Push It</a></h3>
+        <time class="o-story-list__item-timestamp">Fri May 30</time>
+        <div class="o-featured-episode__segment-teaser"><p><span style="font-size: 12.0pt; font-family: Arial; mso-fareast-font-family: 'Times New Roman'; mso-bidi-font-family: Arial; color: black; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA; mso-no-proof: yes;">This week it&#8217;s all about pushing it. From hunger strikers pushing their bodies to the limit to fight for their rights to musicians Calle 13, who have pushed beyond a jokester past to test new boundaries. We also hear from Former US Labor Secretary Hilda Solis as she runs for a new office in Los Angeles. And we hear what happens when people push the wrong buttons while flirting by making the compliments all about ethnicity. We look to Chile to find out what happens when abortion is illegal under any circumstance. Lastly, we hear from a young man who is a Special Olympics athlete.</span></p></div>
           <div class="c-audio-widget">
-            <a href="http://podcastdownload.npr.org/anon.npr-podcasts/podcast/510016/287328912/npr_287328912.mp3?context=latino-usa" class="c-play__button" title="#1410 - Larger Than Life" data-duration="3240" data-ga-category="Article" data-ga-action="Play" data-ga-label="Player">
+            <a href="http://podcastdownload.npr.org/anon.npr-podcasts/podcast/510016/317369475/npr_317369475.mp3?context=latino-usa" class="c-play__button" title="#1422 - Push It" data-duration="3240" data-ga-category="Article" data-ga-action="Play" data-ga-label="Player">
               <span class="o-featured-episode__segment-audio">
-                <img class="o-featured-episode__segment-icon" src="../assets/o-audio-bar/Miniplayer-Play@2x-9eb026b3cb47b37babd5eb9f620efedf.png.html" alt="Miniplayer play@2x" />
+                <img class="o-featured-episode__segment-icon" src="/assets/o-audio-bar/Miniplayer-Play@2x-9eb026b3cb47b37babd5eb9f620efedf.png" alt="Miniplayer play@2x" />
                 54 MIN 00 SEC
               </span>
             </a>
@@ -791,13 +791,13 @@
     </div>
     <div class="o-featured-episode__segment">
       <div class="o-featured-episode__segment-description">
-        <h3 class="o-featured-episode__segment-title"><a href="/programs/latino-usa/2014/02/28/2983/">#1409 - Queer</a></h3>
-        <time class="o-story-list__item-timestamp">Fri February 28</time>
-        <div class="o-featured-episode__segment-teaser"><p>This week on Latino USA, we talk about all things Queer&#8212;from Anthony Romero, the first gay director of the ACLU, to the practice of &#8220;pumping,&#8221; or black market silicone injections, in the trans community. We hear two stories about growing up and transitioning genders. We learn about the plight of LGBTQ detained immigrants. We investigate the paranormal in Laredo, Texas. Maria Hinojosa gets a surfing lesson in New York, of all places. We hear from a gay man who ran for class president at UNC. And we check in on the protests in Venezuela.</p></div>
+        <h3 class="o-featured-episode__segment-title"><a href="/programs/latino-usa/2014/05/23/4180/">#1421 - Report Card</a></h3>
+        <time class="o-story-list__item-timestamp">Fri May 23</time>
+        <div class="o-featured-episode__segment-teaser"><p><span style="font-size: 12.0pt; font-family: Arial; mso-fareast-font-family: 'Times New Roman'; color: black; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA; mso-no-proof: yes;">As the school year winds down, we hand out some grades on our report card show. From the failure of schools to maintain integration, to the effort shown to allow undocumented students in-state tuition. Then, we look at the price paid by one Texas school for trying to graduate former dropouts. First-generation college students graduate. We grade the media for trying to deal with stats correctly. And we hear how TV&#8217;s done this year in terms of diverse programs. Finally, producer Daisy Rosario tells Bill Cosby about what he&#8217;s done to change her mother&#8217;s life.</span></p></div>
           <div class="c-audio-widget">
-            <a href="http://podcastdownload.npr.org/anon.npr-podcasts/podcast/510016/283949304/npr_283949304.mp3?context=latino-usa" class="c-play__button" title="#1409 - Queer" data-duration="3240" data-ga-category="Article" data-ga-action="Play" data-ga-label="Player">
+            <a href="http://podcastdownload.npr.org/anon.npr-podcasts/podcast/510016/315261911/npr_315261911.mp3?context=latino-usa" class="c-play__button" title="#1421 - Report Card" data-duration="3240" data-ga-category="Article" data-ga-action="Play" data-ga-label="Player">
               <span class="o-featured-episode__segment-audio">
-                <img class="o-featured-episode__segment-icon" src="../assets/o-audio-bar/Miniplayer-Play@2x-9eb026b3cb47b37babd5eb9f620efedf.png.html" alt="Miniplayer play@2x" />
+                <img class="o-featured-episode__segment-icon" src="/assets/o-audio-bar/Miniplayer-Play@2x-9eb026b3cb47b37babd5eb9f620efedf.png" alt="Miniplayer play@2x" />
                 54 MIN 00 SEC
               </span>
             </a>
@@ -808,21 +808,21 @@
 
   <nav class="pagination">
     <span class="first">
-  <a href="latino-usa.html">&laquo; First</a>
+  <a href="/programs/latino-usa">&laquo; First</a>
 </span>
 
     <span class="prev">
-  <a rel="prev" href="latino-usa%3Fpage=92.html">&lsaquo; Prev</a>
+  <a rel="prev" href="/programs/latino-usa?page=92">&lsaquo; Prev</a>
 </span>
 
         <span class="page gap">&hellip;</span>
 
         <span class="page">
-  <a href="latino-usa%3Fpage=91.html">91</a>
+  <a href="/programs/latino-usa?page=91">91</a>
 </span>
 
         <span class="page">
-  <a rel="prev" href="latino-usa%3Fpage=92.html">92</a>
+  <a rel="prev" href="/programs/latino-usa?page=92">92</a>
 </span>
 
         <span class="page current">
@@ -830,21 +830,21 @@
 </span>
 
         <span class="page">
-  <a rel="next" href="latino-usa%3Fpage=94.html">94</a>
+  <a rel="next" href="/programs/latino-usa?page=94">94</a>
 </span>
 
         <span class="page">
-  <a href="latino-usa%3Fpage=95.html">95</a>
+  <a href="/programs/latino-usa?page=95">95</a>
 </span>
 
         <span class="page gap">&hellip;</span>
 
     <span class="next">
-  <a rel="next" href="latino-usa%3Fpage=94.html">Next &rsaquo;</a>
+  <a rel="next" href="/programs/latino-usa?page=94">Next &rsaquo;</a>
 </span>
 
     <span class="last">
-  <a href="/programs/latino-usa?page=99">Last &raquo;</a>
+  <a href="/programs/latino-usa?page=101">Last &raquo;</a>
 </span>
 
   </nav>
@@ -856,7 +856,7 @@
 
       <a href="/programs/airtalk/">
         <figure class="o-featured-programs__program-figure o-figure o-figure--widescreen">
-          <img class="o-figure__img" src="../assets/programs/airtalk-4412b6c8664a6b9b729a358b4bd76379.jpg.html" style="background-image: url(../assets/programs/airtalk-4412b6c8664a6b9b729a358b4bd76379.jpg.html);">
+          <img class="o-figure__img" src="/assets/programs/airtalk-4412b6c8664a6b9b729a358b4bd76379.jpg" style="background-image: url(/assets/programs/airtalk-4412b6c8664a6b9b729a358b4bd76379.jpg);">
         </figure>
       </a>
 
@@ -882,7 +882,7 @@
 
       <a href="/programs/filmweek/">
         <figure class="o-featured-programs__program-figure o-figure o-figure--widescreen">
-          <img class="o-figure__img" src="../assets/programs/filmweek-7f098addfc273da97d493045e8635352.jpg.html" style="background-image: url(../assets/programs/filmweek-7f098addfc273da97d493045e8635352.jpg.html);">
+          <img class="o-figure__img" src="/assets/programs/filmweek-7f098addfc273da97d493045e8635352.jpg" style="background-image: url(/assets/programs/filmweek-7f098addfc273da97d493045e8635352.jpg);">
         </figure>
       </a>
 
@@ -907,51 +907,51 @@
 
 </section>
 
-<section class="o-popular-stories o-popular-stories--horiz" style="order: 1001">
+<section class="o-popular-stories l-column--boundless o-popular-stories--horiz" style="order: 1002">
   <h4 class="o-popular-stories__heading b-heading b-heading--h4 b-heading--uppercase u-text-color--gray-warm b-heading--medium">What's popular now on KPCC</h4>
     <div class="o-popular-stories__story track-event">
       <figure class="o-popular-stories__figure o-figure o-figure--four-by-three">
-        <a data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="Popular Now Quadrant" href="/news/2021/07/20/98530/tokyo-olympics-ceo-doesn-t-dismiss-the-idea-that-g/">
-        <img class="o-figure__img" src="../assets/meta/facebook-73514b02830df167eb8bfbe15710b5cb.jpg.html" style="background-image: url(../assets/meta/facebook-73514b02830df167eb8bfbe15710b5cb.jpg.html)" />
+        <a data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="Popular Now Quadrant" href="/news/2021/08/27/99007/greenhouse-gas-levels-are-the-highest-ever-seen-an/">
+        <img class="o-figure__img" src="https://a.scpr.org/i/281c84db9a64d3e9cba7721d02ebce5e/234802-full.jpg" style="background-image: url(https://a.scpr.org/i/281c84db9a64d3e9cba7721d02ebce5e/234802-full.jpg)" />
 </a>        <figcaption class="o-popular-stories__caption">
-          <a data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="Popular Now Quadrant" href="/news/2021/07/20/98530/tokyo-olympics-ceo-doesn-t-dismiss-the-idea-that-g/">
-          Tokyo Olympics CEO Doesn't Dismiss The Idea That Games Could Still Be Called Off
+          <a data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="Popular Now Quadrant" href="/news/2021/08/27/99007/greenhouse-gas-levels-are-the-highest-ever-seen-an/">
+          Greenhouse Gas Levels Are The Highest Ever Seen — And That's Going Back 800,000 Years
 </a>        </figcaption>
       </figure>
     </div>
     <div class="o-popular-stories__story track-event">
       <figure class="o-popular-stories__figure o-figure o-figure--four-by-three">
-        <a data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="Popular Now Quadrant" href="/news/2021/07/20/98529/the-white-house-blamed-china-for-hacking-microsoft/">
-        <img class="o-figure__img" src="../assets/meta/facebook-73514b02830df167eb8bfbe15710b5cb.jpg.html" style="background-image: url(../assets/meta/facebook-73514b02830df167eb8bfbe15710b5cb.jpg.html)" />
+        <a data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="Popular Now Quadrant" href="/news/2021/08/27/99006/afghanistan-death-toll-climbs-as-pentagon-clarifie/">
+        <img class="o-figure__img" src="https://a.scpr.org/i/170de8f0dad360203c913118c631fdfc/234801-full.jpg" style="background-image: url(https://a.scpr.org/i/170de8f0dad360203c913118c631fdfc/234801-full.jpg)" />
 </a>        <figcaption class="o-popular-stories__caption">
-          <a data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="Popular Now Quadrant" href="/news/2021/07/20/98529/the-white-house-blamed-china-for-hacking-microsoft/">
-          The White House Blamed China For Hacking Microsoft. China Is Pointing Fingers Back
+          <a data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="Popular Now Quadrant" href="/news/2021/08/27/99006/afghanistan-death-toll-climbs-as-pentagon-clarifie/">
+          Afghanistan Death Toll Climbs As Pentagon Clarifies 1 Bomber Was Involved In Attack
 </a>        </figcaption>
       </figure>
     </div>
     <div class="o-popular-stories__story track-event">
       <figure class="o-popular-stories__figure o-figure o-figure--four-by-three">
-        <a data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="Popular Now Quadrant" href="/news/2021/07/20/98528/new-york-reaches-a-1-1-billion-opioid-deal-with-th/">
-        <img class="o-figure__img" src="https://a.scpr.org/i/d870bff93c83f65f5aea9db0d0f9e8b7/234308-full.jpg" style="background-image: url(https://a.scpr.org/i/d870bff93c83f65f5aea9db0d0f9e8b7/234308-full.jpg)" />
+        <a data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="Popular Now Quadrant" href="/news/2021/08/27/99005/reports-of-cheating-at-colleges-soar-during-the-pa/">
+        <img class="o-figure__img" src="https://a.scpr.org/i/3c0f8272c4a11a95ab453af9c8fe607b/234800-full.jpg" style="background-image: url(https://a.scpr.org/i/3c0f8272c4a11a95ab453af9c8fe607b/234800-full.jpg)" />
 </a>        <figcaption class="o-popular-stories__caption">
-          <a data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="Popular Now Quadrant" href="/news/2021/07/20/98528/new-york-reaches-a-1-1-billion-opioid-deal-with-th/">
-          New York Reaches A $1.1 Billion Opioid Deal With The Nation's Big Drug Wholesalers
+          <a data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="Popular Now Quadrant" href="/news/2021/08/27/99005/reports-of-cheating-at-colleges-soar-during-the-pa/">
+          Reports Of Cheating At Colleges Soar During The Pandemic
 </a>        </figcaption>
       </figure>
     </div>
     <div class="o-popular-stories__story track-event">
       <figure class="o-popular-stories__figure o-figure o-figure--four-by-three">
-        <a data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="Popular Now Quadrant" href="/news/2021/07/20/98527/deaf-blind-athlete-quits-team-usa-after-she-s-told/">
-        <img class="o-figure__img" src="https://a.scpr.org/i/8b678acc69125b514b776443a77b45b8/234307-full.jpg" style="background-image: url(https://a.scpr.org/i/8b678acc69125b514b776443a77b45b8/234307-full.jpg)" />
+        <a data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="Popular Now Quadrant" href="/news/2021/08/27/99004/same-hospital-and-insurer-but-the-bill-for-his-sec/">
+        <img class="o-figure__img" src="https://a.scpr.org/i/4d6db4eb8edff02e97f7f32b2ecddbcf/234799-full.jpg" style="background-image: url(https://a.scpr.org/i/4d6db4eb8edff02e97f7f32b2ecddbcf/234799-full.jpg)" />
 </a>        <figcaption class="o-popular-stories__caption">
-          <a data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="Popular Now Quadrant" href="/news/2021/07/20/98527/deaf-blind-athlete-quits-team-usa-after-she-s-told/">
-          Deaf-Blind Athlete Quits Team USA After She's Told She Can't Bring A Care Assistant 
+          <a data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="Popular Now Quadrant" href="/news/2021/08/27/99004/same-hospital-and-insurer-but-the-bill-for-his-sec/">
+          Same Hospital And Insurer, But The Bill For His Second Jaw Procedure Was $24,000 More
 </a>        </figcaption>
       </figure>
     </div>
 </section>
 <aside class="o-epilogue " style="order: 1001">
-  <img class="o-epilogue__graphic" src="../assets/graphic_epilogue-donate-da43de6f4b535f18d15ac128cd10b27d.svg.html">
+  <img class="o-epilogue__graphic" src="/assets/graphic_epilogue-donate-da43de6f4b535f18d15ac128cd10b27d.svg">
   <div class="o-epilogue__text">
     <h1 class="o-epilogue__heading"><a href="https://support.kpcc.org/default?ms=subfooter">KPCC's  coverage is a Southern California resource provided by member-supported public radio. We can't do it without you.</a></h1>
     <a class="o-epilogue-callout b-link b-link--callout" href="https://support.kpcc.org/default?ms=subfooter">Your contributions power KPCC.  Give today.</a>
@@ -1111,7 +1111,7 @@
         </div>
       </div>
       <div class="o-audio-bar__buttons">
-          <a class="o-audio-bar__download" href="latino-usa%3Fpage=93.html#" download>
+          <a class="o-audio-bar__download" href="#" download>
             <svg class="b-icon o-audio-bar__download-icon" data-ga-category="Article" data-ga-action="Volume" data-ga-label="Player">
               <use class="" xlink:href="/static/images/scpr-sprite.svg#icon_line-download"/>
               Download
@@ -1244,7 +1244,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                         };
 </script>
   <noscript>
-    <img src="https://pixel.quantserve.com/pixel/p-_ZNT1e57PQPC3.gif?labels=_fp.event.Default" style="display: none;" border="0" height="1" width="1" alt="Quantcast"/>
+    <img src="//pixel.quantserve.com/pixel/p-_ZNT1e57PQPC3.gif?labels=_fp.event.Default" style="display: none;" border="0" height="1" width="1" alt="Quantcast"/>
   </noscript>
 <!-- End Quantcast Tag -->
 
@@ -1273,6 +1273,6 @@ $(function() {
 </html>
 
 
-    <script src="../assets/better_homepage/style-guide-595f2dc3b18234ed913ffd5b40175ebc.js" async="async"></script>
+    <script src="/assets/better_homepage/style-guide-595f2dc3b18234ed913ffd5b40175ebc.js" async="async"></script>
   </body>
 </html>

@@ -28,7 +28,7 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="black" />
 <meta name="format-detection" content="telephone=no" />
 <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
-<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam-cell.nr-data.net","errorBeacon":"bam-cell.nr-data.net","licenseKey":"3a7254ec4f","applicationID":"446356","transactionName":"JV4MRkQMDVRTRUlWUhFCTUFCDBNB","queueTime":0,"applicationTime":3900,"agent":""}</script>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam-cell.nr-data.net","errorBeacon":"bam-cell.nr-data.net","licenseKey":"3a7254ec4f","applicationID":"446356","transactionName":"JV4MRkQMDVRTRUlWUhFCTUFCDBNB","queueTime":0,"applicationTime":9414,"agent":""}</script>
 <script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"UwcDWFBADAcGV1RU",licenseKey:"3a7254ec4f",applicationID:"446356"};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var i=e[n]={exports:{}};t[n][0].call(i.exports,function(e){var i=t[n][1][e];return r(i||e)},i,i.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var i=0;i<n.length;i++)r(n[i]);return r}({1:[function(t,e,n){function r(t){try{s.console&&console.log(t)}catch(e){}}var i,o=t("ee"),a=t(22),s={};try{i=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(s.console=!0,i.indexOf("dev")!==-1&&(s.dev=!0),i.indexOf("nr_dev")!==-1&&(s.nrDev=!0))}catch(c){}s.nrDev&&o.on("internal-error",function(t){r(t.stack)}),s.dev&&o.on("fn-err",function(t,e,n){r(n.stack)}),s.dev&&(r("NR AGENT IN DEVELOPMENT MODE"),r("flags: "+a(s,function(t,e){return t}).join(", ")))},{}],2:[function(t,e,n){function r(t,e,n,r,s){try{p?p-=1:i(s||new UncaughtException(t,e,n),!0)}catch(f){try{o("ierr",[f,c.now(),!0])}catch(d){}}return"function"==typeof u&&u.apply(this,a(arguments))}function UncaughtException(t,e,n){this.message=t||"Uncaught error with no additional information",this.sourceURL=e,this.line=n}function i(t,e){var n=e?null:c.now();o("err",[t,n])}var o=t("handle"),a=t(23),s=t("ee"),c=t("loader"),f=t("gos"),u=window.onerror,d=!1,l="nr@seenError";if(!c.disabled){var p=0;c.features.err=!0,t(1),window.onerror=r;try{throw new Error}catch(h){"stack"in h&&(t(6),t(5),"addEventListener"in window&&t(3),c.xhrWrappable&&t(7),d=!0)}s.on("fn-start",function(t,e,n){d&&(p+=1)}),s.on("fn-err",function(t,e,n){d&&!n[l]&&(f(n,l,function(){return!0}),this.thrown=!0,i(n))}),s.on("fn-end",function(){d&&!this.thrown&&p>0&&(p-=1)}),s.on("internal-error",function(t){o("ierr",[t,c.now(),!0])})}},{}],3:[function(t,e,n){function r(t){for(var e=t;e&&!e.hasOwnProperty(u);)e=Object.getPrototypeOf(e);e&&i(e)}function i(t){s.inPlace(t,[u,d],"-",o)}function o(t,e){return t[1]}var a=t("ee").get("events"),s=t("wrap-function")(a,!0),c=t("gos"),f=XMLHttpRequest,u="addEventListener",d="removeEventListener";e.exports=a,"getPrototypeOf"in Object?(r(document),r(window),r(f.prototype)):f.prototype.hasOwnProperty(u)&&(i(window),i(f.prototype)),a.on(u+"-start",function(t,e){var n=t[1],r=c(n,"nr@wrapped",function(){function t(){if("function"==typeof n.handleEvent)return n.handleEvent.apply(n,arguments)}var e={object:t,"function":n}[typeof n];return e?s(e,"fn-",null,e.name||"anonymous"):n});this.wrapped=t[1]=r}),a.on(d+"-start",function(t){t[1]=this.wrapped||t[1]})},{}],4:[function(t,e,n){function r(t,e,n){var r=t[e];"function"==typeof r&&(t[e]=function(){var t=o(arguments),e={};i.emit(n+"before-start",[t],e);var a;e[m]&&e[m].dt&&(a=e[m].dt);var s=r.apply(this,t);return i.emit(n+"start",[t,a],s),s.then(function(t){return i.emit(n+"end",[null,t],s),t},function(t){throw i.emit(n+"end",[t],s),t})})}var i=t("ee").get("fetch"),o=t(23),a=t(22);e.exports=i;var s=window,c="fetch-",f=c+"body-",u=["arrayBuffer","blob","json","text","formData"],d=s.Request,l=s.Response,p=s.fetch,h="prototype",m="nr@context";d&&l&&p&&(a(u,function(t,e){r(d[h],e,f),r(l[h],e,f)}),r(s,"fetch",c),i.on(c+"end",function(t,e){var n=this;if(e){var r=e.headers.get("content-length");null!==r&&(n.rxSize=r),i.emit(c+"done",[null,e],n)}else i.emit(c+"done",[t],n)}))},{}],5:[function(t,e,n){var r=t("ee").get("raf"),i=t("wrap-function")(r),o="equestAnimationFrame";e.exports=r,i.inPlace(window,["r"+o,"mozR"+o,"webkitR"+o,"msR"+o],"raf-"),r.on("raf-start",function(t){t[0]=i(t[0],"fn-")})},{}],6:[function(t,e,n){function r(t,e,n){t[0]=a(t[0],"fn-",null,n)}function i(t,e,n){this.method=n,this.timerDuration=isNaN(t[1])?0:+t[1],t[0]=a(t[0],"fn-",this,n)}var o=t("ee").get("timer"),a=t("wrap-function")(o),s="setTimeout",c="setInterval",f="clearTimeout",u="-start",d="-";e.exports=o,a.inPlace(window,[s,"setImmediate"],s+d),a.inPlace(window,[c],c+d),a.inPlace(window,[f,"clearImmediate"],f+d),o.on(c+u,r),o.on(s+u,i)},{}],7:[function(t,e,n){function r(t,e){d.inPlace(e,["onreadystatechange"],"fn-",s)}function i(){var t=this,e=u.context(t);t.readyState>3&&!e.resolved&&(e.resolved=!0,u.emit("xhr-resolved",[],t)),d.inPlace(t,w,"fn-",s)}function o(t){x.push(t),h&&(b?b.then(a):v?v(a):(E=-E,R.data=E))}function a(){for(var t=0;t<x.length;t++)r([],x[t]);x.length&&(x=[])}function s(t,e){return e}function c(t,e){for(var n in t)e[n]=t[n];return e}t(3);var f=t("ee"),u=f.get("xhr"),d=t("wrap-function")(u),l=NREUM.o,p=l.XHR,h=l.MO,m=l.PR,v=l.SI,g="readystatechange",w=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"],x=[];e.exports=u;var y=window.XMLHttpRequest=function(t){var e=new p(t);try{u.emit("new-xhr",[e],e),e.addEventListener(g,i,!1)}catch(n){try{u.emit("internal-error",[n])}catch(r){}}return e};if(c(p,y),y.prototype=p.prototype,d.inPlace(y.prototype,["open","send"],"-xhr-",s),u.on("send-xhr-start",function(t,e){r(t,e),o(e)}),u.on("open-xhr-start",r),h){var b=m&&m.resolve();if(!v&&!m){var E=1,R=document.createTextNode(E);new h(a).observe(R,{characterData:!0})}}else f.on("fn-end",function(t){t[0]&&t[0].type===g||a()})},{}],8:[function(t,e,n){function r(t){if(!s(t))return null;var e=window.NREUM;if(!e.loader_config)return null;var n=(e.loader_config.accountID||"").toString()||null,r=(e.loader_config.agentID||"").toString()||null,f=(e.loader_config.trustKey||"").toString()||null;if(!n||!r)return null;var h=p.generateSpanId(),m=p.generateTraceId(),v=Date.now(),g={spanId:h,traceId:m,timestamp:v};return(t.sameOrigin||c(t)&&l())&&(g.traceContextParentHeader=i(h,m),g.traceContextStateHeader=o(h,v,n,r,f)),(t.sameOrigin&&!u()||!t.sameOrigin&&c(t)&&d())&&(g.newrelicHeader=a(h,m,v,n,r,f)),g}function i(t,e){return"00-"+e+"-"+t+"-01"}function o(t,e,n,r,i){var o=0,a="",s=1,c="",f="";return i+"@nr="+o+"-"+s+"-"+n+"-"+r+"-"+t+"-"+a+"-"+c+"-"+f+"-"+e}function a(t,e,n,r,i,o){var a="btoa"in window&&"function"==typeof window.btoa;if(!a)return null;var s={v:[0,1],d:{ty:"Browser",ac:r,ap:i,id:t,tr:e,ti:n}};return o&&r!==o&&(s.d.tk=o),btoa(JSON.stringify(s))}function s(t){return f()&&c(t)}function c(t){var e=!1,n={};if("init"in NREUM&&"distributed_tracing"in NREUM.init&&(n=NREUM.init.distributed_tracing),t.sameOrigin)e=!0;else if(n.allowed_origins instanceof Array)for(var r=0;r<n.allowed_origins.length;r++){var i=h(n.allowed_origins[r]);if(t.hostname===i.hostname&&t.protocol===i.protocol&&t.port===i.port){e=!0;break}}return e}function f(){return"init"in NREUM&&"distributed_tracing"in NREUM.init&&!!NREUM.init.distributed_tracing.enabled}function u(){return"init"in NREUM&&"distributed_tracing"in NREUM.init&&!!NREUM.init.distributed_tracing.exclude_newrelic_header}function d(){return"init"in NREUM&&"distributed_tracing"in NREUM.init&&NREUM.init.distributed_tracing.cors_use_newrelic_header!==!1}function l(){return"init"in NREUM&&"distributed_tracing"in NREUM.init&&!!NREUM.init.distributed_tracing.cors_use_tracecontext_headers}var p=t(19),h=t(10);e.exports={generateTracePayload:r,shouldGenerateTrace:s}},{}],9:[function(t,e,n){function r(t){var e=this.params,n=this.metrics;if(!this.ended){this.ended=!0;for(var r=0;r<l;r++)t.removeEventListener(d[r],this.listener,!1);e.aborted||(n.duration=a.now()-this.startTime,this.loadCaptureCalled||4!==t.readyState?null==e.status&&(e.status=0):o(this,t),n.cbTime=this.cbTime,u.emit("xhr-done",[t],t),s("xhr",[e,n,this.startTime]))}}function i(t,e){var n=c(e),r=t.params;r.host=n.hostname+":"+n.port,r.pathname=n.pathname,t.parsedOrigin=n,t.sameOrigin=n.sameOrigin}function o(t,e){t.params.status=e.status;var n=v(e,t.lastSize);if(n&&(t.metrics.rxSize=n),t.sameOrigin){var r=e.getResponseHeader("X-NewRelic-App-Data");r&&(t.params.cat=r.split(", ").pop())}t.loadCaptureCalled=!0}var a=t("loader");if(a.xhrWrappable&&!a.disabled){var s=t("handle"),c=t(10),f=t(8).generateTracePayload,u=t("ee"),d=["load","error","abort","timeout"],l=d.length,p=t("id"),h=t(15),m=t(14),v=t(11),g=NREUM.o.REQ,w=window.XMLHttpRequest;a.features.xhr=!0,t(7),t(4),u.on("new-xhr",function(t){var e=this;e.totalCbs=0,e.called=0,e.cbTime=0,e.end=r,e.ended=!1,e.xhrGuids={},e.lastSize=null,e.loadCaptureCalled=!1,e.params=this.params||{},e.metrics=this.metrics||{},t.addEventListener("load",function(n){o(e,t)},!1),h&&(h>34||h<10)||window.opera||t.addEventListener("progress",function(t){e.lastSize=t.loaded},!1)}),u.on("open-xhr-start",function(t){this.params={method:t[0]},i(this,t[1]),this.metrics={}}),u.on("open-xhr-end",function(t,e){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&e.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid);var n=f(this.parsedOrigin);if(n){var r=!1;n.newrelicHeader&&(e.setRequestHeader("newrelic",n.newrelicHeader),r=!0),n.traceContextParentHeader&&(e.setRequestHeader("traceparent",n.traceContextParentHeader),n.traceContextStateHeader&&e.setRequestHeader("tracestate",n.traceContextStateHeader),r=!0),r&&(this.dt=n)}}),u.on("send-xhr-start",function(t,e){var n=this.metrics,r=t[0],i=this;if(n&&r){var o=m(r);o&&(n.txSize=o)}this.startTime=a.now(),this.listener=function(t){try{"abort"!==t.type||i.loadCaptureCalled||(i.params.aborted=!0),("load"!==t.type||i.called===i.totalCbs&&(i.onloadCalled||"function"!=typeof e.onload))&&i.end(e)}catch(n){try{u.emit("internal-error",[n])}catch(r){}}};for(var s=0;s<l;s++)e.addEventListener(d[s],this.listener,!1)}),u.on("xhr-cb-time",function(t,e,n){this.cbTime+=t,e?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof n.onload||this.end(n)}),u.on("xhr-load-added",function(t,e){var n=""+p(t)+!!e;this.xhrGuids&&!this.xhrGuids[n]&&(this.xhrGuids[n]=!0,this.totalCbs+=1)}),u.on("xhr-load-removed",function(t,e){var n=""+p(t)+!!e;this.xhrGuids&&this.xhrGuids[n]&&(delete this.xhrGuids[n],this.totalCbs-=1)}),u.on("addEventListener-end",function(t,e){e instanceof w&&"load"===t[0]&&u.emit("xhr-load-added",[t[1],t[2]],e)}),u.on("removeEventListener-end",function(t,e){e instanceof w&&"load"===t[0]&&u.emit("xhr-load-removed",[t[1],t[2]],e)}),u.on("fn-start",function(t,e,n){e instanceof w&&("onload"===n&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=a.now()))}),u.on("fn-end",function(t,e){this.xhrCbStart&&u.emit("xhr-cb-time",[a.now()-this.xhrCbStart,this.onload,e],e)}),u.on("fetch-before-start",function(t){function e(t,e){var n=!1;return e.newrelicHeader&&(t.set("newrelic",e.newrelicHeader),n=!0),e.traceContextParentHeader&&(t.set("traceparent",e.traceContextParentHeader),e.traceContextStateHeader&&t.set("tracestate",e.traceContextStateHeader),n=!0),n}var n,r=t[1]||{};"string"==typeof t[0]?n=t[0]:t[0]&&t[0].url?n=t[0].url:window.URL&&t[0]&&t[0]instanceof URL&&(n=t[0].href),n&&(this.parsedOrigin=c(n),this.sameOrigin=this.parsedOrigin.sameOrigin);var i=f(this.parsedOrigin);if(i&&(i.newrelicHeader||i.traceContextParentHeader))if("string"==typeof t[0]||window.URL&&t[0]&&t[0]instanceof URL){var o={};for(var a in r)o[a]=r[a];o.headers=new Headers(r.headers||{}),e(o.headers,i)&&(this.dt=i),t.length>1?t[1]=o:t.push(o)}else t[0]&&t[0].headers&&e(t[0].headers,i)&&(this.dt=i)}),u.on("fetch-start",function(t,e){this.params={},this.metrics={},this.startTime=a.now(),t.length>=1&&(this.target=t[0]),t.length>=2&&(this.opts=t[1]);var n,r=this.opts||{},o=this.target;"string"==typeof o?n=o:"object"==typeof o&&o instanceof g?n=o.url:window.URL&&"object"==typeof o&&o instanceof URL&&(n=o.href),i(this,n);var s=(""+(o&&o instanceof g&&o.method||r.method||"GET")).toUpperCase();this.params.method=s,this.txSize=m(r.body)||0}),u.on("fetch-done",function(t,e){this.params||(this.params={}),this.params.status=e?e.status:0;var n;"string"==typeof this.rxSize&&this.rxSize.length>0&&(n=+this.rxSize);var r={txSize:this.txSize,rxSize:n,duration:a.now()-this.startTime};s("xhr",[this.params,r,this.startTime])})}},{}],10:[function(t,e,n){var r={};e.exports=function(t){if(t in r)return r[t];var e=document.createElement("a"),n=window.location,i={};e.href=t,i.port=e.port;var o=e.href.split("://");!i.port&&o[1]&&(i.port=o[1].split("/")[0].split("@").pop().split(":")[1]),i.port&&"0"!==i.port||(i.port="https"===o[0]?"443":"80"),i.hostname=e.hostname||n.hostname,i.pathname=e.pathname,i.protocol=o[0],"/"!==i.pathname.charAt(0)&&(i.pathname="/"+i.pathname);var a=!e.protocol||":"===e.protocol||e.protocol===n.protocol,s=e.hostname===document.domain&&e.port===n.port;return i.sameOrigin=a&&(!e.hostname||s),"/"===i.pathname&&(r[t]=i),i}},{}],11:[function(t,e,n){function r(t,e){var n=t.responseType;return"json"===n&&null!==e?e:"arraybuffer"===n||"blob"===n||"json"===n?i(t.response):"text"===n||""===n||void 0===n?i(t.responseText):void 0}var i=t(14);e.exports=r},{}],12:[function(t,e,n){function r(){}function i(t,e,n){return function(){return o(t,[f.now()].concat(s(arguments)),e?null:this,n),e?void 0:this}}var o=t("handle"),a=t(22),s=t(23),c=t("ee").get("tracer"),f=t("loader"),u=NREUM;"undefined"==typeof window.newrelic&&(newrelic=u);var d=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",p=l+"ixn-";a(d,function(t,e){u[e]=i(l+e,!0,"api")}),u.addPageAction=i(l+"addPageAction",!0),u.setCurrentRouteName=i(l+"routeName",!0),e.exports=newrelic,u.interaction=function(){return(new r).get()};var h=r.prototype={createTracer:function(t,e){var n={},r=this,i="function"==typeof e;return o(p+"tracer",[f.now(),t,n],r),function(){if(c.emit((i?"":"no-")+"fn-start",[f.now(),r,i],n),i)try{return e.apply(this,arguments)}catch(t){throw c.emit("fn-err",[arguments,this,t],n),t}finally{c.emit("fn-end",[f.now()],n)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,e){h[e]=i(p+e)}),newrelic.noticeError=function(t,e){"string"==typeof t&&(t=new Error(t)),o("err",[t,f.now(),!1,e])}},{}],13:[function(t,e,n){function r(t){if(NREUM.init){for(var e=NREUM.init,n=t.split("."),r=0;r<n.length-1;r++)if(e=e[n[r]],"object"!=typeof e)return;return e=e[n[n.length-1]]}}e.exports={getConfiguration:r}},{}],14:[function(t,e,n){e.exports=function(t){if("string"==typeof t&&t.length)return t.length;if("object"==typeof t){if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if(!("undefined"!=typeof FormData&&t instanceof FormData))try{return JSON.stringify(t).length}catch(e){return}}}},{}],15:[function(t,e,n){var r=0,i=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);i&&(r=+i[1]),e.exports=r},{}],16:[function(t,e,n){function r(){return s.exists&&performance.now?Math.round(performance.now()):(o=Math.max((new Date).getTime(),o))-a}function i(){return o}var o=(new Date).getTime(),a=o,s=t(24);e.exports=r,e.exports.offset=a,e.exports.getLastTimestamp=i},{}],17:[function(t,e,n){function r(t){return!(!t||!t.protocol||"file:"===t.protocol)}e.exports=r},{}],18:[function(t,e,n){function r(t,e){var n=t.getEntries();n.forEach(function(t){"first-paint"===t.name?d("timing",["fp",Math.floor(t.startTime)]):"first-contentful-paint"===t.name&&d("timing",["fcp",Math.floor(t.startTime)])})}function i(t,e){var n=t.getEntries();n.length>0&&d("lcp",[n[n.length-1]])}function o(t){t.getEntries().forEach(function(t){t.hadRecentInput||d("cls",[t])})}function a(t){if(t instanceof h&&!v){var e=Math.round(t.timeStamp),n={type:t.type};e<=l.now()?n.fid=l.now()-e:e>l.offset&&e<=Date.now()?(e-=l.offset,n.fid=l.now()-e):e=l.now(),v=!0,d("timing",["fi",e,n])}}function s(t){"hidden"===t&&d("pageHide",[l.now()])}if(!("init"in NREUM&&"page_view_timing"in NREUM.init&&"enabled"in NREUM.init.page_view_timing&&NREUM.init.page_view_timing.enabled===!1)){var c,f,u,d=t("handle"),l=t("loader"),p=t(21),h=NREUM.o.EV;if("PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver){c=new PerformanceObserver(r);try{c.observe({entryTypes:["paint"]})}catch(m){}f=new PerformanceObserver(i);try{f.observe({entryTypes:["largest-contentful-paint"]})}catch(m){}u=new PerformanceObserver(o);try{u.observe({type:"layout-shift",buffered:!0})}catch(m){}}if("addEventListener"in document){var v=!1,g=["click","keydown","mousedown","pointerdown","touchstart"];g.forEach(function(t){document.addEventListener(t,a,!1)})}p(s)}},{}],19:[function(t,e,n){function r(){function t(){return e?15&e[n++]:16*Math.random()|0}var e=null,n=0,r=window.crypto||window.msCrypto;r&&r.getRandomValues&&(e=r.getRandomValues(new Uint8Array(31)));for(var i,o="xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx",a="",s=0;s<o.length;s++)i=o[s],"x"===i?a+=t().toString(16):"y"===i?(i=3&t()|8,a+=i.toString(16)):a+=i;return a}function i(){return a(16)}function o(){return a(32)}function a(t){function e(){return n?15&n[r++]:16*Math.random()|0}var n=null,r=0,i=window.crypto||window.msCrypto;i&&i.getRandomValues&&Uint8Array&&(n=i.getRandomValues(new Uint8Array(31)));for(var o=[],a=0;a<t;a++)o.push(e().toString(16));return o.join("")}e.exports={generateUuid:r,generateSpanId:i,generateTraceId:o}},{}],20:[function(t,e,n){function r(t,e){if(!i)return!1;if(t!==i)return!1;if(!e)return!0;if(!o)return!1;for(var n=o.split("."),r=e.split("."),a=0;a<r.length;a++)if(r[a]!==n[a])return!1;return!0}var i=null,o=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var s=navigator.userAgent,c=s.match(a);c&&s.indexOf("Chrome")===-1&&s.indexOf("Chromium")===-1&&(i="Safari",o=c[1])}e.exports={agent:i,version:o,match:r}},{}],21:[function(t,e,n){function r(t){function e(){t(a&&document[a]?document[a]:document[i]?"hidden":"visible")}"addEventListener"in document&&o&&document.addEventListener(o,e,!1)}e.exports=r;var i,o,a;"undefined"!=typeof document.hidden?(i="hidden",o="visibilitychange",a="visibilityState"):"undefined"!=typeof document.msHidden?(i="msHidden",o="msvisibilitychange"):"undefined"!=typeof document.webkitHidden&&(i="webkitHidden",o="webkitvisibilitychange",a="webkitVisibilityState")},{}],22:[function(t,e,n){function r(t,e){var n=[],r="",o=0;for(r in t)i.call(t,r)&&(n[o]=e(r,t[r]),o+=1);return n}var i=Object.prototype.hasOwnProperty;e.exports=r},{}],23:[function(t,e,n){function r(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,i=n-e||0,o=Array(i<0?0:i);++r<i;)o[r]=t[e+r];return o}e.exports=r},{}],24:[function(t,e,n){e.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(t,e,n){function r(){}function i(t){function e(t){return t&&t instanceof r?t:t?f(t,c,a):a()}function n(n,r,i,o,a){if(a!==!1&&(a=!0),!p.aborted||o){t&&a&&t(n,r,i);for(var s=e(i),c=m(n),f=c.length,u=0;u<f;u++)c[u].apply(s,r);var l=d[x[n]];return l&&l.push([y,n,r,s]),s}}function o(t,e){w[t]=m(t).concat(e)}function h(t,e){var n=w[t];if(n)for(var r=0;r<n.length;r++)n[r]===e&&n.splice(r,1)}function m(t){return w[t]||[]}function v(t){return l[t]=l[t]||i(n)}function g(t,e){p.aborted||u(t,function(t,n){e=e||"feature",x[n]=e,e in d||(d[e]=[])})}var w={},x={},y={on:o,addEventListener:o,removeEventListener:h,emit:n,get:v,listeners:m,context:e,buffer:g,abort:s,aborted:!1};return y}function o(t){return f(t,c,a)}function a(){return new r}function s(){(d.api||d.feature)&&(p.aborted=!0,d=p.backlog={})}var c="nr@context",f=t("gos"),u=t(22),d={},l={},p=e.exports=i();e.exports.getOrSetContext=o,p.backlog=d},{}],gos:[function(t,e,n){function r(t,e,n){if(i.call(t,e))return t[e];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:r,writable:!0,enumerable:!1}),r}catch(o){}return t[e]=r,r}var i=Object.prototype.hasOwnProperty;e.exports=r},{}],handle:[function(t,e,n){function r(t,e,n,r){i.buffer([t],r),i.emit(t,e,n)}var i=t("ee").get("handle");e.exports=r,r.ee=i},{}],id:[function(t,e,n){function r(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:a(t,o,function(){return i++})}var i=1,o="nr@id",a=t("gos");e.exports=r},{}],loader:[function(t,e,n){function r(){if(!M++){var t=O.info=NREUM.info,e=m.getElementsByTagName("script")[0];if(setTimeout(f.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&e))return f.abort();c(E,function(e,n){t[e]||(t[e]=n)});var n=a();s("mark",["onload",n+O.offset],null,"api"),s("timing",["load",n]);var r=m.createElement("script");0===t.agent.indexOf("http://")||0===t.agent.indexOf("https://")?r.src=t.agent:r.src=p+"://"+t.agent,e.parentNode.insertBefore(r,e)}}function i(){"complete"===m.readyState&&o()}function o(){s("mark",["domContent",a()+O.offset],null,"api")}var a=t(16),s=t("handle"),c=t(22),f=t("ee"),u=t(20),d=t(17),l=t(13),p=l.getConfiguration("ssl")===!1?"http":"https",h=window,m=h.document,v="addEventListener",g="attachEvent",w=h.XMLHttpRequest,x=w&&w.prototype,y=!d(h.location);NREUM.o={ST:setTimeout,SI:h.setImmediate,CT:clearTimeout,XHR:w,REQ:h.Request,EV:h.Event,PR:h.Promise,MO:h.MutationObserver};var b=""+location,E={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1210.min.js"},R=w&&x&&x[v]&&!/CriOS/.test(navigator.userAgent),O=e.exports={offset:a.getLastTimestamp(),now:a,origin:b,features:{},xhrWrappable:R,userAgent:u,disabled:y};if(!y){t(12),t(18),m[v]?(m[v]("DOMContentLoaded",o,!1),h[v]("load",r,!1)):(m[g]("onreadystatechange",i),h[g]("onload",r)),s("mark",["firstbyte",a.getLastTimestamp()],null,"api");var M=0}},{}],"wrap-function":[function(t,e,n){function r(t,e){function n(e,n,r,c,f){function nrWrapper(){var o,a,u,l;try{a=this,o=d(arguments),u="function"==typeof r?r(o,a):r||{}}catch(p){i([p,"",[o,a,c],u],t)}s(n+"start",[o,a,c],u,f);try{return l=e.apply(a,o)}catch(h){throw s(n+"err",[o,a,h],u,f),h}finally{s(n+"end",[o,a,l],u,f)}}return a(e)?e:(n||(n=""),nrWrapper[l]=e,o(e,nrWrapper,t),nrWrapper)}function r(t,e,r,i,o){r||(r="");var s,c,f,u="-"===r.charAt(0);for(f=0;f<e.length;f++)c=e[f],s=t[c],a(s)||(t[c]=n(s,u?c+r:r,i,c,o))}function s(n,r,o,a){if(!h||e){var s=h;h=!0;try{t.emit(n,r,o,e,a)}catch(c){i([c,n,r,o],t)}h=s}}return t||(t=u),n.inPlace=r,n.flag=l,n}function i(t,e){e||(e=u);try{e.emit("internal-error",t)}catch(n){}}function o(t,e,n){if(Object.defineProperty&&Object.keys)try{var r=Object.keys(t);return r.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(o){i([o],n)}for(var a in t)p.call(t,a)&&(e[a]=t[a]);return e}function a(t){return!(t&&t instanceof Function&&t.apply&&!t[l])}function s(t,e){var n=e(t);return n[l]=t,o(t,n,u),n}function c(t,e,n){var r=t[e];t[e]=s(r,n)}function f(){for(var t=arguments.length,e=new Array(t),n=0;n<t;++n)e[n]=arguments[n];return e}var u=t("ee"),d=t(23),l="nr@original",p=Object.prototype.hasOwnProperty,h=!1;e.exports=r,e.exports.wrapFunction=s,e.exports.wrapInPlace=c,e.exports.argsToArray=f},{}]},{},["loader",2,9]);</script>
 <meta property="fb:app_id" content="129848480405753" />
 <meta property="fb:pages" content="21819923015,329876903846185,459190287458280,106721516050,172994359388346" />
@@ -78,11 +78,12 @@
 
 
 <meta name="csrf-param" content="authenticity_token" />
-<meta name="csrf-token" content="R0foiqJ3/AqyYsu81GiBdbBXp33UbLf7GZjJnTHz7PMBNxarey4cTsX2GsaLpdaho4KQCjkUTlEFCo/Gd1y7Mw==" />
+<meta name="csrf-token" content="Jj4dm0PzxLHhzISHp1UKXP2LDtYxpTLISyHHDGH/IB59GWwcOZGEPsH13F7v1vP/jlZLFwVFhDThR5TAZyD6eg==" />
 
 <link rel="alternate" type="application/rss+xml" title="RSS" href="https://scpr.org/feeds/all_news" />
+<link rel="amphtml" href="https://www.scpr.org/news/2010/07/29/17816/opponents-supporters-arizona-immigration-law-gathe.amp" />
 
-<link rel="shortcut icon" type="image/x-icon" href="../../../../../favicon.ico.html" />
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
 
 <script>
   window.fbAsyncInit = function() {
@@ -126,7 +127,7 @@
    }
  </script>
 
-    <link rel="stylesheet" media="screen" href="../../../../../assets/application-7f7821ce515de5e972962c5c644583f6.css.html" />
+    <link rel="stylesheet" media="screen" href="/assets/application-7f7821ce515de5e972962c5c644583f6.css" />
     
     <!-- Start: GPT Async -->
 <script type='text/javascript'>
@@ -197,7 +198,7 @@
 <!-- chartbeat timing for load start -->
 <script type="text/javascript">var _sf_startpt=(new Date()).getTime()</script>
 
-    <script src="../../../../../assets/application-5438c131fea4e82cd9b15c59115cba6e.js.html"></script>
+    <script src="/assets/application-5438c131fea4e82cd9b15c59115cba6e.js"></script>
     <script>
       // Function for lazy loading slideshow images
       function imgLoaded(img) {
@@ -285,7 +286,7 @@
               <a href="/podcasts">Podcasts</a>
             </li>
             <li>
-              <a href="/archive/2021/07/15/?section=programs">Archive</a>
+              <a href="/archive/2021/08/26/?section=programs">Archive</a>
             </li>
           </ul>
         </div>
@@ -458,7 +459,7 @@
 
   <div class="o-mast__action o-mast__search">
 
-    <form method="get" action="https://archive.kpcc.org/search/">
+    <form method="get" action="/search/">
       <input type="text" placeholder="Enter your search here" name="q" id="q" />
       <label for="o-mast__search-toggler-checkbox" class="o-mast__search-link" href="#">
         <svg class="b-icon b-icon--search-open">
@@ -531,14 +532,14 @@
       </a>
     </li>
     <li class="facebook">
-      <a href="opponents-supporters-arizona-immigration-law-gathe.html#" class="social_fb b-popup__link track-event facebook" data-ga-category="Article" data-ga-action="Share" data-ga-label="Facebook" data-url="https://www.scpr.org/news/2010/07/29/17816/opponents-supporters-arizona-immigration-law-gathe/">
+      <a href="#" class="social_fb b-popup__link track-event facebook" data-ga-category="Article" data-ga-action="Share" data-ga-label="Facebook" data-url="https://www.scpr.org/news/2010/07/29/17816/opponents-supporters-arizona-immigration-law-gathe/">
         <svg class="b-icon">
           <use class="b-icon--color-gray-light" xlink:href="/static/images/scpr-sprite.svg#icon_line-facebook-inverted"/>
         </svg>
       </a>
     </li>
     <li class="twitter">
-      <a href="opponents-supporters-arizona-immigration-law-gathe.html#" class="social_twit b-popup__link track-event twitter" data-ga-category="Article" data-ga-action="Share" data-ga-label="Twitter" data-url="https://www.scpr.org/news/2010/07/29/17816/opponents-supporters-arizona-immigration-law-gathe/" data-text="Opponents%2C%20supporters%20of%20Arizona%20immigration%20law%20gather%20to%20protest%20%5BUpdated%5D">
+      <a href="#" class="social_twit b-popup__link track-event twitter" data-ga-category="Article" data-ga-action="Share" data-ga-label="Twitter" data-url="https://www.scpr.org/news/2010/07/29/17816/opponents-supporters-arizona-immigration-law-gathe/" data-text="Opponents%2C%20supporters%20of%20Arizona%20immigration%20law%20gather%20to%20protest%20%5BUpdated%5D">
         <svg class="b-icon">
           <use class="b-icon--color-gray-light" xlink:href="/static/images/scpr-sprite.svg#icon_line-twitter"/>
         </svg>
@@ -570,7 +571,7 @@
         </script>
       </div>
     </div>
-      <a class="c-ad__attribution" href="/support/underwriting/">Become a KPCC Sponsor</a>
+      <a class="c-ad__attribution" href="http://www.scpr.org/support/underwriting/">Become a KPCC Sponsor</a>
   </div>
 </aside><hr class="b-rule l-column--right" style="order: 12;" />
 
@@ -582,35 +583,35 @@
   <ul class="o-content-cluster c-list c-list--horiz">
     <li class="o-content-cluster__content">
       <div class="o-content-cluster__thumb o-figure o-figure--four-by-three">
-        <img class="o-figure__img" src="https://a.scpr.org/i/92ae57ecfaada94b8dec8133301841f9/234276-lsquare.jpg" style="background-image: url(https://a.scpr.org/i/92ae57ecfaada94b8dec8133301841f9/234276-lsquare.jpg);">
+        <img class="o-figure__img" src="https://a.scpr.org/i/bf28e7bf966ab0668014ce04541695e2/234797-lsquare.jpg" style="background-image: url(https://a.scpr.org/i/bf28e7bf966ab0668014ce04541695e2/234797-lsquare.jpg);">
       </div>
       <div class="o-content-cluster__content-description">
         <h4 class="b-heading--book">
-          <a data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="More Sidebar Category" href="/news/2021/07/16/98496/federal-judge-rules-against-daca-program-but-curre/">Federal Judge Rules Against DACA Program But Current Recipients Are Safe For Now</a>
+          <a data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="More Sidebar Category" href="https://www.scpr.org/news/2021/08/27/99003/there-s-a-march-on-washington-for-voting-rights-he/">There's A March On Washington For Voting Rights. Here's What Is Holding Up Action</a>
         </h4>
-        <div class="o-content-cluster__datetime b-heading--medium">July 16, 2021</div>
+        <div class="o-content-cluster__datetime b-heading--medium">August 27, 2021</div>
       </div>
     </li>
     <li class="o-content-cluster__content">
       <div class="o-content-cluster__thumb o-figure o-figure--four-by-three">
-        <img class="o-figure__img" src="../../../../../assets/meta/facebook-73514b02830df167eb8bfbe15710b5cb.jpg.html" style="background-image: url(../../../../../assets/meta/facebook-73514b02830df167eb8bfbe15710b5cb.jpg.html);">
+        <img class="o-figure__img" src="https://a.scpr.org/i/51c6501ea49cdd7aac598558c0bf5713/234794-lsquare.jpg" style="background-image: url(https://a.scpr.org/i/51c6501ea49cdd7aac598558c0bf5713/234794-lsquare.jpg);">
       </div>
       <div class="o-content-cluster__content-description">
         <h4 class="b-heading--book">
-          <a data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="More Sidebar Category" href="/news/2021/07/16/98493/virginia-shifts-700-million-in-relief-funds-to-boo/">Virginia Shifts $700 Million In Relief Funds To Boost Rural Broadband Access</a>
+          <a data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="More Sidebar Category" href="https://www.scpr.org/news/2021/08/27/99001/after-a-bitter-fight-the-texas-house-passes-a-rest/">After A Bitter Fight, The Texas House Passes A Restrictive Voting Bill</a>
         </h4>
-        <div class="o-content-cluster__datetime b-heading--medium">July 16, 2021</div>
+        <div class="o-content-cluster__datetime b-heading--medium">August 27, 2021</div>
       </div>
     </li>
     <li class="o-content-cluster__content">
       <div class="o-content-cluster__thumb o-figure o-figure--four-by-three">
-        <img class="o-figure__img" src="../../../../../assets/meta/facebook-73514b02830df167eb8bfbe15710b5cb.jpg.html" style="background-image: url(../../../../../assets/meta/facebook-73514b02830df167eb8bfbe15710b5cb.jpg.html);">
+        <img class="o-figure__img" src="https://a.scpr.org/i/557445a5558646d7021b71fa52198755/234790-lsquare.jpg" style="background-image: url(https://a.scpr.org/i/557445a5558646d7021b71fa52198755/234790-lsquare.jpg);">
       </div>
       <div class="o-content-cluster__content-description">
         <h4 class="b-heading--book">
-          <a data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="More Sidebar Category" href="/news/2021/07/15/98483/biden-says-the-u-s-would-offer-aid-to-cuba-if-he-h/">Biden Says The U.S. Would Offer Aid To Cuba If He Had Assurances About The Regime</a>
+          <a data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="More Sidebar Category" href="https://www.scpr.org/news/2021/08/26/98997/biden-pledges-to-strike-back-after-attack-kills-12/">Biden Pledges To Strike Back After Attack Kills 12 U.S. Service Members In Kabul</a>
         </h4>
-        <div class="o-content-cluster__datetime b-heading--medium">July 15, 2021</div>
+        <div class="o-content-cluster__datetime b-heading--medium">August 26, 2021</div>
       </div>
     </li>
 </ul>
@@ -620,39 +621,39 @@
   <h6 class="o-content-cluster__heading b-heading b-heading--h6 b-heading--uppercase u-text-color--gray b-heading--medium">
     POPULAR NOW ON KPCC
   </h6>
-  <a class="o-category-cluster__category-link b-heading link link--callout b-heading--uppercase" href="opponents-supporters-arizona-immigration-law-gathe.html#"></a>
+  <a class="o-category-cluster__category-link b-heading link link--callout b-heading--uppercase" href="#"></a>
   <ul class="o-content-cluster c-list c-list--horiz">
     <li class="o-content-cluster__content">
       <div class="o-content-cluster__thumb o-figure o-figure--four-by-three">
-        <img class="o-figure__img" src="https://a.scpr.org/i/92ae57ecfaada94b8dec8133301841f9/234276-lsquare.jpg" style="background-image: url(https://a.scpr.org/i/92ae57ecfaada94b8dec8133301841f9/234276-lsquare.jpg);">
+        <img class="o-figure__img" src="https://a.scpr.org/i/59d668f71ceddb95fd85b2c74ff3dbe0/234805-lsquare.jpg" style="background-image: url(https://a.scpr.org/i/59d668f71ceddb95fd85b2c74ff3dbe0/234805-lsquare.jpg);">
       </div>
       <div class="o-content-cluster__content-description">
         <h4 class="b-heading--book">
-          <a data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="Popular Now Sidebar" href="/news/2021/07/16/98496/federal-judge-rules-against-daca-program-but-curre/">Federal Judge Rules Against DACA Program But Current Recipients Are Safe For Now</a>
+          <a data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="Popular Now Sidebar" href="https://www.scpr.org/news/2021/08/27/99010/a-u-s-intelligence-report-fails-to-pinpoint-covid/">A U.S. Intelligence Report Fails To Pinpoint COVID's Origins </a>
         </h4>
-        <div class="o-content-cluster__datetime b-heading--medium">July 16, 2021</div>
+        <div class="o-content-cluster__datetime b-heading--medium">August 27, 2021</div>
       </div>
     </li>
     <li class="o-content-cluster__content">
       <div class="o-content-cluster__thumb o-figure o-figure--four-by-three">
-        <img class="o-figure__img" src="https://a.scpr.org/i/343a3275fe2fd6624fa936e7f74547d6/234273-lsquare.jpg" style="background-image: url(https://a.scpr.org/i/343a3275fe2fd6624fa936e7f74547d6/234273-lsquare.jpg);">
+        <img class="o-figure__img" src="https://a.scpr.org/i/d116dd563eb2b33c35b08772770cc978/234804-lsquare.jpg" style="background-image: url(https://a.scpr.org/i/d116dd563eb2b33c35b08772770cc978/234804-lsquare.jpg);">
       </div>
       <div class="o-content-cluster__content-description">
         <h4 class="b-heading--book">
-          <a data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="Popular Now Sidebar" href="/news/2021/07/16/98495/mystery-surrounds-florida-company-suspected-in-ass/">Mystery Surrounds Florida Company Suspected In Assassination of Haiti's President</a>
+          <a data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="Popular Now Sidebar" href="https://www.scpr.org/news/2021/08/27/99009/peloton-says-it-s-been-subpoenaed-by-doj-and-dhs-o/">Peloton Says It's Been Subpoenaed By DOJ And DHS Over Its Product Injury Reporting</a>
         </h4>
-        <div class="o-content-cluster__datetime b-heading--medium">July 16, 2021</div>
+        <div class="o-content-cluster__datetime b-heading--medium">August 27, 2021</div>
       </div>
     </li>
     <li class="o-content-cluster__content">
       <div class="o-content-cluster__thumb o-figure o-figure--four-by-three">
-        <img class="o-figure__img" src="https://a.scpr.org/i/c3193aa3ed5dc3bd5e1a22d26dcab8c3/234272-lsquare.jpg" style="background-image: url(https://a.scpr.org/i/c3193aa3ed5dc3bd5e1a22d26dcab8c3/234272-lsquare.jpg);">
+        <img class="o-figure__img" src="https://a.scpr.org/i/3eb3e541688e115debdec435d4172dd6/234803-lsquare.jpg" style="background-image: url(https://a.scpr.org/i/3eb3e541688e115debdec435d4172dd6/234803-lsquare.jpg);">
       </div>
       <div class="o-content-cluster__content-description">
         <h4 class="b-heading--book">
-          <a data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="Popular Now Sidebar" href="/news/2021/07/16/98494/u-s-covid-deaths-are-rising-again-experts-call-it/">U.S. COVID Deaths Are Rising Again. Experts Call It A 'Pandemic Of The Unvaccinated'</a>
+          <a data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="Popular Now Sidebar" href="https://www.scpr.org/news/2021/08/27/99008/the-u-s-has-set-up-a-mass-vaccination-site-for-afg/">The U.S. Has Set Up A Mass Vaccination Site For Afghans Arriving In Virginia</a>
         </h4>
-        <div class="o-content-cluster__datetime b-heading--medium">July 16, 2021</div>
+        <div class="o-content-cluster__datetime b-heading--medium">August 27, 2021</div>
       </div>
     </li>
 </ul>
@@ -667,7 +668,7 @@
         </script>
       </div>
     </div>
-      <a class="c-ad__attribution" href="/support/underwriting/">Become a KPCC Sponsor</a>
+      <a class="c-ad__attribution" href="http://www.scpr.org/support/underwriting/">Become a KPCC Sponsor</a>
   </div>
 </aside>
 
@@ -719,14 +720,14 @@
       </a>
     </li>
     <li class="facebook">
-      <a href="opponents-supporters-arizona-immigration-law-gathe.html#" class="social_fb b-popup__link track-event facebook" data-ga-category="Article" data-ga-action="Share" data-ga-label="Facebook" data-url="https://www.scpr.org/news/2010/07/29/17816/opponents-supporters-arizona-immigration-law-gathe/">
+      <a href="#" class="social_fb b-popup__link track-event facebook" data-ga-category="Article" data-ga-action="Share" data-ga-label="Facebook" data-url="https://www.scpr.org/news/2010/07/29/17816/opponents-supporters-arizona-immigration-law-gathe/">
         <svg class="b-icon">
           <use class="b-icon--color-gray-light" xlink:href="/static/images/scpr-sprite.svg#icon_line-facebook-inverted"/>
         </svg>
       </a>
     </li>
     <li class="twitter">
-      <a href="opponents-supporters-arizona-immigration-law-gathe.html#" class="social_twit b-popup__link track-event twitter" data-ga-category="Article" data-ga-action="Share" data-ga-label="Twitter" data-url="https://www.scpr.org/news/2010/07/29/17816/opponents-supporters-arizona-immigration-law-gathe/" data-text="Opponents%2C%20supporters%20of%20Arizona%20immigration%20law%20gather%20to%20protest%20%5BUpdated%5D">
+      <a href="#" class="social_twit b-popup__link track-event twitter" data-ga-category="Article" data-ga-action="Share" data-ga-label="Twitter" data-url="https://www.scpr.org/news/2010/07/29/17816/opponents-supporters-arizona-immigration-law-gathe/" data-text="Opponents%2C%20supporters%20of%20Arizona%20immigration%20law%20gather%20to%20protest%20%5BUpdated%5D">
         <svg class="b-icon">
           <use class="b-icon--color-gray-light" xlink:href="/static/images/scpr-sprite.svg#icon_line-twitter"/>
         </svg>
@@ -740,7 +741,7 @@
   <p style="order:0;">The showdown over Arizona's immigration law played out in court and on Phoenix's and Los Angeles' sun-splashed streets on Thursday, as Arizona sought to reinstate key parts of the measure and angry protesters chanted that they refused to "live in fear." Dozens were arrested in both locations.
 
 </p>
-<font color="red" id="update-26" style="order:1;"><strong>Latest</strong></font><font color="black" style="order:2;"></font> | <a href="opponents-supporters-arizona-immigration-law-gathe.html#update-26" style="order:3;">Permalink</a>
+<font color="red" id="update-26" style="order:1;"><strong>Latest</strong></font><font color="black" style="order:2;"></font> | <a href="#update-26" style="order:3;">Permalink</a>
 
 <strong style="order:4;">Sheriff Arpaio target of protesters</strong><br style="order:5;"><em style="order:6;">Associated Press</em>
 A federal judge's decision a day earlier to block the strict law's most controversial elements didn't dampen the raging immigration debate.
@@ -753,9 +754,9 @@ In Phoenix, hundreds of the law's opponents massed at a downtown jail, beating o
 
 Activists focused their rage at Maricopa County Sheriff Joe Arpaio, the 78-year-old ex-federal drug agent known for his immigration sweeps.
 
-<a href="/news/2010/07/29/arizona-sheriff/" target="_blank" style="order:7;">Read more</a>
+<a href="http://www.scpr.org/news/2010/07/29/arizona-sheriff/" target="_blank" style="order:7;">Read more</a>
 
-<font color="red" id="update-25" style="order:8;"><strong>Updated</strong></font><font color="black" style="order:9;"> at 2:35 p.m.</font> | <a href="opponents-supporters-arizona-immigration-law-gathe.html#update-25" style="order:10;">Permalink</a>
+<font color="red" id="update-25" style="order:8;"><strong>Updated</strong></font><font color="black" style="order:9;"> at 2:35 p.m.</font> | <a href="#update-25" style="order:10;">Permalink</a>
 
 <strong style="order:11;">Protesters arrested in front of Maricopa County Courthouse</strong><br style="order:12;"><em style="order:13;">Adolfo Guzman-Lopez</em>
 
@@ -778,7 +779,7 @@ Lungo says while she's seen protesters from Los Angeles, she thinks many have st
 <param name="movie" value="http://vimeo.com/moogaloop.swf?clip_id=13745048&amp;server=vimeo.com&amp;show_title=1&amp;show_byline=0&amp;show_portrait=1&amp;color=ffffff&amp;fullscreen=1">
 <embed src="http://vimeo.com/moogaloop.swf?clip_id=13745048&amp;server=vimeo.com&amp;show_title=1&amp;show_byline=0&amp;show_portrait=1&amp;color=ffffff&amp;fullscreen=1" type="application/x-shockwave-flash" allowfullscreen="true" allowscriptaccess="always" width="400" height="300"></embed></object>
 
-<font color="red" id="update-24"><strong>Updated at </strong></font><font color="black">1:23 p.m.</font> | <a href="opponents-supporters-arizona-immigration-law-gathe.html#update-24">Permalink</a>
+<font color="red" id="update-24"><strong>Updated at </strong></font><font color="black">1:23 p.m.</font> | <a href="#update-24">Permalink</a>
 
 <strong>California State Senator Cedillo defends Arizona boycott</strong>
 
@@ -798,7 +799,7 @@ Cedillo said that there needs to be one unified immigration policy, not 50 separ
 
 "We have a tremendous need to stabilize our economy and to protect our borders," said Cedillo. Cedillo argued that there needs to be immigration reform to allow for a more stable workforce that has legal status.
 
-<font color="red" id="update-22"><strong>Updated at </strong></font><font color="black">1:02 p.m.</font> | <a href="opponents-supporters-arizona-immigration-law-gathe.html#update-22">Permalink</a>
+<font color="red" id="update-22"><strong>Updated at </strong></font><font color="black">1:02 p.m.</font> | <a href="#update-22">Permalink</a>
 
 <strong>Protesters, police clash at Arizona jail</strong>
 
@@ -808,7 +809,7 @@ A protester confronts Maricopa County Sheriff’s deputies in riot gear at the e
 
 <a href="http://multiamerican.scpr.org/2010/07/protesters-cops-clash-at-county-booking-jail/">More at the Multi-American blog</a>
 
-<font color="red" id="update-21"><strong>Updated at </strong></font><font color="black">12:12 p.m.</font> | <a href="opponents-supporters-arizona-immigration-law-gathe.html#update-21">Permalink</a>
+<font color="red" id="update-21"><strong>Updated at </strong></font><font color="black">12:12 p.m.</font> | <a href="#update-21">Permalink</a>
 
 <strong>Civil disobedience at Sheriff Arpaio’s booking facility</strong>
 
@@ -816,11 +817,11 @@ Unitarian minister Susan Frederick-Gray is among those who have blocked the entr
 
 <a href="http://multiamerican.scpr.org/2010/07/civil-disobedience-at-sheriff-arpaios-booking-facility/">More at the Multi-American blog</a>
 
-<font color="red" id="update-20"><strong>Updated at </strong></font><font color="black">12:08 p.m.</font> | <a href="opponents-supporters-arizona-immigration-law-gathe.html#update-20">Permalink</a>
+<font color="red" id="update-20"><strong>Updated at </strong></font><font color="black">12:08 p.m.</font> | <a href="#update-20">Permalink</a>
 
 <strong>Arizona representative says the state needs changes, but not this one</strong>
 
-Arizona Rep. Kyrsten Sinema, a Democrat from Central Phoenix, <a href="/programs/airtalk/2010/07/29">joined AirTalk today</a> to talk about SB 1070, which she opposes.
+Arizona Rep. Kyrsten Sinema, a Democrat from Central Phoenix, <a href="http://www.scpr.org/programs/airtalk/2010/07/29">joined AirTalk today</a> to talk about SB 1070, which she opposes.
 
 She says she understands the motivation behind it, and that the federal government has not done enough to address illegal immigration. 
 
@@ -846,7 +847,7 @@ She also expresses her frustration with the boycotts of Arizona by Los Angeles c
 
 "I’m telling you, I hate that boycott. I’m against SB 1070 but also against the boycott," she says. "The boycott only helps those who are pushing forward the law. It allows people to use this as almost sort of a martyr issue….and it just drains money out of our state economy, which means less funding for education, public safety and health care.”
 
-<font color="red" id="update-19"><strong>Updated at </strong></font><font color="black">11:42 a.m.</font> | <a href="opponents-supporters-arizona-immigration-law-gathe.html#update-19">Permalink</a>
+<font color="red" id="update-19"><strong>Updated at </strong></font><font color="black">11:42 a.m.</font> | <a href="#update-19">Permalink</a>
 
 <strong>L.A. teacher joins labor protesters en route to Arizona</strong>
 
@@ -856,7 +857,7 @@ She's one of about four teachers sharing a bus with labor leaders from the AFL-C
 
 We’re hoping that our voice will be heard,” she said. "In this country, we really need to use all the talents of the peope who are here, and this is not the right approach.”
 
-<font color="red" id="update-18"><strong>Updated at </strong></font><font color="black">11:31 a.m.</font> | <a href="opponents-supporters-arizona-immigration-law-gathe.html#update-18">Permalink</a>
+<font color="red" id="update-18"><strong>Updated at </strong></font><font color="black">11:31 a.m.</font> | <a href="#update-18">Permalink</a>
 
 <strong>Tension and a heavy police presence as protesters shout 'Arrest Arpaio'</strong>
 
@@ -864,7 +865,7 @@ Phoenix police have blocked the street in front of Sheriff Joe Arpaio’s office
 
 <a href="http://multiamerican.scpr.org/2010/07/tension-and-a-heavy-police-presence-as-protesters-shout-arrest-arpaio/">More at the Multi-American blog</a>
 
-<font color="red" id="update-17"><strong>Updated at </strong></font><font color="black">11:26 a.m.</font> | <a href="opponents-supporters-arizona-immigration-law-gathe.html#update-17">Permalink</a>
+<font color="red" id="update-17"><strong>Updated at </strong></font><font color="black">11:26 a.m.</font> | <a href="#update-17">Permalink</a>
 
 <strong>Pima County Sheriff Dupnik opposes Arizona immigration law</strong>
 
@@ -898,7 +899,7 @@ He said that those who haven't committed serious crimes are turned over to borde
 
 Dupnik also agreed that illegal immigration is a serious problem. On a scale from 1 to 10, said Dupnik, "it's a 15."
 
-<font color="red" id="update-16"><strong>Updated at </strong></font><font color="black">11:02 a.m.</font> | <a href="opponents-supporters-arizona-immigration-law-gathe.html#update-16">Permalink</a>
+<font color="red" id="update-16"><strong>Updated at </strong></font><font color="black">11:02 a.m.</font> | <a href="#update-16">Permalink</a>
 
 <strong>Activist with Promise Arizona speaks out against SB 1070</strong>
 
@@ -912,7 +913,7 @@ When asked about the Latino influence in California politics that grew out of a 
 
 When asked about Arizona State Senator Russell Pierce saying that Hispanics support SB 1070, Medrano said Pierce was doing "a little bit of spinning." Medrano said that 81 percent of Latinos are against the law, both in Arizona and in L.A. County.
 
-<font color="red" id="update-15"><strong>Updated at </strong></font><font color="black">10:46 a.m.</font> | <a href="opponents-supporters-arizona-immigration-law-gathe.html#update-15">Permalink</a>
+<font color="red" id="update-15"><strong>Updated at </strong></font><font color="black">10:46 a.m.</font> | <a href="#update-15">Permalink</a>
 
 <strong>Arizona Republican State Senator Pierce says Wednesday injunction was 'poor decision'</strong>
 
@@ -940,7 +941,7 @@ Pierce said that criminals come across the border illegally including drug smugg
 
 Pierce is working on more legislation fighting illegal immigration, including one bill regarding what Pierce called "anchor babies," children born to illegal immigrants in the United States who automatically become citizens.
 
-<font color="red" id="update-14"><strong>Updated at </strong></font><font color="black">10:28 a.m.</font> | <a href="opponents-supporters-arizona-immigration-law-gathe.html#update-14">Permalink</a>
+<font color="red" id="update-14"><strong>Updated at </strong></font><font color="black">10:28 a.m.</font> | <a href="#update-14">Permalink</a>
 
 <strong>Protesters take over street in front of Phoenix Superior Court</strong><br><em>Adolfo Guzman-Lopez</em>
 
@@ -948,7 +949,7 @@ A couple of hundred opponents of SB 1070 have taken over the street in front of 
 
 A member of the National Lawyers Guild, who’s an observer, says that the protesters have negotiated with police for police to allow the protesters to take the street for about 30 minutes, after which time they will be told that this is an unlawful assembly.
 
-<font color="red" id="update-13"><strong>Updated at </strong></font><font color="black">10:25 a.m.</font> | <a href="opponents-supporters-arizona-immigration-law-gathe.html#update-13">Permalink</a>
+<font color="red" id="update-13"><strong>Updated at </strong></font><font color="black">10:25 a.m.</font> | <a href="#update-13">Permalink</a>
 
 <strong>Phoenix Mayor Gordon opposes Arizona immigration law</strong>
 
@@ -972,7 +973,7 @@ Gordon called the raids by the sheriff's department "publicity stunts," and he s
 
 Gordon also said that people leaving Arizona is hurting the state. "They're not just undocumented moving away." He said that it's affecting their numbers in the census, which could lead to the state losing representation in Congress, and they're also losing sales tax money.
 
-<font color="red" id="update-12"><strong>Updated at </strong></font><font color="black">10:19 a.m.</font> | <a href="opponents-supporters-arizona-immigration-law-gathe.html#update-12">Permalink</a>
+<font color="red" id="update-12"><strong>Updated at </strong></font><font color="black">10:19 a.m.</font> | <a href="#update-12">Permalink</a>
 
 <strong>Protesters block street in civil disobedience, face arrest</strong>
 
@@ -980,7 +981,7 @@ Protesters took over a street as an act of civil disobedience. Police have told 
 
 Initially about 200 people were in the street. About half moved to the side, but approximately 100 are still in the street. Some hold signs saying "Defeat SB 1070 in the street," along with other anti-SB 1070 protest signs.
 
-<font color="red" id="update-11"><strong>Updated at </strong></font><font color="black">10:17 a.m.</font> | <a href="opponents-supporters-arizona-immigration-law-gathe.html#update-11">Permalink</a>
+<font color="red" id="update-11"><strong>Updated at </strong></font><font color="black">10:17 a.m.</font> | <a href="#update-11">Permalink</a>
 
 <strong>Labor union shuttles head from LA to Phoenix</strong>
 
@@ -992,7 +993,7 @@ About a dozen shuttles left Dodger Stadium earlier this morning with hundreds of
  
 Arizona says it’ll ask an appeals court to lift yesterday’s federal court ruling.
 
-<font color="red" id="update-10"><strong>Updated at </strong></font><font color="black">10:02 a.m.</font> | <a href="opponents-supporters-arizona-immigration-law-gathe.html#update-10">Permalink</a>
+<font color="red" id="update-10"><strong>Updated at </strong></font><font color="black">10:02 a.m.</font> | <a href="#update-10">Permalink</a>
 
 <strong>Arizona police oppose SB 1070</strong>
 
@@ -1002,7 +1003,7 @@ Villaseñor said that police already had the power to ask about someone's immigr
 
 Arizona's statewide police chief organization also opposes SB 1070.
 
-<font color="red" id="update-9"><strong>Updated at </strong></font><font color="black">9:58 a.m.</font> | <a href="opponents-supporters-arizona-immigration-law-gathe.html#update-9">Permalink</a>
+<font color="red" id="update-9"><strong>Updated at </strong></font><font color="black">9:58 a.m.</font> | <a href="#update-9">Permalink</a>
 
 <strong>Protesters arrested at Phoenix federal courthouse in civil disobedience action</strong><br><em>Reporting by Marcos Najera of KPCC sister station KJZZ in Phoenix</em>
 
@@ -1020,7 +1021,7 @@ Protesters gathered around a man wearing a costume of sheriff Joe with a giant h
 
 Rather than canceling protests after Wednesday's injunction, protesters gathered Thursday, saying this is the beginning of an ongoing struggle, particularly with the law still being put in action and the injunction being a temporary one that's being appealed.
 
-<font color="red" id="update-8"><strong>Updated at </strong></font><font color="black">9:51 a.m.</font> | <a href="opponents-supporters-arizona-immigration-law-gathe.html#update-8">Permalink</a>
+<font color="red" id="update-8"><strong>Updated at </strong></font><font color="black">9:51 a.m.</font> | <a href="#update-8">Permalink</a>
 
 <strong>Only Republican Latino in Arizona legislature explains why he supports SB 1070</strong>
 
@@ -1044,7 +1045,7 @@ Montenegro continued to talk about the criticism he's received. "I'm taking a lo
 
 Montenegro also added that it's not about one group entering illegally. "Illegal immigration comes from all over this world."
 
-<font color="red" id="update-7"><strong>Updated at </strong></font><font color="black">9:43 a.m.</font> | <a href="opponents-supporters-arizona-immigration-law-gathe.html#update-7">Permalink</a>
+<font color="red" id="update-7"><strong>Updated at </strong></font><font color="black">9:43 a.m.</font> | <a href="#update-7">Permalink</a>
 
 <strong>11 buses head from Southern California to Phoenix filled with anti-SB 1070 protesters</strong>
 
@@ -1060,7 +1061,7 @@ Durazo said that her group isn't planning any civil disobedience.
 
 The buses, carrying workers representing many different industries, as well as both native citizens and immigrants, are scheduled to arrive shortly after noon.
 
-<font color="red" id="update-6"><strong>Updated at </strong></font><font color="black">9:23 a.m.</font> | <a href="opponents-supporters-arizona-immigration-law-gathe.html#update-6">Permalink</a>
+<font color="red" id="update-6"><strong>Updated at </strong></font><font color="black">9:23 a.m.</font> | <a href="#update-6">Permalink</a>
 
 Phoenix resident Maria Morales, 28, was staffing a voter registration location with the organization Promise Arizona. "We need the votes from a lot of Hispanic people that are not voting, that are not registered to vote, because they don't know what this is about."
 
@@ -1070,7 +1071,7 @@ Morales's aunts and uncles ultimately didn't leave due to Wednesday's injunction
 
 Morales said she appreciated those from around the country supporting those opposed to the law. "I feel good that they're actually looking out for us and they're helping us out. There are people here from other states supporting us."
 
-<font color="red" id="update-5"><strong>Updated at </strong></font><font color="black">9:15 a.m.</font> | <a href="opponents-supporters-arizona-immigration-law-gathe.html#update-5">Permalink</a>
+<font color="red" id="update-5"><strong>Updated at </strong></font><font color="black">9:15 a.m.</font> | <a href="#update-5">Permalink</a>
 
 Kristen Larsen, software engineer, was a member of the less visible supporters of the Arizona immigration law. She was stationed across the street from a couple hundred opponents of SB 1070.
 
@@ -1082,7 +1083,7 @@ When asked about her hopes for what happens going forward, Larsen said, "I hope 
 
 "This is the United States. Why are they flying Mexican flags?"
 
-<font color="red" id="update-4"><strong>Updated at </strong></font><font color="black">7:50 a.m.</font> | <a href="opponents-supporters-arizona-immigration-law-gathe.html#update-4">Permalink</a>
+<font color="red" id="update-4"><strong>Updated at </strong></font><font color="black">7:50 a.m.</font> | <a href="#update-4">Permalink</a>
 
 <strong>College graduate hopes to become legal</strong>
 
@@ -1090,13 +1091,13 @@ When asked about her hopes for what happens going forward, Larsen said, "I hope 
 
 German Cadenas, 23, spoke at a morning prayer service in Phoenix. He graduated with dual degrees from Arizona State University, but is an illegal immigrant and doesn't have access to school loans. Read more on <a href="http://multiamerican.scpr.org/">KPCC's Multi-American blog.</a>
 
-<font color="red" id="update-3"><strong>Updated at </strong></font><font color="black">7:44 a.m.</font> | <a href="opponents-supporters-arizona-immigration-law-gathe.html#update-3">Permalink</a>
+<font color="red" id="update-3"><strong>Updated at </strong></font><font color="black">7:44 a.m.</font> | <a href="#update-3">Permalink</a>
 
 <strong>Latest count from LA County Federation of Labor on people going to Arizona</strong>
 
 The Los Angeles County Federation of Labor sent 11 buses full of protesters from Southern California to Phoenix. They say a total of 575 protesters are in that group.
 
-<font color="red" id="update-2"><strong>Updated at </strong></font><font color="black">6:43 a.m.</font> | <a href="opponents-supporters-arizona-immigration-law-gathe.html#update-2">Permalink</a>
+<font color="red" id="update-2"><strong>Updated at </strong></font><font color="black">6:43 a.m.</font> | <a href="#update-2">Permalink</a>
 
 <strong>SB1070 protesters march in procession to Trinity Church</strong>
 
@@ -1112,7 +1113,7 @@ Lenora Marie Sanchez with the Unitarian Universalist Church was one of the prote
 
 "I'm here because we believe in the inherent worth and dignity of every person," said Sanchez, "and that all of us are interconnected, and that the people who are immigrants come here to work. And we need people who want to work, and they are being victims of a broken immigration system."
 
-<font color="red" id="update-1"><strong>Updated at </strong></font><font color="black">6:39 a.m.</font> | <a href="opponents-supporters-arizona-immigration-law-gathe.html#update-1">Permalink</a>
+<font color="red" id="update-1"><strong>Updated at </strong></font><font color="black">6:39 a.m.</font> | <a href="#update-1">Permalink</a>
 
 <strong>SB1070 opponents attend Phoenix prayer vigil</strong>
 
@@ -1183,37 +1184,37 @@ Union members led by the Los Angeles County Federal of Labor, AFL-CIO, also plan
         <a href="/news/2010/11/02/20627/imm-rally/">Federal judges consider constitutionality of Arizona immigration law</a>
       </li>
       <li class="b-heading--medium">
-        <a href="../../../08/09/18152/southern-california-immigration-lawyer-facing-brib.html">Southern California immigration lawyer facing bribery sentence</a>
+        <a href="/news/2010/08/09/18152/southern-california-immigration-lawyer-facing-brib/">Southern California immigration lawyer facing bribery sentence</a>
       </li>
       <li class="b-heading--medium">
-        <a href="../../30/17874/arizona-governor-considers-changing-immigration-la.html">Arizona governor considers changing immigration law</a>
+        <a href="/news/2010/07/30/17874/arizona-governor-considers-changing-immigration-la/">Arizona governor considers changing immigration law</a>
       </li>
       <li class="b-heading--medium">
-        <a href="../../30/17847/opponents-protest-arizona-immigration-law.html">Opponents Protest Arizona Immigration Law</a>
+        <a href="/news/2010/07/30/17847/opponents-protest-arizona-immigration-law/">Opponents Protest Arizona Immigration Law</a>
       </li>
       <li class="b-heading--medium">
-        <a href="../../30/17842/arizona-sheriff.html">Arizona files appeal as sheriff launches new sweep</a>
+        <a href="/news/2010/07/29/17842/arizona-sheriff/">Arizona files appeal as sheriff launches new sweep</a>
       </li>
       <li class="b-heading--medium">
-        <a href="../17818/immigration-activists-block-la-intersection.html">Immigration activists block LA intersection [Updated]</a>
+        <a href="/news/2010/07/29/17818/immigration-activists-block-la-intersection/">Immigration activists block LA intersection [Updated]</a>
       </li>
       <li class="b-heading--medium">
         <a href="/programs/patt-morrison/2010/07/29/15702/about-that-boycottshould-california-go-forward-wit/">About that boycott... should California go forward with Arizona boycott?</a>
       </li>
       <li class="b-heading--medium">
-        <a href="../17815/southland-supporters-sb1070-plan-go-phoenix-protes.html">Southland supporters of SB1070 going to Phoenix to protest judge’s ruling</a>
+        <a href="/news/2010/07/29/17815/southland-supporters-sb1070-plan-go-phoenix-protes/">Southland supporters of SB1070 going to Phoenix to protest judge’s ruling</a>
       </li>
       <li class="b-heading--medium">
-        <a href="../../28/17802/temecula-area-cities-adopt-anti-illegal-immigratio.html">Temecula-area cities adopt anti-illegal immigration laws</a>
+        <a href="/news/2010/07/28/17802/temecula-area-cities-adopt-anti-illegal-immigratio/">Temecula-area cities adopt anti-illegal immigration laws</a>
       </li>
       <li class="b-heading--medium">
-        <a href="../../28/17798/phonenix-bound.html">Southland activists head to Phoenix SB1070 protest</a>
+        <a href="/news/2010/07/28/17798/phonenix-bound/">Southland activists head to Phoenix SB1070 protest</a>
       </li>
       <li class="b-heading--medium">
         <a href="http://multiamerican.scpr.org/">Multi-American: A blog about immigration and cultural fusion</a>
       </li>
       <li class="b-heading--medium">
-        <a href="/programs/airtalk/2010/07/29/">AirTalk Live from Phoenix: Day 1 of Arizona's immigration law SB1070</a>
+        <a href="http://www.scpr.org/programs/airtalk/2010/07/29/">AirTalk Live from Phoenix: Day 1 of Arizona's immigration law SB1070</a>
       </li>
       <li class="b-heading--medium">
         <a href="http://vimeo.com/13745048">Civil disobedience at Maricopa County Courthouse</a>
@@ -1231,14 +1232,14 @@ Union members led by the Los Angeles County Federal of Labor, AFL-CIO, also plan
       </a>
     </li>
     <li class="facebook">
-      <a href="opponents-supporters-arizona-immigration-law-gathe.html#" class="social_fb b-popup__link track-event facebook" data-ga-category="Article" data-ga-action="Share" data-ga-label="Facebook" data-url="https://www.scpr.org/news/2010/07/29/17816/opponents-supporters-arizona-immigration-law-gathe/">
+      <a href="#" class="social_fb b-popup__link track-event facebook" data-ga-category="Article" data-ga-action="Share" data-ga-label="Facebook" data-url="https://www.scpr.org/news/2010/07/29/17816/opponents-supporters-arizona-immigration-law-gathe/">
         <svg class="b-icon">
           <use class="b-icon--color-gray-light" xlink:href="/static/images/scpr-sprite.svg#icon_line-facebook-inverted"/>
         </svg>
       </a>
     </li>
     <li class="twitter">
-      <a href="opponents-supporters-arizona-immigration-law-gathe.html#" class="social_twit b-popup__link track-event twitter" data-ga-category="Article" data-ga-action="Share" data-ga-label="Twitter" data-url="https://www.scpr.org/news/2010/07/29/17816/opponents-supporters-arizona-immigration-law-gathe/" data-text="Opponents%2C%20supporters%20of%20Arizona%20immigration%20law%20gather%20to%20protest%20%5BUpdated%5D">
+      <a href="#" class="social_twit b-popup__link track-event twitter" data-ga-category="Article" data-ga-action="Share" data-ga-label="Twitter" data-url="https://www.scpr.org/news/2010/07/29/17816/opponents-supporters-arizona-immigration-law-gathe/" data-text="Opponents%2C%20supporters%20of%20Arizona%20immigration%20law%20gather%20to%20protest%20%5BUpdated%5D">
         <svg class="b-icon">
           <use class="b-icon--color-gray-light" xlink:href="/static/images/scpr-sprite.svg#icon_line-twitter"/>
         </svg>
@@ -1273,7 +1274,7 @@ Union members led by the Los Angeles County Federal of Labor, AFL-CIO, also plan
 
 
 <aside class="o-epilogue l-column--boundless" style="order: 1001">
-  <img class="o-epilogue__graphic" src="../../../../../assets/graphic_epilogue-donate-da43de6f4b535f18d15ac128cd10b27d.svg.html">
+  <img class="o-epilogue__graphic" src="/assets/graphic_epilogue-donate-da43de6f4b535f18d15ac128cd10b27d.svg">
   <div class="o-epilogue__text">
     <h1 class="o-epilogue__heading"><a href="https://support.kpcc.org/default?ms=subfooter">KPCC's Politics coverage is a Southern California resource provided by member-supported public radio. We can't do it without you.</a></h1>
     <a class="o-epilogue-callout b-link b-link--callout" href="https://support.kpcc.org/default?ms=subfooter">Your contributions power KPCC.  Give today.</a>
@@ -1433,7 +1434,7 @@ Union members led by the Los Angeles County Federal of Labor, AFL-CIO, also plan
         </div>
       </div>
       <div class="o-audio-bar__buttons">
-          <a class="o-audio-bar__download" href="opponents-supporters-arizona-immigration-law-gathe.html#" download>
+          <a class="o-audio-bar__download" href="#" download>
             <svg class="b-icon o-audio-bar__download-icon" data-ga-category="Article" data-ga-action="Volume" data-ga-label="Player">
               <use class="" xlink:href="/static/images/scpr-sprite.svg#icon_line-download"/>
               Download
@@ -1566,7 +1567,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                         };
 </script>
   <noscript>
-    <img src="https://pixel.quantserve.com/pixel/p-_ZNT1e57PQPC3.gif?labels=_fp.event.Default" style="display: none;" border="0" height="1" width="1" alt="Quantcast"/>
+    <img src="//pixel.quantserve.com/pixel/p-_ZNT1e57PQPC3.gif?labels=_fp.event.Default" style="display: none;" border="0" height="1" width="1" alt="Quantcast"/>
   </noscript>
 <!-- End Quantcast Tag -->
 
@@ -1595,6 +1596,6 @@ $(function() {
 </html>
 
 
-    <script src="../../../../../assets/better_homepage/style-guide-595f2dc3b18234ed913ffd5b40175ebc.js" async="async"></script>
+    <script src="/assets/better_homepage/style-guide-595f2dc3b18234ed913ffd5b40175ebc.js" async="async"></script>
   </body>
 </html>

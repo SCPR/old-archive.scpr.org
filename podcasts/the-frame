@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xmlns:psc="https://podlove.org/simple-chapters/" xmlns:omny="https://omny.fm/rss-extensions" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" xmlns:acast="https://schema.acast.com/1.0/" version="2.0">
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xmlns:psc="https://podlove.org/simple-chapters/" xmlns:omny="https://omny.fm/rss-extensions" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" xmlns:acast="https://schema.acast.com/1.0/" xmlns:podcast="https://podcastindex.org/namespace/1.0" version="2.0">
   <channel>
+    <omny:organizationId>acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43</omny:organizationId>
+    <omny:programId>815fca98-9b99-457b-a850-ab220122eb04</omny:programId>
+    <omny:networkId>b487d8dd-df6e-4c01-b78e-ab100184df07</omny:networkId>
     <language>en-US</language>
     <atom:link rel="self" type="application/rss+xml" href="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/815fca98-9b99-457b-a850-ab220122eb04/59844cdf-aed7-4620-b045-ab220122eb21/podcast.rss" />
     <atom:link rel="next" type="application/rss+xml" href="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/815fca98-9b99-457b-a850-ab220122eb04/59844cdf-aed7-4620-b045-ab220122eb21/podcast.rss?page=2" />
@@ -27,47 +30,6 @@
       <title>The Frame</title>
       <link>https://www.scpr.org/programs/the-frame/</link>
     </image>
-    <item>
-      <title>Introducing WILD by LAist Studios</title>
-      <itunes:title>Introducing WILD by LAist Studios</itunes:title>
-      <description>Introducing WILD by LAist Studios, a podcast about origin stories. About those moments big and small that transform people forever. Season 1 of WILD: Home Forever is a time capsule of these kinds of moments captured during a global pandemic that left a lot of us "growing up" again while stuck at home for more than a year.
-
-In episode 1, we meet Daisy Figueroa who went back to her childhood home and decides to transform it. In the process, she creates her own business and redefines the standard of living for people in her community. 
-
-Sponsors include:
-
-Match with a licensed therapist when you go to talkspace.com and get $100 off your first month with the promo code WILD.
-
-This program is made possible in part by the Corporation for Public Broadcasting, a private corporation funded by the American people.</description>
-      <content:encoded><![CDATA[<p>Introducing WILD by LAist Studios, a podcast about origin stories. About those moments big and small that transform people forever. Season 1 of WILD: Home Forever is a time capsule of these kinds of moments captured during a global pandemic that left a lot of us "growing up" again while stuck at home for more than a year.</p>
-<p>In episode 1, we meet Daisy Figueroa who went back to her childhood home and decides to transform it. In the process, she creates her own business and redefines the standard of living for people in her community.&nbsp;</p>
-<p>Sponsors include:</p>
-<p>Match with a licensed therapist when you go to talkspace.com and get $100 off your first month with the promo code WILD.</p>
-<p>This program is made possible in part by the Corporation for Public Broadcasting, a private corporation funded by the American people.</p>]]></content:encoded>
-      <itunes:summary>Introducing WILD by LAist Studios, a podcast about origin stories. About those moments big and small that transform people forever. Season 1 of WILD: Home Forever is a time capsule of these kinds of moments captured during a global pandemic that left a lot of us "growing up" again while stuck at home for more than a year.
-
-In episode 1, we meet Daisy Figueroa who went back to her childhood home and decides to transform it. In the process, she creates her own business and redefines the standard of living for people in her community. 
-
-Sponsors include:
-
-Match with a licensed therapist when you go to talkspace.com and get $100 off your first month with the promo code WILD.
-
-This program is made possible in part by the Corporation for Public Broadcasting, a private corporation funded by the American people.</itunes:summary>
-      <itunes:episodeType>full</itunes:episodeType>
-      <itunes:author>KPCC 89.3</itunes:author>
-      <itunes:image href="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/815fca98-9b99-457b-a850-ab220122eb04/59844cdf-aed7-4620-b045-ab220122eb21/image.jpg?t=1576258753&amp;size=Large" />
-      <media:content url="https://chtbl.com/track/84GC29/traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/815fca98-9b99-457b-a850-ab220122eb04/b70bc031-dbf7-4cf8-97e7-ad5501171378/audio.mp3?utm_source=Podcast&amp;in_playlist=59844cdf-aed7-4620-b045-ab220122eb21" type="audio/mpeg">
-        <media:player url="https://omny.fm/shows/the-frame/introducing-wild-by-laist-studios/embed" />
-      </media:content>
-      <media:content url="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/815fca98-9b99-457b-a850-ab220122eb04/59844cdf-aed7-4620-b045-ab220122eb21/image.jpg?t=1576258753&amp;size=Large" type="image/jpeg" />
-      <guid isPermaLink="false">b70bc031-dbf7-4cf8-97e7-ad5501171378</guid>
-      <omny:clipId>b70bc031-dbf7-4cf8-97e7-ad5501171378</omny:clipId>
-      <pubDate>Thu, 01 Jul 2021 09:30:00 +0000</pubDate>
-      <itunes:duration>2080</itunes:duration>
-      <enclosure url="https://chtbl.com/track/84GC29/traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/815fca98-9b99-457b-a850-ab220122eb04/b70bc031-dbf7-4cf8-97e7-ad5501171378/audio.mp3?utm_source=Podcast&amp;in_playlist=59844cdf-aed7-4620-b045-ab220122eb21" length="33301125" type="audio/mpeg" />
-      <link>https://laist.com/wild</link>
-      <itunes:explicit>yes</itunes:explicit>
-    </item>
     <item>
       <title>'Hollywood, The Sequel,' Episode 12: "No Going Back to “Normal” with Guillermo del Toro, Zack Arnold and Laine Trzinski"</title>
       <itunes:title>'Hollywood, The Sequel,' Episode 12: "No Going Back to “Normal” with Guillermo del Toro, Zack Arnold and Laine Trzinski"</itunes:title>
@@ -1610,6 +1572,9 @@ Stream We Are Freestyle Love Supreme beginning July 17, only on Hulu</itunes:sum
       <itunes:duration>1540</itunes:duration>
       <enclosure url="https://chtbl.com/track/84GC29/traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/815fca98-9b99-457b-a850-ab220122eb04/4c7619a8-5f1b-41f1-84ef-ab4600133b8d/audio.mp3?utm_source=Podcast&amp;in_playlist=59844cdf-aed7-4620-b045-ab220122eb21" length="24675532" type="audio/mpeg" />
       <link>https://omny.fm/shows/the-frame/why-auschwitz-is-not-long-ago-not-far-away</link>
+      <podcast:transcript url="https://omny.fm/api/orgs/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/clips/4c7619a8-5f1b-41f1-84ef-ab4600133b8d/transcript?format=SubRip&amp;speakers=true&amp;t=1595958601" type="application/srt" language="en-US" />
+      <podcast:transcript url="https://omny.fm/api/orgs/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/clips/4c7619a8-5f1b-41f1-84ef-ab4600133b8d/transcript?format=WebVTT&amp;speakers=true&amp;t=1595958601" type="text/vtt" language="en-US" />
+      <podcast:transcript url="https://omny.fm/api/orgs/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/clips/4c7619a8-5f1b-41f1-84ef-ab4600133b8d/transcript?format=TextWithTimestamps&amp;speakers=true&amp;t=1595958601" type="text/plain" language="en-US" />
     </item>
     <item>
       <title>Chuck Palahniuk Writes About Writing</title>
@@ -1630,6 +1595,9 @@ Stream We Are Freestyle Love Supreme beginning July 17, only on Hulu</itunes:sum
       <itunes:duration>1541</itunes:duration>
       <enclosure url="https://chtbl.com/track/84GC29/traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/815fca98-9b99-457b-a850-ab220122eb04/3f0ccdf7-4b18-49cb-9f9e-ab450011180b/audio.mp3?utm_source=Podcast&amp;in_playlist=59844cdf-aed7-4620-b045-ab220122eb21" length="24685963" type="audio/mpeg" />
       <link>https://omny.fm/shows/the-frame/chuck-palahniuk-writes-about-writing</link>
+      <podcast:transcript url="https://omny.fm/api/orgs/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/clips/3f0ccdf7-4b18-49cb-9f9e-ab450011180b/transcript?format=SubRip&amp;speakers=true&amp;t=1595958588" type="application/srt" language="en-US" />
+      <podcast:transcript url="https://omny.fm/api/orgs/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/clips/3f0ccdf7-4b18-49cb-9f9e-ab450011180b/transcript?format=WebVTT&amp;speakers=true&amp;t=1595958588" type="text/vtt" language="en-US" />
+      <podcast:transcript url="https://omny.fm/api/orgs/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/clips/3f0ccdf7-4b18-49cb-9f9e-ab450011180b/transcript?format=TextWithTimestamps&amp;speakers=true&amp;t=1595958588" type="text/plain" language="en-US" />
     </item>
     <item>
       <title>'Moulin Rouge!' Is The Ultimate Jukebox Musical</title>
@@ -1650,6 +1618,9 @@ Stream We Are Freestyle Love Supreme beginning July 17, only on Hulu</itunes:sum
       <itunes:duration>1552</itunes:duration>
       <enclosure url="https://chtbl.com/track/84GC29/traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/815fca98-9b99-457b-a850-ab220122eb04/d0c7d720-95f1-40fd-a51f-ab43018490c0/audio.mp3?utm_source=Podcast&amp;in_playlist=59844cdf-aed7-4620-b045-ab220122eb21" length="24862363" type="audio/mpeg" />
       <link>https://omny.fm/shows/the-frame/moulin-rouge-is-the-ultimate-jukebox-musical</link>
+      <podcast:transcript url="https://omny.fm/api/orgs/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/clips/d0c7d720-95f1-40fd-a51f-ab43018490c0/transcript?format=SubRip&amp;speakers=true&amp;t=1595958567" type="application/srt" language="en-US" />
+      <podcast:transcript url="https://omny.fm/api/orgs/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/clips/d0c7d720-95f1-40fd-a51f-ab43018490c0/transcript?format=WebVTT&amp;speakers=true&amp;t=1595958567" type="text/vtt" language="en-US" />
+      <podcast:transcript url="https://omny.fm/api/orgs/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/clips/d0c7d720-95f1-40fd-a51f-ab43018490c0/transcript?format=TextWithTimestamps&amp;speakers=true&amp;t=1595958567" type="text/plain" language="en-US" />
     </item>
     <item>
       <title>The Particular Challenge Of Writing '1917'</title>
@@ -1670,6 +1641,9 @@ Stream We Are Freestyle Love Supreme beginning July 17, only on Hulu</itunes:sum
       <itunes:duration>1543</itunes:duration>
       <enclosure url="https://chtbl.com/track/84GC29/traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/815fca98-9b99-457b-a850-ab220122eb04/a7bfeff7-3f92-4c05-ab89-ab430007d9e4/audio.mp3?utm_source=Podcast&amp;in_playlist=59844cdf-aed7-4620-b045-ab220122eb21" length="24718157" type="audio/mpeg" />
       <link>https://omny.fm/shows/the-frame/the-particular-challenge-of-writing-1917</link>
+      <podcast:transcript url="https://omny.fm/api/orgs/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/clips/a7bfeff7-3f92-4c05-ab89-ab430007d9e4/transcript?format=SubRip&amp;speakers=true&amp;t=1595958495" type="application/srt" language="en-US" />
+      <podcast:transcript url="https://omny.fm/api/orgs/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/clips/a7bfeff7-3f92-4c05-ab89-ab430007d9e4/transcript?format=WebVTT&amp;speakers=true&amp;t=1595958495" type="text/vtt" language="en-US" />
+      <podcast:transcript url="https://omny.fm/api/orgs/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/clips/a7bfeff7-3f92-4c05-ab89-ab430007d9e4/transcript?format=TextWithTimestamps&amp;speakers=true&amp;t=1595958495" type="text/plain" language="en-US" />
     </item>
     <item>
       <title>The Return Of #OscarsSoWhite</title>
@@ -1690,6 +1664,9 @@ Stream We Are Freestyle Love Supreme beginning July 17, only on Hulu</itunes:sum
       <itunes:duration>1551</itunes:duration>
       <enclosure url="https://chtbl.com/track/84GC29/traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/815fca98-9b99-457b-a850-ab220122eb04/edf63eef-5757-45ff-953a-ab420019aac8/audio.mp3?utm_source=Podcast&amp;in_playlist=59844cdf-aed7-4620-b045-ab220122eb21" length="24850622" type="audio/mpeg" />
       <link>https://omny.fm/shows/the-frame/the-return-of-oscarssowhite</link>
+      <podcast:transcript url="https://omny.fm/api/orgs/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/clips/edf63eef-5757-45ff-953a-ab420019aac8/transcript?format=SubRip&amp;speakers=true&amp;t=1595958523" type="application/srt" language="en-US" />
+      <podcast:transcript url="https://omny.fm/api/orgs/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/clips/edf63eef-5757-45ff-953a-ab420019aac8/transcript?format=WebVTT&amp;speakers=true&amp;t=1595958523" type="text/vtt" language="en-US" />
+      <podcast:transcript url="https://omny.fm/api/orgs/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/clips/edf63eef-5757-45ff-953a-ab420019aac8/transcript?format=TextWithTimestamps&amp;speakers=true&amp;t=1595958523" type="text/plain" language="en-US" />
     </item>
     <item>
       <title>Weekend: Jon Batiste; Iranian-American comedian Zahra Noorbaksh; Cristela Alonzo &amp; more...</title>
@@ -2213,6 +2190,26 @@ and supporting actress ("Jojo Rabbit")?</itunes:summary>
       <itunes:duration>401</itunes:duration>
       <enclosure url="https://chtbl.com/track/84GC29/traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/815fca98-9b99-457b-a850-ab220122eb04/538b0bcf-8734-4d89-bc2e-ab220122f2ac/audio.mp3?utm_source=Podcast&amp;in_playlist=59844cdf-aed7-4620-b045-ab220122eb21" length="6449479" type="audio/mpeg" />
       <link>https://omny.fm/shows/the-frame/screen-actors-guild-reveals-award-nominees</link>
+    </item>
+    <item>
+      <title>Gugu Mbatha-Raw Is Getting Camera Time</title>
+      <itunes:title>Gugu Mbatha-Raw Is Getting Camera Time</itunes:title>
+      <description>The actress had a breakout year, with roles in “Motherless Brooklyn,” “The Morning Show” and the well-reviewed but barely seen “Fast Color”; Clint Eastwood's "Richard Jewell" is being blasted over its depiction of a female journalist; “Joe Pera Talks With You” and we talk with him.</description>
+      <content:encoded><![CDATA[The actress had a breakout year, with roles in “Motherless Brooklyn,” “The Morning Show” and the well-reviewed but barely seen “Fast Color”; Clint Eastwood's "Richard Jewell" is being blasted over its depiction of a female journalist; “Joe Pera Talks With You” and we talk with him.]]></content:encoded>
+      <itunes:summary>The actress had a breakout year, with roles in “Motherless Brooklyn,” “The Morning Show” and the well-reviewed but barely seen “Fast Color”; Clint Eastwood's "Richard Jewell" is being blasted over its depiction of a female journalist; “Joe Pera Talks With You” and we talk with him.</itunes:summary>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:author>KPCC 89.3</itunes:author>
+      <itunes:image href="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/815fca98-9b99-457b-a850-ab220122eb04/59844cdf-aed7-4620-b045-ab220122eb21/image.jpg?t=1576258753&amp;size=Large" />
+      <media:content url="https://chtbl.com/track/84GC29/traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/815fca98-9b99-457b-a850-ab220122eb04/114bfe19-3cb4-475e-81e9-ab220122f51d/audio.mp3?utm_source=Podcast&amp;in_playlist=59844cdf-aed7-4620-b045-ab220122eb21" type="audio/mpeg">
+        <media:player url="https://omny.fm/shows/the-frame/gugu-mbatha-raw-is-getting-camera-time/embed" />
+      </media:content>
+      <media:content url="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/815fca98-9b99-457b-a850-ab220122eb04/59844cdf-aed7-4620-b045-ab220122eb21/image.jpg?t=1576258753&amp;size=Large" type="image/jpeg" />
+      <guid isPermaLink="false">5338e262-1b78-11ea-9cdf-b7e24a9ff1cc</guid>
+      <omny:clipId>114bfe19-3cb4-475e-81e9-ab220122f51d</omny:clipId>
+      <pubDate>Tue, 10 Dec 2019 17:47:00 +0000</pubDate>
+      <itunes:duration>1539</itunes:duration>
+      <enclosure url="https://chtbl.com/track/84GC29/traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/815fca98-9b99-457b-a850-ab220122eb04/114bfe19-3cb4-475e-81e9-ab220122f51d/audio.mp3?utm_source=Podcast&amp;in_playlist=59844cdf-aed7-4620-b045-ab220122eb21" length="24655038" type="audio/mpeg" />
+      <link>https://omny.fm/shows/the-frame/gugu-mbatha-raw-is-getting-camera-time</link>
     </item>
   </channel>
 </rss>

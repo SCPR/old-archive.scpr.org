@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xmlns:psc="https://podlove.org/simple-chapters/" xmlns:omny="https://omny.fm/rss-extensions" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" xmlns:acast="https://schema.acast.com/1.0/" version="2.0">
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xmlns:psc="https://podlove.org/simple-chapters/" xmlns:omny="https://omny.fm/rss-extensions" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" xmlns:acast="https://schema.acast.com/1.0/" xmlns:podcast="https://podcastindex.org/namespace/1.0" version="2.0">
   <channel>
+    <omny:organizationId>acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43</omny:organizationId>
+    <omny:programId>95a0ba2f-2810-459a-a106-ab09010e1229</omny:programId>
+    <omny:networkId>be39aa5b-8337-4dd2-8875-ab21017b79be</omny:networkId>
     <language>en-US</language>
     <atom:link rel="self" type="application/rss+xml" href="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/95a0ba2f-2810-459a-a106-ab09010e1229/89b076fd-9b08-4f8b-95b2-ab09010e123c/podcast.rss" />
     <atom:link rel="first" type="application/rss+xml" href="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/95a0ba2f-2810-459a-a106-ab09010e1229/89b076fd-9b08-4f8b-95b2-ab09010e123c/podcast.rss?page=1" />
@@ -244,47 +247,6 @@
       <itunes:duration>872</itunes:duration>
       <enclosure url="https://chtbl.com/track/84GC29/dts.podtrac.com/redirect.mp3/traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/95a0ba2f-2810-459a-a106-ab09010e1229/e4dc908d-2c65-49a9-96ee-ab09010e1686/audio.mp3?utm_source=Podcast&amp;in_playlist=89b076fd-9b08-4f8b-95b2-ab09010e123c" length="14020549" type="audio/mpeg" />
       <link>https://laist.com/podcasts/the-big-one.php</link>
-    </item>
-    <item>
-      <title>Introducing WILD by LAist Studios</title>
-      <itunes:title>Introducing WILD by LAist Studios</itunes:title>
-      <description>Introducing WILD by LAist Studios, a podcast about origin stories. About those moments big and small that transform people forever. Season 1 of WILD: Home Forever is a time capsule of these kinds of moments captured during a global pandemic that left a lot of us "growing up" again while stuck at home for more than a year.
-
-In episode 1, we meet Daisy Figueroa who went back to her childhood home and decides to transform it. In the process, she creates her own business and redefines the standard of living for people in her community. 
-
-Sponsors include:
-
-Match with a licensed therapist when you go to talkspace.com and get $100 off your first month with the promo code WILD.
-
-This program is made possible in part by the Corporation for Public Broadcasting, a private corporation funded by the American people.</description>
-      <content:encoded><![CDATA[<p>Introducing WILD by LAist Studios, a podcast about origin stories. About those moments big and small that transform people forever. Season 1 of WILD: Home Forever is a time capsule of these kinds of moments captured during a global pandemic that left a lot of us "growing up" again while stuck at home for more than a year.</p>
-<p>In episode 1, we meet Daisy Figueroa who went back to her childhood home and decides to transform it. In the process, she creates her own business and redefines the standard of living for people in her community.&nbsp;</p>
-<p>Sponsors include:</p>
-<p>Match with a licensed therapist when you go to talkspace.com and get $100 off your first month with the promo code WILD.</p>
-<p>This program is made possible in part by the Corporation for Public Broadcasting, a private corporation funded by the American people.</p>]]></content:encoded>
-      <itunes:summary>Introducing WILD by LAist Studios, a podcast about origin stories. About those moments big and small that transform people forever. Season 1 of WILD: Home Forever is a time capsule of these kinds of moments captured during a global pandemic that left a lot of us "growing up" again while stuck at home for more than a year.
-
-In episode 1, we meet Daisy Figueroa who went back to her childhood home and decides to transform it. In the process, she creates her own business and redefines the standard of living for people in her community. 
-
-Sponsors include:
-
-Match with a licensed therapist when you go to talkspace.com and get $100 off your first month with the promo code WILD.
-
-This program is made possible in part by the Corporation for Public Broadcasting, a private corporation funded by the American people.</itunes:summary>
-      <itunes:episodeType>full</itunes:episodeType>
-      <itunes:author>KPCC | Southern California Public Radio</itunes:author>
-      <itunes:image href="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/95a0ba2f-2810-459a-a106-ab09010e1229/89b076fd-9b08-4f8b-95b2-ab09010e123c/image.jpg?t=1574094199&amp;size=Large" />
-      <media:content url="https://chtbl.com/track/84GC29/dts.podtrac.com/redirect.mp3/traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/95a0ba2f-2810-459a-a106-ab09010e1229/99844a4f-7673-4725-b47a-ad550125ebcc/audio.mp3?utm_source=Podcast&amp;in_playlist=89b076fd-9b08-4f8b-95b2-ab09010e123c" type="audio/mpeg">
-        <media:player url="https://omny.fm/shows/the-big-one-your-survival-guide/introducing-wild-by-laist-studios/embed" />
-      </media:content>
-      <media:content url="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/95a0ba2f-2810-459a-a106-ab09010e1229/89b076fd-9b08-4f8b-95b2-ab09010e123c/image.jpg?t=1574094199&amp;size=Large" type="image/jpeg" />
-      <guid isPermaLink="false">99844a4f-7673-4725-b47a-ad550125ebcc</guid>
-      <omny:clipId>99844a4f-7673-4725-b47a-ad550125ebcc</omny:clipId>
-      <pubDate>Thu, 08 Jul 2021 09:30:00 +0000</pubDate>
-      <itunes:duration>2064</itunes:duration>
-      <enclosure url="https://chtbl.com/track/84GC29/dts.podtrac.com/redirect.mp3/traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/95a0ba2f-2810-459a-a106-ab09010e1229/99844a4f-7673-4725-b47a-ad550125ebcc/audio.mp3?utm_source=Podcast&amp;in_playlist=89b076fd-9b08-4f8b-95b2-ab09010e123c" length="33078203" type="audio/mpeg" />
-      <link>https://laist.com/wild</link>
-      <itunes:explicit>yes</itunes:explicit>
     </item>
   </channel>
 </rss>

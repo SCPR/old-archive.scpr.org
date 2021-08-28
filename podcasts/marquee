@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xmlns:psc="https://podlove.org/simple-chapters/" xmlns:omny="https://omny.fm/rss-extensions" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" xmlns:acast="https://schema.acast.com/1.0/" version="2.0">
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xmlns:psc="https://podlove.org/simple-chapters/" xmlns:omny="https://omny.fm/rss-extensions" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" xmlns:acast="https://schema.acast.com/1.0/" xmlns:podcast="https://podcastindex.org/namespace/1.0" version="2.0">
   <channel>
+    <omny:organizationId>acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43</omny:organizationId>
+    <omny:programId>244f7eec-6b0f-4088-8e73-ab22012389ae</omny:programId>
+    <omny:networkId>b487d8dd-df6e-4c01-b78e-ab100184df07</omny:networkId>
     <language>en-US</language>
     <atom:link rel="self" type="application/rss+xml" href="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/244f7eec-6b0f-4088-8e73-ab22012389ae/7b587f5e-ff26-4025-a62b-ab22012389bc/podcast.rss" />
     <atom:link rel="next" type="application/rss+xml" href="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/244f7eec-6b0f-4088-8e73-ab22012389ae/7b587f5e-ff26-4025-a62b-ab22012389bc/podcast.rss?page=2" />
@@ -27,6 +30,126 @@
       <title>FilmWeek Marquee</title>
       <link>https://www.scpr.org/programs/filmweek-marquee</link>
     </image>
+    <item>
+      <title>FilmWeek Marquee Episode Friday August 27, 2021</title>
+      <itunes:title>FilmWeek Marquee Episode Friday August 27, 2021</itunes:title>
+      <description>Larry Mantle and KPCC film critics Tim Cogshell and Lael Loewenstein review this weekend’s new movie releases on streaming and on-demand platforms.</description>
+      <content:encoded><![CDATA[<p>Larry Mantle and KPCC film critics Tim Cogshell and Lael Loewenstein review this weekend&rsquo;s new movie releases on streaming and on-demand platforms.</p>]]></content:encoded>
+      <itunes:summary>Larry Mantle and KPCC film critics Tim Cogshell and Lael Loewenstein review this weekend’s new movie releases on streaming and on-demand platforms.</itunes:summary>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:author>KPCC 89.3</itunes:author>
+      <itunes:image href="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/244f7eec-6b0f-4088-8e73-ab22012389ae/7b587f5e-ff26-4025-a62b-ab22012389bc/image.jpg?t=1576258888&amp;size=Large" />
+      <media:content url="https://chtbl.com/track/84GC29/dts.podtrac.com/redirect.mp3/traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/244f7eec-6b0f-4088-8e73-ab22012389ae/0e9dabd8-0dba-4b5b-b969-ad9101123f2c/audio.mp3?utm_source=Podcast&amp;in_playlist=7b587f5e-ff26-4025-a62b-ab22012389bc" type="audio/mpeg">
+        <media:player url="https://omny.fm/shows/filmweek-marquee/filmweek-marquee-episode-friday-august-27-2021/embed" />
+      </media:content>
+      <media:content url="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/244f7eec-6b0f-4088-8e73-ab22012389ae/7b587f5e-ff26-4025-a62b-ab22012389bc/image.jpg?t=1576258888&amp;size=Large" type="image/jpeg" />
+      <guid isPermaLink="false">0e9dabd8-0dba-4b5b-b969-ad9101123f2c</guid>
+      <omny:clipId>0e9dabd8-0dba-4b5b-b969-ad9101123f2c</omny:clipId>
+      <pubDate>Fri, 27 Aug 2021 16:39:16 +0000</pubDate>
+      <itunes:duration>179</itunes:duration>
+      <enclosure url="https://chtbl.com/track/84GC29/dts.podtrac.com/redirect.mp3/traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/244f7eec-6b0f-4088-8e73-ab22012389ae/0e9dabd8-0dba-4b5b-b969-ad9101123f2c/audio.mp3?utm_source=Podcast&amp;in_playlist=7b587f5e-ff26-4025-a62b-ab22012389bc" length="2888498" type="audio/mpeg" />
+      <link>https://omny.fm/shows/filmweek-marquee/filmweek-marquee-episode-friday-august-27-2021</link>
+    </item>
+    <item>
+      <title>FilmWeek Marquee Episode Friday August 20, 2021</title>
+      <itunes:title>FilmWeek Marquee Episode Friday August 20, 2021</itunes:title>
+      <description>Larry Mantle and KPCC film critics Amy Nicholson, Andy Klein and Charles Solomon review this weekend’s new movie releases on streaming and on demand platforms.</description>
+      <content:encoded><![CDATA[<p>Larry Mantle and KPCC film critics Amy Nicholson, Andy Klein and Charles Solomon review this weekend&rsquo;s new movie releases on streaming and on demand platforms.</p>]]></content:encoded>
+      <itunes:summary>Larry Mantle and KPCC film critics Amy Nicholson, Andy Klein and Charles Solomon review this weekend’s new movie releases on streaming and on demand platforms.</itunes:summary>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:author>KPCC 89.3</itunes:author>
+      <itunes:image href="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/244f7eec-6b0f-4088-8e73-ab22012389ae/7b587f5e-ff26-4025-a62b-ab22012389bc/image.jpg?t=1576258888&amp;size=Large" />
+      <media:content url="https://chtbl.com/track/84GC29/dts.podtrac.com/redirect.mp3/traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/244f7eec-6b0f-4088-8e73-ab22012389ae/7d076dec-7385-407b-b2a7-ad8a011f0b4c/audio.mp3?utm_source=Podcast&amp;in_playlist=7b587f5e-ff26-4025-a62b-ab22012389bc" type="audio/mpeg">
+        <media:player url="https://omny.fm/shows/filmweek-marquee/filmweek-marquee-episode-friday-august-20-2021/embed" />
+      </media:content>
+      <media:content url="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/244f7eec-6b0f-4088-8e73-ab22012389ae/7b587f5e-ff26-4025-a62b-ab22012389bc/image.jpg?t=1576258888&amp;size=Large" type="image/jpeg" />
+      <guid isPermaLink="false">7d076dec-7385-407b-b2a7-ad8a011f0b4c</guid>
+      <omny:clipId>7d076dec-7385-407b-b2a7-ad8a011f0b4c</omny:clipId>
+      <pubDate>Fri, 20 Aug 2021 17:26:14 +0000</pubDate>
+      <itunes:duration>180</itunes:duration>
+      <enclosure url="https://chtbl.com/track/84GC29/dts.podtrac.com/redirect.mp3/traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/244f7eec-6b0f-4088-8e73-ab22012389ae/7d076dec-7385-407b-b2a7-ad8a011f0b4c/audio.mp3?utm_source=Podcast&amp;in_playlist=7b587f5e-ff26-4025-a62b-ab22012389bc" length="2911486" type="audio/mpeg" />
+      <link>https://omny.fm/shows/filmweek-marquee/filmweek-marquee-episode-friday-august-20-2021</link>
+    </item>
+    <item>
+      <title>FilmWeek Marquee Episode Friday August 13, 2021</title>
+      <itunes:title>FilmWeek Marquee Episode Friday August 13, 2021</itunes:title>
+      <description>KPCC film critics Christy Lemire, Claudia Puig and Peter Rainer review this weekend’s new movie releases.</description>
+      <content:encoded><![CDATA[<p>KPCC film critics Christy Lemire, Claudia Puig and Peter Rainer review this weekend&rsquo;s new movie releases.</p>]]></content:encoded>
+      <itunes:summary>KPCC film critics Christy Lemire, Claudia Puig and Peter Rainer review this weekend’s new movie releases.</itunes:summary>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:author>KPCC 89.3</itunes:author>
+      <itunes:image href="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/244f7eec-6b0f-4088-8e73-ab22012389ae/7b587f5e-ff26-4025-a62b-ab22012389bc/image.jpg?t=1576258888&amp;size=Large" />
+      <media:content url="https://chtbl.com/track/84GC29/dts.podtrac.com/redirect.mp3/traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/244f7eec-6b0f-4088-8e73-ab22012389ae/03e6eed5-2e14-4d81-9382-ad830128fb5b/audio.mp3?utm_source=Podcast&amp;in_playlist=7b587f5e-ff26-4025-a62b-ab22012389bc" type="audio/mpeg">
+        <media:player url="https://omny.fm/shows/filmweek-marquee/filmweek-marquee-episode-friday-august-13-2021/embed" />
+      </media:content>
+      <media:content url="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/244f7eec-6b0f-4088-8e73-ab22012389ae/7b587f5e-ff26-4025-a62b-ab22012389bc/image.jpg?t=1576258888&amp;size=Large" type="image/jpeg" />
+      <guid isPermaLink="false">03e6eed5-2e14-4d81-9382-ad830128fb5b</guid>
+      <omny:clipId>03e6eed5-2e14-4d81-9382-ad830128fb5b</omny:clipId>
+      <pubDate>Fri, 13 Aug 2021 18:01:36 +0000</pubDate>
+      <itunes:duration>179</itunes:duration>
+      <enclosure url="https://chtbl.com/track/84GC29/dts.podtrac.com/redirect.mp3/traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/244f7eec-6b0f-4088-8e73-ab22012389ae/03e6eed5-2e14-4d81-9382-ad830128fb5b/audio.mp3?utm_source=Podcast&amp;in_playlist=7b587f5e-ff26-4025-a62b-ab22012389bc" length="2895185" type="audio/mpeg" />
+      <link>https://omny.fm/shows/filmweek-marquee/filmweek-marquee-episode-friday-august-13-2021</link>
+    </item>
+    <item>
+      <title>FilmWeek Marquee Episode Friday August 6, 2021</title>
+      <itunes:title>FilmWeek Marquee Episode Friday August 6, 2021</itunes:title>
+      <description>Guest host John Horn and KPCC film critics Tim Cogshell, Wade Major and Charles Solomon review this weekend’s new movie releases.</description>
+      <content:encoded><![CDATA[<p>Guest host John Horn and KPCC film critics Tim Cogshell, Wade Major and Charles Solomon review this weekend&rsquo;s new movie releases.</p>]]></content:encoded>
+      <itunes:summary>Guest host John Horn and KPCC film critics Tim Cogshell, Wade Major and Charles Solomon review this weekend’s new movie releases.</itunes:summary>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:author>KPCC 89.3</itunes:author>
+      <itunes:image href="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/244f7eec-6b0f-4088-8e73-ab22012389ae/7b587f5e-ff26-4025-a62b-ab22012389bc/image.jpg?t=1576258888&amp;size=Large" />
+      <media:content url="https://chtbl.com/track/84GC29/dts.podtrac.com/redirect.mp3/traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/244f7eec-6b0f-4088-8e73-ab22012389ae/92932792-5ccc-414d-85ee-ad7c01215392/audio.mp3?utm_source=Podcast&amp;in_playlist=7b587f5e-ff26-4025-a62b-ab22012389bc" type="audio/mpeg">
+        <media:player url="https://omny.fm/shows/filmweek-marquee/filmweek-marquee-episode-friday-august-6-2021/embed" />
+      </media:content>
+      <media:content url="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/244f7eec-6b0f-4088-8e73-ab22012389ae/7b587f5e-ff26-4025-a62b-ab22012389bc/image.jpg?t=1576258888&amp;size=Large" type="image/jpeg" />
+      <guid isPermaLink="false">92932792-5ccc-414d-85ee-ad7c01215392</guid>
+      <omny:clipId>92932792-5ccc-414d-85ee-ad7c01215392</omny:clipId>
+      <pubDate>Fri, 06 Aug 2021 17:34:36 +0000</pubDate>
+      <itunes:duration>172</itunes:duration>
+      <enclosure url="https://chtbl.com/track/84GC29/dts.podtrac.com/redirect.mp3/traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/244f7eec-6b0f-4088-8e73-ab22012389ae/92932792-5ccc-414d-85ee-ad7c01215392/audio.mp3?utm_source=Podcast&amp;in_playlist=7b587f5e-ff26-4025-a62b-ab22012389bc" length="2779410" type="audio/mpeg" />
+      <link>https://omny.fm/shows/filmweek-marquee/filmweek-marquee-episode-friday-august-6-2021</link>
+    </item>
+    <item>
+      <title>FilmWeek Marquee Episode Friday July 30, 2021</title>
+      <itunes:title>FilmWeek Marquee Episode Friday July 30, 2021</itunes:title>
+      <description>Larry Mantle and KPCC film critics Amy Nicholson and Peter Rainer review this weekend’s new movie releases.</description>
+      <content:encoded><![CDATA[<p>Larry Mantle and KPCC film critics Amy Nicholson and Peter Rainer review this weekend&rsquo;s new movie releases.</p>]]></content:encoded>
+      <itunes:summary>Larry Mantle and KPCC film critics Amy Nicholson and Peter Rainer review this weekend’s new movie releases.</itunes:summary>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:author>KPCC 89.3</itunes:author>
+      <itunes:image href="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/244f7eec-6b0f-4088-8e73-ab22012389ae/7b587f5e-ff26-4025-a62b-ab22012389bc/image.jpg?t=1576258888&amp;size=Large" />
+      <media:content url="https://chtbl.com/track/84GC29/dts.podtrac.com/redirect.mp3/traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/244f7eec-6b0f-4088-8e73-ab22012389ae/40b7b334-3475-4bd6-950f-ad75010ff7c2/audio.mp3?utm_source=Podcast&amp;in_playlist=7b587f5e-ff26-4025-a62b-ab22012389bc" type="audio/mpeg">
+        <media:player url="https://omny.fm/shows/filmweek-marquee/filmweek-marquee-episode-friday-july-30-2021/embed" />
+      </media:content>
+      <media:content url="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/244f7eec-6b0f-4088-8e73-ab22012389ae/7b587f5e-ff26-4025-a62b-ab22012389bc/image.jpg?t=1576258888&amp;size=Large" type="image/jpeg" />
+      <guid isPermaLink="false">40b7b334-3475-4bd6-950f-ad75010ff7c2</guid>
+      <omny:clipId>40b7b334-3475-4bd6-950f-ad75010ff7c2</omny:clipId>
+      <pubDate>Fri, 30 Jul 2021 16:31:00 +0000</pubDate>
+      <itunes:duration>180</itunes:duration>
+      <enclosure url="https://chtbl.com/track/84GC29/dts.podtrac.com/redirect.mp3/traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/244f7eec-6b0f-4088-8e73-ab22012389ae/40b7b334-3475-4bd6-950f-ad75010ff7c2/audio.mp3?utm_source=Podcast&amp;in_playlist=7b587f5e-ff26-4025-a62b-ab22012389bc" length="2903543" type="audio/mpeg" />
+      <link>https://omny.fm/shows/filmweek-marquee/filmweek-marquee-episode-friday-july-30-2021</link>
+    </item>
+    <item>
+      <title>FilmWeek Marquee Episode Friday July 23, 2021</title>
+      <itunes:title>FilmWeek Marquee Episode Friday July 23, 2021</itunes:title>
+      <description>Larry Mantle and KPCC film critics Christy Lemire and Andy Klein review this weekend’s new movie releases.</description>
+      <content:encoded><![CDATA[<p>Larry Mantle and KPCC film critics Christy Lemire and Andy Klein review this weekend&rsquo;s new movie releases.</p>]]></content:encoded>
+      <itunes:summary>Larry Mantle and KPCC film critics Christy Lemire and Andy Klein review this weekend’s new movie releases.</itunes:summary>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:author>KPCC 89.3</itunes:author>
+      <itunes:image href="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/244f7eec-6b0f-4088-8e73-ab22012389ae/7b587f5e-ff26-4025-a62b-ab22012389bc/image.jpg?t=1576258888&amp;size=Large" />
+      <media:content url="https://chtbl.com/track/84GC29/dts.podtrac.com/redirect.mp3/traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/244f7eec-6b0f-4088-8e73-ab22012389ae/253c4be2-bbe3-4cb6-8d2e-ad6e0119cb02/audio.mp3?utm_source=Podcast&amp;in_playlist=7b587f5e-ff26-4025-a62b-ab22012389bc" type="audio/mpeg">
+        <media:player url="https://omny.fm/shows/filmweek-marquee/filmweek-marquee-episode-friday-july-23-2021/embed" />
+      </media:content>
+      <media:content url="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/244f7eec-6b0f-4088-8e73-ab22012389ae/7b587f5e-ff26-4025-a62b-ab22012389bc/image.jpg?t=1576258888&amp;size=Large" type="image/jpeg" />
+      <guid isPermaLink="false">253c4be2-bbe3-4cb6-8d2e-ad6e0119cb02</guid>
+      <omny:clipId>253c4be2-bbe3-4cb6-8d2e-ad6e0119cb02</omny:clipId>
+      <pubDate>Fri, 23 Jul 2021 17:06:14 +0000</pubDate>
+      <itunes:duration>182</itunes:duration>
+      <enclosure url="https://chtbl.com/track/84GC29/dts.podtrac.com/redirect.mp3/traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/244f7eec-6b0f-4088-8e73-ab22012389ae/253c4be2-bbe3-4cb6-8d2e-ad6e0119cb02/audio.mp3?utm_source=Podcast&amp;in_playlist=7b587f5e-ff26-4025-a62b-ab22012389bc" length="2935725" type="audio/mpeg" />
+      <link>https://omny.fm/shows/filmweek-marquee/filmweek-marquee-episode-friday-july-23-2021</link>
+    </item>
     <item>
       <title>FilmWeek Marquee Episode Friday July 16, 2021</title>
       <itunes:title>FilmWeek Marquee Episode Friday July 16, 2021</itunes:title>
@@ -1942,126 +2065,6 @@ Stream We Are Freestyle Love Supreme beginning July 17, only on Hulu
       <itunes:duration>178</itunes:duration>
       <enclosure url="https://chtbl.com/track/84GC29/dts.podtrac.com/redirect.mp3/traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/244f7eec-6b0f-4088-8e73-ab22012389ae/cbc66356-3c4f-4903-9d3d-ab220123d772/audio.mp3?utm_source=Podcast&amp;in_playlist=7b587f5e-ff26-4025-a62b-ab22012389bc" length="2875794" type="audio/mpeg" />
       <link>https://omny.fm/shows/filmweek-marquee/filmweek-marquee-the-lion-king-david-crosby-rememb</link>
-    </item>
-    <item>
-      <title>FilmWeek: ‘The Farewell’, 'Stuber,’ ‘Crawl,’ 'Firecrackers' &amp; 'Bethany Hamilton: Unstoppable'</title>
-      <itunes:title>FilmWeek: ‘The Farewell’, 'Stuber,’ ‘Crawl,’ 'Firecrackers' &amp; 'Bethany Hamilton: Unstoppable'</itunes:title>
-      <description>Larry Mantle and KPCC film critics Christy Lemire and Wade Major review this weekend’s new movie releases.</description>
-      <content:encoded><![CDATA[<p>Larry Mantle and KPCC film critics Christy Lemire and Wade Major review this weekend’s new movie releases.</p>]]></content:encoded>
-      <itunes:summary>Larry Mantle and KPCC film critics Christy Lemire and Wade Major review this weekend’s new movie releases.</itunes:summary>
-      <itunes:episodeType>full</itunes:episodeType>
-      <itunes:author>KPCC 89.3</itunes:author>
-      <itunes:image href="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/244f7eec-6b0f-4088-8e73-ab22012389ae/7b587f5e-ff26-4025-a62b-ab22012389bc/image.jpg?t=1576258888&amp;size=Large" />
-      <media:content url="https://chtbl.com/track/84GC29/dts.podtrac.com/redirect.mp3/traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/244f7eec-6b0f-4088-8e73-ab22012389ae/4a8d41d6-a0b9-4a38-9a81-ab220123dbd4/audio.mp3?utm_source=Podcast&amp;in_playlist=7b587f5e-ff26-4025-a62b-ab22012389bc" type="audio/mpeg">
-        <media:player url="https://omny.fm/shows/filmweek-marquee/filmweek-the-farewell-stuber-crawl-firecrackers-be/embed" />
-      </media:content>
-      <media:content url="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/244f7eec-6b0f-4088-8e73-ab22012389ae/7b587f5e-ff26-4025-a62b-ab22012389bc/image.jpg?t=1576258888&amp;size=Large" type="image/jpeg" />
-      <guid isPermaLink="false">afb4181c-a4d7-11e9-acb5-c369c2c53dff</guid>
-      <omny:clipId>4a8d41d6-a0b9-4a38-9a81-ab220123dbd4</omny:clipId>
-      <pubDate>Fri, 12 Jul 2019 07:00:00 +0000</pubDate>
-      <itunes:duration>180</itunes:duration>
-      <enclosure url="https://chtbl.com/track/84GC29/dts.podtrac.com/redirect.mp3/traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/244f7eec-6b0f-4088-8e73-ab22012389ae/4a8d41d6-a0b9-4a38-9a81-ab220123dbd4/audio.mp3?utm_source=Podcast&amp;in_playlist=7b587f5e-ff26-4025-a62b-ab22012389bc" length="2905005" type="audio/mpeg" />
-      <link>https://omny.fm/shows/filmweek-marquee/filmweek-the-farewell-stuber-crawl-firecrackers-be</link>
-    </item>
-    <item>
-      <title>FilmWeek: ‘The Chambermaid,’ ‘Phil,’ 'The Return of Martin Guerre' &amp; 'Paris is Burning'</title>
-      <itunes:title>FilmWeek: ‘The Chambermaid,’ ‘Phil,’ 'The Return of Martin Guerre' &amp; 'Paris is Burning'</itunes:title>
-      <description>Larry Mantle and KPCC film critics Claudia Puig and Tim Cogshell review this weekend’s new movie releases.</description>
-      <content:encoded><![CDATA[<p>Larry Mantle and KPCC film critics Claudia Puig and Tim Cogshell review this weekend’s new movie releases.</p>]]></content:encoded>
-      <itunes:summary>Larry Mantle and KPCC film critics Claudia Puig and Tim Cogshell review this weekend’s new movie releases.</itunes:summary>
-      <itunes:episodeType>full</itunes:episodeType>
-      <itunes:author>KPCC 89.3</itunes:author>
-      <itunes:image href="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/244f7eec-6b0f-4088-8e73-ab22012389ae/7b587f5e-ff26-4025-a62b-ab22012389bc/image.jpg?t=1576258888&amp;size=Large" />
-      <media:content url="https://chtbl.com/track/84GC29/dts.podtrac.com/redirect.mp3/traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/244f7eec-6b0f-4088-8e73-ab22012389ae/38a3f31a-29e2-46b2-ad9d-ab220123de8c/audio.mp3?utm_source=Podcast&amp;in_playlist=7b587f5e-ff26-4025-a62b-ab22012389bc" type="audio/mpeg">
-        <media:player url="https://omny.fm/shows/filmweek-marquee/filmweek-the-chambermaid-phil-the-return-of-martin/embed" />
-      </media:content>
-      <media:content url="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/244f7eec-6b0f-4088-8e73-ab22012389ae/7b587f5e-ff26-4025-a62b-ab22012389bc/image.jpg?t=1576258888&amp;size=Large" type="image/jpeg" />
-      <guid isPermaLink="false">e767fffe-9f5e-11e9-9ca0-cb2f82a42b25</guid>
-      <omny:clipId>38a3f31a-29e2-46b2-ad9d-ab220123de8c</omny:clipId>
-      <pubDate>Fri, 05 Jul 2019 19:54:00 +0000</pubDate>
-      <itunes:duration>180</itunes:duration>
-      <enclosure url="https://chtbl.com/track/84GC29/dts.podtrac.com/redirect.mp3/traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/244f7eec-6b0f-4088-8e73-ab22012389ae/38a3f31a-29e2-46b2-ad9d-ab220123de8c/audio.mp3?utm_source=Podcast&amp;in_playlist=7b587f5e-ff26-4025-a62b-ab22012389bc" length="2908755" type="audio/mpeg" />
-      <link>https://omny.fm/shows/filmweek-marquee/filmweek-the-chambermaid-phil-the-return-of-martin</link>
-    </item>
-    <item>
-      <title>FilmWeek Marquee: ‘Spider-Man: Far From Home,’ ‘Midsommar,’ ‘Yesterday’ &amp; 'Maiden'</title>
-      <itunes:title>FilmWeek Marquee: ‘Spider-Man: Far From Home,’ ‘Midsommar,’ ‘Yesterday’ &amp; 'Maiden'</itunes:title>
-      <description>Guest host John Horn and KPCC film critics Claudia Puig and Lael Loewenstein review this weekend’s new movie releases.</description>
-      <content:encoded><![CDATA[<p>Guest host John Horn and KPCC film critics Claudia Puig and Lael Loewenstein review this weekend’s new movie releases.</p>]]></content:encoded>
-      <itunes:summary>Guest host John Horn and KPCC film critics Claudia Puig and Lael Loewenstein review this weekend’s new movie releases.</itunes:summary>
-      <itunes:episodeType>full</itunes:episodeType>
-      <itunes:author>KPCC 89.3</itunes:author>
-      <itunes:image href="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/244f7eec-6b0f-4088-8e73-ab22012389ae/7b587f5e-ff26-4025-a62b-ab22012389bc/image.jpg?t=1576258888&amp;size=Large" />
-      <media:content url="https://chtbl.com/track/84GC29/dts.podtrac.com/redirect.mp3/traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/244f7eec-6b0f-4088-8e73-ab22012389ae/dc66eed8-8a00-4e91-817d-ab220123e183/audio.mp3?utm_source=Podcast&amp;in_playlist=7b587f5e-ff26-4025-a62b-ab22012389bc" type="audio/mpeg">
-        <media:player url="https://omny.fm/shows/filmweek-marquee/filmweek-marquee-spider-man-far-from-home-midsomma/embed" />
-      </media:content>
-      <media:content url="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/244f7eec-6b0f-4088-8e73-ab22012389ae/7b587f5e-ff26-4025-a62b-ab22012389bc/image.jpg?t=1576258888&amp;size=Large" type="image/jpeg" />
-      <guid isPermaLink="false">80abb918-99d7-11e9-b2b6-df09fcf61534</guid>
-      <omny:clipId>dc66eed8-8a00-4e91-817d-ab220123e183</omny:clipId>
-      <pubDate>Fri, 28 Jun 2019 07:00:00 +0000</pubDate>
-      <itunes:duration>166</itunes:duration>
-      <enclosure url="https://chtbl.com/track/84GC29/dts.podtrac.com/redirect.mp3/traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/244f7eec-6b0f-4088-8e73-ab22012389ae/dc66eed8-8a00-4e91-817d-ab220123e183/audio.mp3?utm_source=Podcast&amp;in_playlist=7b587f5e-ff26-4025-a62b-ab22012389bc" length="2690570" type="audio/mpeg" />
-      <link>https://omny.fm/shows/filmweek-marquee/filmweek-marquee-spider-man-far-from-home-midsomma</link>
-    </item>
-    <item>
-      <title>FilmWeek Marquee 'Toy Story 4,' 'Child's Play' &amp; 'Wild Rose</title>
-      <itunes:title>FilmWeek Marquee 'Toy Story 4,' 'Child's Play' &amp; 'Wild Rose</itunes:title>
-      <description>Guest host Steven Cuevas and KPCC film critics Amy Nicholson, Wade Major and Charles Solomon review this weekend’s new movie releases.</description>
-      <content:encoded><![CDATA[<p>Guest host Steven Cuevas and KPCC film critics Amy Nicholson, Wade Major and Charles Solomon review this weekend’s new movie releases.</p>]]></content:encoded>
-      <itunes:summary>Guest host Steven Cuevas and KPCC film critics Amy Nicholson, Wade Major and Charles Solomon review this weekend’s new movie releases.</itunes:summary>
-      <itunes:episodeType>full</itunes:episodeType>
-      <itunes:author>KPCC 89.3</itunes:author>
-      <itunes:image href="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/244f7eec-6b0f-4088-8e73-ab22012389ae/7b587f5e-ff26-4025-a62b-ab22012389bc/image.jpg?t=1576258888&amp;size=Large" />
-      <media:content url="https://chtbl.com/track/84GC29/dts.podtrac.com/redirect.mp3/traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/244f7eec-6b0f-4088-8e73-ab22012389ae/126a6dbf-86f1-4b3d-8ca1-ab220123e482/audio.mp3?utm_source=Podcast&amp;in_playlist=7b587f5e-ff26-4025-a62b-ab22012389bc" type="audio/mpeg">
-        <media:player url="https://omny.fm/shows/filmweek-marquee/filmweek-marquee-toy-story-4-childs-play-wild-rose/embed" />
-      </media:content>
-      <media:content url="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/244f7eec-6b0f-4088-8e73-ab22012389ae/7b587f5e-ff26-4025-a62b-ab22012389bc/image.jpg?t=1576258888&amp;size=Large" type="image/jpeg" />
-      <guid isPermaLink="false">de59f95e-945e-11e9-b730-2f1f3b166e50</guid>
-      <omny:clipId>126a6dbf-86f1-4b3d-8ca1-ab220123e482</omny:clipId>
-      <pubDate>Fri, 21 Jun 2019 19:50:00 +0000</pubDate>
-      <itunes:duration>183</itunes:duration>
-      <enclosure url="https://chtbl.com/track/84GC29/dts.podtrac.com/redirect.mp3/traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/244f7eec-6b0f-4088-8e73-ab22012389ae/126a6dbf-86f1-4b3d-8ca1-ab220123e482/audio.mp3?utm_source=Podcast&amp;in_playlist=7b587f5e-ff26-4025-a62b-ab22012389bc" length="2949659" type="audio/mpeg" />
-      <link>https://omny.fm/shows/filmweek-marquee/filmweek-marquee-toy-story-4-childs-play-wild-rose</link>
-    </item>
-    <item>
-      <title>FilmWeek Marquee: ‘Men in Black: International,’ ‘Shaft,’ 'Rolling Thunder Revue: A Bob Dylan Story by Martin Scorsese,' 'Funan' &amp; ‘The Dead Don't Die’</title>
-      <itunes:title>FilmWeek Marquee: ‘Men in Black: International,’ ‘Shaft,’ 'Rolling Thunder Revue: A Bob Dylan Story by Martin Scorsese,' 'Funan' &amp; ‘The Dead Don't Die’</itunes:title>
-      <description>Larry Mantle and KPCC film critics Amy Nicholson, Justin Chang and Charles Solomon review this weekend’s new movie releases</description>
-      <content:encoded><![CDATA[<p>Larry Mantle and KPCC film critics Amy Nicholson, Justin Chang and Charles Solomon review this weekend’s new movie releases</p>]]></content:encoded>
-      <itunes:summary>Larry Mantle and KPCC film critics Amy Nicholson, Justin Chang and Charles Solomon review this weekend’s new movie releases</itunes:summary>
-      <itunes:episodeType>full</itunes:episodeType>
-      <itunes:author>KPCC 89.3</itunes:author>
-      <itunes:image href="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/244f7eec-6b0f-4088-8e73-ab22012389ae/7b587f5e-ff26-4025-a62b-ab22012389bc/image.jpg?t=1576258888&amp;size=Large" />
-      <media:content url="https://chtbl.com/track/84GC29/dts.podtrac.com/redirect.mp3/traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/244f7eec-6b0f-4088-8e73-ab22012389ae/43913942-4a58-45a0-bd42-ab220123e7ff/audio.mp3?utm_source=Podcast&amp;in_playlist=7b587f5e-ff26-4025-a62b-ab22012389bc" type="audio/mpeg">
-        <media:player url="https://omny.fm/shows/filmweek-marquee/filmweek-marquee-men-in-black-international-shaft/embed" />
-      </media:content>
-      <media:content url="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/244f7eec-6b0f-4088-8e73-ab22012389ae/7b587f5e-ff26-4025-a62b-ab22012389bc/image.jpg?t=1576258888&amp;size=Large" type="image/jpeg" />
-      <guid isPermaLink="false">1edea78c-8ed7-11e9-8007-534c187b175e</guid>
-      <omny:clipId>43913942-4a58-45a0-bd42-ab220123e7ff</omny:clipId>
-      <pubDate>Fri, 14 Jun 2019 07:00:00 +0000</pubDate>
-      <itunes:duration>180</itunes:duration>
-      <enclosure url="https://chtbl.com/track/84GC29/dts.podtrac.com/redirect.mp3/traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/244f7eec-6b0f-4088-8e73-ab22012389ae/43913942-4a58-45a0-bd42-ab220123e7ff/audio.mp3?utm_source=Podcast&amp;in_playlist=7b587f5e-ff26-4025-a62b-ab22012389bc" length="2901778" type="audio/mpeg" />
-      <link>https://omny.fm/shows/filmweek-marquee/filmweek-marquee-men-in-black-international-shaft</link>
-    </item>
-    <item>
-      <title>FilmWeek Marquee: 'Dark Phoenix,' 'The Secret Life of Pets 2,' 'The Last Black Man in San Francisco' &amp; 'Late Night'</title>
-      <itunes:title>FilmWeek Marquee: 'Dark Phoenix,' 'The Secret Life of Pets 2,' 'The Last Black Man in San Francisco' &amp; 'Late Night'</itunes:title>
-      <description>Larry Mantle and KPCC film critics Tim Cogshell, Christy Lemire and Charles Solomon review this weekend’s new movie releases.</description>
-      <content:encoded><![CDATA[<p>Larry Mantle and KPCC film critics Tim Cogshell, Christy Lemire and Charles Solomon review this weekend’s new movie releases.</p>]]></content:encoded>
-      <itunes:summary>Larry Mantle and KPCC film critics Tim Cogshell, Christy Lemire and Charles Solomon review this weekend’s new movie releases.</itunes:summary>
-      <itunes:episodeType>full</itunes:episodeType>
-      <itunes:author>KPCC 89.3</itunes:author>
-      <itunes:image href="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/244f7eec-6b0f-4088-8e73-ab22012389ae/7b587f5e-ff26-4025-a62b-ab22012389bc/image.jpg?t=1576258888&amp;size=Large" />
-      <media:content url="https://chtbl.com/track/84GC29/dts.podtrac.com/redirect.mp3/traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/244f7eec-6b0f-4088-8e73-ab22012389ae/dbd4ff81-6cbd-4c4e-9449-ab220123eb28/audio.mp3?utm_source=Podcast&amp;in_playlist=7b587f5e-ff26-4025-a62b-ab22012389bc" type="audio/mpeg">
-        <media:player url="https://omny.fm/shows/filmweek-marquee/filmweek-marquee-dark-phoenix-the-secret-life-of-p/embed" />
-      </media:content>
-      <media:content url="https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/244f7eec-6b0f-4088-8e73-ab22012389ae/7b587f5e-ff26-4025-a62b-ab22012389bc/image.jpg?t=1576258888&amp;size=Large" type="image/jpeg" />
-      <guid isPermaLink="false">d4480bda-8956-11e9-8778-afb089f5b829</guid>
-      <omny:clipId>dbd4ff81-6cbd-4c4e-9449-ab220123eb28</omny:clipId>
-      <pubDate>Fri, 07 Jun 2019 19:39:00 +0000</pubDate>
-      <itunes:duration>180</itunes:duration>
-      <enclosure url="https://chtbl.com/track/84GC29/dts.podtrac.com/redirect.mp3/traffic.omny.fm/d/clips/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/244f7eec-6b0f-4088-8e73-ab22012389ae/dbd4ff81-6cbd-4c4e-9449-ab220123eb28/audio.mp3?utm_source=Podcast&amp;in_playlist=7b587f5e-ff26-4025-a62b-ab22012389bc" length="2901706" type="audio/mpeg" />
-      <link>https://omny.fm/shows/filmweek-marquee/filmweek-marquee-dark-phoenix-the-secret-life-of-p</link>
     </item>
   </channel>
 </rss>
