@@ -502,3 +502,8 @@
     </item>
   </channel>
 </rss>
+e="audio/mpeg"/>
+      <itunes:duration>226</itunes:duration>
+    </item>
+  </channel>
+</rss>
